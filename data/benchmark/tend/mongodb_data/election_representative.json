@@ -1,0 +1,110 @@
+{
+    "representative": [
+        {
+            "Representative_ID": 1,
+            "Name": "Dan Quayle",
+            "State": "Indiana",
+            "Party": "Republican",
+            "Lifespan": "1947\u2013",
+            "election": [
+                {
+                    "Election_ID": 1,
+                    "Representative_ID": 1,
+                    "Date": "July 1942",
+                    "Votes": 9423.0,
+                    "Vote_Percent": 16.2,
+                    "Seats": 6.0,
+                    "Place": 3.0
+                }
+            ]
+        },
+        {
+            "Representative_ID": 2,
+            "Name": "John Quayle",
+            "State": "New York",
+            "Party": "Democratic",
+            "Lifespan": "1868\u20131930",
+            "election": [
+                {
+                    "Election_ID": 2,
+                    "Representative_ID": 2,
+                    "Date": "October 1942",
+                    "Votes": 11059.0,
+                    "Vote_Percent": 18.5,
+                    "Seats": 10.0,
+                    "Place": 1.0
+                }
+            ]
+        },
+        {
+            "Representative_ID": 3,
+            "Name": "Al Quie",
+            "State": "Minnesota",
+            "Party": "Republican",
+            "Lifespan": "1923\u2013",
+            "election": []
+        },
+        {
+            "Representative_ID": 4,
+            "Name": "James M. Quigley",
+            "State": "Pennsylvania",
+            "Party": "Democratic",
+            "Lifespan": "1918\u2013",
+            "election": [
+                {
+                    "Election_ID": 3,
+                    "Representative_ID": 4,
+                    "Date": "1946",
+                    "Votes": 13049.0,
+                    "Vote_Percent": 19.5,
+                    "Seats": 10.0,
+                    "Place": 2.0
+                }
+            ]
+        },
+        {
+            "Representative_ID": 5,
+            "Name": "Jimmy Quillen",
+            "State": "Tennessee",
+            "Party": "Republican",
+            "Lifespan": "1916\u20132003",
+            "election": [
+                {
+                    "Election_ID": 4,
+                    "Representative_ID": 5,
+                    "Date": "1949",
+                    "Votes": 14077.0,
+                    "Vote_Percent": 19.5,
+                    "Seats": 9.0,
+                    "Place": 2.0
+                }
+            ]
+        },
+        {
+            "Representative_ID": 6,
+            "Name": "Jack Quinn",
+            "State": "New York",
+            "Party": "Republican",
+            "Lifespan": "1951\u2013",
+            "election": []
+        },
+        {
+            "Representative_ID": 7,
+            "Name": "James L. Quinn",
+            "State": "Pennsylvania",
+            "Party": "Democratic",
+            "Lifespan": "1875\u20131960",
+            "election": [
+                {
+                    "Election_ID": 5,
+                    "Representative_ID": 7,
+                    "Date": "1953",
+                    "Votes": 12422.0,
+                    "Vote_Percent": 16.0,
+                    "Seats": 7.0,
+                    "Place": 3.0
+                }
+            ]
+        }
+    ]
+}

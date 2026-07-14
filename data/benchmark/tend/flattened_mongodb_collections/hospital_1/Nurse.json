@@ -1,0 +1,211 @@
+[
+  {
+    "EmployeeID": 101,
+    "Name": "Carla Espinosa",
+    "Position": "Head Nurse",
+    "Registered": 1,
+    "SSN": 111111110,
+    "Appointment": [
+      {
+        "AppointmentID": 13216584,
+        "Patient": 100000001,
+        "PrepNurse": 101,
+        "Physician": 1,
+        "Start": "2008-04-24 10:00",
+        "End": "2008-04-24 11:00",
+        "ExaminationRoom": "A",
+        "Prescribes": [
+          {
+            "Physician": 1,
+            "Patient": 100000001,
+            "Medication": 1,
+            "Date": "2008-04-24 10:47",
+            "Appointment": 13216584,
+            "Dose": "5"
+          }
+        ]
+      },
+      {
+        "AppointmentID": 26548913,
+        "Patient": 100000002,
+        "PrepNurse": 101,
+        "Physician": 2,
+        "Start": "2008-04-24 10:00",
+        "End": "2008-04-24 11:00",
+        "ExaminationRoom": "B",
+        "Prescribes": []
+      },
+      {
+        "AppointmentID": 93216548,
+        "Patient": 100000002,
+        "PrepNurse": 101,
+        "Physician": 2,
+        "Start": "2008-04-27 10:00",
+        "End": "2008-04-27 11:00",
+        "ExaminationRoom": "B",
+        "Prescribes": []
+      }
+    ],
+    "On_Call": [
+      {
+        "Nurse": 101,
+        "BlockFloor": 1,
+        "BlockCode": 1,
+        "OnCallStart": "2008-11-04 11:00",
+        "OnCallEnd": "2008-11-04 19:00"
+      },
+      {
+        "Nurse": 101,
+        "BlockFloor": 1,
+        "BlockCode": 2,
+        "OnCallStart": "2008-11-04 11:00",
+        "OnCallEnd": "2008-11-04 19:00"
+      }
+    ],
+    "Undergoes": [
+      {
+        "Patient": 100000001,
+        "Procedures": 6,
+        "Stay": 3215,
+        "DateUndergoes": "2008-05-02",
+        "Physician": 3,
+        "AssistingNurse": 101
+      },
+      {
+        "Patient": 100000001,
+        "Procedures": 2,
+        "Stay": 3215,
+        "DateUndergoes": "2008-05-03",
+        "Physician": 7,
+        "AssistingNurse": 101
+      },
+      {
+        "Patient": 100000001,
+        "Procedures": 7,
+        "Stay": 3217,
+        "DateUndergoes": "2008-05-10",
+        "Physician": 7,
+        "AssistingNurse": 101
+      }
+    ]
+  },
+  {
+    "EmployeeID": 102,
+    "Name": "Laverne Roberts",
+    "Position": "Nurse",
+    "Registered": 1,
+    "SSN": 222222220,
+    "Appointment": [
+      {
+        "AppointmentID": 36549879,
+        "Patient": 100000001,
+        "PrepNurse": 102,
+        "Physician": 1,
+        "Start": "2008-04-25 10:00",
+        "End": "2008-04-25 11:00",
+        "ExaminationRoom": "A",
+        "Prescribes": []
+      },
+      {
+        "AppointmentID": 86213939,
+        "Patient": 100000004,
+        "PrepNurse": 102,
+        "Physician": 9,
+        "Start": "2008-04-27 10:00",
+        "End": "2008-04-21 11:00",
+        "ExaminationRoom": "A",
+        "Prescribes": [
+          {
+            "Physician": 9,
+            "Patient": 100000004,
+            "Medication": 2,
+            "Date": "2008-04-27 10:53",
+            "Appointment": 86213939,
+            "Dose": "10"
+          }
+        ]
+      }
+    ],
+    "On_Call": [
+      {
+        "Nurse": 102,
+        "BlockFloor": 1,
+        "BlockCode": 3,
+        "OnCallStart": "2008-11-04 11:00",
+        "OnCallEnd": "2008-11-04 19:00"
+      }
+    ],
+    "Undergoes": [
+      {
+        "Patient": 100000004,
+        "Procedures": 1,
+        "Stay": 3217,
+        "DateUndergoes": "2008-05-07",
+        "Physician": 3,
+        "AssistingNurse": 102
+      }
+    ]
+  },
+  {
+    "EmployeeID": 103,
+    "Name": "Paul Flowers",
+    "Position": "Nurse",
+    "Registered": 0,
+    "SSN": 333333330,
+    "Appointment": [
+      {
+        "AppointmentID": 46846589,
+        "Patient": 100000004,
+        "PrepNurse": 103,
+        "Physician": 4,
+        "Start": "2008-04-25 10:00",
+        "End": "2008-04-25 11:00",
+        "ExaminationRoom": "B",
+        "Prescribes": []
+      },
+      {
+        "AppointmentID": 69879231,
+        "Patient": 100000003,
+        "PrepNurse": 103,
+        "Physician": 2,
+        "Start": "2008-04-26 11:00",
+        "End": "2008-04-26 12:00",
+        "ExaminationRoom": "C",
+        "Prescribes": []
+      }
+    ],
+    "On_Call": [
+      {
+        "Nurse": 103,
+        "BlockFloor": 1,
+        "BlockCode": 1,
+        "OnCallStart": "2008-11-04 19:00",
+        "OnCallEnd": "2008-11-05 03:00"
+      },
+      {
+        "Nurse": 103,
+        "BlockFloor": 1,
+        "BlockCode": 2,
+        "OnCallStart": "2008-11-04 19:00",
+        "OnCallEnd": "2008-11-05 03:00"
+      },
+      {
+        "Nurse": 103,
+        "BlockFloor": 1,
+        "BlockCode": 3,
+        "OnCallStart": "2008-11-04 19:00",
+        "OnCallEnd": "2008-11-05 03:00"
+      }
+    ],
+    "Undergoes": [
+      {
+        "Patient": 100000004,
+        "Procedures": 4,
+        "Stay": 3217,
+        "DateUndergoes": "2008-05-13",
+        "Physician": 3,
+        "AssistingNurse": 103
+      }
+    ]
+  }
+]

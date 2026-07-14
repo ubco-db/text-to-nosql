@@ -1,0 +1,150 @@
+[
+  {
+    "Mountain_ID": 1,
+    "Name": "Kibo (Uhuru Pk)",
+    "Height": 5895.0,
+    "Prominence": 5885.0,
+    "Range": "Kilimanjaro",
+    "Country": "Tanzania",
+    "climber": [
+      {
+        "Climber_ID": 1,
+        "Name": "Klaus Enders",
+        "Country": "West Germany",
+        "Time": "1:13.05.6",
+        "Points": 15.0,
+        "Mountain_ID": 1
+      },
+      {
+        "Climber_ID": 2,
+        "Name": "Siegfried Schauzu",
+        "Country": "West Germany",
+        "Time": "1:14.56.4",
+        "Points": 12.0,
+        "Mountain_ID": 1
+      }
+    ]
+  },
+  {
+    "Mountain_ID": 2,
+    "Name": "Mount Kenya (Batian)",
+    "Height": 5199.0,
+    "Prominence": 3825.0,
+    "Range": "Mount Kenya",
+    "Country": "Kenya",
+    "climber": [
+      {
+        "Climber_ID": 3,
+        "Name": "Hans Luthringhauser",
+        "Country": "West Germany",
+        "Time": "1:16.58.0",
+        "Points": 10.0,
+        "Mountain_ID": 2
+      },
+      {
+        "Climber_ID": 4,
+        "Name": "Jean Claude Castella",
+        "Country": "Switzerland",
+        "Time": "1:17.16.0",
+        "Points": 8.0,
+        "Mountain_ID": 2
+      },
+      {
+        "Climber_ID": 5,
+        "Name": "Horst Owesle",
+        "Country": "West Germany",
+        "Time": "1:17.22.0",
+        "Points": 6.0,
+        "Mountain_ID": 2
+      }
+    ]
+  },
+  {
+    "Mountain_ID": 3,
+    "Name": "Mawenzi (Hans Meyer Pk)",
+    "Height": 5148.0,
+    "Prominence": 850.0,
+    "Range": "Kilimanjaro",
+    "Country": "Tanzania",
+    "climber": [
+      {
+        "Climber_ID": 6,
+        "Name": "Georg Auerbacher",
+        "Country": "West Germany",
+        "Time": "1:18.14.6",
+        "Points": 5.0,
+        "Mountain_ID": 3
+      }
+    ]
+  },
+  {
+    "Mountain_ID": 4,
+    "Name": "Ngaliema / Mt Stanley (Margherita Pk)",
+    "Height": 5109.0,
+    "Prominence": 3951.0,
+    "Range": "Rwenzori",
+    "Country": "DR Congo Uganda",
+    "climber": []
+  },
+  {
+    "Mountain_ID": 5,
+    "Name": "Mount Kenya (Lenana)",
+    "Height": 4985.0,
+    "Prominence": 130.0,
+    "Range": "Mount Kenya",
+    "Country": "Kenya",
+    "climber": [
+      {
+        "Climber_ID": 7,
+        "Name": "Arseneus Butscher",
+        "Country": "West Germany",
+        "Time": "1:21.35.6",
+        "Points": 4.0,
+        "Mountain_ID": 5
+      },
+      {
+        "Climber_ID": 8,
+        "Name": "Charlie Freedman",
+        "Country": "United Kingdom",
+        "Time": "1:25.02.8",
+        "Points": 3.0,
+        "Mountain_ID": 5
+      }
+    ]
+  },
+  {
+    "Mountain_ID": 6,
+    "Name": "Ngaliema / Mt Stanley (Savoia Pk)",
+    "Height": 4977.0,
+    "Prominence": 110.0,
+    "Range": "Rwenzori",
+    "Country": "Uganda",
+    "climber": []
+  },
+  {
+    "Mountain_ID": 7,
+    "Name": "Duwoni / Mt Speke (Vittorio Emanuele Pk)",
+    "Height": 4890.0,
+    "Prominence": 720.0,
+    "Range": "Rwenzori",
+    "Country": "Uganda",
+    "climber": [
+      {
+        "Climber_ID": 9,
+        "Name": "L Currie",
+        "Country": "United Kingdom",
+        "Time": "1:25.40.6",
+        "Points": 2.0,
+        "Mountain_ID": 7
+      },
+      {
+        "Climber_ID": 10,
+        "Name": "Mick Horsepole",
+        "Country": "United Kingdom",
+        "Time": "1:27.28.8",
+        "Points": 1.0,
+        "Mountain_ID": 7
+      }
+    ]
+  }
+]

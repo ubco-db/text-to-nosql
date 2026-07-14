@@ -1,0 +1,150 @@
+[
+  {
+    "course_id": "301",
+    "course_name": "statistics",
+    "course_description": "statistics",
+    "other_details": null,
+    "Student_Course_Registrations": [
+      {
+        "student_id": 111,
+        "course_id": 301,
+        "registration_date": "2008-11-04 10:35:13",
+        "Student_Course_Attendance": [
+          {
+            "student_id": 111,
+            "course_id": 301,
+            "date_of_attendance": "2008-11-04 10:35:13"
+          }
+        ]
+      },
+      {
+        "student_id": 121,
+        "course_id": 301,
+        "registration_date": "2008-10-04 10:35:13",
+        "Student_Course_Attendance": [
+          {
+            "student_id": 121,
+            "course_id": 301,
+            "date_of_attendance": "2012-04-09 11:44:34"
+          }
+        ]
+      },
+      {
+        "student_id": 171,
+        "course_id": 301,
+        "registration_date": "2008-11-07 10:35:13",
+        "Student_Course_Attendance": [
+          {
+            "student_id": 171,
+            "course_id": 301,
+            "date_of_attendance": "2015-04-09 11:44:34"
+          }
+        ]
+      },
+      {
+        "student_id": 141,
+        "course_id": 301,
+        "registration_date": "2008-11-08 10:35:13",
+        "Student_Course_Attendance": [
+          {
+            "student_id": 141,
+            "course_id": 301,
+            "date_of_attendance": "2012-09-09 11:44:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": "302",
+    "course_name": "English",
+    "course_description": "English",
+    "other_details": null,
+    "Student_Course_Registrations": [
+      {
+        "student_id": 141,
+        "course_id": 302,
+        "registration_date": "2008-11-06 10:35:13",
+        "Student_Course_Attendance": [
+          {
+            "student_id": 141,
+            "course_id": 302,
+            "date_of_attendance": "2013-04-09 11:44:34"
+          }
+        ]
+      },
+      {
+        "student_id": 161,
+        "course_id": 302,
+        "registration_date": "2008-11-07 10:35:13",
+        "Student_Course_Attendance": [
+          {
+            "student_id": 161,
+            "course_id": 302,
+            "date_of_attendance": "2014-01-09 11:44:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": "303",
+    "course_name": "French",
+    "course_description": "French",
+    "other_details": null,
+    "Student_Course_Registrations": [
+      {
+        "student_id": 121,
+        "course_id": 303,
+        "registration_date": "2008-11-14 10:35:13",
+        "Student_Course_Attendance": [
+          {
+            "student_id": 121,
+            "course_id": 303,
+            "date_of_attendance": "2014-04-09 11:44:34"
+          }
+        ]
+      },
+      {
+        "student_id": 131,
+        "course_id": 303,
+        "registration_date": "2008-11-05 10:35:13",
+        "Student_Course_Attendance": []
+      }
+    ]
+  },
+  {
+    "course_id": "304",
+    "course_name": "database",
+    "course_description": "database",
+    "other_details": null,
+    "Student_Course_Registrations": []
+  },
+  {
+    "course_id": "305",
+    "course_name": "data structure",
+    "course_description": "data structure",
+    "other_details": null,
+    "Student_Course_Registrations": [
+      {
+        "student_id": 151,
+        "course_id": 305,
+        "registration_date": "2008-11-07 10:35:13",
+        "Student_Course_Attendance": [
+          {
+            "student_id": 151,
+            "course_id": 305,
+            "date_of_attendance": "2012-05-09 11:44:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": "306",
+    "course_name": "Art history",
+    "course_description": "Art history",
+    "other_details": null,
+    "Student_Course_Registrations": []
+  }
+]

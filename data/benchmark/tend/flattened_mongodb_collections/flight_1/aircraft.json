@@ -1,0 +1,513 @@
+[
+  {
+    "aid": 1,
+    "name": "Boeing 747-400",
+    "distance": 8430,
+    "flight": [
+      {
+        "flno": 99,
+        "origin": "Los Angeles",
+        "destination": "Washington D.C.",
+        "distance": 2308,
+        "departure_date": "04/12/2005 09:30",
+        "arrival_date": "04/12/2005 09:40",
+        "price": 235.98,
+        "aid": 1
+      }
+    ],
+    "certificate": [
+      {
+        "eid": 142519864,
+        "aid": 1
+      },
+      {
+        "eid": 269734834,
+        "aid": 1
+      },
+      {
+        "eid": 550156548,
+        "aid": 1
+      },
+      {
+        "eid": 567354612,
+        "aid": 1
+      }
+    ]
+  },
+  {
+    "aid": 2,
+    "name": "Boeing 737-800",
+    "distance": 3383,
+    "flight": [
+      {
+        "flno": 346,
+        "origin": "Los Angeles",
+        "destination": "Dallas",
+        "distance": 1251,
+        "departure_date": "04/12/2005 11:50",
+        "arrival_date": "04/12/2005 07:05",
+        "price": 182,
+        "aid": 2
+      }
+    ],
+    "certificate": [
+      {
+        "eid": 11564812,
+        "aid": 2
+      },
+      {
+        "eid": 141582651,
+        "aid": 2
+      },
+      {
+        "eid": 142519864,
+        "aid": 2
+      },
+      {
+        "eid": 242518965,
+        "aid": 2
+      },
+      {
+        "eid": 269734834,
+        "aid": 2
+      },
+      {
+        "eid": 552455318,
+        "aid": 2
+      },
+      {
+        "eid": 556784565,
+        "aid": 2
+      },
+      {
+        "eid": 567354612,
+        "aid": 2
+      }
+    ]
+  },
+  {
+    "aid": 3,
+    "name": "Airbus A340-300",
+    "distance": 7120,
+    "flight": [
+      {
+        "flno": 13,
+        "origin": "Los Angeles",
+        "destination": "Chicago",
+        "distance": 1749,
+        "departure_date": "04/12/2005 08:45",
+        "arrival_date": "04/12/2005 08:45",
+        "price": 220.98,
+        "aid": 3
+      },
+      {
+        "flno": 7,
+        "origin": "Los Angeles",
+        "destination": "Sydney",
+        "distance": 7487,
+        "departure_date": "04/12/2005 05:30",
+        "arrival_date": "04/12/2005 11:10",
+        "price": 278.56,
+        "aid": 3
+      }
+    ],
+    "certificate": [
+      {
+        "eid": 142519864,
+        "aid": 3
+      },
+      {
+        "eid": 269734834,
+        "aid": 3
+      },
+      {
+        "eid": 390487451,
+        "aid": 3
+      },
+      {
+        "eid": 556784565,
+        "aid": 3
+      },
+      {
+        "eid": 567354612,
+        "aid": 3
+      },
+      {
+        "eid": 573284895,
+        "aid": 3
+      }
+    ]
+  },
+  {
+    "aid": 4,
+    "name": "British Aerospace Jetstream 41",
+    "distance": 1502,
+    "flight": [],
+    "certificate": [
+      {
+        "eid": 269734834,
+        "aid": 4
+      },
+      {
+        "eid": 567354612,
+        "aid": 4
+      },
+      {
+        "eid": 573284895,
+        "aid": 4
+      }
+    ]
+  },
+  {
+    "aid": 5,
+    "name": "Embraer ERJ-145",
+    "distance": 1530,
+    "flight": [
+      {
+        "flno": 34,
+        "origin": "Los Angeles",
+        "destination": "Honolulu",
+        "distance": 2551,
+        "departure_date": "04/12/2005 12:45",
+        "arrival_date": "04/12/2005 03:18",
+        "price": 425.98,
+        "aid": 5
+      }
+    ],
+    "certificate": [
+      {
+        "eid": 159542516,
+        "aid": 5
+      },
+      {
+        "eid": 269734834,
+        "aid": 5
+      },
+      {
+        "eid": 556784565,
+        "aid": 5
+      },
+      {
+        "eid": 567354612,
+        "aid": 5
+      },
+      {
+        "eid": 573284895,
+        "aid": 5
+      }
+    ]
+  },
+  {
+    "aid": 6,
+    "name": "SAAB 340",
+    "distance": 2128,
+    "flight": [
+      {
+        "flno": 387,
+        "origin": "Los Angeles",
+        "destination": "Boston",
+        "distance": 2606,
+        "departure_date": "04/12/2005 07:03",
+        "arrival_date": "04/12/2005 05:03",
+        "price": 261.56,
+        "aid": 6
+      }
+    ],
+    "certificate": [
+      {
+        "eid": 90873519,
+        "aid": 6
+      },
+      {
+        "eid": 269734834,
+        "aid": 6
+      },
+      {
+        "eid": 356187925,
+        "aid": 6
+      },
+      {
+        "eid": 574489456,
+        "aid": 6
+      }
+    ]
+  },
+  {
+    "aid": 7,
+    "name": "Piper Archer III",
+    "distance": 520,
+    "flight": [
+      {
+        "flno": 33,
+        "origin": "Los Angeles",
+        "destination": "Honolulu",
+        "distance": 2551,
+        "departure_date": "04/12/2005 09:15",
+        "arrival_date": "04/12/2005 11:15",
+        "price": 375.23,
+        "aid": 7
+      }
+    ],
+    "certificate": [
+      {
+        "eid": 142519864,
+        "aid": 7
+      },
+      {
+        "eid": 159542516,
+        "aid": 7
+      },
+      {
+        "eid": 269734834,
+        "aid": 7
+      },
+      {
+        "eid": 548977562,
+        "aid": 7
+      },
+      {
+        "eid": 552455318,
+        "aid": 7
+      },
+      {
+        "eid": 567354612,
+        "aid": 7
+      },
+      {
+        "eid": 574489457,
+        "aid": 7
+      }
+    ]
+  },
+  {
+    "aid": 8,
+    "name": "Tupolev 154",
+    "distance": 4103,
+    "flight": [],
+    "certificate": [
+      {
+        "eid": 269734834,
+        "aid": 8
+      },
+      {
+        "eid": 310454876,
+        "aid": 8
+      },
+      {
+        "eid": 355548984,
+        "aid": 8
+      },
+      {
+        "eid": 574489456,
+        "aid": 8
+      }
+    ]
+  },
+  {
+    "aid": 16,
+    "name": "Schwitzer 2-33",
+    "distance": 30,
+    "flight": [],
+    "certificate": []
+  },
+  {
+    "aid": 9,
+    "name": "Lockheed L1011",
+    "distance": 6900,
+    "flight": [
+      {
+        "flno": 2,
+        "origin": "Los Angeles",
+        "destination": "Tokyo",
+        "distance": 5478,
+        "departure_date": "04/12/2005 06:30",
+        "arrival_date": "04/12/2005 03:55",
+        "price": 780.99,
+        "aid": 9
+      },
+      {
+        "flno": 76,
+        "origin": "Chicago",
+        "destination": "Los Angeles",
+        "distance": 1749,
+        "departure_date": "04/12/2005 08:32",
+        "arrival_date": "04/12/2005 10:03",
+        "price": 220.98,
+        "aid": 9
+      }
+    ],
+    "certificate": [
+      {
+        "eid": 269734834,
+        "aid": 9
+      },
+      {
+        "eid": 310454876,
+        "aid": 9
+      },
+      {
+        "eid": 355548984,
+        "aid": 9
+      },
+      {
+        "eid": 567354612,
+        "aid": 9
+      }
+    ]
+  },
+  {
+    "aid": 10,
+    "name": "Boeing 757-300",
+    "distance": 4010,
+    "flight": [
+      {
+        "flno": 68,
+        "origin": "Chicago",
+        "destination": "New York",
+        "distance": 802,
+        "departure_date": "04/12/2005 09:00",
+        "arrival_date": "04/12/2005 12:02",
+        "price": 202.45,
+        "aid": 10
+      }
+    ],
+    "certificate": [
+      {
+        "eid": 11564812,
+        "aid": 10
+      },
+      {
+        "eid": 141582651,
+        "aid": 10
+      },
+      {
+        "eid": 142519864,
+        "aid": 10
+      },
+      {
+        "eid": 242518965,
+        "aid": 10
+      },
+      {
+        "eid": 269734834,
+        "aid": 10
+      },
+      {
+        "eid": 274878974,
+        "aid": 10
+      },
+      {
+        "eid": 567354612,
+        "aid": 10
+      }
+    ]
+  },
+  {
+    "aid": 11,
+    "name": "Boeing 777-300",
+    "distance": 6441,
+    "flight": [],
+    "certificate": [
+      {
+        "eid": 142519864,
+        "aid": 11
+      },
+      {
+        "eid": 269734834,
+        "aid": 11
+      },
+      {
+        "eid": 567354612,
+        "aid": 11
+      }
+    ]
+  },
+  {
+    "aid": 12,
+    "name": "Boeing 767-400ER",
+    "distance": 6475,
+    "flight": [],
+    "certificate": [
+      {
+        "eid": 141582651,
+        "aid": 12
+      },
+      {
+        "eid": 142519864,
+        "aid": 12
+      },
+      {
+        "eid": 269734834,
+        "aid": 12
+      },
+      {
+        "eid": 274878974,
+        "aid": 12
+      },
+      {
+        "eid": 550156548,
+        "aid": 12
+      },
+      {
+        "eid": 567354612,
+        "aid": 12
+      }
+    ]
+  },
+  {
+    "aid": 13,
+    "name": "Airbus A320",
+    "distance": 2605,
+    "flight": [],
+    "certificate": [
+      {
+        "eid": 142519864,
+        "aid": 13
+      },
+      {
+        "eid": 269734834,
+        "aid": 13
+      },
+      {
+        "eid": 390487451,
+        "aid": 13
+      }
+    ]
+  },
+  {
+    "aid": 14,
+    "name": "Airbus A319",
+    "distance": 1805,
+    "flight": [],
+    "certificate": [
+      {
+        "eid": 269734834,
+        "aid": 14
+      },
+      {
+        "eid": 390487451,
+        "aid": 14
+      },
+      {
+        "eid": 552455318,
+        "aid": 14
+      }
+    ]
+  },
+  {
+    "aid": 15,
+    "name": "Boeing 727",
+    "distance": 1504,
+    "flight": [],
+    "certificate": [
+      {
+        "eid": 269734834,
+        "aid": 15
+      },
+      {
+        "eid": 567354612,
+        "aid": 15
+      }
+    ]
+  }
+]

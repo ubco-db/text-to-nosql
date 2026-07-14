@@ -1,0 +1,1716 @@
+{
+    "Departments": [
+        {
+            "department_id": 1,
+            "department_name": "computer science",
+            "department_description": "error",
+            "other_details": null,
+            "Degree_Programs": []
+        },
+        {
+            "department_id": 2,
+            "department_name": "history",
+            "department_description": "nostrum",
+            "other_details": null,
+            "Degree_Programs": [
+                {
+                    "degree_program_id": 2,
+                    "department_id": 2,
+                    "degree_summary_name": "Master",
+                    "degree_summary_description": "cumque",
+                    "other_details": null,
+                    "Student_Enrolment": [
+                        {
+                            "student_enrolment_id": 13,
+                            "degree_program_id": 2,
+                            "semester_id": 12,
+                            "student_id": 6,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": [
+                                {
+                                    "student_course_id": 76,
+                                    "course_id": 10,
+                                    "student_enrolment_id": 13,
+                                    "Transcript_Contents": [
+                                        {
+                                            "student_course_id": 76,
+                                            "transcript_id": 9
+                                        },
+                                        {
+                                            "student_course_id": 76,
+                                            "transcript_id": 15
+                                        },
+                                        {
+                                            "student_course_id": 76,
+                                            "transcript_id": 12
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "student_enrolment_id": 15,
+                            "degree_program_id": 2,
+                            "semester_id": 4,
+                            "student_id": 6,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": []
+                        }
+                    ]
+                },
+                {
+                    "degree_program_id": 14,
+                    "department_id": 2,
+                    "degree_summary_name": "PHD",
+                    "degree_summary_description": "et",
+                    "other_details": null,
+                    "Student_Enrolment": []
+                }
+            ]
+        },
+        {
+            "department_id": 3,
+            "department_name": "art",
+            "department_description": "aliquam",
+            "other_details": null,
+            "Degree_Programs": [
+                {
+                    "degree_program_id": 9,
+                    "department_id": 3,
+                    "degree_summary_name": "Bachelor",
+                    "degree_summary_description": "voluptas",
+                    "other_details": null,
+                    "Student_Enrolment": [
+                        {
+                            "student_enrolment_id": 7,
+                            "degree_program_id": 9,
+                            "semester_id": 9,
+                            "student_id": 4,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": []
+                        },
+                        {
+                            "student_enrolment_id": 12,
+                            "degree_program_id": 9,
+                            "semester_id": 2,
+                            "student_id": 5,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": []
+                        },
+                        {
+                            "student_enrolment_id": 14,
+                            "degree_program_id": 9,
+                            "semester_id": 15,
+                            "student_id": 6,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": [
+                                {
+                                    "student_course_id": 45105806,
+                                    "course_id": 13,
+                                    "student_enrolment_id": 14,
+                                    "Transcript_Contents": [
+                                        {
+                                            "student_course_id": 45105806,
+                                            "transcript_id": 8
+                                        }
+                                    ]
+                                },
+                                {
+                                    "student_course_id": 83814225,
+                                    "course_id": 12,
+                                    "student_enrolment_id": 14,
+                                    "Transcript_Contents": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "department_id": 4,
+            "department_name": "linguistic",
+            "department_description": "natus",
+            "other_details": null,
+            "Degree_Programs": [
+                {
+                    "degree_program_id": 12,
+                    "department_id": 4,
+                    "degree_summary_name": "Master",
+                    "degree_summary_description": "qui",
+                    "other_details": null,
+                    "Student_Enrolment": [
+                        {
+                            "student_enrolment_id": 1,
+                            "degree_program_id": 12,
+                            "semester_id": 13,
+                            "student_id": 14,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": []
+                        },
+                        {
+                            "student_enrolment_id": 9,
+                            "degree_program_id": 12,
+                            "semester_id": 6,
+                            "student_id": 7,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": [
+                                {
+                                    "student_course_id": 28982908,
+                                    "course_id": 8,
+                                    "student_enrolment_id": 9,
+                                    "Transcript_Contents": [
+                                        {
+                                            "student_course_id": 28982908,
+                                            "transcript_id": 11
+                                        }
+                                    ]
+                                },
+                                {
+                                    "student_course_id": 70882679,
+                                    "course_id": 13,
+                                    "student_enrolment_id": 9,
+                                    "Transcript_Contents": [
+                                        {
+                                            "student_course_id": 70882679,
+                                            "transcript_id": 6
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "department_id": 5,
+            "department_name": "management",
+            "department_description": "nihil",
+            "other_details": null,
+            "Degree_Programs": []
+        },
+        {
+            "department_id": 6,
+            "department_name": "engineer",
+            "department_description": "autem",
+            "other_details": null,
+            "Degree_Programs": []
+        },
+        {
+            "department_id": 7,
+            "department_name": "math",
+            "department_description": "doloribus",
+            "other_details": null,
+            "Degree_Programs": [
+                {
+                    "degree_program_id": 13,
+                    "department_id": 7,
+                    "degree_summary_name": "Bachelor",
+                    "degree_summary_description": "quam",
+                    "other_details": null,
+                    "Student_Enrolment": []
+                }
+            ]
+        },
+        {
+            "department_id": 8,
+            "department_name": "statistics",
+            "department_description": "nihil",
+            "other_details": null,
+            "Degree_Programs": [
+                {
+                    "degree_program_id": 4,
+                    "department_id": 8,
+                    "degree_summary_name": "Bachelor",
+                    "degree_summary_description": "unde",
+                    "other_details": null,
+                    "Student_Enrolment": [
+                        {
+                            "student_enrolment_id": 2,
+                            "degree_program_id": 4,
+                            "semester_id": 2,
+                            "student_id": 9,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": [
+                                {
+                                    "student_course_id": 0,
+                                    "course_id": 6,
+                                    "student_enrolment_id": 2,
+                                    "Transcript_Contents": [
+                                        {
+                                            "student_course_id": 0,
+                                            "transcript_id": 2
+                                        },
+                                        {
+                                            "student_course_id": 0,
+                                            "transcript_id": 15
+                                        },
+                                        {
+                                            "student_course_id": 0,
+                                            "transcript_id": 6
+                                        },
+                                        {
+                                            "student_course_id": 0,
+                                            "transcript_id": 5
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "student_enrolment_id": 4,
+                            "degree_program_id": 4,
+                            "semester_id": 15,
+                            "student_id": 9,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": [
+                                {
+                                    "student_course_id": 96,
+                                    "course_id": 2,
+                                    "student_enrolment_id": 4,
+                                    "Transcript_Contents": [
+                                        {
+                                            "student_course_id": 96,
+                                            "transcript_id": 8
+                                        },
+                                        {
+                                            "student_course_id": 96,
+                                            "transcript_id": 13
+                                        }
+                                    ]
+                                },
+                                {
+                                    "student_course_id": 438800,
+                                    "course_id": 3,
+                                    "student_enrolment_id": 4,
+                                    "Transcript_Contents": []
+                                },
+                                {
+                                    "student_course_id": 681404,
+                                    "course_id": 10,
+                                    "student_enrolment_id": 4,
+                                    "Transcript_Contents": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "degree_program_id": 6,
+                    "department_id": 8,
+                    "degree_summary_name": "Bachelor",
+                    "degree_summary_description": "aperiam",
+                    "other_details": null,
+                    "Student_Enrolment": []
+                },
+                {
+                    "degree_program_id": 10,
+                    "department_id": 8,
+                    "degree_summary_name": "Bachelor",
+                    "degree_summary_description": "aut",
+                    "other_details": null,
+                    "Student_Enrolment": [
+                        {
+                            "student_enrolment_id": 3,
+                            "degree_program_id": 10,
+                            "semester_id": 2,
+                            "student_id": 7,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": []
+                        },
+                        {
+                            "student_enrolment_id": 11,
+                            "degree_program_id": 10,
+                            "semester_id": 13,
+                            "student_id": 4,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "department_id": 9,
+            "department_name": "law",
+            "department_description": "dolorem",
+            "other_details": null,
+            "Degree_Programs": []
+        },
+        {
+            "department_id": 10,
+            "department_name": "economics",
+            "department_description": "non",
+            "other_details": null,
+            "Degree_Programs": []
+        },
+        {
+            "department_id": 11,
+            "department_name": "biology",
+            "department_description": "consequatur",
+            "other_details": null,
+            "Degree_Programs": [
+                {
+                    "degree_program_id": 5,
+                    "department_id": 11,
+                    "degree_summary_name": "Master",
+                    "degree_summary_description": "officiis",
+                    "other_details": null,
+                    "Student_Enrolment": [
+                        {
+                            "student_enrolment_id": 5,
+                            "degree_program_id": 5,
+                            "semester_id": 1,
+                            "student_id": 14,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": [
+                                {
+                                    "student_course_id": 2,
+                                    "course_id": 14,
+                                    "student_enrolment_id": 5,
+                                    "Transcript_Contents": [
+                                        {
+                                            "student_course_id": 2,
+                                            "transcript_id": 8
+                                        }
+                                    ]
+                                },
+                                {
+                                    "student_course_id": 7,
+                                    "course_id": 11,
+                                    "student_enrolment_id": 5,
+                                    "Transcript_Contents": [
+                                        {
+                                            "student_course_id": 7,
+                                            "transcript_id": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "student_course_id": 8,
+                                    "course_id": 2,
+                                    "student_enrolment_id": 5,
+                                    "Transcript_Contents": [
+                                        {
+                                            "student_course_id": 8,
+                                            "transcript_id": 5
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "department_id": 12,
+            "department_name": "medical",
+            "department_description": "ea",
+            "other_details": null,
+            "Degree_Programs": [
+                {
+                    "degree_program_id": 15,
+                    "department_id": 12,
+                    "degree_summary_name": "PHD",
+                    "degree_summary_description": "esse",
+                    "other_details": null,
+                    "Student_Enrolment": []
+                }
+            ]
+        },
+        {
+            "department_id": 13,
+            "department_name": "dance",
+            "department_description": "consequatur",
+            "other_details": null,
+            "Degree_Programs": [
+                {
+                    "degree_program_id": 1,
+                    "department_id": 13,
+                    "degree_summary_name": "Master",
+                    "degree_summary_description": "architecto",
+                    "other_details": null,
+                    "Student_Enrolment": []
+                },
+                {
+                    "degree_program_id": 3,
+                    "department_id": 13,
+                    "degree_summary_name": "Master",
+                    "degree_summary_description": "placeat",
+                    "other_details": null,
+                    "Student_Enrolment": [
+                        {
+                            "student_enrolment_id": 6,
+                            "degree_program_id": 3,
+                            "semester_id": 13,
+                            "student_id": 1,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": [
+                                {
+                                    "student_course_id": 604750,
+                                    "course_id": 4,
+                                    "student_enrolment_id": 6,
+                                    "Transcript_Contents": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "department_id": 14,
+            "department_name": "drama",
+            "department_description": "in",
+            "other_details": null,
+            "Degree_Programs": [
+                {
+                    "degree_program_id": 7,
+                    "department_id": 14,
+                    "degree_summary_name": "Bachelor",
+                    "degree_summary_description": "assumenda",
+                    "other_details": null,
+                    "Student_Enrolment": []
+                },
+                {
+                    "degree_program_id": 11,
+                    "department_id": 14,
+                    "degree_summary_name": "Bachelor",
+                    "degree_summary_description": "aut",
+                    "other_details": null,
+                    "Student_Enrolment": [
+                        {
+                            "student_enrolment_id": 10,
+                            "degree_program_id": 11,
+                            "semester_id": 2,
+                            "student_id": 7,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": [
+                                {
+                                    "student_course_id": 9860,
+                                    "course_id": 14,
+                                    "student_enrolment_id": 10,
+                                    "Transcript_Contents": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "department_id": 15,
+            "department_name": "geography",
+            "department_description": "nisi",
+            "other_details": null,
+            "Degree_Programs": [
+                {
+                    "degree_program_id": 8,
+                    "department_id": 15,
+                    "degree_summary_name": "Master",
+                    "degree_summary_description": "earum",
+                    "other_details": null,
+                    "Student_Enrolment": [
+                        {
+                            "student_enrolment_id": 8,
+                            "degree_program_id": 8,
+                            "semester_id": 5,
+                            "student_id": 12,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": [
+                                {
+                                    "student_course_id": 1,
+                                    "course_id": 6,
+                                    "student_enrolment_id": 8,
+                                    "Transcript_Contents": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Courses": [
+        {
+            "course_id": 1,
+            "course_name": "ds",
+            "course_description": "p",
+            "other_details": null,
+            "Sections": [
+                {
+                    "section_id": 4,
+                    "course_id": 1,
+                    "section_name": "d",
+                    "section_description": "voluptas",
+                    "other_details": null
+                },
+                {
+                    "section_id": 11,
+                    "course_id": 1,
+                    "section_name": "l",
+                    "section_description": "ad",
+                    "other_details": null
+                }
+            ],
+            "Student_Enrolment_Courses": []
+        },
+        {
+            "course_id": 2,
+            "course_name": "math",
+            "course_description": "q",
+            "other_details": null,
+            "Sections": [
+                {
+                    "section_id": 2,
+                    "course_id": 2,
+                    "section_name": "b",
+                    "section_description": "voluptatem",
+                    "other_details": null
+                }
+            ],
+            "Student_Enrolment_Courses": [
+                {
+                    "student_course_id": 8,
+                    "course_id": 2,
+                    "student_enrolment_id": 5,
+                    "Transcript_Contents": [
+                        {
+                            "student_course_id": 8,
+                            "transcript_id": 5
+                        }
+                    ]
+                },
+                {
+                    "student_course_id": 96,
+                    "course_id": 2,
+                    "student_enrolment_id": 4,
+                    "Transcript_Contents": [
+                        {
+                            "student_course_id": 96,
+                            "transcript_id": 8
+                        },
+                        {
+                            "student_course_id": 96,
+                            "transcript_id": 13
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "course_id": 3,
+            "course_name": "os",
+            "course_description": "v",
+            "other_details": null,
+            "Sections": [],
+            "Student_Enrolment_Courses": [
+                {
+                    "student_course_id": 438800,
+                    "course_id": 3,
+                    "student_enrolment_id": 4,
+                    "Transcript_Contents": []
+                }
+            ]
+        },
+        {
+            "course_id": 4,
+            "course_name": "en",
+            "course_description": "k",
+            "other_details": null,
+            "Sections": [
+                {
+                    "section_id": 12,
+                    "course_id": 4,
+                    "section_name": "o",
+                    "section_description": "et",
+                    "other_details": null
+                }
+            ],
+            "Student_Enrolment_Courses": [
+                {
+                    "student_course_id": 604750,
+                    "course_id": 4,
+                    "student_enrolment_id": 6,
+                    "Transcript_Contents": []
+                }
+            ]
+        },
+        {
+            "course_id": 5,
+            "course_name": "fr",
+            "course_description": "c",
+            "other_details": null,
+            "Sections": [
+                {
+                    "section_id": 5,
+                    "course_id": 5,
+                    "section_name": "e",
+                    "section_description": "ex",
+                    "other_details": null
+                },
+                {
+                    "section_id": 13,
+                    "course_id": 5,
+                    "section_name": "p",
+                    "section_description": "facilis",
+                    "other_details": null
+                }
+            ],
+            "Student_Enrolment_Courses": []
+        },
+        {
+            "course_id": 6,
+            "course_name": "la",
+            "course_description": "n",
+            "other_details": null,
+            "Sections": [
+                {
+                    "section_id": 14,
+                    "course_id": 6,
+                    "section_name": "u",
+                    "section_description": "reprehenderit",
+                    "other_details": null
+                }
+            ],
+            "Student_Enrolment_Courses": [
+                {
+                    "student_course_id": 0,
+                    "course_id": 6,
+                    "student_enrolment_id": 2,
+                    "Transcript_Contents": [
+                        {
+                            "student_course_id": 0,
+                            "transcript_id": 2
+                        },
+                        {
+                            "student_course_id": 0,
+                            "transcript_id": 15
+                        },
+                        {
+                            "student_course_id": 0,
+                            "transcript_id": 6
+                        },
+                        {
+                            "student_course_id": 0,
+                            "transcript_id": 5
+                        }
+                    ]
+                },
+                {
+                    "student_course_id": 1,
+                    "course_id": 6,
+                    "student_enrolment_id": 8,
+                    "Transcript_Contents": []
+                }
+            ]
+        },
+        {
+            "course_id": 7,
+            "course_name": "cal",
+            "course_description": "l",
+            "other_details": null,
+            "Sections": [
+                {
+                    "section_id": 6,
+                    "course_id": 7,
+                    "section_name": "f",
+                    "section_description": "doloremque",
+                    "other_details": null
+                }
+            ],
+            "Student_Enrolment_Courses": []
+        },
+        {
+            "course_id": 8,
+            "course_name": "nlp",
+            "course_description": "q",
+            "other_details": null,
+            "Sections": [
+                {
+                    "section_id": 3,
+                    "course_id": 8,
+                    "section_name": "c",
+                    "section_description": "qui",
+                    "other_details": null
+                },
+                {
+                    "section_id": 9,
+                    "course_id": 8,
+                    "section_name": "j",
+                    "section_description": "quis",
+                    "other_details": null
+                }
+            ],
+            "Student_Enrolment_Courses": [
+                {
+                    "student_course_id": 28982908,
+                    "course_id": 8,
+                    "student_enrolment_id": 9,
+                    "Transcript_Contents": [
+                        {
+                            "student_course_id": 28982908,
+                            "transcript_id": 11
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "course_id": 9,
+            "course_name": "dl",
+            "course_description": "l",
+            "other_details": null,
+            "Sections": [
+                {
+                    "section_id": 1,
+                    "course_id": 9,
+                    "section_name": "a",
+                    "section_description": "non",
+                    "other_details": null
+                }
+            ],
+            "Student_Enrolment_Courses": []
+        },
+        {
+            "course_id": 10,
+            "course_name": "ml",
+            "course_description": "b",
+            "other_details": null,
+            "Sections": [
+                {
+                    "section_id": 15,
+                    "course_id": 10,
+                    "section_name": "y",
+                    "section_description": "qui",
+                    "other_details": null
+                }
+            ],
+            "Student_Enrolment_Courses": [
+                {
+                    "student_course_id": 76,
+                    "course_id": 10,
+                    "student_enrolment_id": 13,
+                    "Transcript_Contents": [
+                        {
+                            "student_course_id": 76,
+                            "transcript_id": 9
+                        },
+                        {
+                            "student_course_id": 76,
+                            "transcript_id": 15
+                        },
+                        {
+                            "student_course_id": 76,
+                            "transcript_id": 12
+                        }
+                    ]
+                },
+                {
+                    "student_course_id": 681404,
+                    "course_id": 10,
+                    "student_enrolment_id": 4,
+                    "Transcript_Contents": []
+                }
+            ]
+        },
+        {
+            "course_id": 11,
+            "course_name": "ai",
+            "course_description": "w",
+            "other_details": null,
+            "Sections": [],
+            "Student_Enrolment_Courses": [
+                {
+                    "student_course_id": 7,
+                    "course_id": 11,
+                    "student_enrolment_id": 5,
+                    "Transcript_Contents": [
+                        {
+                            "student_course_id": 7,
+                            "transcript_id": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "course_id": 12,
+            "course_name": "db",
+            "course_description": "q",
+            "other_details": null,
+            "Sections": [
+                {
+                    "section_id": 7,
+                    "course_id": 12,
+                    "section_name": "g",
+                    "section_description": "provident",
+                    "other_details": null
+                }
+            ],
+            "Student_Enrolment_Courses": [
+                {
+                    "student_course_id": 83814225,
+                    "course_id": 12,
+                    "student_enrolment_id": 14,
+                    "Transcript_Contents": []
+                }
+            ]
+        },
+        {
+            "course_id": 13,
+            "course_name": "rs",
+            "course_description": "v",
+            "other_details": null,
+            "Sections": [],
+            "Student_Enrolment_Courses": [
+                {
+                    "student_course_id": 45105806,
+                    "course_id": 13,
+                    "student_enrolment_id": 14,
+                    "Transcript_Contents": [
+                        {
+                            "student_course_id": 45105806,
+                            "transcript_id": 8
+                        }
+                    ]
+                },
+                {
+                    "student_course_id": 70882679,
+                    "course_id": 13,
+                    "student_enrolment_id": 9,
+                    "Transcript_Contents": [
+                        {
+                            "student_course_id": 70882679,
+                            "transcript_id": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "course_id": 14,
+            "course_name": "pl",
+            "course_description": "p",
+            "other_details": null,
+            "Sections": [
+                {
+                    "section_id": 8,
+                    "course_id": 14,
+                    "section_name": "h",
+                    "section_description": "et",
+                    "other_details": null
+                },
+                {
+                    "section_id": 10,
+                    "course_id": 14,
+                    "section_name": "k",
+                    "section_description": "nesciunt",
+                    "other_details": null
+                }
+            ],
+            "Student_Enrolment_Courses": [
+                {
+                    "student_course_id": 2,
+                    "course_id": 14,
+                    "student_enrolment_id": 5,
+                    "Transcript_Contents": [
+                        {
+                            "student_course_id": 2,
+                            "transcript_id": 8
+                        }
+                    ]
+                },
+                {
+                    "student_course_id": 9860,
+                    "course_id": 14,
+                    "student_enrolment_id": 10,
+                    "Transcript_Contents": []
+                }
+            ]
+        },
+        {
+            "course_id": 15,
+            "course_name": "oop",
+            "course_description": "d",
+            "other_details": null,
+            "Sections": [],
+            "Student_Enrolment_Courses": []
+        }
+    ],
+    "Addresses": [
+        {
+            "address_id": 1,
+            "line_1": "2294 Grant Square Apt. 235",
+            "line_2": "Apt. 370",
+            "line_3": null,
+            "city": "Port Chelsea",
+            "zip_postcode": "148",
+            "state_province_county": "Virginia",
+            "country": "Iceland",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 2,
+            "line_1": "3999 Aufderhar Ways Suite 593",
+            "line_2": "Apt. 388",
+            "line_3": null,
+            "city": "Lake Laishafurt",
+            "zip_postcode": "943",
+            "state_province_county": "Kentucky",
+            "country": "Burundi",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 3,
+            "line_1": "67942 Carlotta Ferry Apt. 686",
+            "line_2": "Apt. 583",
+            "line_3": null,
+            "city": "Goodwinhaven",
+            "zip_postcode": "541",
+            "state_province_county": "Kansas",
+            "country": "Saudi Arabia",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 4,
+            "line_1": "0144 Lamar Plaza Apt. 346",
+            "line_2": "Suite 703",
+            "line_3": null,
+            "city": "Port Evanston",
+            "zip_postcode": "847",
+            "state_province_county": "Washington",
+            "country": "Angola",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 5,
+            "line_1": "858 Peggie Bypass Suite 212",
+            "line_2": "Apt. 335",
+            "line_3": null,
+            "city": "Michelleburgh",
+            "zip_postcode": "446",
+            "state_province_county": "Hawaii",
+            "country": "Haiti",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 6,
+            "line_1": "16998 Mraz Lodge",
+            "line_2": "Apt. 689",
+            "line_3": null,
+            "city": "North Omer",
+            "zip_postcode": "902",
+            "state_province_county": "Kentucky",
+            "country": "Gibraltar",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 7,
+            "line_1": "193 Marlin Brook",
+            "line_2": "Apt. 406",
+            "line_3": null,
+            "city": "Herzoghaven",
+            "zip_postcode": "068",
+            "state_province_county": "Arkansas",
+            "country": "Cook Islands",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 8,
+            "line_1": "202 Hessel Views Apt. 468",
+            "line_2": "Apt. 305",
+            "line_3": null,
+            "city": "Mariliehaven",
+            "zip_postcode": "638",
+            "state_province_county": "Idaho",
+            "country": "Croatia",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 9,
+            "line_1": "0643 Muller Vista",
+            "line_2": "Suite 383",
+            "line_3": null,
+            "city": "Port Elvisfurt",
+            "zip_postcode": "777",
+            "state_province_county": "NorthCarolina",
+            "country": "Gabon",
+            "other_address_details": null,
+            "Students": [
+                {
+                    "student_id": 5,
+                    "current_address_id": 9,
+                    "permanent_address_id": 9,
+                    "first_name": "Milton",
+                    "middle_name": "Vaughn",
+                    "last_name": "Christiansen",
+                    "cell_mobile_number": "171-642-5684",
+                    "email_address": "lhartmann@example.org",
+                    "ssn": "",
+                    "date_first_registered": "1973-05-19 19:12:46",
+                    "date_left": "2007-11-28 12:50:21",
+                    "other_student_details": "laborum",
+                    "Student_Enrolment": [
+                        {
+                            "student_enrolment_id": 12,
+                            "degree_program_id": 9,
+                            "semester_id": 2,
+                            "student_id": 5,
+                            "other_details": null,
+                            "Student_Enrolment_Courses": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "address_id": 10,
+            "line_1": "7081 Eda Center",
+            "line_2": "Suite 830",
+            "line_3": null,
+            "city": "Rutherfordtown",
+            "zip_postcode": "839",
+            "state_province_county": "Delaware",
+            "country": "Kyrgyz Republic",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 11,
+            "line_1": "9283 Schulist Falls Apt. 037",
+            "line_2": "Suite 239",
+            "line_3": null,
+            "city": "South Palma",
+            "zip_postcode": "400",
+            "state_province_county": "WestVirginia",
+            "country": "Bermuda",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 12,
+            "line_1": "979 Haag Shores Suite 656",
+            "line_2": "Apt. 468",
+            "line_3": null,
+            "city": "Prohaskafort",
+            "zip_postcode": "590",
+            "state_province_county": "SouthDakota",
+            "country": "Lesotho",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 13,
+            "line_1": "492 Wilkinson Route",
+            "line_2": "Suite 865",
+            "line_3": null,
+            "city": "New Clemensburgh",
+            "zip_postcode": "386",
+            "state_province_county": "Florida",
+            "country": "Samoa",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 14,
+            "line_1": "186 Evan Motorway Apt. 409",
+            "line_2": "Suite 079",
+            "line_3": null,
+            "city": "Lake Careyberg",
+            "zip_postcode": "895",
+            "state_province_county": "Kentucky",
+            "country": "New Caledonia",
+            "other_address_details": null,
+            "Students": []
+        },
+        {
+            "address_id": 15,
+            "line_1": "74046 Metz Walk Apt. 113",
+            "line_2": "Suite 674",
+            "line_3": null,
+            "city": "Port Oceane",
+            "zip_postcode": "669",
+            "state_province_county": "Wyoming",
+            "country": "Norfolk Island",
+            "other_address_details": null,
+            "Students": []
+        }
+    ],
+    "Semesters": [
+        {
+            "semester_id": 1,
+            "semester_name": "spring 2010",
+            "semester_description": "x",
+            "other_details": null,
+            "Student_Enrolment": [
+                {
+                    "student_enrolment_id": 5,
+                    "degree_program_id": 5,
+                    "semester_id": 1,
+                    "student_id": 14,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": [
+                        {
+                            "student_course_id": 2,
+                            "course_id": 14,
+                            "student_enrolment_id": 5,
+                            "Transcript_Contents": [
+                                {
+                                    "student_course_id": 2,
+                                    "transcript_id": 8
+                                }
+                            ]
+                        },
+                        {
+                            "student_course_id": 7,
+                            "course_id": 11,
+                            "student_enrolment_id": 5,
+                            "Transcript_Contents": [
+                                {
+                                    "student_course_id": 7,
+                                    "transcript_id": 4
+                                }
+                            ]
+                        },
+                        {
+                            "student_course_id": 8,
+                            "course_id": 2,
+                            "student_enrolment_id": 5,
+                            "Transcript_Contents": [
+                                {
+                                    "student_course_id": 8,
+                                    "transcript_id": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "semester_id": 2,
+            "semester_name": "summer 2010",
+            "semester_description": "g",
+            "other_details": null,
+            "Student_Enrolment": [
+                {
+                    "student_enrolment_id": 2,
+                    "degree_program_id": 4,
+                    "semester_id": 2,
+                    "student_id": 9,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": [
+                        {
+                            "student_course_id": 0,
+                            "course_id": 6,
+                            "student_enrolment_id": 2,
+                            "Transcript_Contents": [
+                                {
+                                    "student_course_id": 0,
+                                    "transcript_id": 2
+                                },
+                                {
+                                    "student_course_id": 0,
+                                    "transcript_id": 15
+                                },
+                                {
+                                    "student_course_id": 0,
+                                    "transcript_id": 6
+                                },
+                                {
+                                    "student_course_id": 0,
+                                    "transcript_id": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "student_enrolment_id": 3,
+                    "degree_program_id": 10,
+                    "semester_id": 2,
+                    "student_id": 7,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": []
+                },
+                {
+                    "student_enrolment_id": 10,
+                    "degree_program_id": 11,
+                    "semester_id": 2,
+                    "student_id": 7,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": [
+                        {
+                            "student_course_id": 9860,
+                            "course_id": 14,
+                            "student_enrolment_id": 10,
+                            "Transcript_Contents": []
+                        }
+                    ]
+                },
+                {
+                    "student_enrolment_id": 12,
+                    "degree_program_id": 9,
+                    "semester_id": 2,
+                    "student_id": 5,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": []
+                }
+            ]
+        },
+        {
+            "semester_id": 3,
+            "semester_name": "fall 2010",
+            "semester_description": "w",
+            "other_details": null,
+            "Student_Enrolment": []
+        },
+        {
+            "semester_id": 4,
+            "semester_name": "winter 2010",
+            "semester_description": "c",
+            "other_details": null,
+            "Student_Enrolment": [
+                {
+                    "student_enrolment_id": 15,
+                    "degree_program_id": 2,
+                    "semester_id": 4,
+                    "student_id": 6,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": []
+                }
+            ]
+        },
+        {
+            "semester_id": 5,
+            "semester_name": "spring 2018",
+            "semester_description": "c",
+            "other_details": null,
+            "Student_Enrolment": [
+                {
+                    "student_enrolment_id": 8,
+                    "degree_program_id": 8,
+                    "semester_id": 5,
+                    "student_id": 12,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": [
+                        {
+                            "student_course_id": 1,
+                            "course_id": 6,
+                            "student_enrolment_id": 8,
+                            "Transcript_Contents": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "semester_id": 6,
+            "semester_name": "spring 2012",
+            "semester_description": "l",
+            "other_details": null,
+            "Student_Enrolment": [
+                {
+                    "student_enrolment_id": 9,
+                    "degree_program_id": 12,
+                    "semester_id": 6,
+                    "student_id": 7,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": [
+                        {
+                            "student_course_id": 28982908,
+                            "course_id": 8,
+                            "student_enrolment_id": 9,
+                            "Transcript_Contents": [
+                                {
+                                    "student_course_id": 28982908,
+                                    "transcript_id": 11
+                                }
+                            ]
+                        },
+                        {
+                            "student_course_id": 70882679,
+                            "course_id": 13,
+                            "student_enrolment_id": 9,
+                            "Transcript_Contents": [
+                                {
+                                    "student_course_id": 70882679,
+                                    "transcript_id": 6
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "semester_id": 7,
+            "semester_name": "spring 2013",
+            "semester_description": "y",
+            "other_details": null,
+            "Student_Enrolment": []
+        },
+        {
+            "semester_id": 8,
+            "semester_name": "spring 2014",
+            "semester_description": "x",
+            "other_details": null,
+            "Student_Enrolment": []
+        },
+        {
+            "semester_id": 9,
+            "semester_name": "spring 2015",
+            "semester_description": "x",
+            "other_details": null,
+            "Student_Enrolment": [
+                {
+                    "student_enrolment_id": 7,
+                    "degree_program_id": 9,
+                    "semester_id": 9,
+                    "student_id": 4,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": []
+                }
+            ]
+        },
+        {
+            "semester_id": 10,
+            "semester_name": "spring 2016",
+            "semester_description": "f",
+            "other_details": null,
+            "Student_Enrolment": []
+        },
+        {
+            "semester_id": 11,
+            "semester_name": "spring 2017",
+            "semester_description": "g",
+            "other_details": null,
+            "Student_Enrolment": []
+        },
+        {
+            "semester_id": 12,
+            "semester_name": "spring 2018",
+            "semester_description": "m",
+            "other_details": null,
+            "Student_Enrolment": [
+                {
+                    "student_enrolment_id": 13,
+                    "degree_program_id": 2,
+                    "semester_id": 12,
+                    "student_id": 6,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": [
+                        {
+                            "student_course_id": 76,
+                            "course_id": 10,
+                            "student_enrolment_id": 13,
+                            "Transcript_Contents": [
+                                {
+                                    "student_course_id": 76,
+                                    "transcript_id": 9
+                                },
+                                {
+                                    "student_course_id": 76,
+                                    "transcript_id": 15
+                                },
+                                {
+                                    "student_course_id": 76,
+                                    "transcript_id": 12
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "semester_id": 13,
+            "semester_name": "fall 2018",
+            "semester_description": "q",
+            "other_details": null,
+            "Student_Enrolment": [
+                {
+                    "student_enrolment_id": 1,
+                    "degree_program_id": 12,
+                    "semester_id": 13,
+                    "student_id": 14,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": []
+                },
+                {
+                    "student_enrolment_id": 6,
+                    "degree_program_id": 3,
+                    "semester_id": 13,
+                    "student_id": 1,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": [
+                        {
+                            "student_course_id": 604750,
+                            "course_id": 4,
+                            "student_enrolment_id": 6,
+                            "Transcript_Contents": []
+                        }
+                    ]
+                },
+                {
+                    "student_enrolment_id": 11,
+                    "degree_program_id": 10,
+                    "semester_id": 13,
+                    "student_id": 4,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": []
+                }
+            ]
+        },
+        {
+            "semester_id": 14,
+            "semester_name": "winter 2018",
+            "semester_description": "t",
+            "other_details": null,
+            "Student_Enrolment": []
+        },
+        {
+            "semester_id": 15,
+            "semester_name": "spring 2019",
+            "semester_description": "o",
+            "other_details": null,
+            "Student_Enrolment": [
+                {
+                    "student_enrolment_id": 4,
+                    "degree_program_id": 4,
+                    "semester_id": 15,
+                    "student_id": 9,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": [
+                        {
+                            "student_course_id": 96,
+                            "course_id": 2,
+                            "student_enrolment_id": 4,
+                            "Transcript_Contents": [
+                                {
+                                    "student_course_id": 96,
+                                    "transcript_id": 8
+                                },
+                                {
+                                    "student_course_id": 96,
+                                    "transcript_id": 13
+                                }
+                            ]
+                        },
+                        {
+                            "student_course_id": 438800,
+                            "course_id": 3,
+                            "student_enrolment_id": 4,
+                            "Transcript_Contents": []
+                        },
+                        {
+                            "student_course_id": 681404,
+                            "course_id": 10,
+                            "student_enrolment_id": 4,
+                            "Transcript_Contents": []
+                        }
+                    ]
+                },
+                {
+                    "student_enrolment_id": 14,
+                    "degree_program_id": 9,
+                    "semester_id": 15,
+                    "student_id": 6,
+                    "other_details": null,
+                    "Student_Enrolment_Courses": [
+                        {
+                            "student_course_id": 45105806,
+                            "course_id": 13,
+                            "student_enrolment_id": 14,
+                            "Transcript_Contents": [
+                                {
+                                    "student_course_id": 45105806,
+                                    "transcript_id": 8
+                                }
+                            ]
+                        },
+                        {
+                            "student_course_id": 83814225,
+                            "course_id": 12,
+                            "student_enrolment_id": 14,
+                            "Transcript_Contents": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Transcripts": [
+        {
+            "transcript_id": 1,
+            "transcript_date": "1988-04-30 01:19:47",
+            "other_details": null,
+            "Transcript_Contents": []
+        },
+        {
+            "transcript_id": 2,
+            "transcript_date": "1975-10-28 15:16:51",
+            "other_details": null,
+            "Transcript_Contents": [
+                {
+                    "student_course_id": 0,
+                    "transcript_id": 2
+                }
+            ]
+        },
+        {
+            "transcript_id": 3,
+            "transcript_date": "1984-12-19 00:37:21",
+            "other_details": null,
+            "Transcript_Contents": []
+        },
+        {
+            "transcript_id": 4,
+            "transcript_date": "1999-01-06 20:06:46",
+            "other_details": null,
+            "Transcript_Contents": [
+                {
+                    "student_course_id": 7,
+                    "transcript_id": 4
+                }
+            ]
+        },
+        {
+            "transcript_id": 5,
+            "transcript_date": "2013-06-30 13:01:40",
+            "other_details": null,
+            "Transcript_Contents": [
+                {
+                    "student_course_id": 0,
+                    "transcript_id": 5
+                },
+                {
+                    "student_course_id": 8,
+                    "transcript_id": 5
+                }
+            ]
+        },
+        {
+            "transcript_id": 6,
+            "transcript_date": "2010-12-13 10:55:15",
+            "other_details": null,
+            "Transcript_Contents": [
+                {
+                    "student_course_id": 0,
+                    "transcript_id": 6
+                },
+                {
+                    "student_course_id": 70882679,
+                    "transcript_id": 6
+                }
+            ]
+        },
+        {
+            "transcript_id": 7,
+            "transcript_date": "1990-03-05 11:59:41",
+            "other_details": null,
+            "Transcript_Contents": []
+        },
+        {
+            "transcript_id": 8,
+            "transcript_date": "1975-05-06 12:04:47",
+            "other_details": null,
+            "Transcript_Contents": [
+                {
+                    "student_course_id": 96,
+                    "transcript_id": 8
+                },
+                {
+                    "student_course_id": 2,
+                    "transcript_id": 8
+                },
+                {
+                    "student_course_id": 45105806,
+                    "transcript_id": 8
+                }
+            ]
+        },
+        {
+            "transcript_id": 9,
+            "transcript_date": "1984-01-18 23:07:07",
+            "other_details": null,
+            "Transcript_Contents": [
+                {
+                    "student_course_id": 76,
+                    "transcript_id": 9
+                }
+            ]
+        },
+        {
+            "transcript_id": 10,
+            "transcript_date": "1975-05-20 18:31:21",
+            "other_details": null,
+            "Transcript_Contents": []
+        },
+        {
+            "transcript_id": 11,
+            "transcript_date": "1986-07-12 07:27:29",
+            "other_details": null,
+            "Transcript_Contents": [
+                {
+                    "student_course_id": 28982908,
+                    "transcript_id": 11
+                }
+            ]
+        },
+        {
+            "transcript_id": 12,
+            "transcript_date": "1985-08-21 09:32:39",
+            "other_details": null,
+            "Transcript_Contents": [
+                {
+                    "student_course_id": 76,
+                    "transcript_id": 12
+                }
+            ]
+        },
+        {
+            "transcript_id": 13,
+            "transcript_date": "1985-04-29 01:20:20",
+            "other_details": null,
+            "Transcript_Contents": [
+                {
+                    "student_course_id": 96,
+                    "transcript_id": 13
+                }
+            ]
+        },
+        {
+            "transcript_id": 14,
+            "transcript_date": "2002-09-24 06:11:49",
+            "other_details": null,
+            "Transcript_Contents": []
+        },
+        {
+            "transcript_id": 15,
+            "transcript_date": "1998-11-22 12:18:29",
+            "other_details": null,
+            "Transcript_Contents": [
+                {
+                    "student_course_id": 0,
+                    "transcript_id": 15
+                },
+                {
+                    "student_course_id": 76,
+                    "transcript_id": 15
+                }
+            ]
+        }
+    ]
+}

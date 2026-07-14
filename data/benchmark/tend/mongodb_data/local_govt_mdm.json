@@ -1,0 +1,410 @@
+{
+    "Customer_Master_Index": [
+        {
+            "master_customer_id": 1,
+            "cmi_details": "Schmitt-Lang",
+            "CMI_Cross_References": [
+                {
+                    "cmi_cross_ref_id": 8,
+                    "master_customer_id": 1,
+                    "source_system_code": "Rent",
+                    "Council_Tax": [],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [
+                        {
+                            "council_tax_id": 2,
+                            "cmi_cross_ref_id": 8
+                        }
+                    ],
+                    "Electoral_Register": []
+                },
+                {
+                    "cmi_cross_ref_id": 49,
+                    "master_customer_id": 1,
+                    "source_system_code": "Business",
+                    "Council_Tax": [],
+                    "Business_Rates": [
+                        {
+                            "business_rates_id": 5,
+                            "cmi_cross_ref_id": 49
+                        }
+                    ],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                },
+                {
+                    "cmi_cross_ref_id": 59,
+                    "master_customer_id": 1,
+                    "source_system_code": "Rent",
+                    "Council_Tax": [],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [
+                        {
+                            "council_tax_id": 6,
+                            "cmi_cross_ref_id": 59
+                        }
+                    ],
+                    "Electoral_Register": []
+                },
+                {
+                    "cmi_cross_ref_id": 106,
+                    "master_customer_id": 1,
+                    "source_system_code": "Tax",
+                    "Council_Tax": [
+                        {
+                            "council_tax_id": 8,
+                            "cmi_cross_ref_id": 106
+                        }
+                    ],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                }
+            ]
+        },
+        {
+            "master_customer_id": 2,
+            "cmi_details": "Volkman, Mills and Ferry",
+            "CMI_Cross_References": [
+                {
+                    "cmi_cross_ref_id": 95,
+                    "master_customer_id": 2,
+                    "source_system_code": "Business",
+                    "Council_Tax": [],
+                    "Business_Rates": [
+                        {
+                            "business_rates_id": 8,
+                            "cmi_cross_ref_id": 95
+                        }
+                    ],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": [
+                        {
+                            "electoral_register_id": 6,
+                            "cmi_cross_ref_id": 95
+                        }
+                    ]
+                },
+                {
+                    "cmi_cross_ref_id": 101,
+                    "master_customer_id": 2,
+                    "source_system_code": "Tax",
+                    "Council_Tax": [
+                        {
+                            "council_tax_id": 1,
+                            "cmi_cross_ref_id": 101
+                        }
+                    ],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                },
+                {
+                    "cmi_cross_ref_id": 104,
+                    "master_customer_id": 2,
+                    "source_system_code": "Tax",
+                    "Council_Tax": [
+                        {
+                            "council_tax_id": 3,
+                            "cmi_cross_ref_id": 104
+                        }
+                    ],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                },
+                {
+                    "cmi_cross_ref_id": 105,
+                    "master_customer_id": 2,
+                    "source_system_code": "Tax",
+                    "Council_Tax": [
+                        {
+                            "council_tax_id": 9,
+                            "cmi_cross_ref_id": 105
+                        }
+                    ],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                }
+            ]
+        },
+        {
+            "master_customer_id": 3,
+            "cmi_details": "Gusikowski PLC",
+            "CMI_Cross_References": [
+                {
+                    "cmi_cross_ref_id": 83,
+                    "master_customer_id": 3,
+                    "source_system_code": "Benefits",
+                    "Council_Tax": [],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [
+                        {
+                            "council_tax_id": 7,
+                            "cmi_cross_ref_id": 83
+                        }
+                    ],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": [
+                        {
+                            "electoral_register_id": 2,
+                            "cmi_cross_ref_id": 83
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "master_customer_id": 4,
+            "cmi_details": "Schmidt, Kertzmann and Lubowitz",
+            "CMI_Cross_References": [
+                {
+                    "cmi_cross_ref_id": 2,
+                    "master_customer_id": 4,
+                    "source_system_code": "Rent",
+                    "Council_Tax": [],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [
+                        {
+                            "council_tax_id": 7,
+                            "cmi_cross_ref_id": 2
+                        }
+                    ],
+                    "Electoral_Register": []
+                },
+                {
+                    "cmi_cross_ref_id": 77,
+                    "master_customer_id": 4,
+                    "source_system_code": "Electoral",
+                    "Council_Tax": [],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                },
+                {
+                    "cmi_cross_ref_id": 100,
+                    "master_customer_id": 4,
+                    "source_system_code": "Rent",
+                    "Council_Tax": [],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [
+                        {
+                            "council_tax_id": 1,
+                            "cmi_cross_ref_id": 100
+                        }
+                    ],
+                    "Electoral_Register": [
+                        {
+                            "electoral_register_id": 4,
+                            "cmi_cross_ref_id": 100
+                        }
+                    ]
+                },
+                {
+                    "cmi_cross_ref_id": 102,
+                    "master_customer_id": 4,
+                    "source_system_code": "Tax",
+                    "Council_Tax": [
+                        {
+                            "council_tax_id": 7,
+                            "cmi_cross_ref_id": 102
+                        }
+                    ],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                }
+            ]
+        },
+        {
+            "master_customer_id": 5,
+            "cmi_details": "Gottlieb, Becker and Wyman",
+            "CMI_Cross_References": [
+                {
+                    "cmi_cross_ref_id": 4,
+                    "master_customer_id": 5,
+                    "source_system_code": "Parking",
+                    "Council_Tax": [],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [
+                        {
+                            "council_tax_id": 9,
+                            "cmi_cross_ref_id": 4
+                        }
+                    ],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                },
+                {
+                    "cmi_cross_ref_id": 41,
+                    "master_customer_id": 5,
+                    "source_system_code": "Benefits",
+                    "Council_Tax": [],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [
+                        {
+                            "council_tax_id": 6,
+                            "cmi_cross_ref_id": 41
+                        }
+                    ],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                },
+                {
+                    "cmi_cross_ref_id": 48,
+                    "master_customer_id": 5,
+                    "source_system_code": "Benefits",
+                    "Council_Tax": [],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [
+                        {
+                            "council_tax_id": 8,
+                            "cmi_cross_ref_id": 48
+                        }
+                    ],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                },
+                {
+                    "cmi_cross_ref_id": 75,
+                    "master_customer_id": 5,
+                    "source_system_code": "Electoral",
+                    "Council_Tax": [],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": [
+                        {
+                            "electoral_register_id": 8,
+                            "cmi_cross_ref_id": 75
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "master_customer_id": 6,
+            "cmi_details": "Mayer-Hagenes",
+            "CMI_Cross_References": []
+        },
+        {
+            "master_customer_id": 7,
+            "cmi_details": "Streich-Morissette",
+            "CMI_Cross_References": []
+        },
+        {
+            "master_customer_id": 8,
+            "cmi_details": "Quigley-Paucek",
+            "CMI_Cross_References": []
+        },
+        {
+            "master_customer_id": 9,
+            "cmi_details": "Reynolds-McClure",
+            "CMI_Cross_References": [
+                {
+                    "cmi_cross_ref_id": 65,
+                    "master_customer_id": 9,
+                    "source_system_code": "Benefits",
+                    "Council_Tax": [],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [
+                        {
+                            "council_tax_id": 3,
+                            "cmi_cross_ref_id": 65
+                        }
+                    ],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": [
+                        {
+                            "electoral_register_id": 3,
+                            "cmi_cross_ref_id": 65
+                        },
+                        {
+                            "electoral_register_id": 7,
+                            "cmi_cross_ref_id": 65
+                        }
+                    ]
+                },
+                {
+                    "cmi_cross_ref_id": 81,
+                    "master_customer_id": 9,
+                    "source_system_code": "Parking",
+                    "Council_Tax": [],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [
+                        {
+                            "council_tax_id": 10,
+                            "cmi_cross_ref_id": 81
+                        }
+                    ],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                },
+                {
+                    "cmi_cross_ref_id": 99,
+                    "master_customer_id": 9,
+                    "source_system_code": "Business",
+                    "Council_Tax": [],
+                    "Business_Rates": [
+                        {
+                            "business_rates_id": 2,
+                            "cmi_cross_ref_id": 99
+                        }
+                    ],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                },
+                {
+                    "cmi_cross_ref_id": 103,
+                    "master_customer_id": 9,
+                    "source_system_code": "Tax",
+                    "Council_Tax": [
+                        {
+                            "council_tax_id": 2,
+                            "cmi_cross_ref_id": 103
+                        }
+                    ],
+                    "Business_Rates": [],
+                    "Benefits_Overpayments": [],
+                    "Parking_Fines": [],
+                    "Rent_Arrears": [],
+                    "Electoral_Register": []
+                }
+            ]
+        }
+    ]
+}

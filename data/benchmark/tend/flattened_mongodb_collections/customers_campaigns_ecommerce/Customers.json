@@ -1,0 +1,715 @@
+[
+  {
+    "customer_id": 1,
+    "payment_method": "Credit Card",
+    "customer_name": "Wendell",
+    "customer_phone": "(773)971-9411x759",
+    "customer_email": "rodriguez.nathanael@example.net",
+    "customer_address": "618 Webster Stream Apt. 161",
+    "customer_login": null,
+    "customer_password": "b4459ad261",
+    "Customer_Addresses": [
+      {
+        "customer_id": 1,
+        "premise_id": 1,
+        "date_address_from": "1975-12-24 10:01:37",
+        "address_type_code": "Shipping",
+        "date_address_to": "2018-03-08 08:03:51"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 4,
+        "customer_id": 1,
+        "order_status_code": "Delivered",
+        "shipping_method_code": "UPS",
+        "order_placed_datetime": "2008-10-23 06:42:10",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "98.73",
+        "Order_Items": []
+      },
+      {
+        "order_id": 9,
+        "customer_id": 1,
+        "order_status_code": "Cancelled",
+        "shipping_method_code": "FedEx",
+        "order_placed_datetime": "2009-05-30 16:13:26",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "57.36",
+        "Order_Items": []
+      },
+      {
+        "order_id": 11,
+        "customer_id": 1,
+        "order_status_code": "Paid",
+        "shipping_method_code": "Unspecified",
+        "order_placed_datetime": "2015-12-29 10:39:56",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "22.84",
+        "Order_Items": [
+          {
+            "item_id": 5,
+            "order_item_status_code": "Paid",
+            "order_id": 11,
+            "product_id": 5,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-07 12:35:59",
+            "item_order_quantity": "6"
+          },
+          {
+            "item_id": 12,
+            "order_item_status_code": "Delivered",
+            "order_id": 11,
+            "product_id": 9,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-03 00:19:41",
+            "item_order_quantity": "5"
+          }
+        ]
+      }
+    ],
+    "Mailshot_Customers": [
+      {
+        "mailshot_id": 10,
+        "customer_id": 1,
+        "outcome_code": "No Response",
+        "mailshot_customer_date": "2018-03-04 13:06:55"
+      },
+      {
+        "mailshot_id": 7,
+        "customer_id": 1,
+        "outcome_code": "Order",
+        "mailshot_customer_date": "2018-03-13 05:18:16"
+      },
+      {
+        "mailshot_id": 7,
+        "customer_id": 1,
+        "outcome_code": "No Response",
+        "mailshot_customer_date": "2018-03-03 15:29:56"
+      }
+    ]
+  },
+  {
+    "customer_id": 2,
+    "payment_method": "Direct Debit",
+    "customer_name": "Gage",
+    "customer_phone": "(402)890-2603x6005",
+    "customer_email": "stark.elna@example.net",
+    "customer_address": "0260 Walker Trace",
+    "customer_login": null,
+    "customer_password": "7905d7f1b1",
+    "Customer_Addresses": [
+      {
+        "customer_id": 2,
+        "premise_id": 2,
+        "date_address_from": "2010-02-23 02:49:50",
+        "address_type_code": "Billing",
+        "date_address_to": "2018-03-15 18:34:41"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 1,
+        "customer_id": 2,
+        "order_status_code": "Cancelled",
+        "shipping_method_code": "Unspecified",
+        "order_placed_datetime": "2015-06-15 18:19:26",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "85.79",
+        "Order_Items": []
+      },
+      {
+        "order_id": 6,
+        "customer_id": 2,
+        "order_status_code": "Cancelled",
+        "shipping_method_code": "Unspecified",
+        "order_placed_datetime": "2014-06-24 13:53:54",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "99.26",
+        "Order_Items": [
+          {
+            "item_id": 2,
+            "order_item_status_code": "Paid",
+            "order_id": 6,
+            "product_id": 7,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-02-27 18:04:55",
+            "item_order_quantity": "7"
+          },
+          {
+            "item_id": 6,
+            "order_item_status_code": "Delivered",
+            "order_id": 6,
+            "product_id": 10,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-03 22:22:38",
+            "item_order_quantity": "5"
+          },
+          {
+            "item_id": 9,
+            "order_item_status_code": "Delivered",
+            "order_id": 6,
+            "product_id": 6,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-22 04:33:17",
+            "item_order_quantity": "6"
+          }
+        ]
+      },
+      {
+        "order_id": 8,
+        "customer_id": 2,
+        "order_status_code": "Delivered",
+        "shipping_method_code": "Unspecified",
+        "order_placed_datetime": "2012-06-05 09:05:34",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "77.32",
+        "Order_Items": [
+          {
+            "item_id": 3,
+            "order_item_status_code": "Cancelled",
+            "order_id": 8,
+            "product_id": 1,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-16 15:58:27",
+            "item_order_quantity": "4"
+          }
+        ]
+      }
+    ],
+    "Mailshot_Customers": [
+      {
+        "mailshot_id": 18,
+        "customer_id": 2,
+        "outcome_code": "Order",
+        "mailshot_customer_date": "2018-03-20 23:40:02"
+      }
+    ]
+  },
+  {
+    "customer_id": 3,
+    "payment_method": "Direct Debit",
+    "customer_name": "Elvera",
+    "customer_phone": "1-878-600-7193x8180",
+    "customer_email": "madyson.mclaughlin@example.org",
+    "customer_address": "280 Landen Lake",
+    "customer_login": null,
+    "customer_password": "0b9f651030",
+    "Customer_Addresses": [
+      {
+        "customer_id": 3,
+        "premise_id": 2,
+        "date_address_from": "1995-03-26 17:39:46",
+        "address_type_code": "Shipping",
+        "date_address_to": "2018-02-27 17:42:19"
+      },
+      {
+        "customer_id": 3,
+        "premise_id": 14,
+        "date_address_from": "2002-02-01 02:55:13",
+        "address_type_code": "Billing",
+        "date_address_to": "2018-03-16 11:55:11"
+      }
+    ],
+    "Customer_Orders": [],
+    "Mailshot_Customers": [
+      {
+        "mailshot_id": 4,
+        "customer_id": 3,
+        "outcome_code": "Order",
+        "mailshot_customer_date": "2018-03-15 15:43:14"
+      }
+    ]
+  },
+  {
+    "customer_id": 4,
+    "payment_method": "Direct Debit",
+    "customer_name": "Stella",
+    "customer_phone": "+43(3)1861877192",
+    "customer_email": "kristina85@example.org",
+    "customer_address": "5607 Ryann Canyon",
+    "customer_login": null,
+    "customer_password": "f64f0fd096",
+    "Customer_Addresses": [
+      {
+        "customer_id": 4,
+        "premise_id": 8,
+        "date_address_from": "1985-03-18 20:46:30",
+        "address_type_code": "Shipping",
+        "date_address_to": "2018-02-27 16:47:24"
+      }
+    ],
+    "Customer_Orders": [],
+    "Mailshot_Customers": [
+      {
+        "mailshot_id": 10,
+        "customer_id": 4,
+        "outcome_code": "No Response",
+        "mailshot_customer_date": "2018-03-15 04:05:08"
+      }
+    ]
+  },
+  {
+    "customer_id": 5,
+    "payment_method": "Credit Card",
+    "customer_name": "Magdalena",
+    "customer_phone": "1-352-291-1721x265",
+    "customer_email": "franecki.danial@example.com",
+    "customer_address": "523 Mose Hills",
+    "customer_login": null,
+    "customer_password": "bdfdc8e91a",
+    "Customer_Addresses": [
+      {
+        "customer_id": 5,
+        "premise_id": 5,
+        "date_address_from": "1931-03-24 11:44:07",
+        "address_type_code": "Shipping",
+        "date_address_to": "2018-03-05 02:34:01"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 15,
+        "customer_id": 5,
+        "order_status_code": "Delivered",
+        "shipping_method_code": "FedEx",
+        "order_placed_datetime": "2009-01-18 20:06:19",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "74.28",
+        "Order_Items": [
+          {
+            "item_id": 11,
+            "order_item_status_code": "Paid",
+            "order_id": 15,
+            "product_id": 3,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-12 20:01:38",
+            "item_order_quantity": "1"
+          },
+          {
+            "item_id": 14,
+            "order_item_status_code": "Paid",
+            "order_id": 15,
+            "product_id": 13,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-17 07:10:51",
+            "item_order_quantity": "9"
+          }
+        ]
+      }
+    ],
+    "Mailshot_Customers": []
+  },
+  {
+    "customer_id": 6,
+    "payment_method": "Direct Debit",
+    "customer_name": "Carlotta",
+    "customer_phone": "+66(7)1491041398",
+    "customer_email": "fstanton@example.net",
+    "customer_address": "31932 Kailey Lodge",
+    "customer_login": null,
+    "customer_password": "a8467590fd",
+    "Customer_Addresses": [],
+    "Customer_Orders": [],
+    "Mailshot_Customers": [
+      {
+        "mailshot_id": 15,
+        "customer_id": 6,
+        "outcome_code": "Order",
+        "mailshot_customer_date": "2018-03-06 21:21:38"
+      },
+      {
+        "mailshot_id": 15,
+        "customer_id": 6,
+        "outcome_code": "Order",
+        "mailshot_customer_date": "2018-02-27 20:51:37"
+      },
+      {
+        "mailshot_id": 6,
+        "customer_id": 6,
+        "outcome_code": "No Response",
+        "mailshot_customer_date": "2018-03-05 17:35:24"
+      }
+    ]
+  },
+  {
+    "customer_id": 7,
+    "payment_method": "Direct Debit",
+    "customer_name": "Leanna",
+    "customer_phone": "203-036-0511x96487",
+    "customer_email": "marc.schiller@example.com",
+    "customer_address": "94105 Bahringer Oval Suite 178",
+    "customer_login": null,
+    "customer_password": "67e9037197",
+    "Customer_Addresses": [
+      {
+        "customer_id": 7,
+        "premise_id": 1,
+        "date_address_from": "1929-05-14 04:29:43",
+        "address_type_code": "Billing",
+        "date_address_to": "2018-03-16 18:51:47"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 5,
+        "customer_id": 7,
+        "order_status_code": "Paid",
+        "shipping_method_code": "FedEx",
+        "order_placed_datetime": "2017-05-28 05:48:26",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "35.63",
+        "Order_Items": []
+      }
+    ],
+    "Mailshot_Customers": []
+  },
+  {
+    "customer_id": 8,
+    "payment_method": "Direct Debit",
+    "customer_name": "Ruthie",
+    "customer_phone": "(840)754-4148x20545",
+    "customer_email": "elva.mccullough@example.org",
+    "customer_address": "5514 Ophelia Cliffs Apt. 266",
+    "customer_login": null,
+    "customer_password": "280160b7b3",
+    "Customer_Addresses": [
+      {
+        "customer_id": 8,
+        "premise_id": 4,
+        "date_address_from": "1939-01-15 17:55:39",
+        "address_type_code": "Shipping",
+        "date_address_to": "2018-03-13 08:21:27"
+      },
+      {
+        "customer_id": 8,
+        "premise_id": 12,
+        "date_address_from": "1984-06-16 10:10:37",
+        "address_type_code": "Billing",
+        "date_address_to": "2018-03-05 11:26:03"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 2,
+        "customer_id": 8,
+        "order_status_code": "Cancelled",
+        "shipping_method_code": "Unspecified",
+        "order_placed_datetime": "2009-07-05 20:02:55",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "98.4",
+        "Order_Items": [
+          {
+            "item_id": 8,
+            "order_item_status_code": "Delivered",
+            "order_id": 2,
+            "product_id": 5,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-05 14:33:02",
+            "item_order_quantity": "4"
+          }
+        ]
+      }
+    ],
+    "Mailshot_Customers": []
+  },
+  {
+    "customer_id": 9,
+    "payment_method": "Credit Card",
+    "customer_name": "Donnie",
+    "customer_phone": "(030)521-0681x0191",
+    "customer_email": "saul30@example.net",
+    "customer_address": "115 Farrell Squares Suite 599",
+    "customer_login": null,
+    "customer_password": "22dc8bfaf5",
+    "Customer_Addresses": [],
+    "Customer_Orders": [
+      {
+        "order_id": 3,
+        "customer_id": 9,
+        "order_status_code": "Cancelled",
+        "shipping_method_code": "FedEx",
+        "order_placed_datetime": "2008-11-15 12:22:36",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "36.87",
+        "Order_Items": []
+      }
+    ],
+    "Mailshot_Customers": [
+      {
+        "mailshot_id": 15,
+        "customer_id": 9,
+        "outcome_code": "No Response",
+        "mailshot_customer_date": "2018-03-11 11:32:20"
+      }
+    ]
+  },
+  {
+    "customer_id": 10,
+    "payment_method": "Direct Debit",
+    "customer_name": "Shanel",
+    "customer_phone": "1-957-676-9414",
+    "customer_email": "kheathcote@example.org",
+    "customer_address": "80569 Crona Path Suite 165",
+    "customer_login": null,
+    "customer_password": "d93857e0c2",
+    "Customer_Addresses": [
+      {
+        "customer_id": 10,
+        "premise_id": 10,
+        "date_address_from": "1972-06-06 01:50:40",
+        "address_type_code": "Billing",
+        "date_address_to": "2018-03-08 21:09:30"
+      }
+    ],
+    "Customer_Orders": [],
+    "Mailshot_Customers": []
+  },
+  {
+    "customer_id": 11,
+    "payment_method": "Direct Debit",
+    "customer_name": "Osborne",
+    "customer_phone": "232.171.7032",
+    "customer_email": "vpowlowski@example.net",
+    "customer_address": "509 Isabelle Route",
+    "customer_login": null,
+    "customer_password": "b00e35cc0a",
+    "Customer_Addresses": [
+      {
+        "customer_id": 11,
+        "premise_id": 6,
+        "date_address_from": "1975-04-23 20:41:01",
+        "address_type_code": "Billing",
+        "date_address_to": "2018-03-04 03:08:46"
+      },
+      {
+        "customer_id": 11,
+        "premise_id": 3,
+        "date_address_from": "1920-08-18 04:42:55",
+        "address_type_code": "Shipping",
+        "date_address_to": "2018-03-22 22:46:52"
+      },
+      {
+        "customer_id": 11,
+        "premise_id": 5,
+        "date_address_from": "1960-07-31 06:10:20",
+        "address_type_code": "Shipping",
+        "date_address_to": "2018-03-09 03:34:11"
+      }
+    ],
+    "Customer_Orders": [],
+    "Mailshot_Customers": [
+      {
+        "mailshot_id": 20,
+        "customer_id": 11,
+        "outcome_code": "Order",
+        "mailshot_customer_date": "2018-03-01 21:39:07"
+      },
+      {
+        "mailshot_id": 17,
+        "customer_id": 11,
+        "outcome_code": "Order",
+        "mailshot_customer_date": "2018-03-05 20:48:13"
+      }
+    ]
+  },
+  {
+    "customer_id": 12,
+    "payment_method": "Direct Debit",
+    "customer_name": "Kyle",
+    "customer_phone": "291-425-7193",
+    "customer_email": "davis.rosamond@example.net",
+    "customer_address": "056 Ibrahim Path Suite 669",
+    "customer_login": null,
+    "customer_password": "341f672c2c",
+    "Customer_Addresses": [],
+    "Customer_Orders": [
+      {
+        "order_id": 12,
+        "customer_id": 12,
+        "order_status_code": "Cancelled",
+        "shipping_method_code": "Unspecified",
+        "order_placed_datetime": "2016-10-20 20:59:35",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "21.24",
+        "Order_Items": []
+      },
+      {
+        "order_id": 13,
+        "customer_id": 12,
+        "order_status_code": "Paid",
+        "shipping_method_code": "FedEx",
+        "order_placed_datetime": "2013-06-16 17:51:45",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "31.33",
+        "Order_Items": [
+          {
+            "item_id": 4,
+            "order_item_status_code": "Cancelled",
+            "order_id": 13,
+            "product_id": 11,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-04 18:19:12",
+            "item_order_quantity": "3"
+          }
+        ]
+      }
+    ],
+    "Mailshot_Customers": []
+  },
+  {
+    "customer_id": 13,
+    "payment_method": "Credit Card",
+    "customer_name": "Annabel",
+    "customer_phone": "100.220.3484",
+    "customer_email": "yoshiko.balistreri@example.org",
+    "customer_address": "56955 Desmond Lake Apt. 120",
+    "customer_login": null,
+    "customer_password": "9dc50bc5b6",
+    "Customer_Addresses": [
+      {
+        "customer_id": 13,
+        "premise_id": 6,
+        "date_address_from": "1990-12-19 22:02:27",
+        "address_type_code": "Billing",
+        "date_address_to": "2018-03-24 07:12:35"
+      }
+    ],
+    "Customer_Orders": [],
+    "Mailshot_Customers": [
+      {
+        "mailshot_id": 10,
+        "customer_id": 13,
+        "outcome_code": "Order",
+        "mailshot_customer_date": "2018-02-26 02:17:16"
+      },
+      {
+        "mailshot_id": 15,
+        "customer_id": 13,
+        "outcome_code": "Order",
+        "mailshot_customer_date": "2018-03-07 11:19:43"
+      }
+    ]
+  },
+  {
+    "customer_id": 14,
+    "payment_method": "Direct Debit",
+    "customer_name": "Geovanny",
+    "customer_phone": "205.496.0690x53058",
+    "customer_email": "jesus.robel@example.org",
+    "customer_address": "0813 Carolina Bridge Suite 488",
+    "customer_login": null,
+    "customer_password": "49f32173a2",
+    "Customer_Addresses": [],
+    "Customer_Orders": [
+      {
+        "order_id": 10,
+        "customer_id": 14,
+        "order_status_code": "Paid",
+        "shipping_method_code": "Unspecified",
+        "order_placed_datetime": "2013-08-29 03:17:04",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "33.58",
+        "Order_Items": [
+          {
+            "item_id": 1,
+            "order_item_status_code": "Delivered",
+            "order_id": 10,
+            "product_id": 13,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-02-25 18:22:10",
+            "item_order_quantity": "6"
+          }
+        ]
+      },
+      {
+        "order_id": 14,
+        "customer_id": 14,
+        "order_status_code": "Paid",
+        "shipping_method_code": "UPS",
+        "order_placed_datetime": "2010-04-29 08:21:49",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "46.4",
+        "Order_Items": [
+          {
+            "item_id": 13,
+            "order_item_status_code": "Paid",
+            "order_id": 14,
+            "product_id": 1,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-07 15:53:54",
+            "item_order_quantity": "5"
+          },
+          {
+            "item_id": 15,
+            "order_item_status_code": "Paid",
+            "order_id": 14,
+            "product_id": 9,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-05 12:04:23",
+            "item_order_quantity": "4"
+          }
+        ]
+      }
+    ],
+    "Mailshot_Customers": [
+      {
+        "mailshot_id": 18,
+        "customer_id": 14,
+        "outcome_code": "Order",
+        "mailshot_customer_date": "2018-03-14 01:08:29"
+      }
+    ]
+  },
+  {
+    "customer_id": 15,
+    "payment_method": "Direct Debit",
+    "customer_name": "Mitchell",
+    "customer_phone": "698-327-5792",
+    "customer_email": "princess75@example.com",
+    "customer_address": "6735 Daron Lane Apt. 271",
+    "customer_login": null,
+    "customer_password": "791b1b3e64",
+    "Customer_Addresses": [
+      {
+        "customer_id": 15,
+        "premise_id": 1,
+        "date_address_from": "1992-08-23 21:17:38",
+        "address_type_code": "Billing",
+        "date_address_to": "2018-02-28 20:54:58"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 7,
+        "customer_id": 15,
+        "order_status_code": "Cancelled",
+        "shipping_method_code": "FedEx",
+        "order_placed_datetime": "2014-08-28 15:08:12",
+        "order_delivered_datetime": "2018-03-20 12:00:00",
+        "order_shipping_charges": "26.56",
+        "Order_Items": [
+          {
+            "item_id": 7,
+            "order_item_status_code": "Delivered",
+            "order_id": 7,
+            "product_id": 14,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-04 01:39:37",
+            "item_order_quantity": "6"
+          },
+          {
+            "item_id": 10,
+            "order_item_status_code": "Cancelled",
+            "order_id": 7,
+            "product_id": 9,
+            "item_status_code": "good",
+            "item_delivered_datetime": "2018-03-03 00:37:19",
+            "item_order_quantity": "2"
+          }
+        ]
+      }
+    ],
+    "Mailshot_Customers": []
+  }
+]

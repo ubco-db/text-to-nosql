@@ -1,0 +1,637 @@
+[
+  {
+    "StuID": 1001,
+    "LName": "Smith",
+    "Fname": "Linda",
+    "Age": 18,
+    "Sex": "F",
+    "Major": 600,
+    "Advisor": 1121,
+    "city_code": "BAL",
+    "Has_Allergy": [
+      {
+        "StuID": 1001,
+        "Allergy": "Cat"
+      }
+    ]
+  },
+  {
+    "StuID": 1002,
+    "LName": "Kim",
+    "Fname": "Tracy",
+    "Age": 19,
+    "Sex": "F",
+    "Major": 600,
+    "Advisor": 7712,
+    "city_code": "HKG",
+    "Has_Allergy": [
+      {
+        "StuID": 1002,
+        "Allergy": "Shellfish"
+      },
+      {
+        "StuID": 1002,
+        "Allergy": "Tree Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1003,
+    "LName": "Jones",
+    "Fname": "Shiela",
+    "Age": 21,
+    "Sex": "F",
+    "Major": 600,
+    "Advisor": 7792,
+    "city_code": "WAS",
+    "Has_Allergy": [
+      {
+        "StuID": 1003,
+        "Allergy": "Dog"
+      }
+    ]
+  },
+  {
+    "StuID": 1004,
+    "LName": "Kumar",
+    "Fname": "Dinesh",
+    "Age": 20,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 8423,
+    "city_code": "CHI",
+    "Has_Allergy": [
+      {
+        "StuID": 1004,
+        "Allergy": "Nuts"
+      }
+    ]
+  },
+  {
+    "StuID": 1005,
+    "LName": "Gompers",
+    "Fname": "Paul",
+    "Age": 26,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 1121,
+    "city_code": "YYZ",
+    "Has_Allergy": [
+      {
+        "StuID": 1005,
+        "Allergy": "Nuts"
+      },
+      {
+        "StuID": 1005,
+        "Allergy": "Tree Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1006,
+    "LName": "Schultz",
+    "Fname": "Andy",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 1148,
+    "city_code": "BAL",
+    "Has_Allergy": [
+      {
+        "StuID": 1006,
+        "Allergy": "Nuts"
+      }
+    ]
+  },
+  {
+    "StuID": 1007,
+    "LName": "Apap",
+    "Fname": "Lisa",
+    "Age": 18,
+    "Sex": "F",
+    "Major": 600,
+    "Advisor": 8918,
+    "city_code": "PIT",
+    "Has_Allergy": [
+      {
+        "StuID": 1007,
+        "Allergy": "Ragweed"
+      },
+      {
+        "StuID": 1007,
+        "Allergy": "Tree Pollen"
+      },
+      {
+        "StuID": 1007,
+        "Allergy": "Grass Pollen"
+      },
+      {
+        "StuID": 1007,
+        "Allergy": "Eggs"
+      },
+      {
+        "StuID": 1007,
+        "Allergy": "Milk"
+      },
+      {
+        "StuID": 1007,
+        "Allergy": "Shellfish"
+      },
+      {
+        "StuID": 1007,
+        "Allergy": "Anchovies"
+      },
+      {
+        "StuID": 1007,
+        "Allergy": "Cat"
+      },
+      {
+        "StuID": 1007,
+        "Allergy": "Dog"
+      }
+    ]
+  },
+  {
+    "StuID": 1008,
+    "LName": "Nelson",
+    "Fname": "Jandy",
+    "Age": 20,
+    "Sex": "F",
+    "Major": 600,
+    "Advisor": 9172,
+    "city_code": "BAL",
+    "Has_Allergy": []
+  },
+  {
+    "StuID": 1009,
+    "LName": "Tai",
+    "Fname": "Eric",
+    "Age": 19,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 2192,
+    "city_code": "YYZ",
+    "Has_Allergy": [
+      {
+        "StuID": 1009,
+        "Allergy": "Tree Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1010,
+    "LName": "Lee",
+    "Fname": "Derek",
+    "Age": 17,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 2192,
+    "city_code": "HOU",
+    "Has_Allergy": [
+      {
+        "StuID": 1010,
+        "Allergy": "Ragweed"
+      },
+      {
+        "StuID": 1010,
+        "Allergy": "Tree Pollen"
+      },
+      {
+        "StuID": 1010,
+        "Allergy": "Grass Pollen"
+      },
+      {
+        "StuID": 1010,
+        "Allergy": "Eggs"
+      },
+      {
+        "StuID": 1010,
+        "Allergy": "Milk"
+      },
+      {
+        "StuID": 1010,
+        "Allergy": "Shellfish"
+      },
+      {
+        "StuID": 1010,
+        "Allergy": "Anchovies"
+      },
+      {
+        "StuID": 1010,
+        "Allergy": "Cat"
+      },
+      {
+        "StuID": 1010,
+        "Allergy": "Dog"
+      }
+    ]
+  },
+  {
+    "StuID": 1011,
+    "LName": "Adams",
+    "Fname": "David",
+    "Age": 22,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 1148,
+    "city_code": "PHL",
+    "Has_Allergy": [
+      {
+        "StuID": 1011,
+        "Allergy": "Ragweed"
+      }
+    ]
+  },
+  {
+    "StuID": 1012,
+    "LName": "Davis",
+    "Fname": "Steven",
+    "Age": 20,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 7723,
+    "city_code": "PIT",
+    "Has_Allergy": [
+      {
+        "StuID": 1012,
+        "Allergy": "Ragweed"
+      }
+    ]
+  },
+  {
+    "StuID": 1014,
+    "LName": "Norris",
+    "Fname": "Charles",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 8741,
+    "city_code": "DAL",
+    "Has_Allergy": [
+      {
+        "StuID": 1014,
+        "Allergy": "Nuts"
+      }
+    ]
+  },
+  {
+    "StuID": 1015,
+    "LName": "Lee",
+    "Fname": "Susan",
+    "Age": 16,
+    "Sex": "F",
+    "Major": 600,
+    "Advisor": 8721,
+    "city_code": "HKG",
+    "Has_Allergy": [
+      {
+        "StuID": 1015,
+        "Allergy": "Nuts"
+      },
+      {
+        "StuID": 1015,
+        "Allergy": "Soy"
+      }
+    ]
+  },
+  {
+    "StuID": 1016,
+    "LName": "Schwartz",
+    "Fname": "Mark",
+    "Age": 17,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 2192,
+    "city_code": "DET",
+    "Has_Allergy": [
+      {
+        "StuID": 1016,
+        "Allergy": "Nuts"
+      },
+      {
+        "StuID": 1016,
+        "Allergy": "Milk"
+      }
+    ]
+  },
+  {
+    "StuID": 1017,
+    "LName": "Wilson",
+    "Fname": "Bruce",
+    "Age": 27,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 1148,
+    "city_code": "LON",
+    "Has_Allergy": [
+      {
+        "StuID": 1017,
+        "Allergy": "Tree Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1018,
+    "LName": "Leighton",
+    "Fname": "Michael",
+    "Age": 20,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 1121,
+    "city_code": "PIT",
+    "Has_Allergy": [
+      {
+        "StuID": 1018,
+        "Allergy": "Nuts"
+      },
+      {
+        "StuID": 1018,
+        "Allergy": "Soy"
+      }
+    ]
+  },
+  {
+    "StuID": 1019,
+    "LName": "Pang",
+    "Fname": "Arthur",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 2192,
+    "city_code": "WAS",
+    "Has_Allergy": [
+      {
+        "StuID": 1019,
+        "Allergy": "Tree Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1020,
+    "LName": "Thornton",
+    "Fname": "Ian",
+    "Age": 22,
+    "Sex": "M",
+    "Major": 520,
+    "Advisor": 7271,
+    "city_code": "NYC",
+    "Has_Allergy": [
+      {
+        "StuID": 1020,
+        "Allergy": "Tree Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1021,
+    "LName": "Andreou",
+    "Fname": "George",
+    "Age": 19,
+    "Sex": "M",
+    "Major": 520,
+    "Advisor": 8722,
+    "city_code": "NYC",
+    "Has_Allergy": [
+      {
+        "StuID": 1021,
+        "Allergy": "Tree Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1022,
+    "LName": "Woods",
+    "Fname": "Michael",
+    "Age": 17,
+    "Sex": "M",
+    "Major": 540,
+    "Advisor": 8722,
+    "city_code": "PHL",
+    "Has_Allergy": [
+      {
+        "StuID": 1022,
+        "Allergy": "Nuts"
+      },
+      {
+        "StuID": 1022,
+        "Allergy": "Anchovies"
+      }
+    ]
+  },
+  {
+    "StuID": 1023,
+    "LName": "Shieber",
+    "Fname": "David",
+    "Age": 20,
+    "Sex": "M",
+    "Major": 520,
+    "Advisor": 8722,
+    "city_code": "NYC",
+    "Has_Allergy": [
+      {
+        "StuID": 1023,
+        "Allergy": "Rodent"
+      },
+      {
+        "StuID": 1023,
+        "Allergy": "Cat"
+      },
+      {
+        "StuID": 1023,
+        "Allergy": "Nuts"
+      }
+    ]
+  },
+  {
+    "StuID": 1024,
+    "LName": "Prater",
+    "Fname": "Stacy",
+    "Age": 18,
+    "Sex": "F",
+    "Major": 540,
+    "Advisor": 7271,
+    "city_code": "BAL",
+    "Has_Allergy": [
+      {
+        "StuID": 1024,
+        "Allergy": "Ragweed"
+      },
+      {
+        "StuID": 1024,
+        "Allergy": "Tree Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1025,
+    "LName": "Goldman",
+    "Fname": "Mark",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 520,
+    "Advisor": 7134,
+    "city_code": "PIT",
+    "Has_Allergy": [
+      {
+        "StuID": 1025,
+        "Allergy": "Tree Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1026,
+    "LName": "Pang",
+    "Fname": "Eric",
+    "Age": 19,
+    "Sex": "M",
+    "Major": 520,
+    "Advisor": 7134,
+    "city_code": "HKG",
+    "Has_Allergy": [
+      {
+        "StuID": 1026,
+        "Allergy": "Grass Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1027,
+    "LName": "Brody",
+    "Fname": "Paul",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 520,
+    "Advisor": 8723,
+    "city_code": "LOS",
+    "Has_Allergy": [
+      {
+        "StuID": 1027,
+        "Allergy": "Tree Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1028,
+    "LName": "Rugh",
+    "Fname": "Eric",
+    "Age": 20,
+    "Sex": "M",
+    "Major": 550,
+    "Advisor": 2311,
+    "city_code": "ROC",
+    "Has_Allergy": [
+      {
+        "StuID": 1028,
+        "Allergy": "Tree Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1029,
+    "LName": "Han",
+    "Fname": "Jun",
+    "Age": 17,
+    "Sex": "M",
+    "Major": 100,
+    "Advisor": 2311,
+    "city_code": "PEK",
+    "Has_Allergy": [
+      {
+        "StuID": 1029,
+        "Allergy": "Soy"
+      },
+      {
+        "StuID": 1029,
+        "Allergy": "Nuts"
+      },
+      {
+        "StuID": 1029,
+        "Allergy": "Eggs"
+      }
+    ]
+  },
+  {
+    "StuID": 1030,
+    "LName": "Cheng",
+    "Fname": "Lisa",
+    "Age": 21,
+    "Sex": "F",
+    "Major": 550,
+    "Advisor": 2311,
+    "city_code": "SFO",
+    "Has_Allergy": [
+      {
+        "StuID": 1030,
+        "Allergy": "Grass Pollen"
+      }
+    ]
+  },
+  {
+    "StuID": 1031,
+    "LName": "Smith",
+    "Fname": "Sarah",
+    "Age": 20,
+    "Sex": "F",
+    "Major": 550,
+    "Advisor": 8772,
+    "city_code": "PHL",
+    "Has_Allergy": [
+      {
+        "StuID": 1031,
+        "Allergy": "Nuts"
+      },
+      {
+        "StuID": 1031,
+        "Allergy": "Shellfish"
+      },
+      {
+        "StuID": 1031,
+        "Allergy": "Soy"
+      }
+    ]
+  },
+  {
+    "StuID": 1032,
+    "LName": "Brown",
+    "Fname": "Eric",
+    "Age": 20,
+    "Sex": "M",
+    "Major": 550,
+    "Advisor": 8772,
+    "city_code": "ATL",
+    "Has_Allergy": []
+  },
+  {
+    "StuID": 1033,
+    "LName": "Simms",
+    "Fname": "William",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 550,
+    "Advisor": 8772,
+    "city_code": "NAR",
+    "Has_Allergy": []
+  },
+  {
+    "StuID": 1034,
+    "LName": "Epp",
+    "Fname": "Eric",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 50,
+    "Advisor": 5718,
+    "city_code": "BOS",
+    "Has_Allergy": []
+  },
+  {
+    "StuID": 1035,
+    "LName": "Schmidt",
+    "Fname": "Sarah",
+    "Age": 26,
+    "Sex": "F",
+    "Major": 50,
+    "Advisor": 5718,
+    "city_code": "WAS",
+    "Has_Allergy": []
+  }
+]

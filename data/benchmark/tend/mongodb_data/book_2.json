@@ -1,0 +1,130 @@
+{
+    "book": [
+        {
+            "Book_ID": 1,
+            "Title": "The Black Lamb",
+            "Issues": 6.0,
+            "Writer": "Timothy Truman",
+            "publication": [
+                {
+                    "Publication_ID": 1,
+                    "Book_ID": 1,
+                    "Publisher": "Pearson",
+                    "Publication_Date": "August 2008",
+                    "Price": 15000000.0
+                }
+            ]
+        },
+        {
+            "Book_ID": 2,
+            "Title": "Bloody Mary",
+            "Issues": 4.0,
+            "Writer": "Garth Ennis",
+            "publication": []
+        },
+        {
+            "Book_ID": 3,
+            "Title": "Bloody Mary : Lady Liberty",
+            "Issues": 4.0,
+            "Writer": "Garth Ennis",
+            "publication": [
+                {
+                    "Publication_ID": 2,
+                    "Book_ID": 3,
+                    "Publisher": "Thomson Reuters",
+                    "Publication_Date": "March 2008",
+                    "Price": 6000000.0
+                }
+            ]
+        },
+        {
+            "Book_ID": 4,
+            "Title": "BrainBanx",
+            "Issues": 6.0,
+            "Writer": "Elaine Lee",
+            "publication": [
+                {
+                    "Publication_ID": 3,
+                    "Book_ID": 4,
+                    "Publisher": "Wiley",
+                    "Publication_Date": "June 2006",
+                    "Price": 4100000.0
+                }
+            ]
+        },
+        {
+            "Book_ID": 5,
+            "Title": "Cyberella",
+            "Issues": 12.0,
+            "Writer": "Howard Chaykin",
+            "publication": [
+                {
+                    "Publication_ID": 4,
+                    "Book_ID": 5,
+                    "Publisher": "Wiley",
+                    "Publication_Date": "October 2005",
+                    "Price": 3000000.0
+                }
+            ]
+        },
+        {
+            "Book_ID": 6,
+            "Title": "Dead Corps",
+            "Issues": 4.0,
+            "Writer": "Christopher Hinz",
+            "publication": []
+        },
+        {
+            "Book_ID": 7,
+            "Title": "The Dome: Ground Zero",
+            "Issues": 1.0,
+            "Writer": "Dave Gibbons",
+            "publication": [
+                {
+                    "Publication_ID": 5,
+                    "Book_ID": 7,
+                    "Publisher": "Springer Nature",
+                    "Publication_Date": "August 2008",
+                    "Price": 3000000.0
+                }
+            ]
+        },
+        {
+            "Book_ID": 8,
+            "Title": "Gemini Blood",
+            "Issues": 9.0,
+            "Writer": "Christopher Hinz",
+            "publication": []
+        },
+        {
+            "Book_ID": 9,
+            "Title": "Michael Moorcock's Multiverse",
+            "Issues": 12.0,
+            "Writer": "Michael Moorcock",
+            "publication": [
+                {
+                    "Publication_ID": 6,
+                    "Book_ID": 9,
+                    "Publisher": "Pearson",
+                    "Publication_Date": "March 2007",
+                    "Price": 2000000.0
+                }
+            ]
+        },
+        {
+            "Book_ID": 10,
+            "Title": "Sheva's War",
+            "Issues": 5.0,
+            "Writer": "Christopher Moeller",
+            "publication": [
+                {
+                    "Publication_ID": 7,
+                    "Book_ID": 10,
+                    "Publisher": "Bertelsmann",
+                    "Publication_Date": "April 2007",
+                    "Price": 2000000.0
+                }
+            ]
+        }
+    ]
+}

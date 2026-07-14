@@ -1,0 +1,4 @@
+requests
+demjson3
+pymongo
+tqdm

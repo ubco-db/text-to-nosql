@@ -1,0 +1,269 @@
+[
+  {
+    "Service_Type_Code": "1",
+    "Parent_Service_Type_Code": "1",
+    "Service_Type_Description": "provide photo service",
+    "Services": [
+      {
+        "Service_ID": 191,
+        "Service_Type_Code": "1",
+        "Workshop_Group_ID": 415,
+        "Product_Description": null,
+        "Product_Name": "film",
+        "Product_Price": 58932775.8822,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": [
+          {
+            "Order_ID": 4,
+            "Product_ID": 191,
+            "Invoice_Items": [
+              {
+                "Invoice_Item_ID": 2,
+                "Invoice_ID": 162,
+                "Order_ID": 4,
+                "Order_Item_ID": 6,
+                "Product_ID": 191,
+                "Order_Quantity": 6,
+                "Other_Item_Details": "Good quality"
+              }
+            ]
+          },
+          {
+            "Order_ID": 7,
+            "Product_ID": 191,
+            "Invoice_Items": []
+          }
+        ]
+      },
+      {
+        "Service_ID": 220,
+        "Service_Type_Code": "1",
+        "Workshop_Group_ID": 708,
+        "Product_Description": null,
+        "Product_Name": "dinning",
+        "Product_Price": 6888.8306,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": []
+      },
+      {
+        "Service_ID": 779,
+        "Service_Type_Code": "1",
+        "Workshop_Group_ID": 431,
+        "Product_Description": null,
+        "Product_Name": "film",
+        "Product_Price": 9130.7326,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": [
+          {
+            "Order_ID": 1,
+            "Product_ID": 779,
+            "Invoice_Items": []
+          }
+        ]
+      },
+      {
+        "Service_ID": 798,
+        "Service_Type_Code": "1",
+        "Workshop_Group_ID": 176,
+        "Product_Description": null,
+        "Product_Name": "film",
+        "Product_Price": 84063402.4351,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": []
+      },
+      {
+        "Service_ID": 840,
+        "Service_Type_Code": "1",
+        "Workshop_Group_ID": 405,
+        "Product_Description": null,
+        "Product_Name": "film",
+        "Product_Price": 187358.6469,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": []
+      }
+    ]
+  },
+  {
+    "Service_Type_Code": "2",
+    "Parent_Service_Type_Code": "1",
+    "Service_Type_Description": "provide dinning service",
+    "Services": [
+      {
+        "Service_ID": 219,
+        "Service_Type_Code": "2",
+        "Workshop_Group_ID": 838,
+        "Product_Description": null,
+        "Product_Name": "film",
+        "Product_Price": 2704.4719,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": []
+      },
+      {
+        "Service_ID": 414,
+        "Service_Type_Code": "2",
+        "Workshop_Group_ID": 954,
+        "Product_Description": null,
+        "Product_Name": "photo",
+        "Product_Price": 213.9459,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": [
+          {
+            "Order_ID": 4,
+            "Product_ID": 414,
+            "Invoice_Items": []
+          },
+          {
+            "Order_ID": 8,
+            "Product_ID": 414,
+            "Invoice_Items": []
+          }
+        ]
+      },
+      {
+        "Service_ID": 597,
+        "Service_Type_Code": "2",
+        "Workshop_Group_ID": 735,
+        "Product_Description": null,
+        "Product_Name": "photo",
+        "Product_Price": 5396.2935,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": [
+          {
+            "Order_ID": 12,
+            "Product_ID": 597,
+            "Invoice_Items": []
+          }
+        ]
+      },
+      {
+        "Service_ID": 640,
+        "Service_Type_Code": "2",
+        "Workshop_Group_ID": 382,
+        "Product_Description": null,
+        "Product_Name": "dinning",
+        "Product_Price": 7299.6747,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": [
+          {
+            "Order_ID": 7,
+            "Product_ID": 640,
+            "Invoice_Items": []
+          }
+        ]
+      },
+      {
+        "Service_ID": 662,
+        "Service_Type_Code": "2",
+        "Workshop_Group_ID": 954,
+        "Product_Description": null,
+        "Product_Name": "dinning",
+        "Product_Price": 641544.2835,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": []
+      }
+    ]
+  },
+  {
+    "Service_Type_Code": "3",
+    "Parent_Service_Type_Code": "1",
+    "Service_Type_Description": "provide filming service",
+    "Services": [
+      {
+        "Service_ID": 396,
+        "Service_Type_Code": "3",
+        "Workshop_Group_ID": 735,
+        "Product_Description": null,
+        "Product_Name": "photo",
+        "Product_Price": 31862.0853,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": [
+          {
+            "Order_ID": 1,
+            "Product_ID": 396,
+            "Invoice_Items": [
+              {
+                "Invoice_Item_ID": 1,
+                "Invoice_ID": 128,
+                "Order_ID": 1,
+                "Order_Item_ID": 5,
+                "Product_ID": 396,
+                "Order_Quantity": 2,
+                "Other_Item_Details": null
+              }
+            ]
+          },
+          {
+            "Order_ID": 13,
+            "Product_ID": 396,
+            "Invoice_Items": []
+          }
+        ]
+      },
+      {
+        "Service_ID": 421,
+        "Service_Type_Code": "3",
+        "Workshop_Group_ID": 470,
+        "Product_Description": null,
+        "Product_Name": "photo",
+        "Product_Price": 8004.988,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": []
+      },
+      {
+        "Service_ID": 773,
+        "Service_Type_Code": "3",
+        "Workshop_Group_ID": 314,
+        "Product_Description": null,
+        "Product_Name": "dinning",
+        "Product_Price": 827055.7309,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": [
+          {
+            "Order_ID": 5,
+            "Product_ID": 773,
+            "Invoice_Items": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Service_Type_Code": "4",
+    "Parent_Service_Type_Code": "1",
+    "Service_Type_Description": "provide adv promoting service",
+    "Services": [
+      {
+        "Service_ID": 525,
+        "Service_Type_Code": "4",
+        "Workshop_Group_ID": 838,
+        "Product_Description": null,
+        "Product_Name": "photo",
+        "Product_Price": 3499362.8145,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": [
+          {
+            "Order_ID": 14,
+            "Product_ID": 525,
+            "Invoice_Items": []
+          }
+        ]
+      },
+      {
+        "Service_ID": 630,
+        "Service_Type_Code": "4",
+        "Workshop_Group_ID": 176,
+        "Product_Description": null,
+        "Product_Name": "photo",
+        "Product_Price": 19845767.8923,
+        "Other_Product_Service_Details": null,
+        "Bookings_Services": [
+          {
+            "Order_ID": 9,
+            "Product_ID": 630,
+            "Invoice_Items": []
+          }
+        ]
+      }
+    ]
+  }
+]

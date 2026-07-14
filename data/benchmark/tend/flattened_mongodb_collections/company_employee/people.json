@@ -1,0 +1,88 @@
+[
+  {
+    "People_ID": 1,
+    "Age": 27,
+    "Name": "Reggie Lewis",
+    "Nationality": "United States",
+    "Graduation_College": "Northeastern",
+    "employment": [
+      {
+        "Company_ID": 15,
+        "People_ID": 1,
+        "Year_working": 1
+      }
+    ]
+  },
+  {
+    "People_ID": 2,
+    "Age": 25,
+    "Name": "Brad Lohaus",
+    "Nationality": "United States",
+    "Graduation_College": "Iowa",
+    "employment": [
+      {
+        "Company_ID": 13,
+        "People_ID": 2,
+        "Year_working": 3
+      }
+    ]
+  },
+  {
+    "People_ID": 3,
+    "Age": 37,
+    "Name": "Tom Sheehey",
+    "Nationality": "United Kindom",
+    "Graduation_College": "Virginia",
+    "employment": [
+      {
+        "Company_ID": 11,
+        "People_ID": 3,
+        "Year_working": 2
+      }
+    ]
+  },
+  {
+    "People_ID": 4,
+    "Age": 31,
+    "Name": "Darryl Kennedy",
+    "Nationality": "United States",
+    "Graduation_College": "Oklahoma",
+    "employment": [
+      {
+        "Company_ID": 7,
+        "People_ID": 4,
+        "Year_working": 1
+      }
+    ]
+  },
+  {
+    "People_ID": 5,
+    "Age": 34,
+    "Name": "David Butler",
+    "Nationality": "United Kindom",
+    "Graduation_College": "California",
+    "employment": []
+  },
+  {
+    "People_ID": 6,
+    "Age": 37,
+    "Name": "Tim Naegeli",
+    "Nationality": "United States",
+    "Graduation_College": "Wisconsin\u2013Stevens Point",
+    "employment": []
+  },
+  {
+    "People_ID": 7,
+    "Age": 30,
+    "Name": "Jerry Corcoran",
+    "Nationality": "United States",
+    "Graduation_College": "Northeastern",
+    "employment": [
+      {
+        "Company_ID": 17,
+        "People_ID": 7,
+        "Year_working": 4
+      }
+    ]
+  }
+]

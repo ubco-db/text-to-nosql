@@ -1,0 +1,177 @@
+[
+  {
+    "authID": 50,
+    "lname": "Gibbons",
+    "fname": "Jeremy",
+    "Authorship": [
+      {
+        "authID": 50,
+        "instID": 1000,
+        "paperID": 200,
+        "authOrder": 1
+      }
+    ]
+  },
+  {
+    "authID": 51,
+    "lname": "Hinze",
+    "fname": "Ralf",
+    "Authorship": [
+      {
+        "authID": 51,
+        "instID": 1000,
+        "paperID": 200,
+        "authOrder": 2
+      },
+      {
+        "authID": 51,
+        "instID": 1000,
+        "paperID": 201,
+        "authOrder": 1
+      }
+    ]
+  },
+  {
+    "authID": 52,
+    "lname": "James",
+    "fname": "Daniel W. H.",
+    "Authorship": [
+      {
+        "authID": 52,
+        "instID": 1000,
+        "paperID": 201,
+        "authOrder": 2
+      }
+    ]
+  },
+  {
+    "authID": 53,
+    "lname": "Shivers",
+    "fname": "Olin",
+    "Authorship": [
+      {
+        "authID": 53,
+        "instID": 1010,
+        "paperID": 202,
+        "authOrder": 1
+      }
+    ]
+  },
+  {
+    "authID": 54,
+    "lname": "Turon",
+    "fname": "Aaron",
+    "Authorship": [
+      {
+        "authID": 54,
+        "instID": 1010,
+        "paperID": 202,
+        "authOrder": 2
+      }
+    ]
+  },
+  {
+    "authID": 55,
+    "lname": "Ahmed",
+    "fname": "Amal",
+    "Authorship": [
+      {
+        "authID": 55,
+        "instID": 1020,
+        "paperID": 203,
+        "authOrder": 1
+      }
+    ]
+  },
+  {
+    "authID": 56,
+    "lname": "Blume",
+    "fname": "Matthias",
+    "Authorship": [
+      {
+        "authID": 56,
+        "instID": 1030,
+        "paperID": 203,
+        "authOrder": 2
+      }
+    ]
+  },
+  {
+    "authID": 57,
+    "lname": "Ohori",
+    "fname": "Atsushi",
+    "Authorship": [
+      {
+        "authID": 57,
+        "instID": 1040,
+        "paperID": 204,
+        "authOrder": 1
+      }
+    ]
+  },
+  {
+    "authID": 58,
+    "lname": "Ueno",
+    "fname": "Katsuhiro",
+    "Authorship": [
+      {
+        "authID": 58,
+        "instID": 1040,
+        "paperID": 204,
+        "authOrder": 2
+      }
+    ]
+  },
+  {
+    "authID": 59,
+    "lname": "Pouillard",
+    "fname": "Nicolas",
+    "Authorship": [
+      {
+        "authID": 59,
+        "instID": 1070,
+        "paperID": 205,
+        "authOrder": 1
+      }
+    ]
+  },
+  {
+    "authID": 60,
+    "lname": "Weirich",
+    "fname": "Stephanie",
+    "Authorship": [
+      {
+        "authID": 60,
+        "instID": 1050,
+        "paperID": 206,
+        "authOrder": 1
+      }
+    ]
+  },
+  {
+    "authID": 61,
+    "lname": "Yorgey",
+    "fname": "Brent",
+    "Authorship": [
+      {
+        "authID": 61,
+        "instID": 1050,
+        "paperID": 206,
+        "authOrder": 2
+      }
+    ]
+  },
+  {
+    "authID": 62,
+    "lname": "Sheard",
+    "fname": "Tim",
+    "Authorship": [
+      {
+        "authID": 62,
+        "instID": 1060,
+        "paperID": 206,
+        "authOrder": 3
+      }
+    ]
+  }
+]

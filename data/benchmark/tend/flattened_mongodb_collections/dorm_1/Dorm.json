@@ -1,0 +1,387 @@
+[
+  {
+    "dormid": 100,
+    "dorm_name": "Smith Hall",
+    "student_capacity": 85,
+    "gender": "X",
+    "Has_amenity": [
+      {
+        "dormid": 100,
+        "amenid": 901
+      },
+      {
+        "dormid": 100,
+        "amenid": 903
+      },
+      {
+        "dormid": 100,
+        "amenid": 904
+      },
+      {
+        "dormid": 100,
+        "amenid": 930
+      },
+      {
+        "dormid": 100,
+        "amenid": 922
+      }
+    ],
+    "Lives_in": [
+      {
+        "stuid": 1002,
+        "dormid": 100,
+        "room_number": 112
+      },
+      {
+        "stuid": 1003,
+        "dormid": 100,
+        "room_number": 124
+      },
+      {
+        "stuid": 1022,
+        "dormid": 100,
+        "room_number": 153
+      },
+      {
+        "stuid": 1024,
+        "dormid": 100,
+        "room_number": 151
+      },
+      {
+        "stuid": 1031,
+        "dormid": 100,
+        "room_number": 112
+      },
+      {
+        "stuid": 1035,
+        "dormid": 100,
+        "room_number": 124
+      }
+    ]
+  },
+  {
+    "dormid": 110,
+    "dorm_name": "Bud Jones Hall",
+    "student_capacity": 116,
+    "gender": "M",
+    "Has_amenity": [
+      {
+        "dormid": 110,
+        "amenid": 901
+      },
+      {
+        "dormid": 110,
+        "amenid": 903
+      },
+      {
+        "dormid": 110,
+        "amenid": 904
+      },
+      {
+        "dormid": 110,
+        "amenid": 930
+      },
+      {
+        "dormid": 110,
+        "amenid": 922
+      }
+    ],
+    "Lives_in": [
+      {
+        "stuid": 1028,
+        "dormid": 110,
+        "room_number": 48
+      }
+    ]
+  },
+  {
+    "dormid": 140,
+    "dorm_name": "Fawlty Towers",
+    "student_capacity": 355,
+    "gender": "X",
+    "Has_amenity": [
+      {
+        "dormid": 140,
+        "amenid": 909
+      },
+      {
+        "dormid": 140,
+        "amenid": 900
+      },
+      {
+        "dormid": 140,
+        "amenid": 902
+      },
+      {
+        "dormid": 140,
+        "amenid": 904
+      },
+      {
+        "dormid": 140,
+        "amenid": 930
+      },
+      {
+        "dormid": 140,
+        "amenid": 932
+      }
+    ],
+    "Lives_in": [
+      {
+        "stuid": 1004,
+        "dormid": 140,
+        "room_number": 215
+      },
+      {
+        "stuid": 1007,
+        "dormid": 140,
+        "room_number": 113
+      },
+      {
+        "stuid": 1009,
+        "dormid": 140,
+        "room_number": 332
+      },
+      {
+        "stuid": 1011,
+        "dormid": 140,
+        "room_number": 102
+      },
+      {
+        "stuid": 1016,
+        "dormid": 140,
+        "room_number": 301
+      },
+      {
+        "stuid": 1017,
+        "dormid": 140,
+        "room_number": 319
+      },
+      {
+        "stuid": 1018,
+        "dormid": 140,
+        "room_number": 225
+      },
+      {
+        "stuid": 1027,
+        "dormid": 140,
+        "room_number": 208
+      },
+      {
+        "stuid": 1029,
+        "dormid": 140,
+        "room_number": 418
+      }
+    ]
+  },
+  {
+    "dormid": 160,
+    "dorm_name": "Dorm-plex 2000",
+    "student_capacity": 400,
+    "gender": "X",
+    "Has_amenity": [
+      {
+        "dormid": 160,
+        "amenid": 900
+      },
+      {
+        "dormid": 160,
+        "amenid": 901
+      },
+      {
+        "dormid": 160,
+        "amenid": 902
+      },
+      {
+        "dormid": 160,
+        "amenid": 903
+      },
+      {
+        "dormid": 160,
+        "amenid": 931
+      },
+      {
+        "dormid": 160,
+        "amenid": 904
+      },
+      {
+        "dormid": 160,
+        "amenid": 930
+      },
+      {
+        "dormid": 160,
+        "amenid": 922
+      },
+      {
+        "dormid": 160,
+        "amenid": 932
+      },
+      {
+        "dormid": 160,
+        "amenid": 950
+      },
+      {
+        "dormid": 160,
+        "amenid": 955
+      },
+      {
+        "dormid": 160,
+        "amenid": 909
+      }
+    ],
+    "Lives_in": [
+      {
+        "stuid": 1005,
+        "dormid": 160,
+        "room_number": 333
+      },
+      {
+        "stuid": 1008,
+        "dormid": 160,
+        "room_number": 334
+      },
+      {
+        "stuid": 1010,
+        "dormid": 160,
+        "room_number": 443
+      },
+      {
+        "stuid": 1012,
+        "dormid": 160,
+        "room_number": 333
+      },
+      {
+        "stuid": 1015,
+        "dormid": 160,
+        "room_number": 443
+      },
+      {
+        "stuid": 1020,
+        "dormid": 160,
+        "room_number": 405
+      },
+      {
+        "stuid": 1021,
+        "dormid": 160,
+        "room_number": 405
+      },
+      {
+        "stuid": 1023,
+        "dormid": 160,
+        "room_number": 317
+      },
+      {
+        "stuid": 1025,
+        "dormid": 160,
+        "room_number": 317
+      },
+      {
+        "stuid": 1034,
+        "dormid": 160,
+        "room_number": 105
+      }
+    ]
+  },
+  {
+    "dormid": 109,
+    "dorm_name": "Anonymous Donor Hall",
+    "student_capacity": 128,
+    "gender": "F",
+    "Has_amenity": [
+      {
+        "dormid": 109,
+        "amenid": 900
+      },
+      {
+        "dormid": 109,
+        "amenid": 901
+      },
+      {
+        "dormid": 109,
+        "amenid": 903
+      },
+      {
+        "dormid": 109,
+        "amenid": 904
+      },
+      {
+        "dormid": 109,
+        "amenid": 930
+      },
+      {
+        "dormid": 109,
+        "amenid": 931
+      },
+      {
+        "dormid": 109,
+        "amenid": 932
+      },
+      {
+        "dormid": 109,
+        "amenid": 922
+      }
+    ],
+    "Lives_in": [
+      {
+        "stuid": 1001,
+        "dormid": 109,
+        "room_number": 105
+      },
+      {
+        "stuid": 1030,
+        "dormid": 109,
+        "room_number": 211
+      },
+      {
+        "stuid": 1032,
+        "dormid": 109,
+        "room_number": 105
+      }
+    ]
+  },
+  {
+    "dormid": 117,
+    "dorm_name": "University Hovels",
+    "student_capacity": 40,
+    "gender": "X",
+    "Has_amenity": [
+      {
+        "dormid": 117,
+        "amenid": 930
+      }
+    ],
+    "Lives_in": [
+      {
+        "stuid": 1033,
+        "dormid": 117,
+        "room_number": 3
+      }
+    ]
+  },
+  {
+    "dormid": 104,
+    "dorm_name": "Grad Student Asylum",
+    "student_capacity": 256,
+    "gender": "X",
+    "Has_amenity": [
+      {
+        "dormid": 104,
+        "amenid": 901
+      },
+      {
+        "dormid": 104,
+        "amenid": 904
+      },
+      {
+        "dormid": 104,
+        "amenid": 930
+      }
+    ],
+    "Lives_in": [
+      {
+        "stuid": 1014,
+        "dormid": 104,
+        "room_number": 211
+      }
+    ]
+  }
+]

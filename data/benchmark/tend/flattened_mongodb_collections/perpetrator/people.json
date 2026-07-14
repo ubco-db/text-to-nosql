@@ -1,0 +1,145 @@
+[
+  {
+    "People_ID": 1,
+    "Name": "Ron Baxter",
+    "Height": 6.4,
+    "Weight": 205.0,
+    "Home Town": "Los Angeles, CA",
+    "perpetrator": [
+      {
+        "Perpetrator_ID": 1,
+        "People_ID": 1,
+        "Date": "04.26 April 26/27",
+        "Year": 1982.0,
+        "Location": "Uiryeong",
+        "Country": "South Korea",
+        "Killed": 56,
+        "Injured": 37
+      }
+    ]
+  },
+  {
+    "People_ID": 2,
+    "Name": "Brent Boyd",
+    "Height": 6.3,
+    "Weight": 185.0,
+    "Home Town": "Baton Rouge, LA",
+    "perpetrator": []
+  },
+  {
+    "People_ID": 3,
+    "Name": "Tyrone Brayan",
+    "Height": 6.7,
+    "Weight": 220.0,
+    "Home Town": "Placentia, CA",
+    "perpetrator": [
+      {
+        "Perpetrator_ID": 2,
+        "People_ID": 3,
+        "Date": "11.18 Nov. 18",
+        "Year": 1995.0,
+        "Location": "Zhaodong",
+        "Country": "China",
+        "Killed": 32,
+        "Injured": 16
+      }
+    ]
+  },
+  {
+    "People_ID": 4,
+    "Name": "Rob Cunningham",
+    "Height": 6.8,
+    "Weight": 215.0,
+    "Home Town": "Westport, CT",
+    "perpetrator": [
+      {
+        "Perpetrator_ID": 3,
+        "People_ID": 4,
+        "Date": "05.21 May 21",
+        "Year": 1938.0,
+        "Location": "Kaio",
+        "Country": "Japan",
+        "Killed": 30,
+        "Injured": 3
+      }
+    ]
+  },
+  {
+    "People_ID": 5,
+    "Name": "John Danks",
+    "Height": 6.6,
+    "Weight": 190.0,
+    "Home Town": "Beaver Dam, KY",
+    "perpetrator": []
+  },
+  {
+    "People_ID": 6,
+    "Name": "Ovie Dotson",
+    "Height": 6.5,
+    "Weight": 200.0,
+    "Home Town": "San Antonio, TX",
+    "perpetrator": [
+      {
+        "Perpetrator_ID": 4,
+        "People_ID": 6,
+        "Date": "09.20 Sep. 20",
+        "Year": 1994.0,
+        "Location": "Beijing",
+        "Country": "China",
+        "Killed": 23,
+        "Injured": 80
+      }
+    ]
+  },
+  {
+    "People_ID": 7,
+    "Name": "Gary Goodner",
+    "Height": 6.7,
+    "Weight": 220.0,
+    "Home Town": "Denton, TX",
+    "perpetrator": []
+  },
+  {
+    "People_ID": 8,
+    "Name": "Henry Johnson",
+    "Height": 6.6,
+    "Weight": 190.0,
+    "Home Town": "Los Angeles, CA",
+    "perpetrator": [
+      {
+        "Perpetrator_ID": 5,
+        "People_ID": 8,
+        "Date": "04.00 April",
+        "Year": 1950.0,
+        "Location": "Nainital",
+        "Country": "India",
+        "Killed": 22,
+        "Injured": 0
+      }
+    ]
+  },
+  {
+    "People_ID": 9,
+    "Name": "Jim Krivacs",
+    "Height": 6.1,
+    "Weight": 160.0,
+    "Home Town": "Indianapolis, IN",
+    "perpetrator": []
+  },
+  {
+    "People_ID": 10,
+    "Name": "John Moore",
+    "Height": 6.1,
+    "Weight": 170.0,
+    "Home Town": "Altoona, PA",
+    "perpetrator": []
+  },
+  {
+    "People_ID": 11,
+    "Name": "Mike Murphy",
+    "Height": 6.8,
+    "Weight": 215.0,
+    "Home Town": "Austin, TX",
+    "perpetrator": []
+  }
+]

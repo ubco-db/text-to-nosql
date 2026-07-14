@@ -1,0 +1,96 @@
+[
+  {
+    "i_id": 0,
+    "title": "pear",
+    "review": []
+  },
+  {
+    "i_id": 1,
+    "title": "orange",
+    "review": [
+      {
+        "a_id": 1,
+        "u_id": 1,
+        "i_id": 1,
+        "rating": 10,
+        "rank": 1
+      },
+      {
+        "a_id": 2,
+        "u_id": 2,
+        "i_id": 1,
+        "rating": 5,
+        "rank": 2
+      }
+    ]
+  },
+  {
+    "i_id": 2,
+    "title": "apple",
+    "review": []
+  },
+  {
+    "i_id": 3,
+    "title": "shampoo",
+    "review": [
+      {
+        "a_id": 6,
+        "u_id": 1,
+        "i_id": 3,
+        "rating": 5,
+        "rank": 5
+      }
+    ]
+  },
+  {
+    "i_id": 4,
+    "title": "avocado",
+    "review": [
+      {
+        "a_id": 3,
+        "u_id": 1,
+        "i_id": 4,
+        "rating": 7,
+        "rank": 3
+      }
+    ]
+  },
+  {
+    "i_id": 5,
+    "title": "comb",
+    "review": [
+      {
+        "a_id": 5,
+        "u_id": 2,
+        "i_id": 5,
+        "rating": 7,
+        "rank": 4
+      }
+    ]
+  },
+  {
+    "i_id": 6,
+    "title": "blue hoodie",
+    "review": []
+  },
+  {
+    "i_id": 7,
+    "title": "cup",
+    "review": [
+      {
+        "a_id": 4,
+        "u_id": 2,
+        "i_id": 7,
+        "rating": 10,
+        "rank": 7
+      },
+      {
+        "a_id": 7,
+        "u_id": 2,
+        "i_id": 7,
+        "rating": 6,
+        "rank": 6
+      }
+    ]
+  }
+]

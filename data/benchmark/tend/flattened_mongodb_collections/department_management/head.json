@@ -1,0 +1,102 @@
+[
+  {
+    "head_ID": 1,
+    "name": "Tiger Woods",
+    "born_state": "Alabama",
+    "age": 67.0,
+    "management": []
+  },
+  {
+    "head_ID": 2,
+    "name": "Sergio Garc\u00eda",
+    "born_state": "California",
+    "age": 68.0,
+    "management": []
+  },
+  {
+    "head_ID": 3,
+    "name": "K. J. Choi",
+    "born_state": "Alabama",
+    "age": 69.0,
+    "management": [
+      {
+        "department_ID": 7,
+        "head_ID": 3,
+        "temporary_acting": "No"
+      }
+    ]
+  },
+  {
+    "head_ID": 4,
+    "name": "Dudley Hart",
+    "born_state": "California",
+    "age": 52.0,
+    "management": [
+      {
+        "department_ID": 15,
+        "head_ID": 4,
+        "temporary_acting": "Yes"
+      }
+    ]
+  },
+  {
+    "head_ID": 5,
+    "name": "Jeff Maggert",
+    "born_state": "Delaware",
+    "age": 53.0,
+    "management": [
+      {
+        "department_ID": 2,
+        "head_ID": 5,
+        "temporary_acting": "Yes"
+      }
+    ]
+  },
+  {
+    "head_ID": 6,
+    "name": "Billy Mayfair",
+    "born_state": "California",
+    "age": 69.0,
+    "management": [
+      {
+        "department_ID": 2,
+        "head_ID": 6,
+        "temporary_acting": "Yes"
+      }
+    ]
+  },
+  {
+    "head_ID": 7,
+    "name": "Stewart Cink",
+    "born_state": "Florida",
+    "age": 50.0,
+    "management": []
+  },
+  {
+    "head_ID": 8,
+    "name": "Nick Faldo",
+    "born_state": "California",
+    "age": 56.0,
+    "management": []
+  },
+  {
+    "head_ID": 9,
+    "name": "P\u00e1draig Harrington",
+    "born_state": "Connecticut",
+    "age": 43.0,
+    "management": []
+  },
+  {
+    "head_ID": 10,
+    "name": "Franklin Langham",
+    "born_state": "Connecticut",
+    "age": 67.0,
+    "management": [
+      {
+        "department_ID": 11,
+        "head_ID": 10,
+        "temporary_acting": "No"
+      }
+    ]
+  }
+]

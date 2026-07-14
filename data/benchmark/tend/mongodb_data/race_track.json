@@ -1,0 +1,131 @@
+{
+    "track": [
+        {
+            "Track_ID": 1,
+            "Name": "Auto Club Speedway",
+            "Location": "Fontana, CA",
+            "Seating": 92000.0,
+            "Year_Opened": 1997.0,
+            "race": [
+                {
+                    "Race_ID": 1,
+                    "Name": "Rolex 24 At Daytona",
+                    "Class": "DP/GT",
+                    "Date": "January 26 January 27",
+                    "Track_ID": "1"
+                }
+            ]
+        },
+        {
+            "Track_ID": 2,
+            "Name": "Chicagoland Speedway",
+            "Location": "Joliet, IL",
+            "Seating": 75000.0,
+            "Year_Opened": 2001.0,
+            "race": [
+                {
+                    "Race_ID": 2,
+                    "Name": "Gainsco Grand Prix of Miami",
+                    "Class": "DP/GT",
+                    "Date": "March 29",
+                    "Track_ID": "2"
+                },
+                {
+                    "Race_ID": 3,
+                    "Name": "Mexico City 250",
+                    "Class": "DP/GT",
+                    "Date": "April 19",
+                    "Track_ID": "2"
+                }
+            ]
+        },
+        {
+            "Track_ID": 3,
+            "Name": "Darlington Raceway",
+            "Location": "Darlington, SC",
+            "Seating": 63000.0,
+            "Year_Opened": 1950.0,
+            "race": []
+        },
+        {
+            "Track_ID": 4,
+            "Name": "Daytona International Speedway",
+            "Location": "Daytona Beach, FL",
+            "Seating": 168000.0,
+            "Year_Opened": 1959.0,
+            "race": [
+                {
+                    "Race_ID": 4,
+                    "Name": "Bosch Engineering 250 at VIR",
+                    "Class": "GT",
+                    "Date": "April 27",
+                    "Track_ID": "4"
+                }
+            ]
+        },
+        {
+            "Track_ID": 5,
+            "Name": "Homestead-Miami Speedway",
+            "Location": "Homestead, FL",
+            "Seating": 65000.0,
+            "Year_Opened": 1995.0,
+            "race": [
+                {
+                    "Race_ID": 5,
+                    "Name": "RumBum.com 250",
+                    "Class": "DP/GT",
+                    "Date": "May 17",
+                    "Track_ID": "5"
+                }
+            ]
+        },
+        {
+            "Track_ID": 6,
+            "Name": "Kansas Speedway",
+            "Location": "Kansas City, KS",
+            "Seating": 81687.0,
+            "Year_Opened": 2001.0,
+            "race": [
+                {
+                    "Race_ID": 6,
+                    "Name": "Lime Rock GT Classic 250",
+                    "Class": "GT",
+                    "Date": "May 26",
+                    "Track_ID": "6"
+                }
+            ]
+        },
+        {
+            "Track_ID": 7,
+            "Name": "Martinsville Speedway",
+            "Location": "Ridgeway, VA",
+            "Seating": 65000.0,
+            "Year_Opened": 1947.0,
+            "race": [
+                {
+                    "Race_ID": 7,
+                    "Name": "Sahlen's Six Hours of the Glen",
+                    "Class": "DP/GT",
+                    "Date": "June 7",
+                    "Track_ID": "7"
+                }
+            ]
+        },
+        {
+            "Track_ID": 8,
+            "Name": "Michigan International Speedway",
+            "Location": "Brooklyn, MI",
+            "Seating": 137243.0,
+            "Year_Opened": 1968.0,
+            "race": []
+        },
+        {
+            "Track_ID": 9,
+            "Name": "Phoenix International Raceway",
+            "Location": "Avondale, AZ",
+            "Seating": 76812.0,
+            "Year_Opened": 1964.0,
+            "race": []
+        }
+    ]
+}

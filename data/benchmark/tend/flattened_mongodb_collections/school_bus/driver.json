@@ -1,0 +1,133 @@
+[
+  {
+    "Driver_ID": 1,
+    "Name": "Matthew Ritter",
+    "Party": "Dem",
+    "Home_city": "Hartford",
+    "Age": 40,
+    "school_bus": []
+  },
+  {
+    "Driver_ID": 2,
+    "Name": "Dan Carter",
+    "Party": "Rep",
+    "Home_city": "Bethel",
+    "Age": 30,
+    "school_bus": []
+  },
+  {
+    "Driver_ID": 3,
+    "Name": "Minnie Gonzalez",
+    "Party": "Dem",
+    "Home_city": "Hartford",
+    "Age": 46,
+    "school_bus": [
+      {
+        "School_ID": 4,
+        "Driver_ID": 3,
+        "Years_Working": 3,
+        "If_full_time": "T"
+      }
+    ]
+  },
+  {
+    "Driver_ID": 4,
+    "Name": "Angel Acre",
+    "Party": "Dem",
+    "Home_city": "Hartford",
+    "Age": 42,
+    "school_bus": [
+      {
+        "School_ID": 3,
+        "Driver_ID": 4,
+        "Years_Working": 6,
+        "If_full_time": "T"
+      }
+    ]
+  },
+  {
+    "Driver_ID": 5,
+    "Name": "Brandon McGee",
+    "Party": "Dem",
+    "Home_city": "Hartford",
+    "Age": 45,
+    "school_bus": []
+  },
+  {
+    "Driver_ID": 6,
+    "Name": "Edwin Vargas",
+    "Party": "Dem",
+    "Home_city": "Hartford",
+    "Age": 52,
+    "school_bus": []
+  },
+  {
+    "Driver_ID": 7,
+    "Name": "Douglas McCrory",
+    "Party": "Dem",
+    "Home_city": "Hartford",
+    "Age": 36,
+    "school_bus": [
+      {
+        "School_ID": 5,
+        "Driver_ID": 7,
+        "Years_Working": 8,
+        "If_full_time": "T"
+      }
+    ]
+  },
+  {
+    "Driver_ID": 8,
+    "Name": "Timothy Ackert",
+    "Party": "Rep",
+    "Home_city": "Coventry",
+    "Age": 35,
+    "school_bus": []
+  },
+  {
+    "Driver_ID": 9,
+    "Name": "Jason Rojas",
+    "Party": "Dem",
+    "Home_city": "East Hartford",
+    "Age": 38,
+    "school_bus": [
+      {
+        "School_ID": 7,
+        "Driver_ID": 9,
+        "Years_Working": 2,
+        "If_full_time": "T"
+      }
+    ]
+  },
+  {
+    "Driver_ID": 10,
+    "Name": "Henry Genga",
+    "Party": "Dem",
+    "Home_city": "East Hartford",
+    "Age": 37,
+    "school_bus": [
+      {
+        "School_ID": 1,
+        "Driver_ID": 10,
+        "Years_Working": 10,
+        "If_full_time": "F"
+      }
+    ]
+  },
+  {
+    "Driver_ID": 11,
+    "Name": "Tim Larson",
+    "Party": "Dem",
+    "Home_city": "East Hartford",
+    "Age": 36,
+    "school_bus": []
+  },
+  {
+    "Driver_ID": 12,
+    "Name": "Geoff Luxenberg",
+    "Party": "Dem",
+    "Home_city": "Manchester",
+    "Age": 52,
+    "school_bus": []
+  }
+]

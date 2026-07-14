@@ -1,0 +1,53 @@
+[
+  {
+    "ClubID": 1,
+    "ClubName": "Bootup Baltimore",
+    "ClubDesc": "Refurbish computers; teach kids and adults about computer basics.",
+    "ClubLocation": "AKW",
+    "Member_of_club": [
+      {
+        "StuID": 1001,
+        "ClubID": 1,
+        "Position": "President"
+      },
+      {
+        "StuID": 1010,
+        "ClubID": 1,
+        "Position": "Teaching Coordinator"
+      }
+    ]
+  },
+  {
+    "ClubID": 2,
+    "ClubName": "Hopkins Student Enterprises",
+    "ClubDesc": "Venture capital fund for student business.",
+    "ClubLocation": "AKW",
+    "Member_of_club": [
+      {
+        "StuID": 1008,
+        "ClubID": 2,
+        "Position": "CTO"
+      }
+    ]
+  },
+  {
+    "ClubID": 3,
+    "ClubName": "Pen and Paper Gaming",
+    "ClubDesc": "Play pen and paper games on campus.",
+    "ClubLocation": "HHH",
+    "Member_of_club": []
+  },
+  {
+    "ClubID": 4,
+    "ClubName": "Tennis Club",
+    "ClubDesc": "A competitive tennis club.",
+    "ClubLocation": "AKW",
+    "Member_of_club": [
+      {
+        "StuID": 1007,
+        "ClubID": 4,
+        "Position": "Vice-President"
+      }
+    ]
+  }
+]

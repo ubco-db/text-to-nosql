@@ -1,0 +1,94 @@
+[
+  {
+    "GameID": 1,
+    "GName": "RNG Stone",
+    "GType": "Collectible card game",
+    "Plays_Games": [
+      {
+        "StuID": 1001,
+        "GameID": 1,
+        "Hours_Played": 35
+      },
+      {
+        "StuID": 1032,
+        "GameID": 1,
+        "Hours_Played": 47
+      }
+    ]
+  },
+  {
+    "GameID": 2,
+    "GName": "The Vanishing of Eric Calder",
+    "GType": "Walking Simulator",
+    "Plays_Games": [
+      {
+        "StuID": 1001,
+        "GameID": 2,
+        "Hours_Played": 15
+      },
+      {
+        "StuID": 1032,
+        "GameID": 2,
+        "Hours_Played": 10
+      }
+    ]
+  },
+  {
+    "GameID": 3,
+    "GName": "Grand Term Assignment",
+    "GType": "Role-playing game",
+    "Plays_Games": [
+      {
+        "StuID": 1008,
+        "GameID": 3,
+        "Hours_Played": 50
+      },
+      {
+        "StuID": 1032,
+        "GameID": 3,
+        "Hours_Played": 100
+      }
+    ]
+  },
+  {
+    "GameID": 4,
+    "GName": "Europe is the Universe",
+    "GType": "Grand strategy",
+    "Plays_Games": [
+      {
+        "StuID": 1007,
+        "GameID": 4,
+        "Hours_Played": 1000
+      }
+    ]
+  },
+  {
+    "GameID": 5,
+    "GName": "Call of Destiny",
+    "GType": "Frist-person shooter",
+    "Plays_Games": [
+      {
+        "StuID": 1001,
+        "GameID": 5,
+        "Hours_Played": 1
+      },
+      {
+        "StuID": 1008,
+        "GameID": 5,
+        "Hours_Played": 50
+      }
+    ]
+  },
+  {
+    "GameID": 6,
+    "GName": "Works of Widenius",
+    "GType": "Massively multiplayer online game",
+    "Plays_Games": [
+      {
+        "StuID": 1010,
+        "GameID": 6,
+        "Hours_Played": 1337
+      }
+    ]
+  }
+]

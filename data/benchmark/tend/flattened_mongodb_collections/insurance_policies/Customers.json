@@ -1,0 +1,625 @@
+[
+  {
+    "Customer_ID": 1,
+    "Customer_Details": "America Jaskolski",
+    "Customer_Policies": [
+      {
+        "Policy_ID": 119,
+        "Customer_ID": 1,
+        "Policy_Type_Code": "Car",
+        "Start_Date": "2018-01-21",
+        "End_Date": "2017-12-15",
+        "Claims": [
+          {
+            "Claim_ID": 965,
+            "Policy_ID": 119,
+            "Date_Claim_Made": "2017-07-17",
+            "Date_Claim_Settled": "2018-03-09",
+            "Amount_Claimed": 35824,
+            "Amount_Settled": 1636,
+            "Settlements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Customer_ID": 2,
+    "Customer_Details": "Ellsworth Paucek",
+    "Customer_Policies": [
+      {
+        "Policy_ID": 141,
+        "Customer_ID": 2,
+        "Policy_Type_Code": "Life",
+        "Start_Date": "2017-08-21",
+        "End_Date": "2017-09-29",
+        "Claims": [
+          {
+            "Claim_ID": 486,
+            "Policy_ID": 141,
+            "Date_Claim_Made": "2018-06-14",
+            "Date_Claim_Settled": "2017-12-20",
+            "Amount_Claimed": 69696,
+            "Amount_Settled": 1638,
+            "Settlements": [
+              {
+                "Settlement_ID": 357,
+                "Claim_ID": 486,
+                "Date_Claim_Made": "2018-08-07",
+                "Date_Claim_Settled": "2018-01-16",
+                "Amount_Claimed": 38543,
+                "Amount_Settled": 1181,
+                "Customer_Policy_ID": 515,
+                "Payments": []
+              },
+              {
+                "Settlement_ID": 597,
+                "Claim_ID": 486,
+                "Date_Claim_Made": "2017-04-18",
+                "Date_Claim_Settled": "2017-12-24",
+                "Amount_Claimed": 4456,
+                "Amount_Settled": 1698,
+                "Customer_Policy_ID": 359,
+                "Payments": [
+                  {
+                    "Payment_ID": 542,
+                    "Settlement_ID": 597,
+                    "Payment_Method_Code": "MasterCard",
+                    "Date_Payment_Made": "2018-01-10",
+                    "Amount_Payment": 407235
+                  },
+                  {
+                    "Payment_ID": 739,
+                    "Settlement_ID": 597,
+                    "Payment_Method_Code": "Discover Card",
+                    "Date_Payment_Made": "2017-10-07",
+                    "Amount_Payment": 71246
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Claim_ID": 563,
+            "Policy_ID": 141,
+            "Date_Claim_Made": "2016-08-02",
+            "Date_Claim_Settled": "2017-09-04",
+            "Amount_Claimed": 41078,
+            "Amount_Settled": 1570,
+            "Settlements": [
+              {
+                "Settlement_ID": 516,
+                "Claim_ID": 563,
+                "Date_Claim_Made": "2017-05-19",
+                "Date_Claim_Settled": "2017-10-06",
+                "Amount_Claimed": 37302,
+                "Amount_Settled": 1767,
+                "Customer_Policy_ID": 638,
+                "Payments": [
+                  {
+                    "Payment_ID": 384,
+                    "Settlement_ID": 516,
+                    "Payment_Method_Code": "MasterCard",
+                    "Date_Payment_Made": "2018-02-16",
+                    "Amount_Payment": 241730
+                  },
+                  {
+                    "Payment_ID": 484,
+                    "Settlement_ID": 516,
+                    "Payment_Method_Code": "MasterCard",
+                    "Date_Payment_Made": "2017-06-24",
+                    "Amount_Payment": 456098
+                  },
+                  {
+                    "Payment_ID": 678,
+                    "Settlement_ID": 516,
+                    "Payment_Method_Code": "Visa",
+                    "Date_Payment_Made": "2017-12-16",
+                    "Amount_Payment": 459407
+                  },
+                  {
+                    "Payment_ID": 754,
+                    "Settlement_ID": 516,
+                    "Payment_Method_Code": "Visa",
+                    "Date_Payment_Made": "2018-02-24",
+                    "Amount_Payment": 7343
+                  },
+                  {
+                    "Payment_ID": 886,
+                    "Settlement_ID": 516,
+                    "Payment_Method_Code": "MasterCard",
+                    "Date_Payment_Made": "2017-07-31",
+                    "Amount_Payment": 423154
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Policy_ID": 900,
+        "Customer_ID": 2,
+        "Policy_Type_Code": "Property",
+        "Start_Date": "2017-01-20",
+        "End_Date": "2017-12-11",
+        "Claims": []
+      }
+    ]
+  },
+  {
+    "Customer_ID": 3,
+    "Customer_Details": "Mrs. Hanna Willms",
+    "Customer_Policies": [
+      {
+        "Policy_ID": 143,
+        "Customer_ID": 3,
+        "Policy_Type_Code": "Car",
+        "Start_Date": "2017-06-16",
+        "End_Date": "2017-12-09",
+        "Claims": [
+          {
+            "Claim_ID": 843,
+            "Policy_ID": 143,
+            "Date_Claim_Made": "2017-10-14",
+            "Date_Claim_Settled": "2018-02-20",
+            "Amount_Claimed": 10209,
+            "Amount_Settled": 1639,
+            "Settlements": [
+              {
+                "Settlement_ID": 897,
+                "Claim_ID": 843,
+                "Date_Claim_Made": "2017-03-29",
+                "Date_Claim_Settled": "2018-02-20",
+                "Amount_Claimed": 20569,
+                "Amount_Settled": 1885,
+                "Customer_Policy_ID": 678,
+                "Payments": []
+              }
+            ]
+          },
+          {
+            "Claim_ID": 935,
+            "Policy_ID": 143,
+            "Date_Claim_Made": "2018-07-13",
+            "Date_Claim_Settled": "2017-11-22",
+            "Amount_Claimed": 70674,
+            "Amount_Settled": 1637,
+            "Settlements": []
+          }
+        ]
+      },
+      {
+        "Policy_ID": 473,
+        "Customer_ID": 3,
+        "Policy_Type_Code": "Travel",
+        "Start_Date": "2017-04-24",
+        "End_Date": "2017-12-14",
+        "Claims": [
+          {
+            "Claim_ID": 442,
+            "Policy_ID": 473,
+            "Date_Claim_Made": "2017-02-24",
+            "Date_Claim_Settled": "2018-01-21",
+            "Amount_Claimed": 70088,
+            "Amount_Settled": 1189,
+            "Settlements": []
+          },
+          {
+            "Claim_ID": 569,
+            "Policy_ID": 473,
+            "Date_Claim_Made": "2018-07-15",
+            "Date_Claim_Settled": "2017-11-19",
+            "Amount_Claimed": 49743,
+            "Amount_Settled": 930,
+            "Settlements": [
+              {
+                "Settlement_ID": 558,
+                "Claim_ID": 569,
+                "Date_Claim_Made": "2018-05-12",
+                "Date_Claim_Settled": "2017-11-30",
+                "Amount_Claimed": 16603,
+                "Amount_Settled": 1516,
+                "Customer_Policy_ID": 536,
+                "Payments": []
+              }
+            ]
+          },
+          {
+            "Claim_ID": 761,
+            "Policy_ID": 473,
+            "Date_Claim_Made": "2016-08-26",
+            "Date_Claim_Settled": "2017-09-04",
+            "Amount_Claimed": 83703,
+            "Amount_Settled": 1372,
+            "Settlements": [
+              {
+                "Settlement_ID": 564,
+                "Claim_ID": 761,
+                "Date_Claim_Made": "2016-07-04",
+                "Date_Claim_Settled": "2018-02-20",
+                "Amount_Claimed": 62680,
+                "Amount_Settled": 1676,
+                "Customer_Policy_ID": 839,
+                "Payments": [
+                  {
+                    "Payment_ID": 779,
+                    "Settlement_ID": 564,
+                    "Payment_Method_Code": "Visa",
+                    "Date_Payment_Made": "2017-05-28",
+                    "Amount_Payment": 155654
+                  }
+                ]
+              },
+              {
+                "Settlement_ID": 648,
+                "Claim_ID": 761,
+                "Date_Claim_Made": "2017-09-22",
+                "Date_Claim_Settled": "2018-02-14",
+                "Amount_Claimed": 32079,
+                "Amount_Settled": 1266,
+                "Customer_Policy_ID": 805,
+                "Payments": [
+                  {
+                    "Payment_ID": 912,
+                    "Settlement_ID": 648,
+                    "Payment_Method_Code": "Discover Card",
+                    "Date_Payment_Made": "2017-05-04",
+                    "Amount_Payment": 123255
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Customer_ID": 4,
+    "Customer_Details": "Dr. Diana Rath",
+    "Customer_Policies": [
+      {
+        "Policy_ID": 218,
+        "Customer_ID": 4,
+        "Policy_Type_Code": "Car",
+        "Start_Date": "2017-09-18",
+        "End_Date": "2017-11-23",
+        "Claims": []
+      },
+      {
+        "Policy_ID": 264,
+        "Customer_ID": 4,
+        "Policy_Type_Code": "Car",
+        "Start_Date": "2016-12-25",
+        "End_Date": "2018-01-25",
+        "Claims": []
+      }
+    ]
+  },
+  {
+    "Customer_ID": 5,
+    "Customer_Details": "Selena Gerhold",
+    "Customer_Policies": [
+      {
+        "Policy_ID": 270,
+        "Customer_ID": 5,
+        "Policy_Type_Code": "Life",
+        "Start_Date": "2016-07-17",
+        "End_Date": "2018-01-05",
+        "Claims": []
+      }
+    ]
+  },
+  {
+    "Customer_ID": 6,
+    "Customer_Details": "Lauriane Ferry PhD",
+    "Customer_Policies": [
+      {
+        "Policy_ID": 352,
+        "Customer_ID": 6,
+        "Policy_Type_Code": "Property",
+        "Start_Date": "2016-05-23",
+        "End_Date": "2017-12-09",
+        "Claims": [
+          {
+            "Claim_ID": 957,
+            "Policy_ID": 352,
+            "Date_Claim_Made": "2018-11-08",
+            "Date_Claim_Settled": "2017-09-15",
+            "Amount_Claimed": 38280,
+            "Amount_Settled": 1050,
+            "Settlements": [
+              {
+                "Settlement_ID": 616,
+                "Claim_ID": 957,
+                "Date_Claim_Made": "2017-07-31",
+                "Date_Claim_Settled": "2018-01-27",
+                "Amount_Claimed": 24055,
+                "Amount_Settled": 1262,
+                "Customer_Policy_ID": 590,
+                "Payments": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Policy_ID": 744,
+        "Customer_ID": 6,
+        "Policy_Type_Code": "Property",
+        "Start_Date": "2017-12-01",
+        "End_Date": "2018-03-07",
+        "Claims": [
+          {
+            "Claim_ID": 143,
+            "Policy_ID": 744,
+            "Date_Claim_Made": "2017-03-11",
+            "Date_Claim_Settled": "2017-11-03",
+            "Amount_Claimed": 43884,
+            "Amount_Settled": 1085,
+            "Settlements": []
+          },
+          {
+            "Claim_ID": 546,
+            "Policy_ID": 744,
+            "Date_Claim_Made": "2017-05-03",
+            "Date_Claim_Settled": "2017-12-22",
+            "Amount_Claimed": 46479,
+            "Amount_Settled": 1091,
+            "Settlements": []
+          },
+          {
+            "Claim_ID": 621,
+            "Policy_ID": 744,
+            "Date_Claim_Made": "2016-12-18",
+            "Date_Claim_Settled": "2018-01-11",
+            "Amount_Claimed": 43708,
+            "Amount_Settled": 1652,
+            "Settlements": [
+              {
+                "Settlement_ID": 412,
+                "Claim_ID": 621,
+                "Date_Claim_Made": "2017-08-27",
+                "Date_Claim_Settled": "2018-02-04",
+                "Amount_Claimed": 57669,
+                "Amount_Settled": 1427,
+                "Customer_Policy_ID": 617,
+                "Payments": []
+              },
+              {
+                "Settlement_ID": 983,
+                "Claim_ID": 621,
+                "Date_Claim_Made": "2016-07-19",
+                "Date_Claim_Settled": "2017-11-04",
+                "Amount_Claimed": 3864,
+                "Amount_Settled": 1042,
+                "Customer_Policy_ID": 419,
+                "Payments": [
+                  {
+                    "Payment_ID": 791,
+                    "Settlement_ID": 983,
+                    "Payment_Method_Code": "Visa",
+                    "Date_Payment_Made": "2017-05-03",
+                    "Amount_Payment": 172309
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Customer_ID": 7,
+    "Customer_Details": "Sydnie Friesen",
+    "Customer_Policies": [
+      {
+        "Policy_ID": 396,
+        "Customer_ID": 7,
+        "Policy_Type_Code": "Travel",
+        "Start_Date": "2017-07-30",
+        "End_Date": "2017-10-09",
+        "Claims": []
+      }
+    ]
+  },
+  {
+    "Customer_ID": 8,
+    "Customer_Details": "Dayana Robel",
+    "Customer_Policies": [
+      {
+        "Policy_ID": 738,
+        "Customer_ID": 8,
+        "Policy_Type_Code": "Travel",
+        "Start_Date": "2018-06-16",
+        "End_Date": "2017-12-04",
+        "Claims": [
+          {
+            "Claim_ID": 801,
+            "Policy_ID": 738,
+            "Date_Claim_Made": "2017-10-21",
+            "Date_Claim_Settled": "2018-01-05",
+            "Amount_Claimed": 3326,
+            "Amount_Settled": 1353,
+            "Settlements": [
+              {
+                "Settlement_ID": 476,
+                "Claim_ID": 801,
+                "Date_Claim_Made": "2016-09-05",
+                "Date_Claim_Settled": "2018-03-02",
+                "Amount_Claimed": 30954,
+                "Amount_Settled": 1805,
+                "Customer_Policy_ID": 943,
+                "Payments": [
+                  {
+                    "Payment_ID": 435,
+                    "Settlement_ID": 476,
+                    "Payment_Method_Code": "MasterCard",
+                    "Date_Payment_Made": "2017-05-28",
+                    "Amount_Payment": 448613
+                  }
+                ]
+              },
+              {
+                "Settlement_ID": 512,
+                "Claim_ID": 801,
+                "Date_Claim_Made": "2016-05-18",
+                "Date_Claim_Settled": "2018-02-11",
+                "Amount_Claimed": 82506,
+                "Amount_Settled": 1737,
+                "Customer_Policy_ID": 133,
+                "Payments": [
+                  {
+                    "Payment_ID": 559,
+                    "Settlement_ID": 512,
+                    "Payment_Method_Code": "MasterCard",
+                    "Date_Payment_Made": "2018-02-18",
+                    "Amount_Payment": 235893
+                  }
+                ]
+              },
+              {
+                "Settlement_ID": 527,
+                "Claim_ID": 801,
+                "Date_Claim_Made": "2018-11-10",
+                "Date_Claim_Settled": "2018-02-15",
+                "Amount_Claimed": 25078,
+                "Amount_Settled": 930,
+                "Customer_Policy_ID": 727,
+                "Payments": [
+                  {
+                    "Payment_ID": 774,
+                    "Settlement_ID": 527,
+                    "Payment_Method_Code": "MasterCard",
+                    "Date_Payment_Made": "2018-01-28",
+                    "Amount_Payment": 319142
+                  }
+                ]
+              },
+              {
+                "Settlement_ID": 682,
+                "Claim_ID": 801,
+                "Date_Claim_Made": "2017-03-04",
+                "Date_Claim_Settled": "2018-02-20",
+                "Amount_Claimed": 56850,
+                "Amount_Settled": 1508,
+                "Customer_Policy_ID": 564,
+                "Payments": [
+                  {
+                    "Payment_ID": 498,
+                    "Settlement_ID": 682,
+                    "Payment_Method_Code": "Discover Card",
+                    "Date_Payment_Made": "2017-08-06",
+                    "Amount_Payment": 38324
+                  },
+                  {
+                    "Payment_ID": 983,
+                    "Settlement_ID": 682,
+                    "Payment_Method_Code": "American Express",
+                    "Date_Payment_Made": "2018-01-19",
+                    "Amount_Payment": 177130
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Customer_ID": 9,
+    "Customer_Details": "Mr. Edwardo Blanda I",
+    "Customer_Policies": [
+      {
+        "Policy_ID": 858,
+        "Customer_ID": 9,
+        "Policy_Type_Code": "Property",
+        "Start_Date": "2016-05-30",
+        "End_Date": "2018-02-11",
+        "Claims": [
+          {
+            "Claim_ID": 571,
+            "Policy_ID": 858,
+            "Date_Claim_Made": "2017-08-03",
+            "Date_Claim_Settled": "2018-02-18",
+            "Amount_Claimed": 89632,
+            "Amount_Settled": 1528,
+            "Settlements": [
+              {
+                "Settlement_ID": 756,
+                "Claim_ID": 571,
+                "Date_Claim_Made": "2017-04-14",
+                "Date_Claim_Settled": "2017-11-15",
+                "Amount_Claimed": 8634,
+                "Amount_Settled": 1293,
+                "Customer_Policy_ID": 448,
+                "Payments": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Customer_ID": 10,
+    "Customer_Details": "Augustine Kerluke",
+    "Customer_Policies": []
+  },
+  {
+    "Customer_ID": 11,
+    "Customer_Details": "Buddy Marquardt",
+    "Customer_Policies": []
+  },
+  {
+    "Customer_ID": 12,
+    "Customer_Details": "Mr. Randal Lynch III",
+    "Customer_Policies": [
+      {
+        "Policy_ID": 552,
+        "Customer_ID": 12,
+        "Policy_Type_Code": "Travel",
+        "Start_Date": "2017-12-13",
+        "End_Date": "2017-11-05",
+        "Claims": [
+          {
+            "Claim_ID": 423,
+            "Policy_ID": 552,
+            "Date_Claim_Made": "2016-08-12",
+            "Date_Claim_Settled": "2018-01-27",
+            "Amount_Claimed": 79134,
+            "Amount_Settled": 1724,
+            "Settlements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Customer_ID": 13,
+    "Customer_Details": "Mrs. Liza Heller V",
+    "Customer_Policies": [
+      {
+        "Policy_ID": 587,
+        "Customer_ID": 13,
+        "Policy_Type_Code": "Travel",
+        "Start_Date": "2017-03-23",
+        "End_Date": "2017-09-01",
+        "Claims": []
+      }
+    ]
+  },
+  {
+    "Customer_ID": 14,
+    "Customer_Details": "Mrs. Lilly Graham III",
+    "Customer_Policies": []
+  },
+  {
+    "Customer_ID": 15,
+    "Customer_Details": "Miss Felicita Reichel",
+    "Customer_Policies": []
+  }
+]

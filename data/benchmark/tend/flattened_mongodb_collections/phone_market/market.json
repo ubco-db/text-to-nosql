@@ -1,0 +1,84 @@
+[
+  {
+    "Market_ID": 1,
+    "District": "Alberta",
+    "Num_of_employees": 1966,
+    "Num_of_shops": 40.0,
+    "Ranking": 1,
+    "phone_market": [
+      {
+        "Market_ID": 1,
+        "Phone_ID": "1",
+        "Num_of_stock": 2232
+      },
+      {
+        "Market_ID": 1,
+        "Phone_ID": "4",
+        "Num_of_stock": 874
+      }
+    ]
+  },
+  {
+    "Market_ID": 2,
+    "District": "British Columbia",
+    "Num_of_employees": 1965,
+    "Num_of_shops": 49.0,
+    "Ranking": 21,
+    "phone_market": [
+      {
+        "Market_ID": 2,
+        "Phone_ID": "2",
+        "Num_of_stock": 4324
+      },
+      {
+        "Market_ID": 2,
+        "Phone_ID": "3",
+        "Num_of_stock": 908
+      }
+    ]
+  },
+  {
+    "Market_ID": 3,
+    "District": "New Brunswick",
+    "Num_of_employees": 1978,
+    "Num_of_shops": 10.0,
+    "Ranking": 4,
+    "phone_market": []
+  },
+  {
+    "Market_ID": 4,
+    "District": "Nova Scotia",
+    "Num_of_employees": 1968,
+    "Num_of_shops": 32.0,
+    "Ranking": 5,
+    "phone_market": []
+  },
+  {
+    "Market_ID": 5,
+    "District": "Ontario",
+    "Num_of_employees": 1958,
+    "Num_of_shops": 54.0,
+    "Ranking": 3,
+    "phone_market": [
+      {
+        "Market_ID": 5,
+        "Phone_ID": "1",
+        "Num_of_stock": 682
+      }
+    ]
+  },
+  {
+    "Market_ID": 6,
+    "District": "Quebec",
+    "Num_of_employees": 1958,
+    "Num_of_shops": 54.0,
+    "Ranking": 8,
+    "phone_market": [
+      {
+        "Market_ID": 6,
+        "Phone_ID": "3",
+        "Num_of_stock": 1632
+      }
+    ]
+  }
+]

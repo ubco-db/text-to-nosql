@@ -1,0 +1,175 @@
+[
+  {
+    "book_club_id": 1,
+    "Year": 1989,
+    "Author_or_Editor": "Michael Nava",
+    "Book_Title": "Goldenboy",
+    "Publisher": "Alyson",
+    "Category": "Gay M/SF",
+    "Result": "Won [A ]",
+    "culture_company": [
+      {
+        "Company_name": "Culture China",
+        "Type": "Corporate",
+        "Incorporated_in": "China",
+        "Group_Equity_Shareholding": 18.77,
+        "book_club_id": "1",
+        "movie_id": "2"
+      }
+    ]
+  },
+  {
+    "book_club_id": 2,
+    "Year": 1989,
+    "Author_or_Editor": "Donald Ward",
+    "Book_Title": "Death Takes the Stage",
+    "Publisher": "St. Martin's Press",
+    "Category": "Gay M/SF",
+    "Result": "Nom",
+    "culture_company": [
+      {
+        "Company_name": "Culture China Cargo",
+        "Type": "Joint Venture",
+        "Incorporated_in": "China",
+        "Group_Equity_Shareholding": 49.0,
+        "book_club_id": "2",
+        "movie_id": "3"
+      }
+    ]
+  },
+  {
+    "book_club_id": 3,
+    "Year": 1989,
+    "Author_or_Editor": "Michael Bishop",
+    "Book_Title": "Unicorn Mountain",
+    "Publisher": "William Morrow",
+    "Category": "Gay M/SF",
+    "Result": "Nom",
+    "culture_company": [
+      {
+        "Company_name": "Culture Hong Kong",
+        "Type": "Joint Venture",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 60.0,
+        "book_club_id": "3",
+        "movie_id": "4"
+      }
+    ]
+  },
+  {
+    "book_club_id": 4,
+    "Year": 1989,
+    "Author_or_Editor": "Joseph Hansen",
+    "Book_Title": "Obedience",
+    "Publisher": "Mysterious Press",
+    "Category": "Gay M/SF",
+    "Result": "Nom",
+    "culture_company": []
+  },
+  {
+    "book_club_id": 5,
+    "Year": 1989,
+    "Author_or_Editor": "George Baxt",
+    "Book_Title": "Who\u04f3 Next",
+    "Publisher": "International Polygonics",
+    "Category": "Gay M/SF",
+    "Result": "Nom",
+    "culture_company": [
+      {
+        "Company_name": "Dragonair",
+        "Type": "Subsidiary",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 100.0,
+        "book_club_id": "5",
+        "movie_id": "7"
+      },
+      {
+        "Company_name": "Cathay Pacific Culture",
+        "Type": "Subsidiary",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 100.0,
+        "book_club_id": "5",
+        "movie_id": "5"
+      }
+    ]
+  },
+  {
+    "book_club_id": 6,
+    "Year": 1989,
+    "Author_or_Editor": "Antoinette Azolakov",
+    "Book_Title": "Skiptrace",
+    "Publisher": "Banned Books",
+    "Category": "Lesb. M/SF",
+    "Result": "Won",
+    "culture_company": [
+      {
+        "Company_name": "Cathay Pacific Culture Services (HK) Limited",
+        "Type": "Subsidiary",
+        "Incorporated_in": "Hong Kong",
+        "Group_Equity_Shareholding": 100.0,
+        "book_club_id": "6",
+        "movie_id": "6"
+      }
+    ]
+  },
+  {
+    "book_club_id": 7,
+    "Year": 1989,
+    "Author_or_Editor": "Claire McNab",
+    "Book_Title": "Lessons In Murder",
+    "Publisher": "Naiad Press",
+    "Category": "Lesb. M/SF",
+    "Result": "Nom",
+    "culture_company": []
+  },
+  {
+    "book_club_id": 8,
+    "Year": 1989,
+    "Author_or_Editor": "Judy Grahn",
+    "Book_Title": "Mundane\u04f3 World",
+    "Publisher": "Crossing Press",
+    "Category": "Lesb. M/SF",
+    "Result": "Nom",
+    "culture_company": []
+  },
+  {
+    "book_club_id": 9,
+    "Year": 1989,
+    "Author_or_Editor": "Dolores Klaich",
+    "Book_Title": "Heavy Gilt",
+    "Publisher": "Naiad Press",
+    "Category": "Lesb. M/SF",
+    "Result": "Nom",
+    "culture_company": []
+  },
+  {
+    "book_club_id": 10,
+    "Year": 1989,
+    "Author_or_Editor": "Sandy Bayer",
+    "Book_Title": "The Crystal Curtain",
+    "Publisher": "Alyson",
+    "Category": "Lesb. M/SF",
+    "Result": "Nom",
+    "culture_company": []
+  },
+  {
+    "book_club_id": 11,
+    "Year": 1990,
+    "Author_or_Editor": "Jeffrey N. McMahan",
+    "Book_Title": "Somewhere in the Night",
+    "Publisher": "Alyson",
+    "Category": "Gay SF/F",
+    "Result": "Won [B ]",
+    "culture_company": []
+  },
+  {
+    "book_club_id": 12,
+    "Year": 1990,
+    "Author_or_Editor": "Thom Nickels",
+    "Book_Title": "Walking Water / After All This",
+    "Publisher": "Banned Books",
+    "Category": "Gay SF/F",
+    "Result": "Nom",
+    "culture_company": []
+  }
+]

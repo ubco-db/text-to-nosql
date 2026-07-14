@@ -1,0 +1,994 @@
+[
+  {
+    "address_id": 1,
+    "line_1_number_building": "3904 Stroman Passage",
+    "city": "Port Melyssa",
+    "zip_postcode": "14445",
+    "state_province_county": "Georgia",
+    "country": "USA",
+    "Staff": [
+      {
+        "staff_id": 4,
+        "staff_address_id": 1,
+        "nickname": "lsenger",
+        "first_name": "Rebekah",
+        "middle_name": "Sherwood",
+        "last_name": "Hermann",
+        "date_of_birth": "2003-01-16 06:29:11",
+        "date_joined_staff": "2017-10-21 17:20:57",
+        "date_left_staff": "2018-03-04 17:13:53",
+        "Lessons": [
+          {
+            "lesson_id": 6,
+            "customer_id": 5,
+            "lesson_status_code": "Completed",
+            "staff_id": 4,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-07 22:03:49",
+            "lesson_time": "6",
+            "price": 492.0
+          },
+          {
+            "lesson_id": 9,
+            "customer_id": 2,
+            "lesson_status_code": "Completed",
+            "staff_id": 4,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-05 20:05:33",
+            "lesson_time": "9",
+            "price": 456.0
+          }
+        ]
+      },
+      {
+        "staff_id": 8,
+        "staff_address_id": 1,
+        "nickname": "gabe21",
+        "first_name": "Titus",
+        "middle_name": "Duane",
+        "last_name": "Durgan",
+        "date_of_birth": "2005-05-02 06:23:36",
+        "date_joined_staff": "2016-05-26 00:55:07",
+        "date_left_staff": "2018-03-05 18:30:12",
+        "Lessons": [
+          {
+            "lesson_id": 1,
+            "customer_id": 6,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 8,
+            "vehicle_id": 3,
+            "lesson_date": "2018-02-28 10:55:36",
+            "lesson_time": "5",
+            "price": 199.0
+          },
+          {
+            "lesson_id": 8,
+            "customer_id": 3,
+            "lesson_status_code": "Completed",
+            "staff_id": 8,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-21 06:48:45",
+            "lesson_time": "2",
+            "price": 277.0
+          },
+          {
+            "lesson_id": 15,
+            "customer_id": 3,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 8,
+            "vehicle_id": 1,
+            "lesson_date": "2018-03-06 21:48:51",
+            "lesson_time": "9",
+            "price": 340.0
+          }
+        ]
+      },
+      {
+        "staff_id": 11,
+        "staff_address_id": 1,
+        "nickname": "nicholaus92",
+        "first_name": "Winnifred",
+        "middle_name": "Liam",
+        "last_name": "Jast",
+        "date_of_birth": "2000-06-13 18:09:11",
+        "date_joined_staff": "2016-05-01 02:22:45",
+        "date_left_staff": "2018-03-09 05:08:35",
+        "Lessons": [
+          {
+            "lesson_id": 3,
+            "customer_id": 6,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 11,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-03 15:10:16",
+            "lesson_time": "3",
+            "price": 352.0
+          },
+          {
+            "lesson_id": 7,
+            "customer_id": 9,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 11,
+            "vehicle_id": 1,
+            "lesson_date": "2018-03-08 16:05:05",
+            "lesson_time": "9",
+            "price": 231.0
+          },
+          {
+            "lesson_id": 14,
+            "customer_id": 11,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 11,
+            "vehicle_id": 1,
+            "lesson_date": "2018-03-07 11:53:32",
+            "lesson_time": "5",
+            "price": 483.0
+          }
+        ]
+      },
+      {
+        "staff_id": 13,
+        "staff_address_id": 1,
+        "nickname": "norma73",
+        "first_name": "Ernestina",
+        "middle_name": "Clarabelle",
+        "last_name": "Mraz",
+        "date_of_birth": "2004-05-19 14:11:13",
+        "date_joined_staff": "2016-11-13 20:44:23",
+        "date_left_staff": "2018-02-26 17:56:31",
+        "Lessons": []
+      }
+    ],
+    "Customers": [
+      {
+        "customer_id": 7,
+        "customer_address_id": 1,
+        "customer_status_code": "Bad Customer",
+        "date_became_customer": "2015-06-24 03:50:04",
+        "date_of_birth": "1996-11-07 05:30:55",
+        "first_name": "Marina",
+        "last_name": "Koelpin",
+        "amount_outstanding": 8144.0,
+        "email_address": "mayert.judy@example.com",
+        "phone_number": "(662)490-3108",
+        "cell_mobile_phone_number": "848-099-2095x785",
+        "Customer_Payments": [
+          {
+            "customer_id": 7,
+            "datetime_payment": "2018-02-15 16:38:49",
+            "payment_method_code": "Direct Debit",
+            "amount_payment": 4773.16
+          }
+        ],
+        "Lessons": []
+      },
+      {
+        "customer_id": 10,
+        "customer_address_id": 1,
+        "customer_status_code": "Bad Customer",
+        "date_became_customer": "2017-11-25 01:42:26",
+        "date_of_birth": "1996-08-29 00:03:08",
+        "first_name": "Rylan",
+        "last_name": "Goodwin",
+        "amount_outstanding": 1000.0,
+        "email_address": "nichole59@example.com",
+        "phone_number": "1-387-884-0656",
+        "cell_mobile_phone_number": "+45(6)4872981083",
+        "Customer_Payments": [
+          {
+            "customer_id": 10,
+            "datetime_payment": "2018-02-01 06:15:31",
+            "payment_method_code": "Direct Debit",
+            "amount_payment": 6782.84
+          }
+        ],
+        "Lessons": [
+          {
+            "lesson_id": 5,
+            "customer_id": 10,
+            "lesson_status_code": "Completed",
+            "staff_id": 3,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-12 00:41:59",
+            "lesson_time": "9",
+            "price": 295.0
+          },
+          {
+            "lesson_id": 11,
+            "customer_id": 10,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 15,
+            "vehicle_id": 1,
+            "lesson_date": "2018-03-04 06:55:46",
+            "lesson_time": "2",
+            "price": 223.0
+          }
+        ]
+      },
+      {
+        "customer_id": 15,
+        "customer_address_id": 1,
+        "customer_status_code": "Bad Customer",
+        "date_became_customer": "2015-09-25 13:59:21",
+        "date_of_birth": "1996-08-30 06:17:50",
+        "first_name": "Dameon",
+        "last_name": "Sanford",
+        "amount_outstanding": 9332.0,
+        "email_address": "kitty.hand@example.net",
+        "phone_number": "(729)396-4354x3576",
+        "cell_mobile_phone_number": "(630)964-2426",
+        "Customer_Payments": [],
+        "Lessons": []
+      }
+    ]
+  },
+  {
+    "address_id": 2,
+    "line_1_number_building": "053 Quigley Island",
+    "city": "Hagenesfurt",
+    "zip_postcode": "22194",
+    "state_province_county": "Kentucky",
+    "country": "USA",
+    "Staff": [
+      {
+        "staff_id": 10,
+        "staff_address_id": 2,
+        "nickname": "sbrown",
+        "first_name": "Jaleel",
+        "middle_name": "Maiya",
+        "last_name": "Rogahn",
+        "date_of_birth": "1996-09-24 09:51:42",
+        "date_joined_staff": "2016-06-05 22:22:23",
+        "date_left_staff": "2018-03-14 07:14:37",
+        "Lessons": []
+      }
+    ],
+    "Customers": [
+      {
+        "customer_id": 5,
+        "customer_address_id": 2,
+        "customer_status_code": "Bad Customer",
+        "date_became_customer": "2017-11-12 04:34:44",
+        "date_of_birth": "1991-02-10 00:42:17",
+        "first_name": "Millie",
+        "last_name": "Bruen",
+        "amount_outstanding": 5687.0,
+        "email_address": "asha.kilback@example.org",
+        "phone_number": "1-618-535-9750",
+        "cell_mobile_phone_number": "00659133944",
+        "Customer_Payments": [],
+        "Lessons": [
+          {
+            "lesson_id": 6,
+            "customer_id": 5,
+            "lesson_status_code": "Completed",
+            "staff_id": 4,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-07 22:03:49",
+            "lesson_time": "6",
+            "price": 492.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "address_id": 3,
+    "line_1_number_building": "00704 Zoe Alley",
+    "city": "Lake Elaina",
+    "zip_postcode": "08938",
+    "state_province_county": "Georgia",
+    "country": "USA",
+    "Staff": [
+      {
+        "staff_id": 2,
+        "staff_address_id": 3,
+        "nickname": "santos45",
+        "first_name": "Camylle",
+        "middle_name": "Icie",
+        "last_name": "Weissnat",
+        "date_of_birth": "2015-08-01 13:22:43",
+        "date_joined_staff": "2016-06-06 08:54:28",
+        "date_left_staff": "2018-03-10 15:25:00",
+        "Lessons": []
+      },
+      {
+        "staff_id": 15,
+        "staff_address_id": 3,
+        "nickname": "weissnat.vincenzo",
+        "first_name": "Simeon",
+        "middle_name": "Mayra",
+        "last_name": "Turner",
+        "date_of_birth": "1997-03-29 10:55:45",
+        "date_joined_staff": "2017-02-20 18:45:20",
+        "date_left_staff": "2018-03-01 17:10:03",
+        "Lessons": [
+          {
+            "lesson_id": 11,
+            "customer_id": 10,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 15,
+            "vehicle_id": 1,
+            "lesson_date": "2018-03-04 06:55:46",
+            "lesson_time": "2",
+            "price": 223.0
+          }
+        ]
+      }
+    ],
+    "Customers": []
+  },
+  {
+    "address_id": 4,
+    "line_1_number_building": "484 O'Hara Drive",
+    "city": "Buckridgehaven",
+    "zip_postcode": "00005",
+    "state_province_county": "Oregon",
+    "country": "USA",
+    "Staff": [
+      {
+        "staff_id": 9,
+        "staff_address_id": 4,
+        "nickname": "ymiller",
+        "first_name": "Margie",
+        "middle_name": "Caesar",
+        "last_name": "Doyle",
+        "date_of_birth": "1995-06-03 08:09:17",
+        "date_joined_staff": "2017-12-22 03:06:32",
+        "date_left_staff": "2018-03-08 12:31:16",
+        "Lessons": []
+      }
+    ],
+    "Customers": []
+  },
+  {
+    "address_id": 5,
+    "line_1_number_building": "354 Frederik Ridge",
+    "city": "Powlowskichester",
+    "zip_postcode": "27559",
+    "state_province_county": "Ohio",
+    "country": "USA",
+    "Staff": [
+      {
+        "staff_id": 3,
+        "staff_address_id": 5,
+        "nickname": "ynader",
+        "first_name": "Kaitlin",
+        "middle_name": "Stephania",
+        "last_name": "Mertz",
+        "date_of_birth": "1994-05-17 05:32:11",
+        "date_joined_staff": "2018-01-02 12:24:24",
+        "date_left_staff": "2018-03-24 10:11:08",
+        "Lessons": [
+          {
+            "lesson_id": 5,
+            "customer_id": 10,
+            "lesson_status_code": "Completed",
+            "staff_id": 3,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-12 00:41:59",
+            "lesson_time": "9",
+            "price": 295.0
+          }
+        ]
+      }
+    ],
+    "Customers": []
+  },
+  {
+    "address_id": 6,
+    "line_1_number_building": "376 Kallie Tunnel Apt. 784",
+    "city": "Elviebury",
+    "zip_postcode": "63768",
+    "state_province_county": "Connecticut",
+    "country": "USA",
+    "Staff": [
+      {
+        "staff_id": 14,
+        "staff_address_id": 6,
+        "nickname": "bkunze",
+        "first_name": "Ludie",
+        "middle_name": "Ulices",
+        "last_name": "Kuphal",
+        "date_of_birth": "2000-11-16 06:55:12",
+        "date_joined_staff": "2017-08-30 15:08:37",
+        "date_left_staff": "2018-03-02 01:48:15",
+        "Lessons": [
+          {
+            "lesson_id": 2,
+            "customer_id": 8,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 14,
+            "vehicle_id": 3,
+            "lesson_date": "2018-03-07 16:12:36",
+            "lesson_time": "6",
+            "price": 167.0
+          }
+        ]
+      }
+    ],
+    "Customers": []
+  },
+  {
+    "address_id": 7,
+    "line_1_number_building": "56461 Baumbach Well Suite 634",
+    "city": "Lockmanfurt",
+    "zip_postcode": "34975",
+    "state_province_county": "Washington",
+    "country": "USA",
+    "Staff": [
+      {
+        "staff_id": 12,
+        "staff_address_id": 7,
+        "nickname": "edwin.hudson",
+        "first_name": "Lincoln",
+        "middle_name": "Benny",
+        "last_name": "Carroll",
+        "date_of_birth": "1996-03-09 08:19:49",
+        "date_joined_staff": "2016-11-05 01:43:52",
+        "date_left_staff": "2018-03-06 23:17:41",
+        "Lessons": [
+          {
+            "lesson_id": 12,
+            "customer_id": 11,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 12,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-16 07:08:52",
+            "lesson_time": "2",
+            "price": 184.0
+          },
+          {
+            "lesson_id": 13,
+            "customer_id": 13,
+            "lesson_status_code": "Completed",
+            "staff_id": 12,
+            "vehicle_id": 1,
+            "lesson_date": "2018-03-05 18:05:31",
+            "lesson_time": "5",
+            "price": 446.0
+          }
+        ]
+      }
+    ],
+    "Customers": [
+      {
+        "customer_id": 13,
+        "customer_address_id": 7,
+        "customer_status_code": "Good Customer",
+        "date_became_customer": "2016-09-04 23:08:20",
+        "date_of_birth": "1988-09-19 14:45:56",
+        "first_name": "Sigrid",
+        "last_name": "Schmeler",
+        "amount_outstanding": 2255.0,
+        "email_address": "wehner.harold@example.com",
+        "phone_number": "192-395-2411",
+        "cell_mobile_phone_number": "+57(9)4602098297",
+        "Customer_Payments": [
+          {
+            "customer_id": 13,
+            "datetime_payment": "2018-02-21 05:28:49",
+            "payment_method_code": "Credit Card",
+            "amount_payment": 7440.34
+          }
+        ],
+        "Lessons": [
+          {
+            "lesson_id": 13,
+            "customer_id": 13,
+            "lesson_status_code": "Completed",
+            "staff_id": 12,
+            "vehicle_id": 1,
+            "lesson_date": "2018-03-05 18:05:31",
+            "lesson_time": "5",
+            "price": 446.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "address_id": 8,
+    "line_1_number_building": "29085 Dejah Pine Suite 059",
+    "city": "Lake Rafaela",
+    "zip_postcode": "80376",
+    "state_province_county": "WestVirginia",
+    "country": "USA",
+    "Staff": [],
+    "Customers": [
+      {
+        "customer_id": 4,
+        "customer_address_id": 8,
+        "customer_status_code": "Good Customer",
+        "date_became_customer": "2016-07-22 15:53:44",
+        "date_of_birth": "1993-02-07 05:40:26",
+        "first_name": "Jordy",
+        "last_name": "Tromp",
+        "amount_outstanding": 3751.0,
+        "email_address": "afranecki@example.com",
+        "phone_number": "218.550.1362",
+        "cell_mobile_phone_number": "081-097-3684",
+        "Customer_Payments": [
+          {
+            "customer_id": 4,
+            "datetime_payment": "2018-02-03 15:04:36",
+            "payment_method_code": "Direct Debit",
+            "amount_payment": 6311.37
+          }
+        ],
+        "Lessons": []
+      }
+    ]
+  },
+  {
+    "address_id": 9,
+    "line_1_number_building": "535 Ariel Brook",
+    "city": "Port Jackelinemouth",
+    "zip_postcode": "85954",
+    "state_province_county": "Maine",
+    "country": "USA",
+    "Staff": [],
+    "Customers": [
+      {
+        "customer_id": 6,
+        "customer_address_id": 9,
+        "customer_status_code": "Good Customer",
+        "date_became_customer": "2017-04-16 05:12:21",
+        "date_of_birth": "1993-03-08 08:48:42",
+        "first_name": "Amya",
+        "last_name": "Spinka",
+        "amount_outstanding": 3900.0,
+        "email_address": "kozey.citlalli@example.org",
+        "phone_number": "1-673-962-8158x7646",
+        "cell_mobile_phone_number": "(780)719-4206x033",
+        "Customer_Payments": [
+          {
+            "customer_id": 6,
+            "datetime_payment": "2018-02-19 09:06:29",
+            "payment_method_code": "Direct Debit",
+            "amount_payment": 5475.26
+          },
+          {
+            "customer_id": 6,
+            "datetime_payment": "2018-03-12 08:41:47",
+            "payment_method_code": "Direct Debit",
+            "amount_payment": 4032.33
+          }
+        ],
+        "Lessons": [
+          {
+            "lesson_id": 1,
+            "customer_id": 6,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 8,
+            "vehicle_id": 3,
+            "lesson_date": "2018-02-28 10:55:36",
+            "lesson_time": "5",
+            "price": 199.0
+          },
+          {
+            "lesson_id": 3,
+            "customer_id": 6,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 11,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-03 15:10:16",
+            "lesson_time": "3",
+            "price": 352.0
+          }
+        ]
+      },
+      {
+        "customer_id": 12,
+        "customer_address_id": 9,
+        "customer_status_code": "Bad Customer",
+        "date_became_customer": "2016-05-13 07:38:23",
+        "date_of_birth": "1993-07-09 11:11:36",
+        "first_name": "Omer",
+        "last_name": "Leuschke",
+        "amount_outstanding": 2099.0,
+        "email_address": "myrl.lind@example.net",
+        "phone_number": "417.136.2900x672",
+        "cell_mobile_phone_number": "200.830.8723",
+        "Customer_Payments": [
+          {
+            "customer_id": 12,
+            "datetime_payment": "2018-03-06 21:36:41",
+            "payment_method_code": "Credit Card",
+            "amount_payment": 9414.74
+          }
+        ],
+        "Lessons": []
+      }
+    ]
+  },
+  {
+    "address_id": 10,
+    "line_1_number_building": "2291 Larkin Ports",
+    "city": "South Richieport",
+    "zip_postcode": "95098",
+    "state_province_county": "Idaho",
+    "country": "USA",
+    "Staff": [],
+    "Customers": [
+      {
+        "customer_id": 2,
+        "customer_address_id": 10,
+        "customer_status_code": "Bad Customer",
+        "date_became_customer": "2015-11-16 22:52:14",
+        "date_of_birth": "1995-07-17 12:13:16",
+        "first_name": "Genevieve",
+        "last_name": "Terry",
+        "amount_outstanding": 7256.0,
+        "email_address": "huel.jana@example.org",
+        "phone_number": "+14(5)2351480248",
+        "cell_mobile_phone_number": "578-518-4785x612",
+        "Customer_Payments": [
+          {
+            "customer_id": 2,
+            "datetime_payment": "2018-02-24 10:07:05",
+            "payment_method_code": "Direct Debit",
+            "amount_payment": 8180.26
+          },
+          {
+            "customer_id": 2,
+            "datetime_payment": "2018-03-20 21:38:41",
+            "payment_method_code": "Direct Debit",
+            "amount_payment": 1708.18
+          }
+        ],
+        "Lessons": [
+          {
+            "lesson_id": 9,
+            "customer_id": 2,
+            "lesson_status_code": "Completed",
+            "staff_id": 4,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-05 20:05:33",
+            "lesson_time": "9",
+            "price": 456.0
+          },
+          {
+            "lesson_id": 10,
+            "customer_id": 2,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 5,
+            "vehicle_id": 2,
+            "lesson_date": "2018-02-26 02:36:35",
+            "lesson_time": "4",
+            "price": 495.0
+          }
+        ]
+      },
+      {
+        "customer_id": 3,
+        "customer_address_id": 10,
+        "customer_status_code": "Good Customer",
+        "date_became_customer": "2016-04-08 00:28:15",
+        "date_of_birth": "1994-06-21 01:34:56",
+        "first_name": "Clara",
+        "last_name": "Ortiz",
+        "amount_outstanding": 9443.0,
+        "email_address": "hilario.sporer@example.org",
+        "phone_number": "374-483-2758x85087",
+        "cell_mobile_phone_number": "1-197-686-2849x8761",
+        "Customer_Payments": [
+          {
+            "customer_id": 3,
+            "datetime_payment": "2018-02-06 13:35:58",
+            "payment_method_code": "Credit Card",
+            "amount_payment": 787.12
+          }
+        ],
+        "Lessons": [
+          {
+            "lesson_id": 8,
+            "customer_id": 3,
+            "lesson_status_code": "Completed",
+            "staff_id": 8,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-21 06:48:45",
+            "lesson_time": "2",
+            "price": 277.0
+          },
+          {
+            "lesson_id": 15,
+            "customer_id": 3,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 8,
+            "vehicle_id": 1,
+            "lesson_date": "2018-03-06 21:48:51",
+            "lesson_time": "9",
+            "price": 340.0
+          }
+        ]
+      },
+      {
+        "customer_id": 8,
+        "customer_address_id": 10,
+        "customer_status_code": "Bad Customer",
+        "date_became_customer": "2017-10-05 14:15:46",
+        "date_of_birth": "1998-09-18 04:45:01",
+        "first_name": "Dianna",
+        "last_name": "Trantow",
+        "amount_outstanding": 9500.0,
+        "email_address": "kroberts@example.org",
+        "phone_number": "206-054-0689x05861",
+        "cell_mobile_phone_number": "739-333-6966x187",
+        "Customer_Payments": [],
+        "Lessons": [
+          {
+            "lesson_id": 2,
+            "customer_id": 8,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 14,
+            "vehicle_id": 3,
+            "lesson_date": "2018-03-07 16:12:36",
+            "lesson_time": "6",
+            "price": 167.0
+          },
+          {
+            "lesson_id": 4,
+            "customer_id": 8,
+            "lesson_status_code": "Completed",
+            "staff_id": 1,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-17 19:02:07",
+            "lesson_time": "9",
+            "price": 306.0
+          }
+        ]
+      },
+      {
+        "customer_id": 14,
+        "customer_address_id": 10,
+        "customer_status_code": "Good Customer",
+        "date_became_customer": "2016-03-18 06:14:18",
+        "date_of_birth": "1996-05-23 01:21:54",
+        "first_name": "Estelle",
+        "last_name": "Grant",
+        "amount_outstanding": 5494.0,
+        "email_address": "ehowell@example.com",
+        "phone_number": "1-875-045-0806",
+        "cell_mobile_phone_number": "1-401-108-8016x078",
+        "Customer_Payments": [
+          {
+            "customer_id": 14,
+            "datetime_payment": "2018-02-19 01:49:59",
+            "payment_method_code": "Credit Card",
+            "amount_payment": 3073.98
+          },
+          {
+            "customer_id": 14,
+            "datetime_payment": "2018-02-27 20:08:53",
+            "payment_method_code": "Direct Debit",
+            "amount_payment": 4610.26
+          },
+          {
+            "customer_id": 14,
+            "datetime_payment": "2018-03-12 13:31:36",
+            "payment_method_code": "Credit Card",
+            "amount_payment": 6970.98
+          }
+        ],
+        "Lessons": []
+      }
+    ]
+  },
+  {
+    "address_id": 11,
+    "line_1_number_building": "37698 Hahn Curve Apt. 572",
+    "city": "South Eugene",
+    "zip_postcode": "99903",
+    "state_province_county": "Alabama",
+    "country": "USA",
+    "Staff": [],
+    "Customers": []
+  },
+  {
+    "address_id": 12,
+    "line_1_number_building": "7089 Mueller Forks",
+    "city": "New Bernieceburgh",
+    "zip_postcode": "38197",
+    "state_province_county": "Louisiana",
+    "country": "USA",
+    "Staff": [
+      {
+        "staff_id": 6,
+        "staff_address_id": 12,
+        "nickname": "bogisich.geovany",
+        "first_name": "Eulalia",
+        "middle_name": "Tre",
+        "last_name": "Maggio",
+        "date_of_birth": "1998-04-27 12:55:05",
+        "date_joined_staff": "2017-08-27 19:19:44",
+        "date_left_staff": "2018-02-28 08:26:10",
+        "Lessons": []
+      }
+    ],
+    "Customers": [
+      {
+        "customer_id": 9,
+        "customer_address_id": 12,
+        "customer_status_code": "Bad Customer",
+        "date_became_customer": "2016-02-17 08:26:23",
+        "date_of_birth": "1991-12-05 02:50:15",
+        "first_name": "Leif",
+        "last_name": "Mertz",
+        "amount_outstanding": 7093.0,
+        "email_address": "mariela28@example.org",
+        "phone_number": "753.921.0871",
+        "cell_mobile_phone_number": "1-387-258-1016x96963",
+        "Customer_Payments": [],
+        "Lessons": [
+          {
+            "lesson_id": 7,
+            "customer_id": 9,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 11,
+            "vehicle_id": 1,
+            "lesson_date": "2018-03-08 16:05:05",
+            "lesson_time": "9",
+            "price": 231.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "address_id": 13,
+    "line_1_number_building": "43235 Jazmin Mountain Suite 251",
+    "city": "Ericamouth",
+    "zip_postcode": "75074",
+    "state_province_county": "Louisiana",
+    "country": "USA",
+    "Staff": [
+      {
+        "staff_id": 7,
+        "staff_address_id": 13,
+        "nickname": "weldon.kling",
+        "first_name": "Queenie",
+        "middle_name": "Madelyn",
+        "last_name": "Macejkovic",
+        "date_of_birth": "2007-06-11 20:03:28",
+        "date_joined_staff": "2017-06-04 14:30:41",
+        "date_left_staff": "2018-03-08 05:16:29",
+        "Lessons": []
+      }
+    ],
+    "Customers": [
+      {
+        "customer_id": 1,
+        "customer_address_id": 13,
+        "customer_status_code": "Bad Customer",
+        "date_became_customer": "2016-05-11 17:03:48",
+        "date_of_birth": "1998-12-15 13:24:40",
+        "first_name": "Carole",
+        "last_name": "Bernhard",
+        "amount_outstanding": 255.0,
+        "email_address": "everette.goyette@example.org",
+        "phone_number": "07278206718",
+        "cell_mobile_phone_number": "861-638-9797",
+        "Customer_Payments": [
+          {
+            "customer_id": 1,
+            "datetime_payment": "2018-03-18 13:48:13",
+            "payment_method_code": "Direct Debit",
+            "amount_payment": 9886.62
+          }
+        ],
+        "Lessons": []
+      },
+      {
+        "customer_id": 11,
+        "customer_address_id": 13,
+        "customer_status_code": "Good Customer",
+        "date_became_customer": "2016-11-30 10:37:41",
+        "date_of_birth": "1994-05-07 01:32:16",
+        "first_name": "Ray",
+        "last_name": "Kohler",
+        "amount_outstanding": 9447.0,
+        "email_address": "karina.carroll@example.net",
+        "phone_number": "(297)122-0086",
+        "cell_mobile_phone_number": "577-584-4864",
+        "Customer_Payments": [
+          {
+            "customer_id": 11,
+            "datetime_payment": "2018-02-05 18:44:46",
+            "payment_method_code": "Direct Debit",
+            "amount_payment": 9570.93
+          }
+        ],
+        "Lessons": [
+          {
+            "lesson_id": 12,
+            "customer_id": 11,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 12,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-16 07:08:52",
+            "lesson_time": "2",
+            "price": 184.0
+          },
+          {
+            "lesson_id": 14,
+            "customer_id": 11,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 11,
+            "vehicle_id": 1,
+            "lesson_date": "2018-03-07 11:53:32",
+            "lesson_time": "5",
+            "price": 483.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "address_id": 14,
+    "line_1_number_building": "4834 Schaefer Light Suite 947",
+    "city": "Damianfort",
+    "zip_postcode": "61121",
+    "state_province_county": "Connecticut",
+    "country": "USA",
+    "Staff": [
+      {
+        "staff_id": 1,
+        "staff_address_id": 14,
+        "nickname": "thompson.constantin",
+        "first_name": "Janessa",
+        "middle_name": "Amara",
+        "last_name": "Sawayn",
+        "date_of_birth": "2010-12-08 16:55:14",
+        "date_joined_staff": "2017-04-27 03:21:26",
+        "date_left_staff": "2018-03-23 22:53:12",
+        "Lessons": [
+          {
+            "lesson_id": 4,
+            "customer_id": 8,
+            "lesson_status_code": "Completed",
+            "staff_id": 1,
+            "vehicle_id": 2,
+            "lesson_date": "2018-03-17 19:02:07",
+            "lesson_time": "9",
+            "price": 306.0
+          }
+        ]
+      },
+      {
+        "staff_id": 5,
+        "staff_address_id": 14,
+        "nickname": "ledner.jamie",
+        "first_name": "Jedidiah",
+        "middle_name": "Dejon",
+        "last_name": "Herzog",
+        "date_of_birth": "2015-08-10 11:37:39",
+        "date_joined_staff": "2016-05-16 20:56:53",
+        "date_left_staff": "2018-03-08 04:23:14",
+        "Lessons": [
+          {
+            "lesson_id": 10,
+            "customer_id": 2,
+            "lesson_status_code": "Cancelled",
+            "staff_id": 5,
+            "vehicle_id": 2,
+            "lesson_date": "2018-02-26 02:36:35",
+            "lesson_time": "4",
+            "price": 495.0
+          }
+        ]
+      }
+    ],
+    "Customers": []
+  },
+  {
+    "address_id": 15,
+    "line_1_number_building": "9260 Streich Mountain",
+    "city": "West Edmondview",
+    "zip_postcode": "43988",
+    "state_province_county": "Kentucky",
+    "country": "USA",
+    "Staff": [],
+    "Customers": []
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "Submission_ID": 1,
+    "Scores": 72.0,
+    "Author": "Steve Niehaus",
+    "College": "Notre Dame",
+    "Acceptance": [
+      {
+        "Submission_ID": 1,
+        "Workshop_ID": 1,
+        "Result": "Accepted"
+      }
+    ]
+  },
+  {
+    "Submission_ID": 2,
+    "Scores": 79.0,
+    "Author": "Sammy Green",
+    "College": "Florida",
+    "Acceptance": [
+      {
+        "Submission_ID": 2,
+        "Workshop_ID": 3,
+        "Result": "Rejected"
+      },
+      {
+        "Submission_ID": 2,
+        "Workshop_ID": 5,
+        "Result": "Accepted"
+      }
+    ]
+  },
+  {
+    "Submission_ID": 3,
+    "Scores": 78.0,
+    "Author": "Sherman Smith",
+    "College": "Miami (OH)",
+    "Acceptance": [
+      {
+        "Submission_ID": 3,
+        "Workshop_ID": 2,
+        "Result": "Rejected"
+      }
+    ]
+  },
+  {
+    "Submission_ID": 4,
+    "Scores": 79.0,
+    "Author": "Steve Raible",
+    "College": "Georgia Tech",
+    "Acceptance": [
+      {
+        "Submission_ID": 4,
+        "Workshop_ID": 6,
+        "Result": "Rejected"
+      }
+    ]
+  },
+  {
+    "Submission_ID": 5,
+    "Scores": 82.0,
+    "Author": "Jeff Lloyd",
+    "College": "West Texas State",
+    "Acceptance": [
+      {
+        "Submission_ID": 5,
+        "Workshop_ID": 6,
+        "Result": "Rejected"
+      }
+    ]
+  },
+  {
+    "Submission_ID": 6,
+    "Scores": 89.0,
+    "Author": "Rick Engles",
+    "College": "Tulsa",
+    "Acceptance": []
+  },
+  {
+    "Submission_ID": 7,
+    "Scores": 92.0,
+    "Author": "Don Bitterlich",
+    "College": "Temple",
+    "Acceptance": []
+  },
+  {
+    "Submission_ID": 8,
+    "Scores": 93.0,
+    "Author": "Steve Myer",
+    "College": "New Mexico",
+    "Acceptance": []
+  },
+  {
+    "Submission_ID": 9,
+    "Scores": 82.0,
+    "Author": "Randy Johnson",
+    "College": "Georgia",
+    "Acceptance": []
+  },
+  {
+    "Submission_ID": 10,
+    "Scores": 83.0,
+    "Author": "Andy Bolton",
+    "College": "Fisk",
+    "Acceptance": []
+  }
+]

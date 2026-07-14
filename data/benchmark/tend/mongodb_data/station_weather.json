@@ -1,0 +1,500 @@
+{
+    "station": [
+        {
+            "id": 1,
+            "network_name": "Amersham",
+            "services": "Metropolitan line and Chiltern Railways",
+            "local_authority": "Chiltern",
+            "route": [
+                {
+                    "train_id": 1,
+                    "station_id": 1
+                },
+                {
+                    "train_id": 2,
+                    "station_id": 1
+                },
+                {
+                    "train_id": 5,
+                    "station_id": 1
+                }
+            ],
+            "weekly_weather": [
+                {
+                    "station_id": 1,
+                    "day_of_week": "Friday",
+                    "high_temperature": 55,
+                    "low_temperature": 52,
+                    "precipitation": 50.0,
+                    "wind_speed_mph": 17
+                },
+                {
+                    "station_id": 1,
+                    "day_of_week": "Monday",
+                    "high_temperature": 59,
+                    "low_temperature": 54,
+                    "precipitation": 90.0,
+                    "wind_speed_mph": 13
+                },
+                {
+                    "station_id": 1,
+                    "day_of_week": "Saturday",
+                    "high_temperature": 55,
+                    "low_temperature": 52,
+                    "precipitation": 50.0,
+                    "wind_speed_mph": 14
+                },
+                {
+                    "station_id": 1,
+                    "day_of_week": "Sunday",
+                    "high_temperature": 54,
+                    "low_temperature": 52,
+                    "precipitation": 50.0,
+                    "wind_speed_mph": 12
+                },
+                {
+                    "station_id": 1,
+                    "day_of_week": "Thursday",
+                    "high_temperature": 55,
+                    "low_temperature": 50,
+                    "precipitation": 30.0,
+                    "wind_speed_mph": 13
+                },
+                {
+                    "station_id": 1,
+                    "day_of_week": "Tuesday",
+                    "high_temperature": 66,
+                    "low_temperature": 55,
+                    "precipitation": 20.0,
+                    "wind_speed_mph": 12
+                },
+                {
+                    "station_id": 1,
+                    "day_of_week": "Wednesday",
+                    "high_temperature": 60,
+                    "low_temperature": 52,
+                    "precipitation": 10.0,
+                    "wind_speed_mph": 14
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "network_name": "Bushey",
+            "services": "London Overground and London Midland",
+            "local_authority": "Watford",
+            "route": [
+                {
+                    "train_id": 1,
+                    "station_id": 2
+                },
+                {
+                    "train_id": 4,
+                    "station_id": 2
+                }
+            ],
+            "weekly_weather": [
+                {
+                    "station_id": 2,
+                    "day_of_week": "Monday",
+                    "high_temperature": 58,
+                    "low_temperature": 54,
+                    "precipitation": 60.0,
+                    "wind_speed_mph": 20
+                },
+                {
+                    "station_id": 2,
+                    "day_of_week": "Thursday",
+                    "high_temperature": 59,
+                    "low_temperature": 56,
+                    "precipitation": 70.0,
+                    "wind_speed_mph": 24
+                },
+                {
+                    "station_id": 2,
+                    "day_of_week": "Tuesday",
+                    "high_temperature": 57,
+                    "low_temperature": 54,
+                    "precipitation": 80.0,
+                    "wind_speed_mph": 22
+                },
+                {
+                    "station_id": 2,
+                    "day_of_week": "Wednesday",
+                    "high_temperature": 59,
+                    "low_temperature": 55,
+                    "precipitation": 90.0,
+                    "wind_speed_mph": 23
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "network_name": "Brentwood",
+            "services": "Greater Anglia",
+            "local_authority": "Brentwood",
+            "route": [
+                {
+                    "train_id": 1,
+                    "station_id": 3
+                },
+                {
+                    "train_id": 2,
+                    "station_id": 3
+                }
+            ],
+            "weekly_weather": [
+                {
+                    "station_id": 3,
+                    "day_of_week": "Monday",
+                    "high_temperature": 49,
+                    "low_temperature": 46,
+                    "precipitation": 30.0,
+                    "wind_speed_mph": 10
+                },
+                {
+                    "station_id": 3,
+                    "day_of_week": "Tuesday",
+                    "high_temperature": 50,
+                    "low_temperature": 49,
+                    "precipitation": 50.0,
+                    "wind_speed_mph": 9
+                },
+                {
+                    "station_id": 3,
+                    "day_of_week": "Wednesday",
+                    "high_temperature": 55,
+                    "low_temperature": 54,
+                    "precipitation": 60.0,
+                    "wind_speed_mph": 8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "network_name": "Broxbourne",
+            "services": "Greater Anglia",
+            "local_authority": "Broxbourne",
+            "route": [
+                {
+                    "train_id": 3,
+                    "station_id": 4
+                },
+                {
+                    "train_id": 7,
+                    "station_id": 4
+                }
+            ],
+            "weekly_weather": [
+                {
+                    "station_id": 4,
+                    "day_of_week": "Monday",
+                    "high_temperature": 58,
+                    "low_temperature": 54,
+                    "precipitation": 70.0,
+                    "wind_speed_mph": 7
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "network_name": "Carpenders Park",
+            "services": "London Overground",
+            "local_authority": "Three Rivers",
+            "route": [
+                {
+                    "train_id": 6,
+                    "station_id": 5
+                },
+                {
+                    "train_id": 7,
+                    "station_id": 5
+                }
+            ],
+            "weekly_weather": []
+        },
+        {
+            "id": 6,
+            "network_name": "Chafford Hundred",
+            "services": "c2c",
+            "local_authority": "Thurrock",
+            "route": [
+                {
+                    "train_id": 4,
+                    "station_id": 6
+                }
+            ],
+            "weekly_weather": []
+        },
+        {
+            "id": 7,
+            "network_name": "Chalfont & Latimer",
+            "services": "Metropolitan line and Chiltern Railways",
+            "local_authority": "Chiltern",
+            "route": [
+                {
+                    "train_id": 2,
+                    "station_id": 7
+                },
+                {
+                    "train_id": 9,
+                    "station_id": 7
+                }
+            ],
+            "weekly_weather": []
+        },
+        {
+            "id": 8,
+            "network_name": "Chesham",
+            "services": "Metropolitan line",
+            "local_authority": "Chiltern",
+            "route": [
+                {
+                    "train_id": 7,
+                    "station_id": 8
+                },
+                {
+                    "train_id": 8,
+                    "station_id": 8
+                },
+                {
+                    "train_id": 9,
+                    "station_id": 8
+                }
+            ],
+            "weekly_weather": []
+        },
+        {
+            "id": 9,
+            "network_name": "Cheshunt",
+            "services": "Greater Anglia",
+            "local_authority": "Broxbourne",
+            "route": [
+                {
+                    "train_id": 10,
+                    "station_id": 9
+                }
+            ],
+            "weekly_weather": []
+        },
+        {
+            "id": 10,
+            "network_name": "Chorleywood",
+            "services": "Metropolitan line and Chiltern Railways",
+            "local_authority": "Three Rivers",
+            "route": [],
+            "weekly_weather": [
+                {
+                    "station_id": 10,
+                    "day_of_week": "Tuesday",
+                    "high_temperature": 59,
+                    "low_temperature": 52,
+                    "precipitation": 90.0,
+                    "wind_speed_mph": 22
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "network_name": "Croxley",
+            "services": "Metropolitan line",
+            "local_authority": "Three Rivers",
+            "route": [],
+            "weekly_weather": []
+        }
+    ],
+    "train": [
+        {
+            "id": 1,
+            "train_number": 16724,
+            "name": "Ananthapuri Express",
+            "origin": "Trivandrum",
+            "destination": "Chennai",
+            "time": "17:15",
+            "interval": "Daily",
+            "route": [
+                {
+                    "train_id": 1,
+                    "station_id": 1
+                },
+                {
+                    "train_id": 1,
+                    "station_id": 2
+                },
+                {
+                    "train_id": 1,
+                    "station_id": 3
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "train_number": 16127,
+            "name": "Guruvayur Express",
+            "origin": "Chennai",
+            "destination": "Guruvayur",
+            "time": "22:10",
+            "interval": "Daily",
+            "route": [
+                {
+                    "train_id": 2,
+                    "station_id": 1
+                },
+                {
+                    "train_id": 2,
+                    "station_id": 3
+                },
+                {
+                    "train_id": 2,
+                    "station_id": 7
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "train_number": 16128,
+            "name": "Guruvayur Express",
+            "origin": "Guruvayur",
+            "destination": "Chennai",
+            "time": "4:49",
+            "interval": "Daily",
+            "route": [
+                {
+                    "train_id": 3,
+                    "station_id": 4
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "train_number": 16723,
+            "name": "Ananthapuri Express",
+            "origin": "Chennai",
+            "destination": "Trivandrum",
+            "time": "11:35",
+            "interval": "Daily",
+            "route": [
+                {
+                    "train_id": 4,
+                    "station_id": 2
+                },
+                {
+                    "train_id": 4,
+                    "station_id": 6
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "train_number": 16382,
+            "name": "Jayanthi Janatha Express",
+            "origin": "Kanniyakumari",
+            "destination": "Mumbai",
+            "time": "06:30",
+            "interval": "Daily",
+            "route": [
+                {
+                    "train_id": 5,
+                    "station_id": 1
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "train_number": 16525,
+            "name": "Island Express",
+            "origin": "Kanniyakumari",
+            "destination": "Bangalore",
+            "time": "11:15",
+            "interval": "Daily",
+            "route": [
+                {
+                    "train_id": 6,
+                    "station_id": 5
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "train_number": 56701,
+            "name": "Madurai Fast Passenger",
+            "origin": "Quilon",
+            "destination": "Madurai",
+            "time": "21:49",
+            "interval": "Daily",
+            "route": [
+                {
+                    "train_id": 7,
+                    "station_id": 4
+                },
+                {
+                    "train_id": 7,
+                    "station_id": 5
+                },
+                {
+                    "train_id": 7,
+                    "station_id": 8
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "train_number": 56700,
+            "name": "Quilon Fast Passenger",
+            "origin": "Madurai",
+            "destination": "Quilon Junction",
+            "time": "04:55",
+            "interval": "Daily",
+            "route": [
+                {
+                    "train_id": 8,
+                    "station_id": 8
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "train_number": 16526,
+            "name": "Island Express",
+            "origin": "Bangalore",
+            "destination": "Kanniyakumari",
+            "time": "16:59",
+            "interval": "Daily",
+            "route": [
+                {
+                    "train_id": 9,
+                    "station_id": 7
+                },
+                {
+                    "train_id": 9,
+                    "station_id": 8
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "train_number": 16381,
+            "name": "Jayanthi Janatha Express",
+            "origin": "Mumbai",
+            "destination": "Kanniyakumari",
+            "time": "10:38",
+            "interval": "Daily",
+            "route": [
+                {
+                    "train_id": 10,
+                    "station_id": 9
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "train_number": 16650,
+            "name": "Parasuram Express",
+            "origin": "Nagercoil",
+            "destination": "Mangalore",
+            "time": "04:20",
+            "interval": "Daily",
+            "route": []
+        }
+    ]
+}

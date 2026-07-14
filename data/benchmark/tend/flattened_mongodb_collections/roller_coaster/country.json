@@ -1,0 +1,95 @@
+[
+  {
+    "Country_ID": 1,
+    "Name": "Austria",
+    "Population": 8206524,
+    "Area": 83871,
+    "Languages": "German",
+    "roller_coaster": [
+      {
+        "Roller_Coaster_ID": 1,
+        "Name": "Boardwalk Bullet",
+        "Park": "Kemah Boardwalk",
+        "Country_ID": 1,
+        "Length": 3236.0,
+        "Height": 96.0,
+        "Speed": "51",
+        "Opened": "August 31, 2007",
+        "Status": "Operating"
+      },
+      {
+        "Roller_Coaster_ID": 2,
+        "Name": "Dauling Dragon",
+        "Park": "Happy Valley",
+        "Country_ID": 1,
+        "Length": 3914.0,
+        "Height": 105.0,
+        "Speed": "55",
+        "Opened": "2012",
+        "Status": "Operating"
+      },
+      {
+        "Roller_Coaster_ID": 3,
+        "Name": "Hades 360",
+        "Park": "Mt. Olympus",
+        "Country_ID": 1,
+        "Length": 4726.0,
+        "Height": 136.0,
+        "Speed": "70",
+        "Opened": "May 14, 2005",
+        "Status": "Operating"
+      }
+    ]
+  },
+  {
+    "Country_ID": 2,
+    "Name": "Finland",
+    "Population": 5261008,
+    "Area": 338145,
+    "Languages": "Finnish Swedish",
+    "roller_coaster": [
+      {
+        "Roller_Coaster_ID": 4,
+        "Name": "Ravine Flyer II",
+        "Park": "Waldameer",
+        "Country_ID": 2,
+        "Length": 2900.0,
+        "Height": 120.0,
+        "Speed": "57",
+        "Opened": "May 17, 2008",
+        "Status": "Operating"
+      },
+      {
+        "Roller_Coaster_ID": 5,
+        "Name": "Twister",
+        "Park": "Gr\u00f6na Lund",
+        "Country_ID": 2,
+        "Length": 1574.0,
+        "Height": 50.0,
+        "Speed": "37.9",
+        "Opened": "2011",
+        "Status": "Operating"
+      }
+    ]
+  },
+  {
+    "Country_ID": 3,
+    "Name": "Sweden",
+    "Population": 9047752,
+    "Area": 449964,
+    "Languages": "Swedish",
+    "roller_coaster": [
+      {
+        "Roller_Coaster_ID": 6,
+        "Name": "The Voyage",
+        "Park": "Holiday World",
+        "Country_ID": 3,
+        "Length": 6442.0,
+        "Height": 163.0,
+        "Speed": "67",
+        "Opened": "May 6, 2006",
+        "Status": "Operating"
+      }
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "Storm_ID": 1,
+    "Name": "One",
+    "Dates_active": "May19\u2013May25",
+    "Max_speed": 995,
+    "Damage_millions_USD": 13.0,
+    "Number_Deaths": 0,
+    "affected_region": [
+      {
+        "Region_id": 1,
+        "Storm_ID": 1,
+        "Number_city_affected": 10.0
+      },
+      {
+        "Region_id": 2,
+        "Storm_ID": 1,
+        "Number_city_affected": 15.0
+      }
+    ]
+  },
+  {
+    "Storm_ID": 2,
+    "Name": "Two",
+    "Dates_active": "August3\u2013August10",
+    "Max_speed": 972,
+    "Damage_millions_USD": 10.75,
+    "Number_Deaths": 7,
+    "affected_region": []
+  },
+  {
+    "Storm_ID": 3,
+    "Name": "Three",
+    "Dates_active": "August5\u2013August14",
+    "Max_speed": 972,
+    "Damage_millions_USD": 13.0,
+    "Number_Deaths": 52,
+    "affected_region": [
+      {
+        "Region_id": 3,
+        "Storm_ID": 3,
+        "Number_city_affected": 30.0
+      }
+    ]
+  },
+  {
+    "Storm_ID": 4,
+    "Name": "Four",
+    "Dates_active": "August26\u2013September2",
+    "Max_speed": 961,
+    "Damage_millions_USD": 4.05,
+    "Number_Deaths": 7,
+    "affected_region": [
+      {
+        "Region_id": 1,
+        "Storm_ID": 4,
+        "Number_city_affected": 22.0
+      }
+    ]
+  },
+  {
+    "Storm_ID": 5,
+    "Name": "Five",
+    "Dates_active": "September7\u2013September17",
+    "Max_speed": 988,
+    "Damage_millions_USD": 1.49,
+    "Number_Deaths": 3,
+    "affected_region": [
+      {
+        "Region_id": 12,
+        "Storm_ID": 5,
+        "Number_city_affected": 37.0
+      },
+      {
+        "Region_id": 2,
+        "Storm_ID": 5,
+        "Number_city_affected": 12.0
+      }
+    ]
+  },
+  {
+    "Storm_ID": 6,
+    "Name": "Six",
+    "Dates_active": "September18\u2013September25",
+    "Max_speed": 1002,
+    "Damage_millions_USD": 0.039,
+    "Number_Deaths": 2,
+    "affected_region": []
+  },
+  {
+    "Storm_ID": 7,
+    "Name": "Seven",
+    "Dates_active": "September22\u2013September28",
+    "Max_speed": 977,
+    "Damage_millions_USD": 13.0,
+    "Number_Deaths": 0,
+    "affected_region": []
+  },
+  {
+    "Storm_ID": 8,
+    "Name": "Eight",
+    "Dates_active": "October20\u2013October24",
+    "Max_speed": 983,
+    "Damage_millions_USD": 13.0,
+    "Number_Deaths": 0,
+    "affected_region": []
+  },
+  {
+    "Storm_ID": 9,
+    "Name": "Nine",
+    "Dates_active": "October24\u2013October26",
+    "Max_speed": 1007,
+    "Damage_millions_USD": 13.0,
+    "Number_Deaths": 0,
+    "affected_region": []
+  },
+  {
+    "Storm_ID": 10,
+    "Name": "9 cyclones",
+    "Dates_active": "May19 \u2013October26",
+    "Max_speed": 961,
+    "Damage_millions_USD": 29.3,
+    "Number_Deaths": 71,
+    "affected_region": []
+  }
+]

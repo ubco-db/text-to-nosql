@@ -1,0 +1,220 @@
+[
+  {
+    "Model_name": "X5",
+    "Launch_year": 2002.0,
+    "RAM_MiB": 32.0,
+    "ROM_MiB": 32.0,
+    "Slots": "1CFII,1SD",
+    "WiFi": "No",
+    "Bluetooth": "No",
+    "phone": [
+      {
+        "Company_name": "Sony Mobile Communications",
+        "Hardware_Model_name": "XPERIA T, XPERIA J",
+        "Accreditation_type": "Full",
+        "Accreditation_level": "joyn Hot Fixes",
+        "Date": "Approved (awarded 15.11.12)",
+        "chip_model": "X5",
+        "screen_mode": "1"
+      },
+      {
+        "Company_name": "Nokia Corporation",
+        "Hardware_Model_name": "Lumia 920, Lumia 820, Lumia 620",
+        "Accreditation_type": "Full",
+        "Accreditation_level": "joyn Hot Fixes",
+        "Date": "Approved (awarded 05.12.12)",
+        "chip_model": "X5",
+        "screen_mode": "4"
+      },
+      {
+        "Company_name": "Nokia Corporation",
+        "Hardware_Model_name": "Nokia 700",
+        "Accreditation_type": "Provisional",
+        "Accreditation_level": "joyn",
+        "Date": "Approved (valid until 03.05.13)",
+        "chip_model": "X5",
+        "screen_mode": "2"
+      }
+    ]
+  },
+  {
+    "Model_name": "X5 high end",
+    "Launch_year": 2002.0,
+    "RAM_MiB": 64.0,
+    "ROM_MiB": 48.0,
+    "Slots": "1CFII,1SD",
+    "WiFi": "No",
+    "Bluetooth": "No",
+    "phone": []
+  },
+  {
+    "Model_name": "X3 Basic",
+    "Launch_year": 2003.0,
+    "RAM_MiB": 32.0,
+    "ROM_MiB": 32.0,
+    "Slots": "1SD",
+    "WiFi": "No",
+    "Bluetooth": "No",
+    "phone": []
+  },
+  {
+    "Model_name": "X3 Advanced",
+    "Launch_year": 2003.0,
+    "RAM_MiB": 64.0,
+    "ROM_MiB": 64.0,
+    "Slots": "1SD",
+    "WiFi": "No",
+    "Bluetooth": "No",
+    "phone": []
+  },
+  {
+    "Model_name": "X3i",
+    "Launch_year": 2003.0,
+    "RAM_MiB": 64.0,
+    "ROM_MiB": 64.0,
+    "Slots": "1SD",
+    "WiFi": "802.11b",
+    "Bluetooth": "No",
+    "phone": [
+      {
+        "Company_name": "HTC Corporation",
+        "Hardware_Model_name": "Z520e",
+        "Accreditation_type": "Provisional",
+        "Accreditation_level": "joyn",
+        "Date": "Approved (valid until 14.09.13)",
+        "chip_model": "X3i",
+        "screen_mode": "6"
+      }
+    ]
+  },
+  {
+    "Model_name": "X30 low-end",
+    "Launch_year": 2004.0,
+    "RAM_MiB": 32.0,
+    "ROM_MiB": 32.0,
+    "Slots": "1SD",
+    "WiFi": "No",
+    "Bluetooth": "No",
+    "phone": [
+      {
+        "Company_name": "Samsung Electronics Co Ltd",
+        "Hardware_Model_name": "GT-I9300",
+        "Accreditation_type": "Full",
+        "Accreditation_level": "joyn",
+        "Date": "Approved (awarded 23.10.12)",
+        "chip_model": "X30 low-end",
+        "screen_mode": "5"
+      }
+    ]
+  },
+  {
+    "Model_name": "X30 mid-range",
+    "Launch_year": 2004.0,
+    "RAM_MiB": 64.0,
+    "ROM_MiB": 64.0,
+    "Slots": "1SD",
+    "WiFi": "802.11b",
+    "Bluetooth": "1.1",
+    "phone": []
+  },
+  {
+    "Model_name": "X30 high-end",
+    "Launch_year": 2004.0,
+    "RAM_MiB": 64.0,
+    "ROM_MiB": 64.0,
+    "Slots": "1SD",
+    "WiFi": "802.11b",
+    "Bluetooth": "1.1",
+    "phone": []
+  },
+  {
+    "Model_name": "X50 Standard",
+    "Launch_year": 2004.0,
+    "RAM_MiB": 64.0,
+    "ROM_MiB": 64.0,
+    "Slots": "1CFII,1SD",
+    "WiFi": "No",
+    "Bluetooth": "Yes",
+    "phone": [
+      {
+        "Company_name": "Huawei Technologies Co.Ltd.",
+        "Hardware_Model_name": "U8815 Asura",
+        "Accreditation_type": "Provisional",
+        "Accreditation_level": "joyn",
+        "Date": "Approved (valid until 03.05.13)",
+        "chip_model": "X50 Standard",
+        "screen_mode": "3"
+      }
+    ]
+  },
+  {
+    "Model_name": "X50 Advanced",
+    "Launch_year": 2004.0,
+    "RAM_MiB": 64.0,
+    "ROM_MiB": 128.0,
+    "Slots": "1CFII,1SD",
+    "WiFi": "802.11b",
+    "Bluetooth": "Yes",
+    "phone": [
+      {
+        "Company_name": "Samsung Electronics Co Ltd",
+        "Hardware_Model_name": "GT-I9100",
+        "Accreditation_type": "Provisional",
+        "Accreditation_level": "joyn",
+        "Date": "Approved (valid until 06.04.13)",
+        "chip_model": "X50 Advanced",
+        "screen_mode": "1"
+      }
+    ]
+  },
+  {
+    "Model_name": "X50v",
+    "Launch_year": 2004.0,
+    "RAM_MiB": 64.0,
+    "ROM_MiB": 128.0,
+    "Slots": "1CFII,1SD",
+    "WiFi": "802.11b",
+    "Bluetooth": "1.2",
+    "phone": []
+  },
+  {
+    "Model_name": "X51 low-end",
+    "Launch_year": 2005.0,
+    "RAM_MiB": 64.0,
+    "ROM_MiB": 128.0,
+    "Slots": "1CFII,1SD",
+    "WiFi": "No",
+    "Bluetooth": "1.2",
+    "phone": []
+  },
+  {
+    "Model_name": "X51 mid-range",
+    "Launch_year": 2005.0,
+    "RAM_MiB": 64.0,
+    "ROM_MiB": 128.0,
+    "Slots": "1CFII,1SD",
+    "WiFi": "802.11b",
+    "Bluetooth": "1.2",
+    "phone": []
+  },
+  {
+    "Model_name": "X51v",
+    "Launch_year": 2005.0,
+    "RAM_MiB": 64.0,
+    "ROM_MiB": 256.0,
+    "Slots": "1CFII,1SD",
+    "WiFi": "802.11b",
+    "Bluetooth": "1.2",
+    "phone": [
+      {
+        "Company_name": "LG Electronics",
+        "Hardware_Model_name": "LG-P760",
+        "Accreditation_type": "Full",
+        "Accreditation_level": "joyn Hot Fixes",
+        "Date": "Approved (awarded 19.11.12)",
+        "chip_model": "X51v",
+        "screen_mode": "3"
+      }
+    ]
+  }
+]

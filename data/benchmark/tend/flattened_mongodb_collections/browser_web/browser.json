@@ -1,0 +1,75 @@
+[
+  {
+    "id": 1,
+    "name": "Internet Explorer",
+    "market_share": 28.96,
+    "accelerator_compatible_browser": [
+      {
+        "accelerator_id": 1,
+        "browser_id": 1,
+        "compatible_since_year": 1995
+      },
+      {
+        "accelerator_id": 3,
+        "browser_id": 1,
+        "compatible_since_year": 2005
+      },
+      {
+        "accelerator_id": 9,
+        "browser_id": 1,
+        "compatible_since_year": 2010
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Firefox",
+    "market_share": 18.11,
+    "accelerator_compatible_browser": [
+      {
+        "accelerator_id": 1,
+        "browser_id": 2,
+        "compatible_since_year": 1996
+      },
+      {
+        "accelerator_id": 3,
+        "browser_id": 2,
+        "compatible_since_year": 2007
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Safari",
+    "market_share": 8.54,
+    "accelerator_compatible_browser": [
+      {
+        "accelerator_id": 2,
+        "browser_id": 3,
+        "compatible_since_year": 1996
+      },
+      {
+        "accelerator_id": 3,
+        "browser_id": 3,
+        "compatible_since_year": 2008
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Opera",
+    "market_share": 1.2,
+    "accelerator_compatible_browser": [
+      {
+        "accelerator_id": 2,
+        "browser_id": 4,
+        "compatible_since_year": 2000
+      },
+      {
+        "accelerator_id": 4,
+        "browser_id": 4,
+        "compatible_since_year": 2009
+      }
+    ]
+  }
+]

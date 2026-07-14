@@ -1,0 +1,166 @@
+[
+  {
+    "Employee_ID": 1,
+    "Name": "George Chuter",
+    "Age": 23,
+    "City": "Bristol",
+    "hiring": [
+      {
+        "Shop_ID": 1,
+        "Employee_ID": 1,
+        "Start_from": "2009",
+        "Is_full_time": "T"
+      }
+    ],
+    "evaluation": [
+      {
+        "Employee_ID": "1",
+        "Year_awarded": "2011",
+        "Bonus": 3000.0
+      },
+      {
+        "Employee_ID": "1",
+        "Year_awarded": "2016",
+        "Bonus": 2900.0
+      }
+    ]
+  },
+  {
+    "Employee_ID": 2,
+    "Name": "Lee Mears",
+    "Age": 29,
+    "City": "Bath",
+    "hiring": [
+      {
+        "Shop_ID": 1,
+        "Employee_ID": 2,
+        "Start_from": "2003",
+        "Is_full_time": "T"
+      }
+    ],
+    "evaluation": [
+      {
+        "Employee_ID": "2",
+        "Year_awarded": "2015",
+        "Bonus": 3200.0
+      }
+    ]
+  },
+  {
+    "Employee_ID": 3,
+    "Name": "Mark Regan",
+    "Age": 43,
+    "City": "Bristol",
+    "hiring": [
+      {
+        "Shop_ID": 8,
+        "Employee_ID": 3,
+        "Start_from": "2011",
+        "Is_full_time": "F"
+      }
+    ],
+    "evaluation": []
+  },
+  {
+    "Employee_ID": 4,
+    "Name": "Jason Hobson",
+    "Age": 30,
+    "City": "Bristol",
+    "hiring": [
+      {
+        "Shop_ID": 4,
+        "Employee_ID": 4,
+        "Start_from": "2012",
+        "Is_full_time": "T"
+      }
+    ],
+    "evaluation": [
+      {
+        "Employee_ID": "4",
+        "Year_awarded": "2017",
+        "Bonus": 3200.0
+      }
+    ]
+  },
+  {
+    "Employee_ID": 5,
+    "Name": "Tim Payne",
+    "Age": 29,
+    "City": "Wasps",
+    "hiring": [
+      {
+        "Shop_ID": 5,
+        "Employee_ID": 5,
+        "Start_from": "2013",
+        "Is_full_time": "T"
+      }
+    ],
+    "evaluation": []
+  },
+  {
+    "Employee_ID": 6,
+    "Name": "Andrew Sheridan",
+    "Age": 28,
+    "City": "Sale",
+    "hiring": [
+      {
+        "Shop_ID": 2,
+        "Employee_ID": 6,
+        "Start_from": "2010",
+        "Is_full_time": "F"
+      }
+    ],
+    "evaluation": []
+  },
+  {
+    "Employee_ID": 7,
+    "Name": "Matt Stevens",
+    "Age": 29,
+    "City": "Bath",
+    "hiring": [
+      {
+        "Shop_ID": 6,
+        "Employee_ID": 7,
+        "Start_from": "2008",
+        "Is_full_time": "T"
+      }
+    ],
+    "evaluation": [
+      {
+        "Employee_ID": "7",
+        "Year_awarded": "2018",
+        "Bonus": 3200.0
+      }
+    ]
+  },
+  {
+    "Employee_ID": 8,
+    "Name": "Phil Vickery",
+    "Age": 40,
+    "City": "Wasps",
+    "hiring": [],
+    "evaluation": []
+  },
+  {
+    "Employee_ID": 9,
+    "Name": "Steve Borthwick",
+    "Age": 32,
+    "City": "Bath",
+    "hiring": [],
+    "evaluation": []
+  },
+  {
+    "Employee_ID": 10,
+    "Name": "Louis Deacon",
+    "Age": 36,
+    "City": "Leicester",
+    "hiring": [],
+    "evaluation": [
+      {
+        "Employee_ID": "10",
+        "Year_awarded": "2016",
+        "Bonus": 4000.0
+      }
+    ]
+  }
+]

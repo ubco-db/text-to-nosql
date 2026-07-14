@@ -1,0 +1,562 @@
+[
+  {
+    "StuID": 1001,
+    "LName": "Smith",
+    "Fname": "Linda",
+    "Age": 18,
+    "Sex": "F",
+    "Major": 600,
+    "Advisor": 1121,
+    "city_code": "BAL",
+    "Lives_in": [
+      {
+        "stuid": 1001,
+        "dormid": 109,
+        "room_number": 105
+      }
+    ]
+  },
+  {
+    "StuID": 1002,
+    "LName": "Kim",
+    "Fname": "Tracy",
+    "Age": 19,
+    "Sex": "F",
+    "Major": 600,
+    "Advisor": 7712,
+    "city_code": "HKG",
+    "Lives_in": [
+      {
+        "stuid": 1002,
+        "dormid": 100,
+        "room_number": 112
+      }
+    ]
+  },
+  {
+    "StuID": 1003,
+    "LName": "Jones",
+    "Fname": "Shiela",
+    "Age": 21,
+    "Sex": "F",
+    "Major": 600,
+    "Advisor": 7792,
+    "city_code": "WAS",
+    "Lives_in": [
+      {
+        "stuid": 1003,
+        "dormid": 100,
+        "room_number": 124
+      }
+    ]
+  },
+  {
+    "StuID": 1004,
+    "LName": "Kumar",
+    "Fname": "Dinesh",
+    "Age": 20,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 8423,
+    "city_code": "CHI",
+    "Lives_in": [
+      {
+        "stuid": 1004,
+        "dormid": 140,
+        "room_number": 215
+      }
+    ]
+  },
+  {
+    "StuID": 1005,
+    "LName": "Gompers",
+    "Fname": "Paul",
+    "Age": 26,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 1121,
+    "city_code": "YYZ",
+    "Lives_in": [
+      {
+        "stuid": 1005,
+        "dormid": 160,
+        "room_number": 333
+      }
+    ]
+  },
+  {
+    "StuID": 1006,
+    "LName": "Schultz",
+    "Fname": "Andy",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 1148,
+    "city_code": "BAL",
+    "Lives_in": []
+  },
+  {
+    "StuID": 1007,
+    "LName": "Apap",
+    "Fname": "Lisa",
+    "Age": 18,
+    "Sex": "F",
+    "Major": 600,
+    "Advisor": 8918,
+    "city_code": "PIT",
+    "Lives_in": [
+      {
+        "stuid": 1007,
+        "dormid": 140,
+        "room_number": 113
+      }
+    ]
+  },
+  {
+    "StuID": 1008,
+    "LName": "Nelson",
+    "Fname": "Jandy",
+    "Age": 20,
+    "Sex": "F",
+    "Major": 600,
+    "Advisor": 9172,
+    "city_code": "BAL",
+    "Lives_in": [
+      {
+        "stuid": 1008,
+        "dormid": 160,
+        "room_number": 334
+      }
+    ]
+  },
+  {
+    "StuID": 1009,
+    "LName": "Tai",
+    "Fname": "Eric",
+    "Age": 19,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 2192,
+    "city_code": "YYZ",
+    "Lives_in": [
+      {
+        "stuid": 1009,
+        "dormid": 140,
+        "room_number": 332
+      }
+    ]
+  },
+  {
+    "StuID": 1010,
+    "LName": "Lee",
+    "Fname": "Derek",
+    "Age": 17,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 2192,
+    "city_code": "HOU",
+    "Lives_in": [
+      {
+        "stuid": 1010,
+        "dormid": 160,
+        "room_number": 443
+      }
+    ]
+  },
+  {
+    "StuID": 1011,
+    "LName": "Adams",
+    "Fname": "David",
+    "Age": 22,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 1148,
+    "city_code": "PHL",
+    "Lives_in": [
+      {
+        "stuid": 1011,
+        "dormid": 140,
+        "room_number": 102
+      }
+    ]
+  },
+  {
+    "StuID": 1012,
+    "LName": "Davis",
+    "Fname": "Steven",
+    "Age": 20,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 7723,
+    "city_code": "PIT",
+    "Lives_in": [
+      {
+        "stuid": 1012,
+        "dormid": 160,
+        "room_number": 333
+      }
+    ]
+  },
+  {
+    "StuID": 1014,
+    "LName": "Norris",
+    "Fname": "Charles",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 8741,
+    "city_code": "DAL",
+    "Lives_in": [
+      {
+        "stuid": 1014,
+        "dormid": 104,
+        "room_number": 211
+      }
+    ]
+  },
+  {
+    "StuID": 1015,
+    "LName": "Lee",
+    "Fname": "Susan",
+    "Age": 16,
+    "Sex": "F",
+    "Major": 600,
+    "Advisor": 8721,
+    "city_code": "HKG",
+    "Lives_in": [
+      {
+        "stuid": 1015,
+        "dormid": 160,
+        "room_number": 443
+      }
+    ]
+  },
+  {
+    "StuID": 1016,
+    "LName": "Schwartz",
+    "Fname": "Mark",
+    "Age": 17,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 2192,
+    "city_code": "DET",
+    "Lives_in": [
+      {
+        "stuid": 1016,
+        "dormid": 140,
+        "room_number": 301
+      }
+    ]
+  },
+  {
+    "StuID": 1017,
+    "LName": "Wilson",
+    "Fname": "Bruce",
+    "Age": 27,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 1148,
+    "city_code": "LON",
+    "Lives_in": [
+      {
+        "stuid": 1017,
+        "dormid": 140,
+        "room_number": 319
+      }
+    ]
+  },
+  {
+    "StuID": 1018,
+    "LName": "Leighton",
+    "Fname": "Michael",
+    "Age": 20,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 1121,
+    "city_code": "PIT",
+    "Lives_in": [
+      {
+        "stuid": 1018,
+        "dormid": 140,
+        "room_number": 225
+      }
+    ]
+  },
+  {
+    "StuID": 1019,
+    "LName": "Pang",
+    "Fname": "Arthur",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 600,
+    "Advisor": 2192,
+    "city_code": "WAS",
+    "Lives_in": []
+  },
+  {
+    "StuID": 1020,
+    "LName": "Thornton",
+    "Fname": "Ian",
+    "Age": 22,
+    "Sex": "M",
+    "Major": 520,
+    "Advisor": 7271,
+    "city_code": "NYC",
+    "Lives_in": [
+      {
+        "stuid": 1020,
+        "dormid": 160,
+        "room_number": 405
+      }
+    ]
+  },
+  {
+    "StuID": 1021,
+    "LName": "Andreou",
+    "Fname": "George",
+    "Age": 19,
+    "Sex": "M",
+    "Major": 520,
+    "Advisor": 8722,
+    "city_code": "NYC",
+    "Lives_in": [
+      {
+        "stuid": 1021,
+        "dormid": 160,
+        "room_number": 405
+      }
+    ]
+  },
+  {
+    "StuID": 1022,
+    "LName": "Woods",
+    "Fname": "Michael",
+    "Age": 17,
+    "Sex": "M",
+    "Major": 540,
+    "Advisor": 8722,
+    "city_code": "PHL",
+    "Lives_in": [
+      {
+        "stuid": 1022,
+        "dormid": 100,
+        "room_number": 153
+      }
+    ]
+  },
+  {
+    "StuID": 1023,
+    "LName": "Shieber",
+    "Fname": "David",
+    "Age": 20,
+    "Sex": "M",
+    "Major": 520,
+    "Advisor": 8722,
+    "city_code": "NYC",
+    "Lives_in": [
+      {
+        "stuid": 1023,
+        "dormid": 160,
+        "room_number": 317
+      }
+    ]
+  },
+  {
+    "StuID": 1024,
+    "LName": "Prater",
+    "Fname": "Stacy",
+    "Age": 18,
+    "Sex": "F",
+    "Major": 540,
+    "Advisor": 7271,
+    "city_code": "BAL",
+    "Lives_in": [
+      {
+        "stuid": 1024,
+        "dormid": 100,
+        "room_number": 151
+      }
+    ]
+  },
+  {
+    "StuID": 1025,
+    "LName": "Goldman",
+    "Fname": "Mark",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 520,
+    "Advisor": 7134,
+    "city_code": "PIT",
+    "Lives_in": [
+      {
+        "stuid": 1025,
+        "dormid": 160,
+        "room_number": 317
+      }
+    ]
+  },
+  {
+    "StuID": 1026,
+    "LName": "Pang",
+    "Fname": "Eric",
+    "Age": 19,
+    "Sex": "M",
+    "Major": 520,
+    "Advisor": 7134,
+    "city_code": "HKG",
+    "Lives_in": []
+  },
+  {
+    "StuID": 1027,
+    "LName": "Brody",
+    "Fname": "Paul",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 520,
+    "Advisor": 8723,
+    "city_code": "LOS",
+    "Lives_in": [
+      {
+        "stuid": 1027,
+        "dormid": 140,
+        "room_number": 208
+      }
+    ]
+  },
+  {
+    "StuID": 1028,
+    "LName": "Rugh",
+    "Fname": "Eric",
+    "Age": 20,
+    "Sex": "M",
+    "Major": 550,
+    "Advisor": 2311,
+    "city_code": "ROC",
+    "Lives_in": [
+      {
+        "stuid": 1028,
+        "dormid": 110,
+        "room_number": 48
+      }
+    ]
+  },
+  {
+    "StuID": 1029,
+    "LName": "Han",
+    "Fname": "Jun",
+    "Age": 17,
+    "Sex": "M",
+    "Major": 100,
+    "Advisor": 2311,
+    "city_code": "PEK",
+    "Lives_in": [
+      {
+        "stuid": 1029,
+        "dormid": 140,
+        "room_number": 418
+      }
+    ]
+  },
+  {
+    "StuID": 1030,
+    "LName": "Cheng",
+    "Fname": "Lisa",
+    "Age": 21,
+    "Sex": "F",
+    "Major": 550,
+    "Advisor": 2311,
+    "city_code": "SFO",
+    "Lives_in": [
+      {
+        "stuid": 1030,
+        "dormid": 109,
+        "room_number": 211
+      }
+    ]
+  },
+  {
+    "StuID": 1031,
+    "LName": "Smith",
+    "Fname": "Sarah",
+    "Age": 20,
+    "Sex": "F",
+    "Major": 550,
+    "Advisor": 8772,
+    "city_code": "PHL",
+    "Lives_in": [
+      {
+        "stuid": 1031,
+        "dormid": 100,
+        "room_number": 112
+      }
+    ]
+  },
+  {
+    "StuID": 1032,
+    "LName": "Brown",
+    "Fname": "Eric",
+    "Age": 20,
+    "Sex": "M",
+    "Major": 550,
+    "Advisor": 8772,
+    "city_code": "ATL",
+    "Lives_in": [
+      {
+        "stuid": 1032,
+        "dormid": 109,
+        "room_number": 105
+      }
+    ]
+  },
+  {
+    "StuID": 1033,
+    "LName": "Simms",
+    "Fname": "William",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 550,
+    "Advisor": 8772,
+    "city_code": "NAR",
+    "Lives_in": [
+      {
+        "stuid": 1033,
+        "dormid": 117,
+        "room_number": 3
+      }
+    ]
+  },
+  {
+    "StuID": 1034,
+    "LName": "Epp",
+    "Fname": "Eric",
+    "Age": 18,
+    "Sex": "M",
+    "Major": 50,
+    "Advisor": 5718,
+    "city_code": "BOS",
+    "Lives_in": [
+      {
+        "stuid": 1034,
+        "dormid": 160,
+        "room_number": 105
+      }
+    ]
+  },
+  {
+    "StuID": 1035,
+    "LName": "Schmidt",
+    "Fname": "Sarah",
+    "Age": 26,
+    "Sex": "F",
+    "Major": 50,
+    "Advisor": 5718,
+    "city_code": "WAS",
+    "Lives_in": [
+      {
+        "stuid": 1035,
+        "dormid": 100,
+        "room_number": 124
+      }
+    ]
+  }
+]

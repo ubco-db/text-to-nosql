@@ -1,0 +1,132 @@
+[
+  {
+    "technician_id": 1.0,
+    "Name": "Joe Sewell",
+    "Team": "NYY",
+    "Starting_Year": 2012.0,
+    "Age": 37,
+    "repair_assignment": [
+      {
+        "technician_id": 1,
+        "repair_ID": 1,
+        "Machine_ID": 1
+      },
+      {
+        "technician_id": 1,
+        "repair_ID": 2,
+        "Machine_ID": 3
+      },
+      {
+        "technician_id": 1,
+        "repair_ID": 4,
+        "Machine_ID": 7
+      },
+      {
+        "technician_id": 1,
+        "repair_ID": 5,
+        "Machine_ID": 6
+      },
+      {
+        "technician_id": 1,
+        "repair_ID": 8,
+        "Machine_ID": 7
+      }
+    ]
+  },
+  {
+    "technician_id": 2.0,
+    "Name": "John Brown",
+    "Team": "NYY",
+    "Starting_Year": 2013.0,
+    "Age": 36,
+    "repair_assignment": [
+      {
+        "technician_id": 2,
+        "repair_ID": 2,
+        "Machine_ID": 2
+      }
+    ]
+  },
+  {
+    "technician_id": 3.0,
+    "Name": "Tony Sewell",
+    "Team": "CLE",
+    "Starting_Year": 2005.0,
+    "Age": 43,
+    "repair_assignment": [
+      {
+        "technician_id": 3,
+        "repair_ID": 3,
+        "Machine_ID": 3
+      }
+    ]
+  },
+  {
+    "technician_id": 4.0,
+    "Name": "Mark Sewell",
+    "Team": "CLE",
+    "Starting_Year": 2009.0,
+    "Age": 28,
+    "repair_assignment": []
+  },
+  {
+    "technician_id": 5.0,
+    "Name": "Charlie Hollocher",
+    "Team": "CHC",
+    "Starting_Year": 2002.0,
+    "Age": 35,
+    "repair_assignment": [
+      {
+        "technician_id": 5,
+        "repair_ID": 5,
+        "Machine_ID": 2
+      }
+    ]
+  },
+  {
+    "technician_id": 6.0,
+    "Name": "Lou Boudreau",
+    "Team": "CLE",
+    "Starting_Year": 2016.0,
+    "Age": 32,
+    "repair_assignment": []
+  },
+  {
+    "technician_id": 7.0,
+    "Name": "Eddie Collins",
+    "Team": "CWS",
+    "Starting_Year": 2005.0,
+    "Age": 45,
+    "repair_assignment": [
+      {
+        "technician_id": 7,
+        "repair_ID": 2,
+        "Machine_ID": 4
+      }
+    ]
+  },
+  {
+    "technician_id": 8.0,
+    "Name": "Joe Cochrane",
+    "Team": "CLE",
+    "Starting_Year": 2006.0,
+    "Age": 46,
+    "repair_assignment": []
+  },
+  {
+    "technician_id": 9.0,
+    "Name": "Eddie Collins",
+    "Team": "CWS",
+    "Starting_Year": 2003.0,
+    "Age": 47,
+    "repair_assignment": []
+  },
+  {
+    "technician_id": 10.0,
+    "Name": "Mickey Cochrane",
+    "Team": "PHA",
+    "Starting_Year": 2009.0,
+    "Age": 38,
+    "repair_assignment": []
+  }
+]

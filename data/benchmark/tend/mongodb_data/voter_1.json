@@ -1,0 +1,2115 @@
+{
+    "CONTESTANTS": [
+        {
+            "contestant_number": 1,
+            "contestant_name": "Edwina Burnam",
+            "VOTES": []
+        },
+        {
+            "contestant_number": 2,
+            "contestant_name": "Tabatha Gehling",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                }
+            ]
+        },
+        {
+            "contestant_number": 3,
+            "contestant_name": "Kelly Clauss",
+            "VOTES": [
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                },
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "contestant_number": 4,
+            "contestant_name": "Jessie Alloway",
+            "VOTES": []
+        },
+        {
+            "contestant_number": 5,
+            "contestant_name": "Alana Bregman",
+            "VOTES": [
+                {
+                    "vote_id": 5,
+                    "phone_number": 5112677315,
+                    "state": "NJ\n",
+                    "contestant_number": 5,
+                    "created": "2018-03-09 19:03:40"
+                }
+            ]
+        },
+        {
+            "contestant_number": 6,
+            "contestant_name": "Jessie Eichman",
+            "VOTES": []
+        },
+        {
+            "contestant_number": 7,
+            "contestant_name": "Allie Rogalski",
+            "VOTES": []
+        },
+        {
+            "contestant_number": 8,
+            "contestant_name": "Nita Coster",
+            "VOTES": []
+        },
+        {
+            "contestant_number": 9,
+            "contestant_name": "Kurt Walser",
+            "VOTES": []
+        },
+        {
+            "contestant_number": 10,
+            "contestant_name": "Ericka Dieter",
+            "VOTES": []
+        },
+        {
+            "contestant_number": 11,
+            "contestant_name": "Loraine NygrenTania Mattioli",
+            "VOTES": []
+        }
+    ],
+    "AREA_CODE_STATE": [
+        {
+            "area_code": 201,
+            "state": "NJ",
+            "VOTES": []
+        },
+        {
+            "area_code": 202,
+            "state": "DC",
+            "VOTES": []
+        },
+        {
+            "area_code": 203,
+            "state": "CT",
+            "VOTES": []
+        },
+        {
+            "area_code": 205,
+            "state": "AL",
+            "VOTES": []
+        },
+        {
+            "area_code": 206,
+            "state": "WA",
+            "VOTES": []
+        },
+        {
+            "area_code": 207,
+            "state": "ME",
+            "VOTES": []
+        },
+        {
+            "area_code": 208,
+            "state": "ID",
+            "VOTES": []
+        },
+        {
+            "area_code": 209,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 210,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 212,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 213,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 214,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 215,
+            "state": "PA",
+            "VOTES": []
+        },
+        {
+            "area_code": 216,
+            "state": "OH",
+            "VOTES": []
+        },
+        {
+            "area_code": 217,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 218,
+            "state": "MN",
+            "VOTES": []
+        },
+        {
+            "area_code": 219,
+            "state": "IN",
+            "VOTES": []
+        },
+        {
+            "area_code": 224,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 225,
+            "state": "LA",
+            "VOTES": []
+        },
+        {
+            "area_code": 228,
+            "state": "MS",
+            "VOTES": []
+        },
+        {
+            "area_code": 229,
+            "state": "GA",
+            "VOTES": []
+        },
+        {
+            "area_code": 231,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 234,
+            "state": "OH",
+            "VOTES": []
+        },
+        {
+            "area_code": 236,
+            "state": "VA",
+            "VOTES": []
+        },
+        {
+            "area_code": 239,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 240,
+            "state": "MD",
+            "VOTES": []
+        },
+        {
+            "area_code": 248,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 251,
+            "state": "AL",
+            "VOTES": []
+        },
+        {
+            "area_code": 252,
+            "state": "NC",
+            "VOTES": []
+        },
+        {
+            "area_code": 253,
+            "state": "WA",
+            "VOTES": []
+        },
+        {
+            "area_code": 254,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 256,
+            "state": "AL",
+            "VOTES": []
+        },
+        {
+            "area_code": 260,
+            "state": "IN",
+            "VOTES": []
+        },
+        {
+            "area_code": 262,
+            "state": "WI",
+            "VOTES": []
+        },
+        {
+            "area_code": 267,
+            "state": "PA",
+            "VOTES": []
+        },
+        {
+            "area_code": 269,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 270,
+            "state": "KY",
+            "VOTES": []
+        },
+        {
+            "area_code": 276,
+            "state": "VA",
+            "VOTES": []
+        },
+        {
+            "area_code": 278,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 281,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 283,
+            "state": "OH",
+            "VOTES": []
+        },
+        {
+            "area_code": 301,
+            "state": "MD",
+            "VOTES": []
+        },
+        {
+            "area_code": 302,
+            "state": "DE",
+            "VOTES": []
+        },
+        {
+            "area_code": 303,
+            "state": "CO",
+            "VOTES": []
+        },
+        {
+            "area_code": 304,
+            "state": "WV",
+            "VOTES": []
+        },
+        {
+            "area_code": 305,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 307,
+            "state": "WY",
+            "VOTES": []
+        },
+        {
+            "area_code": 308,
+            "state": "NE",
+            "VOTES": []
+        },
+        {
+            "area_code": 309,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 310,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 312,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 313,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 314,
+            "state": "MO",
+            "VOTES": []
+        },
+        {
+            "area_code": 315,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 316,
+            "state": "KS",
+            "VOTES": []
+        },
+        {
+            "area_code": 317,
+            "state": "IN",
+            "VOTES": []
+        },
+        {
+            "area_code": 318,
+            "state": "LA",
+            "VOTES": []
+        },
+        {
+            "area_code": 319,
+            "state": "IA",
+            "VOTES": []
+        },
+        {
+            "area_code": 320,
+            "state": "MN",
+            "VOTES": []
+        },
+        {
+            "area_code": 321,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 323,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 325,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 330,
+            "state": "OH",
+            "VOTES": []
+        },
+        {
+            "area_code": 331,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 334,
+            "state": "AL",
+            "VOTES": []
+        },
+        {
+            "area_code": 336,
+            "state": "NC",
+            "VOTES": []
+        },
+        {
+            "area_code": 337,
+            "state": "LA",
+            "VOTES": []
+        },
+        {
+            "area_code": 339,
+            "state": "MA",
+            "VOTES": []
+        },
+        {
+            "area_code": 341,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 347,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 351,
+            "state": "MA",
+            "VOTES": []
+        },
+        {
+            "area_code": 352,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 360,
+            "state": "WA",
+            "VOTES": []
+        },
+        {
+            "area_code": 361,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 369,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 380,
+            "state": "OH",
+            "VOTES": []
+        },
+        {
+            "area_code": 385,
+            "state": "UT",
+            "VOTES": []
+        },
+        {
+            "area_code": 386,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 401,
+            "state": "RI",
+            "VOTES": []
+        },
+        {
+            "area_code": 402,
+            "state": "NE",
+            "VOTES": []
+        },
+        {
+            "area_code": 404,
+            "state": "GA",
+            "VOTES": []
+        },
+        {
+            "area_code": 405,
+            "state": "OK",
+            "VOTES": []
+        },
+        {
+            "area_code": 406,
+            "state": "MT",
+            "VOTES": []
+        },
+        {
+            "area_code": 407,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 408,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 409,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 410,
+            "state": "MD",
+            "VOTES": []
+        },
+        {
+            "area_code": 412,
+            "state": "PA",
+            "VOTES": []
+        },
+        {
+            "area_code": 413,
+            "state": "MA",
+            "VOTES": []
+        },
+        {
+            "area_code": 414,
+            "state": "WI",
+            "VOTES": []
+        },
+        {
+            "area_code": 415,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 417,
+            "state": "MO",
+            "VOTES": []
+        },
+        {
+            "area_code": 419,
+            "state": "OH",
+            "VOTES": []
+        },
+        {
+            "area_code": 423,
+            "state": "TN",
+            "VOTES": []
+        },
+        {
+            "area_code": 424,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 425,
+            "state": "WA",
+            "VOTES": []
+        },
+        {
+            "area_code": 430,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 432,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 434,
+            "state": "VA",
+            "VOTES": []
+        },
+        {
+            "area_code": 435,
+            "state": "UT",
+            "VOTES": []
+        },
+        {
+            "area_code": 440,
+            "state": "OH",
+            "VOTES": []
+        },
+        {
+            "area_code": 442,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 443,
+            "state": "MD",
+            "VOTES": []
+        },
+        {
+            "area_code": 464,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 469,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 470,
+            "state": "GA",
+            "VOTES": []
+        },
+        {
+            "area_code": 475,
+            "state": "CT",
+            "VOTES": []
+        },
+        {
+            "area_code": 478,
+            "state": "GA",
+            "VOTES": []
+        },
+        {
+            "area_code": 479,
+            "state": "AR",
+            "VOTES": []
+        },
+        {
+            "area_code": 480,
+            "state": "AZ",
+            "VOTES": []
+        },
+        {
+            "area_code": 484,
+            "state": "PA",
+            "VOTES": []
+        },
+        {
+            "area_code": 501,
+            "state": "AR",
+            "VOTES": []
+        },
+        {
+            "area_code": 502,
+            "state": "KY",
+            "VOTES": []
+        },
+        {
+            "area_code": 503,
+            "state": "OR",
+            "VOTES": []
+        },
+        {
+            "area_code": 504,
+            "state": "LA",
+            "VOTES": []
+        },
+        {
+            "area_code": 505,
+            "state": "NM",
+            "VOTES": []
+        },
+        {
+            "area_code": 507,
+            "state": "MN",
+            "VOTES": []
+        },
+        {
+            "area_code": 508,
+            "state": "MA",
+            "VOTES": []
+        },
+        {
+            "area_code": 509,
+            "state": "WA",
+            "VOTES": []
+        },
+        {
+            "area_code": 510,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 512,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 513,
+            "state": "OH",
+            "VOTES": []
+        },
+        {
+            "area_code": 515,
+            "state": "IA",
+            "VOTES": []
+        },
+        {
+            "area_code": 516,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 517,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 518,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 520,
+            "state": "AZ",
+            "VOTES": []
+        },
+        {
+            "area_code": 530,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 540,
+            "state": "VA",
+            "VOTES": []
+        },
+        {
+            "area_code": 541,
+            "state": "OR",
+            "VOTES": []
+        },
+        {
+            "area_code": 551,
+            "state": "NJ",
+            "VOTES": []
+        },
+        {
+            "area_code": 557,
+            "state": "MO",
+            "VOTES": []
+        },
+        {
+            "area_code": 559,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 561,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 562,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 563,
+            "state": "IA",
+            "VOTES": []
+        },
+        {
+            "area_code": 564,
+            "state": "WA",
+            "VOTES": []
+        },
+        {
+            "area_code": 567,
+            "state": "OH",
+            "VOTES": []
+        },
+        {
+            "area_code": 570,
+            "state": "PA",
+            "VOTES": []
+        },
+        {
+            "area_code": 571,
+            "state": "VA",
+            "VOTES": []
+        },
+        {
+            "area_code": 573,
+            "state": "MO",
+            "VOTES": []
+        },
+        {
+            "area_code": 574,
+            "state": "IN",
+            "VOTES": []
+        },
+        {
+            "area_code": 575,
+            "state": "NM",
+            "VOTES": []
+        },
+        {
+            "area_code": 580,
+            "state": "OK",
+            "VOTES": []
+        },
+        {
+            "area_code": 585,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 586,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 601,
+            "state": "MS",
+            "VOTES": []
+        },
+        {
+            "area_code": 602,
+            "state": "AZ",
+            "VOTES": []
+        },
+        {
+            "area_code": 603,
+            "state": "NH",
+            "VOTES": []
+        },
+        {
+            "area_code": 605,
+            "state": "SD",
+            "VOTES": []
+        },
+        {
+            "area_code": 606,
+            "state": "KY",
+            "VOTES": []
+        },
+        {
+            "area_code": 607,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 608,
+            "state": "WI",
+            "VOTES": []
+        },
+        {
+            "area_code": 609,
+            "state": "NJ",
+            "VOTES": []
+        },
+        {
+            "area_code": 610,
+            "state": "PA",
+            "VOTES": []
+        },
+        {
+            "area_code": 612,
+            "state": "MN",
+            "VOTES": []
+        },
+        {
+            "area_code": 614,
+            "state": "OH",
+            "VOTES": []
+        },
+        {
+            "area_code": 615,
+            "state": "TN",
+            "VOTES": []
+        },
+        {
+            "area_code": 616,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 617,
+            "state": "MA",
+            "VOTES": []
+        },
+        {
+            "area_code": 618,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 619,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 620,
+            "state": "KS",
+            "VOTES": []
+        },
+        {
+            "area_code": 623,
+            "state": "AZ",
+            "VOTES": []
+        },
+        {
+            "area_code": 626,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 627,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 628,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 630,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 631,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 636,
+            "state": "MO",
+            "VOTES": []
+        },
+        {
+            "area_code": 641,
+            "state": "IA",
+            "VOTES": []
+        },
+        {
+            "area_code": 646,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 650,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 651,
+            "state": "MN",
+            "VOTES": []
+        },
+        {
+            "area_code": 660,
+            "state": "MO",
+            "VOTES": []
+        },
+        {
+            "area_code": 661,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 662,
+            "state": "MS",
+            "VOTES": []
+        },
+        {
+            "area_code": 669,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 678,
+            "state": "GA",
+            "VOTES": []
+        },
+        {
+            "area_code": 679,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 682,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 689,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 701,
+            "state": "ND",
+            "VOTES": []
+        },
+        {
+            "area_code": 702,
+            "state": "NV",
+            "VOTES": []
+        },
+        {
+            "area_code": 703,
+            "state": "VA",
+            "VOTES": []
+        },
+        {
+            "area_code": 704,
+            "state": "NC",
+            "VOTES": []
+        },
+        {
+            "area_code": 706,
+            "state": "GA",
+            "VOTES": []
+        },
+        {
+            "area_code": 707,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 708,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 712,
+            "state": "IA",
+            "VOTES": []
+        },
+        {
+            "area_code": 713,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 714,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 715,
+            "state": "WI",
+            "VOTES": []
+        },
+        {
+            "area_code": 716,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 717,
+            "state": "PA",
+            "VOTES": []
+        },
+        {
+            "area_code": 718,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 719,
+            "state": "CO",
+            "VOTES": []
+        },
+        {
+            "area_code": 720,
+            "state": "CO",
+            "VOTES": []
+        },
+        {
+            "area_code": 724,
+            "state": "PA",
+            "VOTES": []
+        },
+        {
+            "area_code": 727,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 731,
+            "state": "TN",
+            "VOTES": []
+        },
+        {
+            "area_code": 732,
+            "state": "NJ",
+            "VOTES": []
+        },
+        {
+            "area_code": 734,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 737,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 740,
+            "state": "OH",
+            "VOTES": []
+        },
+        {
+            "area_code": 747,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 754,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 757,
+            "state": "VA",
+            "VOTES": []
+        },
+        {
+            "area_code": 760,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 762,
+            "state": "GA",
+            "VOTES": []
+        },
+        {
+            "area_code": 763,
+            "state": "MN",
+            "VOTES": []
+        },
+        {
+            "area_code": 764,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 765,
+            "state": "IN",
+            "VOTES": []
+        },
+        {
+            "area_code": 769,
+            "state": "MS",
+            "VOTES": []
+        },
+        {
+            "area_code": 770,
+            "state": "GA",
+            "VOTES": []
+        },
+        {
+            "area_code": 772,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 773,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 774,
+            "state": "MA",
+            "VOTES": []
+        },
+        {
+            "area_code": 775,
+            "state": "NV",
+            "VOTES": []
+        },
+        {
+            "area_code": 779,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 781,
+            "state": "MA",
+            "VOTES": []
+        },
+        {
+            "area_code": 785,
+            "state": "KS",
+            "VOTES": []
+        },
+        {
+            "area_code": 786,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 801,
+            "state": "UT",
+            "VOTES": []
+        },
+        {
+            "area_code": 802,
+            "state": "VT",
+            "VOTES": []
+        },
+        {
+            "area_code": 803,
+            "state": "SC",
+            "VOTES": []
+        },
+        {
+            "area_code": 804,
+            "state": "VA",
+            "VOTES": []
+        },
+        {
+            "area_code": 805,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 806,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 808,
+            "state": "HI",
+            "VOTES": []
+        },
+        {
+            "area_code": 810,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 812,
+            "state": "IN",
+            "VOTES": []
+        },
+        {
+            "area_code": 813,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 814,
+            "state": "PA",
+            "VOTES": []
+        },
+        {
+            "area_code": 815,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 816,
+            "state": "MO",
+            "VOTES": []
+        },
+        {
+            "area_code": 817,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 818,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 828,
+            "state": "NC",
+            "VOTES": []
+        },
+        {
+            "area_code": 830,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 831,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 832,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 835,
+            "state": "PA",
+            "VOTES": []
+        },
+        {
+            "area_code": 843,
+            "state": "SC",
+            "VOTES": []
+        },
+        {
+            "area_code": 845,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 847,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 848,
+            "state": "NJ",
+            "VOTES": []
+        },
+        {
+            "area_code": 850,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 856,
+            "state": "NJ",
+            "VOTES": []
+        },
+        {
+            "area_code": 857,
+            "state": "MA",
+            "VOTES": []
+        },
+        {
+            "area_code": 858,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 859,
+            "state": "KY",
+            "VOTES": []
+        },
+        {
+            "area_code": 860,
+            "state": "CT",
+            "VOTES": []
+        },
+        {
+            "area_code": 862,
+            "state": "NJ",
+            "VOTES": []
+        },
+        {
+            "area_code": 863,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 864,
+            "state": "SC",
+            "VOTES": []
+        },
+        {
+            "area_code": 865,
+            "state": "TN",
+            "VOTES": []
+        },
+        {
+            "area_code": 870,
+            "state": "AR",
+            "VOTES": []
+        },
+        {
+            "area_code": 872,
+            "state": "IL",
+            "VOTES": []
+        },
+        {
+            "area_code": 878,
+            "state": "PA",
+            "VOTES": []
+        },
+        {
+            "area_code": 901,
+            "state": "TN",
+            "VOTES": []
+        },
+        {
+            "area_code": 903,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 904,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 906,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 907,
+            "state": "AK",
+            "VOTES": []
+        },
+        {
+            "area_code": 908,
+            "state": "NJ",
+            "VOTES": []
+        },
+        {
+            "area_code": 909,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 910,
+            "state": "NC",
+            "VOTES": []
+        },
+        {
+            "area_code": 912,
+            "state": "GA",
+            "VOTES": []
+        },
+        {
+            "area_code": 913,
+            "state": "KS",
+            "VOTES": []
+        },
+        {
+            "area_code": 914,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 915,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 916,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 917,
+            "state": "NY",
+            "VOTES": [
+                {
+                    "vote_id": 1,
+                    "phone_number": 7182887233,
+                    "state": "NY",
+                    "contestant_number": 2,
+                    "created": "2018-03-09 19:03:21"
+                },
+                {
+                    "vote_id": 2,
+                    "phone_number": 7148407040,
+                    "state": "NY",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:36"
+                }
+            ]
+        },
+        {
+            "area_code": 918,
+            "state": "OK",
+            "VOTES": []
+        },
+        {
+            "area_code": 919,
+            "state": "NC",
+            "VOTES": []
+        },
+        {
+            "area_code": 920,
+            "state": "WI",
+            "VOTES": []
+        },
+        {
+            "area_code": 925,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 927,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 928,
+            "state": "AZ",
+            "VOTES": []
+        },
+        {
+            "area_code": 931,
+            "state": "TN",
+            "VOTES": []
+        },
+        {
+            "area_code": 935,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 936,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 937,
+            "state": "OH",
+            "VOTES": []
+        },
+        {
+            "area_code": 940,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 941,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 947,
+            "state": "MI",
+            "VOTES": []
+        },
+        {
+            "area_code": 949,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 951,
+            "state": "CA",
+            "VOTES": [
+                {
+                    "vote_id": 3,
+                    "phone_number": 6209222712,
+                    "state": "CA",
+                    "contestant_number": 3,
+                    "created": "2018-03-09 19:03:39"
+                }
+            ]
+        },
+        {
+            "area_code": 952,
+            "state": "MN",
+            "VOTES": []
+        },
+        {
+            "area_code": 954,
+            "state": "FL",
+            "VOTES": []
+        },
+        {
+            "area_code": 956,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 957,
+            "state": "NM",
+            "VOTES": []
+        },
+        {
+            "area_code": 959,
+            "state": "CT",
+            "VOTES": []
+        },
+        {
+            "area_code": 970,
+            "state": "CO",
+            "VOTES": []
+        },
+        {
+            "area_code": 971,
+            "state": "OR",
+            "VOTES": []
+        },
+        {
+            "area_code": 972,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 973,
+            "state": "NJ",
+            "VOTES": []
+        },
+        {
+            "area_code": 975,
+            "state": "MO",
+            "VOTES": []
+        },
+        {
+            "area_code": 978,
+            "state": "MA",
+            "VOTES": []
+        },
+        {
+            "area_code": 979,
+            "state": "TX",
+            "VOTES": []
+        },
+        {
+            "area_code": 980,
+            "state": "NC",
+            "VOTES": []
+        },
+        {
+            "area_code": 984,
+            "state": "NC",
+            "VOTES": []
+        },
+        {
+            "area_code": 985,
+            "state": "LA",
+            "VOTES": []
+        },
+        {
+            "area_code": 989,
+            "state": "MI",
+            "VOTES": []
+        }
+    ]
+}

@@ -1,0 +1,2031 @@
+[
+  {
+    "company_id": 1,
+    "company_type": "Maintenance Contractor",
+    "company_name": "Langworth-Funk",
+    "company_address": "615 Jacobs Mews",
+    "other_company_details": "Uganda",
+    "Maintenance_Contracts": [],
+    "Assets": [
+      {
+        "asset_id": 2,
+        "maintenance_contract_id": 14,
+        "supplier_company_id": 1,
+        "asset_details": "dell laptop2",
+        "asset_make": "IN",
+        "asset_model": "35 xt",
+        "asset_acquired_date": "2018-01-27 00:59:46",
+        "asset_disposed_date": "2018-03-20 04:24:09",
+        "other_asset_details": null,
+        "Asset_Parts": [
+          {
+            "asset_id": 2,
+            "part_id": 3
+          },
+          {
+            "asset_id": 2,
+            "part_id": 2
+          }
+        ],
+        "Fault_Log": [
+          {
+            "fault_log_entry_id": 10,
+            "asset_id": 2,
+            "recorded_by_staff_id": 9,
+            "fault_log_entry_datetime": "2018-03-03 10:41:52",
+            "fault_description": "failed parts",
+            "other_fault_details": null,
+            "Engineer_Visits": [
+              {
+                "engineer_visit_id": 15,
+                "contact_staff_id": 4,
+                "engineer_id": 11,
+                "fault_log_entry_id": 10,
+                "fault_status": "Reported",
+                "visit_start_datetime": "1970-07-19 19:21:32",
+                "visit_end_datetime": "2007-11-12 04:24:01",
+                "other_visit_details": null
+              }
+            ],
+            "Fault_Log_Parts": []
+          }
+        ]
+      }
+    ],
+    "Maintenance_Engineers": [
+      {
+        "engineer_id": 6,
+        "company_id": 1,
+        "first_name": "Courtney",
+        "last_name": "Adams",
+        "other_details": null,
+        "Engineer_Skills": [
+          {
+            "engineer_id": 6,
+            "skill_id": 1
+          },
+          {
+            "engineer_id": 6,
+            "skill_id": 3
+          }
+        ],
+        "Engineer_Visits": [
+          {
+            "engineer_visit_id": 11,
+            "contact_staff_id": 9,
+            "engineer_id": 6,
+            "fault_log_entry_id": 3,
+            "fault_status": "Fixed",
+            "visit_start_datetime": "1975-04-06 11:09:23",
+            "visit_end_datetime": "2000-01-27 09:33:10",
+            "other_visit_details": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "company_id": 2,
+    "company_type": "Maintenance Contractor",
+    "company_name": "McDermott Group",
+    "company_address": "873 Conrad Creek Apt. 286",
+    "other_company_details": "China",
+    "Maintenance_Contracts": [],
+    "Assets": [
+      {
+        "asset_id": 1,
+        "maintenance_contract_id": 2,
+        "supplier_company_id": 2,
+        "asset_details": "dell laptop1",
+        "asset_make": "PT",
+        "asset_model": "58 ub",
+        "asset_acquired_date": "2017-12-25 00:31:27",
+        "asset_disposed_date": "2018-03-14 10:50:00",
+        "other_asset_details": null,
+        "Asset_Parts": [
+          {
+            "asset_id": 1,
+            "part_id": 2
+          },
+          {
+            "asset_id": 1,
+            "part_id": 3
+          }
+        ],
+        "Fault_Log": []
+      },
+      {
+        "asset_id": 3,
+        "maintenance_contract_id": 7,
+        "supplier_company_id": 2,
+        "asset_details": "dell laptop3",
+        "asset_make": "IT",
+        "asset_model": "63 ok",
+        "asset_acquired_date": "2017-09-07 08:13:15",
+        "asset_disposed_date": "2018-03-08 20:50:40",
+        "other_asset_details": "Bad condition",
+        "Asset_Parts": [
+          {
+            "asset_id": 3,
+            "part_id": 3
+          },
+          {
+            "asset_id": 3,
+            "part_id": 1
+          },
+          {
+            "asset_id": 3,
+            "part_id": 2
+          },
+          {
+            "asset_id": 3,
+            "part_id": 3
+          }
+        ],
+        "Fault_Log": [
+          {
+            "fault_log_entry_id": 1,
+            "asset_id": 3,
+            "recorded_by_staff_id": 14,
+            "fault_log_entry_datetime": "2018-03-21 04:25:00",
+            "fault_description": "system error",
+            "other_fault_details": null,
+            "Engineer_Visits": [],
+            "Fault_Log_Parts": [
+              {
+                "fault_log_entry_id": 1,
+                "part_fault_id": 9,
+                "fault_status": "Return"
+              },
+              {
+                "fault_log_entry_id": 1,
+                "part_fault_id": 14,
+                "fault_status": "Fixed"
+              },
+              {
+                "fault_log_entry_id": 1,
+                "part_fault_id": 10,
+                "fault_status": "Fixed"
+              }
+            ]
+          },
+          {
+            "fault_log_entry_id": 9,
+            "asset_id": 3,
+            "recorded_by_staff_id": 5,
+            "fault_log_entry_datetime": "2018-03-06 15:52:54",
+            "fault_description": "system error",
+            "other_fault_details": null,
+            "Engineer_Visits": [],
+            "Fault_Log_Parts": []
+          },
+          {
+            "fault_log_entry_id": 13,
+            "asset_id": 3,
+            "recorded_by_staff_id": 13,
+            "fault_log_entry_datetime": "2018-03-11 14:00:39",
+            "fault_description": "system error",
+            "other_fault_details": null,
+            "Engineer_Visits": [
+              {
+                "engineer_visit_id": 1,
+                "contact_staff_id": 8,
+                "engineer_id": 8,
+                "fault_log_entry_id": 13,
+                "fault_status": "Waiting",
+                "visit_start_datetime": "1978-10-12 23:14:40",
+                "visit_end_datetime": "1988-01-07 06:41:51",
+                "other_visit_details": null
+              },
+              {
+                "engineer_visit_id": 2,
+                "contact_staff_id": 7,
+                "engineer_id": 15,
+                "fault_log_entry_id": 13,
+                "fault_status": "Return",
+                "visit_start_datetime": "1980-05-02 23:31:18",
+                "visit_end_datetime": "1990-08-30 22:44:16",
+                "other_visit_details": null
+              },
+              {
+                "engineer_visit_id": 4,
+                "contact_staff_id": 12,
+                "engineer_id": 12,
+                "fault_log_entry_id": 13,
+                "fault_status": "Fixed",
+                "visit_start_datetime": "1996-11-07 05:31:35",
+                "visit_end_datetime": "1973-09-12 07:06:54",
+                "other_visit_details": null
+              },
+              {
+                "engineer_visit_id": 12,
+                "contact_staff_id": 2,
+                "engineer_id": 1,
+                "fault_log_entry_id": 13,
+                "fault_status": "Return",
+                "visit_start_datetime": "2006-03-31 20:03:10",
+                "visit_end_datetime": "2013-09-29 20:50:24",
+                "other_visit_details": null
+              },
+              {
+                "engineer_visit_id": 14,
+                "contact_staff_id": 9,
+                "engineer_id": 4,
+                "fault_log_entry_id": 13,
+                "fault_status": "Return",
+                "visit_start_datetime": "1997-06-23 17:45:21",
+                "visit_end_datetime": "1980-12-19 08:30:46",
+                "other_visit_details": null
+              }
+            ],
+            "Fault_Log_Parts": [
+              {
+                "fault_log_entry_id": 13,
+                "part_fault_id": 15,
+                "fault_status": "Fixed"
+              },
+              {
+                "fault_log_entry_id": 13,
+                "part_fault_id": 1,
+                "fault_status": "Fixed"
+              }
+            ]
+          },
+          {
+            "fault_log_entry_id": 14,
+            "asset_id": 3,
+            "recorded_by_staff_id": 11,
+            "fault_log_entry_datetime": "2018-02-27 11:34:20",
+            "fault_description": "failed parts",
+            "other_fault_details": null,
+            "Engineer_Visits": [
+              {
+                "engineer_visit_id": 7,
+                "contact_staff_id": 7,
+                "engineer_id": 15,
+                "fault_log_entry_id": 14,
+                "fault_status": "Reported",
+                "visit_start_datetime": "1996-07-06 23:59:49",
+                "visit_end_datetime": "2012-11-27 06:26:01",
+                "other_visit_details": null
+              }
+            ],
+            "Fault_Log_Parts": [
+              {
+                "fault_log_entry_id": 14,
+                "part_fault_id": 8,
+                "fault_status": "Waiting"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "asset_id": 10,
+        "maintenance_contract_id": 2,
+        "supplier_company_id": 2,
+        "asset_details": "machine2",
+        "asset_make": "FR",
+        "asset_model": "20 tl",
+        "asset_acquired_date": "2017-09-19 16:15:45",
+        "asset_disposed_date": "2018-03-06 20:36:14",
+        "other_asset_details": null,
+        "Asset_Parts": [
+          {
+            "asset_id": 10,
+            "part_id": 1
+          }
+        ],
+        "Fault_Log": []
+      }
+    ],
+    "Maintenance_Engineers": [
+      {
+        "engineer_id": 2,
+        "company_id": 2,
+        "first_name": "Clemens",
+        "last_name": "Orn",
+        "other_details": null,
+        "Engineer_Skills": [
+          {
+            "engineer_id": 2,
+            "skill_id": 2
+          }
+        ],
+        "Engineer_Visits": []
+      },
+      {
+        "engineer_id": 13,
+        "company_id": 2,
+        "first_name": "Weston",
+        "last_name": "Hahn",
+        "other_details": null,
+        "Engineer_Skills": [
+          {
+            "engineer_id": 13,
+            "skill_id": 1
+          },
+          {
+            "engineer_id": 13,
+            "skill_id": 2
+          }
+        ],
+        "Engineer_Visits": []
+      }
+    ]
+  },
+  {
+    "company_id": 3,
+    "company_type": "Maintenance Contractor",
+    "company_name": "Schuppe-Carroll",
+    "company_address": "066 Bechtelar Ridge",
+    "other_company_details": "United Arab Emirates",
+    "Maintenance_Contracts": [],
+    "Assets": [],
+    "Maintenance_Engineers": [
+      {
+        "engineer_id": 4,
+        "company_id": 3,
+        "first_name": "Lorine",
+        "last_name": "Morar",
+        "other_details": null,
+        "Engineer_Skills": [
+          {
+            "engineer_id": 4,
+            "skill_id": 1
+          }
+        ],
+        "Engineer_Visits": [
+          {
+            "engineer_visit_id": 5,
+            "contact_staff_id": 2,
+            "engineer_id": 4,
+            "fault_log_entry_id": 12,
+            "fault_status": "Fixed",
+            "visit_start_datetime": "1994-07-27 22:35:48",
+            "visit_end_datetime": "2008-03-24 22:18:47",
+            "other_visit_details": null
+          },
+          {
+            "engineer_visit_id": 14,
+            "contact_staff_id": 9,
+            "engineer_id": 4,
+            "fault_log_entry_id": 13,
+            "fault_status": "Return",
+            "visit_start_datetime": "1997-06-23 17:45:21",
+            "visit_end_datetime": "1980-12-19 08:30:46",
+            "other_visit_details": null
+          }
+        ]
+      },
+      {
+        "engineer_id": 15,
+        "company_id": 3,
+        "first_name": "Archibald",
+        "last_name": "Streich",
+        "other_details": null,
+        "Engineer_Skills": [
+          {
+            "engineer_id": 15,
+            "skill_id": 1
+          },
+          {
+            "engineer_id": 15,
+            "skill_id": 3
+          }
+        ],
+        "Engineer_Visits": [
+          {
+            "engineer_visit_id": 2,
+            "contact_staff_id": 7,
+            "engineer_id": 15,
+            "fault_log_entry_id": 13,
+            "fault_status": "Return",
+            "visit_start_datetime": "1980-05-02 23:31:18",
+            "visit_end_datetime": "1990-08-30 22:44:16",
+            "other_visit_details": null
+          },
+          {
+            "engineer_visit_id": 3,
+            "contact_staff_id": 7,
+            "engineer_id": 15,
+            "fault_log_entry_id": 4,
+            "fault_status": "Waiting",
+            "visit_start_datetime": "2010-02-23 18:16:23",
+            "visit_end_datetime": "1982-05-13 02:08:41",
+            "other_visit_details": null
+          },
+          {
+            "engineer_visit_id": 6,
+            "contact_staff_id": 4,
+            "engineer_id": 15,
+            "fault_log_entry_id": 11,
+            "fault_status": "Fixed",
+            "visit_start_datetime": "1984-07-14 22:47:51",
+            "visit_end_datetime": "2010-07-05 18:36:22",
+            "other_visit_details": null
+          },
+          {
+            "engineer_visit_id": 7,
+            "contact_staff_id": 7,
+            "engineer_id": 15,
+            "fault_log_entry_id": 14,
+            "fault_status": "Reported",
+            "visit_start_datetime": "1996-07-06 23:59:49",
+            "visit_end_datetime": "2012-11-27 06:26:01",
+            "other_visit_details": null
+          },
+          {
+            "engineer_visit_id": 8,
+            "contact_staff_id": 6,
+            "engineer_id": 15,
+            "fault_log_entry_id": 2,
+            "fault_status": "Waiting",
+            "visit_start_datetime": "1985-08-26 01:02:49",
+            "visit_end_datetime": "1971-03-29 23:46:30",
+            "other_visit_details": null
+          },
+          {
+            "engineer_visit_id": 9,
+            "contact_staff_id": 7,
+            "engineer_id": 15,
+            "fault_log_entry_id": 12,
+            "fault_status": "Waiting",
+            "visit_start_datetime": "1991-05-02 01:39:59",
+            "visit_end_datetime": "1970-08-01 15:35:51",
+            "other_visit_details": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "company_id": 4,
+    "company_type": "Maintenance Contractor",
+    "company_name": "Dooley-Langosh",
+    "company_address": "9576 Jacynthe Point Suite 747",
+    "other_company_details": "Albania",
+    "Maintenance_Contracts": [
+      {
+        "maintenance_contract_id": 5,
+        "maintenance_contract_company_id": 4,
+        "contract_start_date": "2017-10-28 05:13:21",
+        "contract_end_date": "2018-02-27 17:36:59",
+        "other_contract_details": null,
+        "Assets": []
+      }
+    ],
+    "Assets": [],
+    "Maintenance_Engineers": [
+      {
+        "engineer_id": 9,
+        "company_id": 4,
+        "first_name": "Brian",
+        "last_name": "Stamm",
+        "other_details": null,
+        "Engineer_Skills": [
+          {
+            "engineer_id": 9,
+            "skill_id": 3
+          }
+        ],
+        "Engineer_Visits": []
+      },
+      {
+        "engineer_id": 10,
+        "company_id": 4,
+        "first_name": "Naomi",
+        "last_name": "Price",
+        "other_details": null,
+        "Engineer_Skills": [
+          {
+            "engineer_id": 10,
+            "skill_id": 2
+          },
+          {
+            "engineer_id": 10,
+            "skill_id": 1
+          },
+          {
+            "engineer_id": 10,
+            "skill_id": 1
+          }
+        ],
+        "Engineer_Visits": [
+          {
+            "engineer_visit_id": 10,
+            "contact_staff_id": 14,
+            "engineer_id": 10,
+            "fault_log_entry_id": 2,
+            "fault_status": "Fixed",
+            "visit_start_datetime": "1996-07-12 22:38:46",
+            "visit_end_datetime": "1970-03-25 14:44:29",
+            "other_visit_details": null
+          },
+          {
+            "engineer_visit_id": 13,
+            "contact_staff_id": 4,
+            "engineer_id": 10,
+            "fault_log_entry_id": 8,
+            "fault_status": "Fixed",
+            "visit_start_datetime": "2015-07-05 21:37:55",
+            "visit_end_datetime": "1988-10-20 12:02:00",
+            "other_visit_details": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "company_id": 5,
+    "company_type": "Supplier",
+    "company_name": "Dooley and Sons",
+    "company_address": "84631 Rosenbaum Well Suite 727",
+    "other_company_details": "Palestinian Territory",
+    "Maintenance_Contracts": [],
+    "Assets": [
+      {
+        "asset_id": 4,
+        "maintenance_contract_id": 11,
+        "supplier_company_id": 5,
+        "asset_details": "dell laptop4",
+        "asset_make": "RU",
+        "asset_model": "69 uv",
+        "asset_acquired_date": "2017-06-12 17:37:19",
+        "asset_disposed_date": "2018-03-16 05:46:55",
+        "other_asset_details": null,
+        "Asset_Parts": [
+          {
+            "asset_id": 4,
+            "part_id": 1
+          }
+        ],
+        "Fault_Log": []
+      },
+      {
+        "asset_id": 5,
+        "maintenance_contract_id": 8,
+        "supplier_company_id": 5,
+        "asset_details": "dell laptop5",
+        "asset_make": "DE",
+        "asset_model": "90 oq",
+        "asset_acquired_date": "2017-07-21 16:03:19",
+        "asset_disposed_date": "2018-02-27 18:59:07",
+        "other_asset_details": null,
+        "Asset_Parts": [
+          {
+            "asset_id": 5,
+            "part_id": 3
+          }
+        ],
+        "Fault_Log": [
+          {
+            "fault_log_entry_id": 4,
+            "asset_id": 5,
+            "recorded_by_staff_id": 13,
+            "fault_log_entry_datetime": "2018-02-28 02:07:36",
+            "fault_description": "failed parts",
+            "other_fault_details": null,
+            "Engineer_Visits": [
+              {
+                "engineer_visit_id": 3,
+                "contact_staff_id": 7,
+                "engineer_id": 15,
+                "fault_log_entry_id": 4,
+                "fault_status": "Waiting",
+                "visit_start_datetime": "2010-02-23 18:16:23",
+                "visit_end_datetime": "1982-05-13 02:08:41",
+                "other_visit_details": null
+              }
+            ],
+            "Fault_Log_Parts": [
+              {
+                "fault_log_entry_id": 4,
+                "part_fault_id": 14,
+                "fault_status": "Waiting"
+              },
+              {
+                "fault_log_entry_id": 4,
+                "part_fault_id": 6,
+                "fault_status": "Reported"
+              }
+            ]
+          },
+          {
+            "fault_log_entry_id": 7,
+            "asset_id": 5,
+            "recorded_by_staff_id": 14,
+            "fault_log_entry_datetime": "2018-03-05 09:44:08",
+            "fault_description": "system error",
+            "other_fault_details": null,
+            "Engineer_Visits": [],
+            "Fault_Log_Parts": [
+              {
+                "fault_log_entry_id": 7,
+                "part_fault_id": 4,
+                "fault_status": "Reported"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Maintenance_Engineers": []
+  },
+  {
+    "company_id": 6,
+    "company_type": "Supplier",
+    "company_name": "Grimes, Mosciski and Renner",
+    "company_address": "9405 Leffler Hollow Apt. 753",
+    "other_company_details": "Kiribati",
+    "Maintenance_Contracts": [
+      {
+        "maintenance_contract_id": 9,
+        "maintenance_contract_company_id": 6,
+        "contract_start_date": "2017-04-21 00:03:07",
+        "contract_end_date": "2018-03-07 19:30:50",
+        "other_contract_details": null,
+        "Assets": []
+      },
+      {
+        "maintenance_contract_id": 10,
+        "maintenance_contract_company_id": 6,
+        "contract_start_date": "2017-06-14 01:46:59",
+        "contract_end_date": "2018-03-09 10:40:10",
+        "other_contract_details": null,
+        "Assets": [
+          {
+            "asset_id": 14,
+            "maintenance_contract_id": 10,
+            "supplier_company_id": 6,
+            "asset_details": "system2",
+            "asset_make": "IN",
+            "asset_model": "66 xm",
+            "asset_acquired_date": "2017-10-19 02:54:52",
+            "asset_disposed_date": "2018-03-22 23:48:15",
+            "other_asset_details": null,
+            "Asset_Parts": [
+              {
+                "asset_id": 14,
+                "part_id": 1
+              }
+            ],
+            "Fault_Log": []
+          }
+        ]
+      },
+      {
+        "maintenance_contract_id": 12,
+        "maintenance_contract_company_id": 6,
+        "contract_start_date": "2017-12-06 20:09:39",
+        "contract_end_date": "2018-03-06 13:47:14",
+        "other_contract_details": null,
+        "Assets": [
+          {
+            "asset_id": 9,
+            "maintenance_contract_id": 12,
+            "supplier_company_id": 13,
+            "asset_details": "machine1",
+            "asset_make": "RU",
+            "asset_model": "07 yt",
+            "asset_acquired_date": "2017-04-16 12:19:25",
+            "asset_disposed_date": "2018-03-08 18:42:41",
+            "other_asset_details": null,
+            "Asset_Parts": [],
+            "Fault_Log": [
+              {
+                "fault_log_entry_id": 5,
+                "asset_id": 9,
+                "recorded_by_staff_id": 11,
+                "fault_log_entry_datetime": "2018-03-02 03:14:46",
+                "fault_description": "system error",
+                "other_fault_details": null,
+                "Engineer_Visits": [],
+                "Fault_Log_Parts": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "maintenance_contract_id": 15,
+        "maintenance_contract_company_id": 6,
+        "contract_start_date": "2017-05-14 11:57:50",
+        "contract_end_date": "2018-03-23 17:29:21",
+        "other_contract_details": null,
+        "Assets": [
+          {
+            "asset_id": 8,
+            "maintenance_contract_id": 15,
+            "supplier_company_id": 7,
+            "asset_details": "monitor3",
+            "asset_make": "GB",
+            "asset_model": "94 kg",
+            "asset_acquired_date": "2017-10-24 04:29:17",
+            "asset_disposed_date": "2018-02-28 18:14:13",
+            "other_asset_details": "Bad condition",
+            "Asset_Parts": [],
+            "Fault_Log": [
+              {
+                "fault_log_entry_id": 6,
+                "asset_id": 8,
+                "recorded_by_staff_id": 8,
+                "fault_log_entry_datetime": "2018-02-28 20:15:25",
+                "fault_description": "failed parts",
+                "other_fault_details": null,
+                "Engineer_Visits": [],
+                "Fault_Log_Parts": [
+                  {
+                    "fault_log_entry_id": 6,
+                    "part_fault_id": 4,
+                    "fault_status": "Waiting"
+                  }
+                ]
+              },
+              {
+                "fault_log_entry_id": 12,
+                "asset_id": 8,
+                "recorded_by_staff_id": 8,
+                "fault_log_entry_datetime": "2018-03-10 07:08:34",
+                "fault_description": "system error",
+                "other_fault_details": null,
+                "Engineer_Visits": [
+                  {
+                    "engineer_visit_id": 5,
+                    "contact_staff_id": 2,
+                    "engineer_id": 4,
+                    "fault_log_entry_id": 12,
+                    "fault_status": "Fixed",
+                    "visit_start_datetime": "1994-07-27 22:35:48",
+                    "visit_end_datetime": "2008-03-24 22:18:47",
+                    "other_visit_details": null
+                  },
+                  {
+                    "engineer_visit_id": 9,
+                    "contact_staff_id": 7,
+                    "engineer_id": 15,
+                    "fault_log_entry_id": 12,
+                    "fault_status": "Waiting",
+                    "visit_start_datetime": "1991-05-02 01:39:59",
+                    "visit_end_datetime": "1970-08-01 15:35:51",
+                    "other_visit_details": null
+                  }
+                ],
+                "Fault_Log_Parts": [
+                  {
+                    "fault_log_entry_id": 12,
+                    "part_fault_id": 3,
+                    "fault_status": "Reported"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Assets": [
+      {
+        "asset_id": 6,
+        "maintenance_contract_id": 8,
+        "supplier_company_id": 6,
+        "asset_details": "monitor1",
+        "asset_make": "CN",
+        "asset_model": "91 ub",
+        "asset_acquired_date": "2017-04-22 12:33:39",
+        "asset_disposed_date": "2018-03-10 11:11:43",
+        "other_asset_details": null,
+        "Asset_Parts": [
+          {
+            "asset_id": 6,
+            "part_id": 2
+          }
+        ],
+        "Fault_Log": [
+          {
+            "fault_log_entry_id": 3,
+            "asset_id": 6,
+            "recorded_by_staff_id": 9,
+            "fault_log_entry_datetime": "2018-02-24 09:28:20",
+            "fault_description": "system error",
+            "other_fault_details": null,
+            "Engineer_Visits": [
+              {
+                "engineer_visit_id": 11,
+                "contact_staff_id": 9,
+                "engineer_id": 6,
+                "fault_log_entry_id": 3,
+                "fault_status": "Fixed",
+                "visit_start_datetime": "1975-04-06 11:09:23",
+                "visit_end_datetime": "2000-01-27 09:33:10",
+                "other_visit_details": null
+              }
+            ],
+            "Fault_Log_Parts": [
+              {
+                "fault_log_entry_id": 3,
+                "part_fault_id": 8,
+                "fault_status": "Return"
+              },
+              {
+                "fault_log_entry_id": 3,
+                "part_fault_id": 11,
+                "fault_status": "Fixed"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "asset_id": 7,
+        "maintenance_contract_id": 6,
+        "supplier_company_id": 6,
+        "asset_details": "monitor2",
+        "asset_make": "CN",
+        "asset_model": "27 du",
+        "asset_acquired_date": "2017-07-18 01:22:58",
+        "asset_disposed_date": "2018-03-20 22:45:00",
+        "other_asset_details": null,
+        "Asset_Parts": [],
+        "Fault_Log": [
+          {
+            "fault_log_entry_id": 2,
+            "asset_id": 7,
+            "recorded_by_staff_id": 4,
+            "fault_log_entry_datetime": "2018-03-13 09:43:05",
+            "fault_description": "system error",
+            "other_fault_details": null,
+            "Engineer_Visits": [
+              {
+                "engineer_visit_id": 8,
+                "contact_staff_id": 6,
+                "engineer_id": 15,
+                "fault_log_entry_id": 2,
+                "fault_status": "Waiting",
+                "visit_start_datetime": "1985-08-26 01:02:49",
+                "visit_end_datetime": "1971-03-29 23:46:30",
+                "other_visit_details": null
+              },
+              {
+                "engineer_visit_id": 10,
+                "contact_staff_id": 14,
+                "engineer_id": 10,
+                "fault_log_entry_id": 2,
+                "fault_status": "Fixed",
+                "visit_start_datetime": "1996-07-12 22:38:46",
+                "visit_end_datetime": "1970-03-25 14:44:29",
+                "other_visit_details": null
+              }
+            ],
+            "Fault_Log_Parts": []
+          }
+        ]
+      },
+      {
+        "asset_id": 14,
+        "maintenance_contract_id": 10,
+        "supplier_company_id": 6,
+        "asset_details": "system2",
+        "asset_make": "IN",
+        "asset_model": "66 xm",
+        "asset_acquired_date": "2017-10-19 02:54:52",
+        "asset_disposed_date": "2018-03-22 23:48:15",
+        "other_asset_details": null,
+        "Asset_Parts": [
+          {
+            "asset_id": 14,
+            "part_id": 1
+          }
+        ],
+        "Fault_Log": []
+      }
+    ],
+    "Maintenance_Engineers": [
+      {
+        "engineer_id": 3,
+        "company_id": 6,
+        "first_name": "Samanta",
+        "last_name": "Hauck",
+        "other_details": null,
+        "Engineer_Skills": [
+          {
+            "engineer_id": 3,
+            "skill_id": 1
+          }
+        ],
+        "Engineer_Visits": []
+      }
+    ]
+  },
+  {
+    "company_id": 7,
+    "company_type": "Maintenance Contractor",
+    "company_name": "Weimann-Swift",
+    "company_address": "016 Kaitlyn Fall Suite 236",
+    "other_company_details": "Egypt",
+    "Maintenance_Contracts": [
+      {
+        "maintenance_contract_id": 6,
+        "maintenance_contract_company_id": 7,
+        "contract_start_date": "2018-03-07 10:59:11",
+        "contract_end_date": "2018-03-14 10:17:43",
+        "other_contract_details": null,
+        "Assets": [
+          {
+            "asset_id": 7,
+            "maintenance_contract_id": 6,
+            "supplier_company_id": 6,
+            "asset_details": "monitor2",
+            "asset_make": "CN",
+            "asset_model": "27 du",
+            "asset_acquired_date": "2017-07-18 01:22:58",
+            "asset_disposed_date": "2018-03-20 22:45:00",
+            "other_asset_details": null,
+            "Asset_Parts": [],
+            "Fault_Log": [
+              {
+                "fault_log_entry_id": 2,
+                "asset_id": 7,
+                "recorded_by_staff_id": 4,
+                "fault_log_entry_datetime": "2018-03-13 09:43:05",
+                "fault_description": "system error",
+                "other_fault_details": null,
+                "Engineer_Visits": [
+                  {
+                    "engineer_visit_id": 8,
+                    "contact_staff_id": 6,
+                    "engineer_id": 15,
+                    "fault_log_entry_id": 2,
+                    "fault_status": "Waiting",
+                    "visit_start_datetime": "1985-08-26 01:02:49",
+                    "visit_end_datetime": "1971-03-29 23:46:30",
+                    "other_visit_details": null
+                  },
+                  {
+                    "engineer_visit_id": 10,
+                    "contact_staff_id": 14,
+                    "engineer_id": 10,
+                    "fault_log_entry_id": 2,
+                    "fault_status": "Fixed",
+                    "visit_start_datetime": "1996-07-12 22:38:46",
+                    "visit_end_datetime": "1970-03-25 14:44:29",
+                    "other_visit_details": null
+                  }
+                ],
+                "Fault_Log_Parts": []
+              }
+            ]
+          },
+          {
+            "asset_id": 15,
+            "maintenance_contract_id": 6,
+            "supplier_company_id": 11,
+            "asset_details": "system3",
+            "asset_make": "IE",
+            "asset_model": "24 ak",
+            "asset_acquired_date": "2017-12-18 19:21:11",
+            "asset_disposed_date": "2018-02-27 02:37:16",
+            "other_asset_details": null,
+            "Asset_Parts": [
+              {
+                "asset_id": 15,
+                "part_id": 3
+              },
+              {
+                "asset_id": 15,
+                "part_id": 2
+              }
+            ],
+            "Fault_Log": [
+              {
+                "fault_log_entry_id": 11,
+                "asset_id": 15,
+                "recorded_by_staff_id": 12,
+                "fault_log_entry_datetime": "2018-03-21 15:02:17",
+                "fault_description": "failed parts",
+                "other_fault_details": null,
+                "Engineer_Visits": [
+                  {
+                    "engineer_visit_id": 6,
+                    "contact_staff_id": 4,
+                    "engineer_id": 15,
+                    "fault_log_entry_id": 11,
+                    "fault_status": "Fixed",
+                    "visit_start_datetime": "1984-07-14 22:47:51",
+                    "visit_end_datetime": "2010-07-05 18:36:22",
+                    "other_visit_details": null
+                  }
+                ],
+                "Fault_Log_Parts": [
+                  {
+                    "fault_log_entry_id": 11,
+                    "part_fault_id": 2,
+                    "fault_status": "Reported"
+                  },
+                  {
+                    "fault_log_entry_id": 11,
+                    "part_fault_id": 8,
+                    "fault_status": "Reported"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Assets": [
+      {
+        "asset_id": 8,
+        "maintenance_contract_id": 15,
+        "supplier_company_id": 7,
+        "asset_details": "monitor3",
+        "asset_make": "GB",
+        "asset_model": "94 kg",
+        "asset_acquired_date": "2017-10-24 04:29:17",
+        "asset_disposed_date": "2018-02-28 18:14:13",
+        "other_asset_details": "Bad condition",
+        "Asset_Parts": [],
+        "Fault_Log": [
+          {
+            "fault_log_entry_id": 6,
+            "asset_id": 8,
+            "recorded_by_staff_id": 8,
+            "fault_log_entry_datetime": "2018-02-28 20:15:25",
+            "fault_description": "failed parts",
+            "other_fault_details": null,
+            "Engineer_Visits": [],
+            "Fault_Log_Parts": [
+              {
+                "fault_log_entry_id": 6,
+                "part_fault_id": 4,
+                "fault_status": "Waiting"
+              }
+            ]
+          },
+          {
+            "fault_log_entry_id": 12,
+            "asset_id": 8,
+            "recorded_by_staff_id": 8,
+            "fault_log_entry_datetime": "2018-03-10 07:08:34",
+            "fault_description": "system error",
+            "other_fault_details": null,
+            "Engineer_Visits": [
+              {
+                "engineer_visit_id": 5,
+                "contact_staff_id": 2,
+                "engineer_id": 4,
+                "fault_log_entry_id": 12,
+                "fault_status": "Fixed",
+                "visit_start_datetime": "1994-07-27 22:35:48",
+                "visit_end_datetime": "2008-03-24 22:18:47",
+                "other_visit_details": null
+              },
+              {
+                "engineer_visit_id": 9,
+                "contact_staff_id": 7,
+                "engineer_id": 15,
+                "fault_log_entry_id": 12,
+                "fault_status": "Waiting",
+                "visit_start_datetime": "1991-05-02 01:39:59",
+                "visit_end_datetime": "1970-08-01 15:35:51",
+                "other_visit_details": null
+              }
+            ],
+            "Fault_Log_Parts": [
+              {
+                "fault_log_entry_id": 12,
+                "part_fault_id": 3,
+                "fault_status": "Reported"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Maintenance_Engineers": [
+      {
+        "engineer_id": 11,
+        "company_id": 7,
+        "first_name": "Cullen",
+        "last_name": "Kunde",
+        "other_details": null,
+        "Engineer_Skills": [
+          {
+            "engineer_id": 11,
+            "skill_id": 2
+          }
+        ],
+        "Engineer_Visits": [
+          {
+            "engineer_visit_id": 15,
+            "contact_staff_id": 4,
+            "engineer_id": 11,
+            "fault_log_entry_id": 10,
+            "fault_status": "Reported",
+            "visit_start_datetime": "1970-07-19 19:21:32",
+            "visit_end_datetime": "2007-11-12 04:24:01",
+            "other_visit_details": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "company_id": 8,
+    "company_type": "Maintenance Contractor",
+    "company_name": "Glover-Vandervort",
+    "company_address": "51515 Conn Corner Suite 696",
+    "other_company_details": "Ethiopia",
+    "Maintenance_Contracts": [
+      {
+        "maintenance_contract_id": 8,
+        "maintenance_contract_company_id": 8,
+        "contract_start_date": "2017-11-23 11:26:12",
+        "contract_end_date": "2018-03-02 22:26:54",
+        "other_contract_details": null,
+        "Assets": [
+          {
+            "asset_id": 5,
+            "maintenance_contract_id": 8,
+            "supplier_company_id": 5,
+            "asset_details": "dell laptop5",
+            "asset_make": "DE",
+            "asset_model": "90 oq",
+            "asset_acquired_date": "2017-07-21 16:03:19",
+            "asset_disposed_date": "2018-02-27 18:59:07",
+            "other_asset_details": null,
+            "Asset_Parts": [
+              {
+                "asset_id": 5,
+                "part_id": 3
+              }
+            ],
+            "Fault_Log": [
+              {
+                "fault_log_entry_id": 4,
+                "asset_id": 5,
+                "recorded_by_staff_id": 13,
+                "fault_log_entry_datetime": "2018-02-28 02:07:36",
+                "fault_description": "failed parts",
+                "other_fault_details": null,
+                "Engineer_Visits": [
+                  {
+                    "engineer_visit_id": 3,
+                    "contact_staff_id": 7,
+                    "engineer_id": 15,
+                    "fault_log_entry_id": 4,
+                    "fault_status": "Waiting",
+                    "visit_start_datetime": "2010-02-23 18:16:23",
+                    "visit_end_datetime": "1982-05-13 02:08:41",
+                    "other_visit_details": null
+                  }
+                ],
+                "Fault_Log_Parts": [
+                  {
+                    "fault_log_entry_id": 4,
+                    "part_fault_id": 14,
+                    "fault_status": "Waiting"
+                  },
+                  {
+                    "fault_log_entry_id": 4,
+                    "part_fault_id": 6,
+                    "fault_status": "Reported"
+                  }
+                ]
+              },
+              {
+                "fault_log_entry_id": 7,
+                "asset_id": 5,
+                "recorded_by_staff_id": 14,
+                "fault_log_entry_datetime": "2018-03-05 09:44:08",
+                "fault_description": "system error",
+                "other_fault_details": null,
+                "Engineer_Visits": [],
+                "Fault_Log_Parts": [
+                  {
+                    "fault_log_entry_id": 7,
+                    "part_fault_id": 4,
+                    "fault_status": "Reported"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "asset_id": 6,
+            "maintenance_contract_id": 8,
+            "supplier_company_id": 6,
+            "asset_details": "monitor1",
+            "asset_make": "CN",
+            "asset_model": "91 ub",
+            "asset_acquired_date": "2017-04-22 12:33:39",
+            "asset_disposed_date": "2018-03-10 11:11:43",
+            "other_asset_details": null,
+            "Asset_Parts": [
+              {
+                "asset_id": 6,
+                "part_id": 2
+              }
+            ],
+            "Fault_Log": [
+              {
+                "fault_log_entry_id": 3,
+                "asset_id": 6,
+                "recorded_by_staff_id": 9,
+                "fault_log_entry_datetime": "2018-02-24 09:28:20",
+                "fault_description": "system error",
+                "other_fault_details": null,
+                "Engineer_Visits": [
+                  {
+                    "engineer_visit_id": 11,
+                    "contact_staff_id": 9,
+                    "engineer_id": 6,
+                    "fault_log_entry_id": 3,
+                    "fault_status": "Fixed",
+                    "visit_start_datetime": "1975-04-06 11:09:23",
+                    "visit_end_datetime": "2000-01-27 09:33:10",
+                    "other_visit_details": null
+                  }
+                ],
+                "Fault_Log_Parts": [
+                  {
+                    "fault_log_entry_id": 3,
+                    "part_fault_id": 8,
+                    "fault_status": "Return"
+                  },
+                  {
+                    "fault_log_entry_id": 3,
+                    "part_fault_id": 11,
+                    "fault_status": "Fixed"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Assets": [
+      {
+        "asset_id": 13,
+        "maintenance_contract_id": 11,
+        "supplier_company_id": 8,
+        "asset_details": "system1",
+        "asset_make": "DE",
+        "asset_model": "08 yy",
+        "asset_acquired_date": "2017-12-20 14:05:17",
+        "asset_disposed_date": "2018-03-07 20:35:19",
+        "other_asset_details": "Bad condition",
+        "Asset_Parts": [],
+        "Fault_Log": []
+      }
+    ],
+    "Maintenance_Engineers": []
+  },
+  {
+    "company_id": 9,
+    "company_type": "Maintenance Contractor",
+    "company_name": "Wisoky, Toy and Bashirian",
+    "company_address": "605 D'Amore Oval",
+    "other_company_details": "Iran",
+    "Maintenance_Contracts": [
+      {
+        "maintenance_contract_id": 2,
+        "maintenance_contract_company_id": 9,
+        "contract_start_date": "2017-12-18 11:43:16",
+        "contract_end_date": "2018-03-22 06:00:37",
+        "other_contract_details": null,
+        "Assets": [
+          {
+            "asset_id": 1,
+            "maintenance_contract_id": 2,
+            "supplier_company_id": 2,
+            "asset_details": "dell laptop1",
+            "asset_make": "PT",
+            "asset_model": "58 ub",
+            "asset_acquired_date": "2017-12-25 00:31:27",
+            "asset_disposed_date": "2018-03-14 10:50:00",
+            "other_asset_details": null,
+            "Asset_Parts": [
+              {
+                "asset_id": 1,
+                "part_id": 2
+              },
+              {
+                "asset_id": 1,
+                "part_id": 3
+              }
+            ],
+            "Fault_Log": []
+          },
+          {
+            "asset_id": 10,
+            "maintenance_contract_id": 2,
+            "supplier_company_id": 2,
+            "asset_details": "machine2",
+            "asset_make": "FR",
+            "asset_model": "20 tl",
+            "asset_acquired_date": "2017-09-19 16:15:45",
+            "asset_disposed_date": "2018-03-06 20:36:14",
+            "other_asset_details": null,
+            "Asset_Parts": [
+              {
+                "asset_id": 10,
+                "part_id": 1
+              }
+            ],
+            "Fault_Log": []
+          }
+        ]
+      }
+    ],
+    "Assets": [],
+    "Maintenance_Engineers": [
+      {
+        "engineer_id": 8,
+        "company_id": 9,
+        "first_name": "Nellie",
+        "last_name": "Hirthe",
+        "other_details": null,
+        "Engineer_Skills": [
+          {
+            "engineer_id": 8,
+            "skill_id": 3
+          },
+          {
+            "engineer_id": 8,
+            "skill_id": 1
+          }
+        ],
+        "Engineer_Visits": [
+          {
+            "engineer_visit_id": 1,
+            "contact_staff_id": 8,
+            "engineer_id": 8,
+            "fault_log_entry_id": 13,
+            "fault_status": "Waiting",
+            "visit_start_datetime": "1978-10-12 23:14:40",
+            "visit_end_datetime": "1988-01-07 06:41:51",
+            "other_visit_details": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "company_id": 10,
+    "company_type": "Maintenance Contractor",
+    "company_name": "White Ltd",
+    "company_address": "680 Hammes Ways",
+    "other_company_details": "Niue",
+    "Maintenance_Contracts": [
+      {
+        "maintenance_contract_id": 14,
+        "maintenance_contract_company_id": 10,
+        "contract_start_date": "2017-09-19 17:57:17",
+        "contract_end_date": "2018-03-15 06:45:00",
+        "other_contract_details": null,
+        "Assets": [
+          {
+            "asset_id": 2,
+            "maintenance_contract_id": 14,
+            "supplier_company_id": 1,
+            "asset_details": "dell laptop2",
+            "asset_make": "IN",
+            "asset_model": "35 xt",
+            "asset_acquired_date": "2018-01-27 00:59:46",
+            "asset_disposed_date": "2018-03-20 04:24:09",
+            "other_asset_details": null,
+            "Asset_Parts": [
+              {
+                "asset_id": 2,
+                "part_id": 3
+              },
+              {
+                "asset_id": 2,
+                "part_id": 2
+              }
+            ],
+            "Fault_Log": [
+              {
+                "fault_log_entry_id": 10,
+                "asset_id": 2,
+                "recorded_by_staff_id": 9,
+                "fault_log_entry_datetime": "2018-03-03 10:41:52",
+                "fault_description": "failed parts",
+                "other_fault_details": null,
+                "Engineer_Visits": [
+                  {
+                    "engineer_visit_id": 15,
+                    "contact_staff_id": 4,
+                    "engineer_id": 11,
+                    "fault_log_entry_id": 10,
+                    "fault_status": "Reported",
+                    "visit_start_datetime": "1970-07-19 19:21:32",
+                    "visit_end_datetime": "2007-11-12 04:24:01",
+                    "other_visit_details": null
+                  }
+                ],
+                "Fault_Log_Parts": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Assets": [],
+    "Maintenance_Engineers": [
+      {
+        "engineer_id": 12,
+        "company_id": 10,
+        "first_name": "Alexys",
+        "last_name": "Simonis",
+        "other_details": null,
+        "Engineer_Skills": [
+          {
+            "engineer_id": 12,
+            "skill_id": 2
+          }
+        ],
+        "Engineer_Visits": [
+          {
+            "engineer_visit_id": 4,
+            "contact_staff_id": 12,
+            "engineer_id": 12,
+            "fault_log_entry_id": 13,
+            "fault_status": "Fixed",
+            "visit_start_datetime": "1996-11-07 05:31:35",
+            "visit_end_datetime": "1973-09-12 07:06:54",
+            "other_visit_details": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "company_id": 11,
+    "company_type": "Maintenance Contractor",
+    "company_name": "Kuvalis, Boehm and Hettinger",
+    "company_address": "99335 Cummings Square Apt. 723",
+    "other_company_details": "Somalia",
+    "Maintenance_Contracts": [
+      {
+        "maintenance_contract_id": 3,
+        "maintenance_contract_company_id": 11,
+        "contract_start_date": "2017-05-06 02:32:19",
+        "contract_end_date": "2018-03-20 14:02:54",
+        "other_contract_details": null,
+        "Assets": []
+      }
+    ],
+    "Assets": [
+      {
+        "asset_id": 15,
+        "maintenance_contract_id": 6,
+        "supplier_company_id": 11,
+        "asset_details": "system3",
+        "asset_make": "IE",
+        "asset_model": "24 ak",
+        "asset_acquired_date": "2017-12-18 19:21:11",
+        "asset_disposed_date": "2018-02-27 02:37:16",
+        "other_asset_details": null,
+        "Asset_Parts": [
+          {
+            "asset_id": 15,
+            "part_id": 3
+          },
+          {
+            "asset_id": 15,
+            "part_id": 2
+          }
+        ],
+        "Fault_Log": [
+          {
+            "fault_log_entry_id": 11,
+            "asset_id": 15,
+            "recorded_by_staff_id": 12,
+            "fault_log_entry_datetime": "2018-03-21 15:02:17",
+            "fault_description": "failed parts",
+            "other_fault_details": null,
+            "Engineer_Visits": [
+              {
+                "engineer_visit_id": 6,
+                "contact_staff_id": 4,
+                "engineer_id": 15,
+                "fault_log_entry_id": 11,
+                "fault_status": "Fixed",
+                "visit_start_datetime": "1984-07-14 22:47:51",
+                "visit_end_datetime": "2010-07-05 18:36:22",
+                "other_visit_details": null
+              }
+            ],
+            "Fault_Log_Parts": [
+              {
+                "fault_log_entry_id": 11,
+                "part_fault_id": 2,
+                "fault_status": "Reported"
+              },
+              {
+                "fault_log_entry_id": 11,
+                "part_fault_id": 8,
+                "fault_status": "Reported"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Maintenance_Engineers": [
+      {
+        "engineer_id": 7,
+        "company_id": 11,
+        "first_name": "Josie",
+        "last_name": "Harvey",
+        "other_details": "Skilled",
+        "Engineer_Skills": [
+          {
+            "engineer_id": 7,
+            "skill_id": 3
+          }
+        ],
+        "Engineer_Visits": []
+      },
+      {
+        "engineer_id": 14,
+        "company_id": 11,
+        "first_name": "Jules",
+        "last_name": "Goldner",
+        "other_details": null,
+        "Engineer_Skills": [],
+        "Engineer_Visits": []
+      }
+    ]
+  },
+  {
+    "company_id": 12,
+    "company_type": "Maintenance Contractor",
+    "company_name": "Dicki, Erdman and Kris",
+    "company_address": "60743 Dion Harbors Suite 825",
+    "other_company_details": "Western Sahara",
+    "Maintenance_Contracts": [],
+    "Assets": [
+      {
+        "asset_id": 11,
+        "maintenance_contract_id": 7,
+        "supplier_company_id": 12,
+        "asset_details": "machine3",
+        "asset_make": "FR",
+        "asset_model": "11 wi",
+        "asset_acquired_date": "2017-11-25 05:04:20",
+        "asset_disposed_date": "2018-03-17 00:51:14",
+        "other_asset_details": null,
+        "Asset_Parts": [],
+        "Fault_Log": []
+      }
+    ],
+    "Maintenance_Engineers": []
+  },
+  {
+    "company_id": 13,
+    "company_type": "Supplier",
+    "company_name": "Greenholt-D'Amore",
+    "company_address": "1755 Schaefer Road",
+    "other_company_details": "Slovenia",
+    "Maintenance_Contracts": [
+      {
+        "maintenance_contract_id": 4,
+        "maintenance_contract_company_id": 13,
+        "contract_start_date": "2018-01-24 00:06:30",
+        "contract_end_date": "2018-03-02 16:12:23",
+        "other_contract_details": null,
+        "Assets": []
+      },
+      {
+        "maintenance_contract_id": 7,
+        "maintenance_contract_company_id": 13,
+        "contract_start_date": "2017-09-01 05:34:02",
+        "contract_end_date": "2018-02-27 05:03:22",
+        "other_contract_details": null,
+        "Assets": [
+          {
+            "asset_id": 3,
+            "maintenance_contract_id": 7,
+            "supplier_company_id": 2,
+            "asset_details": "dell laptop3",
+            "asset_make": "IT",
+            "asset_model": "63 ok",
+            "asset_acquired_date": "2017-09-07 08:13:15",
+            "asset_disposed_date": "2018-03-08 20:50:40",
+            "other_asset_details": "Bad condition",
+            "Asset_Parts": [
+              {
+                "asset_id": 3,
+                "part_id": 3
+              },
+              {
+                "asset_id": 3,
+                "part_id": 1
+              },
+              {
+                "asset_id": 3,
+                "part_id": 2
+              },
+              {
+                "asset_id": 3,
+                "part_id": 3
+              }
+            ],
+            "Fault_Log": [
+              {
+                "fault_log_entry_id": 1,
+                "asset_id": 3,
+                "recorded_by_staff_id": 14,
+                "fault_log_entry_datetime": "2018-03-21 04:25:00",
+                "fault_description": "system error",
+                "other_fault_details": null,
+                "Engineer_Visits": [],
+                "Fault_Log_Parts": [
+                  {
+                    "fault_log_entry_id": 1,
+                    "part_fault_id": 9,
+                    "fault_status": "Return"
+                  },
+                  {
+                    "fault_log_entry_id": 1,
+                    "part_fault_id": 14,
+                    "fault_status": "Fixed"
+                  },
+                  {
+                    "fault_log_entry_id": 1,
+                    "part_fault_id": 10,
+                    "fault_status": "Fixed"
+                  }
+                ]
+              },
+              {
+                "fault_log_entry_id": 9,
+                "asset_id": 3,
+                "recorded_by_staff_id": 5,
+                "fault_log_entry_datetime": "2018-03-06 15:52:54",
+                "fault_description": "system error",
+                "other_fault_details": null,
+                "Engineer_Visits": [],
+                "Fault_Log_Parts": []
+              },
+              {
+                "fault_log_entry_id": 13,
+                "asset_id": 3,
+                "recorded_by_staff_id": 13,
+                "fault_log_entry_datetime": "2018-03-11 14:00:39",
+                "fault_description": "system error",
+                "other_fault_details": null,
+                "Engineer_Visits": [
+                  {
+                    "engineer_visit_id": 1,
+                    "contact_staff_id": 8,
+                    "engineer_id": 8,
+                    "fault_log_entry_id": 13,
+                    "fault_status": "Waiting",
+                    "visit_start_datetime": "1978-10-12 23:14:40",
+                    "visit_end_datetime": "1988-01-07 06:41:51",
+                    "other_visit_details": null
+                  },
+                  {
+                    "engineer_visit_id": 2,
+                    "contact_staff_id": 7,
+                    "engineer_id": 15,
+                    "fault_log_entry_id": 13,
+                    "fault_status": "Return",
+                    "visit_start_datetime": "1980-05-02 23:31:18",
+                    "visit_end_datetime": "1990-08-30 22:44:16",
+                    "other_visit_details": null
+                  },
+                  {
+                    "engineer_visit_id": 4,
+                    "contact_staff_id": 12,
+                    "engineer_id": 12,
+                    "fault_log_entry_id": 13,
+                    "fault_status": "Fixed",
+                    "visit_start_datetime": "1996-11-07 05:31:35",
+                    "visit_end_datetime": "1973-09-12 07:06:54",
+                    "other_visit_details": null
+                  },
+                  {
+                    "engineer_visit_id": 12,
+                    "contact_staff_id": 2,
+                    "engineer_id": 1,
+                    "fault_log_entry_id": 13,
+                    "fault_status": "Return",
+                    "visit_start_datetime": "2006-03-31 20:03:10",
+                    "visit_end_datetime": "2013-09-29 20:50:24",
+                    "other_visit_details": null
+                  },
+                  {
+                    "engineer_visit_id": 14,
+                    "contact_staff_id": 9,
+                    "engineer_id": 4,
+                    "fault_log_entry_id": 13,
+                    "fault_status": "Return",
+                    "visit_start_datetime": "1997-06-23 17:45:21",
+                    "visit_end_datetime": "1980-12-19 08:30:46",
+                    "other_visit_details": null
+                  }
+                ],
+                "Fault_Log_Parts": [
+                  {
+                    "fault_log_entry_id": 13,
+                    "part_fault_id": 15,
+                    "fault_status": "Fixed"
+                  },
+                  {
+                    "fault_log_entry_id": 13,
+                    "part_fault_id": 1,
+                    "fault_status": "Fixed"
+                  }
+                ]
+              },
+              {
+                "fault_log_entry_id": 14,
+                "asset_id": 3,
+                "recorded_by_staff_id": 11,
+                "fault_log_entry_datetime": "2018-02-27 11:34:20",
+                "fault_description": "failed parts",
+                "other_fault_details": null,
+                "Engineer_Visits": [
+                  {
+                    "engineer_visit_id": 7,
+                    "contact_staff_id": 7,
+                    "engineer_id": 15,
+                    "fault_log_entry_id": 14,
+                    "fault_status": "Reported",
+                    "visit_start_datetime": "1996-07-06 23:59:49",
+                    "visit_end_datetime": "2012-11-27 06:26:01",
+                    "other_visit_details": null
+                  }
+                ],
+                "Fault_Log_Parts": [
+                  {
+                    "fault_log_entry_id": 14,
+                    "part_fault_id": 8,
+                    "fault_status": "Waiting"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "asset_id": 11,
+            "maintenance_contract_id": 7,
+            "supplier_company_id": 12,
+            "asset_details": "machine3",
+            "asset_make": "FR",
+            "asset_model": "11 wi",
+            "asset_acquired_date": "2017-11-25 05:04:20",
+            "asset_disposed_date": "2018-03-17 00:51:14",
+            "other_asset_details": null,
+            "Asset_Parts": [],
+            "Fault_Log": []
+          }
+        ]
+      }
+    ],
+    "Assets": [
+      {
+        "asset_id": 9,
+        "maintenance_contract_id": 12,
+        "supplier_company_id": 13,
+        "asset_details": "machine1",
+        "asset_make": "RU",
+        "asset_model": "07 yt",
+        "asset_acquired_date": "2017-04-16 12:19:25",
+        "asset_disposed_date": "2018-03-08 18:42:41",
+        "other_asset_details": null,
+        "Asset_Parts": [],
+        "Fault_Log": [
+          {
+            "fault_log_entry_id": 5,
+            "asset_id": 9,
+            "recorded_by_staff_id": 11,
+            "fault_log_entry_datetime": "2018-03-02 03:14:46",
+            "fault_description": "system error",
+            "other_fault_details": null,
+            "Engineer_Visits": [],
+            "Fault_Log_Parts": []
+          }
+        ]
+      }
+    ],
+    "Maintenance_Engineers": []
+  },
+  {
+    "company_id": 14,
+    "company_type": "Supplier",
+    "company_name": "Purdy Inc",
+    "company_address": "846 Casper Route",
+    "other_company_details": "Saint Helena",
+    "Maintenance_Contracts": [
+      {
+        "maintenance_contract_id": 13,
+        "maintenance_contract_company_id": 14,
+        "contract_start_date": "2017-07-23 05:07:37",
+        "contract_end_date": "2018-03-05 21:24:36",
+        "other_contract_details": null,
+        "Assets": [
+          {
+            "asset_id": 12,
+            "maintenance_contract_id": 13,
+            "supplier_company_id": 14,
+            "asset_details": "machine4",
+            "asset_make": "RU",
+            "asset_model": "95 vn",
+            "asset_acquired_date": "2017-09-26 14:05:46",
+            "asset_disposed_date": "2018-02-27 23:12:03",
+            "other_asset_details": "Bad condition",
+            "Asset_Parts": [],
+            "Fault_Log": [
+              {
+                "fault_log_entry_id": 8,
+                "asset_id": 12,
+                "recorded_by_staff_id": 10,
+                "fault_log_entry_datetime": "2018-03-19 04:24:18",
+                "fault_description": "failed parts",
+                "other_fault_details": null,
+                "Engineer_Visits": [
+                  {
+                    "engineer_visit_id": 13,
+                    "contact_staff_id": 4,
+                    "engineer_id": 10,
+                    "fault_log_entry_id": 8,
+                    "fault_status": "Fixed",
+                    "visit_start_datetime": "2015-07-05 21:37:55",
+                    "visit_end_datetime": "1988-10-20 12:02:00",
+                    "other_visit_details": null
+                  }
+                ],
+                "Fault_Log_Parts": []
+              },
+              {
+                "fault_log_entry_id": 15,
+                "asset_id": 12,
+                "recorded_by_staff_id": 13,
+                "fault_log_entry_datetime": "2018-03-01 08:52:58",
+                "fault_description": "system error",
+                "other_fault_details": null,
+                "Engineer_Visits": [],
+                "Fault_Log_Parts": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Assets": [
+      {
+        "asset_id": 12,
+        "maintenance_contract_id": 13,
+        "supplier_company_id": 14,
+        "asset_details": "machine4",
+        "asset_make": "RU",
+        "asset_model": "95 vn",
+        "asset_acquired_date": "2017-09-26 14:05:46",
+        "asset_disposed_date": "2018-02-27 23:12:03",
+        "other_asset_details": "Bad condition",
+        "Asset_Parts": [],
+        "Fault_Log": [
+          {
+            "fault_log_entry_id": 8,
+            "asset_id": 12,
+            "recorded_by_staff_id": 10,
+            "fault_log_entry_datetime": "2018-03-19 04:24:18",
+            "fault_description": "failed parts",
+            "other_fault_details": null,
+            "Engineer_Visits": [
+              {
+                "engineer_visit_id": 13,
+                "contact_staff_id": 4,
+                "engineer_id": 10,
+                "fault_log_entry_id": 8,
+                "fault_status": "Fixed",
+                "visit_start_datetime": "2015-07-05 21:37:55",
+                "visit_end_datetime": "1988-10-20 12:02:00",
+                "other_visit_details": null
+              }
+            ],
+            "Fault_Log_Parts": []
+          },
+          {
+            "fault_log_entry_id": 15,
+            "asset_id": 12,
+            "recorded_by_staff_id": 13,
+            "fault_log_entry_datetime": "2018-03-01 08:52:58",
+            "fault_description": "system error",
+            "other_fault_details": null,
+            "Engineer_Visits": [],
+            "Fault_Log_Parts": []
+          }
+        ]
+      }
+    ],
+    "Maintenance_Engineers": [
+      {
+        "engineer_id": 1,
+        "company_id": 14,
+        "first_name": "Etha",
+        "last_name": "Reinger",
+        "other_details": "Skilled",
+        "Engineer_Skills": [],
+        "Engineer_Visits": [
+          {
+            "engineer_visit_id": 12,
+            "contact_staff_id": 2,
+            "engineer_id": 1,
+            "fault_log_entry_id": 13,
+            "fault_status": "Return",
+            "visit_start_datetime": "2006-03-31 20:03:10",
+            "visit_end_datetime": "2013-09-29 20:50:24",
+            "other_visit_details": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "company_id": 15,
+    "company_type": "Maintenance Contractor",
+    "company_name": "Rau, Ullrich and King",
+    "company_address": "5147 Raul Burg Apt. 623",
+    "other_company_details": "Armenia",
+    "Maintenance_Contracts": [
+      {
+        "maintenance_contract_id": 1,
+        "maintenance_contract_company_id": 15,
+        "contract_start_date": "2017-09-13 11:51:29",
+        "contract_end_date": "2018-03-16 21:21:50",
+        "other_contract_details": null,
+        "Assets": []
+      },
+      {
+        "maintenance_contract_id": 11,
+        "maintenance_contract_company_id": 15,
+        "contract_start_date": "2017-05-04 13:39:18",
+        "contract_end_date": "2018-03-14 20:21:10",
+        "other_contract_details": null,
+        "Assets": [
+          {
+            "asset_id": 4,
+            "maintenance_contract_id": 11,
+            "supplier_company_id": 5,
+            "asset_details": "dell laptop4",
+            "asset_make": "RU",
+            "asset_model": "69 uv",
+            "asset_acquired_date": "2017-06-12 17:37:19",
+            "asset_disposed_date": "2018-03-16 05:46:55",
+            "other_asset_details": null,
+            "Asset_Parts": [
+              {
+                "asset_id": 4,
+                "part_id": 1
+              }
+            ],
+            "Fault_Log": []
+          },
+          {
+            "asset_id": 13,
+            "maintenance_contract_id": 11,
+            "supplier_company_id": 8,
+            "asset_details": "system1",
+            "asset_make": "DE",
+            "asset_model": "08 yy",
+            "asset_acquired_date": "2017-12-20 14:05:17",
+            "asset_disposed_date": "2018-03-07 20:35:19",
+            "other_asset_details": "Bad condition",
+            "Asset_Parts": [],
+            "Fault_Log": []
+          }
+        ]
+      }
+    ],
+    "Assets": [],
+    "Maintenance_Engineers": [
+      {
+        "engineer_id": 5,
+        "company_id": 15,
+        "first_name": "Manley",
+        "last_name": "Grady",
+        "other_details": null,
+        "Engineer_Skills": [
+          {
+            "engineer_id": 5,
+            "skill_id": 2
+          },
+          {
+            "engineer_id": 5,
+            "skill_id": 1
+          }
+        ],
+        "Engineer_Visits": []
+      }
+    ]
+  }
+]

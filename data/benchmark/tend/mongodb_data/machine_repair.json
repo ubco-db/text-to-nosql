@@ -1,0 +1,393 @@
+{
+    "machine": [
+        {
+            "Machine_ID": 1,
+            "Making_Year": 1991,
+            "Class": "125cc",
+            "Team": "Hero Sports TS- Honda",
+            "Machine_series": "RS125",
+            "value_points": 105.0,
+            "quality_rank": 2,
+            "repair_assignment": [
+                {
+                    "technician_id": 1,
+                    "repair_ID": 1,
+                    "Machine_ID": 1
+                }
+            ]
+        },
+        {
+            "Machine_ID": 2,
+            "Making_Year": 1992,
+            "Class": "125cc",
+            "Team": "Marlboro Pileri - Honda",
+            "Machine_series": "RS125",
+            "value_points": 57.0,
+            "quality_rank": 1,
+            "repair_assignment": [
+                {
+                    "technician_id": 2,
+                    "repair_ID": 2,
+                    "Machine_ID": 2
+                },
+                {
+                    "technician_id": 5,
+                    "repair_ID": 5,
+                    "Machine_ID": 2
+                }
+            ]
+        },
+        {
+            "Machine_ID": 3,
+            "Making_Year": 1993,
+            "Class": "125cc",
+            "Team": "Marlboro Pileri - Honda",
+            "Machine_series": "RS125",
+            "value_points": 129.0,
+            "quality_rank": 4,
+            "repair_assignment": [
+                {
+                    "technician_id": 3,
+                    "repair_ID": 3,
+                    "Machine_ID": 3
+                },
+                {
+                    "technician_id": 1,
+                    "repair_ID": 2,
+                    "Machine_ID": 3
+                }
+            ]
+        },
+        {
+            "Machine_ID": 4,
+            "Making_Year": 1994,
+            "Class": "125cc",
+            "Team": "Givi Racing- Honda",
+            "Machine_series": "RS125",
+            "value_points": 194.0,
+            "quality_rank": 5,
+            "repair_assignment": [
+                {
+                    "technician_id": 7,
+                    "repair_ID": 2,
+                    "Machine_ID": 4
+                }
+            ]
+        },
+        {
+            "Machine_ID": 5,
+            "Making_Year": 1995,
+            "Class": "125cc",
+            "Team": "Givi Racing- Honda",
+            "Machine_series": "RS125",
+            "value_points": 65.0,
+            "quality_rank": 3,
+            "repair_assignment": []
+        },
+        {
+            "Machine_ID": 6,
+            "Making_Year": 1996,
+            "Class": "125cc",
+            "Team": "Honda",
+            "Machine_series": "RS125",
+            "value_points": 126.0,
+            "quality_rank": 7,
+            "repair_assignment": [
+                {
+                    "technician_id": 1,
+                    "repair_ID": 5,
+                    "Machine_ID": 6
+                }
+            ]
+        },
+        {
+            "Machine_ID": 7,
+            "Making_Year": 1997,
+            "Class": "125cc",
+            "Team": "Honda",
+            "Machine_series": "RS125",
+            "value_points": 238.0,
+            "quality_rank": 8,
+            "repair_assignment": [
+                {
+                    "technician_id": 1,
+                    "repair_ID": 4,
+                    "Machine_ID": 7
+                },
+                {
+                    "technician_id": 1,
+                    "repair_ID": 8,
+                    "Machine_ID": 7
+                }
+            ]
+        },
+        {
+            "Machine_ID": 8,
+            "Making_Year": 1998,
+            "Class": "125cc",
+            "Team": "Team Givi- Honda LCR",
+            "Machine_series": "RS125",
+            "value_points": 62.0,
+            "quality_rank": 13,
+            "repair_assignment": []
+        },
+        {
+            "Machine_ID": 9,
+            "Making_Year": 1999,
+            "Class": "125cc",
+            "Team": "Team Givi- Honda LCR",
+            "Machine_series": "RS125",
+            "value_points": 171.0,
+            "quality_rank": 11,
+            "repair_assignment": []
+        }
+    ],
+    "repair": [
+        {
+            "repair_ID": 1,
+            "name": "Discoverer",
+            "Launch_Date": "21 Jan 2009",
+            "Notes": "repair Failed. Failed to achieve orbit",
+            "repair_assignment": [
+                {
+                    "technician_id": 1,
+                    "repair_ID": 1,
+                    "Machine_ID": 1
+                }
+            ]
+        },
+        {
+            "repair_ID": 2,
+            "name": "Discoverer 1",
+            "Launch_Date": "28 Feb 2009",
+            "Notes": "First object in polar orbit",
+            "repair_assignment": [
+                {
+                    "technician_id": 2,
+                    "repair_ID": 2,
+                    "Machine_ID": 2
+                },
+                {
+                    "technician_id": 1,
+                    "repair_ID": 2,
+                    "Machine_ID": 3
+                },
+                {
+                    "technician_id": 7,
+                    "repair_ID": 2,
+                    "Machine_ID": 4
+                }
+            ]
+        },
+        {
+            "repair_ID": 3,
+            "name": "Discoverer 3",
+            "Launch_Date": "03 Jun 2009",
+            "Notes": "repair failed. Failed to achieve orbit",
+            "repair_assignment": [
+                {
+                    "technician_id": 3,
+                    "repair_ID": 3,
+                    "Machine_ID": 3
+                }
+            ]
+        },
+        {
+            "repair_ID": 4,
+            "name": "OPS 3236",
+            "Launch_Date": "13 Jun 2014",
+            "Notes": "First object in polar orbit",
+            "repair_assignment": [
+                {
+                    "technician_id": 1,
+                    "repair_ID": 4,
+                    "Machine_ID": 7
+                }
+            ]
+        },
+        {
+            "repair_ID": 5,
+            "name": "OPS 3467",
+            "Launch_Date": "24 Mar 2014",
+            "Notes": "repair failed. Guidance system failed. No orbit.",
+            "repair_assignment": [
+                {
+                    "technician_id": 1,
+                    "repair_ID": 5,
+                    "Machine_ID": 6
+                },
+                {
+                    "technician_id": 5,
+                    "repair_ID": 5,
+                    "Machine_ID": 2
+                }
+            ]
+        },
+        {
+            "repair_ID": 6,
+            "name": "OPS 3754",
+            "Launch_Date": "19 Jun 2014",
+            "Notes": "Out-of-focus area on some film.",
+            "repair_assignment": []
+        },
+        {
+            "repair_ID": 7,
+            "name": "OPS 3491",
+            "Launch_Date": "10 Jun 2014",
+            "Notes": "Cameras operated satisfactorily",
+            "repair_assignment": []
+        },
+        {
+            "repair_ID": 8,
+            "name": "OPS 3042",
+            "Launch_Date": "05 Aug 2014",
+            "Notes": "Cameras operated successfully.",
+            "repair_assignment": [
+                {
+                    "technician_id": 1,
+                    "repair_ID": 8,
+                    "Machine_ID": 7
+                }
+            ]
+        },
+        {
+            "repair_ID": 9,
+            "name": "OPS 3360",
+            "Launch_Date": "18 Nov 2014",
+            "Notes": "Cameras operated successfully.",
+            "repair_assignment": []
+        }
+    ],
+    "technician": [
+        {
+            "technician_id": 1.0,
+            "Name": "Joe Sewell",
+            "Team": "NYY",
+            "Starting_Year": 2012.0,
+            "Age": 37,
+            "repair_assignment": [
+                {
+                    "technician_id": 1,
+                    "repair_ID": 1,
+                    "Machine_ID": 1
+                },
+                {
+                    "technician_id": 1,
+                    "repair_ID": 2,
+                    "Machine_ID": 3
+                },
+                {
+                    "technician_id": 1,
+                    "repair_ID": 4,
+                    "Machine_ID": 7
+                },
+                {
+                    "technician_id": 1,
+                    "repair_ID": 5,
+                    "Machine_ID": 6
+                },
+                {
+                    "technician_id": 1,
+                    "repair_ID": 8,
+                    "Machine_ID": 7
+                }
+            ]
+        },
+        {
+            "technician_id": 2.0,
+            "Name": "John Brown",
+            "Team": "NYY",
+            "Starting_Year": 2013.0,
+            "Age": 36,
+            "repair_assignment": [
+                {
+                    "technician_id": 2,
+                    "repair_ID": 2,
+                    "Machine_ID": 2
+                }
+            ]
+        },
+        {
+            "technician_id": 3.0,
+            "Name": "Tony Sewell",
+            "Team": "CLE",
+            "Starting_Year": 2005.0,
+            "Age": 43,
+            "repair_assignment": [
+                {
+                    "technician_id": 3,
+                    "repair_ID": 3,
+                    "Machine_ID": 3
+                }
+            ]
+        },
+        {
+            "technician_id": 4.0,
+            "Name": "Mark Sewell",
+            "Team": "CLE",
+            "Starting_Year": 2009.0,
+            "Age": 28,
+            "repair_assignment": []
+        },
+        {
+            "technician_id": 5.0,
+            "Name": "Charlie Hollocher",
+            "Team": "CHC",
+            "Starting_Year": 2002.0,
+            "Age": 35,
+            "repair_assignment": [
+                {
+                    "technician_id": 5,
+                    "repair_ID": 5,
+                    "Machine_ID": 2
+                }
+            ]
+        },
+        {
+            "technician_id": 6.0,
+            "Name": "Lou Boudreau",
+            "Team": "CLE",
+            "Starting_Year": 2016.0,
+            "Age": 32,
+            "repair_assignment": []
+        },
+        {
+            "technician_id": 7.0,
+            "Name": "Eddie Collins",
+            "Team": "CWS",
+            "Starting_Year": 2005.0,
+            "Age": 45,
+            "repair_assignment": [
+                {
+                    "technician_id": 7,
+                    "repair_ID": 2,
+                    "Machine_ID": 4
+                }
+            ]
+        },
+        {
+            "technician_id": 8.0,
+            "Name": "Joe Cochrane",
+            "Team": "CLE",
+            "Starting_Year": 2006.0,
+            "Age": 46,
+            "repair_assignment": []
+        },
+        {
+            "technician_id": 9.0,
+            "Name": "Eddie Collins",
+            "Team": "CWS",
+            "Starting_Year": 2003.0,
+            "Age": 47,
+            "repair_assignment": []
+        },
+        {
+            "technician_id": 10.0,
+            "Name": "Mickey Cochrane",
+            "Team": "PHA",
+            "Starting_Year": 2009.0,
+            "Age": 38,
+            "repair_assignment": []
+        }
+    ]
+}

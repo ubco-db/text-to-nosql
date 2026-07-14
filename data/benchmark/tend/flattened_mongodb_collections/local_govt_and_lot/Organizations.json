@@ -1,0 +1,814 @@
+[
+  {
+    "organization_id": 7,
+    "parent_organization_id": 7,
+    "organization_details": "Reinger, Hudson and Nolan Group",
+    "Services": [
+      {
+        "service_id": 11,
+        "organization_id": 7,
+        "service_type_code": "Check",
+        "service_details": "Satisfied",
+        "Residents_Services": [
+          {
+            "resident_id": 28,
+            "service_id": 11,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 629,
+            "date_requested": "2017-07-14 19:03:47",
+            "date_provided": "2017-08-28 03:43:56",
+            "other_details": "Unsatisfied"
+          },
+          {
+            "resident_id": 88,
+            "service_id": 11,
+            "date_moved_in": "2016-09-27 12:00:00",
+            "property_id": 107,
+            "date_requested": "2016-06-18 20:09:24",
+            "date_provided": "2017-08-08 11:24:50",
+            "other_details": "Unsatisfied"
+          }
+        ]
+      },
+      {
+        "service_id": 31,
+        "organization_id": 7,
+        "service_type_code": "Pay bills",
+        "service_details": "Satisfied",
+        "Residents_Services": []
+      },
+      {
+        "service_id": 77,
+        "organization_id": 7,
+        "service_type_code": "Pay bills",
+        "service_details": "Unsatisfied",
+        "Residents_Services": []
+      }
+    ],
+    "Things": [
+      {
+        "thing_id": 35,
+        "organization_id": 7,
+        "Type_of_Thing_Code": "Electronics",
+        "service_type_code": "Cleanning",
+        "service_details": "Satisfied",
+        "Customer_Events": [],
+        "Timed_Status_of_Things": [
+          {
+            "thing_id": 35,
+            "Date_and_Date": "2017-11-27 06:32:46",
+            "Status_of_Thing_Code": "In Progress"
+          }
+        ],
+        "Timed_Locations_of_Things": []
+      },
+      {
+        "thing_id": 92,
+        "organization_id": 7,
+        "Type_of_Thing_Code": "Commen",
+        "service_type_code": "Check",
+        "service_details": "Unsatisfied",
+        "Customer_Events": [
+          {
+            "Customer_Event_ID": 627,
+            "customer_id": 91,
+            "date_moved_in": "2016-09-27 12:00:00",
+            "property_id": 748,
+            "resident_id": 87,
+            "thing_id": 92,
+            "Customer_Event_Notes": [
+              {
+                "Customer_Event_Note_ID": 46,
+                "Customer_Event_ID": 627,
+                "service_type_code": "Cleanning",
+                "resident_id": 87,
+                "property_id": 373,
+                "date_moved_in": "2016-05-24 02:56:54"
+              }
+            ]
+          }
+        ],
+        "Timed_Status_of_Things": [
+          {
+            "thing_id": 92,
+            "Date_and_Date": "2016-11-24 12:44:00",
+            "Status_of_Thing_Code": "In Progress"
+          },
+          {
+            "thing_id": 92,
+            "Date_and_Date": "2017-09-27 01:35:51",
+            "Status_of_Thing_Code": "Close"
+          }
+        ],
+        "Timed_Locations_of_Things": [
+          {
+            "thing_id": 92,
+            "Date_and_Time": "2017-03-19 13:57:49",
+            "Location_Code": "113 Geo Glens A"
+          },
+          {
+            "thing_id": 92,
+            "Date_and_Time": "2017-10-21 21:35:37",
+            "Location_Code": "9569 Tanner Inl"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "organization_id": 8,
+    "parent_organization_id": 7,
+    "organization_details": "Denesik and Sons Party",
+    "Services": [
+      {
+        "service_id": 13,
+        "organization_id": 8,
+        "service_type_code": "Moving Out",
+        "service_details": "Satisfied",
+        "Residents_Services": []
+      },
+      {
+        "service_id": 29,
+        "organization_id": 8,
+        "service_type_code": "Moving Out",
+        "service_details": "Satisfied",
+        "Residents_Services": [
+          {
+            "resident_id": 87,
+            "service_id": 29,
+            "date_moved_in": "2016-09-27 12:00:00",
+            "property_id": 748,
+            "date_requested": "2016-10-13 04:15:54",
+            "date_provided": "2017-10-29 13:12:29",
+            "other_details": "Unsatisfied"
+          }
+        ]
+      },
+      {
+        "service_id": 36,
+        "organization_id": 8,
+        "service_type_code": "Check",
+        "service_details": "Satisfied",
+        "Residents_Services": [
+          {
+            "resident_id": 90,
+            "service_id": 36,
+            "date_moved_in": "2016-09-27 12:00:00",
+            "property_id": 373,
+            "date_requested": "2016-04-13 05:09:24",
+            "date_provided": "2017-10-28 12:36:43",
+            "other_details": "Unsatisfied"
+          }
+        ]
+      },
+      {
+        "service_id": 47,
+        "organization_id": 8,
+        "service_type_code": "Pay bills",
+        "service_details": "Unsatisfied",
+        "Residents_Services": []
+      },
+      {
+        "service_id": 49,
+        "organization_id": 8,
+        "service_type_code": "Moving Out",
+        "service_details": "Satisfied",
+        "Residents_Services": [
+          {
+            "resident_id": 6,
+            "service_id": 49,
+            "date_moved_in": "2017-06-17 15:43:33",
+            "property_id": 954,
+            "date_requested": "2016-07-25 01:32:23",
+            "date_provided": "2018-02-26 00:27:11",
+            "other_details": "Satisfied"
+          },
+          {
+            "resident_id": 45,
+            "service_id": 49,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 954,
+            "date_requested": "2017-06-14 14:04:50",
+            "date_provided": "2017-08-14 08:06:43",
+            "other_details": "Unsatisfied"
+          }
+        ]
+      },
+      {
+        "service_id": 52,
+        "organization_id": 8,
+        "service_type_code": "Pay bills",
+        "service_details": "Unsatisfied",
+        "Residents_Services": []
+      },
+      {
+        "service_id": 65,
+        "organization_id": 8,
+        "service_type_code": "Cleanning",
+        "service_details": "Unsatisfied",
+        "Residents_Services": [
+          {
+            "resident_id": 47,
+            "service_id": 65,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 669,
+            "date_requested": "2016-12-16 06:08:10",
+            "date_provided": "2018-01-30 09:58:57",
+            "other_details": "Unsatisfied"
+          },
+          {
+            "resident_id": 83,
+            "service_id": 65,
+            "date_moved_in": "2016-09-27 12:00:00",
+            "property_id": 445,
+            "date_requested": "2016-11-27 15:37:02",
+            "date_provided": "2017-09-10 00:48:58",
+            "other_details": "Unsatisfied"
+          }
+        ]
+      },
+      {
+        "service_id": 66,
+        "organization_id": 8,
+        "service_type_code": "Pay bills",
+        "service_details": "Unsatisfied",
+        "Residents_Services": []
+      },
+      {
+        "service_id": 87,
+        "organization_id": 8,
+        "service_type_code": "Pay bills",
+        "service_details": "Unsatisfied",
+        "Residents_Services": [
+          {
+            "resident_id": 67,
+            "service_id": 87,
+            "date_moved_in": "2016-09-27 12:00:00",
+            "property_id": 120,
+            "date_requested": "2016-04-27 14:51:07",
+            "date_provided": "2017-11-13 10:28:34",
+            "other_details": "Unsatisfied"
+          }
+        ]
+      }
+    ],
+    "Things": [
+      {
+        "thing_id": 1,
+        "organization_id": 8,
+        "Type_of_Thing_Code": "Electronics",
+        "service_type_code": "Check",
+        "service_details": "Unsatisfied",
+        "Customer_Events": [
+          {
+            "Customer_Event_ID": 70,
+            "customer_id": 19,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 605,
+            "resident_id": 10,
+            "thing_id": 1,
+            "Customer_Event_Notes": [
+              {
+                "Customer_Event_Note_ID": 18,
+                "Customer_Event_ID": 70,
+                "service_type_code": "Cleanning",
+                "resident_id": 58,
+                "property_id": 107,
+                "date_moved_in": "2016-08-04 01:06:05"
+              },
+              {
+                "Customer_Event_Note_ID": 32,
+                "Customer_Event_ID": 70,
+                "service_type_code": "Check",
+                "resident_id": 37,
+                "property_id": 669,
+                "date_moved_in": "2016-07-10 04:09:56"
+              },
+              {
+                "Customer_Event_Note_ID": 75,
+                "Customer_Event_ID": 70,
+                "service_type_code": "Check",
+                "resident_id": 43,
+                "property_id": 120,
+                "date_moved_in": "2016-10-28 01:43:42"
+              }
+            ]
+          },
+          {
+            "Customer_Event_ID": 559,
+            "customer_id": 19,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 107,
+            "resident_id": 58,
+            "thing_id": 1,
+            "Customer_Event_Notes": [
+              {
+                "Customer_Event_Note_ID": 49,
+                "Customer_Event_ID": 559,
+                "service_type_code": "Check",
+                "resident_id": 45,
+                "property_id": 849,
+                "date_moved_in": "2016-08-08 07:58:26"
+              }
+            ]
+          }
+        ],
+        "Timed_Status_of_Things": [],
+        "Timed_Locations_of_Things": []
+      },
+      {
+        "thing_id": 2,
+        "organization_id": 8,
+        "Type_of_Thing_Code": "Electronics",
+        "service_type_code": "Cleanning",
+        "service_details": "Satisfied",
+        "Customer_Events": [
+          {
+            "Customer_Event_ID": 256,
+            "customer_id": 79,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 108,
+            "resident_id": 43,
+            "thing_id": 2,
+            "Customer_Event_Notes": []
+          }
+        ],
+        "Timed_Status_of_Things": [
+          {
+            "thing_id": 2,
+            "Date_and_Date": "2016-05-27 23:33:34",
+            "Status_of_Thing_Code": "Open"
+          },
+          {
+            "thing_id": 2,
+            "Date_and_Date": "2016-07-17 08:35:27",
+            "Status_of_Thing_Code": "Close"
+          },
+          {
+            "thing_id": 2,
+            "Date_and_Date": "2017-06-19 02:59:21",
+            "Status_of_Thing_Code": "In Progress"
+          }
+        ],
+        "Timed_Locations_of_Things": [
+          {
+            "thing_id": 2,
+            "Date_and_Time": "2016-10-12 12:03:07",
+            "Location_Code": "064 Charles Mou"
+          }
+        ]
+      },
+      {
+        "thing_id": 10,
+        "organization_id": 8,
+        "Type_of_Thing_Code": "Commen",
+        "service_type_code": "Check",
+        "service_details": "Satisfied",
+        "Customer_Events": [
+          {
+            "Customer_Event_ID": 530,
+            "customer_id": 4,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 669,
+            "resident_id": 47,
+            "thing_id": 10,
+            "Customer_Event_Notes": []
+          },
+          {
+            "Customer_Event_ID": 591,
+            "customer_id": 91,
+            "date_moved_in": "2016-09-27 12:00:00",
+            "property_id": 120,
+            "resident_id": 67,
+            "thing_id": 10,
+            "Customer_Event_Notes": [
+              {
+                "Customer_Event_Note_ID": 59,
+                "Customer_Event_ID": 591,
+                "service_type_code": "Cleanning",
+                "resident_id": 28,
+                "property_id": 605,
+                "date_moved_in": "2016-05-14 15:58:33"
+              },
+              {
+                "Customer_Event_Note_ID": 65,
+                "Customer_Event_ID": 591,
+                "service_type_code": "Cleanning",
+                "resident_id": 28,
+                "property_id": 879,
+                "date_moved_in": "2017-04-12 19:47:08"
+              }
+            ]
+          },
+          {
+            "Customer_Event_ID": 817,
+            "customer_id": 19,
+            "date_moved_in": "2016-09-27 12:00:00",
+            "property_id": 107,
+            "resident_id": 88,
+            "thing_id": 10,
+            "Customer_Event_Notes": [
+              {
+                "Customer_Event_Note_ID": 55,
+                "Customer_Event_ID": 817,
+                "service_type_code": "Cleanning",
+                "resident_id": 43,
+                "property_id": 120,
+                "date_moved_in": "2017-06-26 13:24:36"
+              },
+              {
+                "Customer_Event_Note_ID": 91,
+                "Customer_Event_ID": 817,
+                "service_type_code": "Cleanning",
+                "resident_id": 43,
+                "property_id": 120,
+                "date_moved_in": "2017-04-28 10:17:13"
+              }
+            ]
+          }
+        ],
+        "Timed_Status_of_Things": [
+          {
+            "thing_id": 10,
+            "Date_and_Date": "2016-09-06 16:31:13",
+            "Status_of_Thing_Code": "Close"
+          },
+          {
+            "thing_id": 10,
+            "Date_and_Date": "2016-11-14 17:30:51",
+            "Status_of_Thing_Code": "Open"
+          }
+        ],
+        "Timed_Locations_of_Things": [
+          {
+            "thing_id": 10,
+            "Date_and_Time": "2016-12-29 00:39:19",
+            "Location_Code": "288 Lang Ferry"
+          },
+          {
+            "thing_id": 10,
+            "Date_and_Time": "2017-10-21 04:21:54",
+            "Location_Code": "854 Keeling Sho"
+          }
+        ]
+      },
+      {
+        "thing_id": 26,
+        "organization_id": 8,
+        "Type_of_Thing_Code": "Electronics",
+        "service_type_code": "Cleanning",
+        "service_details": "Unsatisfied",
+        "Customer_Events": [],
+        "Timed_Status_of_Things": [
+          {
+            "thing_id": 26,
+            "Date_and_Date": "2016-04-10 06:32:15",
+            "Status_of_Thing_Code": "Close"
+          },
+          {
+            "thing_id": 26,
+            "Date_and_Date": "2017-08-05 02:10:02",
+            "Status_of_Thing_Code": "In Progress"
+          },
+          {
+            "thing_id": 26,
+            "Date_and_Date": "2018-02-04 02:44:39",
+            "Status_of_Thing_Code": "Close"
+          }
+        ],
+        "Timed_Locations_of_Things": [
+          {
+            "thing_id": 26,
+            "Date_and_Time": "2016-04-26 16:34:09",
+            "Location_Code": "192 Kub Rapids"
+          }
+        ]
+      },
+      {
+        "thing_id": 45,
+        "organization_id": 8,
+        "Type_of_Thing_Code": "Commen",
+        "service_type_code": "Check",
+        "service_details": "Satisfied",
+        "Customer_Events": [],
+        "Timed_Status_of_Things": [],
+        "Timed_Locations_of_Things": [
+          {
+            "thing_id": 45,
+            "Date_and_Time": "2017-04-19 16:41:03",
+            "Location_Code": "4667 Kellen Fie"
+          },
+          {
+            "thing_id": 45,
+            "Date_and_Time": "2017-04-22 00:37:48",
+            "Location_Code": "1313 Sawayn Riv"
+          }
+        ]
+      },
+      {
+        "thing_id": 46,
+        "organization_id": 8,
+        "Type_of_Thing_Code": "Commen",
+        "service_type_code": "Check",
+        "service_details": "Satisfied",
+        "Customer_Events": [
+          {
+            "Customer_Event_ID": 216,
+            "customer_id": 79,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 669,
+            "resident_id": 37,
+            "thing_id": 46,
+            "Customer_Event_Notes": [
+              {
+                "Customer_Event_Note_ID": 56,
+                "Customer_Event_ID": 216,
+                "service_type_code": "Check",
+                "resident_id": 88,
+                "property_id": 748,
+                "date_moved_in": "2016-11-04 12:46:21"
+              }
+            ]
+          }
+        ],
+        "Timed_Status_of_Things": [],
+        "Timed_Locations_of_Things": []
+      },
+      {
+        "thing_id": 58,
+        "organization_id": 8,
+        "Type_of_Thing_Code": "Electronics",
+        "service_type_code": "Check",
+        "service_details": "Satisfied",
+        "Customer_Events": [],
+        "Timed_Status_of_Things": [
+          {
+            "thing_id": 58,
+            "Date_and_Date": "2017-05-31 00:52:33",
+            "Status_of_Thing_Code": "In Progress"
+          }
+        ],
+        "Timed_Locations_of_Things": [
+          {
+            "thing_id": 58,
+            "Date_and_Time": "2016-08-04 00:25:55",
+            "Location_Code": "94425 Nellie Kn"
+          }
+        ]
+      },
+      {
+        "thing_id": 80,
+        "organization_id": 8,
+        "Type_of_Thing_Code": "Furniture",
+        "service_type_code": "Check",
+        "service_details": "Unsatisfied",
+        "Customer_Events": [
+          {
+            "Customer_Event_ID": 160,
+            "customer_id": 5,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 879,
+            "resident_id": 23,
+            "thing_id": 80,
+            "Customer_Event_Notes": []
+          },
+          {
+            "Customer_Event_ID": 226,
+            "customer_id": 19,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 748,
+            "resident_id": 38,
+            "thing_id": 80,
+            "Customer_Event_Notes": []
+          }
+        ],
+        "Timed_Status_of_Things": [
+          {
+            "thing_id": 80,
+            "Date_and_Date": "2016-10-08 08:02:57",
+            "Status_of_Thing_Code": "Open"
+          }
+        ],
+        "Timed_Locations_of_Things": []
+      },
+      {
+        "thing_id": 84,
+        "organization_id": 8,
+        "Type_of_Thing_Code": "Commen",
+        "service_type_code": "Check",
+        "service_details": "Unsatisfied",
+        "Customer_Events": [],
+        "Timed_Status_of_Things": [
+          {
+            "thing_id": 84,
+            "Date_and_Date": "2017-12-28 16:05:08",
+            "Status_of_Thing_Code": "Open"
+          }
+        ],
+        "Timed_Locations_of_Things": []
+      },
+      {
+        "thing_id": 85,
+        "organization_id": 8,
+        "Type_of_Thing_Code": "Commen",
+        "service_type_code": "Cleanning",
+        "service_details": "Unsatisfied",
+        "Customer_Events": [
+          {
+            "Customer_Event_ID": 606,
+            "customer_id": 31,
+            "date_moved_in": "2016-09-27 12:00:00",
+            "property_id": 445,
+            "resident_id": 83,
+            "thing_id": 85,
+            "Customer_Event_Notes": [
+              {
+                "Customer_Event_Note_ID": 50,
+                "Customer_Event_ID": 606,
+                "service_type_code": "Check",
+                "resident_id": 45,
+                "property_id": 849,
+                "date_moved_in": "2017-04-25 09:08:14"
+              },
+              {
+                "Customer_Event_Note_ID": 88,
+                "Customer_Event_ID": 606,
+                "service_type_code": "Cleanning",
+                "resident_id": 67,
+                "property_id": 791,
+                "date_moved_in": "2016-11-23 05:53:40"
+              }
+            ]
+          }
+        ],
+        "Timed_Status_of_Things": [
+          {
+            "thing_id": 85,
+            "Date_and_Date": "2017-03-24 12:12:46",
+            "Status_of_Thing_Code": "Close"
+          }
+        ],
+        "Timed_Locations_of_Things": [
+          {
+            "thing_id": 85,
+            "Date_and_Time": "2016-11-07 09:43:05",
+            "Location_Code": "2677 Runolfsson"
+          },
+          {
+            "thing_id": 85,
+            "Date_and_Time": "2017-01-02 23:26:47",
+            "Location_Code": "26281 Holden Pa"
+          },
+          {
+            "thing_id": 85,
+            "Date_and_Time": "2017-11-26 00:13:44",
+            "Location_Code": "1537 Schmeler G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "organization_id": 10,
+    "parent_organization_id": 8,
+    "organization_details": "Robel-Schulist Group",
+    "Services": [
+      {
+        "service_id": 10,
+        "organization_id": 10,
+        "service_type_code": "Cleanning",
+        "service_details": "Satisfied",
+        "Residents_Services": [
+          {
+            "resident_id": 43,
+            "service_id": 10,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 108,
+            "date_requested": "2016-09-20 22:50:26",
+            "date_provided": "2017-10-17 03:30:08",
+            "other_details": "Unsatisfied"
+          }
+        ]
+      },
+      {
+        "service_id": 22,
+        "organization_id": 10,
+        "service_type_code": "Pay bills",
+        "service_details": "Satisfied",
+        "Residents_Services": []
+      },
+      {
+        "service_id": 41,
+        "organization_id": 10,
+        "service_type_code": "Check",
+        "service_details": "Satisfied",
+        "Residents_Services": [
+          {
+            "resident_id": 23,
+            "service_id": 41,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 879,
+            "date_requested": "2016-10-10 21:42:21",
+            "date_provided": "2017-08-21 06:23:06",
+            "other_details": "Unsatisfied"
+          }
+        ]
+      }
+    ],
+    "Things": [
+      {
+        "thing_id": 14,
+        "organization_id": 10,
+        "Type_of_Thing_Code": "Furniture",
+        "service_type_code": "Cleanning",
+        "service_details": "Satisfied",
+        "Customer_Events": [
+          {
+            "Customer_Event_ID": 166,
+            "customer_id": 16,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 629,
+            "resident_id": 28,
+            "thing_id": 14,
+            "Customer_Event_Notes": []
+          }
+        ],
+        "Timed_Status_of_Things": [
+          {
+            "thing_id": 14,
+            "Date_and_Date": "2017-07-03 02:22:12",
+            "Status_of_Thing_Code": "In Progress"
+          }
+        ],
+        "Timed_Locations_of_Things": [
+          {
+            "thing_id": 14,
+            "Date_and_Time": "2017-03-19 19:28:13",
+            "Location_Code": "1316 Morgan Spr"
+          }
+        ]
+      },
+      {
+        "thing_id": 47,
+        "organization_id": 10,
+        "Type_of_Thing_Code": "Commen",
+        "service_type_code": "Cleanning",
+        "service_details": "Satisfied",
+        "Customer_Events": [],
+        "Timed_Status_of_Things": [
+          {
+            "thing_id": 47,
+            "Date_and_Date": "2016-04-02 00:57:17",
+            "Status_of_Thing_Code": "In Progress"
+          },
+          {
+            "thing_id": 47,
+            "Date_and_Date": "2016-12-02 11:08:16",
+            "Status_of_Thing_Code": "Close"
+          }
+        ],
+        "Timed_Locations_of_Things": []
+      },
+      {
+        "thing_id": 68,
+        "organization_id": 10,
+        "Type_of_Thing_Code": "Commen",
+        "service_type_code": "Cleanning",
+        "service_details": "Unsatisfied",
+        "Customer_Events": [
+          {
+            "Customer_Event_ID": 428,
+            "customer_id": 63,
+            "date_moved_in": "2015-03-27 12:00:00",
+            "property_id": 954,
+            "resident_id": 45,
+            "thing_id": 68,
+            "Customer_Event_Notes": [
+              {
+                "Customer_Event_Note_ID": 21,
+                "Customer_Event_ID": 428,
+                "service_type_code": "Check",
+                "resident_id": 87,
+                "property_id": 445,
+                "date_moved_in": "2016-12-11 01:05:14"
+              }
+            ]
+          }
+        ],
+        "Timed_Status_of_Things": [],
+        "Timed_Locations_of_Things": [
+          {
+            "thing_id": 68,
+            "Date_and_Time": "2017-03-06 01:56:27",
+            "Location_Code": "4223 Rae Fork S"
+          },
+          {
+            "thing_id": 68,
+            "Date_and_Time": "2017-08-31 13:54:13",
+            "Location_Code": "9628 Bins Islan"
+          }
+        ]
+      }
+    ]
+  }
+]

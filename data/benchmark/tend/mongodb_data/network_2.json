@@ -1,0 +1,36 @@
+{
+    "Person": [
+        {
+            "name": "Alice",
+            "age": 25,
+            "city": "new york city",
+            "gender": "female",
+            "job": "student",
+            "PersonFriend": []
+        },
+        {
+            "name": "Bob",
+            "age": 35,
+            "city": "salt lake city",
+            "gender": "male",
+            "job": "engineer",
+            "PersonFriend": []
+        },
+        {
+            "name": "Zach",
+            "age": 45,
+            "city": "austin",
+            "gender": "male",
+            "job": "doctor",
+            "PersonFriend": []
+        },
+        {
+            "name": "Dan",
+            "age": 26,
+            "city": "chicago",
+            "gender": "female",
+            "job": "student",
+            "PersonFriend": []
+        }
+    ]
+}

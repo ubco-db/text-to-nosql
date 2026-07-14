@@ -1,0 +1,174 @@
+[
+  {
+    "Participant_ID": 9,
+    "Participant_Type_Code": "Organizer",
+    "Participant_Details": "Karlee Batz",
+    "Participants_in_Events": []
+  },
+  {
+    "Participant_ID": 26,
+    "Participant_Type_Code": "Organizer",
+    "Participant_Details": "Vilma Schinner",
+    "Participants_in_Events": [
+      {
+        "Event_ID": 3,
+        "Participant_ID": 26
+      },
+      {
+        "Event_ID": 60,
+        "Participant_ID": 26
+      }
+    ]
+  },
+  {
+    "Participant_ID": 28,
+    "Participant_Type_Code": "Organizer",
+    "Participant_Details": "Lupe Deckow",
+    "Participants_in_Events": []
+  },
+  {
+    "Participant_ID": 36,
+    "Participant_Type_Code": "Organizer",
+    "Participant_Details": "Kenyatta Kuhn",
+    "Participants_in_Events": [
+      {
+        "Event_ID": 80,
+        "Participant_ID": 36
+      }
+    ]
+  },
+  {
+    "Participant_ID": 37,
+    "Participant_Type_Code": "Participant",
+    "Participant_Details": "Miss Kaci Lebsack",
+    "Participants_in_Events": [
+      {
+        "Event_ID": 17,
+        "Participant_ID": 37
+      },
+      {
+        "Event_ID": 40,
+        "Participant_ID": 37
+      }
+    ]
+  },
+  {
+    "Participant_ID": 38,
+    "Participant_Type_Code": "Organizer",
+    "Participant_Details": "Macy Mayer DDS",
+    "Participants_in_Events": []
+  },
+  {
+    "Participant_ID": 60,
+    "Participant_Type_Code": "Participant",
+    "Participant_Details": "Dewitt Walter",
+    "Participants_in_Events": [
+      {
+        "Event_ID": 16,
+        "Participant_ID": 60
+      }
+    ]
+  },
+  {
+    "Participant_ID": 63,
+    "Participant_Type_Code": "Participant",
+    "Participant_Details": "Prof. Michelle Maggio Jr.",
+    "Participants_in_Events": [
+      {
+        "Event_ID": 95,
+        "Participant_ID": 63
+      }
+    ]
+  },
+  {
+    "Participant_ID": 64,
+    "Participant_Type_Code": "Participant",
+    "Participant_Details": "Dr. Jaydon Renner",
+    "Participants_in_Events": [
+      {
+        "Event_ID": 13,
+        "Participant_ID": 64
+      }
+    ]
+  },
+  {
+    "Participant_ID": 66,
+    "Participant_Type_Code": "Participant",
+    "Participant_Details": "Justyn Lebsack",
+    "Participants_in_Events": [
+      {
+        "Event_ID": 3,
+        "Participant_ID": 66
+      },
+      {
+        "Event_ID": 17,
+        "Participant_ID": 66
+      },
+      {
+        "Event_ID": 38,
+        "Participant_ID": 66
+      },
+      {
+        "Event_ID": 80,
+        "Participant_ID": 66
+      }
+    ]
+  },
+  {
+    "Participant_ID": 75,
+    "Participant_Type_Code": "Participant",
+    "Participant_Details": "Berniece Weimann",
+    "Participants_in_Events": []
+  },
+  {
+    "Participant_ID": 86,
+    "Participant_Type_Code": "Organizer",
+    "Participant_Details": "Neil Blick",
+    "Participants_in_Events": [
+      {
+        "Event_ID": 8,
+        "Participant_ID": 86
+      },
+      {
+        "Event_ID": 40,
+        "Participant_ID": 86
+      }
+    ]
+  },
+  {
+    "Participant_ID": 90,
+    "Participant_Type_Code": "Participant",
+    "Participant_Details": "Dedrick Ebert",
+    "Participants_in_Events": [
+      {
+        "Event_ID": 13,
+        "Participant_ID": 90
+      },
+      {
+        "Event_ID": 57,
+        "Participant_ID": 90
+      },
+      {
+        "Event_ID": 96,
+        "Participant_ID": 90
+      }
+    ]
+  },
+  {
+    "Participant_ID": 96,
+    "Participant_Type_Code": "Organizer",
+    "Participant_Details": "Miss Joyce Cremin",
+    "Participants_in_Events": [
+      {
+        "Event_ID": 80,
+        "Participant_ID": 96
+      }
+    ]
+  },
+  {
+    "Participant_ID": 98,
+    "Participant_Type_Code": "Participant",
+    "Participant_Details": "Dr. Kris Deckow",
+    "Participants_in_Events": []
+  }
+]

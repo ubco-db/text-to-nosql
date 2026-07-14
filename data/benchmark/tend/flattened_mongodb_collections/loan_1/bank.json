@@ -1,0 +1,121 @@
+[
+  {
+    "branch_ID": 1,
+    "bname": "morningside",
+    "no_of_customers": 203,
+    "city": "New York City",
+    "state": "New York",
+    "customer": [
+      {
+        "cust_ID": "2",
+        "cust_name": "Jack",
+        "acc_type": "checking",
+        "acc_bal": 1000,
+        "no_of_loans": 1,
+        "credit_score": 20,
+        "branch_ID": 1,
+        "state": "Texas",
+        "loan": []
+      }
+    ],
+    "loan": [
+      {
+        "loan_ID": "1",
+        "loan_type": "Mortgages",
+        "cust_ID": "1",
+        "branch_ID": "1",
+        "amount": 2050
+      }
+    ]
+  },
+  {
+    "branch_ID": 2,
+    "bname": "downtown",
+    "no_of_customers": 123,
+    "city": "Salt Lake City",
+    "state": "Utah",
+    "customer": [
+      {
+        "cust_ID": "1",
+        "cust_name": "Mary",
+        "acc_type": "saving",
+        "acc_bal": 2000,
+        "no_of_loans": 2,
+        "credit_score": 30,
+        "branch_ID": 2,
+        "state": "Utah",
+        "loan": [
+          {
+            "loan_ID": "1",
+            "loan_type": "Mortgages",
+            "cust_ID": "1",
+            "branch_ID": "1",
+            "amount": 2050
+          },
+          {
+            "loan_ID": "2",
+            "loan_type": "Auto",
+            "cust_ID": "1",
+            "branch_ID": "2",
+            "amount": 3000
+          }
+        ]
+      }
+    ],
+    "loan": [
+      {
+        "loan_ID": "2",
+        "loan_type": "Auto",
+        "cust_ID": "1",
+        "branch_ID": "2",
+        "amount": 3000
+      }
+    ]
+  },
+  {
+    "branch_ID": 3,
+    "bname": "broadway",
+    "no_of_customers": 453,
+    "city": "New York City",
+    "state": "New York",
+    "customer": [
+      {
+        "cust_ID": "3",
+        "cust_name": "Owen",
+        "acc_type": "saving",
+        "acc_bal": 800000,
+        "no_of_loans": 0,
+        "credit_score": 210,
+        "branch_ID": 3,
+        "state": "New York",
+        "loan": [
+          {
+            "loan_ID": "3",
+            "loan_type": "Business",
+            "cust_ID": "3",
+            "branch_ID": "3",
+            "amount": 5000
+          }
+        ]
+      }
+    ],
+    "loan": [
+      {
+        "loan_ID": "3",
+        "loan_type": "Business",
+        "cust_ID": "3",
+        "branch_ID": "3",
+        "amount": 5000
+      }
+    ]
+  },
+  {
+    "branch_ID": 4,
+    "bname": "high",
+    "no_of_customers": 367,
+    "city": "Austin",
+    "state": "Texas",
+    "customer": [],
+    "loan": []
+  }
+]

@@ -1,0 +1,357 @@
+[
+  {
+    "REGION_ID": 1,
+    "REGION_NAME": "Europe\\r",
+    "countries": [
+      {
+        "COUNTRY_ID": "BE",
+        "COUNTRY_NAME": "Belgium",
+        "REGION_ID": 1,
+        "locations": []
+      },
+      {
+        "COUNTRY_ID": "CH",
+        "COUNTRY_NAME": "Switzerland",
+        "REGION_ID": 1,
+        "locations": [
+          {
+            "LOCATION_ID": 2900,
+            "STREET_ADDRESS": "20 Rue des Corps-Saints",
+            "POSTAL_CODE": "1730",
+            "CITY": "Geneva",
+            "STATE_PROVINCE": "Geneve",
+            "COUNTRY_ID": "CH"
+          },
+          {
+            "LOCATION_ID": 3000,
+            "STREET_ADDRESS": "Murtenstrasse 921",
+            "POSTAL_CODE": "3095",
+            "CITY": "Bern",
+            "STATE_PROVINCE": "BE",
+            "COUNTRY_ID": "CH"
+          }
+        ]
+      },
+      {
+        "COUNTRY_ID": "DE",
+        "COUNTRY_NAME": "Germany",
+        "REGION_ID": 1,
+        "locations": [
+          {
+            "LOCATION_ID": 2700,
+            "STREET_ADDRESS": "Schwanthalerstr. 7031",
+            "POSTAL_CODE": "80925",
+            "CITY": "Munich",
+            "STATE_PROVINCE": "Bavaria",
+            "COUNTRY_ID": "DE"
+          }
+        ]
+      },
+      {
+        "COUNTRY_ID": "DK",
+        "COUNTRY_NAME": "Denmark",
+        "REGION_ID": 1,
+        "locations": []
+      },
+      {
+        "COUNTRY_ID": "FR",
+        "COUNTRY_NAME": "France",
+        "REGION_ID": 1,
+        "locations": []
+      },
+      {
+        "COUNTRY_ID": "IT",
+        "COUNTRY_NAME": "Italy",
+        "REGION_ID": 1,
+        "locations": [
+          {
+            "LOCATION_ID": 1000,
+            "STREET_ADDRESS": "1297 Via Cola di Rie",
+            "POSTAL_CODE": "989",
+            "CITY": "Roma",
+            "STATE_PROVINCE": "",
+            "COUNTRY_ID": "IT"
+          },
+          {
+            "LOCATION_ID": 1100,
+            "STREET_ADDRESS": "93091 Calle della Testa",
+            "POSTAL_CODE": "10934",
+            "CITY": "Venice",
+            "STATE_PROVINCE": "",
+            "COUNTRY_ID": "IT"
+          }
+        ]
+      },
+      {
+        "COUNTRY_ID": "NL",
+        "COUNTRY_NAME": "Netherlands",
+        "REGION_ID": 1,
+        "locations": [
+          {
+            "LOCATION_ID": 3100,
+            "STREET_ADDRESS": "Pieter Breughelstraat 837",
+            "POSTAL_CODE": "3029SK",
+            "CITY": "Utrecht",
+            "STATE_PROVINCE": "Utrecht",
+            "COUNTRY_ID": "NL"
+          }
+        ]
+      },
+      {
+        "COUNTRY_ID": "UK",
+        "COUNTRY_NAME": "United Kingdom",
+        "REGION_ID": 1,
+        "locations": [
+          {
+            "LOCATION_ID": 2400,
+            "STREET_ADDRESS": "8204 Arthur St",
+            "POSTAL_CODE": "",
+            "CITY": "London",
+            "STATE_PROVINCE": "",
+            "COUNTRY_ID": "UK"
+          },
+          {
+            "LOCATION_ID": 2600,
+            "STREET_ADDRESS": "9702 Chester Road",
+            "POSTAL_CODE": "9629850293",
+            "CITY": "Stretford",
+            "STATE_PROVINCE": "Manchester",
+            "COUNTRY_ID": "UK"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "REGION_ID": 2,
+    "REGION_NAME": "Americas\\r",
+    "countries": [
+      {
+        "COUNTRY_ID": "AR",
+        "COUNTRY_NAME": "Argentina",
+        "REGION_ID": 2,
+        "locations": []
+      },
+      {
+        "COUNTRY_ID": "BR",
+        "COUNTRY_NAME": "Brazil",
+        "REGION_ID": 2,
+        "locations": [
+          {
+            "LOCATION_ID": 2800,
+            "STREET_ADDRESS": "Rua Frei Caneca 1360",
+            "POSTAL_CODE": "01307-002",
+            "CITY": "Sao Paulo",
+            "STATE_PROVINCE": "Sao Paulo",
+            "COUNTRY_ID": "BR"
+          }
+        ]
+      },
+      {
+        "COUNTRY_ID": "CA",
+        "COUNTRY_NAME": "Canada",
+        "REGION_ID": 2,
+        "locations": [
+          {
+            "LOCATION_ID": 1800,
+            "STREET_ADDRESS": "147 Spadina Ave",
+            "POSTAL_CODE": "M5V 2L7",
+            "CITY": "Toronto",
+            "STATE_PROVINCE": "Ontario",
+            "COUNTRY_ID": "CA"
+          },
+          {
+            "LOCATION_ID": 1900,
+            "STREET_ADDRESS": "6092 Boxwood St",
+            "POSTAL_CODE": "YSW 9T2",
+            "CITY": "Whitehorse",
+            "STATE_PROVINCE": "Yukon",
+            "COUNTRY_ID": "CA"
+          }
+        ]
+      },
+      {
+        "COUNTRY_ID": "MX",
+        "COUNTRY_NAME": "Mexico",
+        "REGION_ID": 2,
+        "locations": []
+      },
+      {
+        "COUNTRY_ID": "US",
+        "COUNTRY_NAME": "United States of America",
+        "REGION_ID": 2,
+        "locations": [
+          {
+            "LOCATION_ID": 1400,
+            "STREET_ADDRESS": "2014 Jabberwocky Rd",
+            "POSTAL_CODE": "26192",
+            "CITY": "Southlake",
+            "STATE_PROVINCE": "Texas",
+            "COUNTRY_ID": "US"
+          },
+          {
+            "LOCATION_ID": 1500,
+            "STREET_ADDRESS": "2011 Interiors Blvd",
+            "POSTAL_CODE": "99236",
+            "CITY": "South San Francisco",
+            "STATE_PROVINCE": "California",
+            "COUNTRY_ID": "US"
+          },
+          {
+            "LOCATION_ID": 1600,
+            "STREET_ADDRESS": "2007 Zagora St",
+            "POSTAL_CODE": "50090",
+            "CITY": "South Brunswick",
+            "STATE_PROVINCE": "New Jersey",
+            "COUNTRY_ID": "US"
+          },
+          {
+            "LOCATION_ID": 1700,
+            "STREET_ADDRESS": "2004 Charade Rd",
+            "POSTAL_CODE": "98199",
+            "CITY": "Seattle",
+            "STATE_PROVINCE": "Washington",
+            "COUNTRY_ID": "US"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "REGION_ID": 3,
+    "REGION_NAME": "Asia\\r",
+    "countries": [
+      {
+        "COUNTRY_ID": "AU",
+        "COUNTRY_NAME": "Australia",
+        "REGION_ID": 3,
+        "locations": [
+          {
+            "LOCATION_ID": 2200,
+            "STREET_ADDRESS": "12-98 Victoria Street",
+            "POSTAL_CODE": "2901",
+            "CITY": "Sydney",
+            "STATE_PROVINCE": "New South Wales",
+            "COUNTRY_ID": "AU"
+          }
+        ]
+      },
+      {
+        "COUNTRY_ID": "CN",
+        "COUNTRY_NAME": "China",
+        "REGION_ID": 3,
+        "locations": [
+          {
+            "LOCATION_ID": 2000,
+            "STREET_ADDRESS": "40-5-12 Laogianggen",
+            "POSTAL_CODE": "190518",
+            "CITY": "Beijing",
+            "STATE_PROVINCE": "",
+            "COUNTRY_ID": "CN"
+          }
+        ]
+      },
+      {
+        "COUNTRY_ID": "HK",
+        "COUNTRY_NAME": "HongKong",
+        "REGION_ID": 3,
+        "locations": []
+      },
+      {
+        "COUNTRY_ID": "IN",
+        "COUNTRY_NAME": "India",
+        "REGION_ID": 3,
+        "locations": [
+          {
+            "LOCATION_ID": 2100,
+            "STREET_ADDRESS": "1298 Vileparle (E)",
+            "POSTAL_CODE": "490231",
+            "CITY": "Bombay",
+            "STATE_PROVINCE": "Maharashtra",
+            "COUNTRY_ID": "IN"
+          }
+        ]
+      },
+      {
+        "COUNTRY_ID": "JP",
+        "COUNTRY_NAME": "Japan",
+        "REGION_ID": 3,
+        "locations": [
+          {
+            "LOCATION_ID": 1200,
+            "STREET_ADDRESS": "2017 Shinjuku-ku",
+            "POSTAL_CODE": "1689",
+            "CITY": "Tokyo",
+            "STATE_PROVINCE": "Tokyo Prefecture",
+            "COUNTRY_ID": "JP"
+          },
+          {
+            "LOCATION_ID": 1300,
+            "STREET_ADDRESS": "9450 Kamiya-cho",
+            "POSTAL_CODE": "6823",
+            "CITY": "Hiroshima",
+            "STATE_PROVINCE": "",
+            "COUNTRY_ID": "JP"
+          }
+        ]
+      },
+      {
+        "COUNTRY_ID": "SG",
+        "COUNTRY_NAME": "Singapore",
+        "REGION_ID": 3,
+        "locations": [
+          {
+            "LOCATION_ID": 2300,
+            "STREET_ADDRESS": "198 Clementi North",
+            "POSTAL_CODE": "540198",
+            "CITY": "Singapore",
+            "STATE_PROVINCE": "",
+            "COUNTRY_ID": "SG"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "REGION_ID": 4,
+    "REGION_NAME": "Middle East and Africa\\r",
+    "countries": [
+      {
+        "COUNTRY_ID": "EG",
+        "COUNTRY_NAME": "Egypt",
+        "REGION_ID": 4,
+        "locations": []
+      },
+      {
+        "COUNTRY_ID": "IL",
+        "COUNTRY_NAME": "Israel",
+        "REGION_ID": 4,
+        "locations": []
+      },
+      {
+        "COUNTRY_ID": "KW",
+        "COUNTRY_NAME": "Kuwait",
+        "REGION_ID": 4,
+        "locations": []
+      },
+      {
+        "COUNTRY_ID": "NG",
+        "COUNTRY_NAME": "Nigeria",
+        "REGION_ID": 4,
+        "locations": []
+      },
+      {
+        "COUNTRY_ID": "ZM",
+        "COUNTRY_NAME": "Zambia",
+        "REGION_ID": 4,
+        "locations": []
+      },
+      {
+        "COUNTRY_ID": "ZW",
+        "COUNTRY_NAME": "Zimbabwe",
+        "REGION_ID": 4,
+        "locations": []
+      }
+    ]
+  }
+]

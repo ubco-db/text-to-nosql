@@ -1,0 +1,79 @@
+[
+  {
+    "Debate_ID": 1,
+    "Date": "October 21, 2011",
+    "Venue": "Manama , Bahrain",
+    "Num_of_Audience": 342,
+    "debate_people": [
+      {
+        "Debate_ID": 1,
+        "Affirmative": 1,
+        "Negative": 10,
+        "If_Affirmative_Win": "F"
+      }
+    ]
+  },
+  {
+    "Debate_ID": 2,
+    "Date": "December 17, 2014",
+    "Venue": "Doha , Qatar",
+    "Num_of_Audience": 134,
+    "debate_people": []
+  },
+  {
+    "Debate_ID": 3,
+    "Date": "August 3, 2015",
+    "Venue": "Manama , Bahrain",
+    "Num_of_Audience": 90,
+    "debate_people": [
+      {
+        "Debate_ID": 3,
+        "Affirmative": 4,
+        "Negative": 7,
+        "If_Affirmative_Win": "T"
+      }
+    ]
+  },
+  {
+    "Debate_ID": 4,
+    "Date": "October 27, 2015",
+    "Venue": "Manama , Bahrain",
+    "Num_of_Audience": 209,
+    "debate_people": [
+      {
+        "Debate_ID": 4,
+        "Affirmative": 5,
+        "Negative": 8,
+        "If_Affirmative_Win": "F"
+      }
+    ]
+  },
+  {
+    "Debate_ID": 5,
+    "Date": "January 12, 2017",
+    "Venue": "Dubai , UAE",
+    "Num_of_Audience": 313,
+    "debate_people": [
+      {
+        "Debate_ID": 5,
+        "Affirmative": 2,
+        "Negative": 8,
+        "If_Affirmative_Win": "F"
+      }
+    ]
+  },
+  {
+    "Debate_ID": 6,
+    "Date": "January 21, 2017",
+    "Venue": "Abu Dhabi , UAE",
+    "Num_of_Audience": 159,
+    "debate_people": [
+      {
+        "Debate_ID": 6,
+        "Affirmative": 5,
+        "Negative": 6,
+        "If_Affirmative_Win": "T"
+      }
+    ]
+  }
+]

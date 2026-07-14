@@ -1,0 +1,117 @@
+[
+  {
+    "School_ID": 1,
+    "School": "University of Delaware",
+    "Location": "Newark, DE",
+    "Founded": 1743.0,
+    "Affiliation": "Public",
+    "Enrollment": 19067.0,
+    "Nickname": "Fightin' Blue Hens",
+    "Primary_conference": "Colonial Athletic Association ( D-I )",
+    "basketball_match": [
+      {
+        "Team_ID": 1,
+        "School_ID": 1,
+        "Team_Name": "North Carolina",
+        "ACC_Regular_Season": "14\u20132",
+        "ACC_Percent": ".875",
+        "ACC_Home": "6\u20132",
+        "ACC_Road": "8\u20130",
+        "All_Games": "35\u20132",
+        "All_Games_Percent": 0.946,
+        "All_Home": "14\u20132",
+        "All_Road": "13\u20130",
+        "All_Neutral": "9\u20131"
+      }
+    ]
+  },
+  {
+    "School_ID": 2,
+    "School": "Lebanon Valley College",
+    "Location": "Annville, PA",
+    "Founded": 1866.0,
+    "Affiliation": "Private/Methodist",
+    "Enrollment": 2100.0,
+    "Nickname": "Flying Dutchmen",
+    "Primary_conference": "MAC Commonwealth Conference ( D-III )",
+    "basketball_match": [
+      {
+        "Team_ID": 2,
+        "School_ID": 2,
+        "Team_Name": "Duke",
+        "ACC_Regular_Season": "13\u20133",
+        "ACC_Percent": ".813",
+        "ACC_Home": "7\u20131",
+        "ACC_Road": "6\u20132",
+        "All_Games": "28\u20136",
+        "All_Games_Percent": 0.824,
+        "All_Home": "15\u20131",
+        "All_Road": "8\u20132",
+        "All_Neutral": "5\u20133"
+      }
+    ]
+  },
+  {
+    "School_ID": 3,
+    "School": "University of Rhode Island",
+    "Location": "Kingston, RI",
+    "Founded": 1892.0,
+    "Affiliation": "Public",
+    "Enrollment": 19095.0,
+    "Nickname": "Rams",
+    "Primary_conference": "Atlantic 10 Conference ( D-I )",
+    "basketball_match": []
+  },
+  {
+    "School_ID": 4,
+    "School": "Rutgers University",
+    "Location": "New Brunswick, NJ",
+    "Founded": 1766.0,
+    "Affiliation": "Public",
+    "Enrollment": 56868.0,
+    "Nickname": "Scarlet Knights",
+    "Primary_conference": "American Athletic Conference ( D-I )",
+    "basketball_match": [
+      {
+        "Team_ID": 3,
+        "School_ID": 4,
+        "Team_Name": "Clemson",
+        "ACC_Regular_Season": "10\u20136",
+        "ACC_Percent": ".625",
+        "ACC_Home": "7\u20131",
+        "ACC_Road": "3\u20135",
+        "All_Games": "24\u201310",
+        "All_Games_Percent": 0.706,
+        "All_Home": "14\u20132",
+        "All_Road": "6\u20135",
+        "All_Neutral": "4\u20133"
+      }
+    ]
+  },
+  {
+    "School_ID": 5,
+    "School": "Stony Brook University",
+    "Location": "Stony Brook, NY",
+    "Founded": 1957.0,
+    "Affiliation": "Public",
+    "Enrollment": 23997.0,
+    "Nickname": "Seawolves",
+    "Primary_conference": "America East Conference ( D-I )",
+    "basketball_match": [
+      {
+        "Team_ID": 4,
+        "School_ID": 5,
+        "Team_Name": "Virginia Tech",
+        "ACC_Regular_Season": "9\u20137",
+        "ACC_Percent": ".563",
+        "ACC_Home": "6\u20132",
+        "ACC_Road": "3\u20135",
+        "All_Games": "21\u201314",
+        "All_Games_Percent": 0.6,
+        "All_Home": "14\u20133",
+        "All_Road": "4\u20138",
+        "All_Neutral": "3\u20133"
+      }
+    ]
+  }
+]

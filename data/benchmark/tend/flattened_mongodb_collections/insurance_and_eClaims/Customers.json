@@ -1,0 +1,601 @@
+[
+  {
+    "Customer_ID": 252,
+    "Customer_Details": "America Jaskolski",
+    "Policies": [
+      {
+        "Policy_ID": 708,
+        "Customer_ID": 252,
+        "Policy_Type_Code": "Normal",
+        "Start_Date": "2018-07-21 10:36:53",
+        "End_Date": "2018-03-07 13:52:47",
+        "Claim_Headers": []
+      }
+    ]
+  },
+  {
+    "Customer_ID": 263,
+    "Customer_Details": "Ellsworth Paucek",
+    "Policies": []
+  },
+  {
+    "Customer_ID": 334,
+    "Customer_Details": "Mrs. Hanna Willms",
+    "Policies": [
+      {
+        "Policy_ID": 287,
+        "Customer_ID": 334,
+        "Policy_Type_Code": "Jurisdiction",
+        "Start_Date": "2017-03-16 18:16:52",
+        "End_Date": "2017-11-24 06:36:51",
+        "Claim_Headers": [
+          {
+            "Claim_Header_ID": 28,
+            "Claim_Status_Code": "Disputed",
+            "Claim_Type_Code": "Child Birth",
+            "Policy_ID": 287,
+            "Date_of_Claim": "2016-10-01 00:40:00",
+            "Date_of_Settlement": "2017-10-20 02:24:21",
+            "Amount_Claimed": 789.19,
+            "Amount_Piad": 113.86,
+            "Claims_Documents": [],
+            "Claims_Processing": [
+              {
+                "Claim_Processing_ID": 118,
+                "Claim_ID": 28,
+                "Claim_Outcome_Code": "In progress",
+                "Claim_Stage_ID": 1,
+                "Staff_ID": 771
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Policy_ID": 773,
+        "Customer_ID": 334,
+        "Policy_Type_Code": "Uniformed",
+        "Start_Date": "2017-02-11 01:53:11",
+        "End_Date": "2018-01-15 03:23:05",
+        "Claim_Headers": []
+      }
+    ]
+  },
+  {
+    "Customer_ID": 380,
+    "Customer_Details": "Dr. Diana Rath",
+    "Policies": [
+      {
+        "Policy_ID": 151,
+        "Customer_ID": 380,
+        "Policy_Type_Code": "Jurisdiction",
+        "Start_Date": "2017-12-20 06:02:31",
+        "End_Date": "2017-09-16 22:04:13",
+        "Claim_Headers": []
+      },
+      {
+        "Policy_ID": 703,
+        "Customer_ID": 380,
+        "Policy_Type_Code": "Deputy",
+        "Start_Date": "2016-06-04 00:10:01",
+        "End_Date": "2018-01-19 22:45:33",
+        "Claim_Headers": []
+      },
+      {
+        "Policy_ID": 801,
+        "Customer_ID": 380,
+        "Policy_Type_Code": "Uniformed",
+        "Start_Date": "2018-09-05 22:15:23",
+        "End_Date": "2018-03-17 10:16:59",
+        "Claim_Headers": []
+      }
+    ]
+  },
+  {
+    "Customer_ID": 430,
+    "Customer_Details": "Selena Gerhold",
+    "Policies": [
+      {
+        "Policy_ID": 628,
+        "Customer_ID": 430,
+        "Policy_Type_Code": "Deputy",
+        "Start_Date": "2018-09-19 17:22:07",
+        "End_Date": "2018-01-01 23:58:06",
+        "Claim_Headers": [
+          {
+            "Claim_Header_ID": 81,
+            "Claim_Status_Code": "In Progress",
+            "Claim_Type_Code": "Overtime Meal Subsidy",
+            "Policy_ID": 628,
+            "Date_of_Claim": "2016-09-26 04:03:48",
+            "Date_of_Settlement": "2017-12-20 19:06:12",
+            "Amount_Claimed": 783.42,
+            "Amount_Piad": 779.59,
+            "Claims_Documents": [
+              {
+                "Claim_ID": 81,
+                "Document_Type_Code": "Photo",
+                "Created_by_Staff_ID": 589,
+                "Created_Date": 7
+              }
+            ],
+            "Claims_Processing": [
+              {
+                "Claim_Processing_ID": 833,
+                "Claim_ID": 81,
+                "Claim_Outcome_Code": "Disputed",
+                "Claim_Stage_ID": 3,
+                "Staff_ID": 822
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Customer_ID": 435,
+    "Customer_Details": "Lauriane Ferry PhD",
+    "Policies": [
+      {
+        "Policy_ID": 626,
+        "Customer_ID": 435,
+        "Policy_Type_Code": "Uniformed",
+        "Start_Date": "2016-05-14 19:09:36",
+        "End_Date": "2018-01-18 06:17:36",
+        "Claim_Headers": [
+          {
+            "Claim_Header_ID": 56,
+            "Claim_Status_Code": "In Progress",
+            "Claim_Type_Code": "Handphone Subsidy",
+            "Policy_ID": 626,
+            "Date_of_Claim": "2016-04-09 03:04:29",
+            "Date_of_Settlement": "2017-11-21 09:06:04",
+            "Amount_Claimed": 818.15,
+            "Amount_Piad": 826,
+            "Claims_Documents": [],
+            "Claims_Processing": []
+          },
+          {
+            "Claim_Header_ID": 62,
+            "Claim_Status_Code": "Disputed",
+            "Claim_Type_Code": "Child Birth",
+            "Policy_ID": 626,
+            "Date_of_Claim": "2017-07-05 02:54:30",
+            "Date_of_Settlement": "2018-03-08 13:00:23",
+            "Amount_Claimed": 182.79,
+            "Amount_Piad": 558.7,
+            "Claims_Documents": [
+              {
+                "Claim_ID": 62,
+                "Document_Type_Code": "Document",
+                "Created_by_Staff_ID": 673,
+                "Created_Date": 3
+              },
+              {
+                "Claim_ID": 62,
+                "Document_Type_Code": "Medical",
+                "Created_by_Staff_ID": 771,
+                "Created_Date": 3
+              },
+              {
+                "Claim_ID": 62,
+                "Document_Type_Code": "Photo",
+                "Created_by_Staff_ID": 771,
+                "Created_Date": 6
+              }
+            ],
+            "Claims_Processing": [
+              {
+                "Claim_Processing_ID": 145,
+                "Claim_ID": 62,
+                "Claim_Outcome_Code": "In progress",
+                "Claim_Stage_ID": 1,
+                "Staff_ID": 589
+              },
+              {
+                "Claim_Processing_ID": 659,
+                "Claim_ID": 62,
+                "Claim_Outcome_Code": "Settled",
+                "Claim_Stage_ID": 3,
+                "Staff_ID": 510
+              }
+            ]
+          },
+          {
+            "Claim_Header_ID": 69,
+            "Claim_Status_Code": "In Progress",
+            "Claim_Type_Code": "Overtime Meal Subsidy",
+            "Policy_ID": 626,
+            "Date_of_Claim": "2016-12-17 08:28:16",
+            "Date_of_Settlement": "2017-12-20 09:58:14",
+            "Amount_Claimed": 867.57,
+            "Amount_Piad": 133.72,
+            "Claims_Documents": [
+              {
+                "Claim_ID": 69,
+                "Document_Type_Code": "Document",
+                "Created_by_Staff_ID": 718,
+                "Created_Date": 1
+              }
+            ],
+            "Claims_Processing": []
+          },
+          {
+            "Claim_Header_ID": 72,
+            "Claim_Status_Code": "Disputed",
+            "Claim_Type_Code": "Overtime Meal Subsidy",
+            "Policy_ID": 626,
+            "Date_of_Claim": "2017-07-09 17:06:09",
+            "Date_of_Settlement": "2017-12-06 15:01:14",
+            "Amount_Claimed": 672.06,
+            "Amount_Piad": 227.84,
+            "Claims_Documents": [],
+            "Claims_Processing": []
+          },
+          {
+            "Claim_Header_ID": 73,
+            "Claim_Status_Code": "Settled",
+            "Claim_Type_Code": "Overtime Meal Subsidy",
+            "Policy_ID": 626,
+            "Date_of_Claim": "2016-11-15 13:12:02",
+            "Date_of_Settlement": "2018-01-21 05:51:01",
+            "Amount_Claimed": 228.45,
+            "Amount_Piad": 794.63,
+            "Claims_Documents": [
+              {
+                "Claim_ID": 73,
+                "Document_Type_Code": "Document",
+                "Created_by_Staff_ID": 986,
+                "Created_Date": 2
+              },
+              {
+                "Claim_ID": 73,
+                "Document_Type_Code": "Medical",
+                "Created_by_Staff_ID": 771,
+                "Created_Date": 9
+              }
+            ],
+            "Claims_Processing": []
+          }
+        ]
+      },
+      {
+        "Policy_ID": 780,
+        "Customer_ID": 435,
+        "Policy_Type_Code": "Uniformed",
+        "Start_Date": "2016-08-02 01:46:25",
+        "End_Date": "2018-03-03 18:36:22",
+        "Claim_Headers": []
+      }
+    ]
+  },
+  {
+    "Customer_ID": 520,
+    "Customer_Details": "Sydnie Friesen",
+    "Policies": []
+  },
+  {
+    "Customer_ID": 588,
+    "Customer_Details": "Dayana Robel",
+    "Policies": [
+      {
+        "Policy_ID": 768,
+        "Customer_ID": 588,
+        "Policy_Type_Code": "Uniformed",
+        "Start_Date": "2017-01-01 01:48:08",
+        "End_Date": "2017-09-30 03:16:49",
+        "Claim_Headers": []
+      }
+    ]
+  },
+  {
+    "Customer_ID": 593,
+    "Customer_Details": "Mr. Edwardo Blanda I",
+    "Policies": []
+  },
+  {
+    "Customer_ID": 799,
+    "Customer_Details": "Augustine Kerluke",
+    "Policies": []
+  },
+  {
+    "Customer_ID": 808,
+    "Customer_Details": "Buddy Marquardt",
+    "Policies": [
+      {
+        "Policy_ID": 125,
+        "Customer_ID": 808,
+        "Policy_Type_Code": "Deputy",
+        "Start_Date": "2018-02-10 08:56:30",
+        "End_Date": "2018-03-18 09:17:26",
+        "Claim_Headers": [
+          {
+            "Claim_Header_ID": 82,
+            "Claim_Status_Code": "Settled",
+            "Claim_Type_Code": "Overtime Meal Subsidy",
+            "Policy_ID": 125,
+            "Date_of_Claim": "2016-09-29 02:42:22",
+            "Date_of_Settlement": "2017-12-06 17:10:03",
+            "Amount_Claimed": 756.27,
+            "Amount_Piad": 612.74,
+            "Claims_Documents": [
+              {
+                "Claim_ID": 82,
+                "Document_Type_Code": "Medical",
+                "Created_by_Staff_ID": 803,
+                "Created_Date": 9
+              }
+            ],
+            "Claims_Processing": []
+          },
+          {
+            "Claim_Header_ID": 90,
+            "Claim_Status_Code": "Settled",
+            "Claim_Type_Code": "Child Birth",
+            "Policy_ID": 125,
+            "Date_of_Claim": "2016-09-28 18:53:22",
+            "Date_of_Settlement": "2017-10-17 22:03:17",
+            "Amount_Claimed": 425.98,
+            "Amount_Piad": 536.99,
+            "Claims_Documents": [
+              {
+                "Claim_ID": 90,
+                "Document_Type_Code": "Photo",
+                "Created_by_Staff_ID": 735,
+                "Created_Date": 1
+              }
+            ],
+            "Claims_Processing": [
+              {
+                "Claim_Processing_ID": 818,
+                "Claim_ID": 90,
+                "Claim_Outcome_Code": "Disputed",
+                "Claim_Stage_ID": 3,
+                "Staff_ID": 986
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Policy_ID": 518,
+        "Customer_ID": 808,
+        "Policy_Type_Code": "Uniformed",
+        "Start_Date": "2016-05-11 14:56:17",
+        "End_Date": "2018-03-15 05:02:00",
+        "Claim_Headers": [
+          {
+            "Claim_Header_ID": 15,
+            "Claim_Status_Code": "Settled",
+            "Claim_Type_Code": "Handphone Subsidy",
+            "Policy_ID": 518,
+            "Date_of_Claim": "2016-05-31 06:07:11",
+            "Date_of_Settlement": "2018-02-23 03:46:38",
+            "Amount_Claimed": 349.15,
+            "Amount_Piad": 582.03,
+            "Claims_Documents": [],
+            "Claims_Processing": [
+              {
+                "Claim_Processing_ID": 242,
+                "Claim_ID": 15,
+                "Claim_Outcome_Code": "In progress",
+                "Claim_Stage_ID": 3,
+                "Staff_ID": 673
+              },
+              {
+                "Claim_Processing_ID": 243,
+                "Claim_ID": 15,
+                "Claim_Outcome_Code": "Settled",
+                "Claim_Stage_ID": 1,
+                "Staff_ID": 687
+              },
+              {
+                "Claim_Processing_ID": 342,
+                "Claim_ID": 15,
+                "Claim_Outcome_Code": "In progress",
+                "Claim_Stage_ID": 3,
+                "Staff_ID": 673
+              }
+            ]
+          },
+          {
+            "Claim_Header_ID": 24,
+            "Claim_Status_Code": "Disputed",
+            "Claim_Type_Code": "Child Birth",
+            "Policy_ID": 518,
+            "Date_of_Claim": "2016-12-30 21:43:21",
+            "Date_of_Settlement": "2017-10-08 21:43:14",
+            "Amount_Claimed": 318.16,
+            "Amount_Piad": 309.2,
+            "Claims_Documents": [
+              {
+                "Claim_ID": 24,
+                "Document_Type_Code": "Document",
+                "Created_by_Staff_ID": 718,
+                "Created_Date": 8
+              }
+            ],
+            "Claims_Processing": [
+              {
+                "Claim_Processing_ID": 720,
+                "Claim_ID": 24,
+                "Claim_Outcome_Code": "In progress",
+                "Claim_Stage_ID": 1,
+                "Staff_ID": 822
+              },
+              {
+                "Claim_Processing_ID": 898,
+                "Claim_ID": 24,
+                "Claim_Outcome_Code": "In progress",
+                "Claim_Stage_ID": 1,
+                "Staff_ID": 718
+              }
+            ]
+          },
+          {
+            "Claim_Header_ID": 27,
+            "Claim_Status_Code": "Disputed",
+            "Claim_Type_Code": "Overtime Meal Subsidy",
+            "Policy_ID": 518,
+            "Date_of_Claim": "2017-05-01 13:34:43",
+            "Date_of_Settlement": "2017-11-16 04:06:05",
+            "Amount_Claimed": 362.71,
+            "Amount_Piad": 132.97,
+            "Claims_Documents": [
+              {
+                "Claim_ID": 27,
+                "Document_Type_Code": "Document",
+                "Created_by_Staff_ID": 986,
+                "Created_Date": 6
+              },
+              {
+                "Claim_ID": 27,
+                "Document_Type_Code": "Medical",
+                "Created_by_Staff_ID": 427,
+                "Created_Date": 8
+              }
+            ],
+            "Claims_Processing": [
+              {
+                "Claim_Processing_ID": 213,
+                "Claim_ID": 27,
+                "Claim_Outcome_Code": "In progress",
+                "Claim_Stage_ID": 1,
+                "Staff_ID": 589
+              },
+              {
+                "Claim_Processing_ID": 686,
+                "Claim_ID": 27,
+                "Claim_Outcome_Code": "Settled",
+                "Claim_Stage_ID": 1,
+                "Staff_ID": 718
+              }
+            ]
+          },
+          {
+            "Claim_Header_ID": 34,
+            "Claim_Status_Code": "Disputed",
+            "Claim_Type_Code": "Handphone Subsidy",
+            "Policy_ID": 518,
+            "Date_of_Claim": "2016-04-10 01:36:18",
+            "Date_of_Settlement": "2017-10-17 07:02:17",
+            "Amount_Claimed": 270.49,
+            "Amount_Piad": 643.82,
+            "Claims_Documents": [],
+            "Claims_Processing": [
+              {
+                "Claim_Processing_ID": 309,
+                "Claim_ID": 34,
+                "Claim_Outcome_Code": "Disputed",
+                "Claim_Stage_ID": 3,
+                "Staff_ID": 771
+              }
+            ]
+          },
+          {
+            "Claim_Header_ID": 39,
+            "Claim_Status_Code": "In Progress",
+            "Claim_Type_Code": "Handphone Subsidy",
+            "Policy_ID": 518,
+            "Date_of_Claim": "2016-09-17 05:05:07",
+            "Date_of_Settlement": "2018-01-07 05:28:53",
+            "Amount_Claimed": 616.12,
+            "Amount_Piad": 773.5,
+            "Claims_Documents": [
+              {
+                "Claim_ID": 39,
+                "Document_Type_Code": "Document",
+                "Created_by_Staff_ID": 803,
+                "Created_Date": 2
+              }
+            ],
+            "Claims_Processing": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Customer_ID": 810,
+    "Customer_Details": "Mr. Randal Lynch III",
+    "Policies": []
+  },
+  {
+    "Customer_ID": 857,
+    "Customer_Details": "Mrs. Liza Heller V",
+    "Policies": [
+      {
+        "Policy_ID": 299,
+        "Customer_ID": 857,
+        "Policy_Type_Code": "Uniformed",
+        "Start_Date": "2018-03-13 12:30:19",
+        "End_Date": "2018-01-22 05:24:10",
+        "Claim_Headers": []
+      }
+    ]
+  },
+  {
+    "Customer_ID": 858,
+    "Customer_Details": "Mrs. Lilly Graham III",
+    "Policies": [
+      {
+        "Policy_ID": 507,
+        "Customer_ID": 858,
+        "Policy_Type_Code": "Uniformed",
+        "Start_Date": "2017-03-19 03:11:19",
+        "End_Date": "2017-11-01 00:41:27",
+        "Claim_Headers": [
+          {
+            "Claim_Header_ID": 45,
+            "Claim_Status_Code": "In Progress",
+            "Claim_Type_Code": "Handphone Subsidy",
+            "Policy_ID": 507,
+            "Date_of_Claim": "2016-06-12 23:04:58",
+            "Date_of_Settlement": "2018-01-16 06:35:15",
+            "Amount_Claimed": 676.81,
+            "Amount_Piad": 289.09,
+            "Claims_Documents": [
+              {
+                "Claim_ID": 45,
+                "Document_Type_Code": "Medical",
+                "Created_by_Staff_ID": 687,
+                "Created_Date": 9
+              }
+            ],
+            "Claims_Processing": [
+              {
+                "Claim_Processing_ID": 221,
+                "Claim_ID": 45,
+                "Claim_Outcome_Code": "Disputed",
+                "Claim_Stage_ID": 1,
+                "Staff_ID": 427
+              },
+              {
+                "Claim_Processing_ID": 480,
+                "Claim_ID": 45,
+                "Claim_Outcome_Code": "In progress",
+                "Claim_Stage_ID": 1,
+                "Staff_ID": 822
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Customer_ID": 994,
+    "Customer_Details": "Miss Felicita Reichel",
+    "Policies": [
+      {
+        "Policy_ID": 936,
+        "Customer_ID": 994,
+        "Policy_Type_Code": "Jurisdiction",
+        "Start_Date": "2016-07-23 04:08:35",
+        "End_Date": "2017-10-07 08:29:25",
+        "Claim_Headers": []
+      }
+    ]
+  }
+]

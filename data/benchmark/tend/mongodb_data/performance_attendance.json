@@ -1,0 +1,223 @@
+{
+    "performance": [
+        {
+            "Performance_ID": 1.0,
+            "Date": "February 2",
+            "Host": "Boston Bruins",
+            "Location": "TD Garden",
+            "Attendance": 165,
+            "member_attendance": [
+                {
+                    "Member_ID": 2,
+                    "Performance_ID": 1,
+                    "Num_of_Pieces": 1
+                },
+                {
+                    "Member_ID": 3,
+                    "Performance_ID": 1,
+                    "Num_of_Pieces": 1
+                },
+                {
+                    "Member_ID": 5,
+                    "Performance_ID": 1,
+                    "Num_of_Pieces": 2
+                }
+            ]
+        },
+        {
+            "Performance_ID": 2.0,
+            "Date": "February 4",
+            "Host": "New York Rangers",
+            "Location": "Madison Square Garden",
+            "Attendance": 1820,
+            "member_attendance": [
+                {
+                    "Member_ID": 7,
+                    "Performance_ID": 2,
+                    "Num_of_Pieces": 3
+                }
+            ]
+        },
+        {
+            "Performance_ID": 3.0,
+            "Date": "February 5",
+            "Host": "Atlanta Thrashers",
+            "Location": "Verizon Center",
+            "Attendance": 1878,
+            "member_attendance": [
+                {
+                    "Member_ID": 11,
+                    "Performance_ID": 3,
+                    "Num_of_Pieces": 2
+                },
+                {
+                    "Member_ID": 4,
+                    "Performance_ID": 3,
+                    "Num_of_Pieces": 2
+                }
+            ]
+        },
+        {
+            "Performance_ID": 4.0,
+            "Date": "February 7",
+            "Host": "Pittsburgh Penguins",
+            "Location": "Verizon Center",
+            "Attendance": 1877,
+            "member_attendance": [
+                {
+                    "Member_ID": 1,
+                    "Performance_ID": 4,
+                    "Num_of_Pieces": 4
+                }
+            ]
+        },
+        {
+            "Performance_ID": 5.0,
+            "Date": "February 10",
+            "Host": "Montreal Canadiens",
+            "Location": "Bell Centre",
+            "Attendance": 2173,
+            "member_attendance": []
+        },
+        {
+            "Performance_ID": 6.0,
+            "Date": "February 11",
+            "Host": "Ottawa Senators",
+            "Location": "Scotiabank Place",
+            "Attendance": 1982,
+            "member_attendance": [
+                {
+                    "Member_ID": 4,
+                    "Performance_ID": 6,
+                    "Num_of_Pieces": 4
+                }
+            ]
+        }
+    ],
+    "member": [
+        {
+            "Member_ID": "1",
+            "Name": "Wilfredo Ruiz",
+            "Nationality": "Uruguay",
+            "Role": "Prime Violin",
+            "member_attendance": [
+                {
+                    "Member_ID": 1,
+                    "Performance_ID": 4,
+                    "Num_of_Pieces": 4
+                }
+            ]
+        },
+        {
+            "Member_ID": "2",
+            "Name": "Luis Gonz\u00e1lez",
+            "Nationality": "Argentina",
+            "Role": "Violin",
+            "member_attendance": [
+                {
+                    "Member_ID": 2,
+                    "Performance_ID": 1,
+                    "Num_of_Pieces": 1
+                }
+            ]
+        },
+        {
+            "Member_ID": "3",
+            "Name": "H\u00e9ctor Campana",
+            "Nationality": "Argentina",
+            "Role": "Violin",
+            "member_attendance": [
+                {
+                    "Member_ID": 3,
+                    "Performance_ID": 1,
+                    "Num_of_Pieces": 1
+                }
+            ]
+        },
+        {
+            "Member_ID": "4",
+            "Name": "H\u00e9ctor Campana",
+            "Nationality": "Argentina",
+            "Role": "Violin",
+            "member_attendance": [
+                {
+                    "Member_ID": 4,
+                    "Performance_ID": 3,
+                    "Num_of_Pieces": 2
+                },
+                {
+                    "Member_ID": 4,
+                    "Performance_ID": 6,
+                    "Num_of_Pieces": 4
+                }
+            ]
+        },
+        {
+            "Member_ID": "5",
+            "Name": "Juan Espil",
+            "Nationality": "Argentina",
+            "Role": "Viola",
+            "member_attendance": [
+                {
+                    "Member_ID": 5,
+                    "Performance_ID": 1,
+                    "Num_of_Pieces": 2
+                }
+            ]
+        },
+        {
+            "Member_ID": "6",
+            "Name": "Andrew Moten",
+            "Nationality": "United States",
+            "Role": "Viola",
+            "member_attendance": []
+        },
+        {
+            "Member_ID": "7",
+            "Name": "Charlie Burke",
+            "Nationality": "United States",
+            "Role": "Viola",
+            "member_attendance": [
+                {
+                    "Member_ID": 7,
+                    "Performance_ID": 2,
+                    "Num_of_Pieces": 3
+                }
+            ]
+        },
+        {
+            "Member_ID": "8",
+            "Name": "Corey Allen",
+            "Nationality": "United States",
+            "Role": "Cello",
+            "member_attendance": []
+        },
+        {
+            "Member_ID": "9",
+            "Name": "John Eubanks",
+            "Nationality": "United States",
+            "Role": "Cello",
+            "member_attendance": []
+        },
+        {
+            "Member_ID": "10",
+            "Name": "Joshua Pittman",
+            "Nationality": "United States",
+            "Role": "Bass",
+            "member_attendance": []
+        },
+        {
+            "Member_ID": "11",
+            "Name": "Joseph Bunn",
+            "Nationality": "United States",
+            "Role": "Bass",
+            "member_attendance": [
+                {
+                    "Member_ID": 11,
+                    "Performance_ID": 3,
+                    "Num_of_Pieces": 2
+                }
+            ]
+        }
+    ]
+}

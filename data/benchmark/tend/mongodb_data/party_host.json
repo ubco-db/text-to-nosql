@@ -1,0 +1,219 @@
+{
+    "party": [
+        {
+            "Party_ID": 1,
+            "Party_Theme": "Spring",
+            "Location": "Hemkade 48 Zaandam",
+            "First_year": "2000",
+            "Last_year": "2001",
+            "Number_of_hosts": 5,
+            "party_host": [
+                {
+                    "Party_ID": 1,
+                    "Host_ID": 1,
+                    "Is_Main_in_Charge": "T"
+                }
+            ]
+        },
+        {
+            "Party_ID": 2,
+            "Party_Theme": "Club Q-BASE",
+            "Location": "Hemkade 48 Zaandam",
+            "First_year": "2002",
+            "Last_year": "2002",
+            "Number_of_hosts": 23,
+            "party_host": [
+                {
+                    "Party_ID": 2,
+                    "Host_ID": 5,
+                    "Is_Main_in_Charge": "F"
+                }
+            ]
+        },
+        {
+            "Party_ID": 3,
+            "Party_Theme": "Hardcore Resurrection",
+            "Location": "Various locations",
+            "First_year": "2000",
+            "Last_year": "2003",
+            "Number_of_hosts": 4,
+            "party_host": []
+        },
+        {
+            "Party_ID": 4,
+            "Party_Theme": "Teqnology",
+            "Location": "Heineken Music Hall Amsterdam",
+            "First_year": "2002",
+            "Last_year": "2004",
+            "Number_of_hosts": 6,
+            "party_host": [
+                {
+                    "Party_ID": 4,
+                    "Host_ID": 2,
+                    "Is_Main_in_Charge": "T"
+                }
+            ]
+        },
+        {
+            "Party_ID": 5,
+            "Party_Theme": "Qlubtempo",
+            "Location": "Hemkade 48 Zaandam, Heineken Music Hall Amsterdam",
+            "First_year": "2001",
+            "Last_year": "2007",
+            "Number_of_hosts": 31,
+            "party_host": []
+        },
+        {
+            "Party_ID": 6,
+            "Party_Theme": "QrimeTime",
+            "Location": "Heineken Music Hall Amsterdam",
+            "First_year": "2004",
+            "Last_year": "2007",
+            "Number_of_hosts": 4,
+            "party_host": [
+                {
+                    "Party_ID": 6,
+                    "Host_ID": 3,
+                    "Is_Main_in_Charge": "T"
+                },
+                {
+                    "Party_ID": 6,
+                    "Host_ID": 10,
+                    "Is_Main_in_Charge": "F"
+                }
+            ]
+        },
+        {
+            "Party_ID": 7,
+            "Party_Theme": "In Qontrol",
+            "Location": "RAI Amsterdam",
+            "First_year": "2004",
+            "Last_year": "2010",
+            "Number_of_hosts": 7,
+            "party_host": []
+        },
+        {
+            "Party_ID": 8,
+            "Party_Theme": "Houseqlassics",
+            "Location": "Various locations",
+            "First_year": "1999",
+            "Last_year": "2010",
+            "Number_of_hosts": 18,
+            "party_host": [
+                {
+                    "Party_ID": 8,
+                    "Host_ID": 7,
+                    "Is_Main_in_Charge": "T"
+                }
+            ]
+        }
+    ],
+    "host": [
+        {
+            "Host_ID": 1,
+            "Name": "Austin Daye",
+            "Nationality": "United States",
+            "Age": "43",
+            "party_host": [
+                {
+                    "Party_ID": 1,
+                    "Host_ID": 1,
+                    "Is_Main_in_Charge": "T"
+                }
+            ]
+        },
+        {
+            "Host_ID": 2,
+            "Name": "Lloyd Daniels",
+            "Nationality": "United States",
+            "Age": "37",
+            "party_host": [
+                {
+                    "Party_ID": 4,
+                    "Host_ID": 2,
+                    "Is_Main_in_Charge": "T"
+                }
+            ]
+        },
+        {
+            "Host_ID": 3,
+            "Name": "Kornel David",
+            "Nationality": "Hungary",
+            "Age": "31",
+            "party_host": [
+                {
+                    "Party_ID": 6,
+                    "Host_ID": 3,
+                    "Is_Main_in_Charge": "T"
+                }
+            ]
+        },
+        {
+            "Host_ID": 4,
+            "Name": "Antonio Davis",
+            "Nationality": "United States",
+            "Age": "26",
+            "party_host": []
+        },
+        {
+            "Host_ID": 5,
+            "Name": "Ed Davis",
+            "Nationality": "United States",
+            "Age": "45",
+            "party_host": [
+                {
+                    "Party_ID": 2,
+                    "Host_ID": 5,
+                    "Is_Main_in_Charge": "F"
+                }
+            ]
+        },
+        {
+            "Host_ID": 6,
+            "Name": "Hubert Davis",
+            "Nationality": "United States",
+            "Age": "47",
+            "party_host": []
+        },
+        {
+            "Host_ID": 7,
+            "Name": "Carlos Delfino",
+            "Nationality": "Argentina",
+            "Age": "30",
+            "party_host": [
+                {
+                    "Party_ID": 8,
+                    "Host_ID": 7,
+                    "Is_Main_in_Charge": "T"
+                }
+            ]
+        },
+        {
+            "Host_ID": 8,
+            "Name": "Justin Dentmon",
+            "Nationality": "United States",
+            "Age": "40",
+            "party_host": []
+        },
+        {
+            "Host_ID": 9,
+            "Name": "DeMar DeRozan",
+            "Nationality": "United States",
+            "Age": "31",
+            "party_host": []
+        },
+        {
+            "Host_ID": 10,
+            "Name": "Derrick Dial",
+            "Nationality": "United States",
+            "Age": "60",
+            "party_host": [
+                {
+                    "Party_ID": 6,
+                    "Host_ID": 10,
+                    "Is_Main_in_Charge": "F"
+                }
+            ]
+        }
+    ]
+}

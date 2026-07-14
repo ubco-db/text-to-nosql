@@ -1,0 +1,751 @@
+{
+    "Accounts": [
+        {
+            "account_id": 1,
+            "customer_id": 6,
+            "account_name": "338",
+            "other_account_details": "Regular",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 7,
+                    "previous_transaction_id": 368,
+                    "account_id": 1,
+                    "card_id": 6,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 05:13:42",
+                    "transaction_amount": 1483.05,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "account_id": 2,
+            "customer_id": 14,
+            "account_name": "562",
+            "other_account_details": "VIP",
+            "Financial_Transactions": []
+        },
+        {
+            "account_id": 3,
+            "customer_id": 9,
+            "account_name": "162",
+            "other_account_details": "VIP",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 2,
+                    "previous_transaction_id": 494,
+                    "account_id": 3,
+                    "card_id": 2,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 12:08:55",
+                    "transaction_amount": 1931.76,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "account_id": 4,
+            "customer_id": 12,
+            "account_name": "038",
+            "other_account_details": "Regular",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 3,
+                    "previous_transaction_id": 642,
+                    "account_id": 4,
+                    "card_id": 3,
+                    "transaction_type": "Payment",
+                    "transaction_date": "2018-03-24 09:08:27",
+                    "transaction_amount": 486.56,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "account_id": 5,
+            "customer_id": 13,
+            "account_name": "858",
+            "other_account_details": "Regular",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 10,
+                    "previous_transaction_id": 495,
+                    "account_id": 5,
+                    "card_id": 7,
+                    "transaction_type": "Payment",
+                    "transaction_date": "2018-03-24 05:45:57",
+                    "transaction_amount": 1795.66,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "account_id": 6,
+            "customer_id": 12,
+            "account_name": "262",
+            "other_account_details": "Regular",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 8,
+                    "previous_transaction_id": 924,
+                    "account_id": 6,
+                    "card_id": 7,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 14:47:05",
+                    "transaction_amount": 1194.48,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "account_id": 7,
+            "customer_id": 9,
+            "account_name": "621",
+            "other_account_details": "Regular",
+            "Financial_Transactions": []
+        },
+        {
+            "account_id": 8,
+            "customer_id": 8,
+            "account_name": "381",
+            "other_account_details": "Regular",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 15,
+                    "previous_transaction_id": 203,
+                    "account_id": 8,
+                    "card_id": 12,
+                    "transaction_type": "Payment",
+                    "transaction_date": "2018-03-24 10:48:34",
+                    "transaction_amount": 1529.97,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "account_id": 9,
+            "customer_id": 9,
+            "account_name": "546",
+            "other_account_details": "Regular",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 9,
+                    "previous_transaction_id": 296,
+                    "account_id": 9,
+                    "card_id": 6,
+                    "transaction_type": "Payment",
+                    "transaction_date": "2018-03-24 05:31:43",
+                    "transaction_amount": 1475.56,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "account_id": 10,
+            "customer_id": 4,
+            "account_name": "767",
+            "other_account_details": "VIP",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 12,
+                    "previous_transaction_id": 986,
+                    "account_id": 10,
+                    "card_id": 9,
+                    "transaction_type": "Payment",
+                    "transaction_date": "2018-03-24 15:17:49",
+                    "transaction_amount": 1658.32,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                },
+                {
+                    "transaction_id": 14,
+                    "previous_transaction_id": 965,
+                    "account_id": 10,
+                    "card_id": 12,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 16:31:34",
+                    "transaction_amount": 945.43,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "account_id": 11,
+            "customer_id": 4,
+            "account_name": "022",
+            "other_account_details": "VIP",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 11,
+                    "previous_transaction_id": 333,
+                    "account_id": 11,
+                    "card_id": 7,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 10:39:09",
+                    "transaction_amount": 462.63,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "account_id": 12,
+            "customer_id": 2,
+            "account_name": "866",
+            "other_account_details": "VIP",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 6,
+                    "previous_transaction_id": 958,
+                    "account_id": 12,
+                    "card_id": 6,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 11:48:28",
+                    "transaction_amount": 1967.75,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "account_id": 13,
+            "customer_id": 10,
+            "account_name": "234",
+            "other_account_details": "VIP",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 5,
+                    "previous_transaction_id": 947,
+                    "account_id": 13,
+                    "card_id": 5,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-23 21:43:32",
+                    "transaction_amount": 357.06,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "account_id": 14,
+            "customer_id": 9,
+            "account_name": "557",
+            "other_account_details": "VIP",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 13,
+                    "previous_transaction_id": 885,
+                    "account_id": 14,
+                    "card_id": 11,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 17:00:41",
+                    "transaction_amount": 1298.73,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "account_id": 15,
+            "customer_id": 4,
+            "account_name": "725",
+            "other_account_details": "VIP",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 1,
+                    "previous_transaction_id": 925,
+                    "account_id": 15,
+                    "card_id": 1,
+                    "transaction_type": "Payment",
+                    "transaction_date": "2018-03-24 06:41:41",
+                    "transaction_amount": 1701.23,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                },
+                {
+                    "transaction_id": 4,
+                    "previous_transaction_id": 457,
+                    "account_id": 15,
+                    "card_id": 4,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-23 21:59:28",
+                    "transaction_amount": 1336.21,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        }
+    ],
+    "Customers_Cards": [
+        {
+            "card_id": 1,
+            "customer_id": 14,
+            "card_type_code": "Credit",
+            "card_number": "4560596484842",
+            "date_valid_from": "2011-04-17 09:05:28",
+            "date_valid_to": "2018-03-07 17:06:19",
+            "other_card_details": "5567915676420343",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 1,
+                    "previous_transaction_id": 925,
+                    "account_id": 15,
+                    "card_id": 1,
+                    "transaction_type": "Payment",
+                    "transaction_date": "2018-03-24 06:41:41",
+                    "transaction_amount": 1701.23,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "card_id": 2,
+            "customer_id": 9,
+            "card_type_code": "Credit",
+            "card_number": "4859448397570735",
+            "date_valid_from": "2012-05-22 02:05:41",
+            "date_valid_to": "2018-02-25 15:43:32",
+            "other_card_details": "4539333582760",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 2,
+                    "previous_transaction_id": 494,
+                    "account_id": 3,
+                    "card_id": 2,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 12:08:55",
+                    "transaction_amount": 1931.76,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "card_id": 3,
+            "customer_id": 6,
+            "card_type_code": "Debit",
+            "card_number": "348237249146948",
+            "date_valid_from": "2014-08-01 14:26:45",
+            "date_valid_to": "2018-03-24 15:29:00",
+            "other_card_details": "4916210554814",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 3,
+                    "previous_transaction_id": 642,
+                    "account_id": 4,
+                    "card_id": 3,
+                    "transaction_type": "Payment",
+                    "transaction_date": "2018-03-24 09:08:27",
+                    "transaction_amount": 486.56,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "card_id": 4,
+            "customer_id": 15,
+            "card_type_code": "Credit",
+            "card_number": "4485460762694",
+            "date_valid_from": "2009-11-05 09:26:01",
+            "date_valid_to": "2018-03-19 05:34:08",
+            "other_card_details": "5296134475180061",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 4,
+                    "previous_transaction_id": 457,
+                    "account_id": 15,
+                    "card_id": 4,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-23 21:59:28",
+                    "transaction_amount": 1336.21,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "card_id": 5,
+            "customer_id": 13,
+            "card_type_code": "Credit",
+            "card_number": "5122249720639438",
+            "date_valid_from": "2015-12-21 22:07:49",
+            "date_valid_to": "2018-03-22 08:31:28",
+            "other_card_details": "5388642773088467",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 5,
+                    "previous_transaction_id": 947,
+                    "account_id": 13,
+                    "card_id": 5,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-23 21:43:32",
+                    "transaction_amount": 357.06,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "card_id": 6,
+            "customer_id": 10,
+            "card_type_code": "Debit",
+            "card_number": "5102229294602335",
+            "date_valid_from": "2017-01-01 13:34:04",
+            "date_valid_to": "2018-03-11 01:12:33",
+            "other_card_details": "5513587359761653",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 6,
+                    "previous_transaction_id": 958,
+                    "account_id": 12,
+                    "card_id": 6,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 11:48:28",
+                    "transaction_amount": 1967.75,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                },
+                {
+                    "transaction_id": 7,
+                    "previous_transaction_id": 368,
+                    "account_id": 1,
+                    "card_id": 6,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 05:13:42",
+                    "transaction_amount": 1483.05,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                },
+                {
+                    "transaction_id": 9,
+                    "previous_transaction_id": 296,
+                    "account_id": 9,
+                    "card_id": 6,
+                    "transaction_type": "Payment",
+                    "transaction_date": "2018-03-24 05:31:43",
+                    "transaction_amount": 1475.56,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "card_id": 7,
+            "customer_id": 9,
+            "card_type_code": "Credit",
+            "card_number": "4716674779726",
+            "date_valid_from": "2016-12-11 03:01:12",
+            "date_valid_to": "2018-03-15 06:27:45",
+            "other_card_details": "6011771512810699",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 8,
+                    "previous_transaction_id": 924,
+                    "account_id": 6,
+                    "card_id": 7,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 14:47:05",
+                    "transaction_amount": 1194.48,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                },
+                {
+                    "transaction_id": 10,
+                    "previous_transaction_id": 495,
+                    "account_id": 5,
+                    "card_id": 7,
+                    "transaction_type": "Payment",
+                    "transaction_date": "2018-03-24 05:45:57",
+                    "transaction_amount": 1795.66,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                },
+                {
+                    "transaction_id": 11,
+                    "previous_transaction_id": 333,
+                    "account_id": 11,
+                    "card_id": 7,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 10:39:09",
+                    "transaction_amount": 462.63,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "card_id": 8,
+            "customer_id": 12,
+            "card_type_code": "Credit",
+            "card_number": "6011225247353230",
+            "date_valid_from": "2016-09-17 13:31:05",
+            "date_valid_to": "2018-03-24 00:38:54",
+            "other_card_details": "5428692691195935",
+            "Financial_Transactions": []
+        },
+        {
+            "card_id": 9,
+            "customer_id": 3,
+            "card_type_code": "Debit",
+            "card_number": "4929590358481",
+            "date_valid_from": "2015-03-27 02:01:12",
+            "date_valid_to": "2018-03-12 02:16:45",
+            "other_card_details": "5307019264041461",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 12,
+                    "previous_transaction_id": 986,
+                    "account_id": 10,
+                    "card_id": 9,
+                    "transaction_type": "Payment",
+                    "transaction_date": "2018-03-24 15:17:49",
+                    "transaction_amount": 1658.32,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "card_id": 10,
+            "customer_id": 10,
+            "card_type_code": "Debit",
+            "card_number": "4532488235104",
+            "date_valid_from": "2011-06-15 23:10:10",
+            "date_valid_to": "2018-03-17 21:27:32",
+            "other_card_details": "5571147786750739",
+            "Financial_Transactions": []
+        },
+        {
+            "card_id": 11,
+            "customer_id": 8,
+            "card_type_code": "Debit",
+            "card_number": "4707949584519",
+            "date_valid_from": "2013-11-17 02:58:22",
+            "date_valid_to": "2018-03-14 14:00:07",
+            "other_card_details": "377852690396160",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 13,
+                    "previous_transaction_id": 885,
+                    "account_id": 14,
+                    "card_id": 11,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 17:00:41",
+                    "transaction_amount": 1298.73,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "card_id": 12,
+            "customer_id": 3,
+            "card_type_code": "Debit",
+            "card_number": "4929896676202959",
+            "date_valid_from": "2015-05-09 04:05:26",
+            "date_valid_to": "2018-03-16 16:00:19",
+            "other_card_details": "4556142375374",
+            "Financial_Transactions": [
+                {
+                    "transaction_id": 14,
+                    "previous_transaction_id": 965,
+                    "account_id": 10,
+                    "card_id": 12,
+                    "transaction_type": "Refund",
+                    "transaction_date": "2018-03-24 16:31:34",
+                    "transaction_amount": 945.43,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                },
+                {
+                    "transaction_id": 15,
+                    "previous_transaction_id": 203,
+                    "account_id": 8,
+                    "card_id": 12,
+                    "transaction_type": "Payment",
+                    "transaction_date": "2018-03-24 10:48:34",
+                    "transaction_amount": 1529.97,
+                    "transaction_comment": null,
+                    "other_transaction_details": null
+                }
+            ]
+        },
+        {
+            "card_id": 13,
+            "customer_id": 2,
+            "card_type_code": "Credit",
+            "card_number": "5484846021884483",
+            "date_valid_from": "2008-08-20 17:59:51",
+            "date_valid_to": "2018-03-20 02:08:02",
+            "other_card_details": "4916493714393",
+            "Financial_Transactions": []
+        },
+        {
+            "card_id": 14,
+            "customer_id": 5,
+            "card_type_code": "Debit",
+            "card_number": "4929384762825",
+            "date_valid_from": "2013-05-23 07:55:36",
+            "date_valid_to": "2018-03-11 06:05:44",
+            "other_card_details": "4485258248930151",
+            "Financial_Transactions": []
+        },
+        {
+            "card_id": 15,
+            "customer_id": 2,
+            "card_type_code": "Debit",
+            "card_number": "345475370003028",
+            "date_valid_from": "2014-07-03 20:19:31",
+            "date_valid_to": "2018-02-28 22:26:31",
+            "other_card_details": "4716851737494984",
+            "Financial_Transactions": []
+        }
+    ],
+    "Customers": [
+        {
+            "customer_id": 1,
+            "customer_first_name": "Aniyah",
+            "customer_last_name": "Feest",
+            "customer_address": "55975 Theodore Estates\nLake Brody, VT 57078",
+            "customer_phone": "(673)872-5338",
+            "customer_email": "fahey.dorian@example.com",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 2,
+            "customer_first_name": "Susie",
+            "customer_last_name": "Wiza",
+            "customer_address": "6478 Moen Isle Suite 910\nSchimmelmouth, VT 96364-4898",
+            "customer_phone": "679-845-8645x94312",
+            "customer_email": "idickinson@example.com",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 3,
+            "customer_first_name": "Marcel",
+            "customer_last_name": "Brekke",
+            "customer_address": "1965 Abernathy Plains\nPort Lilla, LA 44867",
+            "customer_phone": "1-511-656-6664",
+            "customer_email": "nichole.rodriguez@example.com",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 4,
+            "customer_first_name": "Art",
+            "customer_last_name": "Turcotte",
+            "customer_address": "6862 Domenic Port\nNew Elbert, DE 86980-8517",
+            "customer_phone": "941-213-6716x675",
+            "customer_email": "enrique59@example.com",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 5,
+            "customer_first_name": "Armani",
+            "customer_last_name": "Farrell",
+            "customer_address": "3031 Ludwig Square\nUnaview, SC 86336-3287",
+            "customer_phone": "224-123-1012",
+            "customer_email": "dauer@example.net",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 6,
+            "customer_first_name": "Kiel",
+            "customer_last_name": "Schinner",
+            "customer_address": "19935 Allie Bypass Apt. 409\nColeberg, FL 69194-5357",
+            "customer_phone": "1-564-044-3909",
+            "customer_email": "ebert.omer@example.net",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 7,
+            "customer_first_name": "Izabella",
+            "customer_last_name": "Erdman",
+            "customer_address": "23793 Athena Inlet Apt. 455\nSchmidtmouth, NH 15794",
+            "customer_phone": "751.049.9948",
+            "customer_email": "kling.catalina@example.com",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 8,
+            "customer_first_name": "Elyssa",
+            "customer_last_name": "Lind",
+            "customer_address": "094 Julianne Mill\nWebstertown, KY 91980-4004",
+            "customer_phone": "+12(6)9024410984",
+            "customer_email": "dell13@example.com",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 9,
+            "customer_first_name": "Faustino",
+            "customer_last_name": "Langworth",
+            "customer_address": "0748 Lola Union Apt. 874\nReynoldsfurt, NM 94584-3767",
+            "customer_phone": "284.749.0453",
+            "customer_email": "ahomenick@example.org",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 10,
+            "customer_first_name": "Axel",
+            "customer_last_name": "Effertz",
+            "customer_address": "936 Lula Overpass\nEast Alisonville, NH 14890",
+            "customer_phone": "+90(8)1290735932",
+            "customer_email": "kyra.murazik@example.org",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 11,
+            "customer_first_name": "Frederic",
+            "customer_last_name": "Swift",
+            "customer_address": "7127 Hilpert Parks\nSouth Johnfort, SD 67577-9504",
+            "customer_phone": "1-207-977-5182",
+            "customer_email": "keegan16@example.com",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 12,
+            "customer_first_name": "Bryce",
+            "customer_last_name": "Rath",
+            "customer_address": "74962 Hugh Mills\nNorth Laurenland, KY 46376",
+            "customer_phone": "(415)237-0701x3115",
+            "customer_email": "grady.general@example.org",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 13,
+            "customer_first_name": "Serenity",
+            "customer_last_name": "Effertz",
+            "customer_address": "71560 Eulah Squares\nTorphyberg, OK 34312-0380",
+            "customer_phone": "1-894-567-2283",
+            "customer_email": "schaden.katrina@example.net",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 14,
+            "customer_first_name": "Blanche",
+            "customer_last_name": "Huels",
+            "customer_address": "47286 Mraz Park Apt. 424\nJocelynfurt, OH 59023-2787",
+            "customer_phone": "(703)950-4708x8972",
+            "customer_email": "huels.antonina@example.com",
+            "other_customer_details": null
+        },
+        {
+            "customer_id": 15,
+            "customer_first_name": "Nat",
+            "customer_last_name": "Davis",
+            "customer_address": "163 Collier Square\nNew Ceciltown, AL 64723-5646",
+            "customer_phone": "246-469-4472x359",
+            "customer_email": "earlene.carroll@example.net",
+            "other_customer_details": null
+        }
+    ]
+}

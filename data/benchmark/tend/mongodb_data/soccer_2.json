@@ -1,0 +1,153 @@
+{
+    "College": [
+        {
+            "cName": "LSU",
+            "state": "LA",
+            "enr": 18000,
+            "Tryout": [
+                {
+                    "pID": 10001,
+                    "cName": "LSU",
+                    "pPos": "goalie",
+                    "decision": "no"
+                },
+                {
+                    "pID": 50005,
+                    "cName": "LSU",
+                    "pPos": "mid",
+                    "decision": "no"
+                }
+            ]
+        },
+        {
+            "cName": "ASU",
+            "state": "AZ",
+            "enr": 12000,
+            "Tryout": [
+                {
+                    "pID": 10001,
+                    "cName": "ASU",
+                    "pPos": "goalie",
+                    "decision": "yes"
+                },
+                {
+                    "pID": 40004,
+                    "cName": "ASU",
+                    "pPos": "goalie",
+                    "decision": "no"
+                }
+            ]
+        },
+        {
+            "cName": "OU",
+            "state": "OK",
+            "enr": 22000,
+            "Tryout": [
+                {
+                    "pID": 30003,
+                    "cName": "OU",
+                    "pPos": "mid",
+                    "decision": "no"
+                }
+            ]
+        },
+        {
+            "cName": "FSU",
+            "state": "FL",
+            "enr": 19000,
+            "Tryout": [
+                {
+                    "pID": 20002,
+                    "cName": "FSU",
+                    "pPos": "striker",
+                    "decision": "yes"
+                }
+            ]
+        }
+    ],
+    "Player": [
+        {
+            "pID": 10001,
+            "pName": "Andrew",
+            "yCard": "no",
+            "HS": 1200,
+            "Tryout": [
+                {
+                    "pID": 10001,
+                    "cName": "ASU",
+                    "pPos": "goalie",
+                    "decision": "yes"
+                },
+                {
+                    "pID": 10001,
+                    "cName": "LSU",
+                    "pPos": "goalie",
+                    "decision": "no"
+                }
+            ]
+        },
+        {
+            "pID": 20002,
+            "pName": "Blake",
+            "yCard": "no",
+            "HS": 1600,
+            "Tryout": [
+                {
+                    "pID": 20002,
+                    "cName": "FSU",
+                    "pPos": "striker",
+                    "decision": "yes"
+                }
+            ]
+        },
+        {
+            "pID": 30003,
+            "pName": "Charles",
+            "yCard": "no",
+            "HS": 300,
+            "Tryout": [
+                {
+                    "pID": 30003,
+                    "cName": "OU",
+                    "pPos": "mid",
+                    "decision": "no"
+                }
+            ]
+        },
+        {
+            "pID": 40004,
+            "pName": "David",
+            "yCard": "yes",
+            "HS": 1600,
+            "Tryout": [
+                {
+                    "pID": 40004,
+                    "cName": "ASU",
+                    "pPos": "goalie",
+                    "decision": "no"
+                }
+            ]
+        },
+        {
+            "pID": 40002,
+            "pName": "Drago",
+            "yCard": "yes",
+            "HS": 1600,
+            "Tryout": []
+        },
+        {
+            "pID": 50005,
+            "pName": "Eddie",
+            "yCard": "yes",
+            "HS": 600,
+            "Tryout": [
+                {
+                    "pID": 50005,
+                    "cName": "LSU",
+                    "pPos": "mid",
+                    "decision": "no"
+                }
+            ]
+        }
+    ]
+}

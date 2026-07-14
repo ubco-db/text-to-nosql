@@ -1,0 +1,474 @@
+[
+  {
+    "School_ID": 1,
+    "School": "St Aloysius' College",
+    "Location": "Milsons Point",
+    "Enrollment": 1200.0,
+    "Founded": 1879.0,
+    "Denomination": "Catholic",
+    "Boys_or_Girls": "Boys",
+    "Day_or_Boarding": "Day",
+    "Year_Entered_Competition": 1929.0,
+    "School_Colors": "Royal Blue and Gold",
+    "school_details": [
+      {
+        "School_ID": 1,
+        "Nickname": "Tigers",
+        "Colors": "Blue and Yellow",
+        "League": "DSHA",
+        "Class": "Flight A",
+        "Division": "Division 1"
+      }
+    ],
+    "school_performance": [
+      {
+        "School_Id": 1,
+        "School_Year": "1987-88",
+        "Class_A": "Yantis",
+        "Class_AA": "Blanco"
+      },
+      {
+        "School_Id": 1,
+        "School_Year": "1988-89",
+        "Class_A": "Happy",
+        "Class_AA": "Blanco"
+      },
+      {
+        "School_Id": 1,
+        "School_Year": "1989-90",
+        "Class_A": "Skidmore-Tynan",
+        "Class_AA": "Bishop"
+      },
+      {
+        "School_Id": 1,
+        "School_Year": "1997-98",
+        "Class_A": "Martin's Mill",
+        "Class_AA": "Buffalo"
+      },
+      {
+        "School_Id": 1,
+        "School_Year": "2003-04",
+        "Class_A": "Martin's Mill",
+        "Class_AA": "S&S Consolidated"
+      },
+      {
+        "School_Id": 1,
+        "School_Year": "2006-07",
+        "Class_A": "Martin's Mill",
+        "Class_AA": "Weimar"
+      }
+    ],
+    "player": [
+      {
+        "Player_ID": 1,
+        "Player": "Timothy Beckham",
+        "Team": "Tampa Bay Devil Rays",
+        "Age": 15,
+        "Position": "Shortstop",
+        "School_ID": 1
+      },
+      {
+        "Player_ID": 3,
+        "Player": "Eric Hosmer",
+        "Team": "Kansas City Royals",
+        "Age": 16,
+        "Position": "First Baseman",
+        "School_ID": 1
+      },
+      {
+        "Player_ID": 4,
+        "Player": "Brian Matusz",
+        "Team": "Baltimore Orioles",
+        "Age": 17,
+        "Position": "Left-handed pitcher",
+        "School_ID": 1
+      },
+      {
+        "Player_ID": 7,
+        "Player": "Yonder Alonso",
+        "Team": "Cincinnati Reds",
+        "Age": 15,
+        "Position": "First baseman",
+        "School_ID": 1
+      },
+      {
+        "Player_ID": 8,
+        "Player": "Gordon Beckham",
+        "Team": "Chicago White Sox",
+        "Age": 16,
+        "Position": "Shortstop",
+        "School_ID": 1
+      },
+      {
+        "Player_ID": 9,
+        "Player": "Aaron Crow *",
+        "Team": "Washington Nationals",
+        "Age": 16,
+        "Position": "Right-handed pitcher",
+        "School_ID": 1
+      },
+      {
+        "Player_ID": 10,
+        "Player": "Jason Castro",
+        "Team": "Houston Astros",
+        "Age": 15,
+        "Position": "Catcher",
+        "School_ID": 1
+      },
+      {
+        "Player_ID": 11,
+        "Player": "Justin Smoak",
+        "Team": "Texas Rangers",
+        "Age": 15,
+        "Position": "First baseman",
+        "School_ID": 1
+      },
+      {
+        "Player_ID": 15,
+        "Player": "Ethan Martin",
+        "Team": "Los Angeles Dodgers",
+        "Age": 15,
+        "Position": "Right-handed pitcher",
+        "School_ID": 1
+      },
+      {
+        "Player_ID": 16,
+        "Player": "Brett Lawrie",
+        "Team": "Milwaukee Brewers",
+        "Age": 15,
+        "Position": "Catcher",
+        "School_ID": 1
+      },
+      {
+        "Player_ID": 17,
+        "Player": "David Cooper",
+        "Team": "Toronto Blue Jays",
+        "Age": 17,
+        "Position": "First baseman",
+        "School_ID": 1
+      }
+    ]
+  },
+  {
+    "School_ID": 2,
+    "School": "Barker College",
+    "Location": "Hornsby",
+    "Enrollment": 2300.0,
+    "Founded": 1890.0,
+    "Denomination": "Anglican",
+    "Boys_or_Girls": "Boys only to Yr 9 Co-ed Year 10 to 12",
+    "Day_or_Boarding": "Day & Boarding",
+    "Year_Entered_Competition": 1929.0,
+    "School_Colors": "Red & Blue",
+    "school_details": [
+      {
+        "School_ID": 2,
+        "Nickname": "Auks",
+        "Colors": "Dark Green and White",
+        "League": "DSHA",
+        "Class": "Flight B",
+        "Division": "Division 3"
+      }
+    ],
+    "school_performance": [
+      {
+        "School_Id": 2,
+        "School_Year": "1990-91",
+        "Class_A": "Louise",
+        "Class_AA": "Lytle"
+      },
+      {
+        "School_Id": 2,
+        "School_Year": "1991-92",
+        "Class_A": "Anton",
+        "Class_AA": "Clarendon"
+      },
+      {
+        "School_Id": 2,
+        "School_Year": "1998-99",
+        "Class_A": "Wheeler",
+        "Class_AA": "Van Alstyne"
+      },
+      {
+        "School_Id": 2,
+        "School_Year": "2002-03",
+        "Class_A": "Martin's Mill",
+        "Class_AA": "Hale Center"
+      },
+      {
+        "School_Id": 2,
+        "School_Year": "2004-05",
+        "Class_A": "Lindsay",
+        "Class_AA": "Salado"
+      }
+    ],
+    "player": [
+      {
+        "Player_ID": 2,
+        "Player": "Pedro \u00c1lvarez",
+        "Team": "Pittsburgh Pirates",
+        "Age": 14,
+        "Position": "Third baseman",
+        "School_ID": 2
+      },
+      {
+        "Player_ID": 5,
+        "Player": "Buster Posey",
+        "Team": "San Francisco Giants",
+        "Age": 15,
+        "Position": "Catcher",
+        "School_ID": 2
+      },
+      {
+        "Player_ID": 6,
+        "Player": "Kyle Skipworth",
+        "Team": "Florida Marlins",
+        "Age": 14,
+        "Position": "Catcher",
+        "School_ID": 2
+      },
+      {
+        "Player_ID": 12,
+        "Player": "Jemile Weeks",
+        "Team": "Oakland Athletics",
+        "Age": 15,
+        "Position": "Second baseman",
+        "School_ID": 2
+      }
+    ]
+  },
+  {
+    "School_ID": 3,
+    "School": "Cranbrook School",
+    "Location": "Bellevue Hill",
+    "Enrollment": 1000.0,
+    "Founded": 1918.0,
+    "Denomination": "Anglican",
+    "Boys_or_Girls": "Boys",
+    "Day_or_Boarding": "Day & Boarding",
+    "Year_Entered_Competition": 1929.0,
+    "School_Colors": "Red, White & Blue",
+    "school_details": [
+      {
+        "School_ID": 3,
+        "Nickname": "Buccaneers",
+        "Colors": "Garnet and White",
+        "League": "DSHA",
+        "Class": "Fight A",
+        "Division": "Division 1"
+      }
+    ],
+    "school_performance": [
+      {
+        "School_Id": 3,
+        "School_Year": "1992-93",
+        "Class_A": "Anton",
+        "Class_AA": "Wheeler"
+      },
+      {
+        "School_Id": 3,
+        "School_Year": "1994-95",
+        "Class_A": "Martin's Mill",
+        "Class_AA": "Wallis Brazos"
+      },
+      {
+        "School_Id": 3,
+        "School_Year": "1999-2000",
+        "Class_A": "Valley View",
+        "Class_AA": "Lindsay"
+      },
+      {
+        "School_Id": 3,
+        "School_Year": "2005-06",
+        "Class_A": "Quanah",
+        "Class_AA": "Salado"
+      }
+    ],
+    "player": [
+      {
+        "Player_ID": 21,
+        "Player": "Ryan Perry",
+        "Team": "Detroit Tigers",
+        "Age": 17,
+        "Position": "Right-handed pitcher",
+        "School_ID": 3
+      }
+    ]
+  },
+  {
+    "School_ID": 4,
+    "School": "Knox Grammar School",
+    "Location": "Wahroonga",
+    "Enrollment": 1850.0,
+    "Founded": 1924.0,
+    "Denomination": "Uniting Church",
+    "Boys_or_Girls": "Boys",
+    "Day_or_Boarding": "Day & Boarding",
+    "Year_Entered_Competition": 1929.0,
+    "School_Colors": "Black & Blue",
+    "school_details": [
+      {
+        "School_ID": 4,
+        "Nickname": "Raiders",
+        "Colors": "Maroon and White",
+        "League": "DSHA",
+        "Class": "Flight B",
+        "Division": "Division 3"
+      }
+    ],
+    "school_performance": [
+      {
+        "School_Id": 4,
+        "School_Year": "1993-94",
+        "Class_A": "Utopia",
+        "Class_AA": "Lytle"
+      },
+      {
+        "School_Id": 4,
+        "School_Year": "2008-09",
+        "Class_A": "Winters",
+        "Class_AA": "Dimmitt"
+      }
+    ],
+    "player": [
+      {
+        "Player_ID": 18,
+        "Player": "Ike Davis",
+        "Team": "New York Mets",
+        "Age": 15,
+        "Position": "First baseman",
+        "School_ID": 4
+      },
+      {
+        "Player_ID": 19,
+        "Player": "Andrew Cashner",
+        "Team": "Chicago Cubs",
+        "Age": 16,
+        "Position": "Right-handed pitcher",
+        "School_ID": 4
+      },
+      {
+        "Player_ID": 20,
+        "Player": "Josh Fields",
+        "Team": "Seattle Mariners",
+        "Age": 15,
+        "Position": "Right-handed pitcher",
+        "School_ID": 4
+      }
+    ]
+  },
+  {
+    "School_ID": 5,
+    "School": "Trinity Grammar School",
+    "Location": "Summer Hill",
+    "Enrollment": 2200.0,
+    "Founded": 1913.0,
+    "Denomination": "Anglican",
+    "Boys_or_Girls": "Boys",
+    "Day_or_Boarding": "Day & Boarding",
+    "Year_Entered_Competition": 1929.0,
+    "School_Colors": "Green and White",
+    "school_details": [
+      {
+        "School_ID": 5,
+        "Nickname": "Seahawks",
+        "Colors": "Blue and Gold",
+        "League": "DSHA",
+        "Class": "Flight B",
+        "Division": "Division 2"
+      }
+    ],
+    "school_performance": [
+      {
+        "School_Id": 5,
+        "School_Year": "1995-96",
+        "Class_A": "Lindsay",
+        "Class_AA": "Henrietta"
+      },
+      {
+        "School_Id": 5,
+        "School_Year": "2000-01",
+        "Class_A": "Menard",
+        "Class_AA": "Weimar"
+      }
+    ],
+    "player": [
+      {
+        "Player_ID": 13,
+        "Player": "Brett Wallace",
+        "Team": "St. Louis Cardinals",
+        "Age": 17,
+        "Position": "Third baseman",
+        "School_ID": 5
+      },
+      {
+        "Player_ID": 22,
+        "Player": "Reese Havens",
+        "Team": "New York Mets",
+        "Age": 18,
+        "Position": "Shortstop",
+        "School_ID": 5
+      },
+      {
+        "Player_ID": 23,
+        "Player": "Allan Dykstra",
+        "Team": "San Diego Padres",
+        "Age": 15,
+        "Position": "First baseman",
+        "School_ID": 5
+      }
+    ]
+  },
+  {
+    "School_ID": 6,
+    "School": "Waverley College",
+    "Location": "Waverley",
+    "Enrollment": 1430.0,
+    "Founded": 1903.0,
+    "Denomination": "Catholic",
+    "Boys_or_Girls": "Boys",
+    "Day_or_Boarding": "Day",
+    "Year_Entered_Competition": 1944.0,
+    "School_Colors": "Royal Blue and Gold",
+    "school_details": [
+      {
+        "School_ID": 6,
+        "Nickname": "Silver Eagles",
+        "Colors": "Silver and Maroon",
+        "League": "DSHA",
+        "Class": "Flight B",
+        "Division": "Division 3"
+      }
+    ],
+    "school_performance": [
+      {
+        "School_Id": 6,
+        "School_Year": "1996-97",
+        "Class_A": "Martin's Mill",
+        "Class_AA": "Canadian"
+      },
+      {
+        "School_Id": 6,
+        "School_Year": "2001-02",
+        "Class_A": "Santa Anna",
+        "Class_AA": "Hale Center"
+      },
+      {
+        "School_Id": 6,
+        "School_Year": "2007-08",
+        "Class_A": "Frost",
+        "Class_AA": "Weimar"
+      }
+    ],
+    "player": [
+      {
+        "Player_ID": 14,
+        "Player": "Aaron Hicks",
+        "Team": "Minnesota Twins",
+        "Age": 14,
+        "Position": "Outfielder",
+        "School_ID": 6
+      }
+    ]
+  }
+]

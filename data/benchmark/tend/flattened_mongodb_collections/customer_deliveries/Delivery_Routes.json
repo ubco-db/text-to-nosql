@@ -1,0 +1,330 @@
+[
+  {
+    "route_id": 1,
+    "route_name": "Torphy Ltd",
+    "other_route_details": "16893 Wilderman Terrace\nPort Lucasburgh, ND 55978-5550",
+    "Delivery_Route_Locations": []
+  },
+  {
+    "route_id": 2,
+    "route_name": "Heidenreich Group",
+    "other_route_details": "6534 Cheyenne Trace Suite 242\nKoryburgh, PA 21391-9164",
+    "Delivery_Route_Locations": [
+      {
+        "location_code": "34 Benz St",
+        "route_id": 2,
+        "location_address_id": 15,
+        "location_name": "Strosin, Hegmann and Abbott",
+        "Order_Deliveries": [
+          {
+            "location_code": "34 Benz St",
+            "actual_order_id": 14,
+            "delivery_status_code": "Delivered",
+            "driver_employee_id": 11,
+            "truck_id": 6,
+            "delivery_date": "2018-03-12 20:45:27"
+          },
+          {
+            "location_code": "34 Benz St",
+            "actual_order_id": 6,
+            "delivery_status_code": "Delivered",
+            "driver_employee_id": 2,
+            "truck_id": 10,
+            "delivery_date": "2018-03-06 22:39:17"
+          },
+          {
+            "location_code": "34 Benz St",
+            "actual_order_id": 5,
+            "delivery_status_code": "Delivered",
+            "driver_employee_id": 14,
+            "truck_id": 6,
+            "delivery_date": "2018-03-02 09:03:13"
+          },
+          {
+            "location_code": "34 Benz St",
+            "actual_order_id": 4,
+            "delivery_status_code": "On Road",
+            "driver_employee_id": 1,
+            "truck_id": 2,
+            "delivery_date": "2018-03-01 00:50:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route_id": 3,
+    "route_name": "Gerhold Inc",
+    "other_route_details": "70469 Unique Crest\nKatherynville, IA 92263-4974",
+    "Delivery_Route_Locations": []
+  },
+  {
+    "route_id": 4,
+    "route_name": "Huel, Armstrong and Senger",
+    "other_route_details": "534 Lubowitz Terrace\nLake Tomfort, LA 52697-4998",
+    "Delivery_Route_Locations": [
+      {
+        "location_code": "68 Denny St",
+        "route_id": 4,
+        "location_address_id": 7,
+        "location_name": "Ledner-Kozey",
+        "Order_Deliveries": []
+      }
+    ]
+  },
+  {
+    "route_id": 5,
+    "route_name": "Nader, Leuschke and Huels",
+    "other_route_details": "4627 Johnnie Centers\nLake Hipolitoton, RI 37305",
+    "Delivery_Route_Locations": []
+  },
+  {
+    "route_id": 6,
+    "route_name": "Abshire Ltd",
+    "other_route_details": "36578 Kirsten Terrace\nKrajcikside, NH 29063",
+    "Delivery_Route_Locations": []
+  },
+  {
+    "route_id": 7,
+    "route_name": "Adams, Macejkovic and Carroll",
+    "other_route_details": "941 Ritchie Plains Suite 833\nNorth Jerry, LA 32804-7405",
+    "Delivery_Route_Locations": [
+      {
+        "location_code": "30 Sam Rd",
+        "route_id": 7,
+        "location_address_id": 13,
+        "location_name": "VonRueden, Schmeler and Fay",
+        "Order_Deliveries": []
+      },
+      {
+        "location_code": "84 Temple Rd",
+        "route_id": 7,
+        "location_address_id": 2,
+        "location_name": "Leannon, Erdman and Schneider",
+        "Order_Deliveries": []
+      },
+      {
+        "location_code": "64 Kate Rd",
+        "route_id": 7,
+        "location_address_id": 12,
+        "location_name": "Dach Group",
+        "Order_Deliveries": []
+      }
+    ]
+  },
+  {
+    "route_id": 8,
+    "route_name": "Schowalter Group",
+    "other_route_details": "52417 Wiza Brook Apt. 000\nZechariahstad, WY 15885-3711",
+    "Delivery_Route_Locations": [
+      {
+        "location_code": "15 Sixth Av",
+        "route_id": 8,
+        "location_address_id": 6,
+        "location_name": "Pouros, Brakus and Konopelski",
+        "Order_Deliveries": []
+      },
+      {
+        "location_code": "04 Elm Rd",
+        "route_id": 8,
+        "location_address_id": 8,
+        "location_name": "Hermiston, Hand and Wisoky",
+        "Order_Deliveries": []
+      }
+    ]
+  },
+  {
+    "route_id": 9,
+    "route_name": "Gorczany Group",
+    "other_route_details": "9608 Hoyt Extension\nEast Linnieview, GA 87356-5339",
+    "Delivery_Route_Locations": []
+  },
+  {
+    "route_id": 10,
+    "route_name": "Grady, King and Price",
+    "other_route_details": "4989 Pfeffer Passage Suite 915\nWest Jacebury, SD 68079-3347",
+    "Delivery_Route_Locations": [
+      {
+        "location_code": "38 Enisner Av",
+        "route_id": 10,
+        "location_address_id": 7,
+        "location_name": "Bradtke-Herman",
+        "Order_Deliveries": []
+      }
+    ]
+  },
+  {
+    "route_id": 11,
+    "route_name": "Streich, Spencer and Brakus",
+    "other_route_details": "30335 Pacocha Burgs Apt. 400\nNorth Onastad, OR 76419",
+    "Delivery_Route_Locations": [
+      {
+        "location_code": "27 City Rd",
+        "route_id": 11,
+        "location_address_id": 5,
+        "location_name": "Labadie-Crooks",
+        "Order_Deliveries": [
+          {
+            "location_code": "27 City Rd",
+            "actual_order_id": 11,
+            "delivery_status_code": "Ready",
+            "driver_employee_id": 6,
+            "truck_id": 11,
+            "delivery_date": "2018-03-21 00:57:22"
+          },
+          {
+            "location_code": "27 City Rd",
+            "actual_order_id": 1,
+            "delivery_status_code": "On Road",
+            "driver_employee_id": 4,
+            "truck_id": 10,
+            "delivery_date": "2018-02-26 01:32:49"
+          },
+          {
+            "location_code": "27 City Rd",
+            "actual_order_id": 3,
+            "delivery_status_code": "Ready",
+            "driver_employee_id": 1,
+            "truck_id": 2,
+            "delivery_date": "2018-03-08 17:17:12"
+          }
+        ]
+      },
+      {
+        "location_code": "67 LV Rd",
+        "route_id": 11,
+        "location_address_id": 6,
+        "location_name": "Carter, Pfannerstill and Rutherford",
+        "Order_Deliveries": []
+      },
+      {
+        "location_code": "76 David St",
+        "route_id": 11,
+        "location_address_id": 3,
+        "location_name": "Rosenbaum, Kiehn and Kilback",
+        "Order_Deliveries": []
+      }
+    ]
+  },
+  {
+    "route_id": 12,
+    "route_name": "Brekke, Powlowski and Fritsch",
+    "other_route_details": "53685 Abshire Falls\nLake Destineyville, OK 91313",
+    "Delivery_Route_Locations": []
+  },
+  {
+    "route_id": 13,
+    "route_name": "Hermiston, Feeney and Daugherty",
+    "other_route_details": "54645 Ziemann Skyway Suite 987\nLake Roderickstad, OH 77820",
+    "Delivery_Route_Locations": [
+      {
+        "location_code": "58 Roof Av",
+        "route_id": 13,
+        "location_address_id": 4,
+        "location_name": "Bartoletti, Keebler and Crona",
+        "Order_Deliveries": [
+          {
+            "location_code": "58 Roof Av",
+            "actual_order_id": 9,
+            "delivery_status_code": "Ready",
+            "driver_employee_id": 3,
+            "truck_id": 9,
+            "delivery_date": "2018-02-26 13:22:53"
+          },
+          {
+            "location_code": "58 Roof Av",
+            "actual_order_id": 5,
+            "delivery_status_code": "Ready",
+            "driver_employee_id": 8,
+            "truck_id": 1,
+            "delivery_date": "2018-03-20 20:36:44"
+          },
+          {
+            "location_code": "58 Roof Av",
+            "actual_order_id": 9,
+            "delivery_status_code": "Ready",
+            "driver_employee_id": 14,
+            "truck_id": 5,
+            "delivery_date": "2018-03-14 05:16:17"
+          },
+          {
+            "location_code": "58 Roof Av",
+            "actual_order_id": 10,
+            "delivery_status_code": "Ready",
+            "driver_employee_id": 13,
+            "truck_id": 11,
+            "delivery_date": "2018-03-18 02:35:08"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route_id": 14,
+    "route_name": "Renner-Kovacek",
+    "other_route_details": "809 Daija Radial Apt. 507\nKavonfort, MN 70034-2797",
+    "Delivery_Route_Locations": [
+      {
+        "location_code": "73 Nancy Av",
+        "route_id": 14,
+        "location_address_id": 10,
+        "location_name": "Streich Group",
+        "Order_Deliveries": [
+          {
+            "location_code": "73 Nancy Av",
+            "actual_order_id": 2,
+            "delivery_status_code": "Delivered",
+            "driver_employee_id": 12,
+            "truck_id": 10,
+            "delivery_date": "2018-03-17 19:42:08"
+          },
+          {
+            "location_code": "73 Nancy Av",
+            "actual_order_id": 2,
+            "delivery_status_code": "On Road",
+            "driver_employee_id": 1,
+            "truck_id": 6,
+            "delivery_date": "2018-03-05 03:03:24"
+          },
+          {
+            "location_code": "73 Nancy Av",
+            "actual_order_id": 6,
+            "delivery_status_code": "On Road",
+            "driver_employee_id": 11,
+            "truck_id": 11,
+            "delivery_date": "2018-03-22 22:09:56"
+          },
+          {
+            "location_code": "73 Nancy Av",
+            "actual_order_id": 8,
+            "delivery_status_code": "Ready",
+            "driver_employee_id": 13,
+            "truck_id": 4,
+            "delivery_date": "2018-03-17 09:09:06"
+          }
+        ]
+      },
+      {
+        "location_code": "84 OE Av",
+        "route_id": 14,
+        "location_address_id": 7,
+        "location_name": "Hessel and Sons",
+        "Order_Deliveries": []
+      }
+    ]
+  },
+  {
+    "route_id": 15,
+    "route_name": "Hegmann-Waters",
+    "other_route_details": "719 Vito Parks\nKassulkeville, NH 77748",
+    "Delivery_Route_Locations": [
+      {
+        "location_code": "79 Square St",
+        "route_id": 15,
+        "location_address_id": 5,
+        "location_name": "Turner, Dietrich and Smitham",
+        "Order_Deliveries": []
+      }
+    ]
+  }
+]

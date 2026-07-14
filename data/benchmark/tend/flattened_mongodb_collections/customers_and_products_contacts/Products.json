@@ -1,0 +1,207 @@
+[
+  {
+    "product_id": 1,
+    "product_type_code": "Hardware",
+    "product_name": "Apple",
+    "product_price": 54753982.574522,
+    "Order_Items": []
+  },
+  {
+    "product_id": 2,
+    "product_type_code": "Clothes",
+    "product_name": "jcrew",
+    "product_price": 30590929.528306,
+    "Order_Items": [
+      {
+        "order_item_id": 4,
+        "order_id": 15,
+        "product_id": 2,
+        "order_quantity": "male"
+      },
+      {
+        "order_item_id": 8,
+        "order_id": 6,
+        "product_id": 2,
+        "order_quantity": "7"
+      },
+      {
+        "order_item_id": 12,
+        "order_id": 6,
+        "product_id": 2,
+        "order_quantity": "7"
+      }
+    ]
+  },
+  {
+    "product_id": 3,
+    "product_type_code": "Hardware",
+    "product_name": "Apple",
+    "product_price": 10268.85297069,
+    "Order_Items": [
+      {
+        "order_item_id": 5,
+        "order_id": 13,
+        "product_id": 3,
+        "order_quantity": "3"
+      },
+      {
+        "order_item_id": 15,
+        "order_id": 7,
+        "product_id": 3,
+        "order_quantity": "8"
+      }
+    ]
+  },
+  {
+    "product_id": 4,
+    "product_type_code": "Hardware",
+    "product_name": "Apple",
+    "product_price": 22956668.699482,
+    "Order_Items": [
+      {
+        "order_item_id": 7,
+        "order_id": 7,
+        "product_id": 4,
+        "order_quantity": "8"
+      }
+    ]
+  },
+  {
+    "product_id": 5,
+    "product_type_code": "Clothes",
+    "product_name": "jcrew",
+    "product_price": 5927021.8748021,
+    "Order_Items": [
+      {
+        "order_item_id": 13,
+        "order_id": 7,
+        "product_id": 5,
+        "order_quantity": "9"
+      }
+    ]
+  },
+  {
+    "product_id": 6,
+    "product_type_code": "Hardware",
+    "product_name": "Apple",
+    "product_price": 77.109961147471,
+    "Order_Items": [
+      {
+        "order_item_id": 6,
+        "order_id": 3,
+        "product_id": 6,
+        "order_quantity": "4"
+      }
+    ]
+  },
+  {
+    "product_id": 7,
+    "product_type_code": "Hardware",
+    "product_name": "Apple",
+    "product_price": 450.39232520498,
+    "Order_Items": []
+  },
+  {
+    "product_id": 8,
+    "product_type_code": "Hardware",
+    "product_name": "Sony",
+    "product_price": 4446237.9177554,
+    "Order_Items": []
+  },
+  {
+    "product_id": 9,
+    "product_type_code": "Clothes",
+    "product_name": "jcrew",
+    "product_price": 622.79275984494,
+    "Order_Items": [
+      {
+        "order_item_id": 3,
+        "order_id": 11,
+        "product_id": 9,
+        "order_quantity": "9"
+      }
+    ]
+  },
+  {
+    "product_id": 10,
+    "product_type_code": "Hardware",
+    "product_name": "Sony",
+    "product_price": 7171.5933353284,
+    "Order_Items": []
+  },
+  {
+    "product_id": 11,
+    "product_type_code": "Clothes",
+    "product_name": "jcrew",
+    "product_price": 149.95519076938,
+    "Order_Items": [
+      {
+        "order_item_id": 11,
+        "order_id": 14,
+        "product_id": 11,
+        "order_quantity": "8"
+      }
+    ]
+  },
+  {
+    "product_id": 12,
+    "product_type_code": "Clothes",
+    "product_name": "gucci",
+    "product_price": 593.80519929985,
+    "Order_Items": [
+      {
+        "order_item_id": 2,
+        "order_id": 8,
+        "product_id": 12,
+        "order_quantity": "7"
+      },
+      {
+        "order_item_id": 10,
+        "order_id": 4,
+        "product_id": 12,
+        "order_quantity": "5"
+      }
+    ]
+  },
+  {
+    "product_id": 13,
+    "product_type_code": "Clothes",
+    "product_name": "gucci",
+    "product_price": 11388.26282462,
+    "Order_Items": [
+      {
+        "order_item_id": 14,
+        "order_id": 5,
+        "product_id": 13,
+        "order_quantity": "4"
+      }
+    ]
+  },
+  {
+    "product_id": 14,
+    "product_type_code": "Hardware",
+    "product_name": "Sony",
+    "product_price": 389.91542644329,
+    "Order_Items": []
+  },
+  {
+    "product_id": 15,
+    "product_type_code": "Clothes",
+    "product_name": "gucci",
+    "product_price": 310488248.48788,
+    "Order_Items": [
+      {
+        "order_item_id": 1,
+        "order_id": 9,
+        "product_id": 15,
+        "order_quantity": "3"
+      },
+      {
+        "order_item_id": 9,
+        "order_id": 3,
+        "product_id": 15,
+        "order_quantity": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,496 @@
+[
+  {
+    "BlockFloor": 1,
+    "BlockCode": 1,
+    "Room": [
+      {
+        "RoomNumber": 101,
+        "RoomType": "Single",
+        "BlockFloor": 1,
+        "BlockCode": 1,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 102,
+        "RoomType": "Single",
+        "BlockFloor": 1,
+        "BlockCode": 1,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 103,
+        "RoomType": "Single",
+        "BlockFloor": 1,
+        "BlockCode": 1,
+        "Unavailable": 0,
+        "Stay": []
+      }
+    ],
+    "On_Call": [
+      {
+        "Nurse": 101,
+        "BlockFloor": 1,
+        "BlockCode": 1,
+        "OnCallStart": "2008-11-04 11:00",
+        "OnCallEnd": "2008-11-04 19:00"
+      },
+      {
+        "Nurse": 103,
+        "BlockFloor": 1,
+        "BlockCode": 1,
+        "OnCallStart": "2008-11-04 19:00",
+        "OnCallEnd": "2008-11-05 03:00"
+      }
+    ]
+  },
+  {
+    "BlockFloor": 1,
+    "BlockCode": 2,
+    "Room": [
+      {
+        "RoomNumber": 111,
+        "RoomType": "Single",
+        "BlockFloor": 1,
+        "BlockCode": 2,
+        "Unavailable": 0,
+        "Stay": [
+          {
+            "StayID": 3215,
+            "Patient": 100000001,
+            "Room": 111,
+            "StayStart": "2008-05-01",
+            "StayEnd": "2008-05-04",
+            "Undergoes": [
+              {
+                "Patient": 100000001,
+                "Procedures": 6,
+                "Stay": 3215,
+                "DateUndergoes": "2008-05-02",
+                "Physician": 3,
+                "AssistingNurse": 101
+              },
+              {
+                "Patient": 100000001,
+                "Procedures": 2,
+                "Stay": 3215,
+                "DateUndergoes": "2008-05-03",
+                "Physician": 7,
+                "AssistingNurse": 101
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RoomNumber": 112,
+        "RoomType": "Single",
+        "BlockFloor": 1,
+        "BlockCode": 2,
+        "Unavailable": 1,
+        "Stay": [
+          {
+            "StayID": 3217,
+            "Patient": 100000004,
+            "Room": 112,
+            "StayStart": "2008-05-02",
+            "StayEnd": "2008-05-03",
+            "Undergoes": [
+              {
+                "Patient": 100000004,
+                "Procedures": 1,
+                "Stay": 3217,
+                "DateUndergoes": "2008-05-07",
+                "Physician": 3,
+                "AssistingNurse": 102
+              },
+              {
+                "Patient": 100000004,
+                "Procedures": 5,
+                "Stay": 3217,
+                "DateUndergoes": "2008-05-09",
+                "Physician": 6,
+                "AssistingNurse": 105
+              },
+              {
+                "Patient": 100000001,
+                "Procedures": 7,
+                "Stay": 3217,
+                "DateUndergoes": "2008-05-10",
+                "Physician": 7,
+                "AssistingNurse": 101
+              },
+              {
+                "Patient": 100000004,
+                "Procedures": 4,
+                "Stay": 3217,
+                "DateUndergoes": "2008-05-13",
+                "Physician": 3,
+                "AssistingNurse": 103
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "RoomNumber": 113,
+        "RoomType": "Single",
+        "BlockFloor": 1,
+        "BlockCode": 2,
+        "Unavailable": 0,
+        "Stay": []
+      }
+    ],
+    "On_Call": [
+      {
+        "Nurse": 101,
+        "BlockFloor": 1,
+        "BlockCode": 2,
+        "OnCallStart": "2008-11-04 11:00",
+        "OnCallEnd": "2008-11-04 19:00"
+      },
+      {
+        "Nurse": 103,
+        "BlockFloor": 1,
+        "BlockCode": 2,
+        "OnCallStart": "2008-11-04 19:00",
+        "OnCallEnd": "2008-11-05 03:00"
+      }
+    ]
+  },
+  {
+    "BlockFloor": 1,
+    "BlockCode": 3,
+    "Room": [
+      {
+        "RoomNumber": 121,
+        "RoomType": "Single",
+        "BlockFloor": 1,
+        "BlockCode": 3,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 122,
+        "RoomType": "Single",
+        "BlockFloor": 1,
+        "BlockCode": 3,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 123,
+        "RoomType": "Single",
+        "BlockFloor": 1,
+        "BlockCode": 3,
+        "Unavailable": 0,
+        "Stay": [
+          {
+            "StayID": 3216,
+            "Patient": 100000003,
+            "Room": 123,
+            "StayStart": "2008-05-03",
+            "StayEnd": "2008-05-14",
+            "Undergoes": []
+          }
+        ]
+      }
+    ],
+    "On_Call": [
+      {
+        "Nurse": 102,
+        "BlockFloor": 1,
+        "BlockCode": 3,
+        "OnCallStart": "2008-11-04 11:00",
+        "OnCallEnd": "2008-11-04 19:00"
+      },
+      {
+        "Nurse": 103,
+        "BlockFloor": 1,
+        "BlockCode": 3,
+        "OnCallStart": "2008-11-04 19:00",
+        "OnCallEnd": "2008-11-05 03:00"
+      }
+    ]
+  },
+  {
+    "BlockFloor": 2,
+    "BlockCode": 1,
+    "Room": [
+      {
+        "RoomNumber": 201,
+        "RoomType": "Single",
+        "BlockFloor": 2,
+        "BlockCode": 1,
+        "Unavailable": 1,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 202,
+        "RoomType": "Single",
+        "BlockFloor": 2,
+        "BlockCode": 1,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 203,
+        "RoomType": "Single",
+        "BlockFloor": 2,
+        "BlockCode": 1,
+        "Unavailable": 0,
+        "Stay": []
+      }
+    ],
+    "On_Call": []
+  },
+  {
+    "BlockFloor": 2,
+    "BlockCode": 2,
+    "Room": [
+      {
+        "RoomNumber": 211,
+        "RoomType": "Single",
+        "BlockFloor": 2,
+        "BlockCode": 2,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 212,
+        "RoomType": "Single",
+        "BlockFloor": 2,
+        "BlockCode": 2,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 213,
+        "RoomType": "Single",
+        "BlockFloor": 2,
+        "BlockCode": 2,
+        "Unavailable": 1,
+        "Stay": []
+      }
+    ],
+    "On_Call": []
+  },
+  {
+    "BlockFloor": 2,
+    "BlockCode": 3,
+    "Room": [
+      {
+        "RoomNumber": 221,
+        "RoomType": "Single",
+        "BlockFloor": 2,
+        "BlockCode": 3,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 222,
+        "RoomType": "Single",
+        "BlockFloor": 2,
+        "BlockCode": 3,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 223,
+        "RoomType": "Single",
+        "BlockFloor": 2,
+        "BlockCode": 3,
+        "Unavailable": 0,
+        "Stay": []
+      }
+    ],
+    "On_Call": []
+  },
+  {
+    "BlockFloor": 3,
+    "BlockCode": 1,
+    "Room": [
+      {
+        "RoomNumber": 301,
+        "RoomType": "Single",
+        "BlockFloor": 3,
+        "BlockCode": 1,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 302,
+        "RoomType": "Single",
+        "BlockFloor": 3,
+        "BlockCode": 1,
+        "Unavailable": 1,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 303,
+        "RoomType": "Single",
+        "BlockFloor": 3,
+        "BlockCode": 1,
+        "Unavailable": 0,
+        "Stay": []
+      }
+    ],
+    "On_Call": []
+  },
+  {
+    "BlockFloor": 3,
+    "BlockCode": 2,
+    "Room": [
+      {
+        "RoomNumber": 311,
+        "RoomType": "Single",
+        "BlockFloor": 3,
+        "BlockCode": 2,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 312,
+        "RoomType": "Single",
+        "BlockFloor": 3,
+        "BlockCode": 2,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 313,
+        "RoomType": "Single",
+        "BlockFloor": 3,
+        "BlockCode": 2,
+        "Unavailable": 0,
+        "Stay": []
+      }
+    ],
+    "On_Call": []
+  },
+  {
+    "BlockFloor": 3,
+    "BlockCode": 3,
+    "Room": [
+      {
+        "RoomNumber": 321,
+        "RoomType": "Single",
+        "BlockFloor": 3,
+        "BlockCode": 3,
+        "Unavailable": 1,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 322,
+        "RoomType": "Single",
+        "BlockFloor": 3,
+        "BlockCode": 3,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 323,
+        "RoomType": "Single",
+        "BlockFloor": 3,
+        "BlockCode": 3,
+        "Unavailable": 0,
+        "Stay": []
+      }
+    ],
+    "On_Call": []
+  },
+  {
+    "BlockFloor": 4,
+    "BlockCode": 1,
+    "Room": [
+      {
+        "RoomNumber": 401,
+        "RoomType": "Single",
+        "BlockFloor": 4,
+        "BlockCode": 1,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 402,
+        "RoomType": "Single",
+        "BlockFloor": 4,
+        "BlockCode": 1,
+        "Unavailable": 1,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 403,
+        "RoomType": "Single",
+        "BlockFloor": 4,
+        "BlockCode": 1,
+        "Unavailable": 0,
+        "Stay": []
+      }
+    ],
+    "On_Call": []
+  },
+  {
+    "BlockFloor": 4,
+    "BlockCode": 2,
+    "Room": [
+      {
+        "RoomNumber": 411,
+        "RoomType": "Single",
+        "BlockFloor": 4,
+        "BlockCode": 2,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 412,
+        "RoomType": "Single",
+        "BlockFloor": 4,
+        "BlockCode": 2,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 413,
+        "RoomType": "Single",
+        "BlockFloor": 4,
+        "BlockCode": 2,
+        "Unavailable": 0,
+        "Stay": []
+      }
+    ],
+    "On_Call": []
+  },
+  {
+    "BlockFloor": 4,
+    "BlockCode": 3,
+    "Room": [
+      {
+        "RoomNumber": 421,
+        "RoomType": "Single",
+        "BlockFloor": 4,
+        "BlockCode": 3,
+        "Unavailable": 1,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 422,
+        "RoomType": "Single",
+        "BlockFloor": 4,
+        "BlockCode": 3,
+        "Unavailable": 0,
+        "Stay": []
+      },
+      {
+        "RoomNumber": 423,
+        "RoomType": "Single",
+        "BlockFloor": 4,
+        "BlockCode": 3,
+        "Unavailable": 0,
+        "Stay": []
+      }
+    ],
+    "On_Call": []
+  }
+]

@@ -1,0 +1,1114 @@
+{
+    "Investors": [
+        {
+            "investor_id": 1,
+            "Investor_details": "z",
+            "Lots": [
+                {
+                    "lot_id": 11,
+                    "investor_id": 1,
+                    "lot_details": "d",
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 3,
+                            "lot_id": 11
+                        },
+                        {
+                            "transaction_id": 2,
+                            "lot_id": 11
+                        }
+                    ]
+                },
+                {
+                    "lot_id": 15,
+                    "investor_id": 1,
+                    "lot_details": "h",
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 12,
+                            "lot_id": 15
+                        }
+                    ]
+                }
+            ],
+            "Transactions": []
+        },
+        {
+            "investor_id": 2,
+            "Investor_details": "z",
+            "Lots": [],
+            "Transactions": [
+                {
+                    "transaction_id": 3,
+                    "investor_id": 2,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "1979-04-27 06:03:59",
+                    "amount_of_transaction": 48777.969,
+                    "share_count": "8580",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 3,
+                            "sales_details": "a"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 3,
+                            "purchase_details": "i"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 3,
+                            "lot_id": 11
+                        },
+                        {
+                            "transaction_id": 3,
+                            "lot_id": 8
+                        },
+                        {
+                            "transaction_id": 3,
+                            "lot_id": 14
+                        },
+                        {
+                            "transaction_id": 3,
+                            "lot_id": 4
+                        }
+                    ]
+                },
+                {
+                    "transaction_id": 10,
+                    "investor_id": 2,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "1981-01-28 08:07:03",
+                    "amount_of_transaction": 29.3534,
+                    "share_count": "1654756",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 10,
+                            "sales_details": "s"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 10,
+                            "purchase_details": "l"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 10,
+                            "lot_id": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "investor_id": 3,
+            "Investor_details": "d",
+            "Lots": [],
+            "Transactions": [
+                {
+                    "transaction_id": 11,
+                    "investor_id": 3,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "2000-04-03 20:55:43",
+                    "amount_of_transaction": 0,
+                    "share_count": "674529892",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 11,
+                            "sales_details": "s"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 11,
+                            "purchase_details": "z"
+                        }
+                    ],
+                    "Transactions_Lots": []
+                },
+                {
+                    "transaction_id": 13,
+                    "investor_id": 3,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "2002-04-07 20:28:37",
+                    "amount_of_transaction": 183.2,
+                    "share_count": "",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 13,
+                            "sales_details": "p"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 13,
+                            "purchase_details": "t"
+                        }
+                    ],
+                    "Transactions_Lots": []
+                },
+                {
+                    "transaction_id": 14,
+                    "investor_id": 3,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "2002-09-13 03:04:56",
+                    "amount_of_transaction": 0,
+                    "share_count": "630021",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 14,
+                            "sales_details": "n"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 14,
+                            "purchase_details": "o"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 14,
+                            "lot_id": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "investor_id": 4,
+            "Investor_details": "d",
+            "Lots": [],
+            "Transactions": []
+        },
+        {
+            "investor_id": 5,
+            "Investor_details": "b",
+            "Lots": [],
+            "Transactions": []
+        },
+        {
+            "investor_id": 6,
+            "Investor_details": "k",
+            "Lots": [
+                {
+                    "lot_id": 5,
+                    "investor_id": 6,
+                    "lot_details": "q",
+                    "Transactions_Lots": []
+                },
+                {
+                    "lot_id": 14,
+                    "investor_id": 6,
+                    "lot_details": "d",
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 3,
+                            "lot_id": 14
+                        },
+                        {
+                            "transaction_id": 1,
+                            "lot_id": 14
+                        }
+                    ]
+                }
+            ],
+            "Transactions": [
+                {
+                    "transaction_id": 1,
+                    "investor_id": 6,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "1988-09-16 19:02:51",
+                    "amount_of_transaction": 302507.6996,
+                    "share_count": "8718572",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 1,
+                            "sales_details": "x"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 1,
+                            "purchase_details": "c"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 1,
+                            "lot_id": 1
+                        },
+                        {
+                            "transaction_id": 1,
+                            "lot_id": 14
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "investor_id": 7,
+            "Investor_details": "l",
+            "Lots": [
+                {
+                    "lot_id": 7,
+                    "investor_id": 7,
+                    "lot_details": "m",
+                    "Transactions_Lots": []
+                },
+                {
+                    "lot_id": 8,
+                    "investor_id": 7,
+                    "lot_details": "h",
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 3,
+                            "lot_id": 8
+                        }
+                    ]
+                },
+                {
+                    "lot_id": 13,
+                    "investor_id": 7,
+                    "lot_details": "z",
+                    "Transactions_Lots": []
+                }
+            ],
+            "Transactions": [
+                {
+                    "transaction_id": 7,
+                    "investor_id": 7,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "1990-12-02 09:03:38",
+                    "amount_of_transaction": 822.803,
+                    "share_count": "1522",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 7,
+                            "sales_details": "p"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 7,
+                            "purchase_details": "r"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 7,
+                            "lot_id": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "investor_id": 8,
+            "Investor_details": "t",
+            "Lots": [],
+            "Transactions": [
+                {
+                    "transaction_id": 5,
+                    "investor_id": 8,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "1977-08-17 13:13:30",
+                    "amount_of_transaction": 0,
+                    "share_count": "930",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 5,
+                            "sales_details": "y"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 5,
+                            "purchase_details": "y"
+                        }
+                    ],
+                    "Transactions_Lots": []
+                }
+            ]
+        },
+        {
+            "investor_id": 9,
+            "Investor_details": "y",
+            "Lots": [
+                {
+                    "lot_id": 10,
+                    "investor_id": 9,
+                    "lot_details": "x",
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 12,
+                            "lot_id": 10
+                        },
+                        {
+                            "transaction_id": 15,
+                            "lot_id": 10
+                        },
+                        {
+                            "transaction_id": 10,
+                            "lot_id": 10
+                        }
+                    ]
+                }
+            ],
+            "Transactions": []
+        },
+        {
+            "investor_id": 10,
+            "Investor_details": "r",
+            "Lots": [
+                {
+                    "lot_id": 3,
+                    "investor_id": 10,
+                    "lot_details": "s",
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 6,
+                            "lot_id": 3
+                        }
+                    ]
+                }
+            ],
+            "Transactions": []
+        },
+        {
+            "investor_id": 11,
+            "Investor_details": "q",
+            "Lots": [],
+            "Transactions": []
+        },
+        {
+            "investor_id": 12,
+            "Investor_details": "c",
+            "Lots": [],
+            "Transactions": []
+        },
+        {
+            "investor_id": 13,
+            "Investor_details": "o",
+            "Lots": [
+                {
+                    "lot_id": 1,
+                    "investor_id": 13,
+                    "lot_details": "r",
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 1,
+                            "lot_id": 1
+                        },
+                        {
+                            "transaction_id": 7,
+                            "lot_id": 1
+                        },
+                        {
+                            "transaction_id": 2,
+                            "lot_id": 1
+                        }
+                    ]
+                }
+            ],
+            "Transactions": []
+        },
+        {
+            "investor_id": 14,
+            "Investor_details": "w",
+            "Lots": [],
+            "Transactions": [
+                {
+                    "transaction_id": 4,
+                    "investor_id": 14,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "2001-11-28 15:06:25",
+                    "amount_of_transaction": 4.5263,
+                    "share_count": "8040",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 4,
+                            "sales_details": "f"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 4,
+                            "purchase_details": "x"
+                        }
+                    ],
+                    "Transactions_Lots": []
+                }
+            ]
+        },
+        {
+            "investor_id": 15,
+            "Investor_details": "i",
+            "Lots": [],
+            "Transactions": []
+        },
+        {
+            "investor_id": 16,
+            "Investor_details": "y",
+            "Lots": [
+                {
+                    "lot_id": 2,
+                    "investor_id": 16,
+                    "lot_details": "z",
+                    "Transactions_Lots": []
+                }
+            ],
+            "Transactions": []
+        },
+        {
+            "investor_id": 17,
+            "Investor_details": "k",
+            "Lots": [],
+            "Transactions": [
+                {
+                    "transaction_id": 8,
+                    "investor_id": 17,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "2004-01-18 20:37:50",
+                    "amount_of_transaction": 78035671.4424,
+                    "share_count": "96178",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 8,
+                            "sales_details": "e"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 8,
+                            "purchase_details": "a"
+                        }
+                    ],
+                    "Transactions_Lots": []
+                }
+            ]
+        },
+        {
+            "investor_id": 18,
+            "Investor_details": "w",
+            "Lots": [],
+            "Transactions": [
+                {
+                    "transaction_id": 2,
+                    "investor_id": 18,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "1982-06-06 17:19:00",
+                    "amount_of_transaction": 27.257,
+                    "share_count": "9",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 2,
+                            "sales_details": "o"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 2,
+                            "purchase_details": "y"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 2,
+                            "lot_id": 11
+                        },
+                        {
+                            "transaction_id": 2,
+                            "lot_id": 1
+                        }
+                    ]
+                },
+                {
+                    "transaction_id": 12,
+                    "investor_id": 18,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "1983-11-01 17:57:27",
+                    "amount_of_transaction": 1,
+                    "share_count": "587",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 12,
+                            "sales_details": "t"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 12,
+                            "purchase_details": "h"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 12,
+                            "lot_id": 10
+                        },
+                        {
+                            "transaction_id": 12,
+                            "lot_id": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "investor_id": 19,
+            "Investor_details": "l",
+            "Lots": [
+                {
+                    "lot_id": 4,
+                    "investor_id": 19,
+                    "lot_details": "s",
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 3,
+                            "lot_id": 4
+                        }
+                    ]
+                },
+                {
+                    "lot_id": 12,
+                    "investor_id": 19,
+                    "lot_details": "m",
+                    "Transactions_Lots": []
+                }
+            ],
+            "Transactions": [
+                {
+                    "transaction_id": 6,
+                    "investor_id": 19,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "1985-10-08 13:13:39",
+                    "amount_of_transaction": 207484122.2796,
+                    "share_count": "2751",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 6,
+                            "sales_details": "x"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 6,
+                            "purchase_details": "a"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 6,
+                            "lot_id": 3
+                        }
+                    ]
+                },
+                {
+                    "transaction_id": 15,
+                    "investor_id": 19,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "1997-12-30 05:05:40",
+                    "amount_of_transaction": 8.9,
+                    "share_count": "93191",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 15,
+                            "sales_details": "e"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 15,
+                            "purchase_details": "x"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 15,
+                            "lot_id": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "investor_id": 20,
+            "Investor_details": "j",
+            "Lots": [
+                {
+                    "lot_id": 6,
+                    "investor_id": 20,
+                    "lot_details": "d",
+                    "Transactions_Lots": []
+                },
+                {
+                    "lot_id": 9,
+                    "investor_id": 20,
+                    "lot_details": "z",
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 14,
+                            "lot_id": 9
+                        }
+                    ]
+                }
+            ],
+            "Transactions": [
+                {
+                    "transaction_id": 9,
+                    "investor_id": 20,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "1977-08-13 02:18:47",
+                    "amount_of_transaction": 82057.207,
+                    "share_count": "",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 9,
+                            "sales_details": "p"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 9,
+                            "purchase_details": "r"
+                        }
+                    ],
+                    "Transactions_Lots": []
+                }
+            ]
+        }
+    ],
+    "Ref_Transaction_Types": [
+        {
+            "transaction_type_code": "SALE",
+            "transaction_type_description": "Sale",
+            "Transactions": [
+                {
+                    "transaction_id": 1,
+                    "investor_id": 6,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "1988-09-16 19:02:51",
+                    "amount_of_transaction": 302507.6996,
+                    "share_count": "8718572",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 1,
+                            "sales_details": "x"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 1,
+                            "purchase_details": "c"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 1,
+                            "lot_id": 1
+                        },
+                        {
+                            "transaction_id": 1,
+                            "lot_id": 14
+                        }
+                    ]
+                },
+                {
+                    "transaction_id": 3,
+                    "investor_id": 2,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "1979-04-27 06:03:59",
+                    "amount_of_transaction": 48777.969,
+                    "share_count": "8580",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 3,
+                            "sales_details": "a"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 3,
+                            "purchase_details": "i"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 3,
+                            "lot_id": 11
+                        },
+                        {
+                            "transaction_id": 3,
+                            "lot_id": 8
+                        },
+                        {
+                            "transaction_id": 3,
+                            "lot_id": 14
+                        },
+                        {
+                            "transaction_id": 3,
+                            "lot_id": 4
+                        }
+                    ]
+                },
+                {
+                    "transaction_id": 8,
+                    "investor_id": 17,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "2004-01-18 20:37:50",
+                    "amount_of_transaction": 78035671.4424,
+                    "share_count": "96178",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 8,
+                            "sales_details": "e"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 8,
+                            "purchase_details": "a"
+                        }
+                    ],
+                    "Transactions_Lots": []
+                },
+                {
+                    "transaction_id": 10,
+                    "investor_id": 2,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "1981-01-28 08:07:03",
+                    "amount_of_transaction": 29.3534,
+                    "share_count": "1654756",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 10,
+                            "sales_details": "s"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 10,
+                            "purchase_details": "l"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 10,
+                            "lot_id": 10
+                        }
+                    ]
+                },
+                {
+                    "transaction_id": 11,
+                    "investor_id": 3,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "2000-04-03 20:55:43",
+                    "amount_of_transaction": 0,
+                    "share_count": "674529892",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 11,
+                            "sales_details": "s"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 11,
+                            "purchase_details": "z"
+                        }
+                    ],
+                    "Transactions_Lots": []
+                },
+                {
+                    "transaction_id": 12,
+                    "investor_id": 18,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "1983-11-01 17:57:27",
+                    "amount_of_transaction": 1,
+                    "share_count": "587",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 12,
+                            "sales_details": "t"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 12,
+                            "purchase_details": "h"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 12,
+                            "lot_id": 10
+                        },
+                        {
+                            "transaction_id": 12,
+                            "lot_id": 15
+                        }
+                    ]
+                },
+                {
+                    "transaction_id": 13,
+                    "investor_id": 3,
+                    "transaction_type_code": "SALE",
+                    "date_of_transaction": "2002-04-07 20:28:37",
+                    "amount_of_transaction": 183.2,
+                    "share_count": "",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 13,
+                            "sales_details": "p"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 13,
+                            "purchase_details": "t"
+                        }
+                    ],
+                    "Transactions_Lots": []
+                }
+            ]
+        },
+        {
+            "transaction_type_code": "PUR",
+            "transaction_type_description": "Purchase",
+            "Transactions": [
+                {
+                    "transaction_id": 2,
+                    "investor_id": 18,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "1982-06-06 17:19:00",
+                    "amount_of_transaction": 27.257,
+                    "share_count": "9",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 2,
+                            "sales_details": "o"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 2,
+                            "purchase_details": "y"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 2,
+                            "lot_id": 11
+                        },
+                        {
+                            "transaction_id": 2,
+                            "lot_id": 1
+                        }
+                    ]
+                },
+                {
+                    "transaction_id": 4,
+                    "investor_id": 14,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "2001-11-28 15:06:25",
+                    "amount_of_transaction": 4.5263,
+                    "share_count": "8040",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 4,
+                            "sales_details": "f"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 4,
+                            "purchase_details": "x"
+                        }
+                    ],
+                    "Transactions_Lots": []
+                },
+                {
+                    "transaction_id": 5,
+                    "investor_id": 8,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "1977-08-17 13:13:30",
+                    "amount_of_transaction": 0,
+                    "share_count": "930",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 5,
+                            "sales_details": "y"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 5,
+                            "purchase_details": "y"
+                        }
+                    ],
+                    "Transactions_Lots": []
+                },
+                {
+                    "transaction_id": 6,
+                    "investor_id": 19,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "1985-10-08 13:13:39",
+                    "amount_of_transaction": 207484122.2796,
+                    "share_count": "2751",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 6,
+                            "sales_details": "x"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 6,
+                            "purchase_details": "a"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 6,
+                            "lot_id": 3
+                        }
+                    ]
+                },
+                {
+                    "transaction_id": 7,
+                    "investor_id": 7,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "1990-12-02 09:03:38",
+                    "amount_of_transaction": 822.803,
+                    "share_count": "1522",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 7,
+                            "sales_details": "p"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 7,
+                            "purchase_details": "r"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 7,
+                            "lot_id": 1
+                        }
+                    ]
+                },
+                {
+                    "transaction_id": 9,
+                    "investor_id": 20,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "1977-08-13 02:18:47",
+                    "amount_of_transaction": 82057.207,
+                    "share_count": "",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 9,
+                            "sales_details": "p"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 9,
+                            "purchase_details": "r"
+                        }
+                    ],
+                    "Transactions_Lots": []
+                },
+                {
+                    "transaction_id": 14,
+                    "investor_id": 3,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "2002-09-13 03:04:56",
+                    "amount_of_transaction": 0,
+                    "share_count": "630021",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 14,
+                            "sales_details": "n"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 14,
+                            "purchase_details": "o"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 14,
+                            "lot_id": 9
+                        }
+                    ]
+                },
+                {
+                    "transaction_id": 15,
+                    "investor_id": 19,
+                    "transaction_type_code": "PUR",
+                    "date_of_transaction": "1997-12-30 05:05:40",
+                    "amount_of_transaction": 8.9,
+                    "share_count": "93191",
+                    "other_details": null,
+                    "Sales": [
+                        {
+                            "sales_transaction_id": 15,
+                            "sales_details": "e"
+                        }
+                    ],
+                    "Purchases": [
+                        {
+                            "purchase_transaction_id": 15,
+                            "purchase_details": "x"
+                        }
+                    ],
+                    "Transactions_Lots": [
+                        {
+                            "transaction_id": 15,
+                            "lot_id": 10
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

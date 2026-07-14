@@ -1,0 +1,122 @@
+[
+  {
+    "Code": 1,
+    "Name": "Sony",
+    "Headquarter": "Tokyo",
+    "Founder": "Andy",
+    "Revenue": 120.0,
+    "Products": [
+      {
+        "Code": 5,
+        "Name": "Monitor",
+        "Price": 240,
+        "Manufacturer": 1
+      }
+    ]
+  },
+  {
+    "Code": 2,
+    "Name": "Creative Labs",
+    "Headquarter": "Austin",
+    "Founder": "Owen",
+    "Revenue": 100.0,
+    "Products": [
+      {
+        "Code": 6,
+        "Name": "DVD drive",
+        "Price": 180,
+        "Manufacturer": 2
+      },
+      {
+        "Code": 7,
+        "Name": "CD drive",
+        "Price": 90,
+        "Manufacturer": 2
+      },
+      {
+        "Code": 10,
+        "Name": "DVD burner",
+        "Price": 180,
+        "Manufacturer": 2
+      }
+    ]
+  },
+  {
+    "Code": 3,
+    "Name": "Hewlett-Packard",
+    "Headquarter": "Los Angeles",
+    "Founder": "James",
+    "Revenue": 50.0,
+    "Products": [
+      {
+        "Code": 8,
+        "Name": "Printer",
+        "Price": 270,
+        "Manufacturer": 3
+      },
+      {
+        "Code": 9,
+        "Name": "Toner cartridge",
+        "Price": 66,
+        "Manufacturer": 3
+      },
+      {
+        "Code": 11,
+        "Name": "DVD drive",
+        "Price": 150,
+        "Manufacturer": 3
+      }
+    ]
+  },
+  {
+    "Code": 4,
+    "Name": "Iomega",
+    "Headquarter": "Beijing",
+    "Founder": "Mary",
+    "Revenue": 200.0,
+    "Products": [
+      {
+        "Code": 3,
+        "Name": "ZIP drive",
+        "Price": 150,
+        "Manufacturer": 4
+      }
+    ]
+  },
+  {
+    "Code": 5,
+    "Name": "Fujitsu",
+    "Headquarter": "Taiwan",
+    "Founder": "John",
+    "Revenue": 130.0,
+    "Products": [
+      {
+        "Code": 1,
+        "Name": "Hard drive",
+        "Price": 240,
+        "Manufacturer": 5
+      }
+    ]
+  },
+  {
+    "Code": 6,
+    "Name": "Winchester",
+    "Headquarter": "Paris",
+    "Founder": "Robert",
+    "Revenue": 30.0,
+    "Products": [
+      {
+        "Code": 2,
+        "Name": "Memory",
+        "Price": 120,
+        "Manufacturer": 6
+      },
+      {
+        "Code": 4,
+        "Name": "Floppy disk",
+        "Price": 5,
+        "Manufacturer": 6
+      }
+    ]
+  }
+]

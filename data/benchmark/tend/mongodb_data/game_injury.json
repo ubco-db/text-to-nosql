@@ -1,0 +1,484 @@
+{
+    "stadium": [
+        {
+            "id": 1,
+            "name": "Cowboys Stadium",
+            "Home_Games": 8,
+            "Average_Attendance": 87047.0,
+            "Total_Attendance": 696377.0,
+            "Capacity_Percentage": 108.8,
+            "game": [
+                {
+                    "stadium_id": 1,
+                    "id": 1,
+                    "Season": 2007,
+                    "Date": "18 May 2007",
+                    "Home_team": "Quruvchi",
+                    "Away_team": "Pakhtakor",
+                    "Score": "1\u20131",
+                    "Competition": "League",
+                    "injury_accident": [
+                        {
+                            "game_id": 1,
+                            "id": 1,
+                            "Player": "Davide Santon",
+                            "Injury": "Clean-up surgery on his right knee",
+                            "Number_of_matches": "12",
+                            "Source": "inter.it"
+                        }
+                    ]
+                },
+                {
+                    "stadium_id": 1,
+                    "id": 13,
+                    "Season": 2011,
+                    "Date": "21 August 2011",
+                    "Home_team": "Bunyodkor",
+                    "Away_team": "Pakhtakor",
+                    "Score": "2\u20131",
+                    "Competition": "League",
+                    "injury_accident": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "FedExField",
+            "Home_Games": 8,
+            "Average_Attendance": 83172.0,
+            "Total_Attendance": 665380.0,
+            "Capacity_Percentage": 90.7,
+            "game": [
+                {
+                    "stadium_id": 2,
+                    "id": 2,
+                    "Season": 2007,
+                    "Date": "22 September 2007",
+                    "Home_team": "Pakhtakor",
+                    "Away_team": "Quruvchi",
+                    "Score": "0\u20130",
+                    "Competition": "League",
+                    "injury_accident": [
+                        {
+                            "game_id": 2,
+                            "id": 2,
+                            "Player": "Maicon",
+                            "Injury": "Knee problem",
+                            "Number_of_matches": "2",
+                            "Source": "inter.it"
+                        }
+                    ]
+                },
+                {
+                    "stadium_id": 2,
+                    "id": 14,
+                    "Season": 2012,
+                    "Date": "11 March 2012",
+                    "Home_team": "Bunyodkor",
+                    "Away_team": "Pakhtakor",
+                    "Score": "\u2013",
+                    "Competition": "Supercup",
+                    "injury_accident": []
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "New Meadowlands Stadium",
+            "Home_Games": 8,
+            "Average_Attendance": 79019.0,
+            "Total_Attendance": 632156.0,
+            "Capacity_Percentage": 95.8,
+            "game": [
+                {
+                    "stadium_id": 3,
+                    "id": 3,
+                    "Season": 2007,
+                    "Date": "9 December 2007",
+                    "Home_team": "Pakhtakor",
+                    "Away_team": "Quruvchi",
+                    "Score": "0\u20130 (7:6)",
+                    "Competition": "Cup",
+                    "injury_accident": [
+                        {
+                            "game_id": 3,
+                            "id": 3,
+                            "Player": "Dejan Stankovi\u0107",
+                            "Injury": "Hamstring muscle strain in his left thigh",
+                            "Number_of_matches": "2",
+                            "Source": "inter.it"
+                        }
+                    ]
+                },
+                {
+                    "stadium_id": 3,
+                    "id": 15,
+                    "Season": 2012,
+                    "Date": "26 June 2012",
+                    "Home_team": "Bunyodkor",
+                    "Away_team": "Pakhtakor",
+                    "Score": "2\u20130",
+                    "Competition": "League",
+                    "injury_accident": []
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "New Meadowlands Stadium",
+            "Home_Games": 8,
+            "Average_Attendance": 78596.0,
+            "Total_Attendance": 628768.0,
+            "Capacity_Percentage": 95.3,
+            "game": [
+                {
+                    "stadium_id": 4,
+                    "id": 4,
+                    "Season": 2008,
+                    "Date": "10 July 2008",
+                    "Home_team": "Pakhtakor",
+                    "Away_team": "Quruvchi",
+                    "Score": "1\u20131",
+                    "Competition": "League",
+                    "injury_accident": [
+                        {
+                            "game_id": 4,
+                            "id": 4,
+                            "Player": "Wesley Sneijder",
+                            "Injury": "Foot injury",
+                            "Number_of_matches": "1",
+                            "Source": "inter.it"
+                        }
+                    ]
+                },
+                {
+                    "stadium_id": 4,
+                    "id": 16,
+                    "Season": 2012,
+                    "Date": "9 August 2012",
+                    "Home_team": "Pakhtakor",
+                    "Away_team": "Bunyodkor",
+                    "Score": "1\u20131",
+                    "Competition": "League",
+                    "injury_accident": []
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Invesco Field at Mile High",
+            "Home_Games": 8,
+            "Average_Attendance": 74908.0,
+            "Total_Attendance": 599264.0,
+            "Capacity_Percentage": 98.4,
+            "game": [
+                {
+                    "stadium_id": 5,
+                    "id": 5,
+                    "Season": 2008,
+                    "Date": "16 August 2008",
+                    "Home_team": "Bunyodkor",
+                    "Away_team": "Pakhtakor",
+                    "Score": "1\u20131",
+                    "Competition": "League",
+                    "injury_accident": [
+                        {
+                            "game_id": 5,
+                            "id": 5,
+                            "Player": "Diego Milito",
+                            "Injury": "Slight thigh strain in right leg",
+                            "Number_of_matches": "1",
+                            "Source": "inter.it"
+                        },
+                        {
+                            "game_id": 5,
+                            "id": 6,
+                            "Player": "Javier Zanetti",
+                            "Injury": "Post-traumatic pneumothrorax",
+                            "Number_of_matches": "4",
+                            "Source": "inter.it"
+                        }
+                    ]
+                },
+                {
+                    "stadium_id": 5,
+                    "id": 17,
+                    "Season": 2012,
+                    "Date": "22 August 2012",
+                    "Home_team": "Bunyodkor",
+                    "Away_team": "Pakhtakor",
+                    "Score": "1\u20131",
+                    "Competition": "Cup",
+                    "injury_accident": []
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Bank of America Stadium",
+            "Home_Games": 8,
+            "Average_Attendance": 72620.0,
+            "Total_Attendance": 580965.0,
+            "Capacity_Percentage": 98.4,
+            "game": [
+                {
+                    "stadium_id": 6,
+                    "id": 6,
+                    "Season": 2008,
+                    "Date": "31 October 2008",
+                    "Home_team": "Bunyodkor",
+                    "Away_team": "Pakhtakor",
+                    "Score": "3\u20131",
+                    "Competition": "Cup",
+                    "injury_accident": [
+                        {
+                            "game_id": 6,
+                            "id": 7,
+                            "Player": "Walter Samuel",
+                            "Injury": "Right thigh muscle strain",
+                            "Number_of_matches": "3",
+                            "Source": "inter.it"
+                        },
+                        {
+                            "game_id": 6,
+                            "id": 8,
+                            "Player": "Thiago Motta",
+                            "Injury": "Surgery on his right knee",
+                            "Number_of_matches": "10",
+                            "Source": "inter.it"
+                        },
+                        {
+                            "game_id": 6,
+                            "id": 9,
+                            "Player": "Goran Pandev",
+                            "Injury": "Ankle problem",
+                            "Number_of_matches": "3",
+                            "Source": "inter.it"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "M&T Bank Stadium",
+            "Home_Games": 8,
+            "Average_Attendance": 71227.0,
+            "Total_Attendance": 569817.0,
+            "Capacity_Percentage": 100.3,
+            "game": [
+                {
+                    "stadium_id": 7,
+                    "id": 7,
+                    "Season": 2009,
+                    "Date": "12 July 2009",
+                    "Home_team": "Bunyodkor",
+                    "Away_team": "Pakhtakor",
+                    "Score": "2\u20131",
+                    "Competition": "League",
+                    "injury_accident": []
+                },
+                {
+                    "stadium_id": 7,
+                    "id": 20,
+                    "Season": 2013,
+                    "Date": "8 August 2013",
+                    "Home_team": "Bunyodkor",
+                    "Away_team": "Pakhtakor",
+                    "Score": "1\u20132",
+                    "Competition": "League",
+                    "injury_accident": []
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Reliant Stadium",
+            "Home_Games": 8,
+            "Average_Attendance": 71080.0,
+            "Total_Attendance": 568643.0,
+            "Capacity_Percentage": 100.0,
+            "game": [
+                {
+                    "stadium_id": 8,
+                    "id": 8,
+                    "Season": 2009,
+                    "Date": "14 October 2009",
+                    "Home_team": "Pakhtakor",
+                    "Away_team": "Bunyodkor",
+                    "Score": "0\u20130",
+                    "Competition": "League",
+                    "injury_accident": [
+                        {
+                            "game_id": 8,
+                            "id": 10,
+                            "Player": "Iv\u00e1n C\u00f3rdoba",
+                            "Injury": "Sustained a biceps femoris strain in his left leg",
+                            "Number_of_matches": "1",
+                            "Source": "inter.it"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Lambeau Field",
+            "Home_Games": 8,
+            "Average_Attendance": 70795.0,
+            "Total_Attendance": 566362.0,
+            "Capacity_Percentage": 97.1,
+            "game": [
+                {
+                    "stadium_id": 9,
+                    "id": 9,
+                    "Season": 2009,
+                    "Date": "8 August 2009",
+                    "Home_team": "Pakhtakor",
+                    "Away_team": "Bunyodkor",
+                    "Score": "1\u20130",
+                    "Competition": "Cup",
+                    "injury_accident": [
+                        {
+                            "game_id": 9,
+                            "id": 11,
+                            "Player": "Esteban Cambiasso",
+                            "Injury": "First-degree strain left hamstring muscles",
+                            "Number_of_matches": "2",
+                            "Source": "inter.it"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Louisiana Superdome",
+            "Home_Games": 8,
+            "Average_Attendance": 70038.0,
+            "Total_Attendance": 560304.0,
+            "Capacity_Percentage": 96.0,
+            "game": [
+                {
+                    "stadium_id": 10,
+                    "id": 10,
+                    "Season": 2010,
+                    "Date": "14 March 2010",
+                    "Home_team": "Bunyodkor",
+                    "Away_team": "Pakhtakor",
+                    "Score": "2\u20131",
+                    "Competition": "League",
+                    "injury_accident": [
+                        {
+                            "game_id": 10,
+                            "id": 12,
+                            "Player": "Dejan Stankovi\u0107 (2)",
+                            "Injury": "Right calf strain",
+                            "Number_of_matches": "4 (6)",
+                            "Source": "inter.it"
+                        },
+                        {
+                            "game_id": 10,
+                            "id": 13,
+                            "Player": "Wesley Sneijder (2)",
+                            "Injury": "Fainted during half time",
+                            "Number_of_matches": "1 (2)",
+                            "Source": "inter.it"
+                        }
+                    ]
+                },
+                {
+                    "stadium_id": 10,
+                    "id": 11,
+                    "Season": 2010,
+                    "Date": "31 October 2010",
+                    "Home_team": "Pakhtakor",
+                    "Away_team": "Bunyodkor",
+                    "Score": "0\u20130",
+                    "Competition": "League",
+                    "injury_accident": [
+                        {
+                            "game_id": 11,
+                            "id": 14,
+                            "Player": "Esteban Cambiasso (2)",
+                            "Injury": "Sustained posterior thigh strains in his left leg",
+                            "Number_of_matches": "4 (6)",
+                            "Source": "inter.it"
+                        }
+                    ]
+                },
+                {
+                    "stadium_id": 10,
+                    "id": 12,
+                    "Season": 2011,
+                    "Date": "7 July 2011",
+                    "Home_team": "Pakhtakor",
+                    "Away_team": "Bunyodkor",
+                    "Score": "0\u20130",
+                    "Competition": "League",
+                    "injury_accident": [
+                        {
+                            "game_id": 12,
+                            "id": 15,
+                            "Player": "Thiago Motta (2)",
+                            "Injury": "Knee problem",
+                            "Number_of_matches": "7 (17)",
+                            "Source": "inter.it"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Lincoln Financial Field",
+            "Home_Games": 8,
+            "Average_Attendance": 69144.0,
+            "Total_Attendance": 553152.0,
+            "Capacity_Percentage": 102.3,
+            "game": [
+                {
+                    "stadium_id": 11,
+                    "id": 18,
+                    "Season": 2012,
+                    "Date": "25 November 2012",
+                    "Home_team": "Pakhtakor",
+                    "Away_team": "Bunyodkor",
+                    "Score": "1\u20133",
+                    "Competition": "Cup",
+                    "injury_accident": []
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "LP Field",
+            "Home_Games": 8,
+            "Average_Attendance": 69143.0,
+            "Total_Attendance": 553144.0,
+            "Capacity_Percentage": 100.0,
+            "game": [
+                {
+                    "stadium_id": 12,
+                    "id": 19,
+                    "Season": 2013,
+                    "Date": "30 June 2013",
+                    "Home_team": "Pakhtakor",
+                    "Away_team": "Bunyodkor",
+                    "Score": "0\u20132",
+                    "Competition": "League",
+                    "injury_accident": []
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Gillette Stadium",
+            "Home_Games": 8,
+            "Average_Attendance": 68756.0,
+            "Total_Attendance": 550048.0,
+            "Capacity_Percentage": 100.0,
+            "game": []
+        }
+    ]
+}

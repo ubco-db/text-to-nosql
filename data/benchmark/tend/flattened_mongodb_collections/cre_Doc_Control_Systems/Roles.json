@@ -1,0 +1,95 @@
+[
+  {
+    "role_code": "ED",
+    "role_description": "Editor",
+    "Employees": [
+      {
+        "employee_id": 1,
+        "role_code": "ED",
+        "employee_name": "Koby",
+        "other_details": "h",
+        "Circulation_History": [
+          {
+            "document_id": 1,
+            "draft_number": 2,
+            "copy_number": 5,
+            "employee_id": 1
+          }
+        ]
+      },
+      {
+        "employee_id": 2,
+        "role_code": "ED",
+        "employee_name": "Kenyon",
+        "other_details": "f",
+        "Circulation_History": [
+          {
+            "document_id": 2,
+            "draft_number": 1,
+            "copy_number": 4,
+            "employee_id": 2
+          },
+          {
+            "document_id": 10,
+            "draft_number": 20,
+            "copy_number": 10,
+            "employee_id": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "role_code": "PT",
+    "role_description": "Photo",
+    "Employees": [
+      {
+        "employee_id": 5,
+        "role_code": "PT",
+        "employee_name": "Clemens",
+        "other_details": "b",
+        "Circulation_History": []
+      },
+      {
+        "employee_id": 7,
+        "role_code": "PT",
+        "employee_name": "Jordyn",
+        "other_details": "v",
+        "Circulation_History": []
+      }
+    ]
+  },
+  {
+    "role_code": "MG",
+    "role_description": "Manager",
+    "Employees": [
+      {
+        "employee_id": 8,
+        "role_code": "MG",
+        "employee_name": "Erling",
+        "other_details": "u",
+        "Circulation_History": [
+          {
+            "document_id": 20,
+            "draft_number": 17,
+            "copy_number": 15,
+            "employee_id": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "role_code": "PR",
+    "role_description": "Proof Manager",
+    "Employees": [
+      {
+        "employee_id": 3,
+        "role_code": "PR",
+        "employee_name": "Haley",
+        "other_details": "b",
+        "Circulation_History": []
+      }
+    ]
+  }
+]

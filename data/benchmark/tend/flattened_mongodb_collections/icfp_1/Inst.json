@@ -1,0 +1,142 @@
+[
+  {
+    "instID": 1000,
+    "name": "University of Oxford",
+    "country": "UK",
+    "Authorship": [
+      {
+        "authID": 50,
+        "instID": 1000,
+        "paperID": 200,
+        "authOrder": 1
+      },
+      {
+        "authID": 51,
+        "instID": 1000,
+        "paperID": 200,
+        "authOrder": 2
+      },
+      {
+        "authID": 51,
+        "instID": 1000,
+        "paperID": 201,
+        "authOrder": 1
+      },
+      {
+        "authID": 52,
+        "instID": 1000,
+        "paperID": 201,
+        "authOrder": 2
+      }
+    ]
+  },
+  {
+    "instID": 1010,
+    "name": "Northeastern University",
+    "country": "USA",
+    "Authorship": [
+      {
+        "authID": 53,
+        "instID": 1010,
+        "paperID": 202,
+        "authOrder": 1
+      },
+      {
+        "authID": 54,
+        "instID": 1010,
+        "paperID": 202,
+        "authOrder": 2
+      }
+    ]
+  },
+  {
+    "instID": 1020,
+    "name": "Indiana University",
+    "country": "USA",
+    "Authorship": [
+      {
+        "authID": 55,
+        "instID": 1020,
+        "paperID": 203,
+        "authOrder": 1
+      }
+    ]
+  },
+  {
+    "instID": 1030,
+    "name": "Google",
+    "country": "USA",
+    "Authorship": [
+      {
+        "authID": 56,
+        "instID": 1030,
+        "paperID": 203,
+        "authOrder": 2
+      }
+    ]
+  },
+  {
+    "instID": 1040,
+    "name": "Tohoku University",
+    "country": "Japan",
+    "Authorship": [
+      {
+        "authID": 57,
+        "instID": 1040,
+        "paperID": 204,
+        "authOrder": 1
+      },
+      {
+        "authID": 58,
+        "instID": 1040,
+        "paperID": 204,
+        "authOrder": 2
+      }
+    ]
+  },
+  {
+    "instID": 1050,
+    "name": "University of Pennsylvania",
+    "country": "USA",
+    "Authorship": [
+      {
+        "authID": 60,
+        "instID": 1050,
+        "paperID": 206,
+        "authOrder": 1
+      },
+      {
+        "authID": 61,
+        "instID": 1050,
+        "paperID": 206,
+        "authOrder": 2
+      }
+    ]
+  },
+  {
+    "instID": 1060,
+    "name": "Portland State University",
+    "country": "Japan",
+    "Authorship": [
+      {
+        "authID": 62,
+        "instID": 1060,
+        "paperID": 206,
+        "authOrder": 3
+      }
+    ]
+  },
+  {
+    "instID": 1070,
+    "name": "INRIA",
+    "country": "France",
+    "Authorship": [
+      {
+        "authID": 59,
+        "instID": 1070,
+        "paperID": 205,
+        "authOrder": 1
+      }
+    ]
+  }
+]

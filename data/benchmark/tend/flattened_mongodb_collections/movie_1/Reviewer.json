@@ -1,0 +1,134 @@
+[
+  {
+    "rID": 201,
+    "name": "Sarah Martinez",
+    "Rating": [
+      {
+        "rID": 201,
+        "mID": 101,
+        "stars": 2,
+        "ratingDate": "2011-01-22"
+      },
+      {
+        "rID": 201,
+        "mID": 101,
+        "stars": 4,
+        "ratingDate": "2011-01-27"
+      }
+    ]
+  },
+  {
+    "rID": 202,
+    "name": "Daniel Lewis",
+    "Rating": [
+      {
+        "rID": 202,
+        "mID": 106,
+        "stars": 4,
+        "ratingDate": null
+      }
+    ]
+  },
+  {
+    "rID": 203,
+    "name": "Brittany Harris",
+    "Rating": [
+      {
+        "rID": 203,
+        "mID": 103,
+        "stars": 2,
+        "ratingDate": "2011-01-20"
+      },
+      {
+        "rID": 203,
+        "mID": 108,
+        "stars": 4,
+        "ratingDate": "2011-01-12"
+      },
+      {
+        "rID": 203,
+        "mID": 108,
+        "stars": 2,
+        "ratingDate": "2011-01-30"
+      }
+    ]
+  },
+  {
+    "rID": 204,
+    "name": "Mike Anderson",
+    "Rating": [
+      {
+        "rID": 204,
+        "mID": 101,
+        "stars": 3,
+        "ratingDate": "2011-01-09"
+      }
+    ]
+  },
+  {
+    "rID": 205,
+    "name": "Chris Jackson",
+    "Rating": [
+      {
+        "rID": 205,
+        "mID": 103,
+        "stars": 3,
+        "ratingDate": "2011-01-27"
+      },
+      {
+        "rID": 205,
+        "mID": 104,
+        "stars": 2,
+        "ratingDate": "2011-01-22"
+      },
+      {
+        "rID": 205,
+        "mID": 108,
+        "stars": 4,
+        "ratingDate": null
+      }
+    ]
+  },
+  {
+    "rID": 206,
+    "name": "Elizabeth Thomas",
+    "Rating": [
+      {
+        "rID": 206,
+        "mID": 107,
+        "stars": 3,
+        "ratingDate": "2011-01-15"
+      },
+      {
+        "rID": 206,
+        "mID": 106,
+        "stars": 5,
+        "ratingDate": "2011-01-19"
+      }
+    ]
+  },
+  {
+    "rID": 207,
+    "name": "James Cameron",
+    "Rating": [
+      {
+        "rID": 207,
+        "mID": 107,
+        "stars": 5,
+        "ratingDate": "2011-01-20"
+      }
+    ]
+  },
+  {
+    "rID": 208,
+    "name": "Ashley White",
+    "Rating": [
+      {
+        "rID": 208,
+        "mID": 104,
+        "stars": 3,
+        "ratingDate": "2011-01-02"
+      }
+    ]
+  }
+]

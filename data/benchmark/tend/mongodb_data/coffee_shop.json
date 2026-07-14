@@ -1,0 +1,284 @@
+{
+    "shop": [
+        {
+            "Shop_ID": 1,
+            "Address": "1200 Main Street",
+            "Num_of_staff": "13",
+            "Score": 42.0,
+            "Open_Year": "2010",
+            "happy_hour": [
+                {
+                    "HH_ID": 1,
+                    "Shop_ID": 1,
+                    "Month": "May",
+                    "Num_of_shaff_in_charge": 10
+                },
+                {
+                    "HH_ID": 2,
+                    "Shop_ID": 1,
+                    "Month": "April",
+                    "Num_of_shaff_in_charge": 12
+                },
+                {
+                    "HH_ID": 5,
+                    "Shop_ID": 1,
+                    "Month": "May",
+                    "Num_of_shaff_in_charge": 10
+                },
+                {
+                    "HH_ID": 6,
+                    "Shop_ID": 1,
+                    "Month": "April",
+                    "Num_of_shaff_in_charge": 12
+                }
+            ]
+        },
+        {
+            "Shop_ID": 2,
+            "Address": "1111 Main Street",
+            "Num_of_staff": "19",
+            "Score": 38.0,
+            "Open_Year": "2008",
+            "happy_hour": [
+                {
+                    "HH_ID": 7,
+                    "Shop_ID": 2,
+                    "Month": "June",
+                    "Num_of_shaff_in_charge": 5
+                }
+            ]
+        },
+        {
+            "Shop_ID": 3,
+            "Address": "1330 Baltimore Street",
+            "Num_of_staff": "42",
+            "Score": 36.0,
+            "Open_Year": "2010",
+            "happy_hour": [
+                {
+                    "HH_ID": 8,
+                    "Shop_ID": 3,
+                    "Month": "July",
+                    "Num_of_shaff_in_charge": 15
+                },
+                {
+                    "HH_ID": 9,
+                    "Shop_ID": 3,
+                    "Month": "May",
+                    "Num_of_shaff_in_charge": 3
+                },
+                {
+                    "HH_ID": 10,
+                    "Shop_ID": 3,
+                    "Month": "April",
+                    "Num_of_shaff_in_charge": 4
+                }
+            ]
+        },
+        {
+            "Shop_ID": 4,
+            "Address": "909 Walnut Street",
+            "Num_of_staff": "27",
+            "Score": 32.0,
+            "Open_Year": "2010",
+            "happy_hour": []
+        },
+        {
+            "Shop_ID": 5,
+            "Address": "414 E. 12th Street",
+            "Num_of_staff": "24",
+            "Score": 30.0,
+            "Open_Year": "2011",
+            "happy_hour": [
+                {
+                    "HH_ID": 4,
+                    "Shop_ID": 5,
+                    "Month": "July",
+                    "Num_of_shaff_in_charge": 5
+                }
+            ]
+        },
+        {
+            "Shop_ID": 6,
+            "Address": "1201 Walnut Street",
+            "Num_of_staff": "34",
+            "Score": 30.0,
+            "Open_Year": "2010",
+            "happy_hour": []
+        },
+        {
+            "Shop_ID": 7,
+            "Address": "2345 McGee Street",
+            "Num_of_staff": "425",
+            "Score": 40.0,
+            "Open_Year": "2008",
+            "happy_hour": []
+        },
+        {
+            "Shop_ID": 8,
+            "Address": "909 Main Street",
+            "Num_of_staff": "28",
+            "Score": 30.0,
+            "Open_Year": "2011",
+            "happy_hour": []
+        },
+        {
+            "Shop_ID": 9,
+            "Address": "1100 Main Street",
+            "Num_of_staff": "23",
+            "Score": 30.0,
+            "Open_Year": "2006",
+            "happy_hour": []
+        },
+        {
+            "Shop_ID": 10,
+            "Address": "324 E. 11th Street",
+            "Num_of_staff": "16",
+            "Score": 28.0,
+            "Open_Year": "2008",
+            "happy_hour": [
+                {
+                    "HH_ID": 3,
+                    "Shop_ID": 10,
+                    "Month": "June",
+                    "Num_of_shaff_in_charge": 15
+                }
+            ]
+        }
+    ],
+    "member": [
+        {
+            "Member_ID": 1,
+            "Name": "Ashby, Lazale",
+            "Membership_card": "Black",
+            "Age": 29,
+            "Time_of_purchase": 18,
+            "Level_of_membership": 5,
+            "Address": "Hartford",
+            "happy_hour_member": []
+        },
+        {
+            "Member_ID": 2,
+            "Name": "Breton, Robert",
+            "Membership_card": "White",
+            "Age": 67,
+            "Time_of_purchase": 41,
+            "Level_of_membership": 4,
+            "Address": "Waterbury",
+            "happy_hour_member": []
+        },
+        {
+            "Member_ID": 3,
+            "Name": "Campbell, Jessie",
+            "Membership_card": "Black",
+            "Age": 34,
+            "Time_of_purchase": 20,
+            "Level_of_membership": 6,
+            "Address": "Hartford",
+            "happy_hour_member": [
+                {
+                    "HH_ID": 1,
+                    "Member_ID": 3,
+                    "Total_amount": 20.9
+                },
+                {
+                    "HH_ID": 4,
+                    "Member_ID": 3,
+                    "Total_amount": 20.92
+                }
+            ]
+        },
+        {
+            "Member_ID": 4,
+            "Name": "Cobb, Sedrick",
+            "Membership_card": "Black",
+            "Age": 51,
+            "Time_of_purchase": 27,
+            "Level_of_membership": 2,
+            "Address": "Waterbury",
+            "happy_hour_member": []
+        },
+        {
+            "Member_ID": 5,
+            "Name": "Hayes, Steven",
+            "Membership_card": "White",
+            "Age": 50,
+            "Time_of_purchase": 44,
+            "Level_of_membership": 3,
+            "Address": "Cheshire",
+            "happy_hour_member": [
+                {
+                    "HH_ID": 2,
+                    "Member_ID": 5,
+                    "Total_amount": 16.9
+                },
+                {
+                    "HH_ID": 5,
+                    "Member_ID": 5,
+                    "Total_amount": 16.92
+                }
+            ]
+        },
+        {
+            "Member_ID": 6,
+            "Name": "Komisarjevsky, Joshua",
+            "Membership_card": "White",
+            "Age": 33,
+            "Time_of_purchase": 26,
+            "Level_of_membership": 2,
+            "Address": "Cheshire",
+            "happy_hour_member": []
+        },
+        {
+            "Member_ID": 7,
+            "Name": "Peeler, Russell",
+            "Membership_card": "Black",
+            "Age": 42,
+            "Time_of_purchase": 26,
+            "Level_of_membership": 6,
+            "Address": "Bridgeport",
+            "happy_hour_member": []
+        },
+        {
+            "Member_ID": 8,
+            "Name": "Reynolds, Richard",
+            "Membership_card": "Black",
+            "Age": 45,
+            "Time_of_purchase": 24,
+            "Level_of_membership": 1,
+            "Address": "Waterbury",
+            "happy_hour_member": []
+        },
+        {
+            "Member_ID": 9,
+            "Name": "Rizzo, Todd",
+            "Membership_card": "White",
+            "Age": 35,
+            "Time_of_purchase": 18,
+            "Level_of_membership": 4,
+            "Address": "Waterbury",
+            "happy_hour_member": [
+                {
+                    "HH_ID": 7,
+                    "Member_ID": 9,
+                    "Total_amount": 4.9
+                },
+                {
+                    "HH_ID": 8,
+                    "Member_ID": 9,
+                    "Total_amount": 4.2
+                }
+            ]
+        },
+        {
+            "Member_ID": 10,
+            "Name": "Webb, Daniel",
+            "Membership_card": "Black",
+            "Age": 51,
+            "Time_of_purchase": 27,
+            "Level_of_membership": 22,
+            "Address": "Hartford",
+            "happy_hour_member": []
+        }
+    ]
+}

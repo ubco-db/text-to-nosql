@@ -1,0 +1,395 @@
+[
+  {
+    "subject_id": 1,
+    "subject_name": "Computer Science",
+    "Courses": [
+      {
+        "course_id": 1,
+        "author_id": 8,
+        "subject_id": 1,
+        "course_name": "database",
+        "course_description": "database",
+        "Student_Course_Enrolment": [
+          {
+            "registration_id": 6,
+            "student_id": 14,
+            "course_id": 1,
+            "date_of_enrolment": "2017-09-24 15:17:26",
+            "date_of_completion": "2018-03-01 00:08:30",
+            "Student_Tests_Taken": []
+          },
+          {
+            "registration_id": 10,
+            "student_id": 6,
+            "course_id": 1,
+            "date_of_enrolment": "2017-10-10 10:05:03",
+            "date_of_completion": "2018-03-19 07:34:05",
+            "Student_Tests_Taken": [
+              {
+                "registration_id": 10,
+                "date_test_taken": "2018-03-25 21:50:22",
+                "test_result": "Pass"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "course_id": 2,
+        "author_id": 6,
+        "subject_id": 1,
+        "course_name": "advanced database",
+        "course_description": "advanced database",
+        "Student_Course_Enrolment": [
+          {
+            "registration_id": 1,
+            "student_id": 11,
+            "course_id": 2,
+            "date_of_enrolment": "2017-10-09 07:09:02",
+            "date_of_completion": "2018-02-26 07:48:52",
+            "Student_Tests_Taken": []
+          },
+          {
+            "registration_id": 14,
+            "student_id": 8,
+            "course_id": 2,
+            "date_of_enrolment": "2017-07-15 12:48:43",
+            "date_of_completion": "2018-03-18 03:23:54",
+            "Student_Tests_Taken": []
+          }
+        ]
+      },
+      {
+        "course_id": 3,
+        "author_id": 15,
+        "subject_id": 1,
+        "course_name": "operating system",
+        "course_description": "operating system",
+        "Student_Course_Enrolment": []
+      },
+      {
+        "course_id": 5,
+        "author_id": 11,
+        "subject_id": 1,
+        "course_name": "data structure",
+        "course_description": "data structure",
+        "Student_Course_Enrolment": []
+      },
+      {
+        "course_id": 9,
+        "author_id": 13,
+        "subject_id": 1,
+        "course_name": "AI",
+        "course_description": "AI",
+        "Student_Course_Enrolment": [
+          {
+            "registration_id": 7,
+            "student_id": 12,
+            "course_id": 9,
+            "date_of_enrolment": "2017-09-21 07:05:01",
+            "date_of_completion": "2018-03-04 22:34:37",
+            "Student_Tests_Taken": [
+              {
+                "registration_id": 7,
+                "date_test_taken": "2018-03-21 00:32:25",
+                "test_result": "Pass"
+              },
+              {
+                "registration_id": 7,
+                "date_test_taken": "2018-03-25 00:44:50",
+                "test_result": "Pass"
+              }
+            ]
+          },
+          {
+            "registration_id": 9,
+            "student_id": 8,
+            "course_id": 9,
+            "date_of_enrolment": "2017-08-02 17:21:44",
+            "date_of_completion": "2018-03-07 00:39:37",
+            "Student_Tests_Taken": [
+              {
+                "registration_id": 9,
+                "date_test_taken": "2018-03-19 02:04:26",
+                "test_result": "Pass"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "course_id": 13,
+        "author_id": 13,
+        "subject_id": 1,
+        "course_name": "machine learning",
+        "course_description": "machine learning",
+        "Student_Course_Enrolment": []
+      }
+    ]
+  },
+  {
+    "subject_id": 2,
+    "subject_name": "Arts",
+    "Courses": [
+      {
+        "course_id": 4,
+        "author_id": 14,
+        "subject_id": 2,
+        "course_name": "Art history",
+        "course_description": "Art history",
+        "Student_Course_Enrolment": [
+          {
+            "registration_id": 2,
+            "student_id": 15,
+            "course_id": 4,
+            "date_of_enrolment": "2017-11-13 12:49:33",
+            "date_of_completion": "2018-03-04 01:24:56",
+            "Student_Tests_Taken": [
+              {
+                "registration_id": 2,
+                "date_test_taken": "2018-03-22 13:10:06",
+                "test_result": "Fail"
+              },
+              {
+                "registration_id": 2,
+                "date_test_taken": "2018-03-19 14:48:12",
+                "test_result": "Pass"
+              }
+            ]
+          },
+          {
+            "registration_id": 18,
+            "student_id": 2,
+            "course_id": 4,
+            "date_of_enrolment": "2017-11-22 18:29:18",
+            "date_of_completion": "2018-03-09 17:56:18",
+            "Student_Tests_Taken": []
+          }
+        ]
+      },
+      {
+        "course_id": 12,
+        "author_id": 5,
+        "subject_id": 2,
+        "course_name": "European Arts",
+        "course_description": "European Arts",
+        "Student_Course_Enrolment": []
+      },
+      {
+        "course_id": 14,
+        "author_id": 6,
+        "subject_id": 2,
+        "course_name": "modern Arts",
+        "course_description": "modern Arts",
+        "Student_Course_Enrolment": [
+          {
+            "registration_id": 16,
+            "student_id": 8,
+            "course_id": 14,
+            "date_of_enrolment": "2017-12-16 15:53:06",
+            "date_of_completion": "2018-03-22 18:04:54",
+            "Student_Tests_Taken": [
+              {
+                "registration_id": 16,
+                "date_test_taken": "2018-03-25 12:00:08",
+                "test_result": "Fail"
+              },
+              {
+                "registration_id": 16,
+                "date_test_taken": "2018-03-25 21:22:00",
+                "test_result": "Fail"
+              }
+            ]
+          },
+          {
+            "registration_id": 20,
+            "student_id": 10,
+            "course_id": 14,
+            "date_of_enrolment": "2017-12-04 12:16:10",
+            "date_of_completion": "2018-03-14 23:33:47",
+            "Student_Tests_Taken": []
+          }
+        ]
+      },
+      {
+        "course_id": 15,
+        "author_id": 14,
+        "subject_id": 2,
+        "course_name": "Chinese Painting",
+        "course_description": "Chinese Painting",
+        "Student_Course_Enrolment": [
+          {
+            "registration_id": 19,
+            "student_id": 15,
+            "course_id": 15,
+            "date_of_enrolment": "2017-10-23 08:23:22",
+            "date_of_completion": "2018-02-26 23:46:25",
+            "Student_Tests_Taken": [
+              {
+                "registration_id": 19,
+                "date_test_taken": "2018-03-24 13:22:17",
+                "test_result": "Pass"
+              },
+              {
+                "registration_id": 19,
+                "date_test_taken": "2018-03-25 16:59:22",
+                "test_result": "Fail"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "subject_id": 3,
+    "subject_name": "Language",
+    "Courses": [
+      {
+        "course_id": 6,
+        "author_id": 12,
+        "subject_id": 3,
+        "course_name": "English",
+        "course_description": "English",
+        "Student_Course_Enrolment": []
+      },
+      {
+        "course_id": 7,
+        "author_id": 8,
+        "subject_id": 3,
+        "course_name": "French",
+        "course_description": "French",
+        "Student_Course_Enrolment": [
+          {
+            "registration_id": 4,
+            "student_id": 13,
+            "course_id": 7,
+            "date_of_enrolment": "2017-09-06 06:27:15",
+            "date_of_completion": "2018-03-07 09:45:48",
+            "Student_Tests_Taken": [
+              {
+                "registration_id": 4,
+                "date_test_taken": "2018-03-25 15:06:12",
+                "test_result": "Pass"
+              },
+              {
+                "registration_id": 4,
+                "date_test_taken": "2018-03-25 21:41:51",
+                "test_result": "Fail"
+              }
+            ]
+          },
+          {
+            "registration_id": 12,
+            "student_id": 3,
+            "course_id": 7,
+            "date_of_enrolment": "2017-11-30 11:40:56",
+            "date_of_completion": "2018-03-02 14:38:49",
+            "Student_Tests_Taken": [
+              {
+                "registration_id": 12,
+                "date_test_taken": "2018-03-25 03:27:16",
+                "test_result": "Fail"
+              }
+            ]
+          },
+          {
+            "registration_id": 17,
+            "student_id": 9,
+            "course_id": 7,
+            "date_of_enrolment": "2017-10-29 15:39:31",
+            "date_of_completion": "2018-03-01 07:12:39",
+            "Student_Tests_Taken": [
+              {
+                "registration_id": 17,
+                "date_test_taken": "2018-03-23 23:47:42",
+                "test_result": "Pass"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "course_id": 8,
+        "author_id": 4,
+        "subject_id": 3,
+        "course_name": "Japanese",
+        "course_description": "Japanese",
+        "Student_Course_Enrolment": [
+          {
+            "registration_id": 3,
+            "student_id": 10,
+            "course_id": 8,
+            "date_of_enrolment": "2017-10-17 13:50:40",
+            "date_of_completion": "2018-03-22 02:53:01",
+            "Student_Tests_Taken": []
+          },
+          {
+            "registration_id": 15,
+            "student_id": 4,
+            "course_id": 8,
+            "date_of_enrolment": "2017-12-09 20:49:23",
+            "date_of_completion": "2018-02-28 09:34:51",
+            "Student_Tests_Taken": []
+          }
+        ]
+      },
+      {
+        "course_id": 10,
+        "author_id": 5,
+        "subject_id": 3,
+        "course_name": "Writing in French",
+        "course_description": "Writing in French",
+        "Student_Course_Enrolment": [
+          {
+            "registration_id": 5,
+            "student_id": 15,
+            "course_id": 10,
+            "date_of_enrolment": "2017-08-20 01:07:18",
+            "date_of_completion": "2018-03-06 00:27:09",
+            "Student_Tests_Taken": [
+              {
+                "registration_id": 5,
+                "date_test_taken": "2018-03-22 17:07:11",
+                "test_result": "Fail"
+              }
+            ]
+          },
+          {
+            "registration_id": 13,
+            "student_id": 14,
+            "course_id": 10,
+            "date_of_enrolment": "2017-10-26 20:42:34",
+            "date_of_completion": "2018-03-10 16:38:28",
+            "Student_Tests_Taken": []
+          }
+        ]
+      },
+      {
+        "course_id": 11,
+        "author_id": 9,
+        "subject_id": 3,
+        "course_name": "Spanish",
+        "course_description": "Spanish",
+        "Student_Course_Enrolment": [
+          {
+            "registration_id": 8,
+            "student_id": 15,
+            "course_id": 11,
+            "date_of_enrolment": "2017-12-07 02:21:13",
+            "date_of_completion": "2018-02-27 20:06:06",
+            "Student_Tests_Taken": []
+          },
+          {
+            "registration_id": 11,
+            "student_id": 15,
+            "course_id": 11,
+            "date_of_enrolment": "2017-08-17 00:16:46",
+            "date_of_completion": "2018-03-16 09:00:44",
+            "Student_Tests_Taken": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "SSN": 123234877,
+    "Name": "Michael Rogers",
+    "AssignedTo": [
+      {
+        "Scientist": 123234877,
+        "Project": "AeH1"
+      }
+    ]
+  },
+  {
+    "SSN": 152934485,
+    "Name": "Anand Manikutty",
+    "AssignedTo": [
+      {
+        "Scientist": 152934485,
+        "Project": "AeH3"
+      }
+    ]
+  },
+  {
+    "SSN": 222364883,
+    "Name": "Carol Smith",
+    "AssignedTo": [
+      {
+        "Scientist": 222364883,
+        "Project": "Ast3"
+      }
+    ]
+  },
+  {
+    "SSN": 326587417,
+    "Name": "Joe Stevens",
+    "AssignedTo": [
+      {
+        "Scientist": 326587417,
+        "Project": "Ast3"
+      }
+    ]
+  },
+  {
+    "SSN": 332154719,
+    "Name": "Mary-Anne Foster",
+    "AssignedTo": [
+      {
+        "Scientist": 332154719,
+        "Project": "Bte1"
+      }
+    ]
+  },
+  {
+    "SSN": 332569843,
+    "Name": "George ODonnell",
+    "AssignedTo": [
+      {
+        "Scientist": 332569843,
+        "Project": "AeH4"
+      }
+    ]
+  },
+  {
+    "SSN": 546523478,
+    "Name": "John Doe",
+    "AssignedTo": [
+      {
+        "Scientist": 546523478,
+        "Project": "Che1"
+      }
+    ]
+  },
+  {
+    "SSN": 631231482,
+    "Name": "David Smith",
+    "AssignedTo": [
+      {
+        "Scientist": 631231482,
+        "Project": "Ast3"
+      }
+    ]
+  },
+  {
+    "SSN": 654873219,
+    "Name": "Zacary Efron",
+    "AssignedTo": [
+      {
+        "Scientist": 654873219,
+        "Project": "Che1"
+      }
+    ]
+  },
+  {
+    "SSN": 745685214,
+    "Name": "Eric Goldsmith",
+    "AssignedTo": [
+      {
+        "Scientist": 745685214,
+        "Project": "AeH3"
+      }
+    ]
+  },
+  {
+    "SSN": 845657245,
+    "Name": "Elizabeth Doe",
+    "AssignedTo": [
+      {
+        "Scientist": 845657245,
+        "Project": "Ast1"
+      }
+    ]
+  },
+  {
+    "SSN": 845657246,
+    "Name": "Kumar Swamy",
+    "AssignedTo": [
+      {
+        "Scientist": 845657246,
+        "Project": "Ast2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,234 @@
+[
+  {
+    "Artist_ID": 1,
+    "Artist": "Gorgoroth",
+    "Age": 34,
+    "Famous_Title": "Bergen 1996",
+    "Famous_Release_date": "November 2007",
+    "volume": [
+      {
+        "Volume_ID": 1,
+        "Volume_Issue": "45:14 \u00a7",
+        "Issue_Date": "27 December 1986 - 10 January",
+        "Weeks_on_Top": 3.0,
+        "Song": " The Way",
+        "Artist_ID": 1,
+        "music_festival": [
+          {
+            "ID": 1,
+            "Music_Festival": "34th England Academy Prize",
+            "Date_of_ceremony": "18 February 2011",
+            "Category": "Best Song",
+            "Volume": 1,
+            "Result": "Nominated"
+          }
+        ]
+      },
+      {
+        "Volume_ID": 3,
+        "Volume_Issue": "45:16",
+        "Issue_Date": "24 January",
+        "Weeks_on_Top": 1.0,
+        "Song": " Walk Like an Egyptian ",
+        "Artist_ID": 1,
+        "music_festival": [
+          {
+            "ID": 3,
+            "Music_Festival": "34th European Academy Prize",
+            "Date_of_ceremony": "18 February 2011",
+            "Category": "Best Song",
+            "Volume": 3,
+            "Result": "Awarded"
+          }
+        ]
+      },
+      {
+        "Volume_ID": 5,
+        "Volume_Issue": "46:5",
+        "Issue_Date": "9 May",
+        "Weeks_on_Top": 1.0,
+        "Song": " With or Without You ",
+        "Artist_ID": 1,
+        "music_festival": [
+          {
+            "ID": 5,
+            "Music_Festival": "34th USA Academy Prize",
+            "Date_of_ceremony": "18 February 2011",
+            "Category": "Best Song",
+            "Volume": 5,
+            "Result": "Nominated"
+          }
+        ]
+      },
+      {
+        "Volume_ID": 6,
+        "Volume_Issue": "46:6-8",
+        "Issue_Date": "16 May - 30 May",
+        "Weeks_on_Top": 3.0,
+        "Song": " (I Just) Died in Your Arms ",
+        "Artist_ID": 1,
+        "music_festival": [
+          {
+            "ID": 6,
+            "Music_Festival": "40th Japan Academy Prize",
+            "Date_of_ceremony": "18 February 2011",
+            "Category": "Best Song",
+            "Volume": 6,
+            "Result": "Nominated"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Artist_ID": 2,
+    "Artist": "Ophiolatry",
+    "Age": 35,
+    "Famous_Title": "Transmutation",
+    "Famous_Release_date": "January 21, 2008",
+    "volume": [
+      {
+        "Volume_ID": 2,
+        "Volume_Issue": "45:15",
+        "Issue_Date": "17 January",
+        "Weeks_on_Top": 1.0,
+        "Song": " Everybody Have Fun Tonight ",
+        "Artist_ID": 2,
+        "music_festival": [
+          {
+            "ID": 2,
+            "Music_Festival": "34th Japan Academy Prize",
+            "Date_of_ceremony": "18 February 2011",
+            "Category": "Best Lyrics",
+            "Volume": 2,
+            "Result": "Nominated"
+          }
+        ]
+      },
+      {
+        "Volume_ID": 4,
+        "Volume_Issue": "45:21-22",
+        "Issue_Date": "28 February - 7 March",
+        "Weeks_on_Top": 2.0,
+        "Song": " Touch Me (I Want Your Body) ",
+        "Artist_ID": 2,
+        "music_festival": [
+          {
+            "ID": 4,
+            "Music_Festival": "36th Japan Academy Prize",
+            "Date_of_ceremony": "18 February 2011",
+            "Category": "Best Song",
+            "Volume": 4,
+            "Result": "Awarded"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Artist_ID": 3,
+    "Artist": "Ophiolatry",
+    "Age": 22,
+    "Famous_Title": "Antievangelistical Process (re-release)",
+    "Famous_Release_date": "2009",
+    "volume": []
+  },
+  {
+    "Artist_ID": 4,
+    "Artist": "Black Flame",
+    "Age": 18,
+    "Famous_Title": "Imperivm",
+    "Famous_Release_date": "June 23, 2008",
+    "volume": [
+      {
+        "Volume_ID": 7,
+        "Volume_Issue": "46:9",
+        "Issue_Date": "6 June",
+        "Weeks_on_Top": 1.0,
+        "Song": " La Isla Bonita ",
+        "Artist_ID": 4,
+        "music_festival": [
+          {
+            "ID": 7,
+            "Music_Festival": "37th Sweden Academy Prize",
+            "Date_of_ceremony": "18 February 2011",
+            "Category": "Best Lyrics",
+            "Volume": 7,
+            "Result": "Nominated"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Artist_ID": 5,
+    "Artist": "Tangorodrim",
+    "Age": 35,
+    "Famous_Title": "Unholy Metal Way (re-release)",
+    "Famous_Release_date": "2009",
+    "volume": [
+      {
+        "Volume_ID": 8,
+        "Volume_Issue": "46:10",
+        "Issue_Date": "13 June",
+        "Weeks_on_Top": 1.0,
+        "Song": "Looking for a New Love",
+        "Artist_ID": 5,
+        "music_festival": [
+          {
+            "ID": 8,
+            "Music_Festival": "37th Canadian Academy Prize",
+            "Date_of_ceremony": "18 February 2011",
+            "Category": "Best Lyrics",
+            "Volume": 8,
+            "Result": "Nominated"
+          }
+        ]
+      },
+      {
+        "Volume_ID": 10,
+        "Volume_Issue": "46:16",
+        "Issue_Date": "25 July",
+        "Weeks_on_Top": 1.0,
+        "Song": "Head to Toe ",
+        "Artist_ID": 5,
+        "music_festival": []
+      }
+    ]
+  },
+  {
+    "Artist_ID": 6,
+    "Artist": "Tangorodrim",
+    "Age": 27,
+    "Famous_Title": "Those Who Unleashed (re-release)",
+    "Famous_Release_date": "2009",
+    "volume": [
+      {
+        "Volume_ID": 9,
+        "Volume_Issue": "46:14-15",
+        "Issue_Date": "11 July - 18 July",
+        "Weeks_on_Top": 2.0,
+        "Song": " Always ",
+        "Artist_ID": 6,
+        "music_festival": [
+          {
+            "ID": 9,
+            "Music_Festival": "35th China Academy Prize",
+            "Date_of_ceremony": "18 February 2011",
+            "Category": "Best Sound Song",
+            "Volume": 9,
+            "Result": "Awarded"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Artist_ID": 7,
+    "Artist": "Triumfall",
+    "Age": 49,
+    "Famous_Title": "Antithesis of All Flesh",
+    "Famous_Release_date": "June 15, 2009",
+    "volume": []
+  }
+]

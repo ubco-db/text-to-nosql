@@ -1,0 +1,670 @@
+[
+  {
+    "Marketing_Region_Code": "CA",
+    "Marketing_Region_Name": "Canada",
+    "Marketing_Region_Descriptrion": "Our target market",
+    "Other_Details": null,
+    "Stores": [
+      {
+        "Store_ID": "229",
+        "Address_ID": 266,
+        "Marketing_Region_Code": "CA",
+        "Store_Name": "Rob Dinning",
+        "Store_Phone": "1-327-185-9368",
+        "Store_Email_Address": "rborer@example.org",
+        "Other_Details": "5 stars",
+        "Customer_Orders": [
+          {
+            "Order_ID": 2,
+            "Customer_ID": 418,
+            "Store_ID": 229,
+            "Order_Date": "2014-07-10 10:56:01",
+            "Planned_Delivery_Date": "1996-08-26 19:19:59",
+            "Actual_Delivery_Date": "1998-08-22 17:57:32",
+            "Other_Order_Details": null,
+            "Order_Items": [
+              {
+                "Order_Item_ID": 11,
+                "Order_ID": 2,
+                "Product_ID": 300,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              }
+            ],
+            "Invoices": []
+          },
+          {
+            "Order_ID": 3,
+            "Customer_ID": 712,
+            "Store_ID": 229,
+            "Order_Date": "1981-06-20 16:29:43",
+            "Planned_Delivery_Date": "1980-12-19 05:49:35",
+            "Actual_Delivery_Date": "2011-04-13 07:15:35",
+            "Other_Order_Details": null,
+            "Order_Items": [
+              {
+                "Order_Item_ID": 1,
+                "Order_ID": 3,
+                "Product_ID": 233,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              },
+              {
+                "Order_Item_ID": 5,
+                "Order_ID": 3,
+                "Product_ID": 46,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Invoice_Items": [
+                  {
+                    "Invoice_Item_ID": 1,
+                    "Invoice_ID": 128,
+                    "Order_ID": 1,
+                    "Order_Item_ID": 5,
+                    "Product_ID": 396,
+                    "Order_Quantity": 2,
+                    "Other_Item_Details": null
+                  }
+                ]
+              }
+            ],
+            "Invoices": [
+              {
+                "Invoice_ID": 398,
+                "Order_ID": 3,
+                "payment_method_code": "American E",
+                "Product_ID": 4,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 5,
+                "Invoice_Items": []
+              }
+            ]
+          },
+          {
+            "Order_ID": 4,
+            "Customer_ID": 240,
+            "Store_ID": 229,
+            "Order_Date": "1999-11-20 18:48:05",
+            "Planned_Delivery_Date": "1973-08-20 08:52:39",
+            "Actual_Delivery_Date": "2004-03-27 23:30:12",
+            "Other_Order_Details": null,
+            "Order_Items": [
+              {
+                "Order_Item_ID": 4,
+                "Order_ID": 4,
+                "Product_ID": 273,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              },
+              {
+                "Order_Item_ID": 8,
+                "Order_ID": 4,
+                "Product_ID": 156,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              }
+            ],
+            "Invoices": [
+              {
+                "Invoice_ID": 548,
+                "Order_ID": 4,
+                "payment_method_code": "MasterCard",
+                "Product_ID": 3,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 1,
+                "Invoice_Items": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Store_ID": "236",
+        "Address_ID": 74,
+        "Marketing_Region_Code": "CA",
+        "Store_Name": "Fred Dinning",
+        "Store_Phone": "893-457-3102x4293",
+        "Store_Email_Address": "frederik37@example.org",
+        "Other_Details": null,
+        "Customer_Orders": []
+      },
+      {
+        "Store_ID": "512",
+        "Address_ID": 369,
+        "Marketing_Region_Code": "CA",
+        "Store_Name": "Adam Photo",
+        "Store_Phone": "127.870.0753x54565",
+        "Store_Email_Address": "adams.miles@example.net",
+        "Other_Details": "5 stars",
+        "Customer_Orders": [
+          {
+            "Order_ID": 13,
+            "Customer_ID": 240,
+            "Store_ID": 512,
+            "Order_Date": "2003-06-24 11:44:51",
+            "Planned_Delivery_Date": "1979-05-15 03:00:09",
+            "Actual_Delivery_Date": "2011-04-23 06:39:09",
+            "Other_Order_Details": null,
+            "Order_Items": [],
+            "Invoices": [
+              {
+                "Invoice_ID": 162,
+                "Order_ID": 13,
+                "payment_method_code": "MasterCard",
+                "Product_ID": 9,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 9,
+                "Invoice_Items": [
+                  {
+                    "Invoice_Item_ID": 2,
+                    "Invoice_ID": 162,
+                    "Order_ID": 4,
+                    "Order_Item_ID": 6,
+                    "Product_ID": 191,
+                    "Order_Quantity": 6,
+                    "Other_Item_Details": "Good quality"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Marketing_Region_Code": "CN",
+    "Marketing_Region_Name": "China",
+    "Marketing_Region_Descriptrion": "Our largest market",
+    "Other_Details": null,
+    "Stores": [
+      {
+        "Store_ID": "444",
+        "Address_ID": 110,
+        "Marketing_Region_Code": "CN",
+        "Store_Name": "FK Filming",
+        "Store_Phone": "086-705-8793",
+        "Store_Email_Address": "fkuvalis@example.net",
+        "Other_Details": null,
+        "Customer_Orders": [
+          {
+            "Order_ID": 14,
+            "Customer_ID": 546,
+            "Store_ID": 444,
+            "Order_Date": "1971-05-12 10:12:46",
+            "Planned_Delivery_Date": "1987-03-21 18:50:27",
+            "Actual_Delivery_Date": "2016-10-18 16:11:20",
+            "Other_Order_Details": null,
+            "Order_Items": [],
+            "Invoices": [
+              {
+                "Invoice_ID": 128,
+                "Order_ID": 14,
+                "payment_method_code": "MasterCard",
+                "Product_ID": 4,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 1,
+                "Invoice_Items": [
+                  {
+                    "Invoice_Item_ID": 1,
+                    "Invoice_ID": 128,
+                    "Order_ID": 1,
+                    "Order_Item_ID": 5,
+                    "Product_ID": 396,
+                    "Order_Quantity": 2,
+                    "Other_Item_Details": null
+                  }
+                ]
+              },
+              {
+                "Invoice_ID": 406,
+                "Order_ID": 14,
+                "payment_method_code": "MasterCard",
+                "Product_ID": 7,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 1,
+                "Invoice_Items": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Marketing_Region_Code": "ES",
+    "Marketing_Region_Name": "Spain",
+    "Marketing_Region_Descriptrion": "",
+    "Other_Details": null,
+    "Stores": [
+      {
+        "Store_ID": "231",
+        "Address_ID": 230,
+        "Marketing_Region_Code": "ES",
+        "Store_Name": "Adan Dinning",
+        "Store_Phone": "896-931-9633x869",
+        "Store_Email_Address": "adan93@example.com",
+        "Other_Details": null,
+        "Customer_Orders": [
+          {
+            "Order_ID": 1,
+            "Customer_ID": 516,
+            "Store_ID": 231,
+            "Order_Date": "1994-08-03 12:34:58",
+            "Planned_Delivery_Date": "1977-03-11 03:58:19",
+            "Actual_Delivery_Date": "1992-07-21 22:11:11",
+            "Other_Order_Details": null,
+            "Order_Items": [
+              {
+                "Order_Item_ID": 14,
+                "Order_ID": 1,
+                "Product_ID": 81,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              }
+            ],
+            "Invoices": [
+              {
+                "Invoice_ID": 587,
+                "Order_ID": 1,
+                "payment_method_code": "American E",
+                "Product_ID": 4,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 1,
+                "Invoice_Items": []
+              }
+            ]
+          },
+          {
+            "Order_ID": 8,
+            "Customer_ID": 240,
+            "Store_ID": 231,
+            "Order_Date": "1979-09-01 06:29:01",
+            "Planned_Delivery_Date": "1996-05-17 09:10:57",
+            "Actual_Delivery_Date": "1996-02-16 04:20:17",
+            "Other_Order_Details": null,
+            "Order_Items": [],
+            "Invoices": [
+              {
+                "Invoice_ID": 212,
+                "Order_ID": 8,
+                "payment_method_code": "Visa",
+                "Product_ID": 4,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 8,
+                "Invoice_Items": []
+              }
+            ]
+          },
+          {
+            "Order_ID": 12,
+            "Customer_ID": 516,
+            "Store_ID": 231,
+            "Order_Date": "2011-01-05 08:01:07",
+            "Planned_Delivery_Date": "2004-04-24 01:52:57",
+            "Actual_Delivery_Date": "1993-09-16 23:20:05",
+            "Other_Order_Details": null,
+            "Order_Items": [
+              {
+                "Order_Item_ID": 3,
+                "Order_ID": 12,
+                "Product_ID": 300,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              },
+              {
+                "Order_Item_ID": 9,
+                "Order_ID": 12,
+                "Product_ID": 216,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              },
+              {
+                "Order_Item_ID": 12,
+                "Order_ID": 12,
+                "Product_ID": 156,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              }
+            ],
+            "Invoices": [
+              {
+                "Invoice_ID": 679,
+                "Order_ID": 12,
+                "payment_method_code": "MasterCard",
+                "Product_ID": 9,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 8,
+                "Invoice_Items": []
+              }
+            ]
+          },
+          {
+            "Order_ID": 15,
+            "Customer_ID": 712,
+            "Store_ID": 231,
+            "Order_Date": "2008-04-02 18:00:15",
+            "Planned_Delivery_Date": "1994-11-12 04:49:11",
+            "Actual_Delivery_Date": "1996-04-13 19:05:34",
+            "Other_Order_Details": null,
+            "Order_Items": [
+              {
+                "Order_Item_ID": 2,
+                "Order_ID": 15,
+                "Product_ID": 300,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              }
+            ],
+            "Invoices": []
+          }
+        ]
+      },
+      {
+        "Store_ID": "344",
+        "Address_ID": 369,
+        "Marketing_Region_Code": "ES",
+        "Store_Name": "Shery Photo",
+        "Store_Phone": "1-678-902-9434x1148",
+        "Store_Email_Address": "shirley07@example.net",
+        "Other_Details": "4 stars",
+        "Customer_Orders": [
+          {
+            "Order_ID": 6,
+            "Customer_ID": 556,
+            "Store_ID": 344,
+            "Order_Date": "1988-11-13 15:42:13",
+            "Planned_Delivery_Date": "2012-05-19 00:38:52",
+            "Actual_Delivery_Date": "2015-06-20 20:51:17",
+            "Other_Order_Details": null,
+            "Order_Items": [
+              {
+                "Order_Item_ID": 13,
+                "Order_ID": 6,
+                "Product_ID": 233,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              }
+            ],
+            "Invoices": [
+              {
+                "Invoice_ID": 612,
+                "Order_ID": 6,
+                "payment_method_code": "American E",
+                "Product_ID": 3,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 8,
+                "Invoice_Items": []
+              }
+            ]
+          },
+          {
+            "Order_ID": 9,
+            "Customer_ID": 240,
+            "Store_ID": 344,
+            "Order_Date": "1993-11-22 14:56:28",
+            "Planned_Delivery_Date": "1984-05-07 12:05:33",
+            "Actual_Delivery_Date": "1976-05-20 03:24:23",
+            "Other_Order_Details": null,
+            "Order_Items": [],
+            "Invoices": []
+          }
+        ]
+      },
+      {
+        "Store_ID": "518",
+        "Address_ID": 110,
+        "Marketing_Region_Code": "ES",
+        "Store_Name": "Lur Photo",
+        "Store_Phone": "605-319-8245",
+        "Store_Email_Address": "lurline24@example.org",
+        "Other_Details": null,
+        "Customer_Orders": [
+          {
+            "Order_ID": 10,
+            "Customer_ID": 546,
+            "Store_ID": 518,
+            "Order_Date": "1985-05-29 01:20:18",
+            "Planned_Delivery_Date": "1977-07-08 16:35:46",
+            "Actual_Delivery_Date": "2003-12-16 23:37:19",
+            "Other_Order_Details": null,
+            "Order_Items": [
+              {
+                "Order_Item_ID": 7,
+                "Order_ID": 10,
+                "Product_ID": 179,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              }
+            ],
+            "Invoices": [
+              {
+                "Invoice_ID": 272,
+                "Order_ID": 10,
+                "payment_method_code": "American E",
+                "Product_ID": 3,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 5,
+                "Invoice_Items": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Marketing_Region_Code": "FR",
+    "Marketing_Region_Name": "France",
+    "Marketing_Region_Descriptrion": "",
+    "Other_Details": null,
+    "Stores": [
+      {
+        "Store_ID": "421",
+        "Address_ID": 192,
+        "Marketing_Region_Code": "FR",
+        "Store_Name": "Carmol Photo",
+        "Store_Phone": "(941)444-7666x7089",
+        "Store_Email_Address": "carmel04@example.com",
+        "Other_Details": "3 stars",
+        "Customer_Orders": [
+          {
+            "Order_ID": 11,
+            "Customer_ID": 304,
+            "Store_ID": 421,
+            "Order_Date": "2000-07-03 21:41:50",
+            "Planned_Delivery_Date": "1994-08-08 03:08:23",
+            "Actual_Delivery_Date": "1990-11-14 03:53:06",
+            "Other_Order_Details": null,
+            "Order_Items": [
+              {
+                "Order_Item_ID": 10,
+                "Order_ID": 11,
+                "Product_ID": 46,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              }
+            ],
+            "Invoices": [
+              {
+                "Invoice_ID": 633,
+                "Order_ID": 11,
+                "payment_method_code": "Visa",
+                "Product_ID": 2,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 7,
+                "Invoice_Items": []
+              },
+              {
+                "Invoice_ID": 733,
+                "Order_ID": 11,
+                "payment_method_code": "Visa",
+                "Product_ID": 6,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 4,
+                "Invoice_Items": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Marketing_Region_Code": "IN",
+    "Marketing_Region_Name": "India",
+    "Marketing_Region_Descriptrion": "",
+    "Other_Details": null,
+    "Stores": [
+      {
+        "Store_ID": "150",
+        "Address_ID": 286,
+        "Marketing_Region_Code": "IN",
+        "Store_Name": "FJA Filming",
+        "Store_Phone": "+65(1)3590790358",
+        "Store_Email_Address": "fjacobson@example.com",
+        "Other_Details": null,
+        "Customer_Orders": [
+          {
+            "Order_ID": 5,
+            "Customer_ID": 418,
+            "Store_ID": 150,
+            "Order_Date": "1973-02-16 19:28:34",
+            "Planned_Delivery_Date": "1990-09-25 07:14:01",
+            "Actual_Delivery_Date": "2004-04-23 21:19:39",
+            "Other_Order_Details": null,
+            "Order_Items": [
+              {
+                "Order_Item_ID": 6,
+                "Order_ID": 5,
+                "Product_ID": 83,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Invoice_Items": [
+                  {
+                    "Invoice_Item_ID": 2,
+                    "Invoice_ID": 162,
+                    "Order_ID": 4,
+                    "Order_Item_ID": 6,
+                    "Product_ID": 191,
+                    "Order_Quantity": 6,
+                    "Other_Item_Details": "Good quality"
+                  }
+                ]
+              }
+            ],
+            "Invoices": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Marketing_Region_Code": "MX",
+    "Marketing_Region_Name": "Mexico",
+    "Marketing_Region_Descriptrion": "",
+    "Other_Details": null,
+    "Stores": []
+  },
+  {
+    "Marketing_Region_Code": "RU",
+    "Marketing_Region_Name": "Russia",
+    "Marketing_Region_Descriptrion": "",
+    "Other_Details": null,
+    "Stores": [
+      {
+        "Store_ID": "291",
+        "Address_ID": 266,
+        "Marketing_Region_Code": "RU",
+        "Store_Name": "Ewi Filming",
+        "Store_Phone": "+46(1)1411714927",
+        "Store_Email_Address": "ewisoky@example.org",
+        "Other_Details": null,
+        "Customer_Orders": [
+          {
+            "Order_ID": 7,
+            "Customer_ID": 546,
+            "Store_ID": 291,
+            "Order_Date": "1998-03-10 14:01:00",
+            "Planned_Delivery_Date": "2014-06-18 09:42:23",
+            "Actual_Delivery_Date": "1972-08-15 19:12:14",
+            "Other_Order_Details": null,
+            "Order_Items": [
+              {
+                "Order_Item_ID": 15,
+                "Order_ID": 7,
+                "Product_ID": 300,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Invoice_Items": []
+              }
+            ],
+            "Invoices": [
+              {
+                "Invoice_ID": 164,
+                "Order_ID": 7,
+                "payment_method_code": "Visa",
+                "Product_ID": 7,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 1,
+                "Invoice_Items": []
+              },
+              {
+                "Invoice_ID": 483,
+                "Order_ID": 7,
+                "payment_method_code": "Visa",
+                "Product_ID": 8,
+                "Order_Quantity": "1",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 3,
+                "Invoice_Items": []
+              },
+              {
+                "Invoice_ID": 777,
+                "Order_ID": 7,
+                "payment_method_code": "MasterCard",
+                "Product_ID": 6,
+                "Order_Quantity": "2",
+                "Other_Item_Details": null,
+                "Order_Item_ID": 7,
+                "Invoice_Items": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Marketing_Region_Code": "US",
+    "Marketing_Region_Name": "United States",
+    "Marketing_Region_Descriptrion": "Our main market",
+    "Other_Details": null,
+    "Stores": []
+  }
+]

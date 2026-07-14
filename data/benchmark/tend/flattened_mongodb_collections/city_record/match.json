@@ -1,0 +1,92 @@
+[
+  {
+    "Match_ID": 1,
+    "Date": "18 February 1992",
+    "Venue": "Estadio Cuscatl\u00e1n , San Salvador , El Salvador",
+    "Score": "1-0",
+    "Result": "2-0",
+    "Competition": "Friendly match",
+    "hosting_city": [
+      {
+        "Year": 2008,
+        "Match_ID": 1,
+        "Host_City": "1"
+      }
+    ]
+  },
+  {
+    "Match_ID": 2,
+    "Date": "19 July 1992",
+    "Venue": "Estadio Rigoberto L\u00f3pez , Managua , Nicaragua",
+    "Score": "3-0",
+    "Result": "5-0",
+    "Competition": "1994 FIFA World Cup qualification",
+    "hosting_city": [
+      {
+        "Year": 2009,
+        "Match_ID": 2,
+        "Host_City": "2"
+      }
+    ]
+  },
+  {
+    "Match_ID": 3,
+    "Date": "23 July 1992",
+    "Venue": "Estadio Cuscatl\u00e1n , San Salvador , El Salvador",
+    "Score": "1-0",
+    "Result": "5-1",
+    "Competition": "1994 FIFA World Cup qualification",
+    "hosting_city": [
+      {
+        "Year": 2010,
+        "Match_ID": 3,
+        "Host_City": "2"
+      }
+    ]
+  },
+  {
+    "Match_ID": 4,
+    "Date": "23 July 1992",
+    "Venue": "Estadio Cuscatl\u00e1n , San Salvador , El Salvador",
+    "Score": "3-0",
+    "Result": "5-1",
+    "Competition": "1994 FIFA World Cup qualification",
+    "hosting_city": [
+      {
+        "Year": 2011,
+        "Match_ID": 4,
+        "Host_City": "6"
+      }
+    ]
+  },
+  {
+    "Match_ID": 5,
+    "Date": "4 April 1993",
+    "Venue": "Estadio Cuscatl\u00e1n , San Salvador , El Salvador",
+    "Score": "1\u20130",
+    "Result": "2\u20131",
+    "Competition": "1994 FIFA World Cup qualification",
+    "hosting_city": [
+      {
+        "Year": 2012,
+        "Match_ID": 5,
+        "Host_City": "12"
+      }
+    ]
+  },
+  {
+    "Match_ID": 6,
+    "Date": "23 July 2000",
+    "Venue": "Estadio Cuscatl\u00e1n , San Salvador , El Salvador",
+    "Score": "2\u20131",
+    "Result": "7\u20131",
+    "Competition": "2002 FIFA World Cup qualification",
+    "hosting_city": [
+      {
+        "Year": 2013,
+        "Match_ID": 6,
+        "Host_City": "11"
+      }
+    ]
+  }
+]

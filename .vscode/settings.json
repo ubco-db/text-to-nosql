@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "translator/java/mongodb_unityjdbc_full.jar"
+    ]
+}

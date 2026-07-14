@@ -1,0 +1,66 @@
+[
+  {
+    "cName": "LSU",
+    "state": "LA",
+    "enr": 18000,
+    "Tryout": [
+      {
+        "pID": 10001,
+        "cName": "LSU",
+        "pPos": "goalie",
+        "decision": "no"
+      },
+      {
+        "pID": 50005,
+        "cName": "LSU",
+        "pPos": "mid",
+        "decision": "no"
+      }
+    ]
+  },
+  {
+    "cName": "ASU",
+    "state": "AZ",
+    "enr": 12000,
+    "Tryout": [
+      {
+        "pID": 10001,
+        "cName": "ASU",
+        "pPos": "goalie",
+        "decision": "yes"
+      },
+      {
+        "pID": 40004,
+        "cName": "ASU",
+        "pPos": "goalie",
+        "decision": "no"
+      }
+    ]
+  },
+  {
+    "cName": "OU",
+    "state": "OK",
+    "enr": 22000,
+    "Tryout": [
+      {
+        "pID": 30003,
+        "cName": "OU",
+        "pPos": "mid",
+        "decision": "no"
+      }
+    ]
+  },
+  {
+    "cName": "FSU",
+    "state": "FL",
+    "enr": 19000,
+    "Tryout": [
+      {
+        "pID": 20002,
+        "cName": "FSU",
+        "pPos": "striker",
+        "decision": "yes"
+      }
+    ]
+  }
+]

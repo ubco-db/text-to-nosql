@@ -1,0 +1,473 @@
+[
+  {
+    "Calendar_Date": "1972-03-31 09:47:22",
+    "Day_Number": 5,
+    "All_Documents": [],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "1976-06-15 03:40:06",
+    "Day_Number": 7,
+    "All_Documents": [
+      {
+        "Document_ID": 7,
+        "Date_Stored": "1976-06-15 03:40:06",
+        "Document_Type_Code": "CV",
+        "Document_Name": "Robin CV",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [
+          {
+            "Document_ID": 7,
+            "Location_Code": "e",
+            "Date_in_Location_From": "2017-01-06 23:17:22",
+            "Date_in_Locaton_To": "2008-06-08 12:45:38"
+          }
+        ],
+        "Documents_to_be_Destroyed": [
+          {
+            "Document_ID": 7,
+            "Destruction_Authorised_by_Employee_ID": 156,
+            "Destroyed_by_Employee_ID": 138,
+            "Planned_Destruction_Date": "1988-02-01 14:41:52",
+            "Actual_Destruction_Date": "2017-01-06 23:17:22",
+            "Other_Details": null
+          }
+        ]
+      },
+      {
+        "Document_ID": 230,
+        "Date_Stored": "1976-06-15 03:40:06",
+        "Document_Type_Code": "CV",
+        "Document_Name": "Martin CV",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [
+          {
+            "Document_ID": 230,
+            "Location_Code": "e",
+            "Date_in_Location_From": "1972-03-31 09:47:22",
+            "Date_in_Locaton_To": "1987-11-05 06:11:22"
+          },
+          {
+            "Document_ID": 230,
+            "Location_Code": "e",
+            "Date_in_Location_From": "2010-11-26 19:22:50",
+            "Date_in_Locaton_To": "2017-01-06 23:17:22"
+          }
+        ],
+        "Documents_to_be_Destroyed": []
+      },
+      {
+        "Document_ID": 252,
+        "Date_Stored": "1976-06-15 03:40:06",
+        "Document_Type_Code": "BK",
+        "Document_Name": "Summer",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [
+          {
+            "Document_ID": 252,
+            "Location_Code": "n",
+            "Date_in_Location_From": "2017-01-06 23:17:22",
+            "Date_in_Locaton_To": "1997-03-10 15:24:00"
+          },
+          {
+            "Document_ID": 252,
+            "Location_Code": "x",
+            "Date_in_Location_From": "1972-03-31 09:47:22",
+            "Date_in_Locaton_To": "2009-08-18 03:29:08"
+          }
+        ],
+        "Documents_to_be_Destroyed": [
+          {
+            "Document_ID": 252,
+            "Destruction_Authorised_by_Employee_ID": 30,
+            "Destroyed_by_Employee_ID": 55,
+            "Planned_Destruction_Date": "1972-03-31 09:47:22",
+            "Actual_Destruction_Date": "1985-05-13 12:19:43",
+            "Other_Details": null
+          }
+        ]
+      }
+    ],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "1985-05-13 12:19:43",
+    "Day_Number": 7,
+    "All_Documents": [],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "1986-10-14 17:53:39",
+    "Day_Number": 1,
+    "All_Documents": [
+      {
+        "Document_ID": 11,
+        "Date_Stored": "1986-10-14 17:53:39",
+        "Document_Type_Code": "CV",
+        "Document_Name": "Marry CV",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [
+          {
+            "Document_ID": 11,
+            "Location_Code": "x",
+            "Date_in_Location_From": "2017-01-06 23:17:22",
+            "Date_in_Locaton_To": "2012-07-03 09:48:46"
+          }
+        ],
+        "Documents_to_be_Destroyed": [
+          {
+            "Document_ID": 11,
+            "Destruction_Authorised_by_Employee_ID": 55,
+            "Destroyed_by_Employee_ID": 173,
+            "Planned_Destruction_Date": "2010-11-26 19:22:50",
+            "Actual_Destruction_Date": "1986-10-14 17:53:39",
+            "Other_Details": null
+          }
+        ]
+      }
+    ],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "1987-11-05 06:11:22",
+    "Day_Number": 3,
+    "All_Documents": [
+      {
+        "Document_ID": 111,
+        "Date_Stored": "1987-11-05 06:11:22",
+        "Document_Type_Code": "PR",
+        "Document_Name": "Learning features of CNN",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [
+          {
+            "Document_ID": 111,
+            "Location_Code": "x",
+            "Date_in_Location_From": "1986-10-14 17:53:39",
+            "Date_in_Locaton_To": "2010-11-26 19:22:50"
+          }
+        ],
+        "Documents_to_be_Destroyed": [
+          {
+            "Document_ID": 111,
+            "Destruction_Authorised_by_Employee_ID": 38,
+            "Destroyed_by_Employee_ID": 173,
+            "Planned_Destruction_Date": "1972-03-31 09:47:22",
+            "Actual_Destruction_Date": "2009-08-18 03:29:08",
+            "Other_Details": null
+          }
+        ]
+      }
+    ],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "1988-02-01 14:41:52",
+    "Day_Number": 8,
+    "All_Documents": [],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "1994-11-15 03:49:54",
+    "Day_Number": 9,
+    "All_Documents": [],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "1995-01-01 03:52:11",
+    "Day_Number": 1,
+    "All_Documents": [
+      {
+        "Document_ID": 81,
+        "Date_Stored": "1995-01-01 03:52:11",
+        "Document_Type_Code": "BK",
+        "Document_Name": "Hua Mulan",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [
+          {
+            "Document_ID": 81,
+            "Location_Code": "c",
+            "Date_in_Location_From": "1972-03-31 09:47:22",
+            "Date_in_Locaton_To": "1987-11-05 06:11:22"
+          },
+          {
+            "Document_ID": 81,
+            "Location_Code": "c",
+            "Date_in_Location_From": "2017-01-06 23:17:22",
+            "Date_in_Locaton_To": "2010-11-26 19:22:50"
+          },
+          {
+            "Document_ID": 81,
+            "Location_Code": "x",
+            "Date_in_Location_From": "2008-06-08 12:45:38",
+            "Date_in_Locaton_To": "1976-06-15 03:40:06"
+          }
+        ],
+        "Documents_to_be_Destroyed": []
+      }
+    ],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "1997-03-10 15:24:00",
+    "Day_Number": 7,
+    "All_Documents": [
+      {
+        "Document_ID": 120,
+        "Date_Stored": "1997-03-10 15:24:00",
+        "Document_Type_Code": "RV",
+        "Document_Name": "Society and tax",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [],
+        "Documents_to_be_Destroyed": [
+          {
+            "Document_ID": 120,
+            "Destruction_Authorised_by_Employee_ID": 183,
+            "Destroyed_by_Employee_ID": 173,
+            "Planned_Destruction_Date": "1972-03-31 09:47:22",
+            "Actual_Destruction_Date": "1995-01-01 03:52:11",
+            "Other_Details": null
+          }
+        ]
+      },
+      {
+        "Document_ID": 166,
+        "Date_Stored": "1997-03-10 15:24:00",
+        "Document_Type_Code": "PR",
+        "Document_Name": "Are you talking to a machine",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [
+          {
+            "Document_ID": 166,
+            "Location_Code": "b",
+            "Date_in_Location_From": "1985-05-13 12:19:43",
+            "Date_in_Locaton_To": "1986-10-14 17:53:39"
+          },
+          {
+            "Document_ID": 166,
+            "Location_Code": "b",
+            "Date_in_Location_From": "1986-10-14 17:53:39",
+            "Date_in_Locaton_To": "2010-11-26 19:22:50"
+          }
+        ],
+        "Documents_to_be_Destroyed": [
+          {
+            "Document_ID": 166,
+            "Destruction_Authorised_by_Employee_ID": 156,
+            "Destroyed_by_Employee_ID": 38,
+            "Planned_Destruction_Date": "1987-11-05 06:11:22",
+            "Actual_Destruction_Date": "2012-07-03 09:48:46",
+            "Other_Details": null
+          }
+        ]
+      },
+      {
+        "Document_ID": 260,
+        "Date_Stored": "1997-03-10 15:24:00",
+        "Document_Type_Code": "BK",
+        "Document_Name": "Cats and me",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [
+          {
+            "Document_ID": 260,
+            "Location_Code": "e",
+            "Date_in_Location_From": "2009-08-18 03:29:08",
+            "Date_in_Locaton_To": "1986-10-14 17:53:39"
+          }
+        ],
+        "Documents_to_be_Destroyed": [
+          {
+            "Document_ID": 260,
+            "Destruction_Authorised_by_Employee_ID": 55,
+            "Destroyed_by_Employee_ID": 99,
+            "Planned_Destruction_Date": "2017-01-06 23:17:22",
+            "Actual_Destruction_Date": "2017-01-06 23:17:22",
+            "Other_Details": null
+          }
+        ]
+      }
+    ],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "2007-05-28 16:28:48",
+    "Day_Number": 2,
+    "All_Documents": [],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "2008-06-08 12:45:38",
+    "Day_Number": 3,
+    "All_Documents": [
+      {
+        "Document_ID": 25,
+        "Date_Stored": "2008-06-08 12:45:38",
+        "Document_Type_Code": "BK",
+        "Document_Name": "One hundred years of solitude",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [],
+        "Documents_to_be_Destroyed": [
+          {
+            "Document_ID": 25,
+            "Destruction_Authorised_by_Employee_ID": 183,
+            "Destroyed_by_Employee_ID": 156,
+            "Planned_Destruction_Date": "2009-08-18 03:29:08",
+            "Actual_Destruction_Date": "1995-01-01 03:52:11",
+            "Other_Details": null
+          }
+        ]
+      },
+      {
+        "Document_ID": 99,
+        "Date_Stored": "2008-06-08 12:45:38",
+        "Document_Type_Code": "CV",
+        "Document_Name": "Leon CV",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [],
+        "Documents_to_be_Destroyed": [
+          {
+            "Document_ID": 99,
+            "Destruction_Authorised_by_Employee_ID": 55,
+            "Destroyed_by_Employee_ID": 99,
+            "Planned_Destruction_Date": "2017-01-06 23:17:22",
+            "Actual_Destruction_Date": "1986-10-14 17:53:39",
+            "Other_Details": null
+          }
+        ]
+      },
+      {
+        "Document_ID": 119,
+        "Date_Stored": "2008-06-08 12:45:38",
+        "Document_Type_Code": "RV",
+        "Document_Name": "Marriage and population",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [
+          {
+            "Document_ID": 119,
+            "Location_Code": "b",
+            "Date_in_Location_From": "2017-01-06 23:17:22",
+            "Date_in_Locaton_To": "1995-01-01 03:52:11"
+          }
+        ],
+        "Documents_to_be_Destroyed": []
+      }
+    ],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "2009-08-18 03:29:08",
+    "Day_Number": 8,
+    "All_Documents": [
+      {
+        "Document_ID": 170,
+        "Date_Stored": "2009-08-18 03:29:08",
+        "Document_Type_Code": "RV",
+        "Document_Name": "Population",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [
+          {
+            "Document_ID": 170,
+            "Location_Code": "x",
+            "Date_in_Location_From": "1997-03-10 15:24:00",
+            "Date_in_Locaton_To": "1976-06-15 03:40:06"
+          }
+        ],
+        "Documents_to_be_Destroyed": [
+          {
+            "Document_ID": 170,
+            "Destruction_Authorised_by_Employee_ID": 123,
+            "Destroyed_by_Employee_ID": 136,
+            "Planned_Destruction_Date": "2017-01-06 23:17:22",
+            "Actual_Destruction_Date": "1988-02-01 14:41:52",
+            "Other_Details": null
+          }
+        ]
+      }
+    ],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "2010-11-26 19:22:50",
+    "Day_Number": 7,
+    "All_Documents": [],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "2012-07-03 09:48:46",
+    "Day_Number": 7,
+    "All_Documents": [
+      {
+        "Document_ID": 39,
+        "Date_Stored": "2012-07-03 09:48:46",
+        "Document_Type_Code": "BK",
+        "Document_Name": "How to read a book",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [],
+        "Documents_to_be_Destroyed": [
+          {
+            "Document_ID": 39,
+            "Destruction_Authorised_by_Employee_ID": 183,
+            "Destroyed_by_Employee_ID": 136,
+            "Planned_Destruction_Date": "1976-06-15 03:40:06",
+            "Actual_Destruction_Date": "2009-08-18 03:29:08",
+            "Other_Details": null
+          }
+        ]
+      },
+      {
+        "Document_ID": 72,
+        "Date_Stored": "2012-07-03 09:48:46",
+        "Document_Type_Code": "CV",
+        "Document_Name": "Alan CV",
+        "Document_Description": null,
+        "Other_Details": null,
+        "Document_Locations": [],
+        "Documents_to_be_Destroyed": []
+      }
+    ],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": []
+  },
+  {
+    "Calendar_Date": "2017-01-06 23:17:22",
+    "Day_Number": 8,
+    "All_Documents": [],
+    "Document_Locations": [],
+    "Documents_to_be_Destroyed": [
+      {
+        "Document_ID": 260,
+        "Destruction_Authorised_by_Employee_ID": 55,
+        "Destroyed_by_Employee_ID": 99,
+        "Planned_Destruction_Date": "2017-01-06 23:17:22",
+        "Actual_Destruction_Date": "2017-01-06 23:17:22",
+        "Other_Details": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,241 @@
+[
+  {
+    "Company_ID": 1.0,
+    "Name": "ExxonMobil",
+    "Headquarters": "USA",
+    "Industry": "Oil and gas",
+    "Sales_in_Billion": 433.5,
+    "Profits_in_Billion": 41.1,
+    "Assets_in_Billion": 331.1,
+    "Market_Value_in_Billion": 407.4,
+    "employment": []
+  },
+  {
+    "Company_ID": 2.0,
+    "Name": "JPMorgan Chase",
+    "Headquarters": "USA",
+    "Industry": "Banking",
+    "Sales_in_Billion": 110.8,
+    "Profits_in_Billion": 19.0,
+    "Assets_in_Billion": 2265.8,
+    "Market_Value_in_Billion": 170.1,
+    "employment": []
+  },
+  {
+    "Company_ID": 3.0,
+    "Name": "General Electric",
+    "Headquarters": "USA",
+    "Industry": "Conglomerate",
+    "Sales_in_Billion": 147.3,
+    "Profits_in_Billion": 14.2,
+    "Assets_in_Billion": 717.2,
+    "Market_Value_in_Billion": 213.7,
+    "employment": []
+  },
+  {
+    "Company_ID": 4.0,
+    "Name": "Royal Dutch Shell",
+    "Headquarters": "Netherlands",
+    "Industry": "Oil and gas",
+    "Sales_in_Billion": 470.2,
+    "Profits_in_Billion": 30.9,
+    "Assets_in_Billion": 340.5,
+    "Market_Value_in_Billion": 227.6,
+    "employment": []
+  },
+  {
+    "Company_ID": 5.0,
+    "Name": "Industrial and Commercial Bank of China",
+    "Headquarters": "China",
+    "Industry": "Banking",
+    "Sales_in_Billion": 82.6,
+    "Profits_in_Billion": 25.1,
+    "Assets_in_Billion": 2039.1,
+    "Market_Value_in_Billion": 237.4,
+    "employment": []
+  },
+  {
+    "Company_ID": 6.0,
+    "Name": "HSBC",
+    "Headquarters": "UK",
+    "Industry": "Banking",
+    "Sales_in_Billion": 102.0,
+    "Profits_in_Billion": 16.2,
+    "Assets_in_Billion": 2550.0,
+    "Market_Value_in_Billion": 164.3,
+    "employment": []
+  },
+  {
+    "Company_ID": 7.0,
+    "Name": "PetroChina",
+    "Headquarters": "China",
+    "Industry": "Oil and gas",
+    "Sales_in_Billion": 310.1,
+    "Profits_in_Billion": 20.6,
+    "Assets_in_Billion": 304.7,
+    "Market_Value_in_Billion": 294.7,
+    "employment": [
+      {
+        "Company_ID": 7,
+        "People_ID": 4,
+        "Year_working": 1
+      }
+    ]
+  },
+  {
+    "Company_ID": 8.0,
+    "Name": "Berkshire Hathaway",
+    "Headquarters": "USA",
+    "Industry": "Conglomerate",
+    "Sales_in_Billion": 143.7,
+    "Profits_in_Billion": 10.3,
+    "Assets_in_Billion": 392.6,
+    "Market_Value_in_Billion": 202.2,
+    "employment": []
+  },
+  {
+    "Company_ID": 9.0,
+    "Name": "Wells Fargo",
+    "Headquarters": "USA",
+    "Industry": "Banking",
+    "Sales_in_Billion": 87.6,
+    "Profits_in_Billion": 15.9,
+    "Assets_in_Billion": 1313.9,
+    "Market_Value_in_Billion": 178.7,
+    "employment": []
+  },
+  {
+    "Company_ID": 10.0,
+    "Name": "Petrobras",
+    "Headquarters": "Brazil",
+    "Industry": "Oil and gas",
+    "Sales_in_Billion": 145.9,
+    "Profits_in_Billion": 20.1,
+    "Assets_in_Billion": 319.4,
+    "Market_Value_in_Billion": 180.0,
+    "employment": []
+  },
+  {
+    "Company_ID": 11.0,
+    "Name": "BP",
+    "Headquarters": "UK",
+    "Industry": "Oil and gas",
+    "Sales_in_Billion": 375.5,
+    "Profits_in_Billion": 25.7,
+    "Assets_in_Billion": 292.5,
+    "Market_Value_in_Billion": 147.4,
+    "employment": [
+      {
+        "Company_ID": 11,
+        "People_ID": 3,
+        "Year_working": 2
+      }
+    ]
+  },
+  {
+    "Company_ID": 12.0,
+    "Name": "Chevron",
+    "Headquarters": "USA",
+    "Industry": "Oil and gas",
+    "Sales_in_Billion": 236.3,
+    "Profits_in_Billion": 26.9,
+    "Assets_in_Billion": 209.5,
+    "Market_Value_in_Billion": 218.0,
+    "employment": []
+  },
+  {
+    "Company_ID": 13.0,
+    "Name": "China Construction Bank",
+    "Headquarters": "China",
+    "Industry": "Banking",
+    "Sales_in_Billion": 68.7,
+    "Profits_in_Billion": 20.5,
+    "Assets_in_Billion": 1637.8,
+    "Market_Value_in_Billion": 201.9,
+    "employment": [
+      {
+        "Company_ID": 13,
+        "People_ID": 2,
+        "Year_working": 3
+      }
+    ]
+  },
+  {
+    "Company_ID": 14.0,
+    "Name": "Citigroup",
+    "Headquarters": "USA",
+    "Industry": "Banking",
+    "Sales_in_Billion": 102.6,
+    "Profits_in_Billion": 11.1,
+    "Assets_in_Billion": 1873.9,
+    "Market_Value_in_Billion": 107.5,
+    "employment": []
+  },
+  {
+    "Company_ID": 15.0,
+    "Name": "Gazprom",
+    "Headquarters": "Russia",
+    "Industry": "Oil and gas",
+    "Sales_in_Billion": 117.6,
+    "Profits_in_Billion": 31.7,
+    "Assets_in_Billion": 302.6,
+    "Market_Value_in_Billion": 159.8,
+    "employment": [
+      {
+        "Company_ID": 15,
+        "People_ID": 1,
+        "Year_working": 1
+      }
+    ]
+  },
+  {
+    "Company_ID": 16.0,
+    "Name": "Walmart",
+    "Headquarters": "USA",
+    "Industry": "Retailing",
+    "Sales_in_Billion": 447.0,
+    "Profits_in_Billion": 15.7,
+    "Assets_in_Billion": 193.4,
+    "Market_Value_in_Billion": 208.4,
+    "employment": []
+  },
+  {
+    "Company_ID": 17.0,
+    "Name": "Volkswagen Group",
+    "Headquarters": "Germany",
+    "Industry": "Automotive",
+    "Sales_in_Billion": 221.9,
+    "Profits_in_Billion": 21.5,
+    "Assets_in_Billion": 328.7,
+    "Market_Value_in_Billion": 79.5,
+    "employment": [
+      {
+        "Company_ID": 17,
+        "People_ID": 7,
+        "Year_working": 4
+      }
+    ]
+  },
+  {
+    "Company_ID": 18.0,
+    "Name": "Total",
+    "Headquarters": "France",
+    "Industry": "Oil and gas",
+    "Sales_in_Billion": 216.2,
+    "Profits_in_Billion": 15.9,
+    "Assets_in_Billion": 213.0,
+    "Market_Value_in_Billion": 132.4,
+    "employment": []
+  },
+  {
+    "Company_ID": 19.0,
+    "Name": "Agricultural Bank of China",
+    "Headquarters": "China",
+    "Industry": "Banking",
+    "Sales_in_Billion": 62.4,
+    "Profits_in_Billion": 14.4,
+    "Assets_in_Billion": 1563.9,
+    "Market_Value_in_Billion": 154.8,
+    "employment": []
+  }
+]

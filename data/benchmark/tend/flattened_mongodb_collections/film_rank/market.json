@@ -1,0 +1,122 @@
+[
+  {
+    "Market_ID": 1,
+    "Country": "Japan",
+    "Number_cities": 209,
+    "film_market_estimation": [
+      {
+        "Estimation_ID": 1,
+        "Low_Estimate": 80000.0,
+        "High_Estimate": 80400.0,
+        "Film_ID": 1,
+        "Type": "Mass suicide murder",
+        "Market_ID": 1,
+        "Year": 1945
+      },
+      {
+        "Estimation_ID": 5,
+        "Low_Estimate": 913.0,
+        "High_Estimate": 913.0,
+        "Film_ID": 4,
+        "Type": "Mass suicide murder",
+        "Market_ID": 1,
+        "Year": 1978
+      },
+      {
+        "Estimation_ID": 6,
+        "Low_Estimate": 300.0,
+        "High_Estimate": 1000.0,
+        "Film_ID": 4,
+        "Type": "Mass suicide",
+        "Market_ID": 1,
+        "Year": 2000
+      },
+      {
+        "Estimation_ID": 7,
+        "Low_Estimate": 53.0,
+        "High_Estimate": 53.0,
+        "Film_ID": 4,
+        "Type": "Mass suicide",
+        "Market_ID": 1,
+        "Year": 1994
+      }
+    ]
+  },
+  {
+    "Market_ID": 2,
+    "Country": "China",
+    "Number_cities": 540,
+    "film_market_estimation": [
+      {
+        "Estimation_ID": 2,
+        "Low_Estimate": 8000.0,
+        "High_Estimate": 8000.0,
+        "Film_ID": 2,
+        "Type": "Mass suicide",
+        "Market_ID": 2,
+        "Year": 1944
+      },
+      {
+        "Estimation_ID": 4,
+        "Low_Estimate": 960.0,
+        "High_Estimate": 960.0,
+        "Film_ID": 4,
+        "Type": "Mass suicide",
+        "Market_ID": 2,
+        "Year": 1973
+      },
+      {
+        "Estimation_ID": 8,
+        "Low_Estimate": 39.0,
+        "High_Estimate": 39.0,
+        "Film_ID": 1,
+        "Type": "Mass suicide",
+        "Market_ID": 2,
+        "Year": 1997
+      }
+    ]
+  },
+  {
+    "Market_ID": 3,
+    "Country": "USA",
+    "Number_cities": 700,
+    "film_market_estimation": [
+      {
+        "Estimation_ID": 3,
+        "Low_Estimate": 3000.0,
+        "High_Estimate": 80400.0,
+        "Film_ID": 3,
+        "Type": "Mass human sacrifice",
+        "Market_ID": 3,
+        "Year": 1487
+      },
+      {
+        "Estimation_ID": 9,
+        "Low_Estimate": 16.0,
+        "High_Estimate": 16.0,
+        "Film_ID": 1,
+        "Type": "Mass suicide",
+        "Market_ID": 3,
+        "Year": 1995
+      }
+    ]
+  },
+  {
+    "Market_ID": 4,
+    "Country": "Russia",
+    "Number_cities": 231,
+    "film_market_estimation": []
+  },
+  {
+    "Market_ID": 5,
+    "Country": "France",
+    "Number_cities": 212,
+    "film_market_estimation": []
+  },
+  {
+    "Market_ID": 6,
+    "Country": "Poland",
+    "Number_cities": 453,
+    "film_market_estimation": []
+  }
+]

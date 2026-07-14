@@ -1,0 +1,144 @@
+[
+  {
+    "Aircraft_ID": 1,
+    "Aircraft": "Robinson R-22",
+    "Description": "Light utility helicopter",
+    "Max_Gross_Weight": "1,370 lb (635 kg)",
+    "Total_disk_area": "497 ft\u00b2 (46.2 m\u00b2)",
+    "Max_disk_Loading": "2.6 lb/ft\u00b2 (14 kg/m\u00b2)",
+    "match": [
+      {
+        "Round": 1.0,
+        "Location": "Mina' Zayid , Abu Dhabi",
+        "Country": "United Arab Emirates",
+        "Date": "March 26\u201327",
+        "Fastest_Qualifying": "Hannes Arch",
+        "Winning_Pilot": "1",
+        "Winning_Aircraft": "1"
+      },
+      {
+        "Round": 2.0,
+        "Location": "Swan River , Perth",
+        "Country": "Australia",
+        "Date": "April 17\u201318",
+        "Fastest_Qualifying": "Paul Bonhomme",
+        "Winning_Pilot": "4",
+        "Winning_Aircraft": "1"
+      }
+    ],
+    "airport_aircraft": [
+      {
+        "ID": 2,
+        "Airport_ID": 2,
+        "Aircraft_ID": 1
+      }
+    ]
+  },
+  {
+    "Aircraft_ID": 2,
+    "Aircraft": "Bell 206B3 JetRanger",
+    "Description": "Turboshaft utility helicopter",
+    "Max_Gross_Weight": "3,200 lb (1,451 kg)",
+    "Total_disk_area": "872 ft\u00b2 (81.1 m\u00b2)",
+    "Max_disk_Loading": "3.7 lb/ft\u00b2 (18 kg/m\u00b2)",
+    "match": [
+      {
+        "Round": 3.0,
+        "Location": "Flamengo Beach , Rio de Janeiro",
+        "Country": "Brazil",
+        "Date": "May 8\u20139",
+        "Fastest_Qualifying": "Hannes Arch",
+        "Winning_Pilot": "6",
+        "Winning_Aircraft": "2"
+      }
+    ],
+    "airport_aircraft": [
+      {
+        "ID": 3,
+        "Airport_ID": 1,
+        "Aircraft_ID": 2
+      }
+    ]
+  },
+  {
+    "Aircraft_ID": 3,
+    "Aircraft": "CH-47D Chinook",
+    "Description": "Tandem rotor helicopter",
+    "Max_Gross_Weight": "50,000 lb (22,680 kg)",
+    "Total_disk_area": "5,655 ft\u00b2 (526 m\u00b2)",
+    "Max_disk_Loading": "8.8 lb/ft\u00b2 (43 kg/m\u00b2)",
+    "match": [
+      {
+        "Round": 5.0,
+        "Location": "New York City",
+        "Country": "United States",
+        "Date": "June 19\u201320",
+        "Fastest_Qualifying": "Hannes Arch",
+        "Winning_Pilot": "9",
+        "Winning_Aircraft": "3"
+      }
+    ],
+    "airport_aircraft": [
+      {
+        "ID": 4,
+        "Airport_ID": 9,
+        "Aircraft_ID": 3
+      }
+    ]
+  },
+  {
+    "Aircraft_ID": 4,
+    "Aircraft": "Mil Mi-26",
+    "Description": "Heavy-lift helicopter",
+    "Max_Gross_Weight": "123,500 lb (56,000 kg)",
+    "Total_disk_area": "8,495 ft\u00b2 (789 m\u00b2)",
+    "Max_disk_Loading": "14.5 lb/ft\u00b2 (71 kg/m\u00b2)",
+    "match": [
+      {
+        "Round": 4.0,
+        "Location": "Windsor , Ontario",
+        "Country": "Canada",
+        "Date": "June 5\u20136",
+        "Fastest_Qualifying": "Nigel Lamb",
+        "Winning_Pilot": "4",
+        "Winning_Aircraft": "4"
+      },
+      {
+        "Round": 6.0,
+        "Location": "EuroSpeedway Lausitz",
+        "Country": "Germany",
+        "Date": "August 7\u20138",
+        "Fastest_Qualifying": "Paul Bonhomme",
+        "Winning_Pilot": "2",
+        "Winning_Aircraft": "4"
+      }
+    ],
+    "airport_aircraft": []
+  },
+  {
+    "Aircraft_ID": 5,
+    "Aircraft": "CH-53E Super Stallion",
+    "Description": "Heavy-lift helicopter",
+    "Max_Gross_Weight": "73,500 lb (33,300 kg)",
+    "Total_disk_area": "4,900 ft\u00b2 (460 m\u00b2)",
+    "Max_disk_Loading": "15 lb/ft\u00b2 (72 kg/m\u00b2)",
+    "match": [
+      {
+        "Round": 7.0,
+        "Location": "River Danube , Budapest",
+        "Country": "Hungary",
+        "Date": "Cancelled",
+        "Fastest_Qualifying": "Cancelled",
+        "Winning_Pilot": "6",
+        "Winning_Aircraft": "5"
+      }
+    ],
+    "airport_aircraft": [
+      {
+        "ID": 1,
+        "Airport_ID": 6,
+        "Aircraft_ID": 5
+      }
+    ]
+  }
+]

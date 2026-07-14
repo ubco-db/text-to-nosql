@@ -1,0 +1,315 @@
+{
+    "market": [
+        {
+            "Market_ID": 1,
+            "Country": "Japan",
+            "Number_cities": 209,
+            "film_market_estimation": [
+                {
+                    "Estimation_ID": 1,
+                    "Low_Estimate": 80000.0,
+                    "High_Estimate": 80400.0,
+                    "Film_ID": 1,
+                    "Type": "Mass suicide murder",
+                    "Market_ID": 1,
+                    "Year": 1945
+                },
+                {
+                    "Estimation_ID": 5,
+                    "Low_Estimate": 913.0,
+                    "High_Estimate": 913.0,
+                    "Film_ID": 4,
+                    "Type": "Mass suicide murder",
+                    "Market_ID": 1,
+                    "Year": 1978
+                },
+                {
+                    "Estimation_ID": 6,
+                    "Low_Estimate": 300.0,
+                    "High_Estimate": 1000.0,
+                    "Film_ID": 4,
+                    "Type": "Mass suicide",
+                    "Market_ID": 1,
+                    "Year": 2000
+                },
+                {
+                    "Estimation_ID": 7,
+                    "Low_Estimate": 53.0,
+                    "High_Estimate": 53.0,
+                    "Film_ID": 4,
+                    "Type": "Mass suicide",
+                    "Market_ID": 1,
+                    "Year": 1994
+                }
+            ]
+        },
+        {
+            "Market_ID": 2,
+            "Country": "China",
+            "Number_cities": 540,
+            "film_market_estimation": [
+                {
+                    "Estimation_ID": 2,
+                    "Low_Estimate": 8000.0,
+                    "High_Estimate": 8000.0,
+                    "Film_ID": 2,
+                    "Type": "Mass suicide",
+                    "Market_ID": 2,
+                    "Year": 1944
+                },
+                {
+                    "Estimation_ID": 4,
+                    "Low_Estimate": 960.0,
+                    "High_Estimate": 960.0,
+                    "Film_ID": 4,
+                    "Type": "Mass suicide",
+                    "Market_ID": 2,
+                    "Year": 1973
+                },
+                {
+                    "Estimation_ID": 8,
+                    "Low_Estimate": 39.0,
+                    "High_Estimate": 39.0,
+                    "Film_ID": 1,
+                    "Type": "Mass suicide",
+                    "Market_ID": 2,
+                    "Year": 1997
+                }
+            ]
+        },
+        {
+            "Market_ID": 3,
+            "Country": "USA",
+            "Number_cities": 700,
+            "film_market_estimation": [
+                {
+                    "Estimation_ID": 3,
+                    "Low_Estimate": 3000.0,
+                    "High_Estimate": 80400.0,
+                    "Film_ID": 3,
+                    "Type": "Mass human sacrifice",
+                    "Market_ID": 3,
+                    "Year": 1487
+                },
+                {
+                    "Estimation_ID": 9,
+                    "Low_Estimate": 16.0,
+                    "High_Estimate": 16.0,
+                    "Film_ID": 1,
+                    "Type": "Mass suicide",
+                    "Market_ID": 3,
+                    "Year": 1995
+                }
+            ]
+        },
+        {
+            "Market_ID": 4,
+            "Country": "Russia",
+            "Number_cities": 231,
+            "film_market_estimation": []
+        },
+        {
+            "Market_ID": 5,
+            "Country": "France",
+            "Number_cities": 212,
+            "film_market_estimation": []
+        },
+        {
+            "Market_ID": 6,
+            "Country": "Poland",
+            "Number_cities": 453,
+            "film_market_estimation": []
+        }
+    ],
+    "film": [
+        {
+            "Film_ID": 1,
+            "Title": "ET the Extra-Terrestrial",
+            "Studio": "Universal",
+            "Director": "Steven Spielberg",
+            "Gross_in_dollar": 435110554,
+            "film_market_estimation": [
+                {
+                    "Estimation_ID": 1,
+                    "Low_Estimate": 80000.0,
+                    "High_Estimate": 80400.0,
+                    "Film_ID": 1,
+                    "Type": "Mass suicide murder",
+                    "Market_ID": 1,
+                    "Year": 1945
+                },
+                {
+                    "Estimation_ID": 8,
+                    "Low_Estimate": 39.0,
+                    "High_Estimate": 39.0,
+                    "Film_ID": 1,
+                    "Type": "Mass suicide",
+                    "Market_ID": 2,
+                    "Year": 1997
+                },
+                {
+                    "Estimation_ID": 9,
+                    "Low_Estimate": 16.0,
+                    "High_Estimate": 16.0,
+                    "Film_ID": 1,
+                    "Type": "Mass suicide",
+                    "Market_ID": 3,
+                    "Year": 1995
+                }
+            ]
+        },
+        {
+            "Film_ID": 2,
+            "Title": "Tootsie",
+            "Studio": "Columbia",
+            "Director": "Sydney Pollack",
+            "Gross_in_dollar": 177200000,
+            "film_market_estimation": [
+                {
+                    "Estimation_ID": 2,
+                    "Low_Estimate": 8000.0,
+                    "High_Estimate": 8000.0,
+                    "Film_ID": 2,
+                    "Type": "Mass suicide",
+                    "Market_ID": 2,
+                    "Year": 1944
+                }
+            ]
+        },
+        {
+            "Film_ID": 3,
+            "Title": "An Officer and a Gentleman",
+            "Studio": "Paramount / Lorimar",
+            "Director": "Taylor Hackford",
+            "Gross_in_dollar": 129795554,
+            "film_market_estimation": [
+                {
+                    "Estimation_ID": 3,
+                    "Low_Estimate": 3000.0,
+                    "High_Estimate": 80400.0,
+                    "Film_ID": 3,
+                    "Type": "Mass human sacrifice",
+                    "Market_ID": 3,
+                    "Year": 1487
+                }
+            ]
+        },
+        {
+            "Film_ID": 4,
+            "Title": "Rocky III",
+            "Studio": "United Artists",
+            "Director": "Sylvester Stallone",
+            "Gross_in_dollar": 125049125,
+            "film_market_estimation": [
+                {
+                    "Estimation_ID": 4,
+                    "Low_Estimate": 960.0,
+                    "High_Estimate": 960.0,
+                    "Film_ID": 4,
+                    "Type": "Mass suicide",
+                    "Market_ID": 2,
+                    "Year": 1973
+                },
+                {
+                    "Estimation_ID": 5,
+                    "Low_Estimate": 913.0,
+                    "High_Estimate": 913.0,
+                    "Film_ID": 4,
+                    "Type": "Mass suicide murder",
+                    "Market_ID": 1,
+                    "Year": 1978
+                },
+                {
+                    "Estimation_ID": 6,
+                    "Low_Estimate": 300.0,
+                    "High_Estimate": 1000.0,
+                    "Film_ID": 4,
+                    "Type": "Mass suicide",
+                    "Market_ID": 1,
+                    "Year": 2000
+                },
+                {
+                    "Estimation_ID": 7,
+                    "Low_Estimate": 53.0,
+                    "High_Estimate": 53.0,
+                    "Film_ID": 4,
+                    "Type": "Mass suicide",
+                    "Market_ID": 1,
+                    "Year": 1994
+                }
+            ]
+        },
+        {
+            "Film_ID": 5,
+            "Title": "Porky's",
+            "Studio": "20th Century Fox",
+            "Director": "Bob Clark",
+            "Gross_in_dollar": 109492484,
+            "film_market_estimation": []
+        },
+        {
+            "Film_ID": 6,
+            "Title": "Star Trek II: The Wrath of Khan",
+            "Studio": "Paramount",
+            "Director": "Nicholas Meyer",
+            "Gross_in_dollar": 79912963,
+            "film_market_estimation": []
+        },
+        {
+            "Film_ID": 7,
+            "Title": "48 Hrs",
+            "Studio": "Paramount",
+            "Director": "Walter Hill",
+            "Gross_in_dollar": 78868508,
+            "film_market_estimation": []
+        },
+        {
+            "Film_ID": 8,
+            "Title": "Poltergeist",
+            "Studio": "MGM",
+            "Director": "Tobe Hooper",
+            "Gross_in_dollar": 76606280,
+            "film_market_estimation": []
+        },
+        {
+            "Film_ID": 9,
+            "Title": "The Best Little Whorehouse in Texas",
+            "Studio": "Universal / RKO",
+            "Director": "Colin Higgins",
+            "Gross_in_dollar": 69701637,
+            "film_market_estimation": []
+        },
+        {
+            "Film_ID": 10,
+            "Title": "Annie",
+            "Studio": "Columbia / Rastar",
+            "Director": "John Huston",
+            "Gross_in_dollar": 57059003,
+            "film_market_estimation": []
+        },
+        {
+            "Film_ID": 11,
+            "Title": "The Verdict",
+            "Studio": "20th Century Fox",
+            "Director": "Sidney Lumet",
+            "Gross_in_dollar": 53977250,
+            "film_market_estimation": []
+        },
+        {
+            "Film_ID": 12,
+            "Title": "Gandhi",
+            "Studio": "Columbia",
+            "Director": "Richard Attenborough",
+            "Gross_in_dollar": 52767889,
+            "film_market_estimation": []
+        },
+        {
+            "Film_ID": 13,
+            "Title": "First Blood",
+            "Studio": "Orion / Carolco",
+            "Director": "Ted Kotcheff",
+            "Gross_in_dollar": 47212904,
+            "film_market_estimation": []
+        }
+    ]
+}

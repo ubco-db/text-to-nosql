@@ -1,0 +1,285 @@
+[
+  {
+    "id": 1,
+    "name": "Abune Yosef / Guliba Amba",
+    "Height": 4260.0,
+    "Prominence": 1909.0,
+    "Range": "Lasta Massif",
+    "Country": "Ethiopia",
+    "photos": [
+      {
+        "id": 3,
+        "camera_lens_id": 10,
+        "mountain_id": 1,
+        "color": "Black/White",
+        "name": "deers"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ioll / Yoll",
+    "Height": 4220.0,
+    "Prominence": 350.0,
+    "Range": "Kollo Massif",
+    "Country": "Ethiopia",
+    "photos": [
+      {
+        "id": 2,
+        "camera_lens_id": 10,
+        "mountain_id": 2,
+        "color": "RBG",
+        "name": "rabbits"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bada",
+    "Height": 4195.0,
+    "Prominence": 1605.0,
+    "Range": "Arsi Mountains",
+    "Country": "Ethiopia",
+    "photos": []
+  },
+  {
+    "id": 4,
+    "name": "Kaka / Kecha / Chiqe",
+    "Height": 4193.0,
+    "Prominence": 1215.0,
+    "Range": "Arsi Mountains",
+    "Country": "Ethiopia",
+    "photos": []
+  },
+  {
+    "id": 5,
+    "name": "Jbel Toubkal",
+    "Height": 4167.0,
+    "Prominence": 3755.0,
+    "Range": "Toubkal Atlas",
+    "Country": "Morocco",
+    "photos": []
+  },
+  {
+    "id": 6,
+    "name": "Muhavura",
+    "Height": 4127.0,
+    "Prominence": 1530.0,
+    "Range": "Virunga Mountains",
+    "Country": "Rwanda Uganda",
+    "photos": []
+  },
+  {
+    "id": 7,
+    "name": "Hey / Hay",
+    "Height": 4125.0,
+    "Prominence": 660.0,
+    "Range": "Semien Mountains",
+    "Country": "Ethiopia",
+    "photos": []
+  },
+  {
+    "id": 8,
+    "name": "Guna",
+    "Height": 4120.0,
+    "Prominence": 1510.0,
+    "Range": "Guna Massif",
+    "Country": "Ethiopia",
+    "photos": []
+  },
+  {
+    "id": 9,
+    "name": "Choqa / Choke / Birhan",
+    "Height": 4100.0,
+    "Prominence": 2225.0,
+    "Range": "Choqa Mountains",
+    "Country": "Ethiopia",
+    "photos": []
+  },
+  {
+    "id": 10,
+    "name": "Ouanoukrim",
+    "Height": 4088.0,
+    "Prominence": 420.0,
+    "Range": "Toubkal Atlas",
+    "Country": "Morocco",
+    "photos": [
+      {
+        "id": 4,
+        "camera_lens_id": 1,
+        "mountain_id": 10,
+        "color": "RBG",
+        "name": "grass"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Chilalo",
+    "Height": 4071.0,
+    "Prominence": 610.0,
+    "Range": "Arsi Mountains",
+    "Country": "Ethiopia",
+    "photos": []
+  },
+  {
+    "id": 12,
+    "name": "Mount Cameroon",
+    "Height": 4070.0,
+    "Prominence": 3931.0,
+    "Range": "Cameroon line",
+    "Country": "Cameroon",
+    "photos": [
+      {
+        "id": 6,
+        "camera_lens_id": 6,
+        "mountain_id": 12,
+        "color": "RBG",
+        "name": "sunset"
+      },
+      {
+        "id": 7,
+        "camera_lens_id": 7,
+        "mountain_id": 12,
+        "color": "RBG",
+        "name": "river"
+      },
+      {
+        "id": 8,
+        "camera_lens_id": 7,
+        "mountain_id": 12,
+        "color": "Black/White",
+        "name": "wolfs"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Inatye",
+    "Height": 4070.0,
+    "Prominence": 500.0,
+    "Range": "Semien Mountains",
+    "Country": "Ethiopia",
+    "photos": []
+  },
+  {
+    "id": 14,
+    "name": "Ighil Mgoun",
+    "Height": 4068.0,
+    "Prominence": 1904.0,
+    "Range": "Central High Atlas",
+    "Country": "Morocco",
+    "photos": [
+      {
+        "id": 5,
+        "camera_lens_id": 5,
+        "mountain_id": 14,
+        "color": "RBG",
+        "name": "cloud"
+      },
+      {
+        "id": 9,
+        "camera_lens_id": 10,
+        "mountain_id": 14,
+        "color": "RBG",
+        "name": "the mountain"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Weshema / Wasema?",
+    "Height": 4030.0,
+    "Prominence": 420.0,
+    "Range": "Bale Mountains",
+    "Country": "Ethiopia",
+    "photos": []
+  },
+  {
+    "id": 16,
+    "name": "Oldoinyo Lesatima",
+    "Height": 4001.0,
+    "Prominence": 2081.0,
+    "Range": "Aberdare Range",
+    "Country": "Kenya",
+    "photos": []
+  },
+  {
+    "id": 17,
+    "name": "Jebel n'Tarourt / Tifnout / Iferouane",
+    "Height": 3996.0,
+    "Prominence": 910.0,
+    "Range": "Toubkal Atlas",
+    "Country": "Morocco",
+    "photos": []
+  },
+  {
+    "id": 18,
+    "name": "Muggia",
+    "Height": 3950.0,
+    "Prominence": 500.0,
+    "Range": "Lasta Massif",
+    "Country": "Ethiopia",
+    "photos": []
+  },
+  {
+    "id": 19,
+    "name": "Dubbai",
+    "Height": 3941.0,
+    "Prominence": 1540.0,
+    "Range": "Tigray Mountains",
+    "Country": "Ethiopia",
+    "photos": []
+  },
+  {
+    "id": 20,
+    "name": "Taska n\u2019Zat",
+    "Height": 3912.0,
+    "Prominence": 460.0,
+    "Range": "Toubkal Atlas",
+    "Country": "Morocco",
+    "photos": [
+      {
+        "id": 1,
+        "camera_lens_id": 1,
+        "mountain_id": 20,
+        "color": "RBG",
+        "name": "monkey"
+      },
+      {
+        "id": 10,
+        "camera_lens_id": 10,
+        "mountain_id": 20,
+        "color": "RBG",
+        "name": "life"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Aksou\u00e2l",
+    "Height": 3903.0,
+    "Prominence": 450.0,
+    "Range": "Toubkal Atlas",
+    "Country": "Morocco",
+    "photos": []
+  },
+  {
+    "id": 22,
+    "name": "Mount Kinangop",
+    "Height": 3902.0,
+    "Prominence": 530.0,
+    "Range": "Aberdare Range",
+    "Country": "Kenya",
+    "photos": []
+  },
+  {
+    "id": 23,
+    "name": "Cimbia",
+    "Height": 3900.0,
+    "Prominence": 590.0,
+    "Range": "Kollo Massif",
+    "Country": "Ethiopia",
+    "photos": []
+  }
+]

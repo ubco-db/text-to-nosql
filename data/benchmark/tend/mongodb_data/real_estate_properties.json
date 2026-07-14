@@ -1,0 +1,668 @@
+{
+    "Ref_Feature_Types": [
+        {
+            "feature_type_code": "Amenity",
+            "feature_type_name": "Amenity, eg Pool.",
+            "Other_Available_Features": [
+                {
+                    "feature_id": 2,
+                    "feature_type_code": "Amenity",
+                    "feature_name": "AirCon",
+                    "feature_description": "Air Conditioning.",
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 6,
+                            "feature_id": 2,
+                            "property_feature_description": "illo"
+                        },
+                        {
+                            "property_id": 7,
+                            "feature_id": 2,
+                            "property_feature_description": "hic"
+                        },
+                        {
+                            "property_id": 1,
+                            "feature_id": 2,
+                            "property_feature_description": "ad"
+                        },
+                        {
+                            "property_id": 13,
+                            "feature_id": 2,
+                            "property_feature_description": "autem"
+                        },
+                        {
+                            "property_id": 3,
+                            "feature_id": 2,
+                            "property_feature_description": "cumque"
+                        }
+                    ]
+                },
+                {
+                    "feature_id": 3,
+                    "feature_type_code": "Amenity",
+                    "feature_name": "Pool",
+                    "feature_description": "Swimming Pool.",
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 15,
+                            "feature_id": 3,
+                            "property_feature_description": "dolorem"
+                        },
+                        {
+                            "property_id": 6,
+                            "feature_id": 3,
+                            "property_feature_description": "et"
+                        },
+                        {
+                            "property_id": 4,
+                            "feature_id": 3,
+                            "property_feature_description": "odio"
+                        },
+                        {
+                            "property_id": 9,
+                            "feature_id": 3,
+                            "property_feature_description": "quo"
+                        },
+                        {
+                            "property_id": 6,
+                            "feature_id": 3,
+                            "property_feature_description": "corrupti"
+                        },
+                        {
+                            "property_id": 6,
+                            "feature_id": 3,
+                            "property_feature_description": "doloribus"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "feature_type_code": "Security",
+            "feature_type_name": "Securiyt, eg Burglar Alarm.",
+            "Other_Available_Features": [
+                {
+                    "feature_id": 4,
+                    "feature_type_code": "Security",
+                    "feature_name": "BurglarAlarm",
+                    "feature_description": "Burglar Alarm",
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 12,
+                            "feature_id": 4,
+                            "property_feature_description": "earum"
+                        },
+                        {
+                            "property_id": 14,
+                            "feature_id": 4,
+                            "property_feature_description": "quo"
+                        },
+                        {
+                            "property_id": 11,
+                            "feature_id": 4,
+                            "property_feature_description": "vitae"
+                        },
+                        {
+                            "property_id": 14,
+                            "feature_id": 4,
+                            "property_feature_description": "modi"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Ref_Property_Types": [
+        {
+            "property_type_code": "House",
+            "property_type_description": "House, Bungalow, etc.",
+            "Properties": [
+                {
+                    "property_id": 1,
+                    "property_type_code": "House",
+                    "date_on_market": "1991-06-21 23:52:10",
+                    "date_sold": "1979-05-13 16:58:06",
+                    "property_name": "park",
+                    "property_address": "4745 Emerson Stravenue Suite 829\nSouth Garret, IN 16772-5682",
+                    "room_count": 7,
+                    "vendor_requested_price": 372652.2909,
+                    "buyer_offered_price": 1.68,
+                    "agreed_selling_price": 4201.8,
+                    "apt_feature_1": "aut",
+                    "apt_feature_2": "suscipit",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 1,
+                            "feature_id": 2,
+                            "property_feature_description": "ad"
+                        }
+                    ]
+                },
+                {
+                    "property_id": 2,
+                    "property_type_code": "House",
+                    "date_on_market": "1990-05-25 23:01:51",
+                    "date_sold": "1990-11-14 19:16:38",
+                    "property_name": "the cole",
+                    "property_address": "098 Tremaine Highway Suite 569\nSouth Wilford, NJ 46587-3537",
+                    "room_count": 1,
+                    "vendor_requested_price": 661536468.4429,
+                    "buyer_offered_price": 8.7122,
+                    "agreed_selling_price": 21769471.8328,
+                    "apt_feature_1": "est",
+                    "apt_feature_2": "est",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": []
+                }
+            ]
+        },
+        {
+            "property_type_code": "Apartment",
+            "property_type_description": "Apartment, Flat, Condo, etc.",
+            "Properties": [
+                {
+                    "property_id": 5,
+                    "property_type_code": "Apartment",
+                    "date_on_market": "2016-05-06 16:53:39",
+                    "date_sold": "2012-08-19 07:36:57",
+                    "property_name": "parc east",
+                    "property_address": "2765 Schulist Stream\nLindmouth, UT 03391-3817",
+                    "room_count": 5,
+                    "vendor_requested_price": 983.8596,
+                    "buyer_offered_price": 10.1067,
+                    "agreed_selling_price": 1.0012,
+                    "apt_feature_1": "quo",
+                    "apt_feature_2": "sequi",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": []
+                },
+                {
+                    "property_id": 8,
+                    "property_type_code": "Apartment",
+                    "date_on_market": "1976-06-10 20:25:38",
+                    "date_sold": "2001-11-09 04:37:33",
+                    "property_name": "vogue",
+                    "property_address": "24365 Ulices Run\nHomenicktown, MD 88485-6198",
+                    "room_count": 9,
+                    "vendor_requested_price": 13.4715,
+                    "buyer_offered_price": 0,
+                    "agreed_selling_price": 0,
+                    "apt_feature_1": "fuga",
+                    "apt_feature_2": "odio",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": []
+                },
+                {
+                    "property_id": 9,
+                    "property_type_code": "Apartment",
+                    "date_on_market": "1978-05-15 10:53:37",
+                    "date_sold": "1971-04-14 03:23:49",
+                    "property_name": "longacre",
+                    "property_address": "107 Roob Courts\nErdmanburgh, IA 42926-0873",
+                    "room_count": 5,
+                    "vendor_requested_price": 2219.6778,
+                    "buyer_offered_price": 3520911.5258,
+                    "agreed_selling_price": 3344706.5755,
+                    "apt_feature_1": "enim",
+                    "apt_feature_2": "sit",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 9,
+                            "feature_id": 3,
+                            "property_feature_description": "quo"
+                        }
+                    ]
+                },
+                {
+                    "property_id": 10,
+                    "property_type_code": "Apartment",
+                    "date_on_market": "2003-12-25 16:13:19",
+                    "date_sold": "1997-01-07 19:52:45",
+                    "property_name": "renoir",
+                    "property_address": "084 Lakin Vista Apt. 394\nFishertown, MA 16876",
+                    "room_count": 9,
+                    "vendor_requested_price": 77172926.3,
+                    "buyer_offered_price": 1.5509,
+                    "agreed_selling_price": 244353758.1824,
+                    "apt_feature_1": "consequatur",
+                    "apt_feature_2": "vero",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": []
+                },
+                {
+                    "property_id": 12,
+                    "property_type_code": "Apartment",
+                    "date_on_market": "2016-05-24 09:57:45",
+                    "date_sold": "1980-07-08 16:13:17",
+                    "property_name": "ten tower",
+                    "property_address": "743 Ephraim Greens\nAnniemouth, HI 47084-3853",
+                    "room_count": 5,
+                    "vendor_requested_price": 305,
+                    "buyer_offered_price": 2,
+                    "agreed_selling_price": 456840888.16,
+                    "apt_feature_1": "qui",
+                    "apt_feature_2": "autem",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 12,
+                            "feature_id": 4,
+                            "property_feature_description": "earum"
+                        }
+                    ]
+                },
+                {
+                    "property_id": 15,
+                    "property_type_code": "Apartment",
+                    "date_on_market": "1993-08-04 10:49:04",
+                    "date_sold": "1984-02-01 19:54:54",
+                    "property_name": "parc coliseum",
+                    "property_address": "986 Hagenes Drives\nDraketon, UT 83411-3393",
+                    "room_count": 3,
+                    "vendor_requested_price": 331,
+                    "buyer_offered_price": 27537286,
+                    "agreed_selling_price": 2574,
+                    "apt_feature_1": "aut",
+                    "apt_feature_2": "iusto",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 15,
+                            "feature_id": 3,
+                            "property_feature_description": "dolorem"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "property_type_code": "Field",
+            "property_type_description": "Field, Meadow.",
+            "Properties": [
+                {
+                    "property_id": 4,
+                    "property_type_code": "Field",
+                    "date_on_market": "2017-09-14 15:49:23",
+                    "date_sold": "2003-02-27 18:17:11",
+                    "property_name": "riverside",
+                    "property_address": "49578 Ayden Mountains\nNew Russellhaven, UT 46626",
+                    "room_count": 6,
+                    "vendor_requested_price": 192374065.8,
+                    "buyer_offered_price": 15.17,
+                    "agreed_selling_price": 4514.807,
+                    "apt_feature_1": "nesciunt",
+                    "apt_feature_2": "adipisci",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 4,
+                            "feature_id": 3,
+                            "property_feature_description": "odio"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "property_type_code": "Other",
+            "property_type_description": "Other, to be determined.",
+            "Properties": [
+                {
+                    "property_id": 3,
+                    "property_type_code": "Other",
+                    "date_on_market": "1986-11-26 04:12:18",
+                    "date_sold": "1981-06-26 21:28:28",
+                    "property_name": "prism",
+                    "property_address": "062 Micaela Court Apt. 707\nMargretville, WV 51628-3617",
+                    "room_count": 8,
+                    "vendor_requested_price": 1337,
+                    "buyer_offered_price": 11375259.502,
+                    "agreed_selling_price": 5,
+                    "apt_feature_1": "ut",
+                    "apt_feature_2": "et",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 3,
+                            "feature_id": 2,
+                            "property_feature_description": "cumque"
+                        }
+                    ]
+                },
+                {
+                    "property_id": 11,
+                    "property_type_code": "Other",
+                    "date_on_market": "1981-08-23 05:40:38",
+                    "date_sold": "1997-11-07 20:22:05",
+                    "property_name": "murray hill",
+                    "property_address": "2088 Bashirian Fork Suite 337\nFaustinoport, MT 16771-9320",
+                    "room_count": 2,
+                    "vendor_requested_price": 6713620.9,
+                    "buyer_offered_price": 13991131.434,
+                    "agreed_selling_price": 170766.472,
+                    "apt_feature_1": "et",
+                    "apt_feature_2": "est",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 11,
+                            "feature_id": 4,
+                            "property_feature_description": "vitae"
+                        }
+                    ]
+                },
+                {
+                    "property_id": 13,
+                    "property_type_code": "Other",
+                    "date_on_market": "2000-08-07 06:59:14",
+                    "date_sold": "1973-02-24 02:56:06",
+                    "property_name": "chelsea",
+                    "property_address": "60845 Else Highway Apt. 826\nSouth Dougfort, CO 43200-4258",
+                    "room_count": 2,
+                    "vendor_requested_price": 2198735.095,
+                    "buyer_offered_price": 0,
+                    "agreed_selling_price": 44132.4621,
+                    "apt_feature_1": "fuga",
+                    "apt_feature_2": "aut",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 13,
+                            "feature_id": 2,
+                            "property_feature_description": "autem"
+                        }
+                    ]
+                },
+                {
+                    "property_id": 14,
+                    "property_type_code": "Other",
+                    "date_on_market": "1986-12-31 10:05:32",
+                    "date_sold": "1987-12-07 07:41:27",
+                    "property_name": "wall street",
+                    "property_address": "1474 Dibbert Fields Suite 055\nSouth Renee, IN 58286-3097",
+                    "room_count": 7,
+                    "vendor_requested_price": 78.7208,
+                    "buyer_offered_price": 2449185.2,
+                    "agreed_selling_price": 0,
+                    "apt_feature_1": "et",
+                    "apt_feature_2": "eos",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 14,
+                            "feature_id": 4,
+                            "property_feature_description": "quo"
+                        },
+                        {
+                            "property_id": 14,
+                            "feature_id": 4,
+                            "property_feature_description": "modi"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "property_type_code": "Shop",
+            "property_type_description": "Shop, Retail Outlet.",
+            "Properties": [
+                {
+                    "property_id": 6,
+                    "property_type_code": "Shop",
+                    "date_on_market": "1994-02-14 02:27:13",
+                    "date_sold": "1995-01-31 11:18:42",
+                    "property_name": "high line",
+                    "property_address": "6837 Darien Views Apt. 475\nSouth Maraview, KS 77770",
+                    "room_count": 9,
+                    "vendor_requested_price": 2573,
+                    "buyer_offered_price": 0,
+                    "agreed_selling_price": 476919.3,
+                    "apt_feature_1": "sed",
+                    "apt_feature_2": "culpa",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 6,
+                            "feature_id": 2,
+                            "property_feature_description": "illo"
+                        },
+                        {
+                            "property_id": 6,
+                            "feature_id": 3,
+                            "property_feature_description": "et"
+                        },
+                        {
+                            "property_id": 6,
+                            "feature_id": 3,
+                            "property_feature_description": "corrupti"
+                        },
+                        {
+                            "property_id": 6,
+                            "feature_id": 3,
+                            "property_feature_description": "doloribus"
+                        }
+                    ]
+                },
+                {
+                    "property_id": 7,
+                    "property_type_code": "Shop",
+                    "date_on_market": "1996-09-16 22:04:27",
+                    "date_sold": "1998-09-15 05:26:22",
+                    "property_name": "avalon",
+                    "property_address": "092 Paucek Highway Apt. 772\nEast Erika, IA 61358",
+                    "room_count": 8,
+                    "vendor_requested_price": 150045.7568,
+                    "buyer_offered_price": 296733,
+                    "agreed_selling_price": 2794972.2495,
+                    "apt_feature_1": "quos",
+                    "apt_feature_2": "est",
+                    "apt_feature_3": null,
+                    "fld_feature_1": null,
+                    "fld_feature_2": null,
+                    "fld_feature_3": null,
+                    "hse_feature_1": null,
+                    "hse_feature_2": null,
+                    "hse_feature_3": null,
+                    "oth_feature_1": null,
+                    "oth_feature_2": null,
+                    "oth_feature_3": null,
+                    "shp_feature_1": null,
+                    "shp_feature_2": null,
+                    "shp_feature_3": null,
+                    "other_property_details": null,
+                    "Other_Property_Features": [
+                        {
+                            "property_id": 7,
+                            "feature_id": 2,
+                            "property_feature_description": "hic"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

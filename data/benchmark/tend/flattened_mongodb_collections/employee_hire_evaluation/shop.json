@@ -1,0 +1,131 @@
+[
+  {
+    "Shop_ID": 1,
+    "Name": "FC Haka",
+    "Location": "Valkeakoski",
+    "District": "Tehtaan kentt\u00e4",
+    "Number_products": 3516,
+    "Manager_name": "Olli Huttunen",
+    "hiring": [
+      {
+        "Shop_ID": 1,
+        "Employee_ID": 1,
+        "Start_from": "2009",
+        "Is_full_time": "T"
+      },
+      {
+        "Shop_ID": 1,
+        "Employee_ID": 2,
+        "Start_from": "2003",
+        "Is_full_time": "T"
+      }
+    ]
+  },
+  {
+    "Shop_ID": 2,
+    "Name": "HJK",
+    "Location": "Helsinki",
+    "District": "Finnair Stadium",
+    "Number_products": 10770,
+    "Manager_name": "Antti Muurinen",
+    "hiring": [
+      {
+        "Shop_ID": 2,
+        "Employee_ID": 6,
+        "Start_from": "2010",
+        "Is_full_time": "F"
+      }
+    ]
+  },
+  {
+    "Shop_ID": 3,
+    "Name": "FC Honka",
+    "Location": "Espoo",
+    "District": "Tapiolan Urheilupuisto",
+    "Number_products": 6000,
+    "Manager_name": "Mika Lehkosuo",
+    "hiring": []
+  },
+  {
+    "Shop_ID": 4,
+    "Name": "FC Inter",
+    "Location": "Turku",
+    "District": "Veritas Stadion",
+    "Number_products": 10000,
+    "Manager_name": "Job Dragtsma",
+    "hiring": [
+      {
+        "Shop_ID": 4,
+        "Employee_ID": 4,
+        "Start_from": "2012",
+        "Is_full_time": "T"
+      }
+    ]
+  },
+  {
+    "Shop_ID": 5,
+    "Name": "FF Jaro",
+    "Location": "Jakobstad",
+    "District": "Jakobstads Centralplan",
+    "Number_products": 5000,
+    "Manager_name": "Mika Laurikainen",
+    "hiring": [
+      {
+        "Shop_ID": 5,
+        "Employee_ID": 5,
+        "Start_from": "2013",
+        "Is_full_time": "T"
+      }
+    ]
+  },
+  {
+    "Shop_ID": 6,
+    "Name": "FC KooTeePee",
+    "Location": "Kotka",
+    "District": "Arto Tolsa Areena",
+    "Number_products": 4780,
+    "Manager_name": "Tommi Kautonen",
+    "hiring": [
+      {
+        "Shop_ID": 6,
+        "Employee_ID": 7,
+        "Start_from": "2008",
+        "Is_full_time": "T"
+      }
+    ]
+  },
+  {
+    "Shop_ID": 7,
+    "Name": "KuPS",
+    "Location": "Kuopio",
+    "District": "Magnum Areena",
+    "Number_products": 3500,
+    "Manager_name": "Kai Nyyss\u00f6nen",
+    "hiring": []
+  },
+  {
+    "Shop_ID": 8,
+    "Name": "FC Lahti",
+    "Location": "Lahti",
+    "District": "Lahden Stadion",
+    "Number_products": 15000,
+    "Manager_name": "Ilkka M\u00e4kel\u00e4",
+    "hiring": [
+      {
+        "Shop_ID": 8,
+        "Employee_ID": 3,
+        "Start_from": "2011",
+        "Is_full_time": "F"
+      }
+    ]
+  },
+  {
+    "Shop_ID": 9,
+    "Name": "IFK Mariehamn",
+    "Location": "Mariehamn",
+    "District": "Wikl\u00f6f Holding Arena",
+    "Number_products": 1600,
+    "Manager_name": "Pekka Lyyski",
+    "hiring": []
+  }
+]

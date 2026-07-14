@@ -1,0 +1,257 @@
+[
+  {
+    "id": 1,
+    "name": "Amisulpride",
+    "Trade_Name": "Solian",
+    "FDA_approved": "No",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 1,
+        "medicine_id": 1,
+        "interaction_type": "inhibitor"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Aripiprazole",
+    "Trade_Name": "Abilify",
+    "FDA_approved": "Yes",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 1,
+        "medicine_id": 2,
+        "interaction_type": "inhibitor"
+      },
+      {
+        "enzyme_id": 2,
+        "medicine_id": 2,
+        "interaction_type": "inhibitor"
+      },
+      {
+        "enzyme_id": 3,
+        "medicine_id": 2,
+        "interaction_type": "inhibitor"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Asenapine",
+    "Trade_Name": "Saphris",
+    "FDA_approved": "Yes",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 1,
+        "medicine_id": 3,
+        "interaction_type": "inhibitor"
+      },
+      {
+        "enzyme_id": 2,
+        "medicine_id": 3,
+        "interaction_type": "inhibitor"
+      },
+      {
+        "enzyme_id": 4,
+        "medicine_id": 3,
+        "interaction_type": "activitor"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Blonanserin",
+    "Trade_Name": "Lonasen",
+    "FDA_approved": "No",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 1,
+        "medicine_id": 4,
+        "interaction_type": "inhibitor"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Carpipramine",
+    "Trade_Name": "Prazinil",
+    "FDA_approved": "No",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 2,
+        "medicine_id": 5,
+        "interaction_type": "inhibitor"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Clocapramine",
+    "Trade_Name": "Clofekton",
+    "FDA_approved": "No",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 2,
+        "medicine_id": 6,
+        "interaction_type": "inhibitor"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Clozapine",
+    "Trade_Name": "Clozaril",
+    "FDA_approved": "Yes",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 2,
+        "medicine_id": 7,
+        "interaction_type": "inhibitor"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Iloperidone",
+    "Trade_Name": "Fanapt",
+    "FDA_approved": "Yes",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 2,
+        "medicine_id": 8,
+        "interaction_type": "inhibitor"
+      },
+      {
+        "enzyme_id": 3,
+        "medicine_id": 8,
+        "interaction_type": "activitor"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Lurasidone",
+    "Trade_Name": "Latuda",
+    "FDA_approved": "Yes",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 3,
+        "medicine_id": 9,
+        "interaction_type": "activitor"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Melperone",
+    "Trade_Name": "Buronil",
+    "FDA_approved": "No",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 4,
+        "medicine_id": 10,
+        "interaction_type": "activitor"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Mosapramine",
+    "Trade_Name": "Cremin",
+    "FDA_approved": "No",
+    "medicine_enzyme_interaction": []
+  },
+  {
+    "id": 12,
+    "name": "Olanzapine",
+    "Trade_Name": "Zyprexa",
+    "FDA_approved": "Yes",
+    "medicine_enzyme_interaction": []
+  },
+  {
+    "id": 13,
+    "name": "Paliperidone",
+    "Trade_Name": "Invega",
+    "FDA_approved": "Yes",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 4,
+        "medicine_id": 13,
+        "interaction_type": "activitor"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Perospirone",
+    "Trade_Name": "Lullan",
+    "FDA_approved": "No",
+    "medicine_enzyme_interaction": []
+  },
+  {
+    "id": 15,
+    "name": "Quetiapine",
+    "Trade_Name": "Seroquel",
+    "FDA_approved": "Yes",
+    "medicine_enzyme_interaction": []
+  },
+  {
+    "id": 16,
+    "name": "Remoxipride",
+    "Trade_Name": "Roxiam",
+    "FDA_approved": "No",
+    "medicine_enzyme_interaction": []
+  },
+  {
+    "id": 17,
+    "name": "Risperidone",
+    "Trade_Name": "Risperdal",
+    "FDA_approved": "Yes",
+    "medicine_enzyme_interaction": []
+  },
+  {
+    "id": 18,
+    "name": "Sertindole",
+    "Trade_Name": "Serdolect",
+    "FDA_approved": "No",
+    "medicine_enzyme_interaction": []
+  },
+  {
+    "id": 19,
+    "name": "Sulpiride",
+    "Trade_Name": "Sulpirid",
+    "FDA_approved": "No",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 5,
+        "medicine_id": 19,
+        "interaction_type": "activitor"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Ziprasidone",
+    "Trade_Name": "Geodon",
+    "FDA_approved": "Yes",
+    "medicine_enzyme_interaction": [
+      {
+        "enzyme_id": 5,
+        "medicine_id": 20,
+        "interaction_type": "activitor"
+      },
+      {
+        "enzyme_id": 6,
+        "medicine_id": 20,
+        "interaction_type": "activitor"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Zotepine",
+    "Trade_Name": "Nipolept",
+    "FDA_approved": "No",
+    "medicine_enzyme_interaction": []
+  }
+]

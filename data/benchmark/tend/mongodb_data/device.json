@@ -1,0 +1,244 @@
+{
+    "device": [
+        {
+            "Device_ID": 1,
+            "Device": "BlackBerry Storm 9530",
+            "Carrier": "MTS Mobility",
+            "Package_Version": "5.0.0.808",
+            "Applications": "5.0.0.419",
+            "Software_Platform": "Android",
+            "stock": []
+        },
+        {
+            "Device_ID": 2,
+            "Device": "Apple",
+            "Carrier": "Verizon Wireless",
+            "Package_Version": "5.0.0.328",
+            "Applications": "5.0.0.328",
+            "Software_Platform": "iOS",
+            "stock": []
+        },
+        {
+            "Device_ID": 3,
+            "Device": "Huawei",
+            "Carrier": "Telus Mobility",
+            "Package_Version": "5.0.0.419",
+            "Applications": "5.0.0.419",
+            "Software_Platform": "Android",
+            "stock": []
+        },
+        {
+            "Device_ID": 4,
+            "Device": "Xiaomi",
+            "Carrier": "Bell Mobility",
+            "Package_Version": "5.0.0.419",
+            "Applications": "5.0.0.419",
+            "Software_Platform": "Android",
+            "stock": [
+                {
+                    "Shop_ID": 1,
+                    "Device_ID": 4,
+                    "Quantity": 200
+                },
+                {
+                    "Shop_ID": 3,
+                    "Device_ID": 4,
+                    "Quantity": 124
+                },
+                {
+                    "Shop_ID": 9,
+                    "Device_ID": 4,
+                    "Quantity": 51
+                }
+            ]
+        },
+        {
+            "Device_ID": 5,
+            "Device": "Samsung",
+            "Carrier": "Iusacell",
+            "Package_Version": "4.7.0.208",
+            "Applications": "4.7.0.151",
+            "Software_Platform": "Android",
+            "stock": []
+        },
+        {
+            "Device_ID": 6,
+            "Device": "Galaxy",
+            "Carrier": "Vodafone AU",
+            "Package_Version": "5.0.0.742",
+            "Applications": "5.0.0.451",
+            "Software_Platform": "Android",
+            "stock": [
+                {
+                    "Shop_ID": 1,
+                    "Device_ID": 6,
+                    "Quantity": 100
+                },
+                {
+                    "Shop_ID": 2,
+                    "Device_ID": 6,
+                    "Quantity": 110
+                },
+                {
+                    "Shop_ID": 3,
+                    "Device_ID": 6,
+                    "Quantity": 134
+                },
+                {
+                    "Shop_ID": 4,
+                    "Device_ID": 6,
+                    "Quantity": 56
+                },
+                {
+                    "Shop_ID": 11,
+                    "Device_ID": 6,
+                    "Quantity": 112
+                }
+            ]
+        }
+    ],
+    "shop": [
+        {
+            "Shop_ID": 1,
+            "Shop_Name": "Dinas Device",
+            "Location": "Dinas",
+            "Open_Date": "1 January",
+            "Open_Year": 2014,
+            "stock": [
+                {
+                    "Shop_ID": 1,
+                    "Device_ID": 4,
+                    "Quantity": 200
+                },
+                {
+                    "Shop_ID": 1,
+                    "Device_ID": 6,
+                    "Quantity": 100
+                }
+            ]
+        },
+        {
+            "Shop_ID": 2,
+            "Shop_Name": "Best Buy",
+            "Location": "Cymmer",
+            "Open_Date": "15 July",
+            "Open_Year": 2006,
+            "stock": [
+                {
+                    "Shop_ID": 2,
+                    "Device_ID": 6,
+                    "Quantity": 110
+                }
+            ]
+        },
+        {
+            "Shop_ID": 3,
+            "Shop_Name": "Ferndale",
+            "Location": "Blaenllechau",
+            "Open_Date": "8 November",
+            "Open_Year": 2009,
+            "stock": [
+                {
+                    "Shop_ID": 3,
+                    "Device_ID": 4,
+                    "Quantity": 124
+                },
+                {
+                    "Shop_ID": 3,
+                    "Device_ID": 6,
+                    "Quantity": 134
+                }
+            ]
+        },
+        {
+            "Shop_ID": 4,
+            "Shop_Name": "Apple",
+            "Location": "Blaenllechau",
+            "Open_Date": "10 June",
+            "Open_Year": 2009,
+            "stock": [
+                {
+                    "Shop_ID": 4,
+                    "Device_ID": 6,
+                    "Quantity": 56
+                }
+            ]
+        },
+        {
+            "Shop_ID": 5,
+            "Shop_Name": "Pentre store",
+            "Location": "Pentre",
+            "Open_Date": "24 February",
+            "Open_Year": 2011,
+            "stock": []
+        },
+        {
+            "Shop_ID": 6,
+            "Shop_Name": "Tynewydd repair",
+            "Location": "Porth",
+            "Open_Date": "11 April",
+            "Open_Year": 2007,
+            "stock": []
+        },
+        {
+            "Shop_ID": 7,
+            "Shop_Name": "Dinas store",
+            "Location": "Dinas",
+            "Open_Date": "13 January",
+            "Open_Year": 2009,
+            "stock": []
+        },
+        {
+            "Shop_ID": 8,
+            "Shop_Name": "Naval repair",
+            "Location": "Penygraig",
+            "Open_Date": "10 December",
+            "Open_Year": 2010,
+            "stock": []
+        },
+        {
+            "Shop_ID": 9,
+            "Shop_Name": "Gelli repair",
+            "Location": "Gelli",
+            "Open_Date": "21 August",
+            "Open_Year": 2013,
+            "stock": [
+                {
+                    "Shop_ID": 9,
+                    "Device_ID": 4,
+                    "Quantity": 51
+                }
+            ]
+        },
+        {
+            "Shop_ID": 10,
+            "Shop_Name": "Naval's shop",
+            "Location": "Penygraig",
+            "Open_Date": "27 January",
+            "Open_Year": 2014,
+            "stock": []
+        },
+        {
+            "Shop_ID": 11,
+            "Shop_Name": "ATnT",
+            "Location": "Maerdy",
+            "Open_Date": "23\u201324 December",
+            "Open_Year": 2015,
+            "stock": [
+                {
+                    "Shop_ID": 11,
+                    "Device_ID": 6,
+                    "Quantity": 112
+                }
+            ]
+        },
+        {
+            "Shop_ID": 12,
+            "Shop_Name": "National Cellphone",
+            "Location": "Wattstown",
+            "Open_Date": "18 February",
+            "Open_Year": 2017,
+            "stock": []
+        }
+    ]
+}

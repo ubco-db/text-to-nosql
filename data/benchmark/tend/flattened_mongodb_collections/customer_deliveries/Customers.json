@@ -1,0 +1,770 @@
+[
+  {
+    "customer_id": 1,
+    "payment_method": "Visa",
+    "customer_name": "Ron Emard",
+    "customer_phone": "1-382-503-5179x53639",
+    "customer_email": "shaniya45@example.net",
+    "date_became_customer": "2011-04-25 22:20:35",
+    "Regular_Orders": [
+      {
+        "regular_order_id": 12,
+        "distributer_id": 1,
+        "Regular_Order_Products": [
+          {
+            "regular_order_id": 12,
+            "product_id": 2
+          }
+        ],
+        "Actual_Orders": [
+          {
+            "actual_order_id": 6,
+            "order_status_code": "Success",
+            "regular_order_id": 12,
+            "actual_order_date": "2018-03-12 05:33:57",
+            "Actual_Order_Products": [
+              {
+                "actual_order_id": 6,
+                "product_id": 6
+              }
+            ],
+            "Order_Deliveries": [
+              {
+                "location_code": "73 Nancy Av",
+                "actual_order_id": 6,
+                "delivery_status_code": "On Road",
+                "driver_employee_id": 11,
+                "truck_id": 11,
+                "delivery_date": "2018-03-22 22:09:56"
+              },
+              {
+                "location_code": "34 Benz St",
+                "actual_order_id": 6,
+                "delivery_status_code": "Delivered",
+                "driver_employee_id": 2,
+                "truck_id": 10,
+                "delivery_date": "2018-03-06 22:39:17"
+              }
+            ]
+          },
+          {
+            "actual_order_id": 12,
+            "order_status_code": "Cancel",
+            "regular_order_id": 12,
+            "actual_order_date": "2018-02-26 01:55:52",
+            "Actual_Order_Products": [],
+            "Order_Deliveries": []
+          }
+        ]
+      },
+      {
+        "regular_order_id": 13,
+        "distributer_id": 1,
+        "Regular_Order_Products": [
+          {
+            "regular_order_id": 13,
+            "product_id": 2
+          }
+        ],
+        "Actual_Orders": [
+          {
+            "actual_order_id": 10,
+            "order_status_code": "Success",
+            "regular_order_id": 13,
+            "actual_order_date": "2018-03-05 17:31:36",
+            "Actual_Order_Products": [
+              {
+                "actual_order_id": 10,
+                "product_id": 3
+              }
+            ],
+            "Order_Deliveries": [
+              {
+                "location_code": "58 Roof Av",
+                "actual_order_id": 10,
+                "delivery_status_code": "Ready",
+                "driver_employee_id": 13,
+                "truck_id": 11,
+                "delivery_date": "2018-03-18 02:35:08"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Customer_Addresses": [
+      {
+        "customer_id": 1,
+        "address_id": 11,
+        "date_from": "2014-12-20 18:58:32",
+        "address_type": "House",
+        "date_to": "2018-02-27 00:53:48"
+      }
+    ]
+  },
+  {
+    "customer_id": 2,
+    "payment_method": "MasterCard",
+    "customer_name": "Gabe Schroeder",
+    "customer_phone": "1-728-537-4293x0885",
+    "customer_email": "alexandra91@example.net",
+    "date_became_customer": "2011-10-17 16:08:25",
+    "Regular_Orders": [
+      {
+        "regular_order_id": 7,
+        "distributer_id": 2,
+        "Regular_Order_Products": [
+          {
+            "regular_order_id": 7,
+            "product_id": 4
+          }
+        ],
+        "Actual_Orders": [
+          {
+            "actual_order_id": 15,
+            "order_status_code": "Cancel",
+            "regular_order_id": 7,
+            "actual_order_date": "2018-03-10 18:22:34",
+            "Actual_Order_Products": [
+              {
+                "actual_order_id": 15,
+                "product_id": 4
+              }
+            ],
+            "Order_Deliveries": []
+          }
+        ]
+      }
+    ],
+    "Customer_Addresses": [
+      {
+        "customer_id": 2,
+        "address_id": 2,
+        "date_from": "2014-06-09 06:31:49",
+        "address_type": "Flat",
+        "date_to": "2018-03-02 21:56:40"
+      }
+    ]
+  },
+  {
+    "customer_id": 3,
+    "payment_method": "Discover",
+    "customer_name": "Candace Schneider",
+    "customer_phone": "940.575.3682x7959",
+    "customer_email": "tkassulke@example.com",
+    "date_became_customer": "2012-01-11 21:17:01",
+    "Regular_Orders": [
+      {
+        "regular_order_id": 4,
+        "distributer_id": 3,
+        "Regular_Order_Products": [],
+        "Actual_Orders": [
+          {
+            "actual_order_id": 3,
+            "order_status_code": "Cancel",
+            "regular_order_id": 4,
+            "actual_order_date": "2018-02-25 10:13:36",
+            "Actual_Order_Products": [
+              {
+                "actual_order_id": 3,
+                "product_id": 2
+              },
+              {
+                "actual_order_id": 3,
+                "product_id": 1
+              },
+              {
+                "actual_order_id": 3,
+                "product_id": 1
+              }
+            ],
+            "Order_Deliveries": [
+              {
+                "location_code": "27 City Rd",
+                "actual_order_id": 3,
+                "delivery_status_code": "Ready",
+                "driver_employee_id": 1,
+                "truck_id": 2,
+                "delivery_date": "2018-03-08 17:17:12"
+              }
+            ]
+          },
+          {
+            "actual_order_id": 11,
+            "order_status_code": "Cancel",
+            "regular_order_id": 4,
+            "actual_order_date": "2018-03-16 00:28:09",
+            "Actual_Order_Products": [],
+            "Order_Deliveries": [
+              {
+                "location_code": "27 City Rd",
+                "actual_order_id": 11,
+                "delivery_status_code": "Ready",
+                "driver_employee_id": 6,
+                "truck_id": 11,
+                "delivery_date": "2018-03-21 00:57:22"
+              }
+            ]
+          },
+          {
+            "actual_order_id": 14,
+            "order_status_code": "Cancel",
+            "regular_order_id": 4,
+            "actual_order_date": "2018-03-12 11:24:59",
+            "Actual_Order_Products": [
+              {
+                "actual_order_id": 14,
+                "product_id": 5
+              }
+            ],
+            "Order_Deliveries": [
+              {
+                "location_code": "34 Benz St",
+                "actual_order_id": 14,
+                "delivery_status_code": "Delivered",
+                "driver_employee_id": 11,
+                "truck_id": 6,
+                "delivery_date": "2018-03-12 20:45:27"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "regular_order_id": 11,
+        "distributer_id": 3,
+        "Regular_Order_Products": [],
+        "Actual_Orders": [
+          {
+            "actual_order_id": 8,
+            "order_status_code": "Cancel",
+            "regular_order_id": 11,
+            "actual_order_date": "2018-03-22 19:30:17",
+            "Actual_Order_Products": [],
+            "Order_Deliveries": [
+              {
+                "location_code": "73 Nancy Av",
+                "actual_order_id": 8,
+                "delivery_status_code": "Ready",
+                "driver_employee_id": 13,
+                "truck_id": 4,
+                "delivery_date": "2018-03-17 09:09:06"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Customer_Addresses": [
+      {
+        "customer_id": 3,
+        "address_id": 7,
+        "date_from": "2010-12-29 11:01:39",
+        "address_type": "House",
+        "date_to": "2018-03-22 02:54:10"
+      }
+    ]
+  },
+  {
+    "customer_id": 4,
+    "payment_method": "Visa",
+    "customer_name": "Jaden Lang",
+    "customer_phone": "361.151.3489x7272",
+    "customer_email": "dedric17@example.org",
+    "date_became_customer": "2009-12-29 17:38:10",
+    "Regular_Orders": [],
+    "Customer_Addresses": [
+      {
+        "customer_id": 4,
+        "address_id": 9,
+        "date_from": "2009-08-03 03:17:03",
+        "address_type": "House",
+        "date_to": "2018-03-15 23:45:59"
+      }
+    ]
+  },
+  {
+    "customer_id": 5,
+    "payment_method": "Visa",
+    "customer_name": "Geovanni Grady",
+    "customer_phone": "1-005-644-2495",
+    "customer_email": "elmira.langworth@example.org",
+    "date_became_customer": "2017-05-21 07:09:55",
+    "Regular_Orders": [],
+    "Customer_Addresses": [
+      {
+        "customer_id": 5,
+        "address_id": 6,
+        "date_from": "2016-09-06 19:23:46",
+        "address_type": "House",
+        "date_to": "2018-02-25 15:34:58"
+      }
+    ]
+  },
+  {
+    "customer_id": 6,
+    "payment_method": "Visa",
+    "customer_name": "Dr. Karine Farrell",
+    "customer_phone": "+49(2)0677806107",
+    "customer_email": "reichel.winnifred@example.org",
+    "date_became_customer": "2010-11-06 08:42:56",
+    "Regular_Orders": [
+      {
+        "regular_order_id": 3,
+        "distributer_id": 6,
+        "Regular_Order_Products": [
+          {
+            "regular_order_id": 3,
+            "product_id": 6
+          },
+          {
+            "regular_order_id": 3,
+            "product_id": 1
+          }
+        ],
+        "Actual_Orders": []
+      }
+    ],
+    "Customer_Addresses": []
+  },
+  {
+    "customer_id": 7,
+    "payment_method": "Discover",
+    "customer_name": "Emmanuel Reilly",
+    "customer_phone": "129.959.6420",
+    "customer_email": "gleichner.ethelyn@example.net",
+    "date_became_customer": "2013-11-29 06:15:22",
+    "Regular_Orders": [
+      {
+        "regular_order_id": 10,
+        "distributer_id": 7,
+        "Regular_Order_Products": [
+          {
+            "regular_order_id": 10,
+            "product_id": 1
+          }
+        ],
+        "Actual_Orders": [
+          {
+            "actual_order_id": 4,
+            "order_status_code": "Cancel",
+            "regular_order_id": 10,
+            "actual_order_date": "2018-03-21 01:34:52",
+            "Actual_Order_Products": [],
+            "Order_Deliveries": [
+              {
+                "location_code": "34 Benz St",
+                "actual_order_id": 4,
+                "delivery_status_code": "On Road",
+                "driver_employee_id": 1,
+                "truck_id": 2,
+                "delivery_date": "2018-03-01 00:50:45"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Customer_Addresses": [
+      {
+        "customer_id": 7,
+        "address_id": 3,
+        "date_from": "2016-08-17 17:45:20",
+        "address_type": "Flat",
+        "date_to": "2018-03-16 14:09:24"
+      }
+    ]
+  },
+  {
+    "customer_id": 8,
+    "payment_method": "MasterCard",
+    "customer_name": "Keenan Kuhic",
+    "customer_phone": "686-517-9923x348",
+    "customer_email": "dallin76@example.org",
+    "date_became_customer": "2013-04-09 18:17:05",
+    "Regular_Orders": [
+      {
+        "regular_order_id": 5,
+        "distributer_id": 8,
+        "Regular_Order_Products": [
+          {
+            "regular_order_id": 5,
+            "product_id": 3
+          },
+          {
+            "regular_order_id": 5,
+            "product_id": 5
+          }
+        ],
+        "Actual_Orders": []
+      }
+    ],
+    "Customer_Addresses": [
+      {
+        "customer_id": 8,
+        "address_id": 6,
+        "date_from": "2013-05-06 00:49:45",
+        "address_type": "Flat",
+        "date_to": "2018-03-05 01:34:02"
+      }
+    ]
+  },
+  {
+    "customer_id": 9,
+    "payment_method": "American",
+    "customer_name": "Rusty Morar",
+    "customer_phone": "1-123-197-9677x7194",
+    "customer_email": "njenkins@example.org",
+    "date_became_customer": "2015-09-09 09:29:06",
+    "Regular_Orders": [],
+    "Customer_Addresses": []
+  },
+  {
+    "customer_id": 10,
+    "payment_method": "Visa",
+    "customer_name": "Lila Howe",
+    "customer_phone": "1-492-284-1097",
+    "customer_email": "leann.hamill@example.org",
+    "date_became_customer": "2014-02-04 04:51:58",
+    "Regular_Orders": [
+      {
+        "regular_order_id": 9,
+        "distributer_id": 10,
+        "Regular_Order_Products": [
+          {
+            "regular_order_id": 9,
+            "product_id": 6
+          }
+        ],
+        "Actual_Orders": []
+      }
+    ],
+    "Customer_Addresses": [
+      {
+        "customer_id": 10,
+        "address_id": 6,
+        "date_from": "2011-05-24 21:49:34",
+        "address_type": "House",
+        "date_to": "2018-03-18 12:45:44"
+      },
+      {
+        "customer_id": 10,
+        "address_id": 1,
+        "date_from": "2012-05-24 11:47:54",
+        "address_type": "House",
+        "date_to": "2018-03-14 20:26:33"
+      }
+    ]
+  },
+  {
+    "customer_id": 11,
+    "payment_method": "Visa",
+    "customer_name": "Amalia Hudson DDS",
+    "customer_phone": "003-991-1506x483",
+    "customer_email": "danika49@example.com",
+    "date_became_customer": "2014-02-25 19:39:51",
+    "Regular_Orders": [],
+    "Customer_Addresses": []
+  },
+  {
+    "customer_id": 12,
+    "payment_method": "Discover",
+    "customer_name": "Verda Streich",
+    "customer_phone": "06730471330",
+    "customer_email": "xgraham@example.org",
+    "date_became_customer": "2008-10-12 12:19:27",
+    "Regular_Orders": [
+      {
+        "regular_order_id": 1,
+        "distributer_id": 12,
+        "Regular_Order_Products": [
+          {
+            "regular_order_id": 1,
+            "product_id": 4
+          },
+          {
+            "regular_order_id": 1,
+            "product_id": 1
+          }
+        ],
+        "Actual_Orders": [
+          {
+            "actual_order_id": 7,
+            "order_status_code": "Success",
+            "regular_order_id": 1,
+            "actual_order_date": "2018-03-06 12:20:31",
+            "Actual_Order_Products": [
+              {
+                "actual_order_id": 7,
+                "product_id": 3
+              }
+            ],
+            "Order_Deliveries": []
+          }
+        ]
+      }
+    ],
+    "Customer_Addresses": [
+      {
+        "customer_id": 12,
+        "address_id": 6,
+        "date_from": "2012-08-31 15:41:03",
+        "address_type": "Flat",
+        "date_to": "2018-03-02 23:42:49"
+      },
+      {
+        "customer_id": 12,
+        "address_id": 11,
+        "date_from": "2008-04-02 08:23:13",
+        "address_type": "Apartment",
+        "date_to": "2018-03-17 12:51:37"
+      },
+      {
+        "customer_id": 12,
+        "address_id": 5,
+        "date_from": "2017-11-01 10:59:35",
+        "address_type": "Flat",
+        "date_to": "2018-03-09 05:05:17"
+      }
+    ]
+  },
+  {
+    "customer_id": 13,
+    "payment_method": "Discover",
+    "customer_name": "Patience Yundt",
+    "customer_phone": "969-208-8932x715",
+    "customer_email": "kira82@example.com",
+    "date_became_customer": "2017-03-25 18:48:04",
+    "Regular_Orders": [],
+    "Customer_Addresses": []
+  },
+  {
+    "customer_id": 14,
+    "payment_method": "Visa",
+    "customer_name": "Annabell Walsh",
+    "customer_phone": "(881)096-1281x6448",
+    "customer_email": "adriana83@example.org",
+    "date_became_customer": "2017-06-30 19:02:11",
+    "Regular_Orders": [
+      {
+        "regular_order_id": 6,
+        "distributer_id": 14,
+        "Regular_Order_Products": [
+          {
+            "regular_order_id": 6,
+            "product_id": 3
+          },
+          {
+            "regular_order_id": 6,
+            "product_id": 4
+          }
+        ],
+        "Actual_Orders": [
+          {
+            "actual_order_id": 9,
+            "order_status_code": "Success",
+            "regular_order_id": 6,
+            "actual_order_date": "2018-03-13 05:43:25",
+            "Actual_Order_Products": [
+              {
+                "actual_order_id": 9,
+                "product_id": 2
+              }
+            ],
+            "Order_Deliveries": [
+              {
+                "location_code": "58 Roof Av",
+                "actual_order_id": 9,
+                "delivery_status_code": "Ready",
+                "driver_employee_id": 3,
+                "truck_id": 9,
+                "delivery_date": "2018-02-26 13:22:53"
+              },
+              {
+                "location_code": "58 Roof Av",
+                "actual_order_id": 9,
+                "delivery_status_code": "Ready",
+                "driver_employee_id": 14,
+                "truck_id": 5,
+                "delivery_date": "2018-03-14 05:16:17"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Customer_Addresses": [
+      {
+        "customer_id": 14,
+        "address_id": 5,
+        "date_from": "2016-12-21 03:49:54",
+        "address_type": "House",
+        "date_to": "2018-03-13 21:20:21"
+      },
+      {
+        "customer_id": 14,
+        "address_id": 2,
+        "date_from": "2011-12-06 16:49:10",
+        "address_type": "Flat",
+        "date_to": "2018-02-24 20:18:08"
+      },
+      {
+        "customer_id": 14,
+        "address_id": 10,
+        "date_from": "2011-08-18 09:40:49",
+        "address_type": "House",
+        "date_to": "2018-03-06 15:48:13"
+      }
+    ]
+  },
+  {
+    "customer_id": 15,
+    "payment_method": "Visa",
+    "customer_name": "Aracely Borer V",
+    "customer_phone": "531-617-3230",
+    "customer_email": "rollin95@example.net",
+    "date_became_customer": "2015-09-13 22:39:50",
+    "Regular_Orders": [
+      {
+        "regular_order_id": 2,
+        "distributer_id": 15,
+        "Regular_Order_Products": [
+          {
+            "regular_order_id": 2,
+            "product_id": 3
+          }
+        ],
+        "Actual_Orders": []
+      },
+      {
+        "regular_order_id": 8,
+        "distributer_id": 15,
+        "Regular_Order_Products": [
+          {
+            "regular_order_id": 8,
+            "product_id": 5
+          }
+        ],
+        "Actual_Orders": [
+          {
+            "actual_order_id": 1,
+            "order_status_code": "Success",
+            "regular_order_id": 8,
+            "actual_order_date": "2018-03-02 23:26:19",
+            "Actual_Order_Products": [],
+            "Order_Deliveries": [
+              {
+                "location_code": "27 City Rd",
+                "actual_order_id": 1,
+                "delivery_status_code": "On Road",
+                "driver_employee_id": 4,
+                "truck_id": 10,
+                "delivery_date": "2018-02-26 01:32:49"
+              }
+            ]
+          },
+          {
+            "actual_order_id": 13,
+            "order_status_code": "Cancel",
+            "regular_order_id": 8,
+            "actual_order_date": "2018-03-11 10:45:05",
+            "Actual_Order_Products": [
+              {
+                "actual_order_id": 13,
+                "product_id": 6
+              },
+              {
+                "actual_order_id": 13,
+                "product_id": 2
+              }
+            ],
+            "Order_Deliveries": []
+          }
+        ]
+      },
+      {
+        "regular_order_id": 14,
+        "distributer_id": 15,
+        "Regular_Order_Products": [],
+        "Actual_Orders": [
+          {
+            "actual_order_id": 5,
+            "order_status_code": "Cancel",
+            "regular_order_id": 14,
+            "actual_order_date": "2018-02-28 15:31:06",
+            "Actual_Order_Products": [
+              {
+                "actual_order_id": 5,
+                "product_id": 5
+              },
+              {
+                "actual_order_id": 5,
+                "product_id": 3
+              }
+            ],
+            "Order_Deliveries": [
+              {
+                "location_code": "34 Benz St",
+                "actual_order_id": 5,
+                "delivery_status_code": "Delivered",
+                "driver_employee_id": 14,
+                "truck_id": 6,
+                "delivery_date": "2018-03-02 09:03:13"
+              },
+              {
+                "location_code": "58 Roof Av",
+                "actual_order_id": 5,
+                "delivery_status_code": "Ready",
+                "driver_employee_id": 8,
+                "truck_id": 1,
+                "delivery_date": "2018-03-20 20:36:44"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "regular_order_id": 15,
+        "distributer_id": 15,
+        "Regular_Order_Products": [],
+        "Actual_Orders": [
+          {
+            "actual_order_id": 2,
+            "order_status_code": "Cancel",
+            "regular_order_id": 15,
+            "actual_order_date": "2018-03-02 08:33:39",
+            "Actual_Order_Products": [
+              {
+                "actual_order_id": 2,
+                "product_id": 1
+              },
+              {
+                "actual_order_id": 2,
+                "product_id": 3
+              }
+            ],
+            "Order_Deliveries": [
+              {
+                "location_code": "73 Nancy Av",
+                "actual_order_id": 2,
+                "delivery_status_code": "Delivered",
+                "driver_employee_id": 12,
+                "truck_id": 10,
+                "delivery_date": "2018-03-17 19:42:08"
+              },
+              {
+                "location_code": "73 Nancy Av",
+                "actual_order_id": 2,
+                "delivery_status_code": "On Road",
+                "driver_employee_id": 1,
+                "truck_id": 6,
+                "delivery_date": "2018-03-05 03:03:24"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Customer_Addresses": []
+  }
+]

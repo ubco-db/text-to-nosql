@@ -1,0 +1,368 @@
+[
+  {
+    "g_name": "tagore",
+    "rating": "8",
+    "most_popular_in": "Bangladesh",
+    "artist": [
+      {
+        "artist_name": "Shrikanta",
+        "country": "India",
+        "gender": "Male",
+        "preferred_genre": "tagore",
+        "files": [
+          {
+            "f_id": 1,
+            "artist_name": "Shrikanta",
+            "file_size": "3.78 MB",
+            "duration": "3:45",
+            "formats": "mp4",
+            "song": [
+              {
+                "song_name": "Tumi robe nirobe",
+                "artist_name": "Shrikanta",
+                "country": "India",
+                "f_id": 1,
+                "genre_is": "tagore",
+                "rating": 8,
+                "languages": "bangla",
+                "releasedate": "28-AUG-2011",
+                "resolution": 1080
+              }
+            ]
+          }
+        ],
+        "song": [
+          {
+            "song_name": "Tumi robe nirobe",
+            "artist_name": "Shrikanta",
+            "country": "India",
+            "f_id": 1,
+            "genre_is": "tagore",
+            "rating": 8,
+            "languages": "bangla",
+            "releasedate": "28-AUG-2011",
+            "resolution": 1080
+          }
+        ]
+      }
+    ],
+    "song": [
+      {
+        "song_name": "Tumi robe nirobe",
+        "artist_name": "Shrikanta",
+        "country": "India",
+        "f_id": 1,
+        "genre_is": "tagore",
+        "rating": 8,
+        "languages": "bangla",
+        "releasedate": "28-AUG-2011",
+        "resolution": 1080
+      }
+    ]
+  },
+  {
+    "g_name": "nazrul",
+    "rating": "7",
+    "most_popular_in": "Bangladesh",
+    "artist": [
+      {
+        "artist_name": "Prity",
+        "country": "Bangladesh",
+        "gender": "Female",
+        "preferred_genre": "nazrul",
+        "files": [
+          {
+            "f_id": 2,
+            "artist_name": "Prity",
+            "file_size": "4.12 MB",
+            "duration": "2:56",
+            "formats": "mp3",
+            "song": [
+              {
+                "song_name": "Shukno patar nupur pae",
+                "artist_name": "Prity",
+                "country": "Bangladesh",
+                "f_id": 2,
+                "genre_is": "nazrul",
+                "rating": 5,
+                "languages": "bangla",
+                "releasedate": "21-SEP-1997",
+                "resolution": 512
+              }
+            ]
+          }
+        ],
+        "song": [
+          {
+            "song_name": "Shukno patar nupur pae",
+            "artist_name": "Prity",
+            "country": "Bangladesh",
+            "f_id": 2,
+            "genre_is": "nazrul",
+            "rating": 5,
+            "languages": "bangla",
+            "releasedate": "21-SEP-1997",
+            "resolution": 512
+          }
+        ]
+      }
+    ],
+    "song": [
+      {
+        "song_name": "Shukno patar nupur pae",
+        "artist_name": "Prity",
+        "country": "Bangladesh",
+        "f_id": 2,
+        "genre_is": "nazrul",
+        "rating": 5,
+        "languages": "bangla",
+        "releasedate": "21-SEP-1997",
+        "resolution": 512
+      }
+    ]
+  },
+  {
+    "g_name": "folk",
+    "rating": "9",
+    "most_popular_in": "Sylhet,Chittagong,Kustia",
+    "artist": [
+      {
+        "artist_name": "Farida",
+        "country": "Bangladesh",
+        "gender": "Female",
+        "preferred_genre": "folk",
+        "files": [
+          {
+            "f_id": 3,
+            "artist_name": "Farida",
+            "file_size": "3.69 MB",
+            "duration": "4:12",
+            "formats": "mp4",
+            "song": [
+              {
+                "song_name": "Ami opar hoye",
+                "artist_name": "Farida",
+                "country": "Bangladesh",
+                "f_id": 3,
+                "genre_is": "folk",
+                "rating": 7,
+                "languages": "bangla",
+                "releasedate": "7-APR-2001",
+                "resolution": 320
+              }
+            ]
+          }
+        ],
+        "song": [
+          {
+            "song_name": "Ami opar hoye",
+            "artist_name": "Farida",
+            "country": "Bangladesh",
+            "f_id": 3,
+            "genre_is": "folk",
+            "rating": 7,
+            "languages": "bangla",
+            "releasedate": "7-APR-2001",
+            "resolution": 320
+          }
+        ]
+      }
+    ],
+    "song": [
+      {
+        "song_name": "Ami opar hoye",
+        "artist_name": "Farida",
+        "country": "Bangladesh",
+        "f_id": 3,
+        "genre_is": "folk",
+        "rating": 7,
+        "languages": "bangla",
+        "releasedate": "7-APR-2001",
+        "resolution": 320
+      }
+    ]
+  },
+  {
+    "g_name": "modern",
+    "rating": "8",
+    "most_popular_in": "Bangladesh",
+    "artist": [
+      {
+        "artist_name": "Topu",
+        "country": "India",
+        "gender": "Female",
+        "preferred_genre": "modern",
+        "files": [
+          {
+            "f_id": 6,
+            "artist_name": "Topu",
+            "file_size": "4.10 MB",
+            "duration": "4:30",
+            "formats": "mp4",
+            "song": [
+              {
+                "song_name": "Aj ei akash",
+                "artist_name": "Topu",
+                "country": "India",
+                "f_id": 6,
+                "genre_is": "modern",
+                "rating": 10,
+                "languages": "bangla",
+                "releasedate": "27-MAR-2004",
+                "resolution": 320
+              }
+            ]
+          }
+        ],
+        "song": [
+          {
+            "song_name": "Aj ei akash",
+            "artist_name": "Topu",
+            "country": "India",
+            "f_id": 6,
+            "genre_is": "modern",
+            "rating": 10,
+            "languages": "bangla",
+            "releasedate": "27-MAR-2004",
+            "resolution": 320
+          }
+        ]
+      }
+    ],
+    "song": [
+      {
+        "song_name": "Aj ei akash",
+        "artist_name": "Topu",
+        "country": "India",
+        "f_id": 6,
+        "genre_is": "modern",
+        "rating": 10,
+        "languages": "bangla",
+        "releasedate": "27-MAR-2004",
+        "resolution": 320
+      }
+    ]
+  },
+  {
+    "g_name": "blues",
+    "rating": "7",
+    "most_popular_in": "Canada",
+    "artist": [
+      {
+        "artist_name": "Enrique",
+        "country": "USA",
+        "gender": "Male",
+        "preferred_genre": "blues",
+        "files": [
+          {
+            "f_id": 4,
+            "artist_name": "Enrique",
+            "file_size": "4.58 MB",
+            "duration": "5:23",
+            "formats": "mp4",
+            "song": [
+              {
+                "song_name": "My love",
+                "artist_name": "Enrique",
+                "country": "USA",
+                "f_id": 4,
+                "genre_is": "blues",
+                "rating": 6,
+                "languages": "english",
+                "releasedate": "24-JAN-2007",
+                "resolution": 1080
+              }
+            ]
+          }
+        ],
+        "song": [
+          {
+            "song_name": "My love",
+            "artist_name": "Enrique",
+            "country": "USA",
+            "f_id": 4,
+            "genre_is": "blues",
+            "rating": 6,
+            "languages": "english",
+            "releasedate": "24-JAN-2007",
+            "resolution": 1080
+          }
+        ]
+      }
+    ],
+    "song": [
+      {
+        "song_name": "My love",
+        "artist_name": "Enrique",
+        "country": "USA",
+        "f_id": 4,
+        "genre_is": "blues",
+        "rating": 6,
+        "languages": "english",
+        "releasedate": "24-JAN-2007",
+        "resolution": 1080
+      }
+    ]
+  },
+  {
+    "g_name": "pop",
+    "rating": "9",
+    "most_popular_in": "America",
+    "artist": [
+      {
+        "artist_name": "Michel",
+        "country": "UK",
+        "gender": "Male",
+        "preferred_genre": "pop",
+        "files": [
+          {
+            "f_id": 5,
+            "artist_name": "Michel",
+            "file_size": "5.10 MB",
+            "duration": "4:34",
+            "formats": "mp3",
+            "song": [
+              {
+                "song_name": "Just beat it",
+                "artist_name": "Michel",
+                "country": "UK",
+                "f_id": 5,
+                "genre_is": "pop",
+                "rating": 8,
+                "languages": "english",
+                "releasedate": "17-MAR-2002",
+                "resolution": 720
+              }
+            ]
+          }
+        ],
+        "song": [
+          {
+            "song_name": "Just beat it",
+            "artist_name": "Michel",
+            "country": "UK",
+            "f_id": 5,
+            "genre_is": "pop",
+            "rating": 8,
+            "languages": "english",
+            "releasedate": "17-MAR-2002",
+            "resolution": 720
+          }
+        ]
+      }
+    ],
+    "song": [
+      {
+        "song_name": "Just beat it",
+        "artist_name": "Michel",
+        "country": "UK",
+        "f_id": 5,
+        "genre_is": "pop",
+        "rating": 8,
+        "languages": "english",
+        "releasedate": "17-MAR-2002",
+        "resolution": 720
+      }
+    ]
+  }
+]

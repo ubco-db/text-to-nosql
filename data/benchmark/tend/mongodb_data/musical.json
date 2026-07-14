@@ -1,0 +1,141 @@
+{
+    "actor": [
+        {
+            "Actor_ID": 1,
+            "Name": "Ray Meagher",
+            "Musical_ID": 1,
+            "Character": "Alf Stewart",
+            "Duration": "1988\u2014",
+            "age": 26
+        },
+        {
+            "Actor_ID": 2,
+            "Name": "Tom Oliver",
+            "Musical_ID": 1,
+            "Character": "Lou Carpenter",
+            "Duration": "1988, 1992\u2014",
+            "age": 22
+        },
+        {
+            "Actor_ID": 3,
+            "Name": "Lynne McGranger",
+            "Musical_ID": 2,
+            "Character": "Irene Roberts",
+            "Duration": "1993\u2014",
+            "age": 21
+        },
+        {
+            "Actor_ID": 4,
+            "Name": "Kate Ritchie",
+            "Musical_ID": 2,
+            "Character": "Sally Fletcher",
+            "Duration": "1988\u20132008, 2013",
+            "age": 20
+        },
+        {
+            "Actor_ID": 5,
+            "Name": "Alan Fletcher",
+            "Musical_ID": 4,
+            "Character": "Karl Kennedy",
+            "Duration": "1994\u2014",
+            "age": 20
+        },
+        {
+            "Actor_ID": 6,
+            "Name": "Jackie Woodburne",
+            "Musical_ID": 6,
+            "Character": "Susan Kennedy",
+            "Duration": "1994\u2014",
+            "age": 20
+        },
+        {
+            "Actor_ID": 7,
+            "Name": "Ryan Moloney",
+            "Musical_ID": 6,
+            "Character": "Toadfish Rebecchi",
+            "Duration": "1995, 1996\u2014",
+            "age": 18
+        },
+        {
+            "Actor_ID": 8,
+            "Name": "Ian Smith",
+            "Musical_ID": 6,
+            "Character": "Harold Bishop",
+            "Duration": "1987\u20131991, 1996\u20132009, 2011",
+            "age": 17
+        },
+        {
+            "Actor_ID": 9,
+            "Name": "Stefan Dennis",
+            "Musical_ID": 6,
+            "Character": "Paul Robinson",
+            "Duration": "1985\u20131992, 1993, 2004\u2014",
+            "age": 17
+        }
+    ],
+    "musical": [
+        {
+            "Musical_ID": 1,
+            "Name": "The Phantom of the Opera",
+            "Year": 1986,
+            "Award": "Tony Award",
+            "Category": "Best Book of a Musical",
+            "Nominee": "Bob Fosse",
+            "Result": "Nominated"
+        },
+        {
+            "Musical_ID": 2,
+            "Name": "Les Mis\u00e9rables",
+            "Year": 1986,
+            "Award": "Tony Award",
+            "Category": "Best Performance by a Leading Actor in a Musical",
+            "Nominee": "Cleavant Derricks",
+            "Result": "Nominated"
+        },
+        {
+            "Musical_ID": 3,
+            "Name": "Wicked",
+            "Year": 1986,
+            "Award": "Tony Award",
+            "Category": "Best Direction of a Musical",
+            "Nominee": "Bob Fosse",
+            "Result": "Nominated"
+        },
+        {
+            "Musical_ID": 4,
+            "Name": "West Side Story",
+            "Year": 1986,
+            "Award": "Tony Award",
+            "Category": "Best Choreography",
+            "Nominee": "Bob Fosse",
+            "Result": "Won"
+        },
+        {
+            "Musical_ID": 5,
+            "Name": "Rent",
+            "Year": 1986,
+            "Award": "Drama Desk Award",
+            "Category": "Outstanding Actor in a Musical",
+            "Nominee": "Cleavant Derricks",
+            "Result": "Nominated"
+        },
+        {
+            "Musical_ID": 6,
+            "Name": "The Book of Mormon",
+            "Year": 1986,
+            "Award": "Drama Desk Award",
+            "Category": "Outstanding Director of a Musical",
+            "Nominee": "Bob Fosse",
+            "Result": "Nominated"
+        },
+        {
+            "Musical_ID": 7,
+            "Name": "Chicago",
+            "Year": 1986,
+            "Award": "Drama Desk Award",
+            "Category": "Outstanding Choreography",
+            "Nominee": "Bob Fosse",
+            "Result": "Won"
+        }
+    ]
+}

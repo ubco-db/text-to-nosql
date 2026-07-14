@@ -1,0 +1,98 @@
+{
+    "people": [
+        {
+            "People_ID": 1,
+            "Name": "Jack Campbell",
+            "Height": 182.0,
+            "Weight": 80.0,
+            "Birth_Date": "January 1, 1992",
+            "Birth_Place": "Port Huron, Michigan",
+            "body_builder": [
+                {
+                    "Body_Builder_ID": 1,
+                    "People_ID": 1,
+                    "Snatch": 142.5,
+                    "Clean_Jerk": 175.0,
+                    "Total": 317.5
+                }
+            ]
+        },
+        {
+            "People_ID": 2,
+            "Name": "Ty Conklin",
+            "Height": 192.0,
+            "Weight": 90.0,
+            "Birth_Date": "March 30, 1976",
+            "Birth_Place": "Anchorage, Alaska",
+            "body_builder": [
+                {
+                    "Body_Builder_ID": 2,
+                    "People_ID": 2,
+                    "Snatch": 137.5,
+                    "Clean_Jerk": 177.5,
+                    "Total": 315.0
+                }
+            ]
+        },
+        {
+            "People_ID": 3,
+            "Name": "Al Montoya",
+            "Height": 195.0,
+            "Weight": 100.0,
+            "Birth_Date": "February 13, 1985",
+            "Birth_Place": "Glenview, Illinois",
+            "body_builder": [
+                {
+                    "Body_Builder_ID": 3,
+                    "People_ID": 3,
+                    "Snatch": 140.0,
+                    "Clean_Jerk": 175.0,
+                    "Total": 315.0
+                }
+            ]
+        },
+        {
+            "People_ID": 4,
+            "Name": "Mark Fayne",
+            "Height": 215.0,
+            "Weight": 102.0,
+            "Birth_Date": "May 5, 1987",
+            "Birth_Place": "Nashua, New Hampshire",
+            "body_builder": []
+        },
+        {
+            "People_ID": 5,
+            "Name": "Cam Fowler",
+            "Height": 196.0,
+            "Weight": 89.0,
+            "Birth_Date": "December 5, 1991",
+            "Birth_Place": "Farmington Hills, Michigan",
+            "body_builder": [
+                {
+                    "Body_Builder_ID": 4,
+                    "People_ID": 5,
+                    "Snatch": 137.5,
+                    "Clean_Jerk": 175.0,
+                    "Total": 312.5
+                }
+            ]
+        },
+        {
+            "People_ID": 6,
+            "Name": "Jake Gardiner",
+            "Height": 205.0,
+            "Weight": 92.0,
+            "Birth_Date": "July 4, 1990",
+            "Birth_Place": "Minnetonka, Minnesota",
+            "body_builder": [
+                {
+                    "Body_Builder_ID": 5,
+                    "People_ID": 6,
+                    "Snatch": 130.0,
+                    "Clean_Jerk": 162.5,
+                    "Total": 292.5
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,337 @@
+[
+  {
+    "product_id": 1,
+    "product_type_code": "Clothes",
+    "product_name": "red jeans",
+    "product_price": 734.73,
+    "Order_Items": [],
+    "Product_Suppliers": []
+  },
+  {
+    "product_id": 2,
+    "product_type_code": "Clothes",
+    "product_name": "yellow jeans",
+    "product_price": 687.23,
+    "Order_Items": [
+      {
+        "order_item_id": 3,
+        "order_id": 5,
+        "product_id": 2
+      }
+    ],
+    "Product_Suppliers": []
+  },
+  {
+    "product_id": 3,
+    "product_type_code": "Clothes",
+    "product_name": "black jeans",
+    "product_price": 695.16,
+    "Order_Items": [
+      {
+        "order_item_id": 2,
+        "order_id": 1,
+        "product_id": 3
+      }
+    ],
+    "Product_Suppliers": [
+      {
+        "product_id": 3,
+        "supplier_id": 3,
+        "date_supplied_from": "2017-10-14 19:15:37",
+        "date_supplied_to": "2018-03-24 02:29:44",
+        "total_amount_purchased": "15752.45",
+        "total_value_purchased": 7273.74
+      }
+    ]
+  },
+  {
+    "product_id": 4,
+    "product_type_code": "Clothes",
+    "product_name": "blue jeans",
+    "product_price": 939.57,
+    "Order_Items": [
+      {
+        "order_item_id": 5,
+        "order_id": 15,
+        "product_id": 4
+      },
+      {
+        "order_item_id": 15,
+        "order_id": 5,
+        "product_id": 4
+      }
+    ],
+    "Product_Suppliers": [
+      {
+        "product_id": 4,
+        "supplier_id": 1,
+        "date_supplied_from": "2017-09-19 02:14:02",
+        "date_supplied_to": "2018-03-25 09:15:30",
+        "total_amount_purchased": "32881.38",
+        "total_value_purchased": 29987.71
+      },
+      {
+        "product_id": 4,
+        "supplier_id": 3,
+        "date_supplied_from": "2017-06-19 00:49:05",
+        "date_supplied_to": "2018-03-24 19:29:18",
+        "total_amount_purchased": "89366.05",
+        "total_value_purchased": 36014.6
+      },
+      {
+        "product_id": 4,
+        "supplier_id": 4,
+        "date_supplied_from": "2017-06-09 01:30:40",
+        "date_supplied_to": "2018-03-24 12:35:08",
+        "total_amount_purchased": "79316.31",
+        "total_value_purchased": 98086.8
+      }
+    ]
+  },
+  {
+    "product_id": 5,
+    "product_type_code": "Clothes",
+    "product_name": "red jeans",
+    "product_price": 534.52,
+    "Order_Items": [
+      {
+        "order_item_id": 13,
+        "order_id": 15,
+        "product_id": 5
+      }
+    ],
+    "Product_Suppliers": [
+      {
+        "product_id": 5,
+        "supplier_id": 2,
+        "date_supplied_from": "2017-07-28 19:23:39",
+        "date_supplied_to": "2018-03-24 09:17:15",
+        "total_amount_purchased": "85922.86",
+        "total_value_purchased": 82524.95
+      }
+    ]
+  },
+  {
+    "product_id": 6,
+    "product_type_code": "Clothes",
+    "product_name": "red topping",
+    "product_price": 408.82,
+    "Order_Items": [],
+    "Product_Suppliers": [
+      {
+        "product_id": 6,
+        "supplier_id": 2,
+        "date_supplied_from": "2017-12-20 07:07:31",
+        "date_supplied_to": "2018-03-24 23:25:58",
+        "total_amount_purchased": "64444.18",
+        "total_value_purchased": 97371.12
+      }
+    ]
+  },
+  {
+    "product_id": 7,
+    "product_type_code": "Clothes",
+    "product_name": "black topping",
+    "product_price": 916.53,
+    "Order_Items": [
+      {
+        "order_item_id": 1,
+        "order_id": 9,
+        "product_id": 7
+      }
+    ],
+    "Product_Suppliers": [
+      {
+        "product_id": 7,
+        "supplier_id": 1,
+        "date_supplied_from": "2017-08-22 00:58:42",
+        "date_supplied_to": "2018-03-24 02:38:31",
+        "total_amount_purchased": "22332.08",
+        "total_value_purchased": 8042.78
+      },
+      {
+        "product_id": 7,
+        "supplier_id": 4,
+        "date_supplied_from": "2017-11-17 08:23:16",
+        "date_supplied_to": "2018-03-25 12:03:33",
+        "total_amount_purchased": "20689.78",
+        "total_value_purchased": 61800.95
+      }
+    ]
+  },
+  {
+    "product_id": 8,
+    "product_type_code": "Clothes",
+    "product_name": "yellow topping",
+    "product_price": 918.41,
+    "Order_Items": [
+      {
+        "order_item_id": 8,
+        "order_id": 12,
+        "product_id": 8
+      }
+    ],
+    "Product_Suppliers": [
+      {
+        "product_id": 8,
+        "supplier_id": 2,
+        "date_supplied_from": "2017-06-25 14:59:40",
+        "date_supplied_to": "2018-03-24 12:27:13",
+        "total_amount_purchased": "83873.58",
+        "total_value_purchased": 99049.01
+      },
+      {
+        "product_id": 8,
+        "supplier_id": 4,
+        "date_supplied_from": "2017-07-02 00:35:12",
+        "date_supplied_to": "2018-03-25 07:30:49",
+        "total_amount_purchased": "25085.57",
+        "total_value_purchased": 36274.56
+      }
+    ]
+  },
+  {
+    "product_id": 9,
+    "product_type_code": "Clothes",
+    "product_name": "blue topping",
+    "product_price": 604.86,
+    "Order_Items": [],
+    "Product_Suppliers": []
+  },
+  {
+    "product_id": 10,
+    "product_type_code": "Hardware",
+    "product_name": "monitor",
+    "product_price": 813.76,
+    "Order_Items": [
+      {
+        "order_item_id": 4,
+        "order_id": 14,
+        "product_id": 10
+      },
+      {
+        "order_item_id": 14,
+        "order_id": 8,
+        "product_id": 10
+      }
+    ],
+    "Product_Suppliers": []
+  },
+  {
+    "product_id": 11,
+    "product_type_code": "Hardware",
+    "product_name": "mouse",
+    "product_price": 803.74,
+    "Order_Items": [
+      {
+        "order_item_id": 11,
+        "order_id": 7,
+        "product_id": 11
+      }
+    ],
+    "Product_Suppliers": [
+      {
+        "product_id": 11,
+        "supplier_id": 1,
+        "date_supplied_from": "2017-12-01 19:46:53",
+        "date_supplied_to": "2018-03-24 05:22:36",
+        "total_amount_purchased": "35149.74",
+        "total_value_purchased": 67216.31
+      },
+      {
+        "product_id": 11,
+        "supplier_id": 3,
+        "date_supplied_from": "2017-07-13 15:02:24",
+        "date_supplied_to": "2018-03-24 23:01:03",
+        "total_amount_purchased": "31862.59",
+        "total_value_purchased": 76992.42
+      }
+    ]
+  },
+  {
+    "product_id": 12,
+    "product_type_code": "Hardware",
+    "product_name": "drive",
+    "product_price": 944.96,
+    "Order_Items": [
+      {
+        "order_item_id": 9,
+        "order_id": 13,
+        "product_id": 12
+      }
+    ],
+    "Product_Suppliers": []
+  },
+  {
+    "product_id": 13,
+    "product_type_code": "Hardware",
+    "product_name": "keyboard",
+    "product_price": 629.89,
+    "Order_Items": [
+      {
+        "order_item_id": 6,
+        "order_id": 14,
+        "product_id": 13
+      },
+      {
+        "order_item_id": 7,
+        "order_id": 6,
+        "product_id": 13
+      },
+      {
+        "order_item_id": 10,
+        "order_id": 14,
+        "product_id": 13
+      }
+    ],
+    "Product_Suppliers": []
+  },
+  {
+    "product_id": 14,
+    "product_type_code": "Hardware",
+    "product_name": "speaker",
+    "product_price": 612.46,
+    "Order_Items": [
+      {
+        "order_item_id": 12,
+        "order_id": 14,
+        "product_id": 14
+      }
+    ],
+    "Product_Suppliers": [
+      {
+        "product_id": 14,
+        "supplier_id": 1,
+        "date_supplied_from": "2017-08-09 21:26:38",
+        "date_supplied_to": "2018-03-24 18:16:47",
+        "total_amount_purchased": "20447.99",
+        "total_value_purchased": 27257.6
+      }
+    ]
+  },
+  {
+    "product_id": 15,
+    "product_type_code": "Hardware",
+    "product_name": "mic",
+    "product_price": 971.44,
+    "Order_Items": [],
+    "Product_Suppliers": [
+      {
+        "product_id": 15,
+        "supplier_id": 2,
+        "date_supplied_from": "2017-08-07 12:08:00",
+        "date_supplied_to": "2018-03-23 19:21:12",
+        "total_amount_purchased": "13712.91",
+        "total_value_purchased": 48100.23
+      },
+      {
+        "product_id": 15,
+        "supplier_id": 4,
+        "date_supplied_from": "2017-12-08 09:14:05",
+        "date_supplied_to": "2018-03-24 23:03:30",
+        "total_amount_purchased": "25318.21",
+        "total_value_purchased": 29836.26
+      }
+    ]
+  }
+]

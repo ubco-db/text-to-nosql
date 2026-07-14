@@ -1,0 +1,671 @@
+{
+    "Student": [
+        {
+            "StuID": 1001,
+            "LName": "Smith",
+            "Fname": "Linda",
+            "Age": 18,
+            "Sex": "F",
+            "Major": 600,
+            "Advisor": 1121,
+            "city_code": "BAL",
+            "Plays_Games": [
+                {
+                    "StuID": 1001,
+                    "GameID": 1,
+                    "Hours_Played": 35
+                },
+                {
+                    "StuID": 1001,
+                    "GameID": 2,
+                    "Hours_Played": 15
+                },
+                {
+                    "StuID": 1001,
+                    "GameID": 5,
+                    "Hours_Played": 1
+                }
+            ],
+            "SportsInfo": [
+                {
+                    "StuID": 1001,
+                    "SportName": "Athletics",
+                    "HoursPerWeek": 2,
+                    "GamesPlayed": 5,
+                    "OnScholarship": "N"
+                }
+            ]
+        },
+        {
+            "StuID": 1002,
+            "LName": "Kim",
+            "Fname": "Tracy",
+            "Age": 19,
+            "Sex": "F",
+            "Major": 600,
+            "Advisor": 7712,
+            "city_code": "HKG",
+            "Plays_Games": [],
+            "SportsInfo": [
+                {
+                    "StuID": 1002,
+                    "SportName": "Football",
+                    "HoursPerWeek": 7,
+                    "GamesPlayed": 20,
+                    "OnScholarship": "Y"
+                }
+            ]
+        },
+        {
+            "StuID": 1003,
+            "LName": "Jones",
+            "Fname": "Shiela",
+            "Age": 21,
+            "Sex": "F",
+            "Major": 600,
+            "Advisor": 7792,
+            "city_code": "WAS",
+            "Plays_Games": [],
+            "SportsInfo": [
+                {
+                    "StuID": 1003,
+                    "SportName": "Football",
+                    "HoursPerWeek": 45,
+                    "GamesPlayed": 18,
+                    "OnScholarship": "Y"
+                }
+            ]
+        },
+        {
+            "StuID": 1004,
+            "LName": "Kumar",
+            "Fname": "Dinesh",
+            "Age": 20,
+            "Sex": "M",
+            "Major": 600,
+            "Advisor": 8423,
+            "city_code": "CHI",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1005,
+            "LName": "Gompers",
+            "Fname": "Paul",
+            "Age": 26,
+            "Sex": "M",
+            "Major": 600,
+            "Advisor": 1121,
+            "city_code": "YYZ",
+            "Plays_Games": [],
+            "SportsInfo": [
+                {
+                    "StuID": 1005,
+                    "SportName": "Lacrosse",
+                    "HoursPerWeek": 35,
+                    "GamesPlayed": 16,
+                    "OnScholarship": "N"
+                }
+            ]
+        },
+        {
+            "StuID": 1006,
+            "LName": "Schultz",
+            "Fname": "Andy",
+            "Age": 18,
+            "Sex": "M",
+            "Major": 600,
+            "Advisor": 1148,
+            "city_code": "BAL",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1007,
+            "LName": "Apap",
+            "Fname": "Lisa",
+            "Age": 18,
+            "Sex": "F",
+            "Major": 600,
+            "Advisor": 8918,
+            "city_code": "PIT",
+            "Plays_Games": [
+                {
+                    "StuID": 1007,
+                    "GameID": 4,
+                    "Hours_Played": 1000
+                }
+            ],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1008,
+            "LName": "Nelson",
+            "Fname": "Jandy",
+            "Age": 20,
+            "Sex": "F",
+            "Major": 600,
+            "Advisor": 9172,
+            "city_code": "BAL",
+            "Plays_Games": [
+                {
+                    "StuID": 1008,
+                    "GameID": 5,
+                    "Hours_Played": 50
+                },
+                {
+                    "StuID": 1008,
+                    "GameID": 3,
+                    "Hours_Played": 50
+                }
+            ],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1009,
+            "LName": "Tai",
+            "Fname": "Eric",
+            "Age": 19,
+            "Sex": "M",
+            "Major": 600,
+            "Advisor": 2192,
+            "city_code": "YYZ",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1010,
+            "LName": "Lee",
+            "Fname": "Derek",
+            "Age": 17,
+            "Sex": "M",
+            "Major": 600,
+            "Advisor": 2192,
+            "city_code": "HOU",
+            "Plays_Games": [
+                {
+                    "StuID": 1010,
+                    "GameID": 6,
+                    "Hours_Played": 1337
+                }
+            ],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1011,
+            "LName": "Adams",
+            "Fname": "David",
+            "Age": 22,
+            "Sex": "M",
+            "Major": 600,
+            "Advisor": 1148,
+            "city_code": "PHL",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1012,
+            "LName": "Davis",
+            "Fname": "Steven",
+            "Age": 20,
+            "Sex": "M",
+            "Major": 600,
+            "Advisor": 7723,
+            "city_code": "PIT",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1014,
+            "LName": "Norris",
+            "Fname": "Charles",
+            "Age": 18,
+            "Sex": "M",
+            "Major": 600,
+            "Advisor": 8741,
+            "city_code": "DAL",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1015,
+            "LName": "Lee",
+            "Fname": "Susan",
+            "Age": 16,
+            "Sex": "F",
+            "Major": 600,
+            "Advisor": 8721,
+            "city_code": "HKG",
+            "Plays_Games": [],
+            "SportsInfo": [
+                {
+                    "StuID": 1015,
+                    "SportName": "Lacrosse",
+                    "HoursPerWeek": 25,
+                    "GamesPlayed": 41,
+                    "OnScholarship": "Y"
+                }
+            ]
+        },
+        {
+            "StuID": 1016,
+            "LName": "Schwartz",
+            "Fname": "Mark",
+            "Age": 17,
+            "Sex": "M",
+            "Major": 600,
+            "Advisor": 2192,
+            "city_code": "DET",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1017,
+            "LName": "Wilson",
+            "Fname": "Bruce",
+            "Age": 27,
+            "Sex": "M",
+            "Major": 600,
+            "Advisor": 1148,
+            "city_code": "LON",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1018,
+            "LName": "Leighton",
+            "Fname": "Michael",
+            "Age": 20,
+            "Sex": "M",
+            "Major": 600,
+            "Advisor": 1121,
+            "city_code": "PIT",
+            "Plays_Games": [],
+            "SportsInfo": [
+                {
+                    "StuID": 1018,
+                    "SportName": "Lacrosse",
+                    "HoursPerWeek": 39,
+                    "GamesPlayed": 25,
+                    "OnScholarship": "N"
+                }
+            ]
+        },
+        {
+            "StuID": 1019,
+            "LName": "Pang",
+            "Fname": "Arthur",
+            "Age": 18,
+            "Sex": "M",
+            "Major": 600,
+            "Advisor": 2192,
+            "city_code": "WAS",
+            "Plays_Games": [],
+            "SportsInfo": [
+                {
+                    "StuID": 1019,
+                    "SportName": "Swimming",
+                    "HoursPerWeek": 8,
+                    "GamesPlayed": 16,
+                    "OnScholarship": "Y"
+                },
+                {
+                    "StuID": 1019,
+                    "SportName": "Tennis",
+                    "HoursPerWeek": 19,
+                    "GamesPlayed": 62,
+                    "OnScholarship": "N"
+                }
+            ]
+        },
+        {
+            "StuID": 1020,
+            "LName": "Thornton",
+            "Fname": "Ian",
+            "Age": 22,
+            "Sex": "M",
+            "Major": 520,
+            "Advisor": 7271,
+            "city_code": "NYC",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1021,
+            "LName": "Andreou",
+            "Fname": "George",
+            "Age": 19,
+            "Sex": "M",
+            "Major": 520,
+            "Advisor": 8722,
+            "city_code": "NYC",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1022,
+            "LName": "Woods",
+            "Fname": "Michael",
+            "Age": 17,
+            "Sex": "M",
+            "Major": 540,
+            "Advisor": 8722,
+            "city_code": "PHL",
+            "Plays_Games": [],
+            "SportsInfo": [
+                {
+                    "StuID": 1022,
+                    "SportName": "Baseball",
+                    "HoursPerWeek": 29,
+                    "GamesPlayed": 31,
+                    "OnScholarship": "N"
+                }
+            ]
+        },
+        {
+            "StuID": 1023,
+            "LName": "Shieber",
+            "Fname": "David",
+            "Age": 20,
+            "Sex": "M",
+            "Major": 520,
+            "Advisor": 8722,
+            "city_code": "NYC",
+            "Plays_Games": [],
+            "SportsInfo": [
+                {
+                    "StuID": 1023,
+                    "SportName": "Basketball",
+                    "HoursPerWeek": 14,
+                    "GamesPlayed": 8,
+                    "OnScholarship": "Y"
+                },
+                {
+                    "StuID": 1023,
+                    "SportName": "Tennis",
+                    "HoursPerWeek": 1,
+                    "GamesPlayed": 56,
+                    "OnScholarship": "Y"
+                }
+            ]
+        },
+        {
+            "StuID": 1024,
+            "LName": "Prater",
+            "Fname": "Stacy",
+            "Age": 18,
+            "Sex": "F",
+            "Major": 540,
+            "Advisor": 7271,
+            "city_code": "BAL",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1025,
+            "LName": "Goldman",
+            "Fname": "Mark",
+            "Age": 18,
+            "Sex": "M",
+            "Major": 520,
+            "Advisor": 7134,
+            "city_code": "PIT",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1026,
+            "LName": "Pang",
+            "Fname": "Eric",
+            "Age": 19,
+            "Sex": "M",
+            "Major": 520,
+            "Advisor": 7134,
+            "city_code": "HKG",
+            "Plays_Games": [],
+            "SportsInfo": [
+                {
+                    "StuID": 1026,
+                    "SportName": "Cricket",
+                    "HoursPerWeek": 23,
+                    "GamesPlayed": 37,
+                    "OnScholarship": "Y"
+                }
+            ]
+        },
+        {
+            "StuID": 1027,
+            "LName": "Brody",
+            "Fname": "Paul",
+            "Age": 18,
+            "Sex": "M",
+            "Major": 520,
+            "Advisor": 8723,
+            "city_code": "LOS",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1028,
+            "LName": "Rugh",
+            "Fname": "Eric",
+            "Age": 20,
+            "Sex": "M",
+            "Major": 550,
+            "Advisor": 2311,
+            "city_code": "ROC",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1029,
+            "LName": "Han",
+            "Fname": "Jun",
+            "Age": 17,
+            "Sex": "M",
+            "Major": 100,
+            "Advisor": 2311,
+            "city_code": "PEK",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1030,
+            "LName": "Cheng",
+            "Fname": "Lisa",
+            "Age": 21,
+            "Sex": "F",
+            "Major": 550,
+            "Advisor": 2311,
+            "city_code": "SFO",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1031,
+            "LName": "Smith",
+            "Fname": "Sarah",
+            "Age": 20,
+            "Sex": "F",
+            "Major": 550,
+            "Advisor": 8772,
+            "city_code": "PHL",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1032,
+            "LName": "Brown",
+            "Fname": "Eric",
+            "Age": 20,
+            "Sex": "M",
+            "Major": 550,
+            "Advisor": 8772,
+            "city_code": "ATL",
+            "Plays_Games": [
+                {
+                    "StuID": 1032,
+                    "GameID": 1,
+                    "Hours_Played": 47
+                },
+                {
+                    "StuID": 1032,
+                    "GameID": 2,
+                    "Hours_Played": 10
+                },
+                {
+                    "StuID": 1032,
+                    "GameID": 3,
+                    "Hours_Played": 100
+                }
+            ],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1033,
+            "LName": "Simms",
+            "Fname": "William",
+            "Age": 18,
+            "Sex": "M",
+            "Major": 550,
+            "Advisor": 8772,
+            "city_code": "NAR",
+            "Plays_Games": [],
+            "SportsInfo": [
+                {
+                    "StuID": 1033,
+                    "SportName": "Soccer",
+                    "HoursPerWeek": 45,
+                    "GamesPlayed": 45,
+                    "OnScholarship": "Y"
+                }
+            ]
+        },
+        {
+            "StuID": 1034,
+            "LName": "Epp",
+            "Fname": "Eric",
+            "Age": 18,
+            "Sex": "M",
+            "Major": 50,
+            "Advisor": 5718,
+            "city_code": "BOS",
+            "Plays_Games": [],
+            "SportsInfo": []
+        },
+        {
+            "StuID": 1035,
+            "LName": "Schmidt",
+            "Fname": "Sarah",
+            "Age": 26,
+            "Sex": "F",
+            "Major": 50,
+            "Advisor": 5718,
+            "city_code": "WAS",
+            "Plays_Games": [],
+            "SportsInfo": [
+                {
+                    "StuID": 1035,
+                    "SportName": "Curling",
+                    "HoursPerWeek": 50,
+                    "GamesPlayed": 94,
+                    "OnScholarship": "N"
+                }
+            ]
+        }
+    ],
+    "Video_Games": [
+        {
+            "GameID": 1,
+            "GName": "RNG Stone",
+            "GType": "Collectible card game",
+            "Plays_Games": [
+                {
+                    "StuID": 1001,
+                    "GameID": 1,
+                    "Hours_Played": 35
+                },
+                {
+                    "StuID": 1032,
+                    "GameID": 1,
+                    "Hours_Played": 47
+                }
+            ]
+        },
+        {
+            "GameID": 2,
+            "GName": "The Vanishing of Eric Calder",
+            "GType": "Walking Simulator",
+            "Plays_Games": [
+                {
+                    "StuID": 1001,
+                    "GameID": 2,
+                    "Hours_Played": 15
+                },
+                {
+                    "StuID": 1032,
+                    "GameID": 2,
+                    "Hours_Played": 10
+                }
+            ]
+        },
+        {
+            "GameID": 3,
+            "GName": "Grand Term Assignment",
+            "GType": "Role-playing game",
+            "Plays_Games": [
+                {
+                    "StuID": 1008,
+                    "GameID": 3,
+                    "Hours_Played": 50
+                },
+                {
+                    "StuID": 1032,
+                    "GameID": 3,
+                    "Hours_Played": 100
+                }
+            ]
+        },
+        {
+            "GameID": 4,
+            "GName": "Europe is the Universe",
+            "GType": "Grand strategy",
+            "Plays_Games": [
+                {
+                    "StuID": 1007,
+                    "GameID": 4,
+                    "Hours_Played": 1000
+                }
+            ]
+        },
+        {
+            "GameID": 5,
+            "GName": "Call of Destiny",
+            "GType": "Frist-person shooter",
+            "Plays_Games": [
+                {
+                    "StuID": 1001,
+                    "GameID": 5,
+                    "Hours_Played": 1
+                },
+                {
+                    "StuID": 1008,
+                    "GameID": 5,
+                    "Hours_Played": 50
+                }
+            ]
+        },
+        {
+            "GameID": 6,
+            "GName": "Works of Widenius",
+            "GType": "Massively multiplayer online game",
+            "Plays_Games": [
+                {
+                    "StuID": 1010,
+                    "GameID": 6,
+                    "Hours_Played": 1337
+                }
+            ]
+        }
+    ]
+}

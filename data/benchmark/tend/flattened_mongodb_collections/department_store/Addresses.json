@@ -1,0 +1,220 @@
+[
+  {
+    "address_id": 1,
+    "address_details": "28481 Crist Circle\nEast Burdettestad, IA 21232",
+    "Supplier_Addresses": [],
+    "Customer_Addresses": []
+  },
+  {
+    "address_id": 2,
+    "address_details": "0292 Mitchel Pike\nPort Abefurt, IA 84402-4249",
+    "Supplier_Addresses": [
+      {
+        "supplier_id": 3,
+        "address_id": 2,
+        "date_from": "2008-11-22 12:01:25",
+        "date_to": "2018-03-02 19:50:22"
+      }
+    ],
+    "Customer_Addresses": [
+      {
+        "customer_id": 1,
+        "address_id": 2,
+        "date_from": "2017-07-31 20:18:52",
+        "date_to": "2018-03-12 05:32:28"
+      },
+      {
+        "customer_id": 8,
+        "address_id": 2,
+        "date_from": "2018-01-27 06:27:34",
+        "date_to": "2018-03-23 17:49:51"
+      }
+    ]
+  },
+  {
+    "address_id": 3,
+    "address_details": "4062 Mante Place\nWest Lindsey, DE 76199-8015",
+    "Supplier_Addresses": [],
+    "Customer_Addresses": []
+  },
+  {
+    "address_id": 4,
+    "address_details": "99666 Julie Junction\nMarvinburgh, OH 16085-1623",
+    "Supplier_Addresses": [],
+    "Customer_Addresses": [
+      {
+        "customer_id": 8,
+        "address_id": 4,
+        "date_from": "2018-01-15 12:05:39",
+        "date_to": "2018-03-13 21:49:51"
+      },
+      {
+        "customer_id": 7,
+        "address_id": 4,
+        "date_from": "2018-02-22 04:46:48",
+        "date_to": "2018-02-26 00:52:25"
+      },
+      {
+        "customer_id": 2,
+        "address_id": 4,
+        "date_from": "2017-11-28 23:36:20",
+        "date_to": "2018-03-02 17:46:11"
+      }
+    ]
+  },
+  {
+    "address_id": 5,
+    "address_details": "195 Mara Rue\nJenkinsmouth, OK 22345",
+    "Supplier_Addresses": [
+      {
+        "supplier_id": 4,
+        "address_id": 5,
+        "date_from": "2016-09-22 16:41:31",
+        "date_to": "2018-03-14 20:06:37"
+      }
+    ],
+    "Customer_Addresses": []
+  },
+  {
+    "address_id": 6,
+    "address_details": "11784 Stehr Road\nPort Isaac, NV 61159",
+    "Supplier_Addresses": [],
+    "Customer_Addresses": [
+      {
+        "customer_id": 1,
+        "address_id": 6,
+        "date_from": "2017-10-07 23:00:26",
+        "date_to": "2018-02-28 14:53:52"
+      }
+    ]
+  },
+  {
+    "address_id": 7,
+    "address_details": "69482 Renner Ville Suite 653\nLangworthborough, OH 95195",
+    "Supplier_Addresses": [],
+    "Customer_Addresses": [
+      {
+        "customer_id": 7,
+        "address_id": 7,
+        "date_from": "2017-10-02 19:56:27",
+        "date_to": "2018-03-22 17:22:34"
+      }
+    ]
+  },
+  {
+    "address_id": 8,
+    "address_details": "36594 O'Keefe Lock\nNew Cali, RI 42319",
+    "Supplier_Addresses": [],
+    "Customer_Addresses": [
+      {
+        "customer_id": 10,
+        "address_id": 8,
+        "date_from": "2017-04-04 20:00:27",
+        "date_to": "2018-02-27 20:08:33"
+      }
+    ]
+  },
+  {
+    "address_id": 9,
+    "address_details": "7181 Wuckert Port Apt. 571\nLake Zariaburgh, IL 98085",
+    "Supplier_Addresses": [
+      {
+        "supplier_id": 3,
+        "address_id": 9,
+        "date_from": "2014-11-07 19:18:49",
+        "date_to": "2018-03-16 16:39:58"
+      }
+    ],
+    "Customer_Addresses": [
+      {
+        "customer_id": 2,
+        "address_id": 9,
+        "date_from": "2017-12-11 05:00:22",
+        "date_to": "2018-03-20 20:52:34"
+      },
+      {
+        "customer_id": 1,
+        "address_id": 9,
+        "date_from": "2017-12-14 07:40:08",
+        "date_to": "2018-03-24 14:31:59"
+      }
+    ]
+  },
+  {
+    "address_id": 10,
+    "address_details": "92594 Marvin Trafficway\nPourosfurt, IA 98649",
+    "Supplier_Addresses": [],
+    "Customer_Addresses": [
+      {
+        "customer_id": 7,
+        "address_id": 10,
+        "date_from": "2018-01-07 13:31:08",
+        "date_to": "2018-03-09 07:06:56"
+      }
+    ]
+  },
+  {
+    "address_id": 11,
+    "address_details": "0258 Kessler Mountains Suite 688\nMooreside, ME 41586-5022",
+    "Supplier_Addresses": [
+      {
+        "supplier_id": 2,
+        "address_id": 11,
+        "date_from": "2015-03-16 19:30:29",
+        "date_to": "2018-03-24 00:14:45"
+      }
+    ],
+    "Customer_Addresses": []
+  },
+  {
+    "address_id": 12,
+    "address_details": "69275 Mose Drive\nWilkinsonstad, CO 79055-7622",
+    "Supplier_Addresses": [],
+    "Customer_Addresses": [
+      {
+        "customer_id": 4,
+        "address_id": 12,
+        "date_from": "2017-08-27 13:38:37",
+        "date_to": "2018-03-17 15:44:10"
+      }
+    ]
+  },
+  {
+    "address_id": 13,
+    "address_details": "8207 Morissette Lakes\nEast Rheaview, ID 47493",
+    "Supplier_Addresses": [],
+    "Customer_Addresses": [
+      {
+        "customer_id": 6,
+        "address_id": 13,
+        "date_from": "2017-09-07 04:41:01",
+        "date_to": "2018-02-27 23:10:07"
+      }
+    ]
+  },
+  {
+    "address_id": 14,
+    "address_details": "145 Alice Corners\nWillmsport, NV 36680",
+    "Supplier_Addresses": [],
+    "Customer_Addresses": [
+      {
+        "customer_id": 1,
+        "address_id": 14,
+        "date_from": "2017-08-06 20:57:36",
+        "date_to": "2018-03-05 21:19:53"
+      },
+      {
+        "customer_id": 12,
+        "address_id": 14,
+        "date_from": "2017-11-01 04:21:41",
+        "date_to": "2018-03-05 16:18:34"
+      }
+    ]
+  },
+  {
+    "address_id": 15,
+    "address_details": "521 Molly Harbors Apt. 567\nReingerland, HI 97099-1005",
+    "Supplier_Addresses": [],
+    "Customer_Addresses": []
+  }
+]

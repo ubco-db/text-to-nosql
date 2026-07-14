@@ -1,0 +1,88 @@
+[
+  {
+    "contestant_number": 1,
+    "contestant_name": "Edwina Burnam",
+    "VOTES": []
+  },
+  {
+    "contestant_number": 2,
+    "contestant_name": "Tabatha Gehling",
+    "VOTES": [
+      {
+        "vote_id": 1,
+        "phone_number": 7182887233,
+        "state": "NY",
+        "contestant_number": 2,
+        "created": "2018-03-09 19:03:21"
+      }
+    ]
+  },
+  {
+    "contestant_number": 3,
+    "contestant_name": "Kelly Clauss",
+    "VOTES": [
+      {
+        "vote_id": 2,
+        "phone_number": 7148407040,
+        "state": "NY",
+        "contestant_number": 3,
+        "created": "2018-03-09 19:03:36"
+      },
+      {
+        "vote_id": 3,
+        "phone_number": 6209222712,
+        "state": "CA",
+        "contestant_number": 3,
+        "created": "2018-03-09 19:03:39"
+      }
+    ]
+  },
+  {
+    "contestant_number": 4,
+    "contestant_name": "Jessie Alloway",
+    "VOTES": []
+  },
+  {
+    "contestant_number": 5,
+    "contestant_name": "Alana Bregman",
+    "VOTES": [
+      {
+        "vote_id": 5,
+        "phone_number": 5112677315,
+        "state": "NJ\n",
+        "contestant_number": 5,
+        "created": "2018-03-09 19:03:40"
+      }
+    ]
+  },
+  {
+    "contestant_number": 6,
+    "contestant_name": "Jessie Eichman",
+    "VOTES": []
+  },
+  {
+    "contestant_number": 7,
+    "contestant_name": "Allie Rogalski",
+    "VOTES": []
+  },
+  {
+    "contestant_number": 8,
+    "contestant_name": "Nita Coster",
+    "VOTES": []
+  },
+  {
+    "contestant_number": 9,
+    "contestant_name": "Kurt Walser",
+    "VOTES": []
+  },
+  {
+    "contestant_number": 10,
+    "contestant_name": "Ericka Dieter",
+    "VOTES": []
+  },
+  {
+    "contestant_number": 11,
+    "contestant_name": "Loraine NygrenTania Mattioli",
+    "VOTES": []
+  }
+]

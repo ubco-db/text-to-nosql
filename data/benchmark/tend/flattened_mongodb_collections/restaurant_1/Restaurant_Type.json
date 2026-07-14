@@ -1,0 +1,24 @@
+[
+  {
+    "ResTypeID": 1,
+    "ResTypeName": "Sandwich",
+    "ResTypeDescription": "Simplest there is.",
+    "Type_Of_Restaurant": [
+      {
+        "ResID": 1,
+        "ResTypeID": 1
+      }
+    ]
+  },
+  {
+    "ResTypeID": 2,
+    "ResTypeName": "Stir-fry",
+    "ResTypeDescription": "Classic Chinese cooking.",
+    "Type_Of_Restaurant": [
+      {
+        "ResID": 2,
+        "ResTypeID": 2
+      }
+    ]
+  }
+]

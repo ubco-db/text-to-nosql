@@ -1,0 +1,172 @@
+[
+  {
+    "Role_Code": "MG",
+    "Role_Name": "Manager",
+    "Role_Description": "Vero harum corrupti odit ipsa vero et odio. Iste et recusandae temporibus maxime. Magni aspernatur fugit quis explicabo totam esse corrupti.",
+    "Employees": [
+      {
+        "Employee_ID": 30,
+        "Role_Code": "MG",
+        "Employee_Name": "Ebba",
+        "Gender_MFU": "",
+        "Date_of_Birth": "1979-09-20 12:50:15",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      }
+    ]
+  },
+  {
+    "Role_Code": "ED",
+    "Role_Name": "Editor",
+    "Role_Description": "Itaque dolor ut nemo rerum vitae provident. Vel laborum ipsum velit sint. Et est omnis dignissimos.",
+    "Employees": [
+      {
+        "Employee_ID": 38,
+        "Role_Code": "ED",
+        "Employee_Name": "Stephanie",
+        "Gender_MFU": "1",
+        "Date_of_Birth": "2012-03-30 23:02:28",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      },
+      {
+        "Employee_ID": 55,
+        "Role_Code": "ED",
+        "Employee_Name": "Harley",
+        "Gender_MFU": "",
+        "Date_of_Birth": "1972-02-18 11:53:30",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      },
+      {
+        "Employee_ID": 57,
+        "Role_Code": "ED",
+        "Employee_Name": "Armani",
+        "Gender_MFU": "",
+        "Date_of_Birth": "1988-12-08 06:13:33",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      },
+      {
+        "Employee_ID": 71,
+        "Role_Code": "ED",
+        "Employee_Name": "Gussie",
+        "Gender_MFU": "",
+        "Date_of_Birth": "1973-04-04 21:41:22",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      },
+      {
+        "Employee_ID": 99,
+        "Role_Code": "ED",
+        "Employee_Name": "Izabella",
+        "Gender_MFU": "1",
+        "Date_of_Birth": "1977-07-04 16:25:21",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      },
+      {
+        "Employee_ID": 136,
+        "Role_Code": "ED",
+        "Employee_Name": "Mallie",
+        "Gender_MFU": "",
+        "Date_of_Birth": "1980-12-11 20:28:20",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      },
+      {
+        "Employee_ID": 138,
+        "Role_Code": "ED",
+        "Employee_Name": "Beatrice",
+        "Gender_MFU": "1",
+        "Date_of_Birth": "2013-04-02 23:55:48",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      }
+    ]
+  },
+  {
+    "Role_Code": "PT",
+    "Role_Name": "Photo",
+    "Role_Description": "Aut modi nihil molestias temporibus sit rerum. Sit neque eaque odio omnis incidunt.",
+    "Employees": [
+      {
+        "Employee_ID": 123,
+        "Role_Code": "PT",
+        "Employee_Name": "Hugh",
+        "Gender_MFU": "",
+        "Date_of_Birth": "2010-03-15 00:17:13",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      }
+    ]
+  },
+  {
+    "Role_Code": "PR",
+    "Role_Name": "Proof Reader",
+    "Role_Description": "Ut sed quae eaque mollitia qui hic. Natus ea expedita et odio illum fugiat qui natus. Consequatur velit ut dolorem cum ullam esse deserunt dignissimos. Enim non non rem officiis quis.",
+    "Employees": [
+      {
+        "Employee_ID": 156,
+        "Role_Code": "PR",
+        "Employee_Name": "Diego",
+        "Gender_MFU": "",
+        "Date_of_Birth": "1998-05-30 12:54:10",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      },
+      {
+        "Employee_ID": 159,
+        "Role_Code": "PR",
+        "Employee_Name": "Arno",
+        "Gender_MFU": "",
+        "Date_of_Birth": "2010-06-10 20:36:34",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      },
+      {
+        "Employee_ID": 173,
+        "Role_Code": "PR",
+        "Employee_Name": "Alene",
+        "Gender_MFU": "1",
+        "Date_of_Birth": "1980-10-14 12:23:10",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      },
+      {
+        "Employee_ID": 181,
+        "Role_Code": "PR",
+        "Employee_Name": "Ettie",
+        "Gender_MFU": "1",
+        "Date_of_Birth": "1988-08-03 00:11:14",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      },
+      {
+        "Employee_ID": 183,
+        "Role_Code": "PR",
+        "Employee_Name": "Jeramie",
+        "Gender_MFU": "",
+        "Date_of_Birth": "1993-08-21 05:22:10",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      }
+    ]
+  },
+  {
+    "Role_Code": "HR",
+    "Role_Name": "Human Resource",
+    "Role_Description": "Et totam est quibusdam aspernatur ut. Vitae perferendis eligendi voluptatem molestiae rem ut enim. Ipsum expedita quae earum unde est. Repellendus ut ipsam nihil accusantium sit. Magni accusantium numquam quod et.",
+    "Employees": [
+      {
+        "Employee_ID": 25,
+        "Role_Code": "HR",
+        "Employee_Name": "Leo",
+        "Gender_MFU": "",
+        "Date_of_Birth": "1973-02-15 17:16:00",
+        "Other_Details": null,
+        "Documents_to_be_Destroyed": []
+      }
+    ]
+  }
+]

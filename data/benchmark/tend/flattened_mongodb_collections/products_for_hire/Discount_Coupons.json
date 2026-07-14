@@ -1,0 +1,979 @@
+[
+  {
+    "coupon_id": 1,
+    "date_issued": "2017-09-06 01:33:27",
+    "coupon_amount": 500,
+    "Customers": [
+      {
+        "customer_id": 10,
+        "coupon_id": 1,
+        "good_or_bad_customer": "bad",
+        "first_name": "Layne",
+        "last_name": "Terry",
+        "gender_mf": "1",
+        "date_became_customer": "2015-05-05 20:29:01",
+        "date_last_hire": "2018-02-04 08:56:55",
+        "Bookings": [
+          {
+            "booking_id": 6,
+            "customer_id": 10,
+            "booking_status_code": "Confirmed",
+            "returned_damaged_yn": "0",
+            "booking_start_date": "2016-06-05 05:18:17",
+            "booking_end_date": "2018-01-14 00:29:01",
+            "count_hired": "282",
+            "amount_payable": 209.41,
+            "amount_of_discount": 27.78,
+            "amount_outstanding": 52.62,
+            "amount_of_refund": 192.02,
+            "Payments": [
+              {
+                "payment_id": 1,
+                "booking_id": 6,
+                "customer_id": 15,
+                "payment_type_code": "Check",
+                "amount_paid_in_full_yn": "1",
+                "payment_date": "2018-03-09 16:28:00",
+                "amount_due": 369.52,
+                "amount_paid": 206.27
+              },
+              {
+                "payment_id": 4,
+                "booking_id": 6,
+                "customer_id": 1,
+                "payment_type_code": "Check",
+                "amount_paid_in_full_yn": "0",
+                "payment_date": "2018-03-22 02:28:11",
+                "amount_due": 678.29,
+                "amount_paid": 668.4
+              }
+            ],
+            "Products_Booked": [],
+            "View_Product_Availability": []
+          },
+          {
+            "booking_id": 9,
+            "customer_id": 10,
+            "booking_status_code": "Provisional",
+            "returned_damaged_yn": "0",
+            "booking_start_date": "2017-05-24 16:16:29",
+            "booking_end_date": "2018-03-07 17:39:04",
+            "count_hired": "846",
+            "amount_payable": 374.59,
+            "amount_of_discount": 50.93,
+            "amount_outstanding": 26.04,
+            "amount_of_refund": 130.87,
+            "Payments": [
+              {
+                "payment_id": 2,
+                "booking_id": 9,
+                "customer_id": 12,
+                "payment_type_code": "Cash",
+                "amount_paid_in_full_yn": "1",
+                "payment_date": "2018-03-03 13:39:44",
+                "amount_due": 278.6,
+                "amount_paid": 666.45
+              },
+              {
+                "payment_id": 8,
+                "booking_id": 9,
+                "customer_id": 14,
+                "payment_type_code": "Cash",
+                "amount_paid_in_full_yn": "1",
+                "payment_date": "2018-03-12 23:00:55",
+                "amount_due": 653.18,
+                "amount_paid": 505.23
+              }
+            ],
+            "Products_Booked": [],
+            "View_Product_Availability": []
+          }
+        ],
+        "Payments": [
+          {
+            "payment_id": 10,
+            "booking_id": 13,
+            "customer_id": 10,
+            "payment_type_code": "Credit Card",
+            "amount_paid_in_full_yn": "1",
+            "payment_date": "2018-03-23 13:24:33",
+            "amount_due": 486.75,
+            "amount_paid": 681.21
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "coupon_id": 2,
+    "date_issued": "2018-02-20 09:40:56",
+    "coupon_amount": 686.25,
+    "Customers": [
+      {
+        "customer_id": 13,
+        "coupon_id": 2,
+        "good_or_bad_customer": "good",
+        "first_name": "Laury",
+        "last_name": "Lemke",
+        "gender_mf": "1",
+        "date_became_customer": "2017-03-18 04:37:59",
+        "date_last_hire": "2018-03-18 17:35:43",
+        "Bookings": [],
+        "Payments": []
+      }
+    ]
+  },
+  {
+    "coupon_id": 3,
+    "date_issued": "2017-09-17 23:31:36",
+    "coupon_amount": 501.3,
+    "Customers": [
+      {
+        "customer_id": 15,
+        "coupon_id": 3,
+        "good_or_bad_customer": "bad",
+        "first_name": "Jamir",
+        "last_name": "Schroeder",
+        "gender_mf": "1",
+        "date_became_customer": "2016-05-25 01:12:49",
+        "date_last_hire": "2018-02-24 11:15:29",
+        "Bookings": [
+          {
+            "booking_id": 2,
+            "customer_id": 15,
+            "booking_status_code": "Confirmed",
+            "returned_damaged_yn": "1",
+            "booking_start_date": "2017-06-16 11:42:31",
+            "booking_end_date": "2018-02-19 21:53:31",
+            "count_hired": "331",
+            "amount_payable": 386.92,
+            "amount_of_discount": 83.82,
+            "amount_outstanding": 57.62,
+            "amount_of_refund": 183.68,
+            "Payments": [],
+            "Products_Booked": [
+              {
+                "booking_id": 2,
+                "product_id": 4,
+                "returned_yn": "1",
+                "returned_late_yn": "1",
+                "booked_count": 9,
+                "booked_amount": 290.72
+              }
+            ],
+            "View_Product_Availability": []
+          }
+        ],
+        "Payments": [
+          {
+            "payment_id": 1,
+            "booking_id": 6,
+            "customer_id": 15,
+            "payment_type_code": "Check",
+            "amount_paid_in_full_yn": "1",
+            "payment_date": "2018-03-09 16:28:00",
+            "amount_due": 369.52,
+            "amount_paid": 206.27
+          },
+          {
+            "payment_id": 11,
+            "booking_id": 14,
+            "customer_id": 15,
+            "payment_type_code": "Credit Card",
+            "amount_paid_in_full_yn": "1",
+            "payment_date": "2018-03-03 03:07:00",
+            "amount_due": 259.18,
+            "amount_paid": 464.06
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "coupon_id": 4,
+    "date_issued": "2017-07-21 10:10:47",
+    "coupon_amount": 370.44,
+    "Customers": []
+  },
+  {
+    "coupon_id": 5,
+    "date_issued": "2017-06-21 22:47:58",
+    "coupon_amount": 399.89,
+    "Customers": []
+  },
+  {
+    "coupon_id": 6,
+    "date_issued": "2017-08-16 03:16:48",
+    "coupon_amount": 689.29,
+    "Customers": [
+      {
+        "customer_id": 8,
+        "coupon_id": 6,
+        "good_or_bad_customer": "good",
+        "first_name": "Elinore",
+        "last_name": "Crona",
+        "gender_mf": "0",
+        "date_became_customer": "2017-07-27 08:04:22",
+        "date_last_hire": "2018-03-04 08:59:40",
+        "Bookings": [
+          {
+            "booking_id": 13,
+            "customer_id": 8,
+            "booking_status_code": "Provisional",
+            "returned_damaged_yn": "0",
+            "booking_start_date": "2016-11-27 17:19:40",
+            "booking_end_date": "2018-03-04 21:42:45",
+            "count_hired": "499",
+            "amount_payable": 286.47,
+            "amount_of_discount": 89.05,
+            "amount_outstanding": 36.79,
+            "amount_of_refund": 143.99,
+            "Payments": [
+              {
+                "payment_id": 10,
+                "booking_id": 13,
+                "customer_id": 10,
+                "payment_type_code": "Credit Card",
+                "amount_paid_in_full_yn": "1",
+                "payment_date": "2018-03-23 13:24:33",
+                "amount_due": 486.75,
+                "amount_paid": 681.21
+              }
+            ],
+            "Products_Booked": [
+              {
+                "booking_id": 13,
+                "product_id": 3,
+                "returned_yn": "1",
+                "returned_late_yn": "0",
+                "booked_count": 4,
+                "booked_amount": 151.68
+              }
+            ],
+            "View_Product_Availability": []
+          },
+          {
+            "booking_id": 14,
+            "customer_id": 8,
+            "booking_status_code": "Confirmed",
+            "returned_damaged_yn": "1",
+            "booking_start_date": "2016-04-25 11:04:18",
+            "booking_end_date": "2018-01-01 10:19:20",
+            "count_hired": "843",
+            "amount_payable": 221.57,
+            "amount_of_discount": 24.19,
+            "amount_outstanding": 64.01,
+            "amount_of_refund": 161.9,
+            "Payments": [
+              {
+                "payment_id": 11,
+                "booking_id": 14,
+                "customer_id": 15,
+                "payment_type_code": "Credit Card",
+                "amount_paid_in_full_yn": "1",
+                "payment_date": "2018-03-03 03:07:00",
+                "amount_due": 259.18,
+                "amount_paid": 464.06
+              },
+              {
+                "payment_id": 12,
+                "booking_id": 14,
+                "customer_id": 9,
+                "payment_type_code": "Cash",
+                "amount_paid_in_full_yn": "0",
+                "payment_date": "2018-02-27 10:50:39",
+                "amount_due": 785.73,
+                "amount_paid": 685.32
+              }
+            ],
+            "Products_Booked": [
+              {
+                "booking_id": 14,
+                "product_id": 1,
+                "returned_yn": "1",
+                "returned_late_yn": "0",
+                "booked_count": 3,
+                "booked_amount": 102.76
+              },
+              {
+                "booking_id": 14,
+                "product_id": 5,
+                "returned_yn": "1",
+                "returned_late_yn": "1",
+                "booked_count": 6,
+                "booked_amount": 351.38
+              }
+            ],
+            "View_Product_Availability": []
+          }
+        ],
+        "Payments": [
+          {
+            "payment_id": 6,
+            "booking_id": 15,
+            "customer_id": 8,
+            "payment_type_code": "Check",
+            "amount_paid_in_full_yn": "0",
+            "payment_date": "2018-03-19 12:39:31",
+            "amount_due": 410.1,
+            "amount_paid": 175.54
+          },
+          {
+            "payment_id": 7,
+            "booking_id": 1,
+            "customer_id": 8,
+            "payment_type_code": "Cash",
+            "amount_paid_in_full_yn": "1",
+            "payment_date": "2018-03-02 06:25:45",
+            "amount_due": 482.26,
+            "amount_paid": 602.8
+          }
+        ]
+      },
+      {
+        "customer_id": 14,
+        "coupon_id": 6,
+        "good_or_bad_customer": "good",
+        "first_name": "Tyler",
+        "last_name": "Breitenberg",
+        "gender_mf": "1",
+        "date_became_customer": "2016-04-20 21:04:35",
+        "date_last_hire": "2018-03-03 13:46:38",
+        "Bookings": [],
+        "Payments": [
+          {
+            "payment_id": 8,
+            "booking_id": 9,
+            "customer_id": 14,
+            "payment_type_code": "Cash",
+            "amount_paid_in_full_yn": "1",
+            "payment_date": "2018-03-12 23:00:55",
+            "amount_due": 653.18,
+            "amount_paid": 505.23
+          },
+          {
+            "payment_id": 13,
+            "booking_id": 15,
+            "customer_id": 14,
+            "payment_type_code": "Direct Debit",
+            "amount_paid_in_full_yn": "0",
+            "payment_date": "2018-03-03 14:22:51",
+            "amount_due": 665.58,
+            "amount_paid": 307.14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "coupon_id": 7,
+    "date_issued": "2018-02-10 21:18:23",
+    "coupon_amount": 508.44,
+    "Customers": [
+      {
+        "customer_id": 3,
+        "coupon_id": 7,
+        "good_or_bad_customer": "good",
+        "first_name": "Rosalee",
+        "last_name": "Kessler",
+        "gender_mf": "0",
+        "date_became_customer": "2016-02-03 16:58:11",
+        "date_last_hire": "2018-03-04 21:30:23",
+        "Bookings": [
+          {
+            "booking_id": 3,
+            "customer_id": 3,
+            "booking_status_code": "Confirmed",
+            "returned_damaged_yn": "1",
+            "booking_start_date": "2017-04-04 11:02:43",
+            "booking_end_date": "2018-02-01 09:30:50",
+            "count_hired": "729",
+            "amount_payable": 351.32,
+            "amount_of_discount": 49.26,
+            "amount_outstanding": 66.01,
+            "amount_of_refund": 135.94,
+            "Payments": [
+              {
+                "payment_id": 9,
+                "booking_id": 3,
+                "customer_id": 7,
+                "payment_type_code": "Direct Debit",
+                "amount_paid_in_full_yn": "0",
+                "payment_date": "2018-03-12 23:23:56",
+                "amount_due": 686.85,
+                "amount_paid": 321.58
+              }
+            ],
+            "Products_Booked": [
+              {
+                "booking_id": 3,
+                "product_id": 5,
+                "returned_yn": "1",
+                "returned_late_yn": "1",
+                "booked_count": 3,
+                "booked_amount": 189.16
+              }
+            ],
+            "View_Product_Availability": []
+          },
+          {
+            "booking_id": 7,
+            "customer_id": 3,
+            "booking_status_code": "Provisional",
+            "returned_damaged_yn": "1",
+            "booking_start_date": "2017-07-15 06:28:54",
+            "booking_end_date": "2017-11-28 08:11:52",
+            "count_hired": "236",
+            "amount_payable": 322.87,
+            "amount_of_discount": 39.27,
+            "amount_outstanding": 56.02,
+            "amount_of_refund": 126.1,
+            "Payments": [],
+            "Products_Booked": [],
+            "View_Product_Availability": []
+          },
+          {
+            "booking_id": 10,
+            "customer_id": 3,
+            "booking_status_code": "Confirmed",
+            "returned_damaged_yn": "1",
+            "booking_start_date": "2016-05-06 03:50:49",
+            "booking_end_date": "2017-08-30 04:33:23",
+            "count_hired": "857",
+            "amount_payable": 320.73,
+            "amount_of_discount": 39.16,
+            "amount_outstanding": 27.81,
+            "amount_of_refund": 112.63,
+            "Payments": [],
+            "Products_Booked": [
+              {
+                "booking_id": 10,
+                "product_id": 4,
+                "returned_yn": "1",
+                "returned_late_yn": "0",
+                "booked_count": 6,
+                "booked_amount": 123.43
+              }
+            ],
+            "View_Product_Availability": []
+          },
+          {
+            "booking_id": 12,
+            "customer_id": 3,
+            "booking_status_code": "Provisional",
+            "returned_damaged_yn": "1",
+            "booking_start_date": "2017-02-27 12:04:35",
+            "booking_end_date": "2018-02-06 19:27:09",
+            "count_hired": "914",
+            "amount_payable": 281.09,
+            "amount_of_discount": 26.37,
+            "amount_outstanding": 22.97,
+            "amount_of_refund": 110.39,
+            "Payments": [],
+            "Products_Booked": [],
+            "View_Product_Availability": []
+          }
+        ],
+        "Payments": []
+      },
+      {
+        "customer_id": 9,
+        "coupon_id": 7,
+        "good_or_bad_customer": "good",
+        "first_name": "German",
+        "last_name": "Little",
+        "gender_mf": "1",
+        "date_became_customer": "2017-02-28 14:40:25",
+        "date_last_hire": "2018-03-13 21:20:05",
+        "Bookings": [
+          {
+            "booking_id": 11,
+            "customer_id": 9,
+            "booking_status_code": "Provisional",
+            "returned_damaged_yn": "1",
+            "booking_start_date": "2017-04-11 00:39:03",
+            "booking_end_date": "2017-10-02 07:28:09",
+            "count_hired": "488",
+            "amount_payable": 273.28,
+            "amount_of_discount": 48.73,
+            "amount_outstanding": 73.88,
+            "amount_of_refund": 181.19,
+            "Payments": [],
+            "Products_Booked": [
+              {
+                "booking_id": 11,
+                "product_id": 1,
+                "returned_yn": "1",
+                "returned_late_yn": "1",
+                "booked_count": 1,
+                "booked_amount": 344.38
+              },
+              {
+                "booking_id": 11,
+                "product_id": 5,
+                "returned_yn": "1",
+                "returned_late_yn": "1",
+                "booked_count": 3,
+                "booked_amount": 146.01
+              }
+            ],
+            "View_Product_Availability": [
+              {
+                "product_id": 3,
+                "booking_id": 11,
+                "status_date": "2018-03-25 10:20:15",
+                "available_yn": "1"
+              },
+              {
+                "product_id": 5,
+                "booking_id": 11,
+                "status_date": "2018-03-22 00:16:58",
+                "available_yn": "1"
+              }
+            ]
+          },
+          {
+            "booking_id": 15,
+            "customer_id": 9,
+            "booking_status_code": "Provisional",
+            "returned_damaged_yn": "1",
+            "booking_start_date": "2017-04-28 08:35:56",
+            "booking_end_date": "2018-01-18 23:54:44",
+            "count_hired": "994",
+            "amount_payable": 306.26,
+            "amount_of_discount": 78.31,
+            "amount_outstanding": 93.88,
+            "amount_of_refund": 124.95,
+            "Payments": [
+              {
+                "payment_id": 6,
+                "booking_id": 15,
+                "customer_id": 8,
+                "payment_type_code": "Check",
+                "amount_paid_in_full_yn": "0",
+                "payment_date": "2018-03-19 12:39:31",
+                "amount_due": 410.1,
+                "amount_paid": 175.54
+              },
+              {
+                "payment_id": 13,
+                "booking_id": 15,
+                "customer_id": 14,
+                "payment_type_code": "Direct Debit",
+                "amount_paid_in_full_yn": "0",
+                "payment_date": "2018-03-03 14:22:51",
+                "amount_due": 665.58,
+                "amount_paid": 307.14
+              }
+            ],
+            "Products_Booked": [
+              {
+                "booking_id": 15,
+                "product_id": 1,
+                "returned_yn": "1",
+                "returned_late_yn": "0",
+                "booked_count": 1,
+                "booked_amount": 398.68
+              },
+              {
+                "booking_id": 15,
+                "product_id": 3,
+                "returned_yn": "1",
+                "returned_late_yn": "0",
+                "booked_count": 2,
+                "booked_amount": 236.13
+              }
+            ],
+            "View_Product_Availability": []
+          }
+        ],
+        "Payments": [
+          {
+            "payment_id": 12,
+            "booking_id": 14,
+            "customer_id": 9,
+            "payment_type_code": "Cash",
+            "amount_paid_in_full_yn": "0",
+            "payment_date": "2018-02-27 10:50:39",
+            "amount_due": 785.73,
+            "amount_paid": 685.32
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "coupon_id": 8,
+    "date_issued": "2017-12-28 20:11:42",
+    "coupon_amount": 666.46,
+    "Customers": []
+  },
+  {
+    "coupon_id": 9,
+    "date_issued": "2017-07-03 23:02:14",
+    "coupon_amount": 685.96,
+    "Customers": []
+  },
+  {
+    "coupon_id": 10,
+    "date_issued": "2018-03-22 01:10:03",
+    "coupon_amount": 175.94,
+    "Customers": [
+      {
+        "customer_id": 5,
+        "coupon_id": 10,
+        "good_or_bad_customer": "good",
+        "first_name": "Ericka",
+        "last_name": "Greenholt",
+        "gender_mf": "0",
+        "date_became_customer": "2016-08-11 01:50:37",
+        "date_last_hire": "2018-02-25 04:40:15",
+        "Bookings": [],
+        "Payments": [
+          {
+            "payment_id": 14,
+            "booking_id": 5,
+            "customer_id": 5,
+            "payment_type_code": "Direct Debit",
+            "amount_paid_in_full_yn": "1",
+            "payment_date": "2018-03-17 15:51:52",
+            "amount_due": 407.51,
+            "amount_paid": 704.41
+          }
+        ]
+      },
+      {
+        "customer_id": 11,
+        "coupon_id": 10,
+        "good_or_bad_customer": "good",
+        "first_name": "Maximilian",
+        "last_name": "Murphy",
+        "gender_mf": "0",
+        "date_became_customer": "2015-07-21 09:24:57",
+        "date_last_hire": "2018-03-12 09:23:41",
+        "Bookings": [
+          {
+            "booking_id": 8,
+            "customer_id": 11,
+            "booking_status_code": "Provisional",
+            "returned_damaged_yn": "0",
+            "booking_start_date": "2016-09-26 01:09:20",
+            "booking_end_date": "2018-03-24 21:21:32",
+            "count_hired": "746",
+            "amount_payable": 303.3,
+            "amount_of_discount": 61.55,
+            "amount_outstanding": 68.02,
+            "amount_of_refund": 145.63,
+            "Payments": [
+              {
+                "payment_id": 5,
+                "booking_id": 8,
+                "customer_id": 11,
+                "payment_type_code": "Cash",
+                "amount_paid_in_full_yn": "1",
+                "payment_date": "2018-03-23 20:36:04",
+                "amount_due": 830.25,
+                "amount_paid": 305.65
+              }
+            ],
+            "Products_Booked": [],
+            "View_Product_Availability": []
+          }
+        ],
+        "Payments": [
+          {
+            "payment_id": 5,
+            "booking_id": 8,
+            "customer_id": 11,
+            "payment_type_code": "Cash",
+            "amount_paid_in_full_yn": "1",
+            "payment_date": "2018-03-23 20:36:04",
+            "amount_due": 830.25,
+            "amount_paid": 305.65
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "coupon_id": 11,
+    "date_issued": "2017-10-22 06:03:39",
+    "coupon_amount": 607.62,
+    "Customers": [
+      {
+        "customer_id": 12,
+        "coupon_id": 11,
+        "good_or_bad_customer": "good",
+        "first_name": "Vergie",
+        "last_name": "Nicolas",
+        "gender_mf": "0",
+        "date_became_customer": "2016-02-03 10:31:18",
+        "date_last_hire": "2018-03-03 23:37:31",
+        "Bookings": [],
+        "Payments": [
+          {
+            "payment_id": 2,
+            "booking_id": 9,
+            "customer_id": 12,
+            "payment_type_code": "Cash",
+            "amount_paid_in_full_yn": "1",
+            "payment_date": "2018-03-03 13:39:44",
+            "amount_due": 278.6,
+            "amount_paid": 666.45
+          },
+          {
+            "payment_id": 15,
+            "booking_id": 4,
+            "customer_id": 12,
+            "payment_type_code": "Credit Card",
+            "amount_paid_in_full_yn": "1",
+            "payment_date": "2018-03-17 03:07:45",
+            "amount_due": 631.93,
+            "amount_paid": 334.2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "coupon_id": 12,
+    "date_issued": "2018-03-21 11:49:13",
+    "coupon_amount": 523.78,
+    "Customers": [
+      {
+        "customer_id": 1,
+        "coupon_id": 12,
+        "good_or_bad_customer": "good",
+        "first_name": "Geovany",
+        "last_name": "Homenick",
+        "gender_mf": "0",
+        "date_became_customer": "2017-10-20 12:13:17",
+        "date_last_hire": "2018-02-27 18:55:26",
+        "Bookings": [],
+        "Payments": [
+          {
+            "payment_id": 4,
+            "booking_id": 6,
+            "customer_id": 1,
+            "payment_type_code": "Check",
+            "amount_paid_in_full_yn": "0",
+            "payment_date": "2018-03-22 02:28:11",
+            "amount_due": 678.29,
+            "amount_paid": 668.4
+          }
+        ]
+      },
+      {
+        "customer_id": 4,
+        "coupon_id": 12,
+        "good_or_bad_customer": "bad",
+        "first_name": "Reba",
+        "last_name": "Jacobs",
+        "gender_mf": "1",
+        "date_became_customer": "2016-06-17 14:11:50",
+        "date_last_hire": "2018-02-19 06:04:01",
+        "Bookings": [],
+        "Payments": []
+      },
+      {
+        "customer_id": 7,
+        "coupon_id": 12,
+        "good_or_bad_customer": "good",
+        "first_name": "Marilou",
+        "last_name": "Strosin",
+        "gender_mf": "1",
+        "date_became_customer": "2015-12-16 08:05:53",
+        "date_last_hire": "2018-02-01 16:48:30",
+        "Bookings": [
+          {
+            "booking_id": 1,
+            "customer_id": 7,
+            "booking_status_code": "Provisional",
+            "returned_damaged_yn": "1",
+            "booking_start_date": "2016-12-07 23:39:17",
+            "booking_end_date": "2018-02-01 16:39:13",
+            "count_hired": "298",
+            "amount_payable": 214.39,
+            "amount_of_discount": 71.45,
+            "amount_outstanding": 28.22,
+            "amount_of_refund": 179.14,
+            "Payments": [
+              {
+                "payment_id": 7,
+                "booking_id": 1,
+                "customer_id": 8,
+                "payment_type_code": "Cash",
+                "amount_paid_in_full_yn": "1",
+                "payment_date": "2018-03-02 06:25:45",
+                "amount_due": 482.26,
+                "amount_paid": 602.8
+              }
+            ],
+            "Products_Booked": [
+              {
+                "booking_id": 1,
+                "product_id": 2,
+                "returned_yn": "1",
+                "returned_late_yn": "0",
+                "booked_count": 5,
+                "booked_amount": 110.2
+              }
+            ],
+            "View_Product_Availability": []
+          },
+          {
+            "booking_id": 4,
+            "customer_id": 7,
+            "booking_status_code": "Provisional",
+            "returned_damaged_yn": "0",
+            "booking_start_date": "2017-06-05 17:56:01",
+            "booking_end_date": "2017-12-02 00:37:00",
+            "count_hired": "152",
+            "amount_payable": 272.08,
+            "amount_of_discount": 45.06,
+            "amount_outstanding": 38.87,
+            "amount_of_refund": 100.78,
+            "Payments": [
+              {
+                "payment_id": 15,
+                "booking_id": 4,
+                "customer_id": 12,
+                "payment_type_code": "Credit Card",
+                "amount_paid_in_full_yn": "1",
+                "payment_date": "2018-03-17 03:07:45",
+                "amount_due": 631.93,
+                "amount_paid": 334.2
+              }
+            ],
+            "Products_Booked": [
+              {
+                "booking_id": 4,
+                "product_id": 1,
+                "returned_yn": "1",
+                "returned_late_yn": "1",
+                "booked_count": 5,
+                "booked_amount": 309.73
+              }
+            ],
+            "View_Product_Availability": []
+          },
+          {
+            "booking_id": 5,
+            "customer_id": 7,
+            "booking_status_code": "Provisional",
+            "returned_damaged_yn": "1",
+            "booking_start_date": "2016-11-06 20:54:26",
+            "booking_end_date": "2017-10-11 03:00:15",
+            "count_hired": "546",
+            "amount_payable": 338.1,
+            "amount_of_discount": 79.34,
+            "amount_outstanding": 32.99,
+            "amount_of_refund": 191.31,
+            "Payments": [
+              {
+                "payment_id": 3,
+                "booking_id": 5,
+                "customer_id": 7,
+                "payment_type_code": "Credit Card",
+                "amount_paid_in_full_yn": "0",
+                "payment_date": "2018-03-22 15:00:23",
+                "amount_due": 840.06,
+                "amount_paid": 135.7
+              },
+              {
+                "payment_id": 14,
+                "booking_id": 5,
+                "customer_id": 5,
+                "payment_type_code": "Direct Debit",
+                "amount_paid_in_full_yn": "1",
+                "payment_date": "2018-03-17 15:51:52",
+                "amount_due": 407.51,
+                "amount_paid": 704.41
+              }
+            ],
+            "Products_Booked": [],
+            "View_Product_Availability": [
+              {
+                "product_id": 1,
+                "booking_id": 5,
+                "status_date": "2018-03-18 05:25:55",
+                "available_yn": "1"
+              },
+              {
+                "product_id": 2,
+                "booking_id": 5,
+                "status_date": "2018-03-21 15:20:32",
+                "available_yn": "0"
+              }
+            ]
+          }
+        ],
+        "Payments": [
+          {
+            "payment_id": 3,
+            "booking_id": 5,
+            "customer_id": 7,
+            "payment_type_code": "Credit Card",
+            "amount_paid_in_full_yn": "0",
+            "payment_date": "2018-03-22 15:00:23",
+            "amount_due": 840.06,
+            "amount_paid": 135.7
+          },
+          {
+            "payment_id": 9,
+            "booking_id": 3,
+            "customer_id": 7,
+            "payment_type_code": "Direct Debit",
+            "amount_paid_in_full_yn": "0",
+            "payment_date": "2018-03-12 23:23:56",
+            "amount_due": 686.85,
+            "amount_paid": 321.58
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "coupon_id": 13,
+    "date_issued": "2017-07-13 00:37:36",
+    "coupon_amount": 770.82,
+    "Customers": []
+  },
+  {
+    "coupon_id": 14,
+    "date_issued": "2018-02-24 01:40:52",
+    "coupon_amount": 547.39,
+    "Customers": [
+      {
+        "customer_id": 2,
+        "coupon_id": 14,
+        "good_or_bad_customer": "good",
+        "first_name": "Jailyn",
+        "last_name": "Gerlach",
+        "gender_mf": "0",
+        "date_became_customer": "2015-04-06 21:18:37",
+        "date_last_hire": "2018-01-30 04:47:13",
+        "Bookings": [],
+        "Payments": []
+      },
+      {
+        "customer_id": 6,
+        "coupon_id": 14,
+        "good_or_bad_customer": "bad",
+        "first_name": "Bridget",
+        "last_name": "Ankunding",
+        "gender_mf": "1",
+        "date_became_customer": "2015-04-24 02:38:16",
+        "date_last_hire": "2018-02-10 19:44:08",
+        "Bookings": [],
+        "Payments": []
+      }
+    ]
+  },
+  {
+    "coupon_id": 15,
+    "date_issued": "2017-07-02 06:49:42",
+    "coupon_amount": 245.36,
+    "Customers": []
+  }
+]

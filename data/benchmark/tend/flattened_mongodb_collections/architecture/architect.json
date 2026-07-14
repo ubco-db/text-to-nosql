@@ -1,0 +1,225 @@
+[
+  {
+    "id": "1",
+    "name": "Frank Lloyd Wright",
+    "nationality": "American",
+    "gender": "male",
+    "bridge": [
+      {
+        "architect_id": 1,
+        "id": 1,
+        "name": "Xian Ren Qiao (Fairy Bridge)",
+        "location": "Guangxi , China",
+        "length_meters": 121.0,
+        "length_feet": 400.0
+      },
+      {
+        "architect_id": 1,
+        "id": 10,
+        "name": "Shipton's Arch",
+        "location": "Xinjiang , China",
+        "length_meters": 65.0,
+        "length_feet": 212.0
+      },
+      {
+        "architect_id": 1,
+        "id": 11,
+        "name": "Jiangzhou Arch",
+        "location": "Guangxi , China",
+        "length_meters": 65.0,
+        "length_feet": 212.0
+      },
+      {
+        "architect_id": 1,
+        "id": 12,
+        "name": "Hazarchishma Natural Bridge",
+        "location": "Bamiyan Province , Afghanistan",
+        "length_meters": 64.2,
+        "length_feet": 210.6
+      }
+    ],
+    "mill": [
+      {
+        "architect_id": 1,
+        "id": 1,
+        "location": "Coswarem",
+        "name": "Le Vieux Molen",
+        "type": "Grondzeiler",
+        "built_year": 1840,
+        "notes": "Molenechos (Dutch)"
+      },
+      {
+        "architect_id": 1,
+        "id": 2,
+        "location": "Donceel",
+        "name": "Moulin Bertrand",
+        "type": "Grondzeiler",
+        "built_year": 1890,
+        "notes": "Molenechos (Dutch)"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Frank Gehry",
+    "nationality": "Canadian",
+    "gender": "male",
+    "bridge": [
+      {
+        "architect_id": 2,
+        "id": 2,
+        "name": "Landscape Arch",
+        "location": "Arches National Park , Utah , USA",
+        "length_meters": 88.0,
+        "length_feet": 290.0
+      },
+      {
+        "architect_id": 2,
+        "id": 9,
+        "name": "Stevens Arch",
+        "location": "Escalante Canyon , Utah , USA",
+        "length_meters": 67.0,
+        "length_feet": 220.0
+      },
+      {
+        "architect_id": 2,
+        "id": 13,
+        "name": "Outlaw Arch",
+        "location": "Dinosaur National Monument , Colorado , USA",
+        "length_meters": 63.0,
+        "length_feet": 206.0
+      },
+      {
+        "architect_id": 2,
+        "id": 14,
+        "name": "Snake Bridge",
+        "location": "Sanostee , New Mexico , USA",
+        "length_meters": 62.0,
+        "length_feet": 204.0
+      }
+    ],
+    "mill": [
+      {
+        "architect_id": 2,
+        "id": 3,
+        "location": "Fexhe-le-haut-Clocher",
+        "name": "Moulin de Fexhe",
+        "type": "Grondzeiler",
+        "built_year": 1843,
+        "notes": "Molenechos (Dutch)"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Zaha Hadid",
+    "nationality": "Iraqi, British",
+    "gender": "female",
+    "bridge": [
+      {
+        "architect_id": 3,
+        "id": 3,
+        "name": "Kolob Arch",
+        "location": "Zion National Park , Utah , USA",
+        "length_meters": 87.0,
+        "length_feet": 287.0
+      },
+      {
+        "architect_id": 3,
+        "id": 8,
+        "name": "Sipapu Natural Bridge",
+        "location": "Natural Bridges National Monument , Utah , USA",
+        "length_meters": 69.0,
+        "length_feet": 225.0
+      }
+    ],
+    "mill": [
+      {
+        "architect_id": 3,
+        "id": 4,
+        "location": "Momalle",
+        "name": "Moulin de Momalle",
+        "type": "Bergmolen",
+        "built_year": 1850,
+        "notes": "Molenechos (Dutch)"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Mies Van Der Rohe",
+    "nationality": "German, American",
+    "gender": "male",
+    "bridge": [
+      {
+        "architect_id": 4,
+        "id": 4,
+        "name": "Aloba Arch",
+        "location": "Ennedi Plateau , Chad",
+        "length_meters": 76.0,
+        "length_feet": 250.0
+      },
+      {
+        "architect_id": 4,
+        "id": 7,
+        "name": "Gaotun Natural Bridge",
+        "location": "Guizhou , China",
+        "length_meters": 70.0,
+        "length_feet": 230.0
+      }
+    ],
+    "mill": [
+      {
+        "architect_id": 4,
+        "id": 5,
+        "location": "Oth\u00e9e",
+        "name": "Moulin du Ch\u00e2teau",
+        "type": "Grondzeiler",
+        "built_year": 1856,
+        "notes": "Molenechos (Dutch)"
+      },
+      {
+        "architect_id": 4,
+        "id": 6,
+        "location": "Pousset",
+        "name": "Moulin de Pousset",
+        "type": "Grondzeiler",
+        "built_year": 1819,
+        "notes": "Molenechos (Dutch)"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Le Corbusier",
+    "nationality": "Swiss, French",
+    "gender": "male",
+    "bridge": [
+      {
+        "architect_id": 5,
+        "id": 5,
+        "name": "Morning Glory Natural Bridge",
+        "location": "Negro Bill Canyon , Utah , USA",
+        "length_meters": 74.0,
+        "length_feet": 243.0
+      },
+      {
+        "architect_id": 5,
+        "id": 6,
+        "name": "Rainbow Bridge",
+        "location": "Glen Canyon National Recreation Area , Utah , USA",
+        "length_meters": 71.0,
+        "length_feet": 234.0
+      },
+      {
+        "architect_id": 5,
+        "id": 15,
+        "name": "Wrather Arch",
+        "location": "Wrather Canyon , Arizona , USA",
+        "length_meters": 75.0,
+        "length_feet": 246.0
+      }
+    ],
+    "mill": []
+  }
+]

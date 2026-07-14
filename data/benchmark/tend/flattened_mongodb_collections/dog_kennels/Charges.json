@@ -1,0 +1,17 @@
+[
+  {
+    "charge_id": 1,
+    "charge_type": "Daily Accommodation",
+    "charge_amount": 98
+  },
+  {
+    "charge_id": 2,
+    "charge_type": "Drugs",
+    "charge_amount": 322
+  },
+  {
+    "charge_id": 3,
+    "charge_type": "Health Check",
+    "charge_amount": 640
+  }
+]

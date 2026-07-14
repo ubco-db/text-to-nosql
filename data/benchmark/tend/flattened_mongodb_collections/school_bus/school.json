@@ -1,0 +1,93 @@
+[
+  {
+    "School_ID": 1,
+    "Grade": "Kindergarten",
+    "School": "Noelani Elementary School",
+    "Location": "Honolulu, Hawaii",
+    "Type": "Public",
+    "school_bus": [
+      {
+        "School_ID": 1,
+        "Driver_ID": 10,
+        "Years_Working": 10,
+        "If_full_time": "F"
+      }
+    ]
+  },
+  {
+    "School_ID": 2,
+    "Grade": "1st-3rd grade",
+    "School": "St. Francis Assisi",
+    "Location": "Jakarta, Indonesia",
+    "Type": "Private Catholic",
+    "school_bus": []
+  },
+  {
+    "School_ID": 3,
+    "Grade": "4th grade",
+    "School": "State Elementary School Menteng 01",
+    "Location": "Jakarta, Indonesia",
+    "Type": "Public",
+    "school_bus": [
+      {
+        "School_ID": 3,
+        "Driver_ID": 4,
+        "Years_Working": 6,
+        "If_full_time": "T"
+      }
+    ]
+  },
+  {
+    "School_ID": 4,
+    "Grade": "5th-12th grade",
+    "School": "Punahou School",
+    "Location": "Honolulu, Hawaii",
+    "Type": "Private",
+    "school_bus": [
+      {
+        "School_ID": 4,
+        "Driver_ID": 3,
+        "Years_Working": 3,
+        "If_full_time": "T"
+      }
+    ]
+  },
+  {
+    "School_ID": 5,
+    "Grade": "Freshman\u2013Sophomore year",
+    "School": "Occidental College",
+    "Location": "Los Angeles, California",
+    "Type": "Private",
+    "school_bus": [
+      {
+        "School_ID": 5,
+        "Driver_ID": 7,
+        "Years_Working": 8,
+        "If_full_time": "T"
+      }
+    ]
+  },
+  {
+    "School_ID": 6,
+    "Grade": "Junior\u2013Senior year",
+    "School": "Columbia University",
+    "Location": "New York City",
+    "Type": "Private",
+    "school_bus": []
+  },
+  {
+    "School_ID": 7,
+    "Grade": "College",
+    "School": "Harvard Law School",
+    "Location": "Cambridge, Massachusetts",
+    "Type": "Private",
+    "school_bus": [
+      {
+        "School_ID": 7,
+        "Driver_ID": 9,
+        "Years_Working": 2,
+        "If_full_time": "T"
+      }
+    ]
+  }
+]

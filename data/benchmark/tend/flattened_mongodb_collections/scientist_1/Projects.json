@@ -1,0 +1,142 @@
+[
+  {
+    "Code": "AeH1",
+    "Name": "Winds: Studying Bernoullis Principle",
+    "Hours": 156,
+    "AssignedTo": [
+      {
+        "Scientist": 123234877,
+        "Project": "AeH1"
+      }
+    ]
+  },
+  {
+    "Code": "AeH2",
+    "Name": "Aerodynamics and Bridge Design",
+    "Hours": 189,
+    "AssignedTo": []
+  },
+  {
+    "Code": "AeH3",
+    "Name": "Aerodynamics and Gas Mileage",
+    "Hours": 256,
+    "AssignedTo": [
+      {
+        "Scientist": 152934485,
+        "Project": "AeH3"
+      },
+      {
+        "Scientist": 745685214,
+        "Project": "AeH3"
+      }
+    ]
+  },
+  {
+    "Code": "AeH4",
+    "Name": "Aerodynamics and Ice Hockey",
+    "Hours": 789,
+    "AssignedTo": [
+      {
+        "Scientist": 332569843,
+        "Project": "AeH4"
+      }
+    ]
+  },
+  {
+    "Code": "AeH5",
+    "Name": "Aerodynamics of a Football",
+    "Hours": 98,
+    "AssignedTo": []
+  },
+  {
+    "Code": "AeH6",
+    "Name": "Aerodynamics of Air Hockey",
+    "Hours": 89,
+    "AssignedTo": []
+  },
+  {
+    "Code": "Ast1",
+    "Name": "A Matter of Time",
+    "Hours": 112,
+    "AssignedTo": [
+      {
+        "Scientist": 845657245,
+        "Project": "Ast1"
+      }
+    ]
+  },
+  {
+    "Code": "Ast2",
+    "Name": "A Puzzling Parallax",
+    "Hours": 299,
+    "AssignedTo": [
+      {
+        "Scientist": 845657246,
+        "Project": "Ast2"
+      }
+    ]
+  },
+  {
+    "Code": "Ast3",
+    "Name": "Build Your Own Telescope",
+    "Hours": 6546,
+    "AssignedTo": [
+      {
+        "Scientist": 222364883,
+        "Project": "Ast3"
+      },
+      {
+        "Scientist": 326587417,
+        "Project": "Ast3"
+      },
+      {
+        "Scientist": 631231482,
+        "Project": "Ast3"
+      }
+    ]
+  },
+  {
+    "Code": "Bte1",
+    "Name": "Juicy: Extracting Apple Juice with Pectinase",
+    "Hours": 321,
+    "AssignedTo": [
+      {
+        "Scientist": 332154719,
+        "Project": "Bte1"
+      }
+    ]
+  },
+  {
+    "Code": "Bte2",
+    "Name": "A Magnetic Primer Designer",
+    "Hours": 9684,
+    "AssignedTo": []
+  },
+  {
+    "Code": "Bte3",
+    "Name": "Bacterial Transformation Efficiency",
+    "Hours": 321,
+    "AssignedTo": []
+  },
+  {
+    "Code": "Che1",
+    "Name": "A Silver-Cleaning Battery",
+    "Hours": 545,
+    "AssignedTo": [
+      {
+        "Scientist": 546523478,
+        "Project": "Che1"
+      },
+      {
+        "Scientist": 654873219,
+        "Project": "Che1"
+      }
+    ]
+  },
+  {
+    "Code": "Che2",
+    "Name": "A Soluble Separation Solution",
+    "Hours": 778,
+    "AssignedTo": []
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "Artist_ID": 1,
+    "Name": "Vijay Singh",
+    "Country": "Fiji",
+    "Year_Join": 1998,
+    "Age": 45,
+    "exhibition": [
+      {
+        "Exhibition_ID": 1,
+        "Year": 2004,
+        "Theme": "Santa Claus",
+        "Artist_ID": 1,
+        "Ticket_Price": 19.95,
+        "exhibition_record": [
+          {
+            "Exhibition_ID": 1,
+            "Date": "December 2",
+            "Attendance": 965
+          },
+          {
+            "Exhibition_ID": 1,
+            "Date": "December 5",
+            "Attendance": 1098
+          },
+          {
+            "Exhibition_ID": 1,
+            "Date": "December 7",
+            "Attendance": 2983
+          }
+        ]
+      },
+      {
+        "Exhibition_ID": 4,
+        "Year": 2007,
+        "Theme": "Christmas Tree",
+        "Artist_ID": 1,
+        "Ticket_Price": 16.95,
+        "exhibition_record": [
+          {
+            "Exhibition_ID": 4,
+            "Date": "February 23",
+            "Attendance": 3139
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Artist_ID": 2,
+    "Name": "John Daly",
+    "Country": "United States",
+    "Year_Join": 1991,
+    "Age": 46,
+    "exhibition": [
+      {
+        "Exhibition_ID": 2,
+        "Year": 2005,
+        "Theme": "Christmas stocking",
+        "Artist_ID": 2,
+        "Ticket_Price": 19.95,
+        "exhibition_record": [
+          {
+            "Exhibition_ID": 2,
+            "Date": "December 12",
+            "Attendance": 1313
+          },
+          {
+            "Exhibition_ID": 2,
+            "Date": "December 13",
+            "Attendance": 10908
+          },
+          {
+            "Exhibition_ID": 2,
+            "Date": "December 9",
+            "Attendance": 1239
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Artist_ID": 3,
+    "Name": "Paul Azinger",
+    "Country": "United States",
+    "Year_Join": 1993,
+    "Age": 47,
+    "exhibition": [
+      {
+        "Exhibition_ID": 6,
+        "Year": 2009,
+        "Theme": "Summer",
+        "Artist_ID": 3,
+        "Ticket_Price": 9.95,
+        "exhibition_record": []
+      }
+    ]
+  },
+  {
+    "Artist_ID": 4,
+    "Name": "Jeff Sluman",
+    "Country": "United States",
+    "Year_Join": 1988,
+    "Age": 57,
+    "exhibition": [
+      {
+        "Exhibition_ID": 3,
+        "Year": 2006,
+        "Theme": "Santa Claus and Rudolph the Red-Nosed Reindeer",
+        "Artist_ID": 4,
+        "Ticket_Price": 14.95,
+        "exhibition_record": [
+          {
+            "Exhibition_ID": 3,
+            "Date": "December 16",
+            "Attendance": 1134
+          },
+          {
+            "Exhibition_ID": 3,
+            "Date": "February 19",
+            "Attendance": 1233
+          },
+          {
+            "Exhibition_ID": 3,
+            "Date": "February 21",
+            "Attendance": 9089
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Artist_ID": 5,
+    "Name": "Mark Brooks",
+    "Country": "United States",
+    "Year_Join": 1996,
+    "Age": 48,
+    "exhibition": []
+  },
+  {
+    "Artist_ID": 6,
+    "Name": "Nick Price",
+    "Country": "Zimbabwe",
+    "Year_Join": 1994,
+    "Age": 48,
+    "exhibition": [
+      {
+        "Exhibition_ID": 5,
+        "Year": 2008,
+        "Theme": "Spring",
+        "Artist_ID": 6,
+        "Ticket_Price": 29.95,
+        "exhibition_record": [
+          {
+            "Exhibition_ID": 5,
+            "Date": "February 25",
+            "Attendance": 24808
+          },
+          {
+            "Exhibition_ID": 5,
+            "Date": "February 26",
+            "Attendance": 13142
+          },
+          {
+            "Exhibition_ID": 5,
+            "Date": "February 28",
+            "Attendance": 4231
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Artist_ID": 7,
+    "Name": "Larry Nelson",
+    "Country": "United States",
+    "Year_Join": 1981,
+    "Age": 50,
+    "exhibition": []
+  }
+]

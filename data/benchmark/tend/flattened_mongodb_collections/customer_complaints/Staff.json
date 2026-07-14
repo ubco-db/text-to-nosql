@@ -1,0 +1,203 @@
+[
+  {
+    "staff_id": 114,
+    "gender": "0",
+    "first_name": "Ward",
+    "last_name": "Boehm",
+    "email_address": "marcelle.ritchie@example.com",
+    "phone_number": "(379)551-0838x146",
+    "Complaints": [
+      {
+        "complaint_id": 1,
+        "product_id": 117,
+        "customer_id": 120,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "Closed",
+        "complaint_type_code": "Product Failure",
+        "date_complaint_raised": "2002-07-18 10:59:35",
+        "date_complaint_closed": "1976-04-19 11:03:06",
+        "staff_id": 114
+      },
+      {
+        "complaint_id": 4,
+        "product_id": 120,
+        "customer_id": 114,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "Closed",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "1977-08-06 00:31:19",
+        "date_complaint_closed": "1970-10-14 00:57:25",
+        "staff_id": 114
+      },
+      {
+        "complaint_id": 6,
+        "product_id": 118,
+        "customer_id": 114,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "Open",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "1987-07-11 14:40:30",
+        "date_complaint_closed": "1975-10-11 05:54:30",
+        "staff_id": 114
+      },
+      {
+        "complaint_id": 10,
+        "product_id": 118,
+        "customer_id": 115,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "New",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "1977-08-06 00:31:19",
+        "date_complaint_closed": "1970-10-14 00:57:25",
+        "staff_id": 114
+      },
+      {
+        "complaint_id": 12,
+        "product_id": 117,
+        "customer_id": 116,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "Open",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "1987-07-11 14:40:30",
+        "date_complaint_closed": "1975-10-11 05:54:30",
+        "staff_id": 114
+      }
+    ]
+  },
+  {
+    "staff_id": 115,
+    "gender": "1",
+    "first_name": "Lucie",
+    "last_name": "Lowe",
+    "email_address": "ohintz@example.org",
+    "phone_number": "142-311-6503x206",
+    "Complaints": [
+      {
+        "complaint_id": 3,
+        "product_id": 119,
+        "customer_id": 114,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "New",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "2006-10-29 07:08:46",
+        "date_complaint_closed": "1995-09-11 14:48:46",
+        "staff_id": 115
+      },
+      {
+        "complaint_id": 11,
+        "product_id": 118,
+        "customer_id": 116,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "Open",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "2007-10-14 21:50:43",
+        "date_complaint_closed": "2000-08-17 17:02:48",
+        "staff_id": 115
+      }
+    ]
+  },
+  {
+    "staff_id": 116,
+    "gender": "0",
+    "first_name": "Dagmar",
+    "last_name": "Erdman",
+    "email_address": "wrau@example.com",
+    "phone_number": "345-656-5571",
+    "Complaints": [
+      {
+        "complaint_id": 5,
+        "product_id": 117,
+        "customer_id": 118,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "Open",
+        "complaint_type_code": "Product Failure",
+        "date_complaint_raised": "2007-10-14 21:50:43",
+        "date_complaint_closed": "2000-08-17 17:02:48",
+        "staff_id": 116
+      }
+    ]
+  },
+  {
+    "staff_id": 117,
+    "gender": "0",
+    "first_name": "Bradly",
+    "last_name": "Hahn",
+    "email_address": "brett99@example.net",
+    "phone_number": "1-132-839-9409x288",
+    "Complaints": [
+      {
+        "complaint_id": 8,
+        "product_id": 117,
+        "customer_id": 114,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "New",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "1973-02-10 22:55:56",
+        "date_complaint_closed": "2013-09-14 02:59:10",
+        "staff_id": 117
+      }
+    ]
+  },
+  {
+    "staff_id": 118,
+    "gender": "0",
+    "first_name": "Austin",
+    "last_name": "Zieme",
+    "email_address": "reichel.armani@example.org",
+    "phone_number": "(383)553-1035x20399",
+    "Complaints": [
+      {
+        "complaint_id": 7,
+        "product_id": 117,
+        "customer_id": 117,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "New",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "2002-07-18 10:59:35",
+        "date_complaint_closed": "1976-04-19 11:03:06",
+        "staff_id": 118
+      }
+    ]
+  },
+  {
+    "staff_id": 119,
+    "gender": "0",
+    "first_name": "Dorian",
+    "last_name": "Oberbrunner",
+    "email_address": "richard.gutkowski@example.com",
+    "phone_number": "155-811-6153",
+    "Complaints": []
+  },
+  {
+    "staff_id": 120,
+    "gender": "0",
+    "first_name": "Mikel",
+    "last_name": "Lynch",
+    "email_address": "glen.borer@example.com",
+    "phone_number": "751-262-8424x575",
+    "Complaints": [
+      {
+        "complaint_id": 2,
+        "product_id": 118,
+        "customer_id": 113,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "New",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "1973-02-10 22:55:56",
+        "date_complaint_closed": "2013-09-14 02:59:10",
+        "staff_id": 120
+      },
+      {
+        "complaint_id": 9,
+        "product_id": 117,
+        "customer_id": 116,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "New",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "2006-10-29 07:08:46",
+        "date_complaint_closed": "1995-09-11 14:48:46",
+        "staff_id": 120
+      }
+    ]
+  }
+]

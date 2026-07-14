@@ -1,0 +1,269 @@
+[
+  {
+    "address_id": 1,
+    "line_1_number_building": "4315 Kerluke Canyon Apt. 800",
+    "city": "Hertafurt",
+    "zip_postcode": "740",
+    "state_province_county": "Nevada",
+    "country": "USA",
+    "Customer_Address_History": [
+      {
+        "customer_id": 6,
+        "address_id": 1,
+        "date_from": "2013-06-14 23:07:04",
+        "date_to": "2018-03-16 14:49:28"
+      }
+    ]
+  },
+  {
+    "address_id": 2,
+    "line_1_number_building": "319 Kozey Highway Suite 973",
+    "city": "Edgardoberg",
+    "zip_postcode": "282",
+    "state_province_county": "Colorado",
+    "country": "USA",
+    "Customer_Address_History": [
+      {
+        "customer_id": 12,
+        "address_id": 2,
+        "date_from": "2016-11-06 14:33:12",
+        "date_to": "2018-03-14 21:36:28"
+      }
+    ]
+  },
+  {
+    "address_id": 3,
+    "line_1_number_building": "592 Frederique Ridge",
+    "city": "Gilbertmouth",
+    "zip_postcode": "167",
+    "state_province_county": "Virginia",
+    "country": "USA",
+    "Customer_Address_History": [
+      {
+        "customer_id": 12,
+        "address_id": 3,
+        "date_from": "2011-06-02 02:53:28",
+        "date_to": "2018-03-10 00:47:18"
+      },
+      {
+        "customer_id": 7,
+        "address_id": 3,
+        "date_from": "2012-11-09 07:15:16",
+        "date_to": "2018-03-09 12:03:31"
+      },
+      {
+        "customer_id": 7,
+        "address_id": 3,
+        "date_from": "2009-05-22 04:42:28",
+        "date_to": "2018-03-18 11:13:27"
+      }
+    ]
+  },
+  {
+    "address_id": 4,
+    "line_1_number_building": "01868 Laverna Green",
+    "city": "Lake Floyd",
+    "zip_postcode": "041",
+    "state_province_county": "Oklahoma",
+    "country": "USA",
+    "Customer_Address_History": [
+      {
+        "customer_id": 2,
+        "address_id": 4,
+        "date_from": "2011-11-02 17:31:41",
+        "date_to": "2018-03-07 05:29:10"
+      }
+    ]
+  },
+  {
+    "address_id": 5,
+    "line_1_number_building": "6017 Price Greens",
+    "city": "Gibsonfurt",
+    "zip_postcode": "873",
+    "state_province_county": "District of Columbia",
+    "country": "USA",
+    "Customer_Address_History": [
+      {
+        "customer_id": 13,
+        "address_id": 5,
+        "date_from": "2012-03-16 17:42:30",
+        "date_to": "2018-02-27 07:31:19"
+      }
+    ]
+  },
+  {
+    "address_id": 6,
+    "line_1_number_building": "037 Luella Path",
+    "city": "North Jairo",
+    "zip_postcode": "126",
+    "state_province_county": "Maryland",
+    "country": "USA",
+    "Customer_Address_History": []
+  },
+  {
+    "address_id": 7,
+    "line_1_number_building": "044 Greenfelder Fort",
+    "city": "East Rickey",
+    "zip_postcode": "564",
+    "state_province_county": "Louisiana",
+    "country": "USA",
+    "Customer_Address_History": [
+      {
+        "customer_id": 12,
+        "address_id": 7,
+        "date_from": "2015-07-23 14:37:18",
+        "date_to": "2018-03-07 12:04:20"
+      }
+    ]
+  },
+  {
+    "address_id": 8,
+    "line_1_number_building": "2676 Connelly Islands Apt. 199",
+    "city": "West Kaiatown",
+    "zip_postcode": "770",
+    "state_province_county": "Oregon",
+    "country": "USA",
+    "Customer_Address_History": []
+  },
+  {
+    "address_id": 9,
+    "line_1_number_building": "6830 Alexanne Forks Apt. 925",
+    "city": "Agustinstad",
+    "zip_postcode": "248",
+    "state_province_county": "Illinois",
+    "country": "USA",
+    "Customer_Address_History": [
+      {
+        "customer_id": 3,
+        "address_id": 9,
+        "date_from": "2011-11-19 12:17:36",
+        "date_to": "2018-03-22 10:20:16"
+      },
+      {
+        "customer_id": 12,
+        "address_id": 9,
+        "date_from": "2016-12-23 04:42:07",
+        "date_to": "2018-03-20 01:13:38"
+      }
+    ]
+  },
+  {
+    "address_id": 10,
+    "line_1_number_building": "918 Lauren Drive",
+    "city": "Gleasonland",
+    "zip_postcode": "116",
+    "state_province_county": "Kentucky",
+    "country": "USA",
+    "Customer_Address_History": [
+      {
+        "customer_id": 11,
+        "address_id": 10,
+        "date_from": "2012-04-09 18:10:36",
+        "date_to": "2018-03-11 20:16:56"
+      },
+      {
+        "customer_id": 11,
+        "address_id": 10,
+        "date_from": "2014-11-17 15:11:26",
+        "date_to": "2018-03-08 23:31:30"
+      }
+    ]
+  },
+  {
+    "address_id": 11,
+    "line_1_number_building": "70345 Marvin Glens Apt. 669",
+    "city": "Lake Katheryn",
+    "zip_postcode": "505",
+    "state_province_county": "Kentucky",
+    "country": "USA",
+    "Customer_Address_History": [
+      {
+        "customer_id": 13,
+        "address_id": 11,
+        "date_from": "2015-05-01 12:44:46",
+        "date_to": "2018-03-24 06:20:36"
+      }
+    ]
+  },
+  {
+    "address_id": 12,
+    "line_1_number_building": "65854 McKenzie Tunnel",
+    "city": "North Lisandroport",
+    "zip_postcode": "202",
+    "state_province_county": "Maine",
+    "country": "USA",
+    "Customer_Address_History": [
+      {
+        "customer_id": 3,
+        "address_id": 12,
+        "date_from": "2008-06-22 21:50:44",
+        "date_to": "2018-03-13 00:08:29"
+      },
+      {
+        "customer_id": 14,
+        "address_id": 12,
+        "date_from": "2008-10-13 04:37:27",
+        "date_to": "2018-03-19 10:10:53"
+      },
+      {
+        "customer_id": 6,
+        "address_id": 12,
+        "date_from": "2017-10-25 07:35:59",
+        "date_to": "2018-03-11 21:40:52"
+      }
+    ]
+  },
+  {
+    "address_id": 13,
+    "line_1_number_building": "494 Bruen Radial Apt. 723",
+    "city": "Estaland",
+    "zip_postcode": "381",
+    "state_province_county": "Idaho",
+    "country": "USA",
+    "Customer_Address_History": [
+      {
+        "customer_id": 2,
+        "address_id": 13,
+        "date_from": "2011-01-02 21:42:29",
+        "date_to": "2018-02-25 19:55:00"
+      },
+      {
+        "customer_id": 7,
+        "address_id": 13,
+        "date_from": "2012-11-19 09:20:49",
+        "date_to": "2018-03-11 20:11:21"
+      },
+      {
+        "customer_id": 9,
+        "address_id": 13,
+        "date_from": "2010-03-25 08:23:20",
+        "date_to": "2018-03-09 16:41:55"
+      }
+    ]
+  },
+  {
+    "address_id": 14,
+    "line_1_number_building": "794 Doyle Lake Apt. 531",
+    "city": "West Muriel",
+    "zip_postcode": "571",
+    "state_province_county": "Vermont",
+    "country": "USA",
+    "Customer_Address_History": []
+  },
+  {
+    "address_id": 15,
+    "line_1_number_building": "9590 Rogahn Point Apt. 466",
+    "city": "Port Montytown",
+    "zip_postcode": "037",
+    "state_province_county": "SouthDakota",
+    "country": "USA",
+    "Customer_Address_History": [
+      {
+        "customer_id": 13,
+        "address_id": 15,
+        "date_from": "2009-02-16 23:04:20",
+        "date_to": "2018-03-07 17:47:47"
+      }
+    ]
+  }
+]

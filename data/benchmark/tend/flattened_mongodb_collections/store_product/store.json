@@ -1,0 +1,141 @@
+[
+  {
+    "Store_ID": 1,
+    "Store_Name": "Miramichi",
+    "Type": "City Mall",
+    "Area_size": 179.84,
+    "Number_of_product_category": 17811.0,
+    "Ranking": 2,
+    "store_product": [
+      {
+        "Store_ID": 1,
+        "Product_ID": 1
+      },
+      {
+        "Store_ID": 1,
+        "Product_ID": 2
+      },
+      {
+        "Store_ID": 1,
+        "Product_ID": 3
+      },
+      {
+        "Store_ID": 1,
+        "Product_ID": 4
+      },
+      {
+        "Store_ID": 1,
+        "Product_ID": 6
+      }
+    ],
+    "store_district": [
+      {
+        "Store_ID": 1,
+        "District_ID": 15
+      }
+    ]
+  },
+  {
+    "Store_ID": 2,
+    "Store_Name": "Neguac",
+    "Type": "Village Store",
+    "Area_size": 26.69,
+    "Number_of_product_category": 1678.0,
+    "Ranking": 3,
+    "store_product": [
+      {
+        "Store_ID": 2,
+        "Product_ID": 1
+      },
+      {
+        "Store_ID": 2,
+        "Product_ID": 3
+      },
+      {
+        "Store_ID": 2,
+        "Product_ID": 6
+      }
+    ],
+    "store_district": [
+      {
+        "Store_ID": 2,
+        "District_ID": 15
+      }
+    ]
+  },
+  {
+    "Store_ID": 3,
+    "Store_Name": "Rogersville",
+    "Type": "Village Store",
+    "Area_size": 7.23,
+    "Number_of_product_category": 1170.0,
+    "Ranking": 1,
+    "store_product": [
+      {
+        "Store_ID": 3,
+        "Product_ID": 2
+      },
+      {
+        "Store_ID": 3,
+        "Product_ID": 4
+      }
+    ],
+    "store_district": [
+      {
+        "Store_ID": 3,
+        "District_ID": 11
+      }
+    ]
+  },
+  {
+    "Store_ID": 4,
+    "Store_Name": "Blackville",
+    "Type": "Village Store",
+    "Area_size": 21.73,
+    "Number_of_product_category": 990.0,
+    "Ranking": 10,
+    "store_product": [],
+    "store_district": [
+      {
+        "Store_ID": 4,
+        "District_ID": 4
+      }
+    ]
+  },
+  {
+    "Store_ID": 5,
+    "Store_Name": "Doaktown",
+    "Type": "City Mall",
+    "Area_size": 28.74,
+    "Number_of_product_category": 793.0,
+    "Ranking": 9,
+    "store_product": [
+      {
+        "Store_ID": 5,
+        "Product_ID": 1
+      },
+      {
+        "Store_ID": 5,
+        "Product_ID": 2
+      },
+      {
+        "Store_ID": 5,
+        "Product_ID": 3
+      },
+      {
+        "Store_ID": 5,
+        "Product_ID": 4
+      },
+      {
+        "Store_ID": 5,
+        "Product_ID": 6
+      }
+    ],
+    "store_district": [
+      {
+        "Store_ID": 5,
+        "District_ID": 3
+      }
+    ]
+  }
+]

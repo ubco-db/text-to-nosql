@@ -1,0 +1,386 @@
+{
+    "program": [
+        {
+            "Program_ID": 1,
+            "Name": "Aniworld",
+            "Origin": "Hunan",
+            "Launch": 2005.0,
+            "Owner": "Hunan Broadcasting System (HBS)",
+            "broadcast": [
+                {
+                    "Channel_ID": 1,
+                    "Program_ID": 1,
+                    "Time_of_day": "Morning"
+                },
+                {
+                    "Channel_ID": 2,
+                    "Program_ID": 1,
+                    "Time_of_day": "Night"
+                },
+                {
+                    "Channel_ID": 4,
+                    "Program_ID": 1,
+                    "Time_of_day": "Night"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 1,
+                    "Program_ID": 1,
+                    "Date": "01,May",
+                    "Share_in_percent": 3.1
+                },
+                {
+                    "Channel_ID": 2,
+                    "Program_ID": 1,
+                    "Date": "02,May",
+                    "Share_in_percent": 1.8
+                },
+                {
+                    "Channel_ID": 4,
+                    "Program_ID": 1,
+                    "Date": "04,April",
+                    "Share_in_percent": 3.2
+                }
+            ]
+        },
+        {
+            "Program_ID": 2,
+            "Name": "Kaku",
+            "Origin": "Beijing",
+            "Launch": 2004.0,
+            "Owner": "Beijing Television (BTV)",
+            "broadcast": [
+                {
+                    "Channel_ID": 3,
+                    "Program_ID": 2,
+                    "Time_of_day": "Morning"
+                },
+                {
+                    "Channel_ID": 8,
+                    "Program_ID": 2,
+                    "Time_of_day": "Night"
+                },
+                {
+                    "Channel_ID": 1,
+                    "Program_ID": 2,
+                    "Time_of_day": "Night"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 3,
+                    "Program_ID": 2,
+                    "Date": "03,May",
+                    "Share_in_percent": 2.8
+                },
+                {
+                    "Channel_ID": 8,
+                    "Program_ID": 2,
+                    "Date": "11,May",
+                    "Share_in_percent": 4.2
+                }
+            ]
+        },
+        {
+            "Program_ID": 3,
+            "Name": "Toonmax",
+            "Origin": "Shanghai",
+            "Launch": 2005.0,
+            "Owner": "Shanghai Media Group (SMG)",
+            "broadcast": [
+                {
+                    "Channel_ID": 6,
+                    "Program_ID": 3,
+                    "Time_of_day": "Morning"
+                },
+                {
+                    "Channel_ID": 7,
+                    "Program_ID": 3,
+                    "Time_of_day": "Noon"
+                },
+                {
+                    "Channel_ID": 9,
+                    "Program_ID": 3,
+                    "Time_of_day": "Noon"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 6,
+                    "Program_ID": 3,
+                    "Date": "03,May",
+                    "Share_in_percent": 2.1
+                },
+                {
+                    "Channel_ID": 7,
+                    "Program_ID": 3,
+                    "Date": "10,Jun",
+                    "Share_in_percent": 1.9
+                },
+                {
+                    "Channel_ID": 9,
+                    "Program_ID": 3,
+                    "Date": "13,May",
+                    "Share_in_percent": 3.0
+                }
+            ]
+        },
+        {
+            "Program_ID": 4,
+            "Name": "Jiajia",
+            "Origin": "Guangdong",
+            "Launch": 2007.0,
+            "Owner": "Southern Media Corporation (SMC)",
+            "broadcast": [
+                {
+                    "Channel_ID": 5,
+                    "Program_ID": 4,
+                    "Time_of_day": "Morning"
+                },
+                {
+                    "Channel_ID": 10,
+                    "Program_ID": 4,
+                    "Time_of_day": "Night"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 5,
+                    "Program_ID": 4,
+                    "Date": "01,May",
+                    "Share_in_percent": 1.1
+                }
+            ]
+        },
+        {
+            "Program_ID": 5,
+            "Name": "Youman",
+            "Origin": "Jiangsu",
+            "Launch": 2010.0,
+            "Owner": "Jiangsu Broadcasting Corporation (JSBC)",
+            "broadcast": [],
+            "broadcast_share": []
+        }
+    ],
+    "channel": [
+        {
+            "Channel_ID": 1,
+            "Name": "CCTV-1",
+            "Owner": "CCTV",
+            "Share_in_percent": 4.9,
+            "Rating_in_percent": 0.54,
+            "broadcast": [
+                {
+                    "Channel_ID": 1,
+                    "Program_ID": 1,
+                    "Time_of_day": "Morning"
+                },
+                {
+                    "Channel_ID": 1,
+                    "Program_ID": 2,
+                    "Time_of_day": "Night"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 1,
+                    "Program_ID": 1,
+                    "Date": "01,May",
+                    "Share_in_percent": 3.1
+                }
+            ]
+        },
+        {
+            "Channel_ID": 2,
+            "Name": "Hunan Satellite TV",
+            "Owner": "HBS",
+            "Share_in_percent": 4.81,
+            "Rating_in_percent": 0.53,
+            "broadcast": [
+                {
+                    "Channel_ID": 2,
+                    "Program_ID": 1,
+                    "Time_of_day": "Night"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 2,
+                    "Program_ID": 1,
+                    "Date": "02,May",
+                    "Share_in_percent": 1.8
+                }
+            ]
+        },
+        {
+            "Channel_ID": 3,
+            "Name": "CCTV-8",
+            "Owner": "CCTV",
+            "Share_in_percent": 3.76,
+            "Rating_in_percent": 0.41,
+            "broadcast": [
+                {
+                    "Channel_ID": 3,
+                    "Program_ID": 2,
+                    "Time_of_day": "Morning"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 3,
+                    "Program_ID": 2,
+                    "Date": "03,May",
+                    "Share_in_percent": 2.8
+                }
+            ]
+        },
+        {
+            "Channel_ID": 4,
+            "Name": "CCTV-13",
+            "Owner": "CCTV",
+            "Share_in_percent": 2.91,
+            "Rating_in_percent": 0.32,
+            "broadcast": [
+                {
+                    "Channel_ID": 4,
+                    "Program_ID": 1,
+                    "Time_of_day": "Night"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 4,
+                    "Program_ID": 1,
+                    "Date": "04,April",
+                    "Share_in_percent": 3.2
+                }
+            ]
+        },
+        {
+            "Channel_ID": 5,
+            "Name": "CCTV-3",
+            "Owner": "CCTV",
+            "Share_in_percent": 2.86,
+            "Rating_in_percent": 0.31,
+            "broadcast": [
+                {
+                    "Channel_ID": 5,
+                    "Program_ID": 4,
+                    "Time_of_day": "Morning"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 5,
+                    "Program_ID": 4,
+                    "Date": "01,May",
+                    "Share_in_percent": 1.1
+                }
+            ]
+        },
+        {
+            "Channel_ID": 6,
+            "Name": "CCTV-6",
+            "Owner": "CCTV",
+            "Share_in_percent": 2.73,
+            "Rating_in_percent": 0.3,
+            "broadcast": [
+                {
+                    "Channel_ID": 6,
+                    "Program_ID": 3,
+                    "Time_of_day": "Morning"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 6,
+                    "Program_ID": 3,
+                    "Date": "03,May",
+                    "Share_in_percent": 2.1
+                }
+            ]
+        },
+        {
+            "Channel_ID": 7,
+            "Name": "CCTV-14",
+            "Owner": "CCTV",
+            "Share_in_percent": 2.6,
+            "Rating_in_percent": 0.29,
+            "broadcast": [
+                {
+                    "Channel_ID": 7,
+                    "Program_ID": 3,
+                    "Time_of_day": "Noon"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 7,
+                    "Program_ID": 3,
+                    "Date": "10,Jun",
+                    "Share_in_percent": 1.9
+                }
+            ]
+        },
+        {
+            "Channel_ID": 8,
+            "Name": "CCTV-4",
+            "Owner": "CCTV",
+            "Share_in_percent": 2.33,
+            "Rating_in_percent": 0.26,
+            "broadcast": [
+                {
+                    "Channel_ID": 8,
+                    "Program_ID": 2,
+                    "Time_of_day": "Night"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 8,
+                    "Program_ID": 2,
+                    "Date": "11,May",
+                    "Share_in_percent": 4.2
+                }
+            ]
+        },
+        {
+            "Channel_ID": 9,
+            "Name": "Anhui Satellite TV",
+            "Owner": "Anhui Television",
+            "Share_in_percent": 1.78,
+            "Rating_in_percent": 0.2,
+            "broadcast": [
+                {
+                    "Channel_ID": 9,
+                    "Program_ID": 3,
+                    "Time_of_day": "Noon"
+                }
+            ],
+            "broadcast_share": [
+                {
+                    "Channel_ID": 9,
+                    "Program_ID": 3,
+                    "Date": "13,May",
+                    "Share_in_percent": 3.0
+                }
+            ]
+        },
+        {
+            "Channel_ID": 10,
+            "Name": "Shandong Satellite TV",
+            "Owner": "Shandong Television",
+            "Share_in_percent": 1.74,
+            "Rating_in_percent": 0.19,
+            "broadcast": [
+                {
+                    "Channel_ID": 10,
+                    "Program_ID": 4,
+                    "Time_of_day": "Night"
+                }
+            ],
+            "broadcast_share": []
+        }
+    ]
+}

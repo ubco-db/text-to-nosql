@@ -1,0 +1,146 @@
+[
+  {
+    "Wrestler_ID": 1,
+    "Name": "Rey Misterio Sr.",
+    "Reign": "1",
+    "Days_held": "344",
+    "Location": "Tijuana , Mexico",
+    "Event": "Live event",
+    "Elimination": [
+      {
+        "Elimination_ID": "1",
+        "Wrestler_ID": "1",
+        "Team": "Team Orton",
+        "Eliminated_By": "Punk",
+        "Elimination_Move": "Go To Sleep",
+        "Time": "00:11"
+      }
+    ]
+  },
+  {
+    "Wrestler_ID": 2,
+    "Name": "Fishman",
+    "Reign": "1",
+    "Days_held": "113",
+    "Location": "Tijuana , Mexico",
+    "Event": "Live event",
+    "Elimination": [
+      {
+        "Elimination_ID": "2",
+        "Wrestler_ID": "2",
+        "Team": "Team Batista",
+        "Eliminated_By": "Benjamin",
+        "Elimination_Move": "Paydirt",
+        "Time": "07:38"
+      }
+    ]
+  },
+  {
+    "Wrestler_ID": 3,
+    "Name": "Villa\u00f1o IV",
+    "Reign": "1",
+    "Days_held": "1285",
+    "Location": "Tijuana , Mexico",
+    "Event": "Live event",
+    "Elimination": []
+  },
+  {
+    "Wrestler_ID": 4,
+    "Name": "Gran Hamada",
+    "Reign": "1",
+    "Days_held": "960",
+    "Location": "Tokyo , Japan",
+    "Event": "Live event",
+    "Elimination": [
+      {
+        "Elimination_ID": "3",
+        "Wrestler_ID": "4",
+        "Team": "Team Batista",
+        "Eliminated_By": "Orton",
+        "Elimination_Move": "Rope hung DDT",
+        "Time": "10:45"
+      }
+    ]
+  },
+  {
+    "Wrestler_ID": 5,
+    "Name": "El Samurai",
+    "Reign": "1",
+    "Days_held": "1",
+    "Location": "Tokyo , Japan",
+    "Event": "Live event",
+    "Elimination": [
+      {
+        "Elimination_ID": "4",
+        "Wrestler_ID": "5",
+        "Team": "Team Batista",
+        "Eliminated_By": "Rhodes",
+        "Elimination_Move": "Silver Spoon DDT",
+        "Time": "13:06"
+      }
+    ]
+  },
+  {
+    "Wrestler_ID": 6,
+    "Name": "The Great Sasuke \u00a7",
+    "Reign": "1",
+    "Days_held": "99",
+    "Location": "Tokyo , Japan",
+    "Event": "Live event",
+    "Elimination": []
+  },
+  {
+    "Wrestler_ID": 7,
+    "Name": "\u00daltimo Drag\u00f3n \u00a7",
+    "Reign": "1",
+    "Days_held": "54",
+    "Location": "Osaka , Japan",
+    "Event": "Live event",
+    "Elimination": [
+      {
+        "Elimination_ID": "5",
+        "Wrestler_ID": "7",
+        "Team": "Team Batista",
+        "Eliminated_By": "Henry",
+        "Elimination_Move": "World's Strongest Slam",
+        "Time": "14:22"
+      }
+    ]
+  },
+  {
+    "Wrestler_ID": 8,
+    "Name": "Jushin Liger \u00a7",
+    "Reign": "1",
+    "Days_held": "183",
+    "Location": "Tokyo , Japan",
+    "Event": "Wrestling World 1997",
+    "Elimination": []
+  },
+  {
+    "Wrestler_ID": 9,
+    "Name": "El Samurai \u00a7",
+    "Reign": "2",
+    "Days_held": "35",
+    "Location": "Sapporo , Japan",
+    "Event": "Live event",
+    "Elimination": [
+      {
+        "Elimination_ID": "6",
+        "Wrestler_ID": "9",
+        "Team": "Team Orton",
+        "Eliminated_By": "Batista",
+        "Elimination_Move": "Spear",
+        "Time": "14:32"
+      }
+    ]
+  },
+  {
+    "Wrestler_ID": 10,
+    "Name": "Shinjiro Otani \u00a7",
+    "Reign": "1",
+    "Days_held": "56",
+    "Location": "Nagoya , Japan",
+    "Event": "Live event",
+    "Elimination": []
+  }
+]

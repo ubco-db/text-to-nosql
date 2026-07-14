@@ -1,0 +1,106 @@
+[
+  {
+    "Film_ID": 1,
+    "Rank_in_series": 26,
+    "Number_in_season": 1,
+    "Title": "The Case of the Mystery Weekend",
+    "Directed_by": "Bill Schreiner",
+    "Original_air_date": "September 21\u201325, 1992",
+    "Production_code": "50021\u201350025",
+    "schedule": [
+      {
+        "Cinema_ID": 1,
+        "Film_ID": 1,
+        "Date": "21 May",
+        "Show_times_per_day": 5,
+        "Price": 12.99
+      },
+      {
+        "Cinema_ID": 2,
+        "Film_ID": 1,
+        "Date": "11 July",
+        "Show_times_per_day": 5,
+        "Price": 9.99
+      },
+      {
+        "Cinema_ID": 10,
+        "Film_ID": 1,
+        "Date": "19 May",
+        "Show_times_per_day": 5,
+        "Price": 15.99
+      }
+    ]
+  },
+  {
+    "Film_ID": 2,
+    "Rank_in_series": 27,
+    "Number_in_season": 2,
+    "Title": "The Case of the Smart Dummy",
+    "Directed_by": "Bill Schreiner",
+    "Original_air_date": "September 28\u2013October 2, 1992",
+    "Production_code": "50231\u201350235",
+    "schedule": [
+      {
+        "Cinema_ID": 1,
+        "Film_ID": 2,
+        "Date": "21 May",
+        "Show_times_per_day": 3,
+        "Price": 12.99
+      }
+    ]
+  },
+  {
+    "Film_ID": 3,
+    "Rank_in_series": 28,
+    "Number_in_season": 3,
+    "Title": "The Case: Off the Record",
+    "Directed_by": "Bill Schreiner",
+    "Original_air_date": "October 5\u20139, 1992",
+    "Production_code": "50011\u201350015",
+    "schedule": [
+      {
+        "Cinema_ID": 1,
+        "Film_ID": 3,
+        "Date": "21 Jun",
+        "Show_times_per_day": 2,
+        "Price": 8.99
+      }
+    ]
+  },
+  {
+    "Film_ID": 4,
+    "Rank_in_series": 29,
+    "Number_in_season": 4,
+    "Title": "The Case of the Bermuda Triangle",
+    "Directed_by": "Jesus Salvador Trevi\u00f1o",
+    "Original_air_date": "October 12\u201316, 1992",
+    "Production_code": "50251\u201350255",
+    "schedule": [
+      {
+        "Cinema_ID": 9,
+        "Film_ID": 4,
+        "Date": "20 May",
+        "Show_times_per_day": 5,
+        "Price": 9.99
+      }
+    ]
+  },
+  {
+    "Film_ID": 5,
+    "Rank_in_series": 30,
+    "Number_in_season": 5,
+    "Title": "The Case of the Piggy Banker",
+    "Directed_by": "Bill Schreiner",
+    "Original_air_date": "October 19\u201323, 1992",
+    "Production_code": "50241\u201350245",
+    "schedule": [
+      {
+        "Cinema_ID": 6,
+        "Film_ID": 5,
+        "Date": "2 Aug",
+        "Show_times_per_day": 4,
+        "Price": 12.99
+      }
+    ]
+  }
+]

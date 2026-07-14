@@ -1,0 +1,564 @@
+[
+  {
+    "actid": 770,
+    "activity_name": "Mountain Climbing",
+    "Participates_in": [
+      {
+        "stuid": 1001,
+        "actid": 770
+      },
+      {
+        "stuid": 1005,
+        "actid": 770
+      },
+      {
+        "stuid": 1014,
+        "actid": 770
+      },
+      {
+        "stuid": 1017,
+        "actid": 770
+      },
+      {
+        "stuid": 1018,
+        "actid": 770
+      },
+      {
+        "stuid": 1025,
+        "actid": 770
+      }
+    ],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 1121,
+        "actid": 770
+      },
+      {
+        "FacID": 7723,
+        "actid": 770
+      },
+      {
+        "FacID": 8721,
+        "actid": 770
+      },
+      {
+        "FacID": 4432,
+        "actid": 770
+      },
+      {
+        "FacID": 1177,
+        "actid": 770
+      },
+      {
+        "FacID": 1177,
+        "actid": 770
+      }
+    ]
+  },
+  {
+    "actid": 771,
+    "activity_name": "Canoeing",
+    "Participates_in": [
+      {
+        "stuid": 1001,
+        "actid": 771
+      },
+      {
+        "stuid": 1002,
+        "actid": 771
+      },
+      {
+        "stuid": 1017,
+        "actid": 771
+      },
+      {
+        "stuid": 1034,
+        "actid": 771
+      }
+    ],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 1121,
+        "actid": 771
+      },
+      {
+        "FacID": 3457,
+        "actid": 771
+      },
+      {
+        "FacID": 8918,
+        "actid": 771
+      },
+      {
+        "FacID": 4432,
+        "actid": 771
+      }
+    ]
+  },
+  {
+    "actid": 772,
+    "activity_name": "Kayaking",
+    "Participates_in": [
+      {
+        "stuid": 1002,
+        "actid": 772
+      },
+      {
+        "stuid": 1014,
+        "actid": 772
+      },
+      {
+        "stuid": 1016,
+        "actid": 772
+      },
+      {
+        "stuid": 1018,
+        "actid": 772
+      },
+      {
+        "stuid": 1034,
+        "actid": 772
+      }
+    ],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 6112,
+        "actid": 772
+      }
+    ]
+  },
+  {
+    "actid": 773,
+    "activity_name": "Spelunking",
+    "Participates_in": [
+      {
+        "stuid": 1006,
+        "actid": 773
+      },
+      {
+        "stuid": 1007,
+        "actid": 773
+      },
+      {
+        "stuid": 1008,
+        "actid": 773
+      }
+    ],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 1193,
+        "actid": 773
+      },
+      {
+        "FacID": 2192,
+        "actid": 773
+      }
+    ]
+  },
+  {
+    "actid": 776,
+    "activity_name": "Extreme Canasta",
+    "Participates_in": [
+      {
+        "stuid": 1021,
+        "actid": 776
+      },
+      {
+        "stuid": 1023,
+        "actid": 776
+      }
+    ],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 8114,
+        "actid": 776
+      },
+      {
+        "FacID": 5718,
+        "actid": 776
+      },
+      {
+        "FacID": 6182,
+        "actid": 776
+      }
+    ]
+  },
+  {
+    "actid": 777,
+    "activity_name": "Soccer",
+    "Participates_in": [
+      {
+        "stuid": 1001,
+        "actid": 777
+      },
+      {
+        "stuid": 1004,
+        "actid": 777
+      },
+      {
+        "stuid": 1009,
+        "actid": 777
+      },
+      {
+        "stuid": 1014,
+        "actid": 777
+      },
+      {
+        "stuid": 1018,
+        "actid": 777
+      },
+      {
+        "stuid": 1024,
+        "actid": 777
+      },
+      {
+        "stuid": 1025,
+        "actid": 777
+      },
+      {
+        "stuid": 1034,
+        "actid": 777
+      },
+      {
+        "stuid": 1035,
+        "actid": 777
+      }
+    ],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 1121,
+        "actid": 777
+      }
+    ]
+  },
+  {
+    "actid": 778,
+    "activity_name": "Baseball",
+    "Participates_in": [
+      {
+        "stuid": 1003,
+        "actid": 778
+      },
+      {
+        "stuid": 1004,
+        "actid": 778
+      },
+      {
+        "stuid": 1009,
+        "actid": 778
+      },
+      {
+        "stuid": 1014,
+        "actid": 778
+      },
+      {
+        "stuid": 1024,
+        "actid": 778
+      }
+    ],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 2192,
+        "actid": 778
+      }
+    ]
+  },
+  {
+    "actid": 779,
+    "activity_name": "Accordion Ensemble",
+    "Participates_in": [],
+    "Faculty_Participates_in": []
+  },
+  {
+    "actid": 780,
+    "activity_name": "Football",
+    "Participates_in": [
+      {
+        "stuid": 1004,
+        "actid": 780
+      },
+      {
+        "stuid": 1008,
+        "actid": 780
+      },
+      {
+        "stuid": 1010,
+        "actid": 780
+      },
+      {
+        "stuid": 1011,
+        "actid": 780
+      },
+      {
+        "stuid": 1012,
+        "actid": 780
+      },
+      {
+        "stuid": 1014,
+        "actid": 780
+      },
+      {
+        "stuid": 1020,
+        "actid": 780
+      },
+      {
+        "stuid": 1021,
+        "actid": 780
+      },
+      {
+        "stuid": 1024,
+        "actid": 780
+      },
+      {
+        "stuid": 1025,
+        "actid": 780
+      },
+      {
+        "stuid": 1030,
+        "actid": 780
+      },
+      {
+        "stuid": 1033,
+        "actid": 780
+      },
+      {
+        "stuid": 1034,
+        "actid": 780
+      },
+      {
+        "stuid": 1035,
+        "actid": 780
+      }
+    ],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 8721,
+        "actid": 780
+      },
+      {
+        "FacID": 8741,
+        "actid": 780
+      },
+      {
+        "FacID": 8918,
+        "actid": 780
+      }
+    ]
+  },
+  {
+    "actid": 782,
+    "activity_name": "Volleyball",
+    "Participates_in": [
+      {
+        "stuid": 1004,
+        "actid": 782
+      },
+      {
+        "stuid": 1009,
+        "actid": 782
+      },
+      {
+        "stuid": 1014,
+        "actid": 782
+      },
+      {
+        "stuid": 1022,
+        "actid": 782
+      }
+    ],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 3457,
+        "actid": 782
+      },
+      {
+        "FacID": 8918,
+        "actid": 782
+      }
+    ]
+  },
+  {
+    "actid": 784,
+    "activity_name": "Canasta",
+    "Participates_in": [
+      {
+        "stuid": 1007,
+        "actid": 784
+      },
+      {
+        "stuid": 1018,
+        "actid": 784
+      },
+      {
+        "stuid": 1035,
+        "actid": 784
+      }
+    ],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 1082,
+        "actid": 784
+      },
+      {
+        "FacID": 3457,
+        "actid": 784
+      },
+      {
+        "FacID": 2881,
+        "actid": 784
+      }
+    ]
+  },
+  {
+    "actid": 785,
+    "activity_name": "Chess",
+    "Participates_in": [
+      {
+        "stuid": 1008,
+        "actid": 785
+      },
+      {
+        "stuid": 1015,
+        "actid": 785
+      },
+      {
+        "stuid": 1018,
+        "actid": 785
+      },
+      {
+        "stuid": 1019,
+        "actid": 785
+      },
+      {
+        "stuid": 1028,
+        "actid": 785
+      },
+      {
+        "stuid": 1029,
+        "actid": 785
+      }
+    ],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 1082,
+        "actid": 785
+      },
+      {
+        "FacID": 4230,
+        "actid": 785
+      },
+      {
+        "FacID": 6112,
+        "actid": 785
+      },
+      {
+        "FacID": 7723,
+        "actid": 785
+      },
+      {
+        "FacID": 6182,
+        "actid": 785
+      }
+    ]
+  },
+  {
+    "actid": 790,
+    "activity_name": "Crossword Puzzles",
+    "Participates_in": [
+      {
+        "stuid": 1008,
+        "actid": 790
+      },
+      {
+        "stuid": 1018,
+        "actid": 790
+      },
+      {
+        "stuid": 1019,
+        "actid": 790
+      },
+      {
+        "stuid": 1022,
+        "actid": 790
+      },
+      {
+        "stuid": 1023,
+        "actid": 790
+      },
+      {
+        "stuid": 1029,
+        "actid": 790
+      },
+      {
+        "stuid": 1030,
+        "actid": 790
+      }
+    ],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 1082,
+        "actid": 790
+      },
+      {
+        "FacID": 1193,
+        "actid": 790
+      },
+      {
+        "FacID": 2192,
+        "actid": 790
+      },
+      {
+        "FacID": 4230,
+        "actid": 790
+      },
+      {
+        "FacID": 8741,
+        "actid": 790
+      },
+      {
+        "FacID": 2881,
+        "actid": 790
+      },
+      {
+        "FacID": 1177,
+        "actid": 790
+      }
+    ]
+  },
+  {
+    "actid": 791,
+    "activity_name": "Proselytizing",
+    "Participates_in": [
+      {
+        "stuid": 1016,
+        "actid": 791
+      },
+      {
+        "stuid": 1017,
+        "actid": 791
+      }
+    ],
+    "Faculty_Participates_in": []
+  },
+  {
+    "actid": 796,
+    "activity_name": "Square Dancing",
+    "Participates_in": [],
+    "Faculty_Participates_in": [
+      {
+        "FacID": 1193,
+        "actid": 796
+      },
+      {
+        "FacID": 9922,
+        "actid": 796
+      }
+    ]
+  },
+  {
+    "actid": 799,
+    "activity_name": "Bungee Jumping",
+    "Participates_in": [],
+    "Faculty_Participates_in": []
+  }
+]

@@ -1,0 +1,255 @@
+{
+    "journal": [
+        {
+            "Journal_ID": 1,
+            "Date": "September 9, 2001",
+            "Theme": "Miami Dolphins",
+            "Sales": 798,
+            "journal_committee": []
+        },
+        {
+            "Journal_ID": 2,
+            "Date": "September 23, 2001",
+            "Theme": "at Jacksonville Jaguars",
+            "Sales": 994,
+            "journal_committee": [
+                {
+                    "Editor_ID": 4,
+                    "Journal_ID": 2,
+                    "Work_Type": "Article"
+                }
+            ]
+        },
+        {
+            "Journal_ID": 4,
+            "Date": "October 7, 2001",
+            "Theme": "at Baltimore Ravens",
+            "Sales": 7494,
+            "journal_committee": [
+                {
+                    "Editor_ID": 8,
+                    "Journal_ID": 4,
+                    "Work_Type": "Photo"
+                }
+            ]
+        },
+        {
+            "Journal_ID": 5,
+            "Date": "October 14, 2001",
+            "Theme": "Tampa Bay Buccaneers",
+            "Sales": 4798,
+            "journal_committee": []
+        },
+        {
+            "Journal_ID": 6,
+            "Date": "October 21, 2001",
+            "Theme": "at Detroit Lions",
+            "Sales": 2940,
+            "journal_committee": [
+                {
+                    "Editor_ID": 3,
+                    "Journal_ID": 6,
+                    "Work_Type": "Title"
+                }
+            ]
+        },
+        {
+            "Journal_ID": 7,
+            "Date": "October 29, 2001",
+            "Theme": "at Pittsburgh Steelers",
+            "Sales": 1763,
+            "journal_committee": []
+        },
+        {
+            "Journal_ID": 8,
+            "Date": "November 4, 2001",
+            "Theme": "Jacksonville Jaguars",
+            "Sales": 1232,
+            "journal_committee": []
+        },
+        {
+            "Journal_ID": 9,
+            "Date": "November 12, 2001",
+            "Theme": "Baltimore Ravens",
+            "Sales": 6532,
+            "journal_committee": []
+        },
+        {
+            "Journal_ID": 10,
+            "Date": "November 18, 2001",
+            "Theme": "at Cincinnati Bengals",
+            "Sales": 3421,
+            "journal_committee": []
+        },
+        {
+            "Journal_ID": 11,
+            "Date": "November 25, 2001",
+            "Theme": "Pittsburgh Steelers",
+            "Sales": 3342,
+            "journal_committee": [
+                {
+                    "Editor_ID": 6,
+                    "Journal_ID": 11,
+                    "Work_Type": "Photo"
+                }
+            ]
+        },
+        {
+            "Journal_ID": 12,
+            "Date": "December 2, 2001",
+            "Theme": "at Cleveland Browns",
+            "Sales": 3534,
+            "journal_committee": [
+                {
+                    "Editor_ID": 9,
+                    "Journal_ID": 12,
+                    "Work_Type": "Photo"
+                }
+            ]
+        },
+        {
+            "Journal_ID": 13,
+            "Date": "December 9, 2001",
+            "Theme": "at Minnesota Vikings",
+            "Sales": 4271,
+            "journal_committee": [
+                {
+                    "Editor_ID": 1,
+                    "Journal_ID": 13,
+                    "Work_Type": "Photo"
+                }
+            ]
+        },
+        {
+            "Journal_ID": 14,
+            "Date": "December 16, 2001",
+            "Theme": "Green Bay Packers",
+            "Sales": 2804,
+            "journal_committee": []
+        },
+        {
+            "Journal_ID": 15,
+            "Date": "December 22, 2001",
+            "Theme": "at Oakland Raiders",
+            "Sales": 1934,
+            "journal_committee": []
+        },
+        {
+            "Journal_ID": 16,
+            "Date": "December 30, 2001",
+            "Theme": "Cleveland Browns",
+            "Sales": 3798,
+            "journal_committee": []
+        },
+        {
+            "Journal_ID": 17,
+            "Date": "January 6, 2002",
+            "Theme": "Cincinnati Bengals",
+            "Sales": 5342,
+            "journal_committee": [
+                {
+                    "Editor_ID": 8,
+                    "Journal_ID": 17,
+                    "Work_Type": "Article"
+                }
+            ]
+        }
+    ],
+    "editor": [
+        {
+            "Editor_ID": 1,
+            "Name": "Kamila Porczyk",
+            "Age": 34.0,
+            "journal_committee": [
+                {
+                    "Editor_ID": 1,
+                    "Journal_ID": 13,
+                    "Work_Type": "Photo"
+                }
+            ]
+        },
+        {
+            "Editor_ID": 2,
+            "Name": "Anna Powierza",
+            "Age": 35.0,
+            "journal_committee": []
+        },
+        {
+            "Editor_ID": 3,
+            "Name": "Marek Siudym",
+            "Age": 21.0,
+            "journal_committee": [
+                {
+                    "Editor_ID": 3,
+                    "Journal_ID": 6,
+                    "Work_Type": "Title"
+                }
+            ]
+        },
+        {
+            "Editor_ID": 4,
+            "Name": "Piotr Pr\u0119gowski",
+            "Age": 43.0,
+            "journal_committee": [
+                {
+                    "Editor_ID": 4,
+                    "Journal_ID": 2,
+                    "Work_Type": "Article"
+                }
+            ]
+        },
+        {
+            "Editor_ID": 5,
+            "Name": "Szymon Wydra",
+            "Age": 20.0,
+            "journal_committee": []
+        },
+        {
+            "Editor_ID": 6,
+            "Name": "W\u0142adys\u0142aw Grzywna",
+            "Age": 24.0,
+            "journal_committee": [
+                {
+                    "Editor_ID": 6,
+                    "Journal_ID": 11,
+                    "Work_Type": "Photo"
+                }
+            ]
+        },
+        {
+            "Editor_ID": 7,
+            "Name": "Mariusz Zalejski",
+            "Age": 25.0,
+            "journal_committee": []
+        },
+        {
+            "Editor_ID": 8,
+            "Name": "Gra\u017cyna Wolszczak",
+            "Age": 54.0,
+            "journal_committee": [
+                {
+                    "Editor_ID": 8,
+                    "Journal_ID": 4,
+                    "Work_Type": "Photo"
+                },
+                {
+                    "Editor_ID": 8,
+                    "Journal_ID": 17,
+                    "Work_Type": "Article"
+                }
+            ]
+        },
+        {
+            "Editor_ID": 9,
+            "Name": "Maria G\u00f3ralczyk",
+            "Age": 38.0,
+            "journal_committee": [
+                {
+                    "Editor_ID": 9,
+                    "Journal_ID": 12,
+                    "Work_Type": "Photo"
+                }
+            ]
+        }
+    ]
+}

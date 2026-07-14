@@ -1,0 +1,785 @@
+[
+  {
+    "building_id": 133,
+    "building_short_name": "Normandie Court",
+    "building_full_name": "Normandie Court",
+    "building_description": "Studio",
+    "building_address": "7950 Casper Vista Apt. 176\nMarquiseberg, CA 70496",
+    "building_manager": "Emma",
+    "building_phone": "(948)040-1064x387",
+    "Apartments": []
+  },
+  {
+    "building_id": 153,
+    "building_short_name": "Mercedes House",
+    "building_full_name": "Mercedes House",
+    "building_description": "Studio",
+    "building_address": "354 Otto Villages\nCharliefort, VT 71664",
+    "building_manager": "Brenden",
+    "building_phone": "915-617-2408x832",
+    "Apartments": [
+      {
+        "apt_id": 8,
+        "building_id": 153,
+        "apt_type_code": "Flat",
+        "apt_number": "Suite 693",
+        "bathroom_count": 2,
+        "bedroom_count": 3,
+        "room_count": "9",
+        "Apartment_Facilities": [],
+        "Apartment_Bookings": [
+          {
+            "apt_booking_id": 337,
+            "apt_id": 8,
+            "guest_id": 5,
+            "booking_status_code": "Provisional",
+            "booking_start_date": "2017-03-13 16:20:14",
+            "booking_end_date": "2018-02-19 16:59:08",
+            "View_Unit_Status": [
+              {
+                "apt_id": 13,
+                "apt_booking_id": 337,
+                "status_date": "2000-02-04 07:50:09",
+                "available_yn": 0
+              },
+              {
+                "apt_id": 5,
+                "apt_booking_id": 337,
+                "status_date": "2003-07-25 10:13:48",
+                "available_yn": 1
+              }
+            ]
+          },
+          {
+            "apt_booking_id": 526,
+            "apt_id": 8,
+            "guest_id": 7,
+            "booking_status_code": "Confirmed",
+            "booking_start_date": "2016-11-26 05:04:31",
+            "booking_end_date": "2018-02-25 15:15:37",
+            "View_Unit_Status": []
+          },
+          {
+            "apt_booking_id": 924,
+            "apt_id": 8,
+            "guest_id": 3,
+            "booking_status_code": "Confirmed",
+            "booking_start_date": "2017-07-03 14:15:56",
+            "booking_end_date": "2017-11-12 01:05:09",
+            "View_Unit_Status": [
+              {
+                "apt_id": 15,
+                "apt_booking_id": 924,
+                "status_date": "1973-10-28 04:30:14",
+                "available_yn": 1
+              }
+            ]
+          }
+        ],
+        "View_Unit_Status": []
+      }
+    ]
+  },
+  {
+    "building_id": 191,
+    "building_short_name": "The Eugene",
+    "building_full_name": "The Eugene",
+    "building_description": "Flat",
+    "building_address": "71537 Gorczany Inlet\nWisozkburgh, AL 08256",
+    "building_manager": "Melyssa",
+    "building_phone": "(609)946-0491",
+    "Apartments": [
+      {
+        "apt_id": 6,
+        "building_id": 191,
+        "apt_type_code": "Studio",
+        "apt_number": "Apt. 187",
+        "bathroom_count": 3,
+        "bedroom_count": 5,
+        "room_count": "9",
+        "Apartment_Facilities": [
+          {
+            "apt_id": 6,
+            "facility_code": "Cable TV"
+          }
+        ],
+        "Apartment_Bookings": [
+          {
+            "apt_booking_id": 575,
+            "apt_id": 6,
+            "guest_id": 3,
+            "booking_status_code": "Provisional",
+            "booking_start_date": "2017-05-13 18:17:20",
+            "booking_end_date": "2017-10-06 11:15:58",
+            "View_Unit_Status": [
+              {
+                "apt_id": 15,
+                "apt_booking_id": 575,
+                "status_date": "1972-03-23 22:55:53",
+                "available_yn": 1
+              },
+              {
+                "apt_id": 13,
+                "apt_booking_id": 575,
+                "status_date": "1978-12-28 11:53:34",
+                "available_yn": 1
+              }
+            ]
+          }
+        ],
+        "View_Unit_Status": [
+          {
+            "apt_id": 6,
+            "apt_booking_id": 497,
+            "status_date": "1976-12-18 04:03:51",
+            "available_yn": 1
+          },
+          {
+            "apt_id": 6,
+            "apt_booking_id": 401,
+            "status_date": "2011-02-12 09:04:07",
+            "available_yn": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": 196,
+    "building_short_name": "VIA 57 WEST",
+    "building_full_name": "VIA 57 WEST",
+    "building_description": "Studio",
+    "building_address": "959 Ethel Viaduct\nWest Efrainburgh, DE 40074",
+    "building_manager": "Kathlyn",
+    "building_phone": "681.772.2454",
+    "Apartments": []
+  },
+  {
+    "building_id": 225,
+    "building_short_name": "Columbus Square",
+    "building_full_name": "Columbus Square",
+    "building_description": "Studio",
+    "building_address": "0703 Danika Mountains Apt. 362\nMohrland, AL 56839-5028",
+    "building_manager": "Kyle",
+    "building_phone": "1-724-982-9507x640",
+    "Apartments": [
+      {
+        "apt_id": 3,
+        "building_id": 225,
+        "apt_type_code": "Studio",
+        "apt_number": "Apt. 908",
+        "bathroom_count": 1,
+        "bedroom_count": 6,
+        "room_count": "7",
+        "Apartment_Facilities": [
+          {
+            "apt_id": 3,
+            "facility_code": "Gym"
+          }
+        ],
+        "Apartment_Bookings": [],
+        "View_Unit_Status": []
+      },
+      {
+        "apt_id": 4,
+        "building_id": 225,
+        "apt_type_code": "Duplex",
+        "apt_number": "Suite 749",
+        "bathroom_count": 1,
+        "bedroom_count": 5,
+        "room_count": "8",
+        "Apartment_Facilities": [],
+        "Apartment_Bookings": [
+          {
+            "apt_booking_id": 343,
+            "apt_id": 4,
+            "guest_id": 13,
+            "booking_status_code": "Confirmed",
+            "booking_start_date": "2016-08-04 10:33:00",
+            "booking_end_date": "2017-09-29 12:43:50",
+            "View_Unit_Status": [
+              {
+                "apt_id": 13,
+                "apt_booking_id": 343,
+                "status_date": "2015-06-19 07:59:01",
+                "available_yn": 1
+              }
+            ]
+          },
+          {
+            "apt_booking_id": 623,
+            "apt_id": 4,
+            "guest_id": 5,
+            "booking_status_code": "Provisional",
+            "booking_start_date": "2016-06-07 05:05:18",
+            "booking_end_date": "2017-11-13 13:59:45",
+            "View_Unit_Status": [
+              {
+                "apt_id": 9,
+                "apt_booking_id": 623,
+                "status_date": "2011-11-06 22:08:42",
+                "available_yn": 1
+              }
+            ]
+          }
+        ],
+        "View_Unit_Status": [
+          {
+            "apt_id": 4,
+            "apt_booking_id": 258,
+            "status_date": "2014-12-10 13:53:21",
+            "available_yn": 1
+          }
+        ]
+      },
+      {
+        "apt_id": 10,
+        "building_id": 225,
+        "apt_type_code": "Duplex",
+        "apt_number": "Apt. 859",
+        "bathroom_count": 2,
+        "bedroom_count": 3,
+        "room_count": "6",
+        "Apartment_Facilities": [],
+        "Apartment_Bookings": [
+          {
+            "apt_booking_id": 258,
+            "apt_id": 10,
+            "guest_id": 2,
+            "booking_status_code": "Provisional",
+            "booking_start_date": "2016-09-26 17:13:49",
+            "booking_end_date": "2017-10-07 11:38:48",
+            "View_Unit_Status": [
+              {
+                "apt_id": 4,
+                "apt_booking_id": 258,
+                "status_date": "2014-12-10 13:53:21",
+                "available_yn": 1
+              }
+            ]
+          },
+          {
+            "apt_booking_id": 497,
+            "apt_id": 10,
+            "guest_id": 8,
+            "booking_status_code": "Confirmed",
+            "booking_start_date": "2016-07-25 02:57:04",
+            "booking_end_date": "2017-09-28 11:08:15",
+            "View_Unit_Status": [
+              {
+                "apt_id": 6,
+                "apt_booking_id": 497,
+                "status_date": "1976-12-18 04:03:51",
+                "available_yn": 1
+              },
+              {
+                "apt_id": 2,
+                "apt_booking_id": 497,
+                "status_date": "1980-11-12 13:34:45",
+                "available_yn": 1
+              },
+              {
+                "apt_id": 11,
+                "apt_booking_id": 497,
+                "status_date": "1990-11-04 17:57:50",
+                "available_yn": 1
+              },
+              {
+                "apt_id": 1,
+                "apt_booking_id": 497,
+                "status_date": "2003-08-02 08:36:36",
+                "available_yn": 1
+              },
+              {
+                "apt_id": 10,
+                "apt_booking_id": 497,
+                "status_date": "2006-02-23 05:50:04",
+                "available_yn": 1
+              }
+            ]
+          },
+          {
+            "apt_booking_id": 889,
+            "apt_id": 10,
+            "guest_id": 4,
+            "booking_status_code": "Confirmed",
+            "booking_start_date": "2016-09-28 05:00:50",
+            "booking_end_date": "2017-09-30 18:41:04",
+            "View_Unit_Status": [
+              {
+                "apt_id": 5,
+                "apt_booking_id": 889,
+                "status_date": "2015-07-15 11:06:29",
+                "available_yn": 1
+              }
+            ]
+          }
+        ],
+        "View_Unit_Status": [
+          {
+            "apt_id": 10,
+            "apt_booking_id": 497,
+            "status_date": "2006-02-23 05:50:04",
+            "available_yn": 1
+          }
+        ]
+      },
+      {
+        "apt_id": 14,
+        "building_id": 225,
+        "apt_type_code": "Flat",
+        "apt_number": "Apt. 837",
+        "bathroom_count": 2,
+        "bedroom_count": 4,
+        "room_count": "8",
+        "Apartment_Facilities": [],
+        "Apartment_Bookings": [],
+        "View_Unit_Status": [
+          {
+            "apt_id": 14,
+            "apt_booking_id": 401,
+            "status_date": "1985-11-05 11:46:35",
+            "available_yn": 0
+          },
+          {
+            "apt_id": 14,
+            "apt_booking_id": 279,
+            "status_date": "2001-02-17 20:17:09",
+            "available_yn": 1
+          },
+          {
+            "apt_id": 14,
+            "apt_booking_id": 920,
+            "status_date": "2012-11-24 13:39:37",
+            "available_yn": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": 532,
+    "building_short_name": "Avalon Park",
+    "building_full_name": "Avalon Park",
+    "building_description": "Duplex",
+    "building_address": "6827 Kessler Parkway Suite 908\nAhmedberg, WI 48788",
+    "building_manager": "Albert",
+    "building_phone": "376-017-3538",
+    "Apartments": []
+  },
+  {
+    "building_id": 556,
+    "building_short_name": "Peter Cooper Village",
+    "building_full_name": "Peter Cooper Village",
+    "building_description": "Flat",
+    "building_address": "861 Narciso Glens Suite 392\nEast Ottis, ND 73970",
+    "building_manager": "Darlene",
+    "building_phone": "1-224-619-0295x13195",
+    "Apartments": []
+  },
+  {
+    "building_id": 624,
+    "building_short_name": "Stuyvesant Town",
+    "building_full_name": "Stuyvesant Town",
+    "building_description": "Studio",
+    "building_address": "101 Queenie Mountains Suite 619\nNew Korbinmouth, KS 88726-1376",
+    "building_manager": "Marie",
+    "building_phone": "(145)411-6406",
+    "Apartments": [
+      {
+        "apt_id": 2,
+        "building_id": 624,
+        "apt_type_code": "Flat",
+        "apt_number": "Apt. 585",
+        "bathroom_count": 2,
+        "bedroom_count": 4,
+        "room_count": "5",
+        "Apartment_Facilities": [
+          {
+            "apt_id": 2,
+            "facility_code": "Boardband"
+          }
+        ],
+        "Apartment_Bookings": [
+          {
+            "apt_booking_id": 920,
+            "apt_id": 2,
+            "guest_id": 2,
+            "booking_status_code": "Confirmed",
+            "booking_start_date": "2017-04-07 04:53:27",
+            "booking_end_date": "2017-11-29 12:59:42",
+            "View_Unit_Status": [
+              {
+                "apt_id": 11,
+                "apt_booking_id": 920,
+                "status_date": "1970-09-28 10:24:29",
+                "available_yn": 1
+              },
+              {
+                "apt_id": 14,
+                "apt_booking_id": 920,
+                "status_date": "2012-11-24 13:39:37",
+                "available_yn": 0
+              }
+            ]
+          }
+        ],
+        "View_Unit_Status": [
+          {
+            "apt_id": 2,
+            "apt_booking_id": 497,
+            "status_date": "1980-11-12 13:34:45",
+            "available_yn": 1
+          }
+        ]
+      },
+      {
+        "apt_id": 9,
+        "building_id": 624,
+        "apt_type_code": "Studio",
+        "apt_number": "Apt. 940",
+        "bathroom_count": 1,
+        "bedroom_count": 4,
+        "room_count": "8",
+        "Apartment_Facilities": [
+          {
+            "apt_id": 9,
+            "facility_code": "Boardband"
+          }
+        ],
+        "Apartment_Bookings": [
+          {
+            "apt_booking_id": 365,
+            "apt_id": 9,
+            "guest_id": 12,
+            "booking_status_code": "Confirmed",
+            "booking_start_date": "2017-02-11 14:34:14",
+            "booking_end_date": "2017-10-07 20:47:19",
+            "View_Unit_Status": []
+          }
+        ],
+        "View_Unit_Status": [
+          {
+            "apt_id": 9,
+            "apt_booking_id": 623,
+            "status_date": "2011-11-06 22:08:42",
+            "available_yn": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": 644,
+    "building_short_name": "The Anthem",
+    "building_full_name": "The Anthem",
+    "building_description": "Flat",
+    "building_address": "50804 Mason Isle Suite 844\nWest Whitney, ID 66511",
+    "building_manager": "Ewald",
+    "building_phone": "(909)086-5221x3455",
+    "Apartments": []
+  },
+  {
+    "building_id": 673,
+    "building_short_name": "Barclay Tower",
+    "building_full_name": "Barclay Tower",
+    "building_description": "Flat",
+    "building_address": "1579 Runte Forges Apt. 548\nLeuschkeland, OK 12009-8683",
+    "building_manager": "Rogers",
+    "building_phone": "1-326-267-3386x613",
+    "Apartments": [
+      {
+        "apt_id": 12,
+        "building_id": 673,
+        "apt_type_code": "Duplex",
+        "apt_number": "Apt. 477",
+        "bathroom_count": 2,
+        "bedroom_count": 6,
+        "room_count": "3",
+        "Apartment_Facilities": [],
+        "Apartment_Bookings": [
+          {
+            "apt_booking_id": 577,
+            "apt_id": 12,
+            "guest_id": 2,
+            "booking_status_code": "Provisional",
+            "booking_start_date": "2017-03-04 02:23:49",
+            "booking_end_date": "2018-02-06 16:57:05",
+            "View_Unit_Status": []
+          }
+        ],
+        "View_Unit_Status": [
+          {
+            "apt_id": 12,
+            "apt_booking_id": 807,
+            "status_date": "1977-04-15 13:42:19",
+            "available_yn": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": 734,
+    "building_short_name": "Windsor Court",
+    "building_full_name": "Windsor Court",
+    "building_description": "Studio",
+    "building_address": "601 Graham Roads\nPort Luz, VA 29660-6703",
+    "building_manager": "Olaf",
+    "building_phone": "(480)480-7401",
+    "Apartments": [
+      {
+        "apt_id": 11,
+        "building_id": 734,
+        "apt_type_code": "Flat",
+        "apt_number": "Apt. 794",
+        "bathroom_count": 1,
+        "bedroom_count": 5,
+        "room_count": "3",
+        "Apartment_Facilities": [],
+        "Apartment_Bookings": [
+          {
+            "apt_booking_id": 807,
+            "apt_id": 11,
+            "guest_id": 2,
+            "booking_status_code": "Provisional",
+            "booking_start_date": "2016-04-17 12:53:59",
+            "booking_end_date": "2018-03-20 17:32:58",
+            "View_Unit_Status": [
+              {
+                "apt_id": 12,
+                "apt_booking_id": 807,
+                "status_date": "1977-04-15 13:42:19",
+                "available_yn": 1
+              }
+            ]
+          }
+        ],
+        "View_Unit_Status": [
+          {
+            "apt_id": 11,
+            "apt_booking_id": 920,
+            "status_date": "1970-09-28 10:24:29",
+            "available_yn": 1
+          },
+          {
+            "apt_id": 11,
+            "apt_booking_id": 497,
+            "status_date": "1990-11-04 17:57:50",
+            "available_yn": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": 744,
+    "building_short_name": "Silver Towers",
+    "building_full_name": "Silver Towers",
+    "building_description": "Flat",
+    "building_address": "1844 Armstrong Stravenue Suite 853\nMyrnatown, CT 13528",
+    "building_manager": "Claude",
+    "building_phone": "1-667-728-2287x3158",
+    "Apartments": [
+      {
+        "apt_id": 5,
+        "building_id": 744,
+        "apt_type_code": "Flat",
+        "apt_number": "Suite 307",
+        "bathroom_count": 2,
+        "bedroom_count": 4,
+        "room_count": "9",
+        "Apartment_Facilities": [
+          {
+            "apt_id": 5,
+            "facility_code": "Swimming Pool"
+          }
+        ],
+        "Apartment_Bookings": [],
+        "View_Unit_Status": [
+          {
+            "apt_id": 5,
+            "apt_booking_id": 337,
+            "status_date": "2003-07-25 10:13:48",
+            "available_yn": 1
+          },
+          {
+            "apt_id": 5,
+            "apt_booking_id": 889,
+            "status_date": "2015-07-15 11:06:29",
+            "available_yn": 1
+          }
+        ]
+      },
+      {
+        "apt_id": 13,
+        "building_id": 744,
+        "apt_type_code": "Duplex",
+        "apt_number": "Apt. 411",
+        "bathroom_count": 2,
+        "bedroom_count": 5,
+        "room_count": "9",
+        "Apartment_Facilities": [],
+        "Apartment_Bookings": [],
+        "View_Unit_Status": [
+          {
+            "apt_id": 13,
+            "apt_booking_id": 575,
+            "status_date": "1978-12-28 11:53:34",
+            "available_yn": 1
+          },
+          {
+            "apt_id": 13,
+            "apt_booking_id": 337,
+            "status_date": "2000-02-04 07:50:09",
+            "available_yn": 0
+          },
+          {
+            "apt_id": 13,
+            "apt_booking_id": 343,
+            "status_date": "2015-06-19 07:59:01",
+            "available_yn": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": 790,
+    "building_short_name": "Biltmore Plaza",
+    "building_full_name": "Biltmore Plaza",
+    "building_description": "Duplex",
+    "building_address": "489 Josh Orchard Apt. 998\nSipesview, DE 69053",
+    "building_manager": "Sydni",
+    "building_phone": "544-148-5565x2847",
+    "Apartments": [
+      {
+        "apt_id": 7,
+        "building_id": 790,
+        "apt_type_code": "Studio",
+        "apt_number": "Suite 088",
+        "bathroom_count": 2,
+        "bedroom_count": 4,
+        "room_count": "6",
+        "Apartment_Facilities": [],
+        "Apartment_Bookings": [
+          {
+            "apt_booking_id": 401,
+            "apt_id": 7,
+            "guest_id": 14,
+            "booking_status_code": "Provisional",
+            "booking_start_date": "2016-05-24 20:09:38",
+            "booking_end_date": "2017-10-03 01:56:21",
+            "View_Unit_Status": [
+              {
+                "apt_id": 14,
+                "apt_booking_id": 401,
+                "status_date": "1985-11-05 11:46:35",
+                "available_yn": 0
+              },
+              {
+                "apt_id": 6,
+                "apt_booking_id": 401,
+                "status_date": "2011-02-12 09:04:07",
+                "available_yn": 1
+              }
+            ]
+          }
+        ],
+        "View_Unit_Status": []
+      },
+      {
+        "apt_id": 15,
+        "building_id": 790,
+        "apt_type_code": "Duplex",
+        "apt_number": "Suite 634",
+        "bathroom_count": 3,
+        "bedroom_count": 6,
+        "room_count": "8",
+        "Apartment_Facilities": [
+          {
+            "apt_id": 15,
+            "facility_code": "Gym"
+          }
+        ],
+        "Apartment_Bookings": [
+          {
+            "apt_booking_id": 279,
+            "apt_id": 15,
+            "guest_id": 15,
+            "booking_status_code": "Provisional",
+            "booking_start_date": "2016-04-01 06:28:08",
+            "booking_end_date": "2017-10-25 11:08:42",
+            "View_Unit_Status": [
+              {
+                "apt_id": 14,
+                "apt_booking_id": 279,
+                "status_date": "2001-02-17 20:17:09",
+                "available_yn": 1
+              }
+            ]
+          }
+        ],
+        "View_Unit_Status": [
+          {
+            "apt_id": 15,
+            "apt_booking_id": 575,
+            "status_date": "1972-03-23 22:55:53",
+            "available_yn": 1
+          },
+          {
+            "apt_id": 15,
+            "apt_booking_id": 924,
+            "status_date": "1973-10-28 04:30:14",
+            "available_yn": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": 808,
+    "building_short_name": "Petersfield",
+    "building_full_name": "Petersfield",
+    "building_description": "Studio",
+    "building_address": "54686 Christopher Circles Apt. 321\nDaytonland, ID 88081-3991",
+    "building_manager": "Juvenal",
+    "building_phone": "318-398-8140",
+    "Apartments": [
+      {
+        "apt_id": 1,
+        "building_id": 808,
+        "apt_type_code": "Flat",
+        "apt_number": "Suite 645",
+        "bathroom_count": 1,
+        "bedroom_count": 3,
+        "room_count": "7",
+        "Apartment_Facilities": [
+          {
+            "apt_id": 1,
+            "facility_code": "Boardband"
+          }
+        ],
+        "Apartment_Bookings": [],
+        "View_Unit_Status": [
+          {
+            "apt_id": 1,
+            "apt_booking_id": 497,
+            "status_date": "2003-08-02 08:36:36",
+            "available_yn": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "building_id": 968,
+    "building_short_name": "The Clinton",
+    "building_full_name": "The Clinton",
+    "building_description": "Flat",
+    "building_address": "012 Arnoldo Mountain\nGerholdland, ID 23342",
+    "building_manager": "Holly",
+    "building_phone": "1-605-511-1973x25011",
+    "Apartments": []
+  }
+]

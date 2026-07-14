@@ -1,0 +1,869 @@
+{
+    "Roles": [
+        {
+            "role_code": "DBA",
+            "role_description": "Database Administrator",
+            "Users": [
+                {
+                    "user_id": 2,
+                    "role_code": "DBA",
+                    "user_name": "tremblay.raheem",
+                    "user_login": "1",
+                    "password": "9bc25a040d5647ced5ec32e1a455e90fafc10bcb"
+                },
+                {
+                    "user_id": 3,
+                    "role_code": "DBA",
+                    "user_name": "lynn.haley",
+                    "user_login": "0",
+                    "password": "90db8f51449e6c39e2a01f0b649d5a92fe76bbbb"
+                },
+                {
+                    "user_id": 6,
+                    "role_code": "DBA",
+                    "user_name": "amelie53",
+                    "user_login": "0",
+                    "password": "6aa66440864ff8143fe7dee5940a6af3460bad07"
+                },
+                {
+                    "user_id": 7,
+                    "role_code": "DBA",
+                    "user_name": "jacklyn.schmitt",
+                    "user_login": "1",
+                    "password": "3f6affa583bfdf7fac6faeb2ca418431909d4b39"
+                },
+                {
+                    "user_id": 10,
+                    "role_code": "DBA",
+                    "user_name": "heller.harley",
+                    "user_login": "1",
+                    "password": "11af7569a5c1e8b455add5755e18131be2ac8636"
+                },
+                {
+                    "user_id": 11,
+                    "role_code": "DBA",
+                    "user_name": "roger.o'conner",
+                    "user_login": "0",
+                    "password": "3d478d7056d6417966f6b1676f6ec81b3094f44f"
+                },
+                {
+                    "user_id": 12,
+                    "role_code": "DBA",
+                    "user_name": "gussie00",
+                    "user_login": "1",
+                    "password": "75f7b5ed8e70e86467155e003ccda6fce1011c29"
+                },
+                {
+                    "user_id": 14,
+                    "role_code": "DBA",
+                    "user_name": "faye30",
+                    "user_login": "0",
+                    "password": "27cca8f94136f0e8971b5ca555a21ff756871b27"
+                }
+            ]
+        },
+        {
+            "role_code": "PROJ-MGR",
+            "role_description": "Project Manager",
+            "Users": [
+                {
+                    "user_id": 1,
+                    "role_code": "PROJ-MGR",
+                    "user_name": "dickens.elta",
+                    "user_login": "0",
+                    "password": "e72b5a2d50b39a8760764a5f7a9d68ca2f076877"
+                },
+                {
+                    "user_id": 4,
+                    "role_code": "PROJ-MGR",
+                    "user_name": "ycremin",
+                    "user_login": "0",
+                    "password": "f6977378f409f5d2d230016a6678a582e14f43b0"
+                },
+                {
+                    "user_id": 5,
+                    "role_code": "PROJ-MGR",
+                    "user_name": "larson.vesta",
+                    "user_login": "1",
+                    "password": "da383455a05a824606c54e99f671c4d6a2ddae26"
+                },
+                {
+                    "user_id": 8,
+                    "role_code": "PROJ-MGR",
+                    "user_name": "joanne.deckow",
+                    "user_login": "0",
+                    "password": "20241478f890508ac47870cfba472e1db04a71ca"
+                },
+                {
+                    "user_id": 9,
+                    "role_code": "PROJ-MGR",
+                    "user_name": "dickinson.lenora",
+                    "user_login": "0",
+                    "password": "a0fe5434a5f4c218e37b0082f2408b357feb0fa6"
+                },
+                {
+                    "user_id": 13,
+                    "role_code": "PROJ-MGR",
+                    "user_name": "johanna.fisher",
+                    "user_login": "1",
+                    "password": "1fb26eea854962d41512827bf90a5b7ce4b359d8"
+                },
+                {
+                    "user_id": 15,
+                    "role_code": "PROJ-MGR",
+                    "user_name": "glenna.simonis",
+                    "user_login": "1",
+                    "password": "95f489fc0921bbb3e7d661a550ae208b88d9b11a"
+                }
+            ]
+        }
+    ],
+    "Document_Structures": [
+        {
+            "document_structure_code": "1",
+            "parent_document_structure_code": "1",
+            "document_structure_description": "Header",
+            "Documents": [
+                {
+                    "document_code": "621",
+                    "document_structure_code": "1",
+                    "document_type_code": "Paper",
+                    "access_count": 8208,
+                    "document_name": "Research about Art history",
+                    "Document_Functional_Areas": [],
+                    "Document_Sections": [
+                        {
+                            "section_id": 62,
+                            "document_code": "621",
+                            "section_sequence": 5552,
+                            "section_code": "16",
+                            "section_title": "after",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 62,
+                                    "image_id": 14
+                                }
+                            ]
+                        },
+                        {
+                            "section_id": 95,
+                            "document_code": "621",
+                            "section_sequence": 8805,
+                            "section_code": "38",
+                            "section_title": "before",
+                            "Document_Sections_Images": []
+                        }
+                    ]
+                },
+                {
+                    "document_code": "675",
+                    "document_structure_code": "1",
+                    "document_type_code": "Advertisement",
+                    "access_count": 7509,
+                    "document_name": "Fall Sails",
+                    "Document_Functional_Areas": [
+                        {
+                            "document_code": "675",
+                            "functional_area_code": "9"
+                        }
+                    ],
+                    "Document_Sections": [
+                        {
+                            "section_id": 19,
+                            "document_code": "675",
+                            "section_sequence": 7236,
+                            "section_code": "90",
+                            "section_title": "after",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 19,
+                                    "image_id": 2
+                                },
+                                {
+                                    "section_id": 19,
+                                    "image_id": 6
+                                },
+                                {
+                                    "section_id": 19,
+                                    "image_id": 12
+                                }
+                            ]
+                        },
+                        {
+                            "section_id": 21,
+                            "document_code": "675",
+                            "section_sequence": 9847,
+                            "section_code": "72",
+                            "section_title": "before",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 21,
+                                    "image_id": 2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "document_structure_code": "6",
+            "parent_document_structure_code": "1",
+            "document_structure_description": "Main section",
+            "Documents": [
+                {
+                    "document_code": "510",
+                    "document_structure_code": "6",
+                    "document_type_code": "Paper",
+                    "access_count": 3479,
+                    "document_name": "Humanity: a fact",
+                    "Document_Functional_Areas": [],
+                    "Document_Sections": []
+                },
+                {
+                    "document_code": "714",
+                    "document_structure_code": "6",
+                    "document_type_code": "Paper",
+                    "access_count": 9948,
+                    "document_name": "Relationships between History and Arts",
+                    "Document_Functional_Areas": [],
+                    "Document_Sections": [
+                        {
+                            "section_id": 12,
+                            "document_code": "714",
+                            "section_sequence": 6072,
+                            "section_code": "70",
+                            "section_title": "after",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 12,
+                                    "image_id": 12
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "document_structure_code": "8",
+            "parent_document_structure_code": "1",
+            "document_structure_description": "Bib",
+            "Documents": [
+                {
+                    "document_code": "217",
+                    "document_structure_code": "8",
+                    "document_type_code": "Book",
+                    "access_count": 1864,
+                    "document_name": "Learning English",
+                    "Document_Functional_Areas": [
+                        {
+                            "document_code": "217",
+                            "functional_area_code": "1"
+                        },
+                        {
+                            "document_code": "217",
+                            "functional_area_code": "9"
+                        }
+                    ],
+                    "Document_Sections": [
+                        {
+                            "section_id": 15,
+                            "document_code": "217",
+                            "section_sequence": 4510,
+                            "section_code": "14",
+                            "section_title": "after",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 15,
+                                    "image_id": 13
+                                },
+                                {
+                                    "section_id": 15,
+                                    "image_id": 14
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "document_code": "958",
+                    "document_structure_code": "8",
+                    "document_type_code": "Book",
+                    "access_count": 3769,
+                    "document_name": "Learning Database",
+                    "Document_Functional_Areas": [
+                        {
+                            "document_code": "958",
+                            "functional_area_code": "1"
+                        },
+                        {
+                            "document_code": "958",
+                            "functional_area_code": "9"
+                        },
+                        {
+                            "document_code": "958",
+                            "functional_area_code": "9"
+                        }
+                    ],
+                    "Document_Sections": []
+                },
+                {
+                    "document_code": "928",
+                    "document_structure_code": "8",
+                    "document_type_code": "Book",
+                    "access_count": 2045,
+                    "document_name": "How to cook pasta",
+                    "Document_Functional_Areas": [
+                        {
+                            "document_code": "928",
+                            "functional_area_code": "9"
+                        }
+                    ],
+                    "Document_Sections": []
+                },
+                {
+                    "document_code": "713",
+                    "document_structure_code": "8",
+                    "document_type_code": "CV",
+                    "access_count": 2294,
+                    "document_name": "Joe CV",
+                    "Document_Functional_Areas": [
+                        {
+                            "document_code": "713",
+                            "functional_area_code": "8"
+                        }
+                    ],
+                    "Document_Sections": [
+                        {
+                            "section_id": 93,
+                            "document_code": "713",
+                            "section_sequence": 4433,
+                            "section_code": "91",
+                            "section_title": "before",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 93,
+                                    "image_id": 6
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "document_structure_code": "5",
+            "parent_document_structure_code": "6",
+            "document_structure_description": "Image section",
+            "Documents": [
+                {
+                    "document_code": "961",
+                    "document_structure_code": "5",
+                    "document_type_code": "Advertisement",
+                    "access_count": 6661,
+                    "document_name": "Summer Sails",
+                    "Document_Functional_Areas": [
+                        {
+                            "document_code": "961",
+                            "functional_area_code": "9"
+                        },
+                        {
+                            "document_code": "961",
+                            "functional_area_code": "8"
+                        }
+                    ],
+                    "Document_Sections": [
+                        {
+                            "section_id": 54,
+                            "document_code": "961",
+                            "section_sequence": 4794,
+                            "section_code": "34",
+                            "section_title": "before",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 54,
+                                    "image_id": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "document_code": "566",
+                    "document_structure_code": "5",
+                    "document_type_code": "Advertisement",
+                    "access_count": 3289,
+                    "document_name": "Spring Sails",
+                    "Document_Functional_Areas": [],
+                    "Document_Sections": [
+                        {
+                            "section_id": 27,
+                            "document_code": "566",
+                            "section_sequence": 6016,
+                            "section_code": "18",
+                            "section_title": "before",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 27,
+                                    "image_id": 3
+                                },
+                                {
+                                    "section_id": 27,
+                                    "image_id": 10
+                                }
+                            ]
+                        },
+                        {
+                            "section_id": 89,
+                            "document_code": "566",
+                            "section_sequence": 2354,
+                            "section_code": "34",
+                            "section_title": "before",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 89,
+                                    "image_id": 8
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "document_structure_code": "9",
+            "parent_document_structure_code": "8",
+            "document_structure_description": "Author section",
+            "Documents": [
+                {
+                    "document_code": "989",
+                    "document_structure_code": "9",
+                    "document_type_code": "Book",
+                    "access_count": 2910,
+                    "document_name": "Learning Japanese",
+                    "Document_Functional_Areas": [
+                        {
+                            "document_code": "989",
+                            "functional_area_code": "1"
+                        }
+                    ],
+                    "Document_Sections": [
+                        {
+                            "section_id": 57,
+                            "document_code": "989",
+                            "section_sequence": 6349,
+                            "section_code": "22",
+                            "section_title": "after",
+                            "Document_Sections_Images": []
+                        }
+                    ]
+                },
+                {
+                    "document_code": "930",
+                    "document_structure_code": "9",
+                    "document_type_code": "CV",
+                    "access_count": 6345,
+                    "document_name": "David CV",
+                    "Document_Functional_Areas": [
+                        {
+                            "document_code": "930",
+                            "functional_area_code": "1"
+                        }
+                    ],
+                    "Document_Sections": [
+                        {
+                            "section_id": 38,
+                            "document_code": "930",
+                            "section_sequence": 6521,
+                            "section_code": "58",
+                            "section_title": "after",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 38,
+                                    "image_id": 7
+                                },
+                                {
+                                    "section_id": 38,
+                                    "image_id": 12
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "document_code": "706",
+                    "document_structure_code": "9",
+                    "document_type_code": "Advertisement",
+                    "access_count": 8623,
+                    "document_name": "Winter Sails",
+                    "Document_Functional_Areas": [
+                        {
+                            "document_code": "706",
+                            "functional_area_code": "8"
+                        }
+                    ],
+                    "Document_Sections": [
+                        {
+                            "section_id": 86,
+                            "document_code": "706",
+                            "section_sequence": 2170,
+                            "section_code": "60",
+                            "section_title": "after",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 86,
+                                    "image_id": 2
+                                },
+                                {
+                                    "section_id": 86,
+                                    "image_id": 4
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "document_code": "465",
+                    "document_structure_code": "9",
+                    "document_type_code": "CV",
+                    "access_count": 5924,
+                    "document_name": "John CV",
+                    "Document_Functional_Areas": [
+                        {
+                            "document_code": "465",
+                            "functional_area_code": "1"
+                        }
+                    ],
+                    "Document_Sections": [
+                        {
+                            "section_id": 23,
+                            "document_code": "465",
+                            "section_sequence": 8548,
+                            "section_code": "49",
+                            "section_title": "after",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 23,
+                                    "image_id": 8
+                                }
+                            ]
+                        },
+                        {
+                            "section_id": 40,
+                            "document_code": "465",
+                            "section_sequence": 4964,
+                            "section_code": "93",
+                            "section_title": "after",
+                            "Document_Sections_Images": [
+                                {
+                                    "section_id": 40,
+                                    "image_id": 5
+                                },
+                                {
+                                    "section_id": 40,
+                                    "image_id": 6
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "document_code": "349",
+                    "document_structure_code": "9",
+                    "document_type_code": "Book",
+                    "access_count": 1219,
+                    "document_name": "Life about Claude Monet",
+                    "Document_Functional_Areas": [
+                        {
+                            "document_code": "349",
+                            "functional_area_code": "1"
+                        }
+                    ],
+                    "Document_Sections": []
+                }
+            ]
+        }
+    ],
+    "Functional_Areas": [
+        {
+            "functional_area_code": "8",
+            "parent_functional_area_code": "8",
+            "functional_area_description": "Signature",
+            "Document_Functional_Areas": [
+                {
+                    "document_code": "961",
+                    "functional_area_code": "8"
+                },
+                {
+                    "document_code": "706",
+                    "functional_area_code": "8"
+                },
+                {
+                    "document_code": "713",
+                    "functional_area_code": "8"
+                }
+            ]
+        },
+        {
+            "functional_area_code": "1",
+            "parent_functional_area_code": "8",
+            "functional_area_description": "Acknowledgement",
+            "Document_Functional_Areas": [
+                {
+                    "document_code": "930",
+                    "functional_area_code": "1"
+                },
+                {
+                    "document_code": "217",
+                    "functional_area_code": "1"
+                },
+                {
+                    "document_code": "465",
+                    "functional_area_code": "1"
+                },
+                {
+                    "document_code": "958",
+                    "functional_area_code": "1"
+                },
+                {
+                    "document_code": "349",
+                    "functional_area_code": "1"
+                },
+                {
+                    "document_code": "989",
+                    "functional_area_code": "1"
+                }
+            ]
+        },
+        {
+            "functional_area_code": "9",
+            "parent_functional_area_code": "8",
+            "functional_area_description": "Keep blank",
+            "Document_Functional_Areas": [
+                {
+                    "document_code": "675",
+                    "functional_area_code": "9"
+                },
+                {
+                    "document_code": "958",
+                    "functional_area_code": "9"
+                },
+                {
+                    "document_code": "217",
+                    "functional_area_code": "9"
+                },
+                {
+                    "document_code": "961",
+                    "functional_area_code": "9"
+                },
+                {
+                    "document_code": "928",
+                    "functional_area_code": "9"
+                },
+                {
+                    "document_code": "958",
+                    "functional_area_code": "9"
+                }
+            ]
+        }
+    ],
+    "Images": [
+        {
+            "image_id": 1,
+            "image_alt_text": "Lea",
+            "image_name": "top1",
+            "image_url": "http://www.rempelnader.com/1.jpg",
+            "Document_Sections_Images": []
+        },
+        {
+            "image_id": 2,
+            "image_alt_text": "Arden",
+            "image_name": "top2",
+            "image_url": "http://connellykertzmann.org/1.jpg",
+            "Document_Sections_Images": [
+                {
+                    "section_id": 86,
+                    "image_id": 2
+                },
+                {
+                    "section_id": 19,
+                    "image_id": 2
+                },
+                {
+                    "section_id": 21,
+                    "image_id": 2
+                }
+            ]
+        },
+        {
+            "image_id": 3,
+            "image_alt_text": "Mohamed",
+            "image_name": "top3",
+            "image_url": "http://www.bernierconnelly.com/1.jpg",
+            "Document_Sections_Images": [
+                {
+                    "section_id": 27,
+                    "image_id": 3
+                }
+            ]
+        },
+        {
+            "image_id": 4,
+            "image_alt_text": "Chaya",
+            "image_name": "top4",
+            "image_url": "http://abernathyboehm.com/1.jpg",
+            "Document_Sections_Images": [
+                {
+                    "section_id": 86,
+                    "image_id": 4
+                }
+            ]
+        },
+        {
+            "image_id": 5,
+            "image_alt_text": "Percival",
+            "image_name": "chapter1",
+            "image_url": "http://gaylord.info/1.jpg",
+            "Document_Sections_Images": [
+                {
+                    "section_id": 40,
+                    "image_id": 5
+                }
+            ]
+        },
+        {
+            "image_id": 6,
+            "image_alt_text": "Lincoln",
+            "image_name": "chapter2",
+            "image_url": "http://www.hellerreinger.com/1.jpg",
+            "Document_Sections_Images": [
+                {
+                    "section_id": 93,
+                    "image_id": 6
+                },
+                {
+                    "section_id": 40,
+                    "image_id": 6
+                },
+                {
+                    "section_id": 19,
+                    "image_id": 6
+                }
+            ]
+        },
+        {
+            "image_id": 7,
+            "image_alt_text": "Camylle",
+            "image_name": "chapter3",
+            "image_url": "http://faycummerata.net/1.jpg",
+            "Document_Sections_Images": [
+                {
+                    "section_id": 38,
+                    "image_id": 7
+                }
+            ]
+        },
+        {
+            "image_id": 8,
+            "image_alt_text": "Ashtyn",
+            "image_name": "chapter4",
+            "image_url": "http://haleychamplin.net/1.jpg",
+            "Document_Sections_Images": [
+                {
+                    "section_id": 89,
+                    "image_id": 8
+                },
+                {
+                    "section_id": 23,
+                    "image_id": 8
+                }
+            ]
+        },
+        {
+            "image_id": 9,
+            "image_alt_text": "Filomena",
+            "image_name": "chapter5",
+            "image_url": "http://www.fritsch.net/1.jpg",
+            "Document_Sections_Images": []
+        },
+        {
+            "image_id": 10,
+            "image_alt_text": "Jeanette",
+            "image_name": "data1",
+            "image_url": "http://sauer.com/1.jpg",
+            "Document_Sections_Images": [
+                {
+                    "section_id": 27,
+                    "image_id": 10
+                }
+            ]
+        },
+        {
+            "image_id": 11,
+            "image_alt_text": "Name",
+            "image_name": "data2",
+            "image_url": "http://www.heller.com/1.jpg",
+            "Document_Sections_Images": []
+        },
+        {
+            "image_id": 12,
+            "image_alt_text": "Marianna",
+            "image_name": "data3",
+            "image_url": "http://www.hermann.com/1.jpg",
+            "Document_Sections_Images": [
+                {
+                    "section_id": 12,
+                    "image_id": 12
+                },
+                {
+                    "section_id": 19,
+                    "image_id": 12
+                },
+                {
+                    "section_id": 38,
+                    "image_id": 12
+                },
+                {
+                    "section_id": 54,
+                    "image_id": 12
+                }
+            ]
+        },
+        {
+            "image_id": 13,
+            "image_alt_text": "Stephen",
+            "image_name": "data4",
+            "image_url": "http://rowelakin.com/1.jpg",
+            "Document_Sections_Images": [
+                {
+                    "section_id": 15,
+                    "image_id": 13
+                }
+            ]
+        },
+        {
+            "image_id": 14,
+            "image_alt_text": "Miller",
+            "image_name": "data5",
+            "image_url": "http://andersonluettgen.net/1.jpg",
+            "Document_Sections_Images": [
+                {
+                    "section_id": 62,
+                    "image_id": 14
+                },
+                {
+                    "section_id": 15,
+                    "image_id": 14
+                }
+            ]
+        },
+        {
+            "image_id": 15,
+            "image_alt_text": "Trycia",
+            "image_name": "data6",
+            "image_url": "http://www.beahan.biz/1.jpg",
+            "Document_Sections_Images": []
+        }
+    ]
+}

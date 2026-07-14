@@ -1,0 +1,163 @@
+{
+    "people": [
+        {
+            "People_ID": 1,
+            "District": "New York 1",
+            "Name": "Luther C. Carter",
+            "Party": "Republican",
+            "Age": 35,
+            "debate_people": []
+        },
+        {
+            "People_ID": 2,
+            "District": "New York 2",
+            "Name": "James Humphrey",
+            "Party": "Republican",
+            "Age": 38,
+            "debate_people": []
+        },
+        {
+            "People_ID": 3,
+            "District": "New York 3",
+            "Name": "Daniel Sickles",
+            "Party": "Democratic",
+            "Age": 46,
+            "debate_people": []
+        },
+        {
+            "People_ID": 4,
+            "District": "New York 4",
+            "Name": "Thomas J. Barr",
+            "Party": "Independent Democrat",
+            "Age": 48,
+            "debate_people": []
+        },
+        {
+            "People_ID": 5,
+            "District": "New York 5",
+            "Name": "William B. Maclay",
+            "Party": "Democratic",
+            "Age": 36,
+            "debate_people": []
+        },
+        {
+            "People_ID": 6,
+            "District": "New York 6",
+            "Name": "John Cochrane",
+            "Party": "Democratic",
+            "Age": 46,
+            "debate_people": []
+        },
+        {
+            "People_ID": 7,
+            "District": "New York 7",
+            "Name": "George Briggs",
+            "Party": "Republican",
+            "Age": 42,
+            "debate_people": []
+        },
+        {
+            "People_ID": 8,
+            "District": "New York 8",
+            "Name": "Horace F. Clark",
+            "Party": "Anti-Lecompton Democrat",
+            "Age": 45,
+            "debate_people": []
+        },
+        {
+            "People_ID": 9,
+            "District": "New York 9",
+            "Name": "John B. Haskin",
+            "Party": "Anti-Lecompton Democrat",
+            "Age": 43,
+            "debate_people": []
+        },
+        {
+            "People_ID": 10,
+            "District": "New York 10",
+            "Name": "Charles Van Wyck",
+            "Party": "Republican",
+            "Age": 36,
+            "debate_people": []
+        }
+    ],
+    "debate": [
+        {
+            "Debate_ID": 1,
+            "Date": "October 21, 2011",
+            "Venue": "Manama , Bahrain",
+            "Num_of_Audience": 342,
+            "debate_people": [
+                {
+                    "Debate_ID": 1,
+                    "Affirmative": 1,
+                    "Negative": 10,
+                    "If_Affirmative_Win": "F"
+                }
+            ]
+        },
+        {
+            "Debate_ID": 2,
+            "Date": "December 17, 2014",
+            "Venue": "Doha , Qatar",
+            "Num_of_Audience": 134,
+            "debate_people": []
+        },
+        {
+            "Debate_ID": 3,
+            "Date": "August 3, 2015",
+            "Venue": "Manama , Bahrain",
+            "Num_of_Audience": 90,
+            "debate_people": [
+                {
+                    "Debate_ID": 3,
+                    "Affirmative": 4,
+                    "Negative": 7,
+                    "If_Affirmative_Win": "T"
+                }
+            ]
+        },
+        {
+            "Debate_ID": 4,
+            "Date": "October 27, 2015",
+            "Venue": "Manama , Bahrain",
+            "Num_of_Audience": 209,
+            "debate_people": [
+                {
+                    "Debate_ID": 4,
+                    "Affirmative": 5,
+                    "Negative": 8,
+                    "If_Affirmative_Win": "F"
+                }
+            ]
+        },
+        {
+            "Debate_ID": 5,
+            "Date": "January 12, 2017",
+            "Venue": "Dubai , UAE",
+            "Num_of_Audience": 313,
+            "debate_people": [
+                {
+                    "Debate_ID": 5,
+                    "Affirmative": 2,
+                    "Negative": 8,
+                    "If_Affirmative_Win": "F"
+                }
+            ]
+        },
+        {
+            "Debate_ID": 6,
+            "Date": "January 21, 2017",
+            "Venue": "Abu Dhabi , UAE",
+            "Num_of_Audience": 159,
+            "debate_people": [
+                {
+                    "Debate_ID": 6,
+                    "Affirmative": 5,
+                    "Negative": 6,
+                    "If_Affirmative_Win": "T"
+                }
+            ]
+        }
+    ]
+}

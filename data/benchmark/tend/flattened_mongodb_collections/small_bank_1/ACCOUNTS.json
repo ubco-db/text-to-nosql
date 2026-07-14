@@ -1,0 +1,109 @@
+[
+  {
+    "custid": 1,
+    "name": "Brown",
+    "SAVINGS": [
+      {
+        "custid": 1,
+        "balance": 200000.0
+      }
+    ],
+    "CHECKING": [
+      {
+        "custid": 1,
+        "balance": 10000.0
+      }
+    ]
+  },
+  {
+    "custid": 2,
+    "name": "Wang",
+    "SAVINGS": [
+      {
+        "custid": 2,
+        "balance": 999999999.0
+      }
+    ],
+    "CHECKING": [
+      {
+        "custid": 2,
+        "balance": 2000.0
+      }
+    ]
+  },
+  {
+    "custid": 3,
+    "name": "O'mahony",
+    "SAVINGS": [
+      {
+        "custid": 3,
+        "balance": 230000.0
+      }
+    ],
+    "CHECKING": [
+      {
+        "custid": 3,
+        "balance": 3000.0
+      }
+    ]
+  },
+  {
+    "custid": 4,
+    "name": "Weeks",
+    "SAVINGS": [
+      {
+        "custid": 4,
+        "balance": 60.0
+      }
+    ],
+    "CHECKING": [
+      {
+        "custid": 4,
+        "balance": 7000.0
+      }
+    ]
+  },
+  {
+    "custid": 5,
+    "name": "Granger",
+    "SAVINGS": [
+      {
+        "custid": 5,
+        "balance": 80000.0
+      }
+    ],
+    "CHECKING": [
+      {
+        "custid": 5,
+        "balance": 10000.0
+      }
+    ]
+  },
+  {
+    "custid": 6,
+    "name": "Porter",
+    "SAVINGS": [
+      {
+        "custid": 6,
+        "balance": 240.0
+      }
+    ],
+    "CHECKING": [
+      {
+        "custid": 6,
+        "balance": 77.0
+      }
+    ]
+  },
+  {
+    "custid": 7,
+    "name": "Wesley",
+    "SAVINGS": [],
+    "CHECKING": [
+      {
+        "custid": 7,
+        "balance": 7.0
+      }
+    ]
+  }
+]

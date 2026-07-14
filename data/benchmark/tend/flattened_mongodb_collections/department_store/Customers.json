@@ -1,0 +1,465 @@
+[
+  {
+    "customer_id": 1,
+    "payment_method_code": "Credit Card",
+    "customer_code": "401",
+    "customer_name": "Ahmed",
+    "customer_address": "75099 Tremblay Port Apt. 163\nSouth Norrisland, SC 80546",
+    "customer_phone": "254-072-4068x33935",
+    "customer_email": "margarett.vonrueden@example.com",
+    "Customer_Addresses": [
+      {
+        "customer_id": 1,
+        "address_id": 2,
+        "date_from": "2017-07-31 20:18:52",
+        "date_to": "2018-03-12 05:32:28"
+      },
+      {
+        "customer_id": 1,
+        "address_id": 6,
+        "date_from": "2017-10-07 23:00:26",
+        "date_to": "2018-02-28 14:53:52"
+      },
+      {
+        "customer_id": 1,
+        "address_id": 9,
+        "date_from": "2017-12-14 07:40:08",
+        "date_to": "2018-03-24 14:31:59"
+      },
+      {
+        "customer_id": 1,
+        "address_id": 14,
+        "date_from": "2017-08-06 20:57:36",
+        "date_to": "2018-03-05 21:19:53"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 3,
+        "customer_id": 1,
+        "order_status_code": "PartFilled",
+        "order_date": "2018-02-26 12:39:33",
+        "Order_Items": []
+      },
+      {
+        "order_id": 7,
+        "customer_id": 1,
+        "order_status_code": "Cancelled",
+        "order_date": "2018-02-15 02:25:32",
+        "Order_Items": [
+          {
+            "order_item_id": 11,
+            "order_id": 7,
+            "product_id": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "customer_id": 2,
+    "payment_method_code": "Credit Card",
+    "customer_code": "665",
+    "customer_name": "Chauncey",
+    "customer_address": "8408 Lindsay Court\nEast Dasiabury, IL 72656-3552",
+    "customer_phone": "+41(8)1897032009",
+    "customer_email": "stiedemann.sigrid@example.com",
+    "Customer_Addresses": [
+      {
+        "customer_id": 2,
+        "address_id": 4,
+        "date_from": "2017-11-28 23:36:20",
+        "date_to": "2018-03-02 17:46:11"
+      },
+      {
+        "customer_id": 2,
+        "address_id": 9,
+        "date_from": "2017-12-11 05:00:22",
+        "date_to": "2018-03-20 20:52:34"
+      }
+    ],
+    "Customer_Orders": []
+  },
+  {
+    "customer_id": 3,
+    "payment_method_code": "Direct Debit",
+    "customer_code": "844",
+    "customer_name": "Lukas",
+    "customer_address": "7162 Rodolfo Knoll Apt. 502\nLake Annalise, TN 35791-8871",
+    "customer_phone": "197-417-3557",
+    "customer_email": "joelle.monahan@example.com",
+    "Customer_Addresses": [],
+    "Customer_Orders": []
+  },
+  {
+    "customer_id": 4,
+    "payment_method_code": "Direct Debit",
+    "customer_code": "662",
+    "customer_name": "Lexus",
+    "customer_address": "9581 Will Flat Suite 272\nEast Cathryn, WY 30751-4404",
+    "customer_phone": "+08(3)8056580281",
+    "customer_email": "gbrekke@example.com",
+    "Customer_Addresses": [
+      {
+        "customer_id": 4,
+        "address_id": 12,
+        "date_from": "2017-08-27 13:38:37",
+        "date_to": "2018-03-17 15:44:10"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 2,
+        "customer_id": 4,
+        "order_status_code": "New",
+        "order_date": "2018-01-31 17:49:18",
+        "Order_Items": []
+      },
+      {
+        "order_id": 4,
+        "customer_id": 4,
+        "order_status_code": "Pending",
+        "order_date": "2018-03-07 16:55:17",
+        "Order_Items": []
+      },
+      {
+        "order_id": 5,
+        "customer_id": 4,
+        "order_status_code": "New",
+        "order_date": "2018-02-12 19:34:12",
+        "Order_Items": [
+          {
+            "order_item_id": 3,
+            "order_id": 5,
+            "product_id": 2
+          },
+          {
+            "order_item_id": 15,
+            "order_id": 5,
+            "product_id": 4
+          }
+        ]
+      },
+      {
+        "order_id": 12,
+        "customer_id": 4,
+        "order_status_code": "New",
+        "order_date": "2018-02-02 23:42:01",
+        "Order_Items": [
+          {
+            "order_item_id": 8,
+            "order_id": 12,
+            "product_id": 8
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "customer_id": 5,
+    "payment_method_code": "Credit Card",
+    "customer_code": "848",
+    "customer_name": "Tara",
+    "customer_address": "5065 Mraz Fields Apt. 041\nEast Chris, NH 41624",
+    "customer_phone": "1-064-498-6609x051",
+    "customer_email": "nicholas44@example.com",
+    "Customer_Addresses": [],
+    "Customer_Orders": []
+  },
+  {
+    "customer_id": 6,
+    "payment_method_code": "Credit Card",
+    "customer_code": "916",
+    "customer_name": "Jon",
+    "customer_address": "841 Goyette Unions\nSouth Dionbury, NC 62021",
+    "customer_phone": "(443)013-3112x528",
+    "customer_email": "cconroy@example.net",
+    "Customer_Addresses": [
+      {
+        "customer_id": 6,
+        "address_id": 13,
+        "date_from": "2017-09-07 04:41:01",
+        "date_to": "2018-02-27 23:10:07"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 14,
+        "customer_id": 6,
+        "order_status_code": "Completed",
+        "order_date": "2018-03-18 15:12:39",
+        "Order_Items": [
+          {
+            "order_item_id": 4,
+            "order_id": 14,
+            "product_id": 10
+          },
+          {
+            "order_item_id": 6,
+            "order_id": 14,
+            "product_id": 13
+          },
+          {
+            "order_item_id": 10,
+            "order_id": 14,
+            "product_id": 13
+          },
+          {
+            "order_item_id": 12,
+            "order_id": 14,
+            "product_id": 14
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "customer_id": 7,
+    "payment_method_code": "Credit Card",
+    "customer_code": "172",
+    "customer_name": "Cristobal",
+    "customer_address": "8327 Christiansen Lakes Suite 409\nSchneiderland, IA 93624",
+    "customer_phone": "877-150-8674x63517",
+    "customer_email": "shawna.cummerata@example.net",
+    "Customer_Addresses": [
+      {
+        "customer_id": 7,
+        "address_id": 4,
+        "date_from": "2018-02-22 04:46:48",
+        "date_to": "2018-02-26 00:52:25"
+      },
+      {
+        "customer_id": 7,
+        "address_id": 7,
+        "date_from": "2017-10-02 19:56:27",
+        "date_to": "2018-03-22 17:22:34"
+      },
+      {
+        "customer_id": 7,
+        "address_id": 10,
+        "date_from": "2018-01-07 13:31:08",
+        "date_to": "2018-03-09 07:06:56"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 9,
+        "customer_id": 7,
+        "order_status_code": "Pending",
+        "order_date": "2018-02-09 11:16:46",
+        "Order_Items": [
+          {
+            "order_item_id": 1,
+            "order_id": 9,
+            "product_id": 7
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "customer_id": 8,
+    "payment_method_code": "Direct Debit",
+    "customer_code": "927",
+    "customer_name": "Adah",
+    "customer_address": "5049 Hand Land\nCoymouth, IL 97300-7731",
+    "customer_phone": "1-695-364-7586x59256",
+    "customer_email": "kathlyn24@example.org",
+    "Customer_Addresses": [
+      {
+        "customer_id": 8,
+        "address_id": 2,
+        "date_from": "2018-01-27 06:27:34",
+        "date_to": "2018-03-23 17:49:51"
+      },
+      {
+        "customer_id": 8,
+        "address_id": 4,
+        "date_from": "2018-01-15 12:05:39",
+        "date_to": "2018-03-13 21:49:51"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 11,
+        "customer_id": 8,
+        "order_status_code": "Cancelled",
+        "order_date": "2018-02-16 19:42:39",
+        "Order_Items": []
+      }
+    ]
+  },
+  {
+    "customer_id": 9,
+    "payment_method_code": "Credit Card",
+    "customer_code": "808",
+    "customer_name": "Yasmeen",
+    "customer_address": "3558 Witting Meadow Apt. 483\nLake Moriahbury, OH 91556-2122",
+    "customer_phone": "587.398.2400x31176",
+    "customer_email": "ludwig54@example.net",
+    "Customer_Addresses": [],
+    "Customer_Orders": []
+  },
+  {
+    "customer_id": 10,
+    "payment_method_code": "Credit Card",
+    "customer_code": "887",
+    "customer_name": "Karson",
+    "customer_address": "7308 Joan Lake Suite 346\nLizethtown, DE 56522",
+    "customer_phone": "857-844-9339x40140",
+    "customer_email": "moriah91@example.com",
+    "Customer_Addresses": [
+      {
+        "customer_id": 10,
+        "address_id": 8,
+        "date_from": "2017-04-04 20:00:27",
+        "date_to": "2018-02-27 20:08:33"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 15,
+        "customer_id": 10,
+        "order_status_code": "Pending",
+        "order_date": "2018-03-16 22:42:46",
+        "Order_Items": [
+          {
+            "order_item_id": 5,
+            "order_id": 15,
+            "product_id": 4
+          },
+          {
+            "order_item_id": 13,
+            "order_id": 15,
+            "product_id": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "customer_id": 11,
+    "payment_method_code": "Direct Debit",
+    "customer_code": "611",
+    "customer_name": "Cordell",
+    "customer_address": "362 Fisher Forge Apt. 900\nNew Mckenna, CA 98525-5674",
+    "customer_phone": "(730)934-8249",
+    "customer_email": "qstokes@example.org",
+    "Customer_Addresses": [],
+    "Customer_Orders": [
+      {
+        "order_id": 6,
+        "customer_id": 11,
+        "order_status_code": "PartFilled",
+        "order_date": "2018-03-06 16:35:51",
+        "Order_Items": [
+          {
+            "order_item_id": 7,
+            "order_id": 6,
+            "product_id": 13
+          }
+        ]
+      },
+      {
+        "order_id": 10,
+        "customer_id": 11,
+        "order_status_code": "Cancelled",
+        "order_date": "2018-03-22 10:49:25",
+        "Order_Items": []
+      }
+    ]
+  },
+  {
+    "customer_id": 12,
+    "payment_method_code": "Credit Card",
+    "customer_code": "182",
+    "customer_name": "Darron",
+    "customer_address": "84445 Elinor Glens\nPort Zita, SD 39410",
+    "customer_phone": "117.822.3577",
+    "customer_email": "gwisozk@example.net",
+    "Customer_Addresses": [
+      {
+        "customer_id": 12,
+        "address_id": 14,
+        "date_from": "2017-11-01 04:21:41",
+        "date_to": "2018-03-05 16:18:34"
+      }
+    ],
+    "Customer_Orders": [
+      {
+        "order_id": 1,
+        "customer_id": 12,
+        "order_status_code": "Completed",
+        "order_date": "2018-02-10 15:44:48",
+        "Order_Items": [
+          {
+            "order_item_id": 2,
+            "order_id": 1,
+            "product_id": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "customer_id": 13,
+    "payment_method_code": "Credit Card",
+    "customer_code": "589",
+    "customer_name": "Kenya",
+    "customer_address": "338 Floy Mountains Suite 589\nYesseniaville, TN 60847",
+    "customer_phone": "08023680831",
+    "customer_email": "maxime86@example.net",
+    "Customer_Addresses": [],
+    "Customer_Orders": [
+      {
+        "order_id": 8,
+        "customer_id": 13,
+        "order_status_code": "Pending",
+        "order_date": "2018-03-05 23:17:54",
+        "Order_Items": [
+          {
+            "order_item_id": 14,
+            "order_id": 8,
+            "product_id": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "customer_id": 14,
+    "payment_method_code": "Direct Debit",
+    "customer_code": "240",
+    "customer_name": "Abbie",
+    "customer_address": "983 Elinore Passage\nDarrionborough, SC 53915-0479",
+    "customer_phone": "07594320656",
+    "customer_email": "celine.bogan@example.com",
+    "Customer_Addresses": [],
+    "Customer_Orders": []
+  },
+  {
+    "customer_id": 15,
+    "payment_method_code": "Credit Card",
+    "customer_code": "980",
+    "customer_name": "Lyric",
+    "customer_address": "649 Ocie Lights\nWyatttown, UT 12697",
+    "customer_phone": "1-472-036-0434",
+    "customer_email": "schultz.arnoldo@example.net",
+    "Customer_Addresses": [],
+    "Customer_Orders": [
+      {
+        "order_id": 13,
+        "customer_id": 15,
+        "order_status_code": "PartFilled",
+        "order_date": "2018-02-26 05:34:18",
+        "Order_Items": [
+          {
+            "order_item_id": 9,
+            "order_id": 13,
+            "product_id": 12
+          }
+        ]
+      }
+    ]
+  }
+]

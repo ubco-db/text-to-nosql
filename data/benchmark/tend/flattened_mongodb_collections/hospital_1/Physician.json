@@ -1,0 +1,861 @@
+[
+  {
+    "EmployeeID": 1,
+    "Name": "John Dorian",
+    "Position": "Staff Internist",
+    "SSN": 111111111,
+    "Department": [],
+    "Affiliated_With": [
+      {
+        "Physician": 1,
+        "Department": 1,
+        "PrimaryAffiliation": 1
+      }
+    ],
+    "Trained_In": [],
+    "Patient": [
+      {
+        "SSN": 100000001,
+        "Name": "John Smith",
+        "Address": "42 Foobar Lane",
+        "Phone": "555-0256",
+        "InsuranceID": 68476213,
+        "PCP": 1,
+        "Appointment": [
+          {
+            "AppointmentID": 13216584,
+            "Patient": 100000001,
+            "PrepNurse": 101,
+            "Physician": 1,
+            "Start": "2008-04-24 10:00",
+            "End": "2008-04-24 11:00",
+            "ExaminationRoom": "A",
+            "Prescribes": [
+              {
+                "Physician": 1,
+                "Patient": 100000001,
+                "Medication": 1,
+                "Date": "2008-04-24 10:47",
+                "Appointment": 13216584,
+                "Dose": "5"
+              }
+            ]
+          },
+          {
+            "AppointmentID": 36549879,
+            "Patient": 100000001,
+            "PrepNurse": 102,
+            "Physician": 1,
+            "Start": "2008-04-25 10:00",
+            "End": "2008-04-25 11:00",
+            "ExaminationRoom": "A",
+            "Prescribes": []
+          },
+          {
+            "AppointmentID": 76983231,
+            "Patient": 100000001,
+            "PrepNurse": null,
+            "Physician": 3,
+            "Start": "2008-04-26 12:00",
+            "End": "2008-04-26 13:00",
+            "ExaminationRoom": "C",
+            "Prescribes": []
+          }
+        ],
+        "Prescribes": [
+          {
+            "Physician": 1,
+            "Patient": 100000001,
+            "Medication": 1,
+            "Date": "2008-04-24 10:47",
+            "Appointment": 13216584,
+            "Dose": "5"
+          }
+        ],
+        "Stay": [
+          {
+            "StayID": 3215,
+            "Patient": 100000001,
+            "Room": 111,
+            "StayStart": "2008-05-01",
+            "StayEnd": "2008-05-04",
+            "Undergoes": [
+              {
+                "Patient": 100000001,
+                "Procedures": 6,
+                "Stay": 3215,
+                "DateUndergoes": "2008-05-02",
+                "Physician": 3,
+                "AssistingNurse": 101
+              },
+              {
+                "Patient": 100000001,
+                "Procedures": 2,
+                "Stay": 3215,
+                "DateUndergoes": "2008-05-03",
+                "Physician": 7,
+                "AssistingNurse": 101
+              }
+            ]
+          }
+        ],
+        "Undergoes": [
+          {
+            "Patient": 100000001,
+            "Procedures": 2,
+            "Stay": 3215,
+            "DateUndergoes": "2008-05-03",
+            "Physician": 7,
+            "AssistingNurse": 101
+          },
+          {
+            "Patient": 100000001,
+            "Procedures": 6,
+            "Stay": 3215,
+            "DateUndergoes": "2008-05-02",
+            "Physician": 3,
+            "AssistingNurse": 101
+          },
+          {
+            "Patient": 100000001,
+            "Procedures": 7,
+            "Stay": 3217,
+            "DateUndergoes": "2008-05-10",
+            "Physician": 7,
+            "AssistingNurse": 101
+          }
+        ]
+      }
+    ],
+    "Appointment": [
+      {
+        "AppointmentID": 13216584,
+        "Patient": 100000001,
+        "PrepNurse": 101,
+        "Physician": 1,
+        "Start": "2008-04-24 10:00",
+        "End": "2008-04-24 11:00",
+        "ExaminationRoom": "A",
+        "Prescribes": [
+          {
+            "Physician": 1,
+            "Patient": 100000001,
+            "Medication": 1,
+            "Date": "2008-04-24 10:47",
+            "Appointment": 13216584,
+            "Dose": "5"
+          }
+        ]
+      },
+      {
+        "AppointmentID": 36549879,
+        "Patient": 100000001,
+        "PrepNurse": 102,
+        "Physician": 1,
+        "Start": "2008-04-25 10:00",
+        "End": "2008-04-25 11:00",
+        "ExaminationRoom": "A",
+        "Prescribes": []
+      }
+    ],
+    "Prescribes": [
+      {
+        "Physician": 1,
+        "Patient": 100000001,
+        "Medication": 1,
+        "Date": "2008-04-24 10:47",
+        "Appointment": 13216584,
+        "Dose": "5"
+      }
+    ],
+    "Undergoes": []
+  },
+  {
+    "EmployeeID": 2,
+    "Name": "Elliot Reid",
+    "Position": "Attending Physician",
+    "SSN": 222222222,
+    "Department": [],
+    "Affiliated_With": [
+      {
+        "Physician": 2,
+        "Department": 1,
+        "PrimaryAffiliation": 1
+      }
+    ],
+    "Trained_In": [],
+    "Patient": [
+      {
+        "SSN": 100000002,
+        "Name": "Grace Ritchie",
+        "Address": "37 Snafu Drive",
+        "Phone": "555-0512",
+        "InsuranceID": 36546321,
+        "PCP": 2,
+        "Appointment": [
+          {
+            "AppointmentID": 26548913,
+            "Patient": 100000002,
+            "PrepNurse": 101,
+            "Physician": 2,
+            "Start": "2008-04-24 10:00",
+            "End": "2008-04-24 11:00",
+            "ExaminationRoom": "B",
+            "Prescribes": []
+          },
+          {
+            "AppointmentID": 93216548,
+            "Patient": 100000002,
+            "PrepNurse": 101,
+            "Physician": 2,
+            "Start": "2008-04-27 10:00",
+            "End": "2008-04-27 11:00",
+            "ExaminationRoom": "B",
+            "Prescribes": []
+          }
+        ],
+        "Prescribes": [],
+        "Stay": [],
+        "Undergoes": []
+      },
+      {
+        "SSN": 100000003,
+        "Name": "Random J. Patient",
+        "Address": "101 Omgbbq Street",
+        "Phone": "555-1204",
+        "InsuranceID": 65465421,
+        "PCP": 2,
+        "Appointment": [
+          {
+            "AppointmentID": 69879231,
+            "Patient": 100000003,
+            "PrepNurse": 103,
+            "Physician": 2,
+            "Start": "2008-04-26 11:00",
+            "End": "2008-04-26 12:00",
+            "ExaminationRoom": "C",
+            "Prescribes": []
+          }
+        ],
+        "Prescribes": [],
+        "Stay": [
+          {
+            "StayID": 3216,
+            "Patient": 100000003,
+            "Room": 123,
+            "StayStart": "2008-05-03",
+            "StayEnd": "2008-05-14",
+            "Undergoes": []
+          }
+        ],
+        "Undergoes": []
+      }
+    ],
+    "Appointment": [
+      {
+        "AppointmentID": 26548913,
+        "Patient": 100000002,
+        "PrepNurse": 101,
+        "Physician": 2,
+        "Start": "2008-04-24 10:00",
+        "End": "2008-04-24 11:00",
+        "ExaminationRoom": "B",
+        "Prescribes": []
+      },
+      {
+        "AppointmentID": 69879231,
+        "Patient": 100000003,
+        "PrepNurse": 103,
+        "Physician": 2,
+        "Start": "2008-04-26 11:00",
+        "End": "2008-04-26 12:00",
+        "ExaminationRoom": "C",
+        "Prescribes": []
+      },
+      {
+        "AppointmentID": 93216548,
+        "Patient": 100000002,
+        "PrepNurse": 101,
+        "Physician": 2,
+        "Start": "2008-04-27 10:00",
+        "End": "2008-04-27 11:00",
+        "ExaminationRoom": "B",
+        "Prescribes": []
+      }
+    ],
+    "Prescribes": [],
+    "Undergoes": []
+  },
+  {
+    "EmployeeID": 3,
+    "Name": "Christopher Turk",
+    "Position": "Surgical Attending Physician",
+    "SSN": 333333333,
+    "Department": [],
+    "Affiliated_With": [
+      {
+        "Physician": 3,
+        "Department": 1,
+        "PrimaryAffiliation": 0
+      },
+      {
+        "Physician": 3,
+        "Department": 2,
+        "PrimaryAffiliation": 1
+      }
+    ],
+    "Trained_In": [
+      {
+        "Physician": 3,
+        "Treatment": 1,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 3,
+        "Treatment": 2,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 3,
+        "Treatment": 5,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 3,
+        "Treatment": 6,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 3,
+        "Treatment": 7,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      }
+    ],
+    "Patient": [
+      {
+        "SSN": 100000004,
+        "Name": "Dennis Doe",
+        "Address": "1100 Foobaz Avenue",
+        "Phone": "555-2048",
+        "InsuranceID": 68421879,
+        "PCP": 3,
+        "Appointment": [
+          {
+            "AppointmentID": 46846589,
+            "Patient": 100000004,
+            "PrepNurse": 103,
+            "Physician": 4,
+            "Start": "2008-04-25 10:00",
+            "End": "2008-04-25 11:00",
+            "ExaminationRoom": "B",
+            "Prescribes": []
+          },
+          {
+            "AppointmentID": 59871321,
+            "Patient": 100000004,
+            "PrepNurse": null,
+            "Physician": 4,
+            "Start": "2008-04-26 10:00",
+            "End": "2008-04-26 11:00",
+            "ExaminationRoom": "C",
+            "Prescribes": []
+          },
+          {
+            "AppointmentID": 86213939,
+            "Patient": 100000004,
+            "PrepNurse": 102,
+            "Physician": 9,
+            "Start": "2008-04-27 10:00",
+            "End": "2008-04-21 11:00",
+            "ExaminationRoom": "A",
+            "Prescribes": [
+              {
+                "Physician": 9,
+                "Patient": 100000004,
+                "Medication": 2,
+                "Date": "2008-04-27 10:53",
+                "Appointment": 86213939,
+                "Dose": "10"
+              }
+            ]
+          }
+        ],
+        "Prescribes": [
+          {
+            "Physician": 9,
+            "Patient": 100000004,
+            "Medication": 2,
+            "Date": "2008-04-27 10:53",
+            "Appointment": 86213939,
+            "Dose": "10"
+          },
+          {
+            "Physician": 9,
+            "Patient": 100000004,
+            "Medication": 2,
+            "Date": "2008-04-30 16:53",
+            "Appointment": null,
+            "Dose": "5"
+          }
+        ],
+        "Stay": [
+          {
+            "StayID": 3217,
+            "Patient": 100000004,
+            "Room": 112,
+            "StayStart": "2008-05-02",
+            "StayEnd": "2008-05-03",
+            "Undergoes": [
+              {
+                "Patient": 100000004,
+                "Procedures": 1,
+                "Stay": 3217,
+                "DateUndergoes": "2008-05-07",
+                "Physician": 3,
+                "AssistingNurse": 102
+              },
+              {
+                "Patient": 100000004,
+                "Procedures": 5,
+                "Stay": 3217,
+                "DateUndergoes": "2008-05-09",
+                "Physician": 6,
+                "AssistingNurse": 105
+              },
+              {
+                "Patient": 100000001,
+                "Procedures": 7,
+                "Stay": 3217,
+                "DateUndergoes": "2008-05-10",
+                "Physician": 7,
+                "AssistingNurse": 101
+              },
+              {
+                "Patient": 100000004,
+                "Procedures": 4,
+                "Stay": 3217,
+                "DateUndergoes": "2008-05-13",
+                "Physician": 3,
+                "AssistingNurse": 103
+              }
+            ]
+          }
+        ],
+        "Undergoes": [
+          {
+            "Patient": 100000004,
+            "Procedures": 1,
+            "Stay": 3217,
+            "DateUndergoes": "2008-05-07",
+            "Physician": 3,
+            "AssistingNurse": 102
+          },
+          {
+            "Patient": 100000004,
+            "Procedures": 4,
+            "Stay": 3217,
+            "DateUndergoes": "2008-05-13",
+            "Physician": 3,
+            "AssistingNurse": 103
+          },
+          {
+            "Patient": 100000004,
+            "Procedures": 5,
+            "Stay": 3217,
+            "DateUndergoes": "2008-05-09",
+            "Physician": 6,
+            "AssistingNurse": 105
+          }
+        ]
+      }
+    ],
+    "Appointment": [
+      {
+        "AppointmentID": 76983231,
+        "Patient": 100000001,
+        "PrepNurse": null,
+        "Physician": 3,
+        "Start": "2008-04-26 12:00",
+        "End": "2008-04-26 13:00",
+        "ExaminationRoom": "C",
+        "Prescribes": []
+      }
+    ],
+    "Prescribes": [],
+    "Undergoes": [
+      {
+        "Patient": 100000001,
+        "Procedures": 6,
+        "Stay": 3215,
+        "DateUndergoes": "2008-05-02",
+        "Physician": 3,
+        "AssistingNurse": 101
+      },
+      {
+        "Patient": 100000004,
+        "Procedures": 1,
+        "Stay": 3217,
+        "DateUndergoes": "2008-05-07",
+        "Physician": 3,
+        "AssistingNurse": 102
+      },
+      {
+        "Patient": 100000004,
+        "Procedures": 4,
+        "Stay": 3217,
+        "DateUndergoes": "2008-05-13",
+        "Physician": 3,
+        "AssistingNurse": 103
+      }
+    ]
+  },
+  {
+    "EmployeeID": 4,
+    "Name": "Percival Cox",
+    "Position": "Senior Attending Physician",
+    "SSN": 444444444,
+    "Department": [
+      {
+        "DepartmentID": 1,
+        "Name": "General Medicine",
+        "Head": 4,
+        "Affiliated_With": [
+          {
+            "Physician": 1,
+            "Department": 1,
+            "PrimaryAffiliation": 1
+          },
+          {
+            "Physician": 2,
+            "Department": 1,
+            "PrimaryAffiliation": 1
+          },
+          {
+            "Physician": 3,
+            "Department": 1,
+            "PrimaryAffiliation": 0
+          },
+          {
+            "Physician": 4,
+            "Department": 1,
+            "PrimaryAffiliation": 1
+          },
+          {
+            "Physician": 5,
+            "Department": 1,
+            "PrimaryAffiliation": 1
+          },
+          {
+            "Physician": 7,
+            "Department": 1,
+            "PrimaryAffiliation": 0
+          },
+          {
+            "Physician": 8,
+            "Department": 1,
+            "PrimaryAffiliation": 1
+          }
+        ]
+      }
+    ],
+    "Affiliated_With": [
+      {
+        "Physician": 4,
+        "Department": 1,
+        "PrimaryAffiliation": 1
+      }
+    ],
+    "Trained_In": [],
+    "Patient": [],
+    "Appointment": [
+      {
+        "AppointmentID": 46846589,
+        "Patient": 100000004,
+        "PrepNurse": 103,
+        "Physician": 4,
+        "Start": "2008-04-25 10:00",
+        "End": "2008-04-25 11:00",
+        "ExaminationRoom": "B",
+        "Prescribes": []
+      },
+      {
+        "AppointmentID": 59871321,
+        "Patient": 100000004,
+        "PrepNurse": null,
+        "Physician": 4,
+        "Start": "2008-04-26 10:00",
+        "End": "2008-04-26 11:00",
+        "ExaminationRoom": "C",
+        "Prescribes": []
+      }
+    ],
+    "Prescribes": [],
+    "Undergoes": []
+  },
+  {
+    "EmployeeID": 5,
+    "Name": "Bob Kelso",
+    "Position": "Head Chief of Medicine",
+    "SSN": 555555555,
+    "Department": [],
+    "Affiliated_With": [
+      {
+        "Physician": 5,
+        "Department": 1,
+        "PrimaryAffiliation": 1
+      }
+    ],
+    "Trained_In": [],
+    "Patient": [],
+    "Appointment": [],
+    "Prescribes": [],
+    "Undergoes": []
+  },
+  {
+    "EmployeeID": 6,
+    "Name": "Todd Quinlan",
+    "Position": "Surgical Attending Physician",
+    "SSN": 666666666,
+    "Department": [],
+    "Affiliated_With": [
+      {
+        "Physician": 6,
+        "Department": 2,
+        "PrimaryAffiliation": 1
+      }
+    ],
+    "Trained_In": [
+      {
+        "Physician": 6,
+        "Treatment": 2,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 6,
+        "Treatment": 5,
+        "CertificationDate": "2007-01-01",
+        "CertificationExpires": "2007-12-31"
+      },
+      {
+        "Physician": 6,
+        "Treatment": 6,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      }
+    ],
+    "Patient": [],
+    "Appointment": [],
+    "Prescribes": [],
+    "Undergoes": [
+      {
+        "Patient": 100000004,
+        "Procedures": 5,
+        "Stay": 3217,
+        "DateUndergoes": "2008-05-09",
+        "Physician": 6,
+        "AssistingNurse": 105
+      }
+    ]
+  },
+  {
+    "EmployeeID": 7,
+    "Name": "John Wen",
+    "Position": "Surgical Attending Physician",
+    "SSN": 777777777,
+    "Department": [
+      {
+        "DepartmentID": 2,
+        "Name": "Surgery",
+        "Head": 7,
+        "Affiliated_With": [
+          {
+            "Physician": 3,
+            "Department": 2,
+            "PrimaryAffiliation": 1
+          },
+          {
+            "Physician": 6,
+            "Department": 2,
+            "PrimaryAffiliation": 1
+          },
+          {
+            "Physician": 7,
+            "Department": 2,
+            "PrimaryAffiliation": 1
+          }
+        ]
+      }
+    ],
+    "Affiliated_With": [
+      {
+        "Physician": 7,
+        "Department": 1,
+        "PrimaryAffiliation": 0
+      },
+      {
+        "Physician": 7,
+        "Department": 2,
+        "PrimaryAffiliation": 1
+      }
+    ],
+    "Trained_In": [
+      {
+        "Physician": 7,
+        "Treatment": 1,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 7,
+        "Treatment": 2,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 7,
+        "Treatment": 3,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 7,
+        "Treatment": 4,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 7,
+        "Treatment": 5,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 7,
+        "Treatment": 6,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 7,
+        "Treatment": 7,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      }
+    ],
+    "Patient": [],
+    "Appointment": [],
+    "Prescribes": [],
+    "Undergoes": [
+      {
+        "Patient": 100000001,
+        "Procedures": 2,
+        "Stay": 3215,
+        "DateUndergoes": "2008-05-03",
+        "Physician": 7,
+        "AssistingNurse": 101
+      },
+      {
+        "Patient": 100000001,
+        "Procedures": 7,
+        "Stay": 3217,
+        "DateUndergoes": "2008-05-10",
+        "Physician": 7,
+        "AssistingNurse": 101
+      }
+    ]
+  },
+  {
+    "EmployeeID": 8,
+    "Name": "Keith Dudemeister",
+    "Position": "MD Resident",
+    "SSN": 888888888,
+    "Department": [],
+    "Affiliated_With": [
+      {
+        "Physician": 8,
+        "Department": 1,
+        "PrimaryAffiliation": 1
+      }
+    ],
+    "Trained_In": [],
+    "Patient": [],
+    "Appointment": [],
+    "Prescribes": [],
+    "Undergoes": []
+  },
+  {
+    "EmployeeID": 9,
+    "Name": "Molly Clock",
+    "Position": "Attending Psychiatrist",
+    "SSN": 999999999,
+    "Department": [
+      {
+        "DepartmentID": 3,
+        "Name": "Psychiatry",
+        "Head": 9,
+        "Affiliated_With": [
+          {
+            "Physician": 9,
+            "Department": 3,
+            "PrimaryAffiliation": 1
+          }
+        ]
+      }
+    ],
+    "Affiliated_With": [
+      {
+        "Physician": 9,
+        "Department": 3,
+        "PrimaryAffiliation": 1
+      }
+    ],
+    "Trained_In": [],
+    "Patient": [],
+    "Appointment": [
+      {
+        "AppointmentID": 86213939,
+        "Patient": 100000004,
+        "PrepNurse": 102,
+        "Physician": 9,
+        "Start": "2008-04-27 10:00",
+        "End": "2008-04-21 11:00",
+        "ExaminationRoom": "A",
+        "Prescribes": [
+          {
+            "Physician": 9,
+            "Patient": 100000004,
+            "Medication": 2,
+            "Date": "2008-04-27 10:53",
+            "Appointment": 86213939,
+            "Dose": "10"
+          }
+        ]
+      }
+    ],
+    "Prescribes": [
+      {
+        "Physician": 9,
+        "Patient": 100000004,
+        "Medication": 2,
+        "Date": "2008-04-27 10:53",
+        "Appointment": 86213939,
+        "Dose": "10"
+      },
+      {
+        "Physician": 9,
+        "Patient": 100000004,
+        "Medication": 2,
+        "Date": "2008-04-30 16:53",
+        "Appointment": null,
+        "Dose": "5"
+      }
+    ],
+    "Undergoes": []
+  }
+]

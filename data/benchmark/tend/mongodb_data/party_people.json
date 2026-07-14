@@ -1,0 +1,318 @@
+{
+    "region": [
+        {
+            "Region_ID": 1,
+            "Region_name": "United Kingdom",
+            "Date": "1 July 2002",
+            "Label": "Parlophone",
+            "Format": "CD",
+            "Catalogue": "540 3622",
+            "party": [
+                {
+                    "Party_ID": 1,
+                    "Minister": "Dr. Kwame Nkrumah (MP)",
+                    "Took_office": "1957",
+                    "Left_office": "1958",
+                    "Region_ID": 1,
+                    "Party_name": "Convention Peoples Party",
+                    "member": [
+                        {
+                            "Member_ID": 4,
+                            "Member_Name": "Hon John Anderson",
+                            "Party_ID": "1",
+                            "In_office": "1989\u20132007",
+                            "party_events": [
+                                {
+                                    "Event_ID": 1,
+                                    "Event_Name": "Annaual Meeting",
+                                    "Party_ID": 1,
+                                    "Member_in_charge_ID": 4
+                                },
+                                {
+                                    "Event_ID": 8,
+                                    "Event_Name": "Election Meeting",
+                                    "Party_ID": 1,
+                                    "Member_in_charge_ID": 4
+                                }
+                            ]
+                        },
+                        {
+                            "Member_ID": 12,
+                            "Member_Name": "Kerry Bartlett",
+                            "Party_ID": "1",
+                            "In_office": "1996\u20132007",
+                            "party_events": [
+                                {
+                                    "Event_ID": 2,
+                                    "Event_Name": "Conference",
+                                    "Party_ID": 1,
+                                    "Member_in_charge_ID": 12
+                                }
+                            ]
+                        }
+                    ],
+                    "party_events": [
+                        {
+                            "Event_ID": 1,
+                            "Event_Name": "Annaual Meeting",
+                            "Party_ID": 1,
+                            "Member_in_charge_ID": 4
+                        },
+                        {
+                            "Event_ID": 2,
+                            "Event_Name": "Conference",
+                            "Party_ID": 1,
+                            "Member_in_charge_ID": 12
+                        },
+                        {
+                            "Event_ID": 8,
+                            "Event_Name": "Election Meeting",
+                            "Party_ID": 1,
+                            "Member_in_charge_ID": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Region_ID": 2,
+            "Region_name": "United Kingdom",
+            "Date": "1 July 2002",
+            "Label": "Parlophone",
+            "Format": "2\u00d7 LP",
+            "Catalogue": "539 9821",
+            "party": [
+                {
+                    "Party_ID": 2,
+                    "Minister": "Kojo Botsio (MP)",
+                    "Took_office": "1958",
+                    "Left_office": "1959",
+                    "Region_ID": 2,
+                    "Party_name": "Progress Party",
+                    "member": [
+                        {
+                            "Member_ID": 2,
+                            "Member_Name": "Hon Dick Adams",
+                            "Party_ID": "2",
+                            "In_office": "1993\u20132013",
+                            "party_events": [
+                                {
+                                    "Event_ID": 3,
+                                    "Event_Name": "Annaual Meeting",
+                                    "Party_ID": 2,
+                                    "Member_in_charge_ID": 2
+                                }
+                            ]
+                        },
+                        {
+                            "Member_ID": 3,
+                            "Member_Name": "Anthony Albanese",
+                            "Party_ID": "2",
+                            "In_office": "1996\u2013present",
+                            "party_events": [
+                                {
+                                    "Event_ID": 4,
+                                    "Event_Name": "Budget Meeting",
+                                    "Party_ID": 2,
+                                    "Member_in_charge_ID": 3
+                                }
+                            ]
+                        },
+                        {
+                            "Member_ID": 13,
+                            "Member_Name": "Hon Kim Beazley",
+                            "Party_ID": "2",
+                            "In_office": "1980\u20132007",
+                            "party_events": []
+                        },
+                        {
+                            "Member_ID": 14,
+                            "Member_Name": "Hon Arch Bevis",
+                            "Party_ID": "2",
+                            "In_office": "1990\u20132010",
+                            "party_events": []
+                        }
+                    ],
+                    "party_events": [
+                        {
+                            "Event_ID": 3,
+                            "Event_Name": "Annaual Meeting",
+                            "Party_ID": 2,
+                            "Member_in_charge_ID": 2
+                        },
+                        {
+                            "Event_ID": 4,
+                            "Event_Name": "Budget Meeting",
+                            "Party_ID": 2,
+                            "Member_in_charge_ID": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Region_ID": 3,
+            "Region_name": "Japan",
+            "Date": "3 July 2002",
+            "Label": "Toshiba-EMI",
+            "Format": "CD",
+            "Catalogue": "TOCP-66045",
+            "party": [
+                {
+                    "Party_ID": 3,
+                    "Minister": "Ebenezer Ako-Adjei (MP)",
+                    "Took_office": "1959",
+                    "Left_office": "1960",
+                    "Region_ID": 3,
+                    "Party_name": "3",
+                    "member": [
+                        {
+                            "Member_ID": 1,
+                            "Member_Name": "Hon Tony Abbott",
+                            "Party_ID": "3",
+                            "In_office": "1994\u2013present",
+                            "party_events": []
+                        },
+                        {
+                            "Member_ID": 5,
+                            "Member_Name": "Peter Andren",
+                            "Party_ID": "3",
+                            "In_office": "1996\u20132007",
+                            "party_events": []
+                        },
+                        {
+                            "Member_ID": 6,
+                            "Member_Name": "Hon Kevin Andrews",
+                            "Party_ID": "3",
+                            "In_office": "1991\u2013present",
+                            "party_events": []
+                        },
+                        {
+                            "Member_ID": 7,
+                            "Member_Name": "Hon Fran Bailey",
+                            "Party_ID": "3",
+                            "In_office": "1990\u20131993, 1996\u20132010",
+                            "party_events": []
+                        },
+                        {
+                            "Member_ID": 8,
+                            "Member_Name": "Hon Bruce Baird",
+                            "Party_ID": "3",
+                            "In_office": "2001\u20132007",
+                            "party_events": []
+                        },
+                        {
+                            "Member_ID": 9,
+                            "Member_Name": "Mark Baker",
+                            "Party_ID": "3",
+                            "In_office": "2004\u20132007",
+                            "party_events": []
+                        },
+                        {
+                            "Member_ID": 10,
+                            "Member_Name": "Hon Bob Baldwin",
+                            "Party_ID": "3",
+                            "In_office": "2001\u2013present",
+                            "party_events": [
+                                {
+                                    "Event_ID": 5,
+                                    "Event_Name": "Annaual Meeting",
+                                    "Party_ID": 3,
+                                    "Member_in_charge_ID": 10
+                                }
+                            ]
+                        },
+                        {
+                            "Member_ID": 11,
+                            "Member_Name": "Phil Barresi",
+                            "Party_ID": "3",
+                            "In_office": "1996\u20132007",
+                            "party_events": [
+                                {
+                                    "Event_ID": 6,
+                                    "Event_Name": "Election Meeting",
+                                    "Party_ID": 3,
+                                    "Member_in_charge_ID": 11
+                                }
+                            ]
+                        },
+                        {
+                            "Member_ID": 15,
+                            "Member_Name": "Hon Bruce Billson",
+                            "Party_ID": "3",
+                            "In_office": "1996\u2013present",
+                            "party_events": [
+                                {
+                                    "Event_ID": 7,
+                                    "Event_Name": "Budget Meeting",
+                                    "Party_ID": 3,
+                                    "Member_in_charge_ID": 15
+                                }
+                            ]
+                        }
+                    ],
+                    "party_events": [
+                        {
+                            "Event_ID": 5,
+                            "Event_Name": "Annaual Meeting",
+                            "Party_ID": 3,
+                            "Member_in_charge_ID": 10
+                        },
+                        {
+                            "Event_ID": 6,
+                            "Event_Name": "Election Meeting",
+                            "Party_ID": 3,
+                            "Member_in_charge_ID": 11
+                        },
+                        {
+                            "Event_ID": 7,
+                            "Event_Name": "Budget Meeting",
+                            "Party_ID": 3,
+                            "Member_in_charge_ID": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Region_ID": 4,
+            "Region_name": "United States",
+            "Date": "16 July 2002",
+            "Label": "Astralwerks",
+            "Format": "CD",
+            "Catalogue": "ASW 40362",
+            "party": [
+                {
+                    "Party_ID": 4,
+                    "Minister": "Imoru Egala (MP)",
+                    "Took_office": "1960",
+                    "Left_office": "1961",
+                    "Region_ID": 4,
+                    "Party_name": "Convention Union Party",
+                    "member": [],
+                    "party_events": []
+                }
+            ]
+        },
+        {
+            "Region_ID": 5,
+            "Region_name": "United States",
+            "Date": "16 July 2002",
+            "Label": "Astralwerks",
+            "Format": "CD digipak",
+            "Catalogue": "ASW 40522",
+            "party": [
+                {
+                    "Party_ID": 5,
+                    "Minister": "Ebenezer Ako-Adjei (MP)",
+                    "Took_office": "1961",
+                    "Left_office": "1962",
+                    "Region_ID": 5,
+                    "Party_name": "Sinefine Party",
+                    "member": [],
+                    "party_events": []
+                }
+            ]
+        }
+    ]
+}

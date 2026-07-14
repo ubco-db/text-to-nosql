@@ -1,0 +1,212 @@
+[
+  {
+    "Service_ID": 1,
+    "Service_name": "New policy application",
+    "First_Notification_of_Loss": [
+      {
+        "FNOL_ID": 2543,
+        "Customer_ID": 996,
+        "Policy_ID": 366,
+        "Service_ID": 1,
+        "Claims": [
+          {
+            "Claim_ID": 309,
+            "FNOL_ID": 2543,
+            "Effective_Date": "1982-05-03",
+            "Settlements": [
+              {
+                "Settlement_ID": 543,
+                "Claim_ID": 309,
+                "Effective_Date": "1972-03-02",
+                "Settlement_Amount": 2722.67
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "FNOL_ID": 4226,
+        "Customer_ID": 892,
+        "Policy_ID": 927,
+        "Service_ID": 1,
+        "Claims": [
+          {
+            "Claim_ID": 311,
+            "FNOL_ID": 4226,
+            "Effective_Date": "1992-02-09",
+            "Settlements": [
+              {
+                "Settlement_ID": 544,
+                "Claim_ID": 311,
+                "Effective_Date": "1973-10-27",
+                "Settlement_Amount": 9164.1
+              }
+            ]
+          },
+          {
+            "Claim_ID": 360,
+            "FNOL_ID": 4226,
+            "Effective_Date": "2006-06-10",
+            "Settlements": [
+              {
+                "Settlement_ID": 393,
+                "Claim_ID": 360,
+                "Effective_Date": "2006-04-19",
+                "Settlement_Amount": 8013.95
+              }
+            ]
+          },
+          {
+            "Claim_ID": 428,
+            "FNOL_ID": 4226,
+            "Effective_Date": "1992-01-05",
+            "Settlements": [
+              {
+                "Settlement_ID": 208,
+                "Claim_ID": 428,
+                "Effective_Date": "2003-12-28",
+                "Settlement_Amount": 8827.06
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "FNOL_ID": 4525,
+        "Customer_ID": 582,
+        "Policy_ID": 586,
+        "Service_ID": 1,
+        "Claims": [
+          {
+            "Claim_ID": 641,
+            "FNOL_ID": 4525,
+            "Effective_Date": "1985-03-24",
+            "Settlements": [
+              {
+                "Settlement_ID": 176,
+                "Claim_ID": 641,
+                "Effective_Date": "1971-06-29",
+                "Settlement_Amount": 1588.45
+              }
+            ]
+          },
+          {
+            "Claim_ID": 717,
+            "FNOL_ID": 4525,
+            "Effective_Date": "1996-11-29",
+            "Settlements": [
+              {
+                "Settlement_ID": 161,
+                "Claim_ID": 717,
+                "Effective_Date": "2009-11-20",
+                "Settlement_Amount": 6451.65
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Service_ID": 4,
+    "Service_name": "Close a policy",
+    "First_Notification_of_Loss": [
+      {
+        "FNOL_ID": 4323,
+        "Customer_ID": 826,
+        "Policy_ID": 630,
+        "Service_ID": 4,
+        "Claims": [
+          {
+            "Claim_ID": 604,
+            "FNOL_ID": 4323,
+            "Effective_Date": "2009-02-11",
+            "Settlements": [
+              {
+                "Settlement_ID": 205,
+                "Claim_ID": 604,
+                "Effective_Date": "1978-09-09",
+                "Settlement_Amount": 9814.39
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Service_ID": 6,
+    "Service_name": "Change a policy",
+    "First_Notification_of_Loss": [
+      {
+        "FNOL_ID": 532,
+        "Customer_ID": 214,
+        "Policy_ID": 257,
+        "Service_ID": 6,
+        "Claims": [
+          {
+            "Claim_ID": 228,
+            "FNOL_ID": 532,
+            "Effective_Date": "1975-05-07",
+            "Settlements": [
+              {
+                "Settlement_ID": 604,
+                "Claim_ID": 228,
+                "Effective_Date": "2014-12-09",
+                "Settlement_Amount": 2138.96
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "FNOL_ID": 1722,
+        "Customer_ID": 996,
+        "Policy_ID": 879,
+        "Service_ID": 6,
+        "Claims": [
+          {
+            "Claim_ID": 134,
+            "FNOL_ID": 1722,
+            "Effective_Date": "1973-08-18",
+            "Settlements": [
+              {
+                "Settlement_ID": 628,
+                "Claim_ID": 134,
+                "Effective_Date": "2001-07-02",
+                "Settlement_Amount": 1721.17
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Service_ID": 9,
+    "Service_name": "Upgrade a policy",
+    "First_Notification_of_Loss": [
+      {
+        "FNOL_ID": 1611,
+        "Customer_ID": 996,
+        "Policy_ID": 993,
+        "Service_ID": 9,
+        "Claims": [
+          {
+            "Claim_ID": 145,
+            "FNOL_ID": 1611,
+            "Effective_Date": "2014-10-19",
+            "Settlements": [
+              {
+                "Settlement_ID": 616,
+                "Claim_ID": 145,
+                "Effective_Date": "1995-04-02",
+                "Settlement_Amount": 3101.3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,130 @@
+{
+    "singer": [
+        {
+            "Singer_ID": 1,
+            "Name": "Liliane Bettencourt",
+            "Birth_Year": 1944.0,
+            "Net_Worth_Millions": 30.0,
+            "Citizenship": "France",
+            "song": [
+                {
+                    "Song_ID": 1,
+                    "Title": "Do They Know It's Christmas",
+                    "Singer_ID": 1,
+                    "Sales": 1094000.0,
+                    "Highest_Position": 1.0
+                },
+                {
+                    "Song_ID": 2,
+                    "Title": "F**k It (I Don't Want You Back)",
+                    "Singer_ID": 1,
+                    "Sales": 552407.0,
+                    "Highest_Position": 1.0
+                }
+            ]
+        },
+        {
+            "Singer_ID": 2,
+            "Name": "Christy Walton",
+            "Birth_Year": 1948.0,
+            "Net_Worth_Millions": 28.8,
+            "Citizenship": "United States",
+            "song": [
+                {
+                    "Song_ID": 3,
+                    "Title": "Cha Cha Slide",
+                    "Singer_ID": 2,
+                    "Sales": 351421.0,
+                    "Highest_Position": 1.0
+                },
+                {
+                    "Song_ID": 5,
+                    "Title": "Yeah",
+                    "Singer_ID": 2,
+                    "Sales": 300000.0,
+                    "Highest_Position": 1.0
+                }
+            ]
+        },
+        {
+            "Singer_ID": 3,
+            "Name": "Alice Walton",
+            "Birth_Year": 1949.0,
+            "Net_Worth_Millions": 26.3,
+            "Citizenship": "United States",
+            "song": []
+        },
+        {
+            "Singer_ID": 4,
+            "Name": "Iris Fontbona",
+            "Birth_Year": 1942.0,
+            "Net_Worth_Millions": 17.4,
+            "Citizenship": "Chile",
+            "song": [
+                {
+                    "Song_ID": 4,
+                    "Title": "Call on Me",
+                    "Singer_ID": 4,
+                    "Sales": 335000.0,
+                    "Highest_Position": 1.0
+                }
+            ]
+        },
+        {
+            "Singer_ID": 5,
+            "Name": "Jacqueline Mars",
+            "Birth_Year": 1940.0,
+            "Net_Worth_Millions": 17.8,
+            "Citizenship": "United States",
+            "song": [
+                {
+                    "Song_ID": 7,
+                    "Title": "Left Outside Alone",
+                    "Singer_ID": 5,
+                    "Sales": 275000.0,
+                    "Highest_Position": 3.0
+                }
+            ]
+        },
+        {
+            "Singer_ID": 6,
+            "Name": "Gina Rinehart",
+            "Birth_Year": 1953.0,
+            "Net_Worth_Millions": 17.0,
+            "Citizenship": "Australia",
+            "song": [
+                {
+                    "Song_ID": 6,
+                    "Title": "All This Time",
+                    "Singer_ID": 6,
+                    "Sales": 292000.0,
+                    "Highest_Position": 1.0
+                }
+            ]
+        },
+        {
+            "Singer_ID": 7,
+            "Name": "Susanne Klatten",
+            "Birth_Year": 1962.0,
+            "Net_Worth_Millions": 14.3,
+            "Citizenship": "Germany",
+            "song": [
+                {
+                    "Song_ID": 8,
+                    "Title": "Mysterious Girl",
+                    "Singer_ID": 7,
+                    "Sales": 261000.0,
+                    "Highest_Position": 1.0
+                }
+            ]
+        },
+        {
+            "Singer_ID": 8,
+            "Name": "Abigail Johnson",
+            "Birth_Year": 1961.0,
+            "Net_Worth_Millions": 12.7,
+            "Citizenship": "United States",
+            "song": []
+        }
+    ]
+}

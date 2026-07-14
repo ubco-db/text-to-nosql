@@ -1,0 +1,416 @@
+{
+    "product": [
+        {
+            "Product_ID": 1,
+            "product": "Fujitsu fi-6130 A4 Series Scanner",
+            "dimensions": "301 x 160 x 158",
+            "dpi": 600.0,
+            "pages_per_minute_color": 30.0,
+            "max_page_size": "A4",
+            "interface": "USB 2.0",
+            "store_product": [
+                {
+                    "Store_ID": 1,
+                    "Product_ID": 1
+                },
+                {
+                    "Store_ID": 2,
+                    "Product_ID": 1
+                },
+                {
+                    "Store_ID": 5,
+                    "Product_ID": 1
+                }
+            ]
+        },
+        {
+            "Product_ID": 2,
+            "product": "Plustek MobileOffice D28 Corporate",
+            "dimensions": "303 x 94 x 60",
+            "dpi": 600.0,
+            "pages_per_minute_color": 28.0,
+            "max_page_size": "A4",
+            "interface": "USB 2.0",
+            "store_product": [
+                {
+                    "Store_ID": 1,
+                    "Product_ID": 2
+                },
+                {
+                    "Store_ID": 3,
+                    "Product_ID": 2
+                },
+                {
+                    "Store_ID": 5,
+                    "Product_ID": 2
+                }
+            ]
+        },
+        {
+            "Product_ID": 3,
+            "product": "Xerox Travel Scanner 100",
+            "dimensions": "289 x 51 x 38",
+            "dpi": 600.0,
+            "pages_per_minute_color": 4.0,
+            "max_page_size": "A4",
+            "interface": "USB 2.0",
+            "store_product": [
+                {
+                    "Store_ID": 1,
+                    "Product_ID": 3
+                },
+                {
+                    "Store_ID": 2,
+                    "Product_ID": 3
+                },
+                {
+                    "Store_ID": 5,
+                    "Product_ID": 3
+                }
+            ]
+        },
+        {
+            "Product_ID": 4,
+            "product": "ScanShell 3000DN",
+            "dimensions": "300 x 50 x 45",
+            "dpi": 600.0,
+            "pages_per_minute_color": 3.0,
+            "max_page_size": "A4",
+            "interface": "USB 2.0",
+            "store_product": [
+                {
+                    "Store_ID": 1,
+                    "Product_ID": 4
+                },
+                {
+                    "Store_ID": 3,
+                    "Product_ID": 4
+                },
+                {
+                    "Store_ID": 5,
+                    "Product_ID": 4
+                }
+            ]
+        },
+        {
+            "Product_ID": 5,
+            "product": "Canon imageFORMULA P-150",
+            "dimensions": "280 x 95 x 40",
+            "dpi": 600.0,
+            "pages_per_minute_color": 10.0,
+            "max_page_size": "216mm x 356mm",
+            "interface": "USB 2.0",
+            "store_product": []
+        },
+        {
+            "Product_ID": 6,
+            "product": "Canon DR-2080C",
+            "dimensions": "298 x 209 x 99",
+            "dpi": 600.0,
+            "pages_per_minute_color": 36.0,
+            "max_page_size": "216mm x 355mm",
+            "interface": "USB 2.0",
+            "store_product": [
+                {
+                    "Store_ID": 1,
+                    "Product_ID": 6
+                },
+                {
+                    "Store_ID": 2,
+                    "Product_ID": 6
+                },
+                {
+                    "Store_ID": 5,
+                    "Product_ID": 6
+                }
+            ]
+        }
+    ],
+    "store": [
+        {
+            "Store_ID": 1,
+            "Store_Name": "Miramichi",
+            "Type": "City Mall",
+            "Area_size": 179.84,
+            "Number_of_product_category": 17811.0,
+            "Ranking": 2,
+            "store_product": [
+                {
+                    "Store_ID": 1,
+                    "Product_ID": 1
+                },
+                {
+                    "Store_ID": 1,
+                    "Product_ID": 2
+                },
+                {
+                    "Store_ID": 1,
+                    "Product_ID": 3
+                },
+                {
+                    "Store_ID": 1,
+                    "Product_ID": 4
+                },
+                {
+                    "Store_ID": 1,
+                    "Product_ID": 6
+                }
+            ],
+            "store_district": [
+                {
+                    "Store_ID": 1,
+                    "District_ID": 15
+                }
+            ]
+        },
+        {
+            "Store_ID": 2,
+            "Store_Name": "Neguac",
+            "Type": "Village Store",
+            "Area_size": 26.69,
+            "Number_of_product_category": 1678.0,
+            "Ranking": 3,
+            "store_product": [
+                {
+                    "Store_ID": 2,
+                    "Product_ID": 1
+                },
+                {
+                    "Store_ID": 2,
+                    "Product_ID": 3
+                },
+                {
+                    "Store_ID": 2,
+                    "Product_ID": 6
+                }
+            ],
+            "store_district": [
+                {
+                    "Store_ID": 2,
+                    "District_ID": 15
+                }
+            ]
+        },
+        {
+            "Store_ID": 3,
+            "Store_Name": "Rogersville",
+            "Type": "Village Store",
+            "Area_size": 7.23,
+            "Number_of_product_category": 1170.0,
+            "Ranking": 1,
+            "store_product": [
+                {
+                    "Store_ID": 3,
+                    "Product_ID": 2
+                },
+                {
+                    "Store_ID": 3,
+                    "Product_ID": 4
+                }
+            ],
+            "store_district": [
+                {
+                    "Store_ID": 3,
+                    "District_ID": 11
+                }
+            ]
+        },
+        {
+            "Store_ID": 4,
+            "Store_Name": "Blackville",
+            "Type": "Village Store",
+            "Area_size": 21.73,
+            "Number_of_product_category": 990.0,
+            "Ranking": 10,
+            "store_product": [],
+            "store_district": [
+                {
+                    "Store_ID": 4,
+                    "District_ID": 4
+                }
+            ]
+        },
+        {
+            "Store_ID": 5,
+            "Store_Name": "Doaktown",
+            "Type": "City Mall",
+            "Area_size": 28.74,
+            "Number_of_product_category": 793.0,
+            "Ranking": 9,
+            "store_product": [
+                {
+                    "Store_ID": 5,
+                    "Product_ID": 1
+                },
+                {
+                    "Store_ID": 5,
+                    "Product_ID": 2
+                },
+                {
+                    "Store_ID": 5,
+                    "Product_ID": 3
+                },
+                {
+                    "Store_ID": 5,
+                    "Product_ID": 4
+                },
+                {
+                    "Store_ID": 5,
+                    "Product_ID": 6
+                }
+            ],
+            "store_district": [
+                {
+                    "Store_ID": 5,
+                    "District_ID": 3
+                }
+            ]
+        }
+    ],
+    "district": [
+        {
+            "District_ID": 1,
+            "District_name": "Attock District",
+            "Headquartered_City": "Attock City",
+            "City_Population": 94620.0,
+            "City_Area": 20.0,
+            "store_district": []
+        },
+        {
+            "District_ID": 2,
+            "District_name": "Bahawalnagar District",
+            "Headquartered_City": "Bahawalnagar City",
+            "City_Population": 134936.0,
+            "City_Area": 13.0,
+            "store_district": []
+        },
+        {
+            "District_ID": 3,
+            "District_name": "Bahawalpur District",
+            "Headquartered_City": "Bahawalpur City",
+            "City_Population": 530438.0,
+            "City_Area": 38.0,
+            "store_district": [
+                {
+                    "Store_ID": 5,
+                    "District_ID": 3
+                }
+            ]
+        },
+        {
+            "District_ID": 4,
+            "District_name": "Bhakkar District",
+            "Headquartered_City": "Bhakkar City",
+            "City_Population": 89380.0,
+            "City_Area": 15.0,
+            "store_district": [
+                {
+                    "Store_ID": 4,
+                    "District_ID": 4
+                }
+            ]
+        },
+        {
+            "District_ID": 5,
+            "District_name": "Chakwal District",
+            "Headquartered_City": "Chakwal City",
+            "City_Population": 113524.0,
+            "City_Area": 10.0,
+            "store_district": []
+        },
+        {
+            "District_ID": 6,
+            "District_name": "Chiniot District",
+            "Headquartered_City": "Chiniot City",
+            "City_Population": 219254.0,
+            "City_Area": 12.0,
+            "store_district": []
+        },
+        {
+            "District_ID": 7,
+            "District_name": "Dera Ghazi Khan District",
+            "Headquartered_City": "Dera Ghazi Khan City",
+            "City_Population": 464742.0,
+            "City_Area": 22.0,
+            "store_district": []
+        },
+        {
+            "District_ID": 8,
+            "District_name": "Faisalabad District",
+            "Headquartered_City": "Faisalabad City",
+            "City_Population": 2793721.0,
+            "City_Area": 147.0,
+            "store_district": []
+        },
+        {
+            "District_ID": 9,
+            "District_name": "Gujranwala District",
+            "Headquartered_City": "Gujranwala City",
+            "City_Population": 1526168.0,
+            "City_Area": 75.0,
+            "store_district": []
+        },
+        {
+            "District_ID": 10,
+            "District_name": "Gujrat District",
+            "Headquartered_City": "Gujrat City",
+            "City_Population": 328512.0,
+            "City_Area": 25.0,
+            "store_district": []
+        },
+        {
+            "District_ID": 11,
+            "District_name": "Hafizabad District",
+            "Headquartered_City": "Hafizabad City",
+            "City_Population": 165936.0,
+            "City_Area": 10.0,
+            "store_district": [
+                {
+                    "Store_ID": 3,
+                    "District_ID": 11
+                }
+            ]
+        },
+        {
+            "District_ID": 12,
+            "District_name": "Jhang District",
+            "Headquartered_City": "Jhang City",
+            "City_Population": 365198.0,
+            "City_Area": 28.0,
+            "store_district": []
+        },
+        {
+            "District_ID": 13,
+            "District_name": "Jhelum District",
+            "Headquartered_City": "Jhelum City",
+            "City_Population": 172073.0,
+            "City_Area": 22.0,
+            "store_district": []
+        },
+        {
+            "District_ID": 14,
+            "District_name": "Kasur District",
+            "Headquartered_City": "Kasur City",
+            "City_Population": 314617.0,
+            "City_Area": 18.0,
+            "store_district": []
+        },
+        {
+            "District_ID": 15,
+            "District_name": "Khanewal District",
+            "Headquartered_City": "Khanewal City",
+            "City_Population": 165038.0,
+            "City_Area": 17.0,
+            "store_district": [
+                {
+                    "Store_ID": 1,
+                    "District_ID": 15
+                },
+                {
+                    "Store_ID": 2,
+                    "District_ID": 15
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,248 @@
+{
+    "battle": [
+        {
+            "id": 1,
+            "name": "Battle of Adrianople",
+            "date": "14 April 1205",
+            "bulgarian_commander": "Kaloyan",
+            "latin_commander": "Baldwin I",
+            "result": "Bulgarian victory",
+            "ship": []
+        },
+        {
+            "id": 2,
+            "name": "Battle of Serres",
+            "date": "June 1205",
+            "bulgarian_commander": "Kaloyan",
+            "latin_commander": "Unknown",
+            "result": "Bulgarian victory",
+            "ship": []
+        },
+        {
+            "id": 3,
+            "name": "Battle of Rusion",
+            "date": "31 January 1206",
+            "bulgarian_commander": "Kaloyan",
+            "latin_commander": "Thierry de Termond",
+            "result": "Bulgarian victory",
+            "ship": []
+        },
+        {
+            "id": 4,
+            "name": "Battle of Rodosto",
+            "date": "February 1206",
+            "bulgarian_commander": "Kaloyan",
+            "latin_commander": "Unknown",
+            "result": "Bulgarian victory",
+            "ship": [
+                {
+                    "lost_in_battle": 4,
+                    "id": 6,
+                    "name": "Bacchus",
+                    "tonnage": "t",
+                    "ship_type": "Brig",
+                    "location": "English Channel",
+                    "disposition_of_ship": "Sank",
+                    "death": [
+                        {
+                            "caused_by_ship_id": 6,
+                            "id": 8,
+                            "note": "Kanker, Chhattisgarh",
+                            "killed": 0,
+                            "injured": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Battle of Messinopolis",
+            "date": "4 September 1207",
+            "bulgarian_commander": "Unknown",
+            "latin_commander": "Boniface of Montferrat",
+            "result": "Bulgarian victory",
+            "ship": [
+                {
+                    "lost_in_battle": 5,
+                    "id": 4,
+                    "name": "HMS Avon",
+                    "tonnage": "391",
+                    "ship_type": "18-gun Brig",
+                    "location": "English Channel",
+                    "disposition_of_ship": "Wrecked",
+                    "death": [
+                        {
+                            "caused_by_ship_id": 4,
+                            "id": 4,
+                            "note": "Gajapati, Odisha",
+                            "killed": 3,
+                            "injured": 0
+                        },
+                        {
+                            "caused_by_ship_id": 4,
+                            "id": 5,
+                            "note": "Sundargarh, Odisha",
+                            "killed": 0,
+                            "injured": 9
+                        }
+                    ]
+                },
+                {
+                    "lost_in_battle": 5,
+                    "id": 5,
+                    "name": "Three Brothers",
+                    "tonnage": "t",
+                    "ship_type": "Brig",
+                    "location": "SW Approaches",
+                    "disposition_of_ship": "Scuttled",
+                    "death": [
+                        {
+                            "caused_by_ship_id": 5,
+                            "id": 6,
+                            "note": "Dantewada, Chhattisgarh",
+                            "killed": 0,
+                            "injured": 0
+                        },
+                        {
+                            "caused_by_ship_id": 5,
+                            "id": 7,
+                            "note": "Dantewada, Chhattisgarh",
+                            "killed": 4,
+                            "injured": 5
+                        },
+                        {
+                            "caused_by_ship_id": 5,
+                            "id": 12,
+                            "note": "Bokaro, Jharkhand",
+                            "killed": 14,
+                            "injured": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Battle of Boruy",
+            "date": "June 1205",
+            "bulgarian_commander": "Boril",
+            "latin_commander": "Henry I",
+            "result": "Bulgarian victory",
+            "ship": [
+                {
+                    "lost_in_battle": 6,
+                    "id": 3,
+                    "name": "Mary",
+                    "tonnage": "t",
+                    "ship_type": "Brig",
+                    "location": "English Channel",
+                    "disposition_of_ship": "Captured",
+                    "death": [
+                        {
+                            "caused_by_ship_id": 3,
+                            "id": 13,
+                            "note": "Erraboru, Chhattisgarh",
+                            "killed": 25,
+                            "injured": 0
+                        },
+                        {
+                            "caused_by_ship_id": 3,
+                            "id": 3,
+                            "note": "East Champaran, Bihar",
+                            "killed": 2,
+                            "injured": 0
+                        },
+                        {
+                            "caused_by_ship_id": 3,
+                            "id": 10,
+                            "note": "WestMidnapore, West Bengal",
+                            "killed": 0,
+                            "injured": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Battle of Philippopolis",
+            "date": "31 June 1208",
+            "bulgarian_commander": "Boril",
+            "latin_commander": "Henry I",
+            "result": "Latin victory",
+            "ship": [
+                {
+                    "lost_in_battle": 7,
+                    "id": 2,
+                    "name": "Bon Accord",
+                    "tonnage": "t",
+                    "ship_type": "Brig",
+                    "location": "English Channel",
+                    "disposition_of_ship": "Captured",
+                    "death": [
+                        {
+                            "caused_by_ship_id": 2,
+                            "id": 2,
+                            "note": "Dantewada, Chhattisgarh",
+                            "killed": 3,
+                            "injured": 0
+                        },
+                        {
+                            "caused_by_ship_id": 2,
+                            "id": 11,
+                            "note": "Bastar, Chattisgarh",
+                            "killed": 0,
+                            "injured": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Siege of Constantinople",
+            "date": "1235",
+            "bulgarian_commander": "Ivan Asen II",
+            "latin_commander": "John of Brienne",
+            "result": "Two Year Truce",
+            "ship": [
+                {
+                    "lost_in_battle": 8,
+                    "id": 1,
+                    "name": "Lettice",
+                    "tonnage": "t",
+                    "ship_type": "Brig",
+                    "location": "English Channel",
+                    "disposition_of_ship": "Captured",
+                    "death": [
+                        {
+                            "caused_by_ship_id": 1,
+                            "id": 1,
+                            "note": "Dantewada, Chhattisgarh",
+                            "killed": 8,
+                            "injured": 0
+                        },
+                        {
+                            "caused_by_ship_id": 1,
+                            "id": 9,
+                            "note": "Dantewada, Chhattisgarh",
+                            "killed": 29,
+                            "injured": 0
+                        }
+                    ]
+                },
+                {
+                    "lost_in_battle": 8,
+                    "id": 7,
+                    "name": "HMS Atalanta",
+                    "tonnage": "225",
+                    "ship_type": "8 gun Brig",
+                    "location": "Mid-Atlantic",
+                    "disposition_of_ship": "Captured",
+                    "death": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "ID": 1,
+    "name": "Nou Mestalla",
+    "Capacity": 75000,
+    "City": "Valencia",
+    "Country": "Spain",
+    "Opening_year": 2004,
+    "event": [
+      {
+        "ID": 1,
+        "Name": "FINA",
+        "Stadium_ID": 1,
+        "Year": "2016",
+        "record": [
+          {
+            "ID": 1,
+            "Result": "NC",
+            "Swimmer_ID": 1,
+            "Event_ID": 1
+          },
+          {
+            "ID": 8,
+            "Result": "Win",
+            "Swimmer_ID": 2,
+            "Event_ID": 1
+          },
+          {
+            "ID": 9,
+            "Result": "Win",
+            "Swimmer_ID": 3,
+            "Event_ID": 1
+          },
+          {
+            "ID": 10,
+            "Result": "Win",
+            "Swimmer_ID": 4,
+            "Event_ID": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 2,
+    "name": "Gazprom Arena",
+    "Capacity": 69501,
+    "City": "Saint Petersburg",
+    "Country": "Russia",
+    "Opening_year": 2005,
+    "event": [
+      {
+        "ID": 3,
+        "Name": "World Master",
+        "Stadium_ID": 2,
+        "Year": "2012",
+        "record": [
+          {
+            "ID": 3,
+            "Result": "Loss",
+            "Swimmer_ID": 3,
+            "Event_ID": 3
+          },
+          {
+            "ID": 4,
+            "Result": "Win",
+            "Swimmer_ID": 4,
+            "Event_ID": 3
+          },
+          {
+            "ID": 5,
+            "Result": "Loss",
+            "Swimmer_ID": 1,
+            "Event_ID": 3
+          },
+          {
+            "ID": 6,
+            "Result": "Win",
+            "Swimmer_ID": 6,
+            "Event_ID": 3
+          },
+          {
+            "ID": 7,
+            "Result": "Win",
+            "Swimmer_ID": 5,
+            "Event_ID": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 3,
+    "name": "Baku Olympic Stadium",
+    "Capacity": 68000,
+    "City": "Baku",
+    "Country": "Azerbaijan",
+    "Opening_year": 2005,
+    "event": [
+      {
+        "ID": 4,
+        "Name": "World Junior",
+        "Stadium_ID": 3,
+        "Year": "2013",
+        "record": [
+          {
+            "ID": 13,
+            "Result": "Loss",
+            "Swimmer_ID": 4,
+            "Event_ID": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 4,
+    "name": "Estadio La Peineta",
+    "Capacity": 67500,
+    "City": "Madrid",
+    "Country": "Spain",
+    "Opening_year": 2005,
+    "event": [
+      {
+        "ID": 5,
+        "Name": "IPC",
+        "Stadium_ID": 4,
+        "Year": "2014",
+        "record": [
+          {
+            "ID": 12,
+            "Result": "Win",
+            "Swimmer_ID": 3,
+            "Event_ID": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 5,
+    "name": "Ferenc Pusk\u00e1s Stadion",
+    "Capacity": 65000,
+    "City": "Budapest",
+    "Country": "Hungary",
+    "Opening_year": 2006,
+    "event": []
+  },
+  {
+    "ID": 6,
+    "name": "Stade des Lumi\u00e8res",
+    "Capacity": 61556,
+    "City": "Lyon",
+    "Country": "France",
+    "Opening_year": 2004,
+    "event": []
+  },
+  {
+    "ID": 7,
+    "name": "Northumberland Development Project",
+    "Capacity": 56250,
+    "City": "London",
+    "Country": "England",
+    "Opening_year": 2006,
+    "event": []
+  },
+  {
+    "ID": 8,
+    "name": "Fisht Olympic Stadium",
+    "Capacity": 47659,
+    "City": "Sochi",
+    "Country": "Russia",
+    "Opening_year": 2004,
+    "event": [
+      {
+        "ID": 6,
+        "Name": "European FINA",
+        "Stadium_ID": 8,
+        "Year": "2017",
+        "record": []
+      }
+    ]
+  },
+  {
+    "ID": 9,
+    "name": "Arena Baltika",
+    "Capacity": 45015,
+    "City": "Kaliningrad",
+    "Country": "Russia",
+    "Opening_year": 2007,
+    "event": []
+  },
+  {
+    "ID": 10,
+    "name": "Yubileyniy Stadium",
+    "Capacity": 45015,
+    "City": "Saransk",
+    "Country": "Russia",
+    "Opening_year": 2005,
+    "event": [
+      {
+        "ID": 2,
+        "Name": "Pacific",
+        "Stadium_ID": 10,
+        "Year": "2011",
+        "record": [
+          {
+            "ID": 2,
+            "Result": "Win",
+            "Swimmer_ID": 1,
+            "Event_ID": 2
+          },
+          {
+            "ID": 11,
+            "Result": "Win",
+            "Swimmer_ID": 4,
+            "Event_ID": 2
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "customer_id": 113,
+    "customer_type_code": "Good Credit Rating",
+    "address_line_1": "144 Legros Landing",
+    "address_line_2": "Apt. 551",
+    "town_city": "Maryamport",
+    "state": "Kansas",
+    "email_address": "hsteuber@example.org",
+    "phone_number": "06963347450",
+    "Complaints": [
+      {
+        "complaint_id": 2,
+        "product_id": 118,
+        "customer_id": 113,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "New",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "1973-02-10 22:55:56",
+        "date_complaint_closed": "2013-09-14 02:59:10",
+        "staff_id": 120
+      }
+    ]
+  },
+  {
+    "customer_id": 114,
+    "customer_type_code": "Good Credit Rating",
+    "address_line_1": "039 Jedidiah Estate Suite 537",
+    "address_line_2": "Apt. 245",
+    "town_city": "Sauerberg",
+    "state": "Hawaii",
+    "email_address": "cayla.satterfield@example.net",
+    "phone_number": "470-803-0244",
+    "Complaints": [
+      {
+        "complaint_id": 3,
+        "product_id": 119,
+        "customer_id": 114,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "New",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "2006-10-29 07:08:46",
+        "date_complaint_closed": "1995-09-11 14:48:46",
+        "staff_id": 115
+      },
+      {
+        "complaint_id": 4,
+        "product_id": 120,
+        "customer_id": 114,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "Closed",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "1977-08-06 00:31:19",
+        "date_complaint_closed": "1970-10-14 00:57:25",
+        "staff_id": 114
+      },
+      {
+        "complaint_id": 6,
+        "product_id": 118,
+        "customer_id": 114,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "Open",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "1987-07-11 14:40:30",
+        "date_complaint_closed": "1975-10-11 05:54:30",
+        "staff_id": 114
+      },
+      {
+        "complaint_id": 8,
+        "product_id": 117,
+        "customer_id": 114,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "New",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "1973-02-10 22:55:56",
+        "date_complaint_closed": "2013-09-14 02:59:10",
+        "staff_id": 117
+      }
+    ]
+  },
+  {
+    "customer_id": 115,
+    "customer_type_code": "Good Credit Rating",
+    "address_line_1": "92189 Gulgowski Ranch Apt. 683",
+    "address_line_2": "Apt. 828",
+    "town_city": "Tyreekhaven",
+    "state": "Tennessee",
+    "email_address": "vida86@example.com",
+    "phone_number": "997.698.4779x882",
+    "Complaints": [
+      {
+        "complaint_id": 10,
+        "product_id": 118,
+        "customer_id": 115,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "New",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "1977-08-06 00:31:19",
+        "date_complaint_closed": "1970-10-14 00:57:25",
+        "staff_id": 114
+      }
+    ]
+  },
+  {
+    "customer_id": 116,
+    "customer_type_code": "Good Credit Rating",
+    "address_line_1": "72144 Katlynn Flat Suite 512",
+    "address_line_2": "Suite 959",
+    "town_city": "Hansenbury",
+    "state": "Tennessee",
+    "email_address": "vbogisich@example.org",
+    "phone_number": "548.373.3603x59134",
+    "Complaints": [
+      {
+        "complaint_id": 9,
+        "product_id": 117,
+        "customer_id": 116,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "New",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "2006-10-29 07:08:46",
+        "date_complaint_closed": "1995-09-11 14:48:46",
+        "staff_id": 120
+      },
+      {
+        "complaint_id": 11,
+        "product_id": 118,
+        "customer_id": 116,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "Open",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "2007-10-14 21:50:43",
+        "date_complaint_closed": "2000-08-17 17:02:48",
+        "staff_id": 115
+      },
+      {
+        "complaint_id": 12,
+        "product_id": 117,
+        "customer_id": 116,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "Open",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "1987-07-11 14:40:30",
+        "date_complaint_closed": "1975-10-11 05:54:30",
+        "staff_id": 114
+      }
+    ]
+  },
+  {
+    "customer_id": 117,
+    "customer_type_code": "Good Credit Rating",
+    "address_line_1": "1566 Ramona Overpass Apt. 464",
+    "address_line_2": "Suite 151",
+    "town_city": "North Alisaville",
+    "state": "Florida",
+    "email_address": "ubeier@example.org",
+    "phone_number": "044-468-4549",
+    "Complaints": [
+      {
+        "complaint_id": 7,
+        "product_id": 117,
+        "customer_id": 117,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "New",
+        "complaint_type_code": "Product Unusable",
+        "date_complaint_raised": "2002-07-18 10:59:35",
+        "date_complaint_closed": "1976-04-19 11:03:06",
+        "staff_id": 118
+      }
+    ]
+  },
+  {
+    "customer_id": 118,
+    "customer_type_code": "Defaults on payments",
+    "address_line_1": "425 Roman Tunnel",
+    "address_line_2": "Apt. 495",
+    "town_city": "Funkstad",
+    "state": "Colorado",
+    "email_address": "lavonne.frami@example.com",
+    "phone_number": "+38(3)9011433816",
+    "Complaints": [
+      {
+        "complaint_id": 5,
+        "product_id": 117,
+        "customer_id": 118,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "Open",
+        "complaint_type_code": "Product Failure",
+        "date_complaint_raised": "2007-10-14 21:50:43",
+        "date_complaint_closed": "2000-08-17 17:02:48",
+        "staff_id": 116
+      }
+    ]
+  },
+  {
+    "customer_id": 119,
+    "customer_type_code": "Good Credit Rating",
+    "address_line_1": "05355 Marcelle Radial",
+    "address_line_2": "Suite 054",
+    "town_city": "Port Joshuah",
+    "state": "Pennsylvania",
+    "email_address": "paige.hyatt@example.com",
+    "phone_number": "1-369-302-7623x576",
+    "Complaints": []
+  },
+  {
+    "customer_id": 120,
+    "customer_type_code": "Defaults on payments",
+    "address_line_1": "518 Mann Park",
+    "address_line_2": "Suite 035",
+    "town_city": "West Annamariestad",
+    "state": "Iowa",
+    "email_address": "rzulauf@example.org",
+    "phone_number": "578.019.7943x328",
+    "Complaints": [
+      {
+        "complaint_id": 1,
+        "product_id": 117,
+        "customer_id": 120,
+        "complaint_outcome_code": "OK",
+        "complaint_status_code": "Closed",
+        "complaint_type_code": "Product Failure",
+        "date_complaint_raised": "2002-07-18 10:59:35",
+        "date_complaint_closed": "1976-04-19 11:03:06",
+        "staff_id": 114
+      }
+    ]
+  }
+]

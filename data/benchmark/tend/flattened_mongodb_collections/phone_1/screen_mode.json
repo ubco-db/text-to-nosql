@@ -1,0 +1,72 @@
+[
+  {
+    "Graphics_mode": 0.0,
+    "Char_cells": "80 \u00d7 32",
+    "Pixels": "640 \u00d7 256",
+    "Hardware_colours": 2.0,
+    "used_kb": 20.0,
+    "map": "3000\u20137FFF",
+    "Type": "Graphics",
+    "phone": []
+  },
+  {
+    "Graphics_mode": 1.0,
+    "Char_cells": "40 \u00d7 32",
+    "Pixels": "320 \u00d7 256",
+    "Hardware_colours": 4.0,
+    "used_kb": 20.0,
+    "map": "3000\u20137FFF",
+    "Type": "Graphics",
+    "phone": []
+  },
+  {
+    "Graphics_mode": 2.0,
+    "Char_cells": "20 \u00d7 32",
+    "Pixels": "160 \u00d7 256",
+    "Hardware_colours": 8.0,
+    "used_kb": 20.0,
+    "map": "3000\u20137FFF",
+    "Type": "Graphics",
+    "phone": []
+  },
+  {
+    "Graphics_mode": 3.0,
+    "Char_cells": "80 \u00d7 25",
+    "Pixels": "640 \u00d7 200",
+    "Hardware_colours": 2.0,
+    "used_kb": 16.0,
+    "map": "4000\u20137FFF",
+    "Type": "Text",
+    "phone": []
+  },
+  {
+    "Graphics_mode": 4.0,
+    "Char_cells": "40 \u00d7 32",
+    "Pixels": "320 \u00d7 256",
+    "Hardware_colours": 2.0,
+    "used_kb": 10.0,
+    "map": "5800\u20137FFF",
+    "Type": "Graphics",
+    "phone": []
+  },
+  {
+    "Graphics_mode": 5.0,
+    "Char_cells": "20 \u00d7 32",
+    "Pixels": "160 \u00d7 256",
+    "Hardware_colours": 4.0,
+    "used_kb": 10.0,
+    "map": "5800\u20137FFF",
+    "Type": "Graphics",
+    "phone": []
+  },
+  {
+    "Graphics_mode": 6.0,
+    "Char_cells": "40 \u00d7 25",
+    "Pixels": "320 \u00d7 200",
+    "Hardware_colours": 2.0,
+    "used_kb": 8.0,
+    "map": "6000\u20137FFF",
+    "Type": "Text",
+    "phone": []
+  }
+]

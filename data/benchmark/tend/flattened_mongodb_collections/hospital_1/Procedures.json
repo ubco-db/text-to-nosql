@@ -1,0 +1,202 @@
+[
+  {
+    "Code": 1,
+    "Name": "Reverse Rhinopodoplasty",
+    "Cost": 1500.0,
+    "Trained_In": [
+      {
+        "Physician": 3,
+        "Treatment": 1,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 7,
+        "Treatment": 1,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      }
+    ],
+    "Undergoes": [
+      {
+        "Patient": 100000004,
+        "Procedures": 1,
+        "Stay": 3217,
+        "DateUndergoes": "2008-05-07",
+        "Physician": 3,
+        "AssistingNurse": 102
+      }
+    ]
+  },
+  {
+    "Code": 2,
+    "Name": "Obtuse Pyloric Recombobulation",
+    "Cost": 3750.0,
+    "Trained_In": [
+      {
+        "Physician": 3,
+        "Treatment": 2,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 6,
+        "Treatment": 2,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 7,
+        "Treatment": 2,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      }
+    ],
+    "Undergoes": [
+      {
+        "Patient": 100000001,
+        "Procedures": 2,
+        "Stay": 3215,
+        "DateUndergoes": "2008-05-03",
+        "Physician": 7,
+        "AssistingNurse": 101
+      }
+    ]
+  },
+  {
+    "Code": 3,
+    "Name": "Folded Demiophtalmectomy",
+    "Cost": 4500.0,
+    "Trained_In": [
+      {
+        "Physician": 7,
+        "Treatment": 3,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      }
+    ],
+    "Undergoes": []
+  },
+  {
+    "Code": 4,
+    "Name": "Complete Walletectomy",
+    "Cost": 10000.0,
+    "Trained_In": [
+      {
+        "Physician": 7,
+        "Treatment": 4,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      }
+    ],
+    "Undergoes": [
+      {
+        "Patient": 100000004,
+        "Procedures": 4,
+        "Stay": 3217,
+        "DateUndergoes": "2008-05-13",
+        "Physician": 3,
+        "AssistingNurse": 103
+      }
+    ]
+  },
+  {
+    "Code": 5,
+    "Name": "Obfuscated Dermogastrotomy",
+    "Cost": 4899.0,
+    "Trained_In": [
+      {
+        "Physician": 3,
+        "Treatment": 5,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 6,
+        "Treatment": 5,
+        "CertificationDate": "2007-01-01",
+        "CertificationExpires": "2007-12-31"
+      },
+      {
+        "Physician": 7,
+        "Treatment": 5,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      }
+    ],
+    "Undergoes": [
+      {
+        "Patient": 100000004,
+        "Procedures": 5,
+        "Stay": 3217,
+        "DateUndergoes": "2008-05-09",
+        "Physician": 6,
+        "AssistingNurse": 105
+      }
+    ]
+  },
+  {
+    "Code": 6,
+    "Name": "Reversible Pancreomyoplasty",
+    "Cost": 5600.0,
+    "Trained_In": [
+      {
+        "Physician": 3,
+        "Treatment": 6,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 6,
+        "Treatment": 6,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 7,
+        "Treatment": 6,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      }
+    ],
+    "Undergoes": [
+      {
+        "Patient": 100000001,
+        "Procedures": 6,
+        "Stay": 3215,
+        "DateUndergoes": "2008-05-02",
+        "Physician": 3,
+        "AssistingNurse": 101
+      }
+    ]
+  },
+  {
+    "Code": 7,
+    "Name": "Follicular Demiectomy",
+    "Cost": 25.0,
+    "Trained_In": [
+      {
+        "Physician": 3,
+        "Treatment": 7,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      },
+      {
+        "Physician": 7,
+        "Treatment": 7,
+        "CertificationDate": "2008-01-01",
+        "CertificationExpires": "2008-12-31"
+      }
+    ],
+    "Undergoes": [
+      {
+        "Patient": 100000001,
+        "Procedures": 7,
+        "Stay": 3217,
+        "DateUndergoes": "2008-05-10",
+        "Physician": 7,
+        "AssistingNurse": 101
+      }
+    ]
+  }
+]

@@ -1,0 +1,676 @@
+[
+  {
+    "production_type_code": "Food",
+    "product_type_description": "Food",
+    "vat_rating": 15.84,
+    "Products": [
+      {
+        "product_id": 1,
+        "parent_product_id": 4,
+        "production_type_code": "Food",
+        "unit_price": 617.95,
+        "product_name": "Coffee Bean",
+        "product_color": "Red",
+        "product_size": "Medium",
+        "Order_Items": [],
+        "Invoice_Line_Items": [
+          {
+            "order_item_id": 10,
+            "invoice_number": 10,
+            "product_id": 1,
+            "product_title": "prod_name",
+            "product_quantity": "9",
+            "product_price": 781.46,
+            "derived_product_cost": 256.84,
+            "derived_vat_payable": null,
+            "derived_total_cost": 71.22
+          }
+        ]
+      },
+      {
+        "product_id": 9,
+        "parent_product_id": 8,
+        "production_type_code": "Food",
+        "unit_price": 694.31,
+        "product_name": "Beer Menus",
+        "product_color": "Black",
+        "product_size": "Small",
+        "Order_Items": [
+          {
+            "order_item_id": 10,
+            "order_id": 13,
+            "product_id": 9,
+            "product_quantity": "2",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": [
+              {
+                "order_item_id": 10,
+                "invoice_number": 10,
+                "product_id": 1,
+                "product_title": "prod_name",
+                "product_quantity": "9",
+                "product_price": 781.46,
+                "derived_product_cost": 256.84,
+                "derived_vat_payable": null,
+                "derived_total_cost": 71.22
+              },
+              {
+                "order_item_id": 10,
+                "invoice_number": 14,
+                "product_id": 11,
+                "product_title": "prod_name",
+                "product_quantity": "7",
+                "product_price": 884.4,
+                "derived_product_cost": 249.19,
+                "derived_vat_payable": null,
+                "derived_total_cost": 78.26
+              },
+              {
+                "order_item_id": 10,
+                "invoice_number": 5,
+                "product_id": 11,
+                "product_title": "prod_name",
+                "product_quantity": "5",
+                "product_price": 556.36,
+                "derived_product_cost": 295.26,
+                "derived_vat_payable": null,
+                "derived_total_cost": 61
+              }
+            ]
+          }
+        ],
+        "Invoice_Line_Items": [
+          {
+            "order_item_id": 9,
+            "invoice_number": 11,
+            "product_id": 9,
+            "product_title": "prod_name",
+            "product_quantity": "6",
+            "product_price": 486.69,
+            "derived_product_cost": 64.67,
+            "derived_vat_payable": null,
+            "derived_total_cost": 83.4
+          }
+        ]
+      },
+      {
+        "product_id": 13,
+        "parent_product_id": 6,
+        "production_type_code": "Food",
+        "unit_price": 639.76,
+        "product_name": "Chocolate",
+        "product_color": "Yellow",
+        "product_size": "Small",
+        "Order_Items": [
+          {
+            "order_item_id": 13,
+            "order_id": 12,
+            "product_id": 13,
+            "product_quantity": "1",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": []
+          }
+        ],
+        "Invoice_Line_Items": []
+      }
+    ]
+  },
+  {
+    "production_type_code": "DVDs",
+    "product_type_description": "Dvd products",
+    "vat_rating": 11.4,
+    "Products": [
+      {
+        "product_id": 5,
+        "parent_product_id": 7,
+        "production_type_code": "DVDs",
+        "unit_price": 682.06,
+        "product_name": "Arts",
+        "product_color": "Yellow",
+        "product_size": "Small",
+        "Order_Items": [
+          {
+            "order_item_id": 3,
+            "order_id": 15,
+            "product_id": 5,
+            "product_quantity": "4",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": [
+              {
+                "order_item_id": 3,
+                "invoice_number": 9,
+                "product_id": 15,
+                "product_title": "prod_name",
+                "product_quantity": "1",
+                "product_price": 814.87,
+                "derived_product_cost": 176.29,
+                "derived_vat_payable": null,
+                "derived_total_cost": 59.56
+              }
+            ]
+          },
+          {
+            "order_item_id": 9,
+            "order_id": 14,
+            "product_id": 5,
+            "product_quantity": "1",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": [
+              {
+                "order_item_id": 9,
+                "invoice_number": 11,
+                "product_id": 9,
+                "product_title": "prod_name",
+                "product_quantity": "6",
+                "product_price": 486.69,
+                "derived_product_cost": 64.67,
+                "derived_vat_payable": null,
+                "derived_total_cost": 83.4
+              }
+            ]
+          }
+        ],
+        "Invoice_Line_Items": [
+          {
+            "order_item_id": 14,
+            "invoice_number": 9,
+            "product_id": 5,
+            "product_title": "prod_name",
+            "product_quantity": "4",
+            "product_price": 742.37,
+            "derived_product_cost": 191.11,
+            "derived_vat_payable": null,
+            "derived_total_cost": 69.82
+          }
+        ]
+      },
+      {
+        "product_id": 11,
+        "parent_product_id": 8,
+        "production_type_code": "DVDs",
+        "unit_price": 52.88,
+        "product_name": "Harry Potter 1",
+        "product_color": "Black",
+        "product_size": "Small",
+        "Order_Items": [],
+        "Invoice_Line_Items": [
+          {
+            "order_item_id": 10,
+            "invoice_number": 14,
+            "product_id": 11,
+            "product_title": "prod_name",
+            "product_quantity": "7",
+            "product_price": 884.4,
+            "derived_product_cost": 249.19,
+            "derived_vat_payable": null,
+            "derived_total_cost": 78.26
+          },
+          {
+            "order_item_id": 10,
+            "invoice_number": 5,
+            "product_id": 11,
+            "product_title": "prod_name",
+            "product_quantity": "5",
+            "product_price": 556.36,
+            "derived_product_cost": 295.26,
+            "derived_vat_payable": null,
+            "derived_total_cost": 61
+          }
+        ]
+      },
+      {
+        "product_id": 12,
+        "parent_product_id": 1,
+        "production_type_code": "DVDs",
+        "unit_price": 729.09,
+        "product_name": "Harry Potter 2",
+        "product_color": "Red",
+        "product_size": "Medium",
+        "Order_Items": [
+          {
+            "order_item_id": 6,
+            "order_id": 13,
+            "product_id": 12,
+            "product_quantity": "8",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": [
+              {
+                "order_item_id": 6,
+                "invoice_number": 15,
+                "product_id": 14,
+                "product_title": "prod_name",
+                "product_quantity": "2",
+                "product_price": 749.6,
+                "derived_product_cost": 197.06,
+                "derived_vat_payable": null,
+                "derived_total_cost": 82.77
+              }
+            ]
+          }
+        ],
+        "Invoice_Line_Items": []
+      },
+      {
+        "product_id": 14,
+        "parent_product_id": 1,
+        "production_type_code": "DVDs",
+        "unit_price": 469.87,
+        "product_name": "Harry Potter 3",
+        "product_color": "Yellow",
+        "product_size": "Small",
+        "Order_Items": [
+          {
+            "order_item_id": 5,
+            "order_id": 2,
+            "product_id": 14,
+            "product_quantity": "3",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": [
+              {
+                "order_item_id": 5,
+                "invoice_number": 7,
+                "product_id": 8,
+                "product_title": "prod_name",
+                "product_quantity": "6",
+                "product_price": 787.61,
+                "derived_product_cost": 150.04,
+                "derived_vat_payable": null,
+                "derived_total_cost": 51.27
+              }
+            ]
+          },
+          {
+            "order_item_id": 12,
+            "order_id": 4,
+            "product_id": 14,
+            "product_quantity": "4",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": []
+          },
+          {
+            "order_item_id": 14,
+            "order_id": 13,
+            "product_id": 14,
+            "product_quantity": "2",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": [
+              {
+                "order_item_id": 14,
+                "invoice_number": 9,
+                "product_id": 5,
+                "product_title": "prod_name",
+                "product_quantity": "4",
+                "product_price": 742.37,
+                "derived_product_cost": 191.11,
+                "derived_vat_payable": null,
+                "derived_total_cost": 69.82
+              }
+            ]
+          },
+          {
+            "order_item_id": 15,
+            "order_id": 13,
+            "product_id": 14,
+            "product_quantity": "6",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": [
+              {
+                "order_item_id": 15,
+                "invoice_number": 9,
+                "product_id": 3,
+                "product_title": "prod_name",
+                "product_quantity": "4",
+                "product_price": 727.41,
+                "derived_product_cost": 66,
+                "derived_vat_payable": null,
+                "derived_total_cost": 53.53
+              }
+            ]
+          }
+        ],
+        "Invoice_Line_Items": [
+          {
+            "order_item_id": 6,
+            "invoice_number": 15,
+            "product_id": 14,
+            "product_title": "prod_name",
+            "product_quantity": "2",
+            "product_price": 749.6,
+            "derived_product_cost": 197.06,
+            "derived_vat_payable": null,
+            "derived_total_cost": 82.77
+          },
+          {
+            "order_item_id": 7,
+            "invoice_number": 9,
+            "product_id": 14,
+            "product_title": "prod_name",
+            "product_quantity": "9",
+            "product_price": 559.95,
+            "derived_product_cost": 89.16,
+            "derived_vat_payable": null,
+            "derived_total_cost": 45.66
+          }
+        ]
+      },
+      {
+        "product_id": 15,
+        "parent_product_id": 2,
+        "production_type_code": "DVDs",
+        "unit_price": 82.96,
+        "product_name": "Harry Potter 4",
+        "product_color": "Yellow",
+        "product_size": "Large",
+        "Order_Items": [
+          {
+            "order_item_id": 7,
+            "order_id": 1,
+            "product_id": 15,
+            "product_quantity": "3",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": [
+              {
+                "order_item_id": 7,
+                "invoice_number": 9,
+                "product_id": 14,
+                "product_title": "prod_name",
+                "product_quantity": "9",
+                "product_price": 559.95,
+                "derived_product_cost": 89.16,
+                "derived_vat_payable": null,
+                "derived_total_cost": 45.66
+              }
+            ]
+          }
+        ],
+        "Invoice_Line_Items": [
+          {
+            "order_item_id": 3,
+            "invoice_number": 9,
+            "product_id": 15,
+            "product_title": "prod_name",
+            "product_quantity": "1",
+            "product_price": 814.87,
+            "derived_product_cost": 176.29,
+            "derived_vat_payable": null,
+            "derived_total_cost": 59.56
+          },
+          {
+            "order_item_id": 4,
+            "invoice_number": 10,
+            "product_id": 15,
+            "product_title": "prod_name",
+            "product_quantity": "8",
+            "product_price": 943.07,
+            "derived_product_cost": 73.14,
+            "derived_vat_payable": null,
+            "derived_total_cost": 59.93
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "production_type_code": "Books",
+    "product_type_description": "Books",
+    "vat_rating": 13.95,
+    "Products": [
+      {
+        "product_id": 2,
+        "parent_product_id": 4,
+        "production_type_code": "Books",
+        "unit_price": 558.49,
+        "product_name": "Learning French",
+        "product_color": "Yellow",
+        "product_size": "Medium",
+        "Order_Items": [],
+        "Invoice_Line_Items": []
+      },
+      {
+        "product_id": 6,
+        "parent_product_id": 7,
+        "production_type_code": "Books",
+        "unit_price": 469.71,
+        "product_name": "Art History",
+        "product_color": "Yellow",
+        "product_size": "Small",
+        "Order_Items": [],
+        "Invoice_Line_Items": [
+          {
+            "order_item_id": 11,
+            "invoice_number": 1,
+            "product_id": 6,
+            "product_title": "prod_name",
+            "product_quantity": "9",
+            "product_price": 429.05,
+            "derived_product_cost": 254.08,
+            "derived_vat_payable": null,
+            "derived_total_cost": 79.48
+          },
+          {
+            "order_item_id": 8,
+            "invoice_number": 12,
+            "product_id": 6,
+            "product_title": "prod_name",
+            "product_quantity": "8",
+            "product_price": 597.28,
+            "derived_product_cost": 188.71,
+            "derived_vat_payable": null,
+            "derived_total_cost": 98.77
+          }
+        ]
+      },
+      {
+        "product_id": 7,
+        "parent_product_id": 5,
+        "production_type_code": "Books",
+        "unit_price": 409.83,
+        "product_name": "Learning English",
+        "product_color": "Red",
+        "product_size": "Large",
+        "Order_Items": [
+          {
+            "order_item_id": 11,
+            "order_id": 15,
+            "product_id": 7,
+            "product_quantity": "5",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": [
+              {
+                "order_item_id": 11,
+                "invoice_number": 1,
+                "product_id": 6,
+                "product_title": "prod_name",
+                "product_quantity": "9",
+                "product_price": 429.05,
+                "derived_product_cost": 254.08,
+                "derived_vat_payable": null,
+                "derived_total_cost": 79.48
+              }
+            ]
+          }
+        ],
+        "Invoice_Line_Items": []
+      },
+      {
+        "product_id": 8,
+        "parent_product_id": 1,
+        "production_type_code": "Books",
+        "unit_price": 49.62,
+        "product_name": "Menus",
+        "product_color": "Black",
+        "product_size": "Small",
+        "Order_Items": [],
+        "Invoice_Line_Items": [
+          {
+            "order_item_id": 5,
+            "invoice_number": 7,
+            "product_id": 8,
+            "product_title": "prod_name",
+            "product_quantity": "6",
+            "product_price": 787.61,
+            "derived_product_cost": 150.04,
+            "derived_vat_payable": null,
+            "derived_total_cost": 51.27
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "production_type_code": "Electronics",
+    "product_type_description": "Electrical devices",
+    "vat_rating": 17.9,
+    "Products": [
+      {
+        "product_id": 3,
+        "parent_product_id": 8,
+        "production_type_code": "Electronics",
+        "unit_price": 563.58,
+        "product_name": "Fans",
+        "product_color": "Black",
+        "product_size": "Medium",
+        "Order_Items": [
+          {
+            "order_item_id": 4,
+            "order_id": 1,
+            "product_id": 3,
+            "product_quantity": "9",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": [
+              {
+                "order_item_id": 4,
+                "invoice_number": 10,
+                "product_id": 15,
+                "product_title": "prod_name",
+                "product_quantity": "8",
+                "product_price": 943.07,
+                "derived_product_cost": 73.14,
+                "derived_vat_payable": null,
+                "derived_total_cost": 59.93
+              }
+            ]
+          }
+        ],
+        "Invoice_Line_Items": [
+          {
+            "order_item_id": 8,
+            "invoice_number": 14,
+            "product_id": 3,
+            "product_title": "prod_name",
+            "product_quantity": "3",
+            "product_price": 995.34,
+            "derived_product_cost": 28.18,
+            "derived_vat_payable": null,
+            "derived_total_cost": 58.24
+          },
+          {
+            "order_item_id": 15,
+            "invoice_number": 9,
+            "product_id": 3,
+            "product_title": "prod_name",
+            "product_quantity": "4",
+            "product_price": 727.41,
+            "derived_product_cost": 66,
+            "derived_vat_payable": null,
+            "derived_total_cost": 53.53
+          }
+        ]
+      },
+      {
+        "product_id": 4,
+        "parent_product_id": 8,
+        "production_type_code": "Electronics",
+        "unit_price": 985.78,
+        "product_name": "Hard Drive",
+        "product_color": "Black",
+        "product_size": "Small",
+        "Order_Items": [
+          {
+            "order_item_id": 1,
+            "order_id": 4,
+            "product_id": 4,
+            "product_quantity": "6",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": []
+          },
+          {
+            "order_item_id": 8,
+            "order_id": 10,
+            "product_id": 4,
+            "product_quantity": "4",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": [
+              {
+                "order_item_id": 8,
+                "invoice_number": 11,
+                "product_id": 10,
+                "product_title": "prod_name",
+                "product_quantity": "2",
+                "product_price": 942.99,
+                "derived_product_cost": 88.43,
+                "derived_vat_payable": null,
+                "derived_total_cost": 86.56
+              },
+              {
+                "order_item_id": 8,
+                "invoice_number": 14,
+                "product_id": 3,
+                "product_title": "prod_name",
+                "product_quantity": "3",
+                "product_price": 995.34,
+                "derived_product_cost": 28.18,
+                "derived_vat_payable": null,
+                "derived_total_cost": 58.24
+              },
+              {
+                "order_item_id": 8,
+                "invoice_number": 12,
+                "product_id": 6,
+                "product_title": "prod_name",
+                "product_quantity": "8",
+                "product_price": 597.28,
+                "derived_product_cost": 188.71,
+                "derived_vat_payable": null,
+                "derived_total_cost": 98.77
+              }
+            ]
+          }
+        ],
+        "Invoice_Line_Items": []
+      },
+      {
+        "product_id": 10,
+        "parent_product_id": 9,
+        "production_type_code": "Electronics",
+        "unit_price": 937.85,
+        "product_name": "TV",
+        "product_color": "Red",
+        "product_size": "Medium",
+        "Order_Items": [
+          {
+            "order_item_id": 2,
+            "order_id": 4,
+            "product_id": 10,
+            "product_quantity": "7",
+            "other_order_item_details": null,
+            "Invoice_Line_Items": []
+          }
+        ],
+        "Invoice_Line_Items": [
+          {
+            "order_item_id": 8,
+            "invoice_number": 11,
+            "product_id": 10,
+            "product_title": "prod_name",
+            "product_quantity": "2",
+            "product_price": 942.99,
+            "derived_product_cost": 88.43,
+            "derived_vat_payable": null,
+            "derived_total_cost": 86.56
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,183 @@
+{
+    "visitor": [
+        {
+            "ID": 1,
+            "Name": "Gonzalo Higua\u00edn ",
+            "Level_of_membership": 8,
+            "Age": 35,
+            "visit": []
+        },
+        {
+            "ID": 2,
+            "Name": "Guti Midfielder",
+            "Level_of_membership": 5,
+            "Age": 28,
+            "visit": []
+        },
+        {
+            "ID": 3,
+            "Name": "Arjen Robben",
+            "Level_of_membership": 1,
+            "Age": 27,
+            "visit": [
+                {
+                    "Museum_ID": 4,
+                    "visitor_ID": "3",
+                    "Num_of_Ticket": 10,
+                    "Total_spent": 320.44
+                },
+                {
+                    "Museum_ID": 2,
+                    "visitor_ID": "3",
+                    "Num_of_Ticket": 24,
+                    "Total_spent": 209.98
+                }
+            ]
+        },
+        {
+            "ID": 4,
+            "Name": "Ra\u00fal Brown",
+            "Level_of_membership": 2,
+            "Age": 56,
+            "visit": []
+        },
+        {
+            "ID": 5,
+            "Name": "Fernando Gago",
+            "Level_of_membership": 6,
+            "Age": 36,
+            "visit": [
+                {
+                    "Museum_ID": 1,
+                    "visitor_ID": "5",
+                    "Num_of_Ticket": 20,
+                    "Total_spent": 320.14
+                },
+                {
+                    "Museum_ID": 2,
+                    "visitor_ID": "5",
+                    "Num_of_Ticket": 4,
+                    "Total_spent": 89.98
+                }
+            ]
+        },
+        {
+            "ID": 6,
+            "Name": "Rafael van der Vaart",
+            "Level_of_membership": 1,
+            "Age": 25,
+            "visit": [
+                {
+                    "Museum_ID": 4,
+                    "visitor_ID": "6",
+                    "Num_of_Ticket": 3,
+                    "Total_spent": 20.44
+                },
+                {
+                    "Museum_ID": 8,
+                    "visitor_ID": "6",
+                    "Num_of_Ticket": 2,
+                    "Total_spent": 19.98
+                }
+            ]
+        }
+    ],
+    "museum": [
+        {
+            "Museum_ID": 1,
+            "Name": "Plaza Museum",
+            "Num_of_Staff": 62,
+            "Open_Year": "2000",
+            "visit": [
+                {
+                    "Museum_ID": 1,
+                    "visitor_ID": "5",
+                    "Num_of_Ticket": 20,
+                    "Total_spent": 320.14
+                }
+            ]
+        },
+        {
+            "Museum_ID": 2,
+            "Name": "Capital Plaza Museum",
+            "Num_of_Staff": 25,
+            "Open_Year": "2012",
+            "visit": [
+                {
+                    "Museum_ID": 2,
+                    "visitor_ID": "3",
+                    "Num_of_Ticket": 24,
+                    "Total_spent": 209.98
+                },
+                {
+                    "Museum_ID": 2,
+                    "visitor_ID": "5",
+                    "Num_of_Ticket": 4,
+                    "Total_spent": 89.98
+                }
+            ]
+        },
+        {
+            "Museum_ID": 3,
+            "Name": "Jefferson Development Museum",
+            "Num_of_Staff": 18,
+            "Open_Year": "2010",
+            "visit": []
+        },
+        {
+            "Museum_ID": 4,
+            "Name": "Willow Grande Museum",
+            "Num_of_Staff": 17,
+            "Open_Year": "2011",
+            "visit": [
+                {
+                    "Museum_ID": 4,
+                    "visitor_ID": "3",
+                    "Num_of_Ticket": 10,
+                    "Total_spent": 320.44
+                },
+                {
+                    "Museum_ID": 4,
+                    "visitor_ID": "6",
+                    "Num_of_Ticket": 3,
+                    "Total_spent": 20.44
+                }
+            ]
+        },
+        {
+            "Museum_ID": 5,
+            "Name": "RiverPark Museum",
+            "Num_of_Staff": 16,
+            "Open_Year": "2008",
+            "visit": []
+        },
+        {
+            "Museum_ID": 6,
+            "Name": "Place Tower Museum",
+            "Num_of_Staff": 16,
+            "Open_Year": "2008",
+            "visit": []
+        },
+        {
+            "Museum_ID": 7,
+            "Name": "Central City District Residential Museum",
+            "Num_of_Staff": 15,
+            "Open_Year": "2010",
+            "visit": []
+        },
+        {
+            "Museum_ID": 8,
+            "Name": "ZirMed Gateway Museum",
+            "Num_of_Staff": 12,
+            "Open_Year": "2009",
+            "visit": [
+                {
+                    "Museum_ID": 8,
+                    "visitor_ID": "6",
+                    "Num_of_Ticket": 2,
+                    "Total_spent": 19.98
+                }
+            ]
+        }
+    ]
+}

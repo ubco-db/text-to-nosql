@@ -1,0 +1,287 @@
+[
+  {
+    "City_ID": 1,
+    "City": "Shanghai",
+    "Hanzi": "\u4e0a\u6d77",
+    "Hanyu_Pinyin": "Sh\u00e0ngh\u01cei",
+    "Regional_Population": 23019148,
+    "GDP": 1919.57,
+    "temperature": [
+      {
+        "City_ID": 1,
+        "Jan": 17.8,
+        "Feb": 17.8,
+        "Mar": 18.3,
+        "Apr": 18.9,
+        "Jun": 20.0,
+        "Jul": 20.6,
+        "Aug": 20.6,
+        "Sep": 20.6,
+        "Oct": 20.0,
+        "Nov": 19.4,
+        "Dec": 18.3
+      }
+    ],
+    "hosting_city": [
+      {
+        "Year": 2008,
+        "Match_ID": 1,
+        "Host_City": "1"
+      }
+    ]
+  },
+  {
+    "City_ID": 2,
+    "City": "Nanjing ( Jiangsu )",
+    "Hanzi": "\u5357\u4eac",
+    "Hanyu_Pinyin": "N\u00e1nj\u012bng",
+    "Regional_Population": 8004680,
+    "GDP": 614.55,
+    "temperature": [
+      {
+        "City_ID": 2,
+        "Jan": 26.1,
+        "Feb": 26.1,
+        "Mar": 26.1,
+        "Apr": 26.1,
+        "Jun": 27.8,
+        "Jul": 27.8,
+        "Aug": 28.3,
+        "Sep": 28.3,
+        "Oct": 28.3,
+        "Nov": 27.2,
+        "Dec": 26.7
+      }
+    ],
+    "hosting_city": [
+      {
+        "Year": 2009,
+        "Match_ID": 2,
+        "Host_City": "2"
+      },
+      {
+        "Year": 2010,
+        "Match_ID": 3,
+        "Host_City": "2"
+      }
+    ]
+  },
+  {
+    "City_ID": 3,
+    "City": "Hangzhou ( Zhejiang )",
+    "Hanzi": "\u676d\u5dde",
+    "Hanyu_Pinyin": "H\u00e1ngzh\u014du",
+    "Regional_Population": 8700400,
+    "GDP": 701.18,
+    "temperature": [
+      {
+        "City_ID": 3,
+        "Jan": 18.9,
+        "Feb": 18.3,
+        "Mar": 19.4,
+        "Apr": 20.0,
+        "Jun": 22.2,
+        "Jul": 23.3,
+        "Aug": 23.9,
+        "Sep": 23.3,
+        "Oct": 22.8,
+        "Nov": 21.7,
+        "Dec": 20.0
+      }
+    ],
+    "hosting_city": []
+  },
+  {
+    "City_ID": 4,
+    "City": "Suzhou ( Jiangsu )",
+    "Hanzi": "\u82cf\u5dde/ \u8607\u5dde",
+    "Hanyu_Pinyin": "S\u016bzh\u014du",
+    "Regional_Population": 10465994,
+    "GDP": 1071.7,
+    "temperature": [
+      {
+        "City_ID": 4,
+        "Jan": 26.7,
+        "Feb": 27.2,
+        "Mar": 27.8,
+        "Apr": 28.3,
+        "Jun": 30.6,
+        "Jul": 31.1,
+        "Aug": 31.7,
+        "Sep": 31.7,
+        "Oct": 30.6,
+        "Nov": 28.9,
+        "Dec": 27.8
+      }
+    ],
+    "hosting_city": []
+  },
+  {
+    "City_ID": 5,
+    "City": "Ningbo ( Zhejiang )",
+    "Hanzi": "\u5b81\u6ce2/ \u5be7\u6ce2",
+    "Hanyu_Pinyin": "N\u00edngb\u014d",
+    "Regional_Population": 7605689,
+    "GDP": 601.05,
+    "temperature": [],
+    "hosting_city": []
+  },
+  {
+    "City_ID": 6,
+    "City": "Wuxi ( Jiangsu )",
+    "Hanzi": "\u65e0\u9521/ \u7121\u932b",
+    "Hanyu_Pinyin": "W\u00fax\u012b",
+    "Regional_Population": 6372624,
+    "GDP": 688.02,
+    "temperature": [
+      {
+        "City_ID": 6,
+        "Jan": 17.2,
+        "Feb": 17.2,
+        "Mar": 18.3,
+        "Apr": 18.9,
+        "Jun": 20.6,
+        "Jul": 21.7,
+        "Aug": 21.7,
+        "Sep": 21.1,
+        "Oct": 20.6,
+        "Nov": 20.0,
+        "Dec": 18.3
+      }
+    ],
+    "hosting_city": [
+      {
+        "Year": 2011,
+        "Match_ID": 4,
+        "Host_City": "6"
+      }
+    ]
+  },
+  {
+    "City_ID": 7,
+    "City": "Nantong ( Jiangsu )",
+    "Hanzi": "\u5357\u901a",
+    "Hanyu_Pinyin": "N\u00e1nt\u014dng",
+    "Regional_Population": 7282835,
+    "GDP": 408.02,
+    "temperature": [
+      {
+        "City_ID": 7,
+        "Jan": 18.3,
+        "Feb": 18.9,
+        "Mar": 19.4,
+        "Apr": 20.6,
+        "Jun": 22.8,
+        "Jul": 23.3,
+        "Aug": 23.3,
+        "Sep": 23.3,
+        "Oct": 22.8,
+        "Nov": 21.7,
+        "Dec": 20.0
+      }
+    ],
+    "hosting_city": []
+  },
+  {
+    "City_ID": 8,
+    "City": "Shaoxing ( Zhejiang )",
+    "Hanzi": "\u7ecd\u5174/ \u7d39\u8208",
+    "Hanyu_Pinyin": "Sh\u00e0ox\u012bng",
+    "Regional_Population": 4912200,
+    "GDP": 329.12,
+    "temperature": [],
+    "hosting_city": []
+  },
+  {
+    "City_ID": 9,
+    "City": "Changzhou ( Jiangsu )",
+    "Hanzi": "\u5e38\u5dde",
+    "Hanyu_Pinyin": "Ch\u00e1ngzh\u014du",
+    "Regional_Population": 4591972,
+    "GDP": 358.04,
+    "temperature": [],
+    "hosting_city": []
+  },
+  {
+    "City_ID": 10,
+    "City": "Jinhua ( Zhejiang )",
+    "Hanzi": "\u91d1\u534e/ \u91d1\u83ef",
+    "Hanyu_Pinyin": "J\u012bnhu\u00e1",
+    "Regional_Population": 4614100,
+    "GDP": 244.77,
+    "temperature": [
+      {
+        "City_ID": 10,
+        "Jan": 26.7,
+        "Feb": 27.2,
+        "Mar": 27.8,
+        "Apr": 27.8,
+        "Jun": 30.0,
+        "Jul": 30.6,
+        "Aug": 31.1,
+        "Sep": 31.1,
+        "Oct": 30.6,
+        "Nov": 28.9,
+        "Dec": 27.8
+      }
+    ],
+    "hosting_city": []
+  },
+  {
+    "City_ID": 11,
+    "City": "Jiaxing ( Zhejiang )",
+    "Hanzi": "\u5609\u5174/ \u5609\u8208",
+    "Hanyu_Pinyin": "Ji\u0101x\u012bng",
+    "Regional_Population": 4501700,
+    "GDP": 266.81,
+    "temperature": [
+      {
+        "City_ID": 11,
+        "Jan": 25.6,
+        "Feb": 26.6,
+        "Mar": 26.6,
+        "Apr": 26.1,
+        "Jun": 28.3,
+        "Jul": 28.9,
+        "Aug": 29.4,
+        "Sep": 29.4,
+        "Oct": 28.9,
+        "Nov": 27.2,
+        "Dec": 26.1
+      }
+    ],
+    "hosting_city": [
+      {
+        "Year": 2013,
+        "Match_ID": 6,
+        "Host_City": "11"
+      }
+    ]
+  },
+  {
+    "City_ID": 12,
+    "City": "Taizhou ( Zhejiang )",
+    "Hanzi": "\u53f0\u5dde",
+    "Hanyu_Pinyin": "T\u0101izh\u014du",
+    "Regional_Population": 5968800,
+    "GDP": 279.49,
+    "temperature": [],
+    "hosting_city": [
+      {
+        "Year": 2012,
+        "Match_ID": 5,
+        "Host_City": "12"
+      }
+    ]
+  },
+  {
+    "City_ID": 13,
+    "City": "Yangzhou ( Jiangsu )",
+    "Hanzi": "\u626c\u5dde/ \u63da\u5dde",
+    "Hanyu_Pinyin": "Y\u00e1ngzh\u014du",
+    "Regional_Population": 4459760,
+    "GDP": 263.03,
+    "temperature": [],
+    "hosting_city": []
+  }
+]

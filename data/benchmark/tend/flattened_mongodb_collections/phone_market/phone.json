@@ -1,0 +1,76 @@
+[
+  {
+    "Name": "IPhone 5s",
+    "Phone_ID": 1,
+    "Memory_in_G": 32,
+    "Carrier": "Sprint",
+    "Price": 320.0,
+    "phone_market": [
+      {
+        "Market_ID": 1,
+        "Phone_ID": "1",
+        "Num_of_stock": 2232
+      },
+      {
+        "Market_ID": 5,
+        "Phone_ID": "1",
+        "Num_of_stock": 682
+      }
+    ]
+  },
+  {
+    "Name": "IPhone 6",
+    "Phone_ID": 5,
+    "Memory_in_G": 128,
+    "Carrier": "Sprint",
+    "Price": 480.0,
+    "phone_market": []
+  },
+  {
+    "Name": "IPhone 6s",
+    "Phone_ID": 2,
+    "Memory_in_G": 128,
+    "Carrier": "TMobile",
+    "Price": 699.0,
+    "phone_market": [
+      {
+        "Market_ID": 2,
+        "Phone_ID": "2",
+        "Num_of_stock": 4324
+      }
+    ]
+  },
+  {
+    "Name": "IPhone 7",
+    "Phone_ID": 4,
+    "Memory_in_G": 16,
+    "Carrier": "TMobile",
+    "Price": 899.0,
+    "phone_market": [
+      {
+        "Market_ID": 1,
+        "Phone_ID": "4",
+        "Num_of_stock": 874
+      }
+    ]
+  },
+  {
+    "Name": "IPhone X",
+    "Phone_ID": 3,
+    "Memory_in_G": 64,
+    "Carrier": "TMobile",
+    "Price": 1000.0,
+    "phone_market": [
+      {
+        "Market_ID": 2,
+        "Phone_ID": "3",
+        "Num_of_stock": 908
+      },
+      {
+        "Market_ID": 6,
+        "Phone_ID": "3",
+        "Num_of_stock": 1632
+      }
+    ]
+  }
+]

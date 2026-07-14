@@ -1,0 +1,407 @@
+[
+  {
+    "course_id": 1,
+    "course_name": "ds",
+    "course_description": "p",
+    "other_details": null,
+    "Sections": [
+      {
+        "section_id": 4,
+        "course_id": 1,
+        "section_name": "d",
+        "section_description": "voluptas",
+        "other_details": null
+      },
+      {
+        "section_id": 11,
+        "course_id": 1,
+        "section_name": "l",
+        "section_description": "ad",
+        "other_details": null
+      }
+    ],
+    "Student_Enrolment_Courses": []
+  },
+  {
+    "course_id": 2,
+    "course_name": "math",
+    "course_description": "q",
+    "other_details": null,
+    "Sections": [
+      {
+        "section_id": 2,
+        "course_id": 2,
+        "section_name": "b",
+        "section_description": "voluptatem",
+        "other_details": null
+      }
+    ],
+    "Student_Enrolment_Courses": [
+      {
+        "student_course_id": 8,
+        "course_id": 2,
+        "student_enrolment_id": 5,
+        "Transcript_Contents": [
+          {
+            "student_course_id": 8,
+            "transcript_id": 5
+          }
+        ]
+      },
+      {
+        "student_course_id": 96,
+        "course_id": 2,
+        "student_enrolment_id": 4,
+        "Transcript_Contents": [
+          {
+            "student_course_id": 96,
+            "transcript_id": 8
+          },
+          {
+            "student_course_id": 96,
+            "transcript_id": 13
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": 3,
+    "course_name": "os",
+    "course_description": "v",
+    "other_details": null,
+    "Sections": [],
+    "Student_Enrolment_Courses": [
+      {
+        "student_course_id": 438800,
+        "course_id": 3,
+        "student_enrolment_id": 4,
+        "Transcript_Contents": []
+      }
+    ]
+  },
+  {
+    "course_id": 4,
+    "course_name": "en",
+    "course_description": "k",
+    "other_details": null,
+    "Sections": [
+      {
+        "section_id": 12,
+        "course_id": 4,
+        "section_name": "o",
+        "section_description": "et",
+        "other_details": null
+      }
+    ],
+    "Student_Enrolment_Courses": [
+      {
+        "student_course_id": 604750,
+        "course_id": 4,
+        "student_enrolment_id": 6,
+        "Transcript_Contents": []
+      }
+    ]
+  },
+  {
+    "course_id": 5,
+    "course_name": "fr",
+    "course_description": "c",
+    "other_details": null,
+    "Sections": [
+      {
+        "section_id": 5,
+        "course_id": 5,
+        "section_name": "e",
+        "section_description": "ex",
+        "other_details": null
+      },
+      {
+        "section_id": 13,
+        "course_id": 5,
+        "section_name": "p",
+        "section_description": "facilis",
+        "other_details": null
+      }
+    ],
+    "Student_Enrolment_Courses": []
+  },
+  {
+    "course_id": 6,
+    "course_name": "la",
+    "course_description": "n",
+    "other_details": null,
+    "Sections": [
+      {
+        "section_id": 14,
+        "course_id": 6,
+        "section_name": "u",
+        "section_description": "reprehenderit",
+        "other_details": null
+      }
+    ],
+    "Student_Enrolment_Courses": [
+      {
+        "student_course_id": 0,
+        "course_id": 6,
+        "student_enrolment_id": 2,
+        "Transcript_Contents": [
+          {
+            "student_course_id": 0,
+            "transcript_id": 2
+          },
+          {
+            "student_course_id": 0,
+            "transcript_id": 15
+          },
+          {
+            "student_course_id": 0,
+            "transcript_id": 6
+          },
+          {
+            "student_course_id": 0,
+            "transcript_id": 5
+          }
+        ]
+      },
+      {
+        "student_course_id": 1,
+        "course_id": 6,
+        "student_enrolment_id": 8,
+        "Transcript_Contents": []
+      }
+    ]
+  },
+  {
+    "course_id": 7,
+    "course_name": "cal",
+    "course_description": "l",
+    "other_details": null,
+    "Sections": [
+      {
+        "section_id": 6,
+        "course_id": 7,
+        "section_name": "f",
+        "section_description": "doloremque",
+        "other_details": null
+      }
+    ],
+    "Student_Enrolment_Courses": []
+  },
+  {
+    "course_id": 8,
+    "course_name": "nlp",
+    "course_description": "q",
+    "other_details": null,
+    "Sections": [
+      {
+        "section_id": 3,
+        "course_id": 8,
+        "section_name": "c",
+        "section_description": "qui",
+        "other_details": null
+      },
+      {
+        "section_id": 9,
+        "course_id": 8,
+        "section_name": "j",
+        "section_description": "quis",
+        "other_details": null
+      }
+    ],
+    "Student_Enrolment_Courses": [
+      {
+        "student_course_id": 28982908,
+        "course_id": 8,
+        "student_enrolment_id": 9,
+        "Transcript_Contents": [
+          {
+            "student_course_id": 28982908,
+            "transcript_id": 11
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": 9,
+    "course_name": "dl",
+    "course_description": "l",
+    "other_details": null,
+    "Sections": [
+      {
+        "section_id": 1,
+        "course_id": 9,
+        "section_name": "a",
+        "section_description": "non",
+        "other_details": null
+      }
+    ],
+    "Student_Enrolment_Courses": []
+  },
+  {
+    "course_id": 10,
+    "course_name": "ml",
+    "course_description": "b",
+    "other_details": null,
+    "Sections": [
+      {
+        "section_id": 15,
+        "course_id": 10,
+        "section_name": "y",
+        "section_description": "qui",
+        "other_details": null
+      }
+    ],
+    "Student_Enrolment_Courses": [
+      {
+        "student_course_id": 76,
+        "course_id": 10,
+        "student_enrolment_id": 13,
+        "Transcript_Contents": [
+          {
+            "student_course_id": 76,
+            "transcript_id": 9
+          },
+          {
+            "student_course_id": 76,
+            "transcript_id": 15
+          },
+          {
+            "student_course_id": 76,
+            "transcript_id": 12
+          }
+        ]
+      },
+      {
+        "student_course_id": 681404,
+        "course_id": 10,
+        "student_enrolment_id": 4,
+        "Transcript_Contents": []
+      }
+    ]
+  },
+  {
+    "course_id": 11,
+    "course_name": "ai",
+    "course_description": "w",
+    "other_details": null,
+    "Sections": [],
+    "Student_Enrolment_Courses": [
+      {
+        "student_course_id": 7,
+        "course_id": 11,
+        "student_enrolment_id": 5,
+        "Transcript_Contents": [
+          {
+            "student_course_id": 7,
+            "transcript_id": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": 12,
+    "course_name": "db",
+    "course_description": "q",
+    "other_details": null,
+    "Sections": [
+      {
+        "section_id": 7,
+        "course_id": 12,
+        "section_name": "g",
+        "section_description": "provident",
+        "other_details": null
+      }
+    ],
+    "Student_Enrolment_Courses": [
+      {
+        "student_course_id": 83814225,
+        "course_id": 12,
+        "student_enrolment_id": 14,
+        "Transcript_Contents": []
+      }
+    ]
+  },
+  {
+    "course_id": 13,
+    "course_name": "rs",
+    "course_description": "v",
+    "other_details": null,
+    "Sections": [],
+    "Student_Enrolment_Courses": [
+      {
+        "student_course_id": 45105806,
+        "course_id": 13,
+        "student_enrolment_id": 14,
+        "Transcript_Contents": [
+          {
+            "student_course_id": 45105806,
+            "transcript_id": 8
+          }
+        ]
+      },
+      {
+        "student_course_id": 70882679,
+        "course_id": 13,
+        "student_enrolment_id": 9,
+        "Transcript_Contents": [
+          {
+            "student_course_id": 70882679,
+            "transcript_id": 6
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course_id": 14,
+    "course_name": "pl",
+    "course_description": "p",
+    "other_details": null,
+    "Sections": [
+      {
+        "section_id": 8,
+        "course_id": 14,
+        "section_name": "h",
+        "section_description": "et",
+        "other_details": null
+      },
+      {
+        "section_id": 10,
+        "course_id": 14,
+        "section_name": "k",
+        "section_description": "nesciunt",
+        "other_details": null
+      }
+    ],
+    "Student_Enrolment_Courses": [
+      {
+        "student_course_id": 2,
+        "course_id": 14,
+        "student_enrolment_id": 5,
+        "Transcript_Contents": [
+          {
+            "student_course_id": 2,
+            "transcript_id": 8
+          }
+        ]
+      },
+      {
+        "student_course_id": 9860,
+        "course_id": 14,
+        "student_enrolment_id": 10,
+        "Transcript_Contents": []
+      }
+    ]
+  },
+  {
+    "course_id": 15,
+    "course_name": "oop",
+    "course_description": "d",
+    "other_details": null,
+    "Sections": [],
+    "Student_Enrolment_Courses": []
+  }
+]

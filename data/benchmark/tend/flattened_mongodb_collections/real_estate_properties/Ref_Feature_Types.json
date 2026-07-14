@@ -1,0 +1,113 @@
+[
+  {
+    "feature_type_code": "Amenity",
+    "feature_type_name": "Amenity, eg Pool.",
+    "Other_Available_Features": [
+      {
+        "feature_id": 2,
+        "feature_type_code": "Amenity",
+        "feature_name": "AirCon",
+        "feature_description": "Air Conditioning.",
+        "Other_Property_Features": [
+          {
+            "property_id": 6,
+            "feature_id": 2,
+            "property_feature_description": "illo"
+          },
+          {
+            "property_id": 7,
+            "feature_id": 2,
+            "property_feature_description": "hic"
+          },
+          {
+            "property_id": 1,
+            "feature_id": 2,
+            "property_feature_description": "ad"
+          },
+          {
+            "property_id": 13,
+            "feature_id": 2,
+            "property_feature_description": "autem"
+          },
+          {
+            "property_id": 3,
+            "feature_id": 2,
+            "property_feature_description": "cumque"
+          }
+        ]
+      },
+      {
+        "feature_id": 3,
+        "feature_type_code": "Amenity",
+        "feature_name": "Pool",
+        "feature_description": "Swimming Pool.",
+        "Other_Property_Features": [
+          {
+            "property_id": 15,
+            "feature_id": 3,
+            "property_feature_description": "dolorem"
+          },
+          {
+            "property_id": 6,
+            "feature_id": 3,
+            "property_feature_description": "et"
+          },
+          {
+            "property_id": 4,
+            "feature_id": 3,
+            "property_feature_description": "odio"
+          },
+          {
+            "property_id": 9,
+            "feature_id": 3,
+            "property_feature_description": "quo"
+          },
+          {
+            "property_id": 6,
+            "feature_id": 3,
+            "property_feature_description": "corrupti"
+          },
+          {
+            "property_id": 6,
+            "feature_id": 3,
+            "property_feature_description": "doloribus"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "feature_type_code": "Security",
+    "feature_type_name": "Securiyt, eg Burglar Alarm.",
+    "Other_Available_Features": [
+      {
+        "feature_id": 4,
+        "feature_type_code": "Security",
+        "feature_name": "BurglarAlarm",
+        "feature_description": "Burglar Alarm",
+        "Other_Property_Features": [
+          {
+            "property_id": 12,
+            "feature_id": 4,
+            "property_feature_description": "earum"
+          },
+          {
+            "property_id": 14,
+            "feature_id": 4,
+            "property_feature_description": "quo"
+          },
+          {
+            "property_id": 11,
+            "feature_id": 4,
+            "property_feature_description": "vitae"
+          },
+          {
+            "property_id": 14,
+            "feature_id": 4,
+            "property_feature_description": "modi"
+          }
+        ]
+      }
+    ]
+  }
+]

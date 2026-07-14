@@ -1,0 +1,985 @@
+{
+    "Available_Policies": [
+        {
+            "Policy_ID": 246,
+            "policy_type_code": "Life Insurance",
+            "Customer_Phone": "+16(2)5838999222",
+            "Customers_Policies": []
+        },
+        {
+            "Policy_ID": 257,
+            "policy_type_code": "Property Insurance",
+            "Customer_Phone": "242.763.9214",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 214,
+                    "Policy_ID": 257,
+                    "Date_Opened": "2016-11-19",
+                    "Date_Closed": "2018-03-04",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 532,
+                            "Customer_ID": 214,
+                            "Policy_ID": 257,
+                            "Service_ID": 6,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 228,
+                                    "FNOL_ID": 532,
+                                    "Effective_Date": "1975-05-07",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 604,
+                                            "Claim_ID": 228,
+                                            "Effective_Date": "2014-12-09",
+                                            "Settlement_Amount": 2138.96
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Policy_ID": 300,
+            "policy_type_code": "Property Insurance",
+            "Customer_Phone": "1-416-503-7735x94204",
+            "Customers_Policies": []
+        },
+        {
+            "Policy_ID": 301,
+            "policy_type_code": "Property Insurance",
+            "Customer_Phone": "(777)537-7792",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 214,
+                    "Policy_ID": 301,
+                    "Date_Opened": "2016-04-12",
+                    "Date_Closed": "2018-02-07",
+                    "First_Notification_of_Loss": []
+                }
+            ]
+        },
+        {
+            "Policy_ID": 346,
+            "policy_type_code": "Mortgage Insurance",
+            "Customer_Phone": "1-446-940-9907x257",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 562,
+                    "Policy_ID": 346,
+                    "Date_Opened": "2017-01-09",
+                    "Date_Closed": "2018-03-08",
+                    "First_Notification_of_Loss": []
+                }
+            ]
+        },
+        {
+            "Policy_ID": 366,
+            "policy_type_code": "Mortgage Insurance",
+            "Customer_Phone": "(379)862-8274x12620",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 641,
+                    "Policy_ID": 366,
+                    "Date_Opened": "2016-07-10",
+                    "Date_Closed": "2018-02-24",
+                    "First_Notification_of_Loss": []
+                },
+                {
+                    "Customer_ID": 996,
+                    "Policy_ID": 366,
+                    "Date_Opened": "2016-10-31",
+                    "Date_Closed": "2018-03-19",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 2543,
+                            "Customer_ID": 996,
+                            "Policy_ID": 366,
+                            "Service_ID": 1,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 309,
+                                    "FNOL_ID": 2543,
+                                    "Effective_Date": "1982-05-03",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 543,
+                                            "Claim_ID": 309,
+                                            "Effective_Date": "1972-03-02",
+                                            "Settlement_Amount": 2722.67
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Policy_ID": 472,
+            "policy_type_code": "Mortgage Insurance",
+            "Customer_Phone": "+85(6)1302858396",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 641,
+                    "Policy_ID": 472,
+                    "Date_Opened": "2016-07-07",
+                    "Date_Closed": "2018-03-10",
+                    "First_Notification_of_Loss": []
+                }
+            ]
+        },
+        {
+            "Policy_ID": 583,
+            "policy_type_code": "Travel Insurance",
+            "Customer_Phone": "1-797-927-3585x9321",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 256,
+                    "Policy_ID": 583,
+                    "Date_Opened": "2016-07-22",
+                    "Date_Closed": "2018-02-20",
+                    "First_Notification_of_Loss": []
+                },
+                {
+                    "Customer_ID": 562,
+                    "Policy_ID": 583,
+                    "Date_Opened": "2016-06-24",
+                    "Date_Closed": "2018-02-22",
+                    "First_Notification_of_Loss": []
+                },
+                {
+                    "Customer_ID": 682,
+                    "Policy_ID": 583,
+                    "Date_Opened": "2016-11-01",
+                    "Date_Closed": "2018-03-03",
+                    "First_Notification_of_Loss": []
+                }
+            ]
+        },
+        {
+            "Policy_ID": 586,
+            "policy_type_code": "Life Insurance",
+            "Customer_Phone": "991.642.6485x822",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 582,
+                    "Policy_ID": 586,
+                    "Date_Opened": "2016-04-11",
+                    "Date_Closed": "2018-03-17",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 4525,
+                            "Customer_ID": 582,
+                            "Policy_ID": 586,
+                            "Service_ID": 1,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 641,
+                                    "FNOL_ID": 4525,
+                                    "Effective_Date": "1985-03-24",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 176,
+                                            "Claim_ID": 641,
+                                            "Effective_Date": "1971-06-29",
+                                            "Settlement_Amount": 1588.45
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Claim_ID": 717,
+                                    "FNOL_ID": 4525,
+                                    "Effective_Date": "1996-11-29",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 161,
+                                            "Claim_ID": 717,
+                                            "Effective_Date": "2009-11-20",
+                                            "Settlement_Amount": 6451.65
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Policy_ID": 630,
+            "policy_type_code": "Property Insurance",
+            "Customer_Phone": "813.178.8211x557",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 826,
+                    "Policy_ID": 630,
+                    "Date_Opened": "2016-11-18",
+                    "Date_Closed": "2018-02-13",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 4323,
+                            "Customer_ID": 826,
+                            "Policy_ID": 630,
+                            "Service_ID": 4,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 604,
+                                    "FNOL_ID": 4323,
+                                    "Effective_Date": "2009-02-11",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 205,
+                                            "Claim_ID": 604,
+                                            "Effective_Date": "1978-09-09",
+                                            "Settlement_Amount": 9814.39
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Policy_ID": 636,
+            "policy_type_code": "Life Insurance",
+            "Customer_Phone": "889-572-0609x552",
+            "Customers_Policies": []
+        },
+        {
+            "Policy_ID": 751,
+            "policy_type_code": "Life Insurance",
+            "Customer_Phone": "1-138-841-3073",
+            "Customers_Policies": []
+        },
+        {
+            "Policy_ID": 879,
+            "policy_type_code": "Mortgage Insurance",
+            "Customer_Phone": "1-381-132-0127x3801",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 996,
+                    "Policy_ID": 879,
+                    "Date_Opened": "2017-01-05",
+                    "Date_Closed": "2018-02-20",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 1722,
+                            "Customer_ID": 996,
+                            "Policy_ID": 879,
+                            "Service_ID": 6,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 134,
+                                    "FNOL_ID": 1722,
+                                    "Effective_Date": "1973-08-18",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 628,
+                                            "Claim_ID": 134,
+                                            "Effective_Date": "2001-07-02",
+                                            "Settlement_Amount": 1721.17
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Policy_ID": 927,
+            "policy_type_code": "Mortgage Insurance",
+            "Customer_Phone": "00481937923",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 892,
+                    "Policy_ID": 927,
+                    "Date_Opened": "2017-01-08",
+                    "Date_Closed": "2018-02-25",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 4226,
+                            "Customer_ID": 892,
+                            "Policy_ID": 927,
+                            "Service_ID": 1,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 311,
+                                    "FNOL_ID": 4226,
+                                    "Effective_Date": "1992-02-09",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 544,
+                                            "Claim_ID": 311,
+                                            "Effective_Date": "1973-10-27",
+                                            "Settlement_Amount": 9164.1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Claim_ID": 360,
+                                    "FNOL_ID": 4226,
+                                    "Effective_Date": "2006-06-10",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 393,
+                                            "Claim_ID": 360,
+                                            "Effective_Date": "2006-04-19",
+                                            "Settlement_Amount": 8013.95
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Claim_ID": 428,
+                                    "FNOL_ID": 4226,
+                                    "Effective_Date": "1992-01-05",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 208,
+                                            "Claim_ID": 428,
+                                            "Effective_Date": "2003-12-28",
+                                            "Settlement_Amount": 8827.06
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Policy_ID": 993,
+            "policy_type_code": "Property Insurance",
+            "Customer_Phone": "405.090.8654x021",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 996,
+                    "Policy_ID": 993,
+                    "Date_Opened": "2016-07-03",
+                    "Date_Closed": "2018-03-20",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 1611,
+                            "Customer_ID": 996,
+                            "Policy_ID": 993,
+                            "Service_ID": 9,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 145,
+                                    "FNOL_ID": 1611,
+                                    "Effective_Date": "2014-10-19",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 616,
+                                            "Claim_ID": 145,
+                                            "Effective_Date": "1995-04-02",
+                                            "Settlement_Amount": 3101.3
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Customers": [
+        {
+            "Customer_ID": 194,
+            "Customer_name": "America Jaskolski",
+            "Customers_Policies": []
+        },
+        {
+            "Customer_ID": 214,
+            "Customer_name": "Ellsworth Paucek",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 214,
+                    "Policy_ID": 257,
+                    "Date_Opened": "2016-11-19",
+                    "Date_Closed": "2018-03-04",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 532,
+                            "Customer_ID": 214,
+                            "Policy_ID": 257,
+                            "Service_ID": 6,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 228,
+                                    "FNOL_ID": 532,
+                                    "Effective_Date": "1975-05-07",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 604,
+                                            "Claim_ID": 228,
+                                            "Effective_Date": "2014-12-09",
+                                            "Settlement_Amount": 2138.96
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Customer_ID": 214,
+                    "Policy_ID": 301,
+                    "Date_Opened": "2016-04-12",
+                    "Date_Closed": "2018-02-07",
+                    "First_Notification_of_Loss": []
+                }
+            ]
+        },
+        {
+            "Customer_ID": 256,
+            "Customer_name": "Mrs. Hanna Willms",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 256,
+                    "Policy_ID": 583,
+                    "Date_Opened": "2016-07-22",
+                    "Date_Closed": "2018-02-20",
+                    "First_Notification_of_Loss": []
+                }
+            ]
+        },
+        {
+            "Customer_ID": 562,
+            "Customer_name": "Dr. Diana Rath",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 562,
+                    "Policy_ID": 346,
+                    "Date_Opened": "2017-01-09",
+                    "Date_Closed": "2018-03-08",
+                    "First_Notification_of_Loss": []
+                },
+                {
+                    "Customer_ID": 562,
+                    "Policy_ID": 583,
+                    "Date_Opened": "2016-06-24",
+                    "Date_Closed": "2018-02-22",
+                    "First_Notification_of_Loss": []
+                }
+            ]
+        },
+        {
+            "Customer_ID": 582,
+            "Customer_name": "Selena Gerhold",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 582,
+                    "Policy_ID": 586,
+                    "Date_Opened": "2016-04-11",
+                    "Date_Closed": "2018-03-17",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 4525,
+                            "Customer_ID": 582,
+                            "Policy_ID": 586,
+                            "Service_ID": 1,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 641,
+                                    "FNOL_ID": 4525,
+                                    "Effective_Date": "1985-03-24",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 176,
+                                            "Claim_ID": 641,
+                                            "Effective_Date": "1971-06-29",
+                                            "Settlement_Amount": 1588.45
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Claim_ID": 717,
+                                    "FNOL_ID": 4525,
+                                    "Effective_Date": "1996-11-29",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 161,
+                                            "Claim_ID": 717,
+                                            "Effective_Date": "2009-11-20",
+                                            "Settlement_Amount": 6451.65
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Customer_ID": 641,
+            "Customer_name": "Dayana Robel",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 641,
+                    "Policy_ID": 366,
+                    "Date_Opened": "2016-07-10",
+                    "Date_Closed": "2018-02-24",
+                    "First_Notification_of_Loss": []
+                },
+                {
+                    "Customer_ID": 641,
+                    "Policy_ID": 472,
+                    "Date_Opened": "2016-07-07",
+                    "Date_Closed": "2018-03-10",
+                    "First_Notification_of_Loss": []
+                }
+            ]
+        },
+        {
+            "Customer_ID": 682,
+            "Customer_name": "Mr. Edwardo Blanda I",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 682,
+                    "Policy_ID": 583,
+                    "Date_Opened": "2016-11-01",
+                    "Date_Closed": "2018-03-03",
+                    "First_Notification_of_Loss": []
+                }
+            ]
+        },
+        {
+            "Customer_ID": 756,
+            "Customer_name": "Mr. Randal Lynch III",
+            "Customers_Policies": []
+        },
+        {
+            "Customer_ID": 805,
+            "Customer_name": "Mrs. Liza Heller V",
+            "Customers_Policies": []
+        },
+        {
+            "Customer_ID": 826,
+            "Customer_name": "Mrs. Lilly Graham III",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 826,
+                    "Policy_ID": 630,
+                    "Date_Opened": "2016-11-18",
+                    "Date_Closed": "2018-02-13",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 4323,
+                            "Customer_ID": 826,
+                            "Policy_ID": 630,
+                            "Service_ID": 4,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 604,
+                                    "FNOL_ID": 4323,
+                                    "Effective_Date": "2009-02-11",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 205,
+                                            "Claim_ID": 604,
+                                            "Effective_Date": "1978-09-09",
+                                            "Settlement_Amount": 9814.39
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Customer_ID": 882,
+            "Customer_name": "Miss Felicita Reichel",
+            "Customers_Policies": []
+        },
+        {
+            "Customer_ID": 892,
+            "Customer_name": "Sydnie Friesen",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 892,
+                    "Policy_ID": 927,
+                    "Date_Opened": "2017-01-08",
+                    "Date_Closed": "2018-02-25",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 4226,
+                            "Customer_ID": 892,
+                            "Policy_ID": 927,
+                            "Service_ID": 1,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 311,
+                                    "FNOL_ID": 4226,
+                                    "Effective_Date": "1992-02-09",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 544,
+                                            "Claim_ID": 311,
+                                            "Effective_Date": "1973-10-27",
+                                            "Settlement_Amount": 9164.1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Claim_ID": 360,
+                                    "FNOL_ID": 4226,
+                                    "Effective_Date": "2006-06-10",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 393,
+                                            "Claim_ID": 360,
+                                            "Effective_Date": "2006-04-19",
+                                            "Settlement_Amount": 8013.95
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Claim_ID": 428,
+                                    "FNOL_ID": 4226,
+                                    "Effective_Date": "1992-01-05",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 208,
+                                            "Claim_ID": 428,
+                                            "Effective_Date": "2003-12-28",
+                                            "Settlement_Amount": 8827.06
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Customer_ID": 923,
+            "Customer_name": "David Ross",
+            "Customers_Policies": []
+        },
+        {
+            "Customer_ID": 956,
+            "Customer_name": "Cai Zhang",
+            "Customers_Policies": []
+        },
+        {
+            "Customer_ID": 996,
+            "Customer_name": "Jay Chou",
+            "Customers_Policies": [
+                {
+                    "Customer_ID": 996,
+                    "Policy_ID": 366,
+                    "Date_Opened": "2016-10-31",
+                    "Date_Closed": "2018-03-19",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 2543,
+                            "Customer_ID": 996,
+                            "Policy_ID": 366,
+                            "Service_ID": 1,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 309,
+                                    "FNOL_ID": 2543,
+                                    "Effective_Date": "1982-05-03",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 543,
+                                            "Claim_ID": 309,
+                                            "Effective_Date": "1972-03-02",
+                                            "Settlement_Amount": 2722.67
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Customer_ID": 996,
+                    "Policy_ID": 879,
+                    "Date_Opened": "2017-01-05",
+                    "Date_Closed": "2018-02-20",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 1722,
+                            "Customer_ID": 996,
+                            "Policy_ID": 879,
+                            "Service_ID": 6,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 134,
+                                    "FNOL_ID": 1722,
+                                    "Effective_Date": "1973-08-18",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 628,
+                                            "Claim_ID": 134,
+                                            "Effective_Date": "2001-07-02",
+                                            "Settlement_Amount": 1721.17
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Customer_ID": 996,
+                    "Policy_ID": 993,
+                    "Date_Opened": "2016-07-03",
+                    "Date_Closed": "2018-03-20",
+                    "First_Notification_of_Loss": [
+                        {
+                            "FNOL_ID": 1611,
+                            "Customer_ID": 996,
+                            "Policy_ID": 993,
+                            "Service_ID": 9,
+                            "Claims": [
+                                {
+                                    "Claim_ID": 145,
+                                    "FNOL_ID": 1611,
+                                    "Effective_Date": "2014-10-19",
+                                    "Settlements": [
+                                        {
+                                            "Settlement_ID": 616,
+                                            "Claim_ID": 145,
+                                            "Effective_Date": "1995-04-02",
+                                            "Settlement_Amount": 3101.3
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Services": [
+        {
+            "Service_ID": 1,
+            "Service_name": "New policy application",
+            "First_Notification_of_Loss": [
+                {
+                    "FNOL_ID": 2543,
+                    "Customer_ID": 996,
+                    "Policy_ID": 366,
+                    "Service_ID": 1,
+                    "Claims": [
+                        {
+                            "Claim_ID": 309,
+                            "FNOL_ID": 2543,
+                            "Effective_Date": "1982-05-03",
+                            "Settlements": [
+                                {
+                                    "Settlement_ID": 543,
+                                    "Claim_ID": 309,
+                                    "Effective_Date": "1972-03-02",
+                                    "Settlement_Amount": 2722.67
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "FNOL_ID": 4226,
+                    "Customer_ID": 892,
+                    "Policy_ID": 927,
+                    "Service_ID": 1,
+                    "Claims": [
+                        {
+                            "Claim_ID": 311,
+                            "FNOL_ID": 4226,
+                            "Effective_Date": "1992-02-09",
+                            "Settlements": [
+                                {
+                                    "Settlement_ID": 544,
+                                    "Claim_ID": 311,
+                                    "Effective_Date": "1973-10-27",
+                                    "Settlement_Amount": 9164.1
+                                }
+                            ]
+                        },
+                        {
+                            "Claim_ID": 360,
+                            "FNOL_ID": 4226,
+                            "Effective_Date": "2006-06-10",
+                            "Settlements": [
+                                {
+                                    "Settlement_ID": 393,
+                                    "Claim_ID": 360,
+                                    "Effective_Date": "2006-04-19",
+                                    "Settlement_Amount": 8013.95
+                                }
+                            ]
+                        },
+                        {
+                            "Claim_ID": 428,
+                            "FNOL_ID": 4226,
+                            "Effective_Date": "1992-01-05",
+                            "Settlements": [
+                                {
+                                    "Settlement_ID": 208,
+                                    "Claim_ID": 428,
+                                    "Effective_Date": "2003-12-28",
+                                    "Settlement_Amount": 8827.06
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "FNOL_ID": 4525,
+                    "Customer_ID": 582,
+                    "Policy_ID": 586,
+                    "Service_ID": 1,
+                    "Claims": [
+                        {
+                            "Claim_ID": 641,
+                            "FNOL_ID": 4525,
+                            "Effective_Date": "1985-03-24",
+                            "Settlements": [
+                                {
+                                    "Settlement_ID": 176,
+                                    "Claim_ID": 641,
+                                    "Effective_Date": "1971-06-29",
+                                    "Settlement_Amount": 1588.45
+                                }
+                            ]
+                        },
+                        {
+                            "Claim_ID": 717,
+                            "FNOL_ID": 4525,
+                            "Effective_Date": "1996-11-29",
+                            "Settlements": [
+                                {
+                                    "Settlement_ID": 161,
+                                    "Claim_ID": 717,
+                                    "Effective_Date": "2009-11-20",
+                                    "Settlement_Amount": 6451.65
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Service_ID": 4,
+            "Service_name": "Close a policy",
+            "First_Notification_of_Loss": [
+                {
+                    "FNOL_ID": 4323,
+                    "Customer_ID": 826,
+                    "Policy_ID": 630,
+                    "Service_ID": 4,
+                    "Claims": [
+                        {
+                            "Claim_ID": 604,
+                            "FNOL_ID": 4323,
+                            "Effective_Date": "2009-02-11",
+                            "Settlements": [
+                                {
+                                    "Settlement_ID": 205,
+                                    "Claim_ID": 604,
+                                    "Effective_Date": "1978-09-09",
+                                    "Settlement_Amount": 9814.39
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Service_ID": 6,
+            "Service_name": "Change a policy",
+            "First_Notification_of_Loss": [
+                {
+                    "FNOL_ID": 532,
+                    "Customer_ID": 214,
+                    "Policy_ID": 257,
+                    "Service_ID": 6,
+                    "Claims": [
+                        {
+                            "Claim_ID": 228,
+                            "FNOL_ID": 532,
+                            "Effective_Date": "1975-05-07",
+                            "Settlements": [
+                                {
+                                    "Settlement_ID": 604,
+                                    "Claim_ID": 228,
+                                    "Effective_Date": "2014-12-09",
+                                    "Settlement_Amount": 2138.96
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "FNOL_ID": 1722,
+                    "Customer_ID": 996,
+                    "Policy_ID": 879,
+                    "Service_ID": 6,
+                    "Claims": [
+                        {
+                            "Claim_ID": 134,
+                            "FNOL_ID": 1722,
+                            "Effective_Date": "1973-08-18",
+                            "Settlements": [
+                                {
+                                    "Settlement_ID": 628,
+                                    "Claim_ID": 134,
+                                    "Effective_Date": "2001-07-02",
+                                    "Settlement_Amount": 1721.17
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Service_ID": 9,
+            "Service_name": "Upgrade a policy",
+            "First_Notification_of_Loss": [
+                {
+                    "FNOL_ID": 1611,
+                    "Customer_ID": 996,
+                    "Policy_ID": 993,
+                    "Service_ID": 9,
+                    "Claims": [
+                        {
+                            "Claim_ID": 145,
+                            "FNOL_ID": 1611,
+                            "Effective_Date": "2014-10-19",
+                            "Settlements": [
+                                {
+                                    "Settlement_ID": 616,
+                                    "Claim_ID": 145,
+                                    "Effective_Date": "1995-04-02",
+                                    "Settlement_Amount": 3101.3
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

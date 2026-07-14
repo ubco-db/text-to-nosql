@@ -1,0 +1,97 @@
+[
+  {
+    "Course_ID": 1,
+    "Staring_Date": "5 May",
+    "Course": "Language Arts",
+    "course_arrange": []
+  },
+  {
+    "Course_ID": 2,
+    "Staring_Date": "6 May",
+    "Course": "Math",
+    "course_arrange": [
+      {
+        "Course_ID": 2,
+        "Teacher_ID": 3,
+        "Grade": 3
+      },
+      {
+        "Course_ID": 2,
+        "Teacher_ID": 5,
+        "Grade": 1
+      }
+    ]
+  },
+  {
+    "Course_ID": 3,
+    "Staring_Date": "7 May",
+    "Course": "Science",
+    "course_arrange": [
+      {
+        "Course_ID": 3,
+        "Teacher_ID": 2,
+        "Grade": 5
+      }
+    ]
+  },
+  {
+    "Course_ID": 4,
+    "Staring_Date": "9 May",
+    "Course": "History",
+    "course_arrange": [
+      {
+        "Course_ID": 4,
+        "Teacher_ID": 6,
+        "Grade": 7
+      }
+    ]
+  },
+  {
+    "Course_ID": 5,
+    "Staring_Date": "10 May",
+    "Course": "Bible",
+    "course_arrange": [
+      {
+        "Course_ID": 5,
+        "Teacher_ID": 6,
+        "Grade": 1
+      }
+    ]
+  },
+  {
+    "Course_ID": 6,
+    "Staring_Date": "11 May",
+    "Course": "Geography",
+    "course_arrange": []
+  },
+  {
+    "Course_ID": 7,
+    "Staring_Date": "13 May",
+    "Course": "Sports",
+    "course_arrange": []
+  },
+  {
+    "Course_ID": 8,
+    "Staring_Date": "14 May",
+    "Course": "French",
+    "course_arrange": []
+  },
+  {
+    "Course_ID": 9,
+    "Staring_Date": "15 May",
+    "Course": "Health",
+    "course_arrange": []
+  },
+  {
+    "Course_ID": 10,
+    "Staring_Date": "17 May",
+    "Course": "Music",
+    "course_arrange": [
+      {
+        "Course_ID": 10,
+        "Teacher_ID": 7,
+        "Grade": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,202 @@
+{
+    "people": [
+        {
+            "People_ID": 1,
+            "Name": "Mike Weir",
+            "Country": "Canada",
+            "Is_Male": "T",
+            "Age": 34,
+            "wedding": []
+        },
+        {
+            "People_ID": 2,
+            "Name": "Juli Hanson",
+            "Country": "Sweden",
+            "Is_Male": "F",
+            "Age": 32,
+            "wedding": []
+        },
+        {
+            "People_ID": 3,
+            "Name": "Ricky Barnes",
+            "Country": "United States",
+            "Is_Male": "T",
+            "Age": 30,
+            "wedding": []
+        },
+        {
+            "People_ID": 4,
+            "Name": "Summer Duval",
+            "Country": "United States",
+            "Is_Male": "F",
+            "Age": 30,
+            "wedding": []
+        },
+        {
+            "People_ID": 5,
+            "Name": "Todd Hamilton",
+            "Country": "United States",
+            "Is_Male": "T",
+            "Age": 27,
+            "wedding": []
+        },
+        {
+            "People_ID": 6,
+            "Name": "Annie Mediate",
+            "Country": "United States",
+            "Is_Male": "F",
+            "Age": 26,
+            "wedding": []
+        },
+        {
+            "People_ID": 7,
+            "Name": "Lucas Glover",
+            "Country": "United States",
+            "Is_Male": "T",
+            "Age": 31,
+            "wedding": []
+        },
+        {
+            "People_ID": 8,
+            "Name": "Joe O'Hair",
+            "Country": "United States",
+            "Is_Male": "F",
+            "Age": 31,
+            "wedding": []
+        },
+        {
+            "People_ID": 9,
+            "Name": "Graeme McDowell",
+            "Country": "Northern Ireland",
+            "Is_Male": "T",
+            "Age": 34,
+            "wedding": []
+        },
+        {
+            "People_ID": 10,
+            "Name": "Jamie Mickelson",
+            "Country": "United States",
+            "Is_Male": "F",
+            "Age": 36,
+            "wedding": []
+        },
+        {
+            "People_ID": 11,
+            "Name": "Adam Scott",
+            "Country": "Australia",
+            "Is_Male": "T",
+            "Age": 26,
+            "wedding": []
+        },
+        {
+            "People_ID": 12,
+            "Name": "Danny Toms",
+            "Country": "United States",
+            "Is_Male": "F",
+            "Age": 25,
+            "wedding": []
+        }
+    ],
+    "church": [
+        {
+            "Church_ID": 1,
+            "Name": "Pure Church of Christ",
+            "Organized_by": "Wycam Clark",
+            "Open_Date": 1831,
+            "Continuation_of": "Church of Christ",
+            "wedding": [
+                {
+                    "Church_ID": 1,
+                    "Male_ID": 1,
+                    "Female_ID": 2,
+                    "Year": 2014
+                }
+            ]
+        },
+        {
+            "Church_ID": 2,
+            "Name": "Independent Church",
+            "Organized_by": "\u2013 Hoton",
+            "Open_Date": 1832,
+            "Continuation_of": "Church of Christ",
+            "wedding": []
+        },
+        {
+            "Church_ID": 3,
+            "Name": "Church of Christ",
+            "Organized_by": "Ezra Booth",
+            "Open_Date": 1836,
+            "Continuation_of": "Church of the Latter Day Saints",
+            "wedding": [
+                {
+                    "Church_ID": 3,
+                    "Male_ID": 3,
+                    "Female_ID": 4,
+                    "Year": 2015
+                }
+            ]
+        },
+        {
+            "Church_ID": 4,
+            "Name": "Church of Christ (Parrishite)",
+            "Organized_by": "Warren Parrish",
+            "Open_Date": 1837,
+            "Continuation_of": "Church of the Latter Day Saints",
+            "wedding": [
+                {
+                    "Church_ID": 4,
+                    "Male_ID": 7,
+                    "Female_ID": 8,
+                    "Year": 2016
+                }
+            ]
+        },
+        {
+            "Church_ID": 5,
+            "Name": "Alston Church",
+            "Organized_by": "Isaac Russell",
+            "Open_Date": 1839,
+            "Continuation_of": "Church of Jesus Christ of Latter Day Saints",
+            "wedding": [
+                {
+                    "Church_ID": 5,
+                    "Male_ID": 5,
+                    "Female_ID": 6,
+                    "Year": 2016
+                }
+            ]
+        },
+        {
+            "Church_ID": 6,
+            "Name": "Church of Christ",
+            "Organized_by": "William Chubby",
+            "Open_Date": 1830,
+            "Continuation_of": "Church of Jesus Christ of Latter Day Saints",
+            "wedding": []
+        },
+        {
+            "Church_ID": 7,
+            "Name": "Church of Jesus Christ, the Bride, the Lamb's Wife",
+            "Organized_by": "George M. Hinkle",
+            "Open_Date": 1840,
+            "Continuation_of": "Church of Jesus Christ of Latter Day Saints",
+            "wedding": []
+        },
+        {
+            "Church_ID": 8,
+            "Name": "Church of Christ",
+            "Organized_by": "Hiram Page",
+            "Open_Date": 1842,
+            "Continuation_of": "Church of Jesus Christ of Latter Day Saints",
+            "wedding": []
+        },
+        {
+            "Church_ID": 9,
+            "Name": "True Church of Jesus Christ of Latter Day Saints",
+            "Organized_by": "William Law",
+            "Open_Date": 1844,
+            "Continuation_of": "Church of Jesus Christ of Latter Day Saints",
+            "wedding": []
+        }
+    ]
+}

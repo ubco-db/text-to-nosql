@@ -1,0 +1,97 @@
+[
+  {
+    "Editor_ID": 1,
+    "Name": "Kamila Porczyk",
+    "Age": 34.0,
+    "journal_committee": [
+      {
+        "Editor_ID": 1,
+        "Journal_ID": 13,
+        "Work_Type": "Photo"
+      }
+    ]
+  },
+  {
+    "Editor_ID": 2,
+    "Name": "Anna Powierza",
+    "Age": 35.0,
+    "journal_committee": []
+  },
+  {
+    "Editor_ID": 3,
+    "Name": "Marek Siudym",
+    "Age": 21.0,
+    "journal_committee": [
+      {
+        "Editor_ID": 3,
+        "Journal_ID": 6,
+        "Work_Type": "Title"
+      }
+    ]
+  },
+  {
+    "Editor_ID": 4,
+    "Name": "Piotr Pr\u0119gowski",
+    "Age": 43.0,
+    "journal_committee": [
+      {
+        "Editor_ID": 4,
+        "Journal_ID": 2,
+        "Work_Type": "Article"
+      }
+    ]
+  },
+  {
+    "Editor_ID": 5,
+    "Name": "Szymon Wydra",
+    "Age": 20.0,
+    "journal_committee": []
+  },
+  {
+    "Editor_ID": 6,
+    "Name": "W\u0142adys\u0142aw Grzywna",
+    "Age": 24.0,
+    "journal_committee": [
+      {
+        "Editor_ID": 6,
+        "Journal_ID": 11,
+        "Work_Type": "Photo"
+      }
+    ]
+  },
+  {
+    "Editor_ID": 7,
+    "Name": "Mariusz Zalejski",
+    "Age": 25.0,
+    "journal_committee": []
+  },
+  {
+    "Editor_ID": 8,
+    "Name": "Gra\u017cyna Wolszczak",
+    "Age": 54.0,
+    "journal_committee": [
+      {
+        "Editor_ID": 8,
+        "Journal_ID": 4,
+        "Work_Type": "Photo"
+      },
+      {
+        "Editor_ID": 8,
+        "Journal_ID": 17,
+        "Work_Type": "Article"
+      }
+    ]
+  },
+  {
+    "Editor_ID": 9,
+    "Name": "Maria G\u00f3ralczyk",
+    "Age": 38.0,
+    "journal_committee": [
+      {
+        "Editor_ID": 9,
+        "Journal_ID": 12,
+        "Work_Type": "Photo"
+      }
+    ]
+  }
+]

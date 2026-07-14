@@ -1,0 +1,13 @@
+.env
+__pycache__/
+_pycache__/
+venv/
+*.pkl
+*.zip
+*.log
+evaluation/results/*.json
+evaluation/analysis/*
+!evaluation/analysis/.gitkeep
+evaluation/logs/*
+!evaluation/logs/.gitkeep
+evaluation/partial_log.txt
