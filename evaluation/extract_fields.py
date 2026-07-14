@@ -1,16 +1,29 @@
 from typing import List, Dict
 import json
-import os
 
 from pathlib import Path
 
-UTILS_DIR = Path(__file__).resolve().parent
-REPO_ROOT = UTILS_DIR.parents[2]
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+
+def find_repo_root(start: Path) -> Path:
+    for path in [start, *start.parents]:
+        schema_dir = path / "data" / "benchmark" / "tend" / "mongodb_schema"
+        if schema_dir.exists():
+            return path
+
+    raise FileNotFoundError(
+        "Could not locate repository root containing "
+        "data/benchmark/tend/mongodb_schema."
+    )
+
+REPO_ROOT = find_repo_root(SCRIPT_DIR)
 
 SCHEMA_DIR_CANDIDATES = [
     REPO_ROOT / "data" / "benchmark" / "tend" / "mongodb_schema",
     REPO_ROOT / "TEND" / "mongodb_schema",
 ]
+
 
 def get_schema_path(db_name: str) -> Path:
     for schema_dir in SCHEMA_DIR_CANDIDATES:
