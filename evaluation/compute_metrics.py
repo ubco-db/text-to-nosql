@@ -502,10 +502,112 @@ def _requires_ordered_output(sql_gold: str, mql_gold: str) -> bool:
     Gold MQL is a fallback for cases where the SQL text is unavailable or where
     the gold MQL encodes a required final sort.
     """
+    sql_ordered = _sql_requires_ordered_output(sql_gold)
+    mql_ordered = _mql_requires_ordered_output(mql_gold)
+
     if _sql_requires_ordered_output(sql_gold):
         return True
 
     return _mql_requires_ordered_output(mql_gold)
+
+
+
+def extract_final_sort_spec(mql: str):
+
+    coll, pipeline = _try_parse_aggregate(mql)
+
+    if coll and isinstance(pipeline, list):
+        last_sort = None
+
+        for idx, stage in enumerate(pipeline):
+
+            if isinstance(stage, dict) and "$sort" in stage:
+                last_sort = stage["$sort"]
+            elif last_sort is not None:
+                preserving = {
+                    "$project",
+                    "$match",
+                    "$limit",
+                    "$skip",
+                    "$addFields",
+                    "$set",
+                    "$unset",
+                }
+
+                is_preserving = any(k in preserving for k in stage.keys()) if isinstance(stage, dict) else False
+
+                if not is_preserving:
+                    debug_order_print("    clearing last_sort because later stage may destroy order")
+                    last_sort = None
+
+
+        if isinstance(last_sort, dict):
+            spec = [(str(k), int(v)) for k, v in last_sort.items()]
+            return spec
+
+    m = re.search(r'\.sort\s*\(\s*(\{.*?\})\s*\)', mql or '', flags=re.DOTALL)
+
+    if m:
+        try:
+            spec = _maybe_json_load(m.group(1))
+
+            if isinstance(spec, dict):
+                final_spec = [(str(k), int(v)) for k, v in spec.items()]
+                return final_spec
+        except Exception as e:
+            return []
+
+    return []
+
+def get_result_path_value(doc, path: str):
+    cur = doc
+
+    for part in path.split("."):
+        if not isinstance(cur, dict):
+            return None
+
+        cur = cur.get(part)
+
+    return cur
+
+def ordered_equal_allowing_sort_ties(gold_result, pred_result, sort_spec, set_equal_fn):
+
+    if not isinstance(gold_result, list) or not isinstance(pred_result, list):
+        return False
+
+    if len(gold_result) != len(pred_result):
+        return False
+
+    if not sort_spec:
+        return False
+
+    def sort_key(doc):
+        return tuple(get_result_path_value(doc, field) for field, _direction in sort_spec)
+
+    start = 0
+
+    while start < len(gold_result):
+        key = sort_key(gold_result[start])
+        end = start + 1
+
+        while end < len(gold_result) and sort_key(gold_result[end]) == key:
+            end += 1
+
+        gold_group = gold_result[start:end]
+        pred_group = pred_result[start:end]
+
+        if any(sort_key(doc) != key for doc in pred_group):
+            debug_order_print("    FAIL: predicted slice has different sort-key values")
+            return False
+
+        group_equal = set_equal_fn(gold_group, pred_group)
+
+        if not group_equal:
+            return False
+
+        start = end
+
+    return True
 
 # ----------------------------
 # Core comparator
@@ -834,7 +936,19 @@ class QueryComparator:
                     metrics['EX'] = 1
                 elif detail.get('expected_ordered_output'):
                     detail['order_sensitive_comparison'] = True
-                    metrics['EX'] = 0
+
+                    sort_spec = extract_final_sort_spec(query_gold)
+                    detail['expected_sort_spec'] = sort_spec
+
+                    tie_aware_equal = ordered_equal_allowing_sort_ties(
+                        result_gold,
+                        result_pred,
+                        sort_spec,
+                        self._set_equal
+                    )
+
+                    detail['tie_aware_ordered_result_equal'] = bool(tie_aware_equal)
+                    metrics['EX'] = int(tie_aware_equal)
                 else:
                     unordered_result_equal = self._set_equal(result_gold, result_pred)
                     detail['unordered_result_equal'] = bool(unordered_result_equal)
