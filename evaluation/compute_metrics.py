@@ -30,6 +30,7 @@ from contextlib import contextmanager, redirect_stdout, redirect_stderr  # Conte
 
 import argparse
 import csv
+import sys
 import hashlib
 import demjson3 as demjson              # More lenient JSON parser (handles single quotes / trailing commas, etc.)
 from pymongo import MongoClient         # PyMongo client (native driver, faster than shell for exec)
@@ -60,7 +61,7 @@ class MetricConfig:
     log_exec_field_details: bool = True            # If True, log field-path sets and sample values from exec results
     value_samples_per_field: int = 3               # For each field path, how many sample values to show
     max_logged_fields: int = 50                    # Cap the number of field paths printed to avoid spam
-    # ##NEW: Metric normalization changes
+    metric_mode: str = "enhanced"                  # enhanced | tend
     normalize_aggregate_alias_case: bool = True    # Treat generated aggregate aliases case-insensitively in EX/EFM/EVM
     
     analysis_jsonl_path: Path = Path('./results/examples.jsonl')
@@ -70,7 +71,16 @@ class MetricConfig:
     write_analysis_outputs: bool = True
 
 
-def _norm_ws(s: str) -> str:
+def _progress_print(message: str):
+    print(message, flush=True)
+
+    if sys.stdout is not sys.__stdout__:
+        print(message, file=sys.__stdout__, flush=True)
+
+def _norm_ws_tend(s: str) -> str:
+    return re.sub(r'\s+', ' ', (s or '').strip())
+
+def _norm_ws_enhanced(s: str) -> str:
     """Normalize for EM comparison.
     
     Handles the formatting gap between:
@@ -91,6 +101,11 @@ def _norm_ws(s: str) -> str:
     # Remove spaces around structural punctuation to canonicalize both formats
     s = re.sub(r'\s*([{}\[\],:])\s*', r'\1', s)
     return s
+
+def _normalize_query_for_mode(s: str, metric_mode: str) -> str:
+    if metric_mode == "tend":
+        return _norm_ws_tend(s)
+    return _norm_ws_enhanced(s)
 
 def _preview_blob(obj: Any, max_len: int) -> str:
     """Bounded string preview to avoid time-costly pretty-prints."""
@@ -405,7 +420,92 @@ def _try_parse_find(mql: str):
         return coll, filt, proj                   # Success: return parsed pieces
     except Exception:
         return None, None, None                   # On parse error, signal failure
+  
+def _sql_requires_ordered_output(sql: str) -> bool:
+    """Return True if the gold SQL explicitly requires ordered output."""
+    if not sql:
+        return False
 
+    return re.search(r'\border\s+by\b', sql, flags=re.IGNORECASE) is not None
+
+
+def _extract_aggregate_stage_names(mql: str) -> List[str]:
+    """Extract top-level aggregate stage names in order from an MQL aggregate pipeline."""
+    if not mql:
+        return []
+
+    coll, pipeline = _try_parse_aggregate(mql)
+
+    if not coll or not isinstance(pipeline, list):
+        return []
+
+    stages = []
+
+    for stage in pipeline:
+        if isinstance(stage, dict) and len(stage) == 1:
+            stages.append(next(iter(stage.keys())))
+
+    return stages
+
+
+def _mql_requires_ordered_output(mql: str) -> bool:
+    """
+    Return True if the gold MQL has an observable final ordering requirement.
+
+    A find(...).sort(...) is ordered.
+
+    For aggregate([...]), the last $sort defines output order only if all later
+    stages preserve ordering. A later $group, $lookup, or $unwind can change the
+    output stream enough that the earlier sort should not be treated as final
+    result ordering.
+    """
+    if not mql:
+        return False
+
+    if re.search(r'\.find\s*\(.*\)\s*\.sort\s*\(', mql, flags=re.DOTALL):
+        return True
+
+    stages = _extract_aggregate_stage_names(mql)
+
+    if not stages:
+        return False
+
+    last_sort_idx = -1
+
+    for idx, stage in enumerate(stages):
+        if stage == "$sort":
+            last_sort_idx = idx
+
+    if last_sort_idx < 0:
+        return False
+
+    order_preserving_after_sort = {
+        "$project",
+        "$match",
+        "$limit",
+        "$skip",
+        "$addFields",
+        "$set",
+        "$unset",
+    }
+
+    for stage in stages[last_sort_idx + 1:]:
+        if stage not in order_preserving_after_sort:
+            return False
+
+    return True
+
+
+def _requires_ordered_output(sql_gold: str, mql_gold: str) -> bool:
+    """
+    Gold SQL is the primary signal because ORDER BY is the user-visible semantic.
+    Gold MQL is a fallback for cases where the SQL text is unavailable or where
+    the gold MQL encodes a required final sort.
+    """
+    if _sql_requires_ordered_output(sql_gold):
+        return True
+
+    return _mql_requires_ordered_output(mql_gold)
 
 # ----------------------------
 # Core comparator
@@ -442,8 +542,26 @@ class QueryComparator:
         return obj                                # Scalars unchanged
 
     def _norm_cache_key(self, db_id: str, query: str) -> str:
-        # Use normalized whitespace to de-duplicate semantically identical query text.
-        return f"{db_id}||{_norm_ws(query)}"      # Key: "<db>||<normalized query>"
+        # Use normalized whitespace to de-duplicate semantically identical query text.       
+        return f"{db_id}||{_norm_ws_enhanced(query)}"
+
+    @lru_cache(maxsize=10000)
+    @timed("exec_tend")
+    def _cached_exec_tend(self, db_id: str, query: str) -> tuple:
+        result = self.executor.execute_query(db_id, query)
+
+        if isinstance(result, str):
+            result = result.replace('"""', '"')
+            try:
+                result = json.loads(result)
+            except json.JSONDecodeError:
+                try:
+                    result = demjson.decode(result)
+                except Exception:
+                    print(f"Warning: Unable to parse result for query: {query}")
+                    result = []
+
+        return QueryComparator._freeze(result)
 
     @lru_cache(maxsize=10000)
     @timed("exec")                                # Measure time spent executing (fast-path or shell)
@@ -523,15 +641,18 @@ class QueryComparator:
                     result = []                   # If parsing fails, default to empty
 
         return QueryComparator._freeze(result)    # Freeze before returning to satisfy lru_cache
-
+    
     def _get_query_result(self, db_id: str, query: str) -> List[Dict]:
-        """
-        Public entry: returns a thawed (normal) Python structure.
-        (Executes via cache; repeated queries are free.)
-        """
-        frozen = self._cached_exec(self._norm_cache_key(db_id, query))  # Execute through cached path
-        return QueryComparator._thaw(frozen)        # Convert frozen structure back to normal Python (lists/dicts)
+        if self.config.metric_mode == "tend":
+            return self._get_query_result_tend(db_id, query)
 
+        frozen = self._cached_exec(self._norm_cache_key(db_id, query))
+        return QueryComparator._thaw(frozen)
+
+    def _get_query_result_tend(self, db_id: str, query: str) -> List[Dict]:
+        frozen = self._cached_exec_tend(db_id, query)
+        return QueryComparator._thaw(frozen)
+    
     @staticmethod
     def _deep_equal(a: Any, b: Any) -> bool:
         """Deep equality for nested dicts/lists/tuples."""
@@ -565,7 +686,7 @@ class QueryComparator:
             # If sorting fails (unhashable/uncomparable types), fall back
             return False
 
-    def compare(self, query_gold: str, query_pred: str, db_id: str, return_details: bool = False):
+    def compare(self, query_gold: str, query_pred: str, db_id: str, return_details: bool = False, sql_gold: str = ""):
         """Compute all metrics for a pair of MQL strings on the given db.        
         - When return_details=True, return (metrics, detail) where detail is a
           JSON-serializable record with normalized queries, parser output,
@@ -578,11 +699,16 @@ class QueryComparator:
             'db_id': db_id,
             'target_query': query_gold,
             'prediction_query': query_pred,
-            'target_norm': _norm_ws(query_gold),
-            'prediction_norm': _norm_ws(query_pred),
+            'target_norm': _normalize_query_for_mode(query_gold, self.config.metric_mode),
+            'prediction_norm': _normalize_query_for_mode(query_pred, self.config.metric_mode),
             'target_collection': _extract_collection(query_gold),
-            'prediction_collection': _extract_collection(query_pred),
+            'prediction_collection': _extract_collection(query_pred),            
             'execution_error': '',
+            'metric_mode': self.config.metric_mode,
+            'expected_ordered_output': _requires_ordered_output(sql_gold, query_gold),
+            'strict_result_equal': False,
+            'unordered_result_equal': False,
+            'order_sensitive_comparison': False,
         }
 
         print("\n" + "=" * 60)
@@ -629,7 +755,8 @@ class QueryComparator:
             print(f"PREDICT fields: {fields2}")
             metrics['QFC'] = int(set(fields1) == set(fields2))
         except Exception as e:
-            print(f"QFC error for {db_id}: {e}")
+            qfc_error = str(e)
+            print(f"QFC error for {db_id}: {qfc_error}")
             metrics['QFC'] = 0
 
         detail.update({
@@ -646,9 +773,9 @@ class QueryComparator:
             result_gold = self._get_query_result(db_id, query_gold)
             result_pred = self._get_query_result(db_id, query_pred)
 
-            if self.config.normalize_aggregate_alias_case:
+            if (self.config.metric_mode == "enhanced" and self.config.normalize_aggregate_alias_case):
                 result_gold = _canonicalize_aggregate_aliases(result_gold)
-                result_pred = _canonicalize_aggregate_aliases(result_pred)       
+                result_pred = _canonicalize_aggregate_aliases(result_pred)   
 
             print(f"TARGET result (preview):   {_preview_blob(result_gold, self.config.preview_chars)}")
             print(f"PREDICT result (preview):  {_preview_blob(result_pred, self.config.preview_chars)}")
@@ -694,11 +821,24 @@ class QueryComparator:
                         if p_vals:
                             print(f"    PREDICT samples: {p_vals}")
 
-            # EX: deep equality of full result objects, then order-insensitive fallback.
-            if self._deep_equal(result_gold, result_pred):
-                metrics['EX'] = 1
+            # EX: strict equality first. In enhanced mode, only allow unordered
+            # result-set equality when the gold query does not require ordered output.
+            strict_result_equal = self._deep_equal(result_gold, result_pred)
+            detail['strict_result_equal'] = bool(strict_result_equal)
+
+            if self.config.metric_mode == "tend":
+                detail['order_sensitive_comparison'] = True
+                metrics['EX'] = int(strict_result_equal)
             else:
-                metrics['EX'] = int(self._set_equal(result_gold, result_pred))
+                if strict_result_equal:
+                    metrics['EX'] = 1
+                elif detail.get('expected_ordered_output'):
+                    detail['order_sensitive_comparison'] = True
+                    metrics['EX'] = 0
+                else:
+                    unordered_result_equal = self._set_equal(result_gold, result_pred)
+                    detail['unordered_result_equal'] = bool(unordered_result_equal)
+                    metrics['EX'] = int(unordered_result_equal)
 
             # EFM/EVM: field sets and value equality across aligned documents.
             fields_gold, fields_pred = set(), set()
@@ -882,8 +1022,13 @@ class AccuracyCalculator:
         total = len(examples)
 
         with timer("Processing examples"):
-            for idx, ex in enumerate(tqdm(examples, desc="Processing examples")):
+            for idx, ex in enumerate(tqdm(examples, desc="Processing examples", file=sys.__stdout__)):
                 try:
+                    if idx == 0 or (idx + 1) % 500 == 0 or (idx + 1) == total:
+                        target_preview = _norm_ws_enhanced(ex.get('target', ''))[:180]
+                        pred_preview = _norm_ws_enhanced(ex.get('prediction', ''))[:180]
+
+                        _progress_print(f"[progress] {idx + 1}/{total} "f"mode={self.config.metric_mode} "f"db_id={ex.get('db_id', '')}\n"f"  target: {target_preview}\n"f"  pred  : {pred_preview}")
                     return_details = need_analysis and self.config.write_analysis_outputs
 
                     result = self.comparator.compare(
@@ -891,6 +1036,7 @@ class AccuracyCalculator:
                         ex['prediction'],
                         ex['db_id'],
                         return_details=return_details,
+                        sql_gold=ex.get('SQL', ''),
                     )
 
                     if return_details:
@@ -928,6 +1074,7 @@ class AccuracyCalculator:
                         'metrics': failed_metrics,
                         'failure_bucket': 'metric_exception',
                         'execution_error': str(e),
+                        'metric_mode': self.config.metric_mode,
                     }
                     analysis_records.append(failed_detail)
 
@@ -978,6 +1125,12 @@ if __name__ == "__main__":
         default="sample",  # default value if none is given
         help="Base name of results file (without .json) inside results/"
     )
+    parser.add_argument(
+        "--metric-mode",
+        choices=["enhanced", "tend"],
+        default="enhanced",
+        help="Metric semantics to use. enhanced is the default; tend reproduces the original TEND metric behavior."
+    )
     args = parser.parse_args()
 
     file_name = args.file_name                               # Base name for input/output paths
@@ -992,6 +1145,7 @@ if __name__ == "__main__":
             print(f"File name: {file_name}")                 # First line in the log
 
             config = MetricConfig(                           # Build config with desired knobs    
+                metric_mode=args.metric_mode,
                 wrong_examples_path=results_dir / f"{file_name}_wrong_examples.json",
                 preview_chars=1500,                          # Limit preview size
                 allow_disk_use=True,                         # Allow large aggregations

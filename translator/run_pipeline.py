@@ -135,6 +135,13 @@ def main():
         help="Skip preprocess_sql.py.",
     )
 
+    parser.add_argument(
+        "--metric-mode",
+        choices=["enhanced", "tend"],
+        default="enhanced",
+        help="Metric mode passed to compute_metrics.py."
+    )
+
     args = parser.parse_args()
 
     result_name = args.result_name
@@ -241,7 +248,7 @@ def main():
         shutil.copyfile(FORMATTED_JSON, metric_input_path)
 
         print("Running metrics ...")
-        run([sys.executable, "compute_metrics.py", "--file_name", result_name], cwd=EVALUATION_DIR)
+        run([sys.executable, "compute_metrics.py", "--file_name", result_name, "--metric-mode", args.metric_mode,], cwd=EVALUATION_DIR)
 
         print(f"Pipeline completed successfully. Results in {metric_input_path}")
 
