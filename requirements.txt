@@ -2,3 +2,4 @@ requests
 demjson3
 pymongo
 tqdm
+google-genai>=1.0.0
