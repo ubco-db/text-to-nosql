@@ -242,6 +242,32 @@ def _extract_collection(query: str) -> str:
     m = re.search(r'\bdb\.([A-Za-z0-9_]+)\.(find|aggregate|distinct)\s*\(', query or '')
     return m.group(1) if m else ''
 
+def _normalize_stage_names(stages: List[str]) -> List[str]:
+        """Canonicalize stage names for QSM comparison."""
+        normalized = []
+
+        for stage in stages or []:
+            name = str(stage).strip()
+
+            if name.startswith("$"):
+                name = name[1:]
+
+            normalized.append(name)
+
+        return normalized
+
+def _get_qsm_stages(query: str) -> List[str]:
+    aggregate_stages = _extract_aggregate_stage_names(query)
+
+    if aggregate_stages:
+        return _normalize_stage_names(aggregate_stages)
+
+    parser_stages = get_query_stages(query=query) or []
+
+    if parser_stages:
+        return _normalize_stage_names(parser_stages)
+
+    return _normalize_stage_names(_extract_mql_ops_fallback(query))
 
 def _extract_mql_ops_fallback(query: str) -> List[str]:
     """Regex fallback for MQL operators and stages.
@@ -637,8 +663,8 @@ class QueryComparator:
 
     def _norm_cache_key(self, db_id: str, query: str) -> str:
         # Use normalized whitespace to de-duplicate semantically identical query text.       
-        return f"{db_id}||{_norm_ws_enhanced(query)}"
-
+        return f"{db_id}||{_norm_ws_enhanced(query)}"   
+    
     @lru_cache(maxsize=10000)
     @timed("exec_tend")
     def _cached_exec_tend(self, db_id: str, query: str) -> tuple:
@@ -825,7 +851,12 @@ class QueryComparator:
             stages2 = get_query_stages(query=query_pred)
             print(f"TARGET stages: {stages1}")
             print(f"PREDICT stages: {stages2}")
-            metrics['QSM'] = int(stages1 == stages2)
+            # Original comparison that does not handle if get_query_stages returns None or empty lists.
+            # metrics['QSM'] = int(stages1 == stages2)
+            qsm_stages1 = _get_qsm_stages(query_gold)
+            qsm_stages2 = _get_qsm_stages(query_pred)
+
+            metrics['QSM'] = int(bool(qsm_stages1) and bool(qsm_stages2) and qsm_stages1 == qsm_stages2)
         except Exception as e:
             print(f"QSM error for {db_id}: {e}")
             metrics['QSM'] = 0
