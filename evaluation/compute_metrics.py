@@ -71,12 +71,6 @@ class MetricConfig:
     write_analysis_outputs: bool = True
 
 
-def _progress_print(message: str):
-    print(message, flush=True)
-
-    if sys.stdout is not sys.__stdout__:
-        print(message, file=sys.__stdout__, flush=True)
-
 def _norm_ws_tend(s: str) -> str:
     return re.sub(r'\s+', ' ', (s or '').strip())
 
@@ -536,8 +530,7 @@ def extract_final_sort_spec(mql: str):
 
                 is_preserving = any(k in preserving for k in stage.keys()) if isinstance(stage, dict) else False
 
-                if not is_preserving:
-                    debug_order_print("    clearing last_sort because later stage may destroy order")
+                if not is_preserving:                    
                     last_sort = None
 
 
@@ -596,8 +589,7 @@ def ordered_equal_allowing_sort_ties(gold_result, pred_result, sort_spec, set_eq
         gold_group = gold_result[start:end]
         pred_group = pred_result[start:end]
 
-        if any(sort_key(doc) != key for doc in pred_group):
-            debug_order_print("    FAIL: predicted slice has different sort-key values")
+        if any(sort_key(doc) != key for doc in pred_group):            
             return False
 
         group_equal = set_equal_fn(gold_group, pred_group)
@@ -1137,12 +1129,7 @@ class AccuracyCalculator:
 
         with timer("Processing examples"):
             for idx, ex in enumerate(tqdm(examples, desc="Processing examples", file=sys.__stdout__)):
-                try:
-                    if idx == 0 or (idx + 1) % 500 == 0 or (idx + 1) == total:
-                        target_preview = _norm_ws_enhanced(ex.get('target', ''))[:180]
-                        pred_preview = _norm_ws_enhanced(ex.get('prediction', ''))[:180]
-
-                        _progress_print(f"[progress] {idx + 1}/{total} "f"mode={self.config.metric_mode} "f"db_id={ex.get('db_id', '')}\n"f"  target: {target_preview}\n"f"  pred  : {pred_preview}")
+                try:                
                     return_details = need_analysis and self.config.write_analysis_outputs
 
                     result = self.comparator.compare(
