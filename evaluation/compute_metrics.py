@@ -865,7 +865,12 @@ class QueryComparator:
         paths_gold, paths_pred = set(), set()
         try:
             result_gold = self._get_query_result(db_id, query_gold)
+            pred_start = time.perf_counter()
             result_pred = self._get_query_result(db_id, query_pred)
+            pred_elapsed = time.perf_counter() - pred_start
+
+            if pred_elapsed >= 2.0:
+                tqdm.write(f"\nSlow predicted query: " f"db_id={db_id}, " f"elapsed={pred_elapsed:.2f}s, " f"query={query_pred}")
 
             if (self.config.metric_mode == "enhanced" and self.config.normalize_aggregate_alias_case):
                 result_gold = _canonicalize_aggregate_aliases(result_gold)
