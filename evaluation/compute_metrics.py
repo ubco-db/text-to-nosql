@@ -71,6 +71,65 @@ class MetricConfig:
     write_analysis_outputs: bool = True
 
 
+def _format_prediction_for_tend_em(s: str) -> str:
+    """
+    Render predicted MQL closer to the Mongo shell presentation used by TEND
+    before applying the original whitespace-normalized EM comparison.
+
+    Prediction-only formatting. The EM comparison remains unchanged.
+    """
+    s = (s or "").strip()
+
+    if not s:
+        return s
+
+    s = s.rstrip().rstrip(";").rstrip()
+
+    is_aggregate = ".aggregate(" in s
+    is_find = ".find(" in s
+
+    # Mongo operators are unquoted in TEND gold.
+    s = re.sub(
+        r'"(\$[A-Za-z_][A-Za-z0-9_]*)"\s*:',
+        r'\1:',
+        s,
+    )
+
+    if is_aggregate:
+        # TEND aggregate gold generally uses shell-style unquoted object keys:
+        # { $group: { _id: null, count: { $sum: 1 } } }
+        s = re.sub(
+            r'"([A-Za-z_][A-Za-z0-9_]*)"\s*:',
+            r'\1:',
+            s,
+        )
+
+    elif is_find:
+        # TEND find gold usually uses shell-style unquoted field keys in filters,
+        # projections, and sort specifications.
+        s = re.sub(
+            r'"([A-Za-z_][A-Za-z0-9_]*)"\s*:',
+            r'\1:',
+            s,
+        )
+
+    # TEND-style spacing around structural punctuation.
+    s = re.sub(r'\s*([{}])\s*', r' \1 ', s)
+    s = re.sub(r'\s*\[\s*', '[ ', s)
+    s = re.sub(r'\s*\]\s*', ' ]', s)
+    s = re.sub(r'\s*,\s*', ', ', s)
+    s = re.sub(r'\s*:\s*', ': ', s)
+    s = re.sub(r'\s+', ' ', s).strip()
+
+    s = s.replace('{ }', '{}')
+    s = s.replace('[ ]', '[]')
+    s = s.replace('( {', '({')
+    s = s.replace('} )', '})')
+    s = s.replace('( [', '([')
+    s = s.replace('] )', '])')
+
+    return s + ";"
+
 def _norm_ws_tend(s: str) -> str:
     return re.sub(r'\s+', ' ', (s or '').strip())
 
@@ -820,7 +879,7 @@ class QueryComparator:
             'target_query': query_gold,
             'prediction_query': query_pred,
             'target_norm': _normalize_query_for_mode(query_gold, self.config.metric_mode),
-            'prediction_norm': _normalize_query_for_mode(query_pred, self.config.metric_mode),
+            'prediction_norm': (_norm_ws_tend(_format_prediction_for_tend_em(query_pred)) if self.config.metric_mode == "tend" else _norm_ws_enhanced(query_pred)),
             'target_collection': _extract_collection(query_gold),
             'prediction_collection': _extract_collection(query_pred),            
             'execution_error': '',
@@ -838,8 +897,8 @@ class QueryComparator:
 
         # -------- EM: exact string match after whitespace normalization --------
         metrics['EM'] = int(detail['target_norm'] == detail['prediction_norm'])
-        print(f"Target query after normalization{detail['target_norm']}")
-        print(f"Prediction query after normalization{detail['prediction_norm']}")
+        print(f"Target query after normalization: {detail['target_norm']}")
+        print(f"Prediction query after normalization: {detail['prediction_norm']}")
         print(f"Exact Match (EM): {bool(metrics['EM'])}")
 
         # -------- QSM: stage sequence equality --------
