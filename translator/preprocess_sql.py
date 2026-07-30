@@ -101,9 +101,171 @@ def quote_reserved_identifiers(sql: str) -> str:
 
     return sql
 
+_SQL_IDENT = (
+    r'(?:[A-Za-z_][A-Za-z0-9_$]*|'
+    r'"(?:[^"]|"")+"|`[^`]+`|\[[^\]]+\])'
+)
+_SQL_TABLE = rf'{_SQL_IDENT}(?:\s*\.\s*{_SQL_IDENT})*'
+
+
+_DEFERRED_INNER_JOIN_RE = re.compile(
+    rf"""
+    (?P<head>
+        \bFROM\s+
+        (?P<table1>{_SQL_TABLE})
+        (?:\s+(?:AS\s+)?(?P<alias1>{_SQL_IDENT}))?
+        \s+(?:INNER\s+)?JOIN\s+
+        (?P<table2>{_SQL_TABLE})
+        (?:\s+(?:AS\s+)?(?P<alias2>{_SQL_IDENT}))?
+    )
+    \s+
+    (?P<third_join>
+        (?:INNER\s+)?JOIN\s+
+        (?P<table3>{_SQL_TABLE})
+        (?:\s+(?:AS\s+)?(?P<alias3>{_SQL_IDENT}))?
+        \s+ON\s+
+    )
+    (?P<condition>.*?)
+    (?=
+        \s+(?:
+            WHERE\b |
+            GROUP\s+BY\b |
+            HAVING\b |
+            ORDER\s+BY\b |
+            LIMIT\b |
+            UNION\b |
+            INTERSECT\b |
+            EXCEPT\b
+        )
+        |
+        \s*;?\s*$
+    )
+    """,
+    re.IGNORECASE | re.DOTALL | re.VERBOSE,
+)
+
+
+_QUALIFIED_EQUALITY_RE = re.compile(
+    rf"""
+    ^\s*\(?\s*
+    ({_SQL_IDENT})\s*\.\s*({_SQL_IDENT})
+    \s*=\s*
+    ({_SQL_IDENT})\s*\.\s*({_SQL_IDENT})
+    \s*\)?\s*$
+    """,
+    re.IGNORECASE | re.DOTALL | re.VERBOSE,
+)
+
+
+_QUALIFIER_RE = re.compile(
+    rf"({_SQL_IDENT})\s*\.",
+    re.IGNORECASE,
+)
+
+
+def _normalize_sql_identifier(value: str) -> str:
+    """Normalize an identifier for case-insensitive comparison."""
+    value = value.strip()
+
+    if len(value) >= 2:
+        if value[0] == value[-1] and value[0] in ('"', "`"):
+            value = value[1:-1]
+        elif value[0] == "[" and value[-1] == "]":
+            value = value[1:-1]
+
+    return value.lower()
+
+
+def _effective_table_name(table: str, alias: str | None) -> str:
+    """Return the alias, or the unqualified table name if no alias exists."""
+    if alias:
+        return _normalize_sql_identifier(alias)
+
+    unqualified = re.split(r"\s*\.\s*", table)[-1]
+    return _normalize_sql_identifier(unqualified)
+
+
+def fix_deferred_inner_join_conditions(sql: str) -> str:
+    """Move deferred inner-join predicates to their proper JOIN clauses.
+
+    SQLite accepts constructs such as:
+
+        T1 JOIN T2 JOIN T3
+          ON T1.a = T2.a AND T1.b = T3.b
+
+    Standard SQL requires:
+
+        T1 JOIN T2 ON T1.a = T2.a
+           JOIN T3 ON T1.b = T3.b
+
+    The rewrite is performed only when:
+      * all joins are inner joins;
+      * a simple qualified equality connects table 1 and table 2; and
+      * a remaining condition connects table 3 to table 1 or table 2.
+    """
+
+    def rewrite(match: re.Match) -> str:
+        first = _effective_table_name(
+            match.group("table1"), match.group("alias1")
+        )
+        second = _effective_table_name(
+            match.group("table2"), match.group("alias2")
+        )
+        third = _effective_table_name(
+            match.group("table3"), match.group("alias3")
+        )
+
+        moved = []
+        remaining = []
+
+        # The affected TEND queries use top-level AND conjunctions.
+        for conjunct in re.split(
+            r"(?i)\s+AND\s+", match.group("condition")
+        ):
+            equality = _QUALIFIED_EQUALITY_RE.fullmatch(conjunct)
+
+            if equality:
+                qualifiers = {
+                    _normalize_sql_identifier(equality.group(1)),
+                    _normalize_sql_identifier(equality.group(3)),
+                }
+            else:
+                qualifiers = set()
+
+            if qualifiers == {first, second}:
+                moved.append(conjunct.strip())
+            else:
+                remaining.append(conjunct.strip())
+
+        if not moved or not remaining:
+            return match.group(0)
+
+        later_qualifiers = {
+            _normalize_sql_identifier(qualifier)
+            for conjunct in remaining
+            for qualifier in _QUALIFIER_RE.findall(conjunct)
+        }
+
+        # Do not rewrite unless the remaining ON condition genuinely
+        # connects the third table to one of the earlier tables.
+        if (
+            third not in later_qualifiers
+            or not later_qualifiers.intersection({first, second})
+        ):
+            return match.group(0)
+
+        return (
+            f"{match.group('head')} "
+            f"ON {' AND '.join(moved)} "
+            f"{match.group('third_join')}"
+            f"{' AND '.join(remaining)}"
+        )
+
+    return _DEFERRED_INNER_JOIN_RE.sub(rewrite, sql)
 
 def preprocess(sql: str) -> str:
     """Apply all preprocessing fixes to a SQL string."""
+    sql = fix_deferred_inner_join_conditions(sql)
     sql = fix_double_quoted_literals(sql)
     sql = quote_reserved_identifiers(sql)
     return sql
