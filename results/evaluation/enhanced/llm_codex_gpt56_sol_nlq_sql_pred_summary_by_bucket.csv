@@ -1,0 +1,12 @@
+failure_bucket,passed_EX,failed_EX,count
+correct_execution_not_exact,1,0,2022
+correct_exact_match,1,0,247
+result_field_name_mismatch,0,1,142
+same_fields_wrong_values,0,1,115
+stage_mismatch,0,1,112
+extra_prediction_fields,0,1,60
+empty_prediction_result,0,1,51
+same_shape_fields_wrong_values,0,1,17
+query_field_mismatch,0,1,5
+extra_prediction_result,0,1,2
+missing_prediction_fields,0,1,2
