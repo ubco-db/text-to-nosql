@@ -11,8 +11,10 @@ Outputs:
   - Raw model output and prompt are also stored for reproducibility.
 
 Environment:
-  OPENAI_API_KEY   required for --provider openai
-  GEMINI_API_KEY   required for --provider gemini
+  OPENAI_API_KEY      required for --provider openai
+  GEMINI_API_KEY      required for --provider gemini
+  ANTHROPIC_API_KEY   required for --provider anthropic
+  MOONSHOT_API_KEY    required for --provider kimi
 
 Examples:
   python llm/llm_mql_baseline.py ^
@@ -51,7 +53,7 @@ import sys
 import time
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional
-
+from contextlib import ExitStack
 from mql_extractor import extract_first_mongo_query
 
 SYSTEM_INSTRUCTION = """You are an expert database query translator.
@@ -59,6 +61,7 @@ Translate natural-language database questions into MongoDB queries.
 
 The first characters of your response must be db.
 Return exactly one MongoDB shell query and nothing else.
+Return the query in compact single-line form.
 Do not number steps.
 Do not include headings.
 Do not include prose before or after the query.
@@ -229,6 +232,148 @@ class RateLimitBackoff:
         time.sleep(delay + jitter)
 
 
+def call_kimi(
+    *,
+    model: str,
+    prompt: str,
+    reasoning_effort: str,
+    max_output_tokens: int,
+    timeout_retries: int,
+) -> str:
+    import traceback
+    from openai import OpenAI
+
+    client = OpenAI(
+        api_key=os.environ["MOONSHOT_API_KEY"],
+        base_url="https://api.moonshot.ai/v1",
+    )
+    backoff = RateLimitBackoff(base_sleep=2.0, max_sleep=60.0)
+    last_exc: Optional[BaseException] = None
+
+    for attempt in range(timeout_retries + 1):
+        try:
+            print(
+                f"[Kimi] model={model} attempt={attempt + 1}/{timeout_retries + 1} "
+                f"prompt_chars={len(prompt)} max_output_tokens={max_output_tokens} "
+                f"reasoning_effort={reasoning_effort}",
+                file=sys.stderr,
+                flush=True,
+            )
+
+            stream = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": SYSTEM_INSTRUCTION},
+                    {"role": "user", "content": prompt},
+                ],
+                reasoning_effort=reasoning_effort,
+                max_completion_tokens=max_output_tokens,
+                stream=True,
+            )
+
+            content_parts: List[str] = []
+            reasoning_chars = 0
+            finish_reason = None
+
+            for chunk in stream:
+                choices = getattr(chunk, "choices", None) or []
+                if not choices:
+                    continue
+
+                choice = choices[0]
+                delta = getattr(choice, "delta", None)
+
+                if delta is not None:
+                    reasoning = getattr(delta, "reasoning_content", None)
+                    if reasoning:
+                        reasoning_chars += len(reasoning)
+
+                    content = getattr(delta, "content", None)
+                    if content:
+                        content_parts.append(content)
+
+                if getattr(choice, "finish_reason", None) is not None:
+                    finish_reason = choice.finish_reason
+
+            print(
+                f"[Kimi] finish_reason={finish_reason} "
+                f"reasoning_chars={reasoning_chars}",
+                file=sys.stderr,
+                flush=True,
+            )
+
+            return "".join(content_parts).strip()
+
+        except Exception as exc:
+            last_exc = exc
+            msg = str(exc)
+            exc_type = type(exc).__name__
+
+            error_body = getattr(exc, "body", None)
+            response = getattr(exc, "response", None)
+            response_text = getattr(response, "text", None)
+
+            print("\n[Kimi ERROR]", file=sys.stderr, flush=True)
+            print(f"  type: {exc_type}", file=sys.stderr, flush=True)
+            print(f"  model: {model}", file=sys.stderr, flush=True)
+            print(
+                f"  attempt: {attempt + 1}/{timeout_retries + 1}",
+                file=sys.stderr,
+                flush=True,
+            )
+            print(f"  message: {msg}", file=sys.stderr, flush=True)
+            print(f"  body: {error_body!r}", file=sys.stderr, flush=True)
+            print(f"  response: {response_text!r}", file=sys.stderr, flush=True)
+
+            print("\n[Kimi ERROR]", file=sys.stderr, flush=True)
+            print(f"  type: {exc_type}", file=sys.stderr, flush=True)
+            print(f"  model: {model}", file=sys.stderr, flush=True)
+            print(
+                f"  attempt: {attempt + 1}/{timeout_retries + 1}",
+                file=sys.stderr,
+                flush=True,
+            )
+            print(f"  message: {msg}", file=sys.stderr, flush=True)
+
+            traceback.print_exception(
+                type(exc),
+                exc,
+                exc.__traceback__,
+                limit=5,
+                file=sys.stderr,
+            )
+
+            lower_msg = msg.lower()
+            non_retriable = (
+                "400" in msg
+                or "401" in msg
+                or "403" in msg
+                or "404" in msg
+                or "422" in msg
+                or "authentication" in lower_msg
+                or "permission" in lower_msg
+                or "api key" in lower_msg
+                or "not found" in lower_msg
+                or "invalid" in lower_msg
+            )
+
+            if non_retriable:
+                raise RuntimeError(
+                    f"Kimi request failed without retry "
+                    f"(type={exc_type}, model={model}, message={msg})"
+                ) from exc
+
+            if attempt >= timeout_retries:
+                break
+
+            backoff.sleep(attempt)
+
+    raise RuntimeError(
+        f"Kimi request failed after retries "
+        f"(type={type(last_exc).__name__}, "
+        f"model={model}, message={last_exc})"
+    ) from last_exc
+
 def call_openai(
     *,
     model: str,
@@ -263,6 +408,174 @@ def call_openai(
 
     raise RuntimeError(f"OpenAI request failed after retries: {last_exc}") from last_exc
 
+def call_codex(
+    *,
+    client: Any,
+    model: str,
+    prompt: str,
+    timeout_retries: int,
+) -> str:
+    from openai_codex import Sandbox
+
+    backoff = RateLimitBackoff()
+    full_prompt = f"{SYSTEM_INSTRUCTION}\n\n{prompt}"
+    last_exc: Optional[BaseException] = None
+
+    for attempt in range(timeout_retries + 1):
+        try:
+            print(
+                f"[Codex] model={model} attempt={attempt + 1}/{timeout_retries + 1} "
+                f"prompt_chars={len(full_prompt)}",
+                file=sys.stderr,
+                flush=True,
+            )
+
+            thread_args: Dict[str, Any] = {
+                "sandbox": Sandbox.read_only
+            }
+
+            if model.lower() != "default":
+                thread_args["model"] = model
+
+            # Use a new thread so examples cannot influence one another.
+            thread = client.thread_start(**thread_args)
+            result = thread.run(full_prompt)
+            return result.final_response or ""
+
+        except Exception as exc:
+            last_exc = exc
+            msg = str(exc)
+            lower_msg = msg.lower()
+
+            non_retriable = (
+                "authentication" in lower_msg
+                or "not logged in" in lower_msg
+                or "permission" in lower_msg
+                or "not found" in lower_msg
+                or "invalid model" in lower_msg
+            )
+
+            if non_retriable:
+                raise RuntimeError(
+                    f"Codex request failed without retry "
+                    f"(type={type(exc).__name__}, "
+                    f"model={model}, message={msg})"
+                ) from exc
+
+            if attempt >= timeout_retries:
+                break
+
+            backoff.sleep(attempt)
+
+    raise RuntimeError(
+        f"Codex request failed after retries "
+        f"(type={type(last_exc).__name__}, "
+        f"model={model}, message={last_exc})"
+    ) from last_exc
+
+def call_anthropic(
+    *,
+    model: str,
+    prompt: str,
+    temperature: float,
+    max_output_tokens: int,
+    timeout_retries: int,
+) -> str:
+    import sys
+    import traceback
+    from anthropic import Anthropic
+
+    client = Anthropic()
+    backoff = RateLimitBackoff(base_sleep=2.0, max_sleep=20.0)
+
+    last_exc = None
+
+    for attempt in range(timeout_retries + 1):
+        try:
+            print(
+                f"[Anthropic] model={model} attempt={attempt + 1}/{timeout_retries + 1} "
+                f"prompt_chars={len(prompt)} max_output_tokens={max_output_tokens}",
+                file=sys.stderr,
+                flush=True,
+            )
+
+            response = client.messages.create(
+                model=model,
+                system=SYSTEM_INSTRUCTION,
+                messages=[
+                    {"role": "user", "content": prompt},
+                ],
+                temperature=temperature,
+                max_tokens=max_output_tokens,
+            )
+
+            text_parts = []
+            for block in getattr(response, "content", []) or []:
+                if getattr(block, "type", None) == "text":
+                    text_parts.append(getattr(block, "text", "") or "")
+
+            stop_reason = getattr(response, "stop_reason", None)
+            request_id = getattr(response, "_request_id", None)
+
+            print(
+                f"[Anthropic] stop_reason={stop_reason} request_id={request_id}",
+                file=sys.stderr,
+                flush=True,
+            )
+
+            return "".join(text_parts).strip()
+
+        except Exception as exc:
+            last_exc = exc
+            msg = str(exc)
+            exc_type = type(exc).__name__
+
+            print("\n[Anthropic ERROR]", file=sys.stderr, flush=True)
+            print(f"  type: {exc_type}", file=sys.stderr, flush=True)
+            print(f"  model: {model}", file=sys.stderr, flush=True)
+            print(f"  attempt: {attempt + 1}/{timeout_retries + 1}", file=sys.stderr, flush=True)
+            print(f"  message: {msg}", file=sys.stderr, flush=True)
+
+            for attr in ["status_code", "response", "request_id"]:
+                if hasattr(exc, attr):
+                    try:
+                        print(f"  {attr}: {getattr(exc, attr)}", file=sys.stderr, flush=True)
+                    except Exception:
+                        pass
+
+            print("  traceback:", file=sys.stderr, flush=True)
+            traceback.print_exception(type(exc), exc, exc.__traceback__, limit=5, file=sys.stderr)
+
+            lower_msg = msg.lower()
+
+            non_retriable = (
+                "400" in msg
+                or "401" in msg
+                or "403" in msg
+                or "404" in msg
+                or "422" in msg
+                or "authentication" in lower_msg
+                or "permission" in lower_msg
+                or "api key" in lower_msg
+                or "not found" in lower_msg
+                or "invalid" in lower_msg
+            )
+
+            if non_retriable:
+                raise RuntimeError(
+                    f"Anthropic request failed without retry "
+                    f"(type={exc_type}, model={model}, message={msg})"
+                ) from exc
+
+            if attempt >= timeout_retries:
+                break
+
+            backoff.sleep(attempt)
+
+    raise RuntimeError(
+        f"Anthropic request failed after retries "
+        f"(type={type(last_exc).__name__}, model={model}, message={last_exc})"
+    ) from last_exc
 
 def call_gemini(
     *,
@@ -350,10 +663,7 @@ def call_gemini(
                 or "not supported" in lower_msg
                 or "invalid" in lower_msg
                 or "permission" in lower_msg
-                or "api key" in lower_msg
-                or "503" in msg
-                or "unavailable" in lower_msg
-                or "high demand" in lower_msg
+                or "api key" in lower_msg                
             )
 
             if non_retriable:
@@ -378,8 +688,10 @@ def call_model(
     model: str,
     prompt: str,
     temperature: float,
+    reasoning_effort: str,
     max_output_tokens: int,
     retries: int,
+    codex_client: Any = None,
 ) -> str:
     if provider == "openai":
         return call_openai(
@@ -399,12 +711,41 @@ def call_model(
             timeout_retries=retries,
         )
 
+    if provider == "anthropic":
+        return call_anthropic(
+            model=model,
+            prompt=prompt,
+            temperature=temperature,
+            max_output_tokens=max_output_tokens,
+            timeout_retries=retries,
+        )
+
+    if provider == "kimi":
+        return call_kimi(
+            model=model,
+            prompt=prompt,
+            reasoning_effort=reasoning_effort,
+            max_output_tokens=max_output_tokens,
+            timeout_retries=retries,
+        )
+
+    if provider == "codex":
+        if codex_client is None:
+            raise RuntimeError("Codex client was not initialized.")
+
+        return call_codex(
+            client=codex_client,
+            model=model,
+            prompt=prompt,
+            timeout_retries=retries,
+        )
+    
     raise ValueError(f"Unsupported provider: {provider}")
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Direct LLM Text-to-MongoDB baseline.")
-    parser.add_argument("--provider", choices=["openai", "gemini"], required=True)
+    parser.add_argument("--provider", choices=["openai", "gemini", "anthropic", "kimi", "codex"], required=True)
     parser.add_argument("--model", required=True)
     parser.add_argument("--input", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)
@@ -415,7 +756,8 @@ def main() -> int:
     parser.add_argument("--sql-field", default="SQL_pred", help="Used only with --mode nlq_sql.")
     parser.add_argument("--db-field", default="db_id")
     parser.add_argument("--temperature", type=float, default=0.0)
-    parser.add_argument("--max-output-tokens", type=int, default=10000)
+    parser.add_argument("--reasoning-effort", choices=["low", "high", "max"], default="max", help="Kimi K3 reasoning effort (default: max).")
+    parser.add_argument("--max-output-tokens", type=int, default=16000)
     parser.add_argument("--retries", type=int, default=3)
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--start", type=int, default=0)
@@ -431,6 +773,18 @@ def main() -> int:
     if args.provider == "gemini" and not os.getenv("GEMINI_API_KEY"):
         print("ERROR: GEMINI_API_KEY is not set.", file=sys.stderr)
         return 2
+
+    if args.provider == "anthropic" and not os.getenv("ANTHROPIC_API_KEY"):
+        print("ERROR: ANTHROPIC_API_KEY is not set.", file=sys.stderr)
+        return 2
+    
+    if args.provider == "kimi" and not os.getenv("MOONSHOT_API_KEY"):
+        print("ERROR: MOONSHOT_API_KEY is not set.", file=sys.stderr)
+        return 2
+
+    max_output_tokens = args.max_output_tokens
+    if max_output_tokens is None:
+        max_output_tokens = 16000 if args.provider == "kimi" else 10000
 
     rows = load_json_or_jsonl(args.input)
 
@@ -450,8 +804,27 @@ def main() -> int:
     args.output.parent.mkdir(parents=True, exist_ok=True)
     mode = "a" if args.resume and args.output.exists() else "w"
 
-    with args.output.open(mode, encoding="utf-8") as out:
-        for idx, row in enumerate(rows):
+    with ExitStack() as stack:
+        codex_client = None
+
+        if args.provider == "codex":
+            try:
+                from openai_codex import Codex
+            except ImportError:
+                print(
+                    "ERROR: The Codex Python SDK is not installed. "
+                    "Run: py -m pip install --upgrade openai-codex",
+                    file=sys.stderr,
+                )
+                return 2
+
+            codex_client = stack.enter_context(Codex())
+
+        out = stack.enter_context(
+            args.output.open(mode, encoding="utf-8")
+        )
+
+        for idx, row in enumerate(rows):        
             key = row.get("example_id", row.get("count", row.get("id", idx)))
             if args.resume and str(key) in done_keys:
                 continue
@@ -490,8 +863,10 @@ def main() -> int:
                     model=args.model,
                     prompt=prompt,
                     temperature=args.temperature,
+                    reasoning_effort=args.reasoning_effort,
                     max_output_tokens=args.max_output_tokens,
                     retries=args.retries,
+                    codex_client=codex_client
                 )
                 cleaned_query = extract_first_mongo_query(raw_output)
             except Exception as exc:
@@ -503,7 +878,10 @@ def main() -> int:
             result["llm_provider"] = args.provider
             result["llm_model"] = args.model
             result["llm_mode"] = args.mode
-            result["llm_temperature"] = args.temperature
+            result["llm_temperature"] = (None if args.provider == "codex" else 1.0 if args.provider == "kimi" else args.temperature)
+            result["llm_max_output_tokens"] = (None if args.provider == "codex" else max_output_tokens)        
+            if args.provider == "kimi":
+                result["llm_reasoning_effort"] = args.reasoning_effort
             result["llm_elapsed_seconds"] = round(elapsed, 3)
             result["llm_raw_output"] = raw_output
             result["llm_error"] = error
