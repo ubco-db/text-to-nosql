@@ -5,6 +5,7 @@ _pycache__/
 venv/
 *.pkl
 *.zip
+*.class
 **/__pycache__/
 **/*.py[cod]
 translator/java/*.class

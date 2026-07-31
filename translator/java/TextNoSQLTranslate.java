@@ -16,7 +16,7 @@ import mongodb.jdbc.MongoConnection;
 import mongodb.jdbc.MongoStatement;
 import mongodb.query.MongoQuery;
 import unity.annotation.GlobalSchema;
-import unity.jdbc.UnityDriver;
+
 import unity.operators.Operator;
 import unity.query.GlobalQuery;
 
@@ -49,10 +49,8 @@ public class TextNoSQLTranslate {
                     "ORDER BY AVG(T2.Price) DESC\n" + //
                     "LIMIT 1;";           
                                 
-            // System.out.println("Version: " + UnityDriver.getVersion());
-            // Make connection. TODO: Change user id and password as needed            
-            System.out.println("\nGetting connection:  " + url);
-            // con = (MongoConnection) DriverManager.getConnection(url, "admin", "ubco25");
+            // System.out.println("Version: " + UnityDriver.getVersion());                    
+            System.out.println("\nGetting connection:  " + url);            
             con = (MongoConnection) DriverManager.getConnection(url);
             System.out.println("\nConnection successful for " + url);
 
