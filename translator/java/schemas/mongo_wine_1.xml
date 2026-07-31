@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>500</numTuples>
         <properties>"nested" : "appellations", "nestedFields" : "[wine, No, Grape, Winery, Appelation, State, Name, Year, Price, Score, Cases, Drink]"</properties>
      <FIELD>
         <semanticFieldName>appelation</semanticFieldName>
@@ -38,7 +38,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>57</numDistinctValues>
         <properties>"systemname" : "wine.Appelation"</properties>
      </FIELD>
 
@@ -71,7 +71,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>361</numDistinctValues>
         <properties>"systemname" : "wine.Cases"</properties>
      </FIELD>
 
@@ -104,7 +104,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>18</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "wine.Drink"</properties>
      </FIELD>
 
@@ -121,7 +121,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>17</numDistinctValues>
         <properties>"systemname" : "wine.Grape"</properties>
      </FIELD>
 
@@ -138,7 +138,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>294</numDistinctValues>
         <properties>"systemname" : "wine.Name"</properties>
      </FIELD>
 
@@ -155,7 +155,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>500</numDistinctValues>
         <properties>"systemname" : "wine.No"</properties>
      </FIELD>
 
@@ -172,7 +172,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>70</numDistinctValues>
         <properties>"systemname" : "wine.Price"</properties>
      </FIELD>
 
@@ -189,7 +189,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "wine.Score"</properties>
      </FIELD>
 
@@ -206,7 +206,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>1</numDistinctValues>
         <properties>"systemname" : "wine.State"</properties>
      </FIELD>
 
@@ -223,7 +223,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>281</numDistinctValues>
         <properties>"systemname" : "wine.Winery"</properties>
      </FIELD>
 
@@ -240,7 +240,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "wine.Year"</properties>
      </FIELD>
 
@@ -297,7 +297,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>500</numTuples>
         <properties>"nested" : "grapes", "nestedFields" : "[wine, No, Grape, Winery, Appelation, State, Name, Year, Price, Score, Cases, Drink]"</properties>
      <FIELD>
         <semanticFieldName>appelation</semanticFieldName>
@@ -312,7 +312,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>57</numDistinctValues>
         <properties>"systemname" : "wine.Appelation"</properties>
      </FIELD>
 
@@ -329,7 +329,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>361</numDistinctValues>
         <properties>"systemname" : "wine.Cases"</properties>
      </FIELD>
 
@@ -362,7 +362,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "wine.Drink"</properties>
      </FIELD>
 
@@ -379,7 +379,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>17</numDistinctValues>
         <properties>"systemname" : "wine.Grape"</properties>
      </FIELD>
 
@@ -412,7 +412,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>294</numDistinctValues>
         <properties>"systemname" : "wine.Name"</properties>
      </FIELD>
 
@@ -429,7 +429,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>500</numDistinctValues>
         <properties>"systemname" : "wine.No"</properties>
      </FIELD>
 
@@ -446,7 +446,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>70</numDistinctValues>
         <properties>"systemname" : "wine.Price"</properties>
      </FIELD>
 
@@ -463,7 +463,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "wine.Score"</properties>
      </FIELD>
 
@@ -480,7 +480,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>1</numDistinctValues>
         <properties>"systemname" : "wine.State"</properties>
      </FIELD>
 
@@ -497,7 +497,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>281</numDistinctValues>
         <properties>"systemname" : "wine.Winery"</properties>
      </FIELD>
 
@@ -514,7 +514,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "wine.Year"</properties>
      </FIELD>
 

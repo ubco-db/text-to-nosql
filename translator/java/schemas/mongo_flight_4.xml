@@ -23,8 +23,8 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
-        <properties>"nested" : "airlines", "nestedFields" : "[routes]"</properties>
+        <numTuples>66765</numTuples>
+        <properties>"nested" : "airlines", "nestedFields" : "[routes, rid, dst_apid, dst_ap, src_apid, src_ap, alid, airline, codeshare]"</properties>
      <FIELD>
         <semanticFieldName>flight_4.flight_4."airlines"."_id"</semanticFieldName>
         <fieldName>"_id"</fieldName>
@@ -58,7 +58,24 @@
      </FIELD>
 
      <FIELD>
-        <semanticFieldName>flight_4.flight_4."airlines"."alid"</semanticFieldName>
+        <semanticFieldName>airline</semanticFieldName>
+        <fieldName>"airline"</fieldName>
+        <dataType>12</dataType>
+        <dataTypeName>varchar</dataTypeName>
+        <fieldSize>16793600</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>16793600</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>16793600</characterOctetLength>
+        <ordinalPosition>15</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>479</numDistinctValues>
+        <properties>"systemname" : "routes.airline"</properties>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>alid</semanticFieldName>
         <fieldName>"alid"</fieldName>
         <dataType>4</dataType>
         <dataTypeName>integer</dataTypeName>
@@ -68,9 +85,10 @@
         <remarks></remarks>
         <defaultValue></defaultValue>
         <characterOctetLength>10</characterOctetLength>
-        <ordinalPosition>2</ordinalPosition>
+        <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>547</numDistinctValues>
+        <properties>"systemname" : "routes.alid"</properties>
      </FIELD>
 
      <FIELD>
@@ -90,6 +108,23 @@
      </FIELD>
 
      <FIELD>
+        <semanticFieldName>codeshare</semanticFieldName>
+        <fieldName>"codeshare"</fieldName>
+        <dataType>12</dataType>
+        <dataTypeName>varchar</dataTypeName>
+        <fieldSize>16793600</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>16793600</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>16793600</characterOctetLength>
+        <ordinalPosition>16</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>1</numDistinctValues>
+        <properties>"systemname" : "routes.codeshare"</properties>
+     </FIELD>
+
+     <FIELD>
         <semanticFieldName>flight_4.flight_4."airlines"."country"</semanticFieldName>
         <fieldName>"country"</fieldName>
         <dataType>12</dataType>
@@ -103,6 +138,40 @@
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
         <numDistinctValues>0</numDistinctValues>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>dst_ap</semanticFieldName>
+        <fieldName>"dst_ap"</fieldName>
+        <dataType>12</dataType>
+        <dataTypeName>varchar</dataTypeName>
+        <fieldSize>16793600</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>16793600</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>16793600</characterOctetLength>
+        <ordinalPosition>11</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>2533</numDistinctValues>
+        <properties>"systemname" : "routes.dst_ap"</properties>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>dst_apid</semanticFieldName>
+        <fieldName>"dst_apid"</fieldName>
+        <dataType>4</dataType>
+        <dataTypeName>integer</dataTypeName>
+        <fieldSize>10</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>10</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>10</characterOctetLength>
+        <ordinalPosition>10</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>3237</numDistinctValues>
+        <properties>"systemname" : "routes.dst_apid"</properties>
      </FIELD>
 
      <FIELD>
@@ -154,8 +223,25 @@
      </FIELD>
 
      <FIELD>
-        <semanticFieldName></semanticFieldName>
-        <fieldName>"routes"</fieldName>
+        <semanticFieldName>rid</semanticFieldName>
+        <fieldName>"rid"</fieldName>
+        <dataType>4</dataType>
+        <dataTypeName>integer</dataTypeName>
+        <fieldSize>10</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>10</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>10</characterOctetLength>
+        <ordinalPosition>9</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>66765</numDistinctValues>
+        <properties>"systemname" : "routes.rid"</properties>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>src_ap</semanticFieldName>
+        <fieldName>"src_ap"</fieldName>
         <dataType>12</dataType>
         <dataTypeName>varchar</dataTypeName>
         <fieldSize>16793600</fieldSize>
@@ -164,10 +250,27 @@
         <remarks></remarks>
         <defaultValue></defaultValue>
         <characterOctetLength>16793600</characterOctetLength>
-        <ordinalPosition>9</ordinalPosition>
+        <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
-        <properties>"systemname" : "routes"</properties>
+        <numDistinctValues>2529</numDistinctValues>
+        <properties>"systemname" : "routes.src_ap"</properties>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>src_apid</semanticFieldName>
+        <fieldName>"src_apid"</fieldName>
+        <dataType>4</dataType>
+        <dataTypeName>integer</dataTypeName>
+        <fieldSize>10</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>10</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>10</characterOctetLength>
+        <ordinalPosition>12</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>3231</numDistinctValues>
+        <properties>"systemname" : "routes.src_apid"</properties>
      </FIELD>
 
      <FOREIGNKEY>
@@ -191,7 +294,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>1</numTuples>
         <properties>"nested" : "airports", "nestedFields" : "[routes]"</properties>
      <FIELD>
         <semanticFieldName>flight_4.flight_4."airports"."_id"</semanticFieldName>
@@ -334,7 +437,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>1</numDistinctValues>
         <properties>"systemname" : "routes"</properties>
      </FIELD>
 
@@ -547,7 +650,135 @@
         <remarks></remarks>
         <defaultValue></defaultValue>
         <characterOctetLength>16793600</characterOctetLength>
+        <ordinalPosition>18</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>0</numDistinctValues>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>routes.airline</semanticFieldName>
+        <fieldName>"routes.airline"</fieldName>
+        <dataType>2003</dataType>
+        <dataTypeName>arrayList</dataTypeName>
+        <fieldSize>16793600</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>16793600</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>16793600</characterOctetLength>
+        <ordinalPosition>16</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>0</numDistinctValues>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>routes.alid</semanticFieldName>
+        <fieldName>"routes.alid"</fieldName>
+        <dataType>2003</dataType>
+        <dataTypeName>arrayList</dataTypeName>
+        <fieldSize>16793600</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>16793600</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>16793600</characterOctetLength>
+        <ordinalPosition>15</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>0</numDistinctValues>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>routes.codeshare</semanticFieldName>
+        <fieldName>"routes.codeshare"</fieldName>
+        <dataType>2003</dataType>
+        <dataTypeName>arrayList</dataTypeName>
+        <fieldSize>16793600</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>16793600</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>16793600</characterOctetLength>
+        <ordinalPosition>17</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>0</numDistinctValues>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>routes.dst_ap</semanticFieldName>
+        <fieldName>"routes.dst_ap"</fieldName>
+        <dataType>2003</dataType>
+        <dataTypeName>arrayList</dataTypeName>
+        <fieldSize>16793600</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>16793600</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>16793600</characterOctetLength>
+        <ordinalPosition>12</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>0</numDistinctValues>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>routes.dst_apid</semanticFieldName>
+        <fieldName>"routes.dst_apid"</fieldName>
+        <dataType>2003</dataType>
+        <dataTypeName>arrayList</dataTypeName>
+        <fieldSize>16793600</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>16793600</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>16793600</characterOctetLength>
+        <ordinalPosition>11</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>0</numDistinctValues>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>routes.rid</semanticFieldName>
+        <fieldName>"routes.rid"</fieldName>
+        <dataType>2003</dataType>
+        <dataTypeName>arrayList</dataTypeName>
+        <fieldSize>16793600</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>16793600</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>0</numDistinctValues>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>routes.src_ap</semanticFieldName>
+        <fieldName>"routes.src_ap"</fieldName>
+        <dataType>2003</dataType>
+        <dataTypeName>arrayList</dataTypeName>
+        <fieldSize>16793600</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>16793600</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>16793600</characterOctetLength>
+        <ordinalPosition>14</ordinalPosition>
+        <isNullable></isNullable>
+        <numDistinctValues>0</numDistinctValues>
+     </FIELD>
+
+     <FIELD>
+        <semanticFieldName>routes.src_apid</semanticFieldName>
+        <fieldName>"routes.src_apid"</fieldName>
+        <dataType>2003</dataType>
+        <dataTypeName>arrayList</dataTypeName>
+        <fieldSize>16793600</fieldSize>
+        <decimalDigits>0</decimalDigits>
+        <numberRadixPrecision>16793600</numberRadixPrecision>
+        <remarks></remarks>
+        <defaultValue></defaultValue>
+        <characterOctetLength>16793600</characterOctetLength>
+        <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
         <numDistinctValues>0</numDistinctValues>
      </FIELD>

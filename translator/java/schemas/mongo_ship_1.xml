@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>7</numTuples>
         <properties>"nested" : "Ship", "nestedFields" : "[captain, Captain_ID, Name, Ship_ID, age, Class, Rank]"</properties>
      <FIELD>
         <semanticFieldName>ship_1.ship_1."Ship"."Built_Year"</semanticFieldName>
@@ -54,7 +54,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "captain.Captain_ID"</properties>
      </FIELD>
 
@@ -71,7 +71,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "captain.Class"</properties>
      </FIELD>
 
@@ -104,7 +104,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "captain.Name"</properties>
      </FIELD>
 
@@ -121,7 +121,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "captain.Rank"</properties>
      </FIELD>
 
@@ -138,7 +138,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "captain.Ship_ID"</properties>
      </FIELD>
 
@@ -187,7 +187,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "captain.age"</properties>
      </FIELD>
 

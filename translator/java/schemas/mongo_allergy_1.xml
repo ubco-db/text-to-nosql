@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>118</numTuples>
         <properties>"nested" : "Allergy_Type", "nestedFields" : "[Has_Allergy, StuID, Allergy]"</properties>
      <FIELD>
         <semanticFieldName>allergy</semanticFieldName>
@@ -38,7 +38,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "Has_Allergy.Allergy"</properties>
      </FIELD>
 
@@ -71,7 +71,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>4</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>30</numDistinctValues>
         <properties>"systemname" : "Has_Allergy.StuID"</properties>
      </FIELD>
 
@@ -112,7 +112,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>116</numTuples>
         <properties>"nested" : "Student", "nestedFields" : "[Has_Allergy, StuID, Allergy]"</properties>
      <FIELD>
         <semanticFieldName>allergy_1.allergy_1."Student"."Advisor"</semanticFieldName>
@@ -159,7 +159,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "Has_Allergy.Allergy"</properties>
      </FIELD>
 
@@ -240,7 +240,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>29</numDistinctValues>
         <properties>"systemname" : "Has_Allergy.StuID"</properties>
      </FIELD>
 
@@ -527,8 +527,8 @@
      <FIELD>
         <semanticFieldName>has_allergy.[0-2147483647]</semanticFieldName>
         <fieldName>"Has_Allergy.[0-2147483647]"</fieldName>
-        <dataType>-2000</dataType>
-        <dataTypeName>hashmap/JSON</dataTypeName>
+        <dataType>12</dataType>
+        <dataTypeName>varchar</dataTypeName>
         <fieldSize>16793600</fieldSize>
         <decimalDigits>0</decimalDigits>
         <numberRadixPrecision>16793600</numberRadixPrecision>

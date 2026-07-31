@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>15</numTuples>
         <properties>"nested" : "Projects", "nestedFields" : "[Documents, Document_ID, Document_Type_Code, Project_ID, Document_Date, Document_Name, Document_Description, Other_Details]"</properties>
      <FIELD>
         <semanticFieldName>document_date</semanticFieldName>
@@ -38,7 +38,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Date"</properties>
      </FIELD>
 
@@ -72,7 +72,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>4</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Documents.Document_ID"</properties>
      </FIELD>
 
@@ -89,7 +89,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>13</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Name"</properties>
      </FIELD>
 
@@ -106,7 +106,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Type_Code"</properties>
      </FIELD>
 
@@ -156,7 +156,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "Documents.Project_ID"</properties>
      </FIELD>
 
@@ -197,7 +197,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>10</numTuples>
         <properties>"nested" : "Projects", "nestedFields" : "[Documents.Documents_with_Expenses, Document_ID, Document_Type_Code, Project_ID, Document_Date, Document_Name, Document_Description, Other_Details, Document_ID, Budget_Type_Code, Document_Details]"</properties>
      <FIELD>
         <semanticFieldName>budget_type_code</semanticFieldName>
@@ -212,7 +212,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Documents.Documents_with_Expenses.Budget_Type_Code"</properties>
      </FIELD>
 
@@ -229,7 +229,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Date"</properties>
      </FIELD>
 
@@ -263,7 +263,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Documents.Documents_with_Expenses.Document_Details"</properties>
      </FIELD>
 
@@ -280,7 +280,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Documents.Documents_with_Expenses.Document_ID"</properties>
      </FIELD>
 
@@ -297,7 +297,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>9</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Name"</properties>
      </FIELD>
 
@@ -314,7 +314,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Type_Code"</properties>
      </FIELD>
 
@@ -364,7 +364,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "Documents.Project_ID"</properties>
      </FIELD>
 
@@ -405,7 +405,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>2</numTuples>
         <properties>"nested" : "Projects", "nestedFields" : "[Documents.Statements, Document_ID, Document_Type_Code, Project_ID, Document_Date, Document_Name, Document_Description, Other_Details, Statement_ID, Statement_Details]"</properties>
      <FIELD>
         <semanticFieldName>document_date</semanticFieldName>
@@ -420,7 +420,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Date"</properties>
      </FIELD>
 
@@ -454,7 +454,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>4</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_ID"</properties>
      </FIELD>
 
@@ -471,7 +471,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Name"</properties>
      </FIELD>
 
@@ -488,7 +488,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Type_Code"</properties>
      </FIELD>
 
@@ -538,7 +538,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Project_ID"</properties>
      </FIELD>
 
@@ -555,7 +555,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Statements.Statement_Details"</properties>
      </FIELD>
 
@@ -572,7 +572,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Statements.Statement_ID"</properties>
      </FIELD>
 
@@ -613,7 +613,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>15</numTuples>
         <properties>"nested" : "Projects", "nestedFields" : "[Documents.Statements.Accounts, Document_ID, Document_Type_Code, Project_ID, Document_Date, Document_Name, Document_Description, Other_Details, Statement_ID, Statement_Details, Account_ID, Statement_ID, Account_Details]"</properties>
      <FIELD>
         <semanticFieldName>account_details</semanticFieldName>
@@ -628,7 +628,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Documents.Statements.Accounts.Account_Details"</properties>
      </FIELD>
 
@@ -645,7 +645,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Documents.Statements.Accounts.Account_ID"</properties>
      </FIELD>
 
@@ -662,7 +662,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Date"</properties>
      </FIELD>
 
@@ -696,7 +696,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>4</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_ID"</properties>
      </FIELD>
 
@@ -713,7 +713,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Name"</properties>
      </FIELD>
 
@@ -730,7 +730,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Type_Code"</properties>
      </FIELD>
 
@@ -780,7 +780,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Project_ID"</properties>
      </FIELD>
 
@@ -797,7 +797,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Statements.Statement_Details"</properties>
      </FIELD>
 
@@ -814,7 +814,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Statements.Accounts.Statement_ID"</properties>
      </FIELD>
 
@@ -855,7 +855,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>10</numTuples>
         <properties>"nested" : "Ref_Budget_Codes", "nestedFields" : "[Documents_with_Expenses, Document_ID, Budget_Type_Code, Document_Details]"</properties>
      <FIELD>
         <semanticFieldName>budget_type_code</semanticFieldName>
@@ -870,7 +870,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Documents_with_Expenses.Budget_Type_Code"</properties>
      </FIELD>
 
@@ -903,7 +903,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Documents_with_Expenses.Document_Details"</properties>
      </FIELD>
 
@@ -920,7 +920,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>4</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Documents_with_Expenses.Document_ID"</properties>
      </FIELD>
 
@@ -961,7 +961,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>15</numTuples>
         <properties>"nested" : "Ref_Document_Types", "nestedFields" : "[Documents, Document_ID, Document_Type_Code, Project_ID, Document_Date, Document_Name, Document_Description, Other_Details]"</properties>
      <FIELD>
         <semanticFieldName>document_date</semanticFieldName>
@@ -976,7 +976,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Date"</properties>
      </FIELD>
 
@@ -1010,7 +1010,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Documents.Document_ID"</properties>
      </FIELD>
 
@@ -1027,7 +1027,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>13</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Name"</properties>
      </FIELD>
 
@@ -1044,7 +1044,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Type_Code"</properties>
      </FIELD>
 
@@ -1110,7 +1110,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "Documents.Project_ID"</properties>
      </FIELD>
 
@@ -1151,7 +1151,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>10</numTuples>
         <properties>"nested" : "Ref_Document_Types", "nestedFields" : "[Documents.Documents_with_Expenses, Document_ID, Document_Type_Code, Project_ID, Document_Date, Document_Name, Document_Description, Other_Details, Document_ID, Budget_Type_Code, Document_Details]"</properties>
      <FIELD>
         <semanticFieldName>budget_type_code</semanticFieldName>
@@ -1166,7 +1166,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Documents.Documents_with_Expenses.Budget_Type_Code"</properties>
      </FIELD>
 
@@ -1183,7 +1183,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Date"</properties>
      </FIELD>
 
@@ -1217,7 +1217,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Documents.Documents_with_Expenses.Document_Details"</properties>
      </FIELD>
 
@@ -1234,7 +1234,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Documents.Documents_with_Expenses.Document_ID"</properties>
      </FIELD>
 
@@ -1251,7 +1251,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>9</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Name"</properties>
      </FIELD>
 
@@ -1268,7 +1268,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Type_Code"</properties>
      </FIELD>
 
@@ -1334,7 +1334,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "Documents.Project_ID"</properties>
      </FIELD>
 
@@ -1375,7 +1375,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>2</numTuples>
         <properties>"nested" : "Ref_Document_Types", "nestedFields" : "[Documents.Statements, Document_ID, Document_Type_Code, Project_ID, Document_Date, Document_Name, Document_Description, Other_Details, Statement_ID, Statement_Details]"</properties>
      <FIELD>
         <semanticFieldName>document_date</semanticFieldName>
@@ -1390,7 +1390,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Date"</properties>
      </FIELD>
 
@@ -1424,7 +1424,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_ID"</properties>
      </FIELD>
 
@@ -1441,7 +1441,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Name"</properties>
      </FIELD>
 
@@ -1458,7 +1458,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Type_Code"</properties>
      </FIELD>
 
@@ -1524,7 +1524,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Project_ID"</properties>
      </FIELD>
 
@@ -1541,7 +1541,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Statements.Statement_Details"</properties>
      </FIELD>
 
@@ -1558,7 +1558,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Statements.Statement_ID"</properties>
      </FIELD>
 
@@ -1599,7 +1599,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>15</numTuples>
         <properties>"nested" : "Ref_Document_Types", "nestedFields" : "[Documents.Statements.Accounts, Document_ID, Document_Type_Code, Project_ID, Document_Date, Document_Name, Document_Description, Other_Details, Statement_ID, Statement_Details, Account_ID, Statement_ID, Account_Details]"</properties>
      <FIELD>
         <semanticFieldName>account_details</semanticFieldName>
@@ -1614,7 +1614,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Documents.Statements.Accounts.Account_Details"</properties>
      </FIELD>
 
@@ -1631,7 +1631,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Documents.Statements.Accounts.Account_ID"</properties>
      </FIELD>
 
@@ -1648,7 +1648,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Date"</properties>
      </FIELD>
 
@@ -1682,7 +1682,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_ID"</properties>
      </FIELD>
 
@@ -1699,7 +1699,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Name"</properties>
      </FIELD>
 
@@ -1716,7 +1716,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Document_Type_Code"</properties>
      </FIELD>
 
@@ -1782,7 +1782,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Project_ID"</properties>
      </FIELD>
 
@@ -1799,7 +1799,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Statements.Statement_Details"</properties>
      </FIELD>
 
@@ -1816,7 +1816,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Documents.Statements.Accounts.Statement_ID"</properties>
      </FIELD>
 

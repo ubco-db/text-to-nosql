@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>7</numTuples>
         <properties>"nested" : "cinema", "nestedFields" : "[schedule, Cinema_ID, Film_ID, Date, Show_times_per_day, Price]"</properties>
      <FIELD>
         <semanticFieldName>cinema.cinema."cinema"."Capacity"</semanticFieldName>
@@ -54,7 +54,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "schedule.Cinema_ID"</properties>
      </FIELD>
 
@@ -71,7 +71,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "schedule.Date"</properties>
      </FIELD>
 
@@ -88,7 +88,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "schedule.Film_ID"</properties>
      </FIELD>
 
@@ -153,7 +153,7 @@
         <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "schedule.Price"</properties>
      </FIELD>
 
@@ -170,7 +170,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "schedule.Show_times_per_day"</properties>
      </FIELD>
 
@@ -211,7 +211,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>7</numTuples>
         <properties>"nested" : "film", "nestedFields" : "[schedule, Cinema_ID, Film_ID, Date, Show_times_per_day, Price]"</properties>
      <FIELD>
         <semanticFieldName>cinema_id</semanticFieldName>
@@ -226,7 +226,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "schedule.Cinema_ID"</properties>
      </FIELD>
 
@@ -243,7 +243,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "schedule.Date"</properties>
      </FIELD>
 
@@ -276,7 +276,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "schedule.Film_ID"</properties>
      </FIELD>
 
@@ -325,7 +325,7 @@
         <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "schedule.Price"</properties>
      </FIELD>
 
@@ -374,7 +374,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "schedule.Show_times_per_day"</properties>
      </FIELD>
 

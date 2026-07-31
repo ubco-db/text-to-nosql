@@ -23,22 +23,22 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>106</numTuples>
         <properties>"nested" : "departments", "nestedFields" : "[employees, EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID]"</properties>
      <FIELD>
         <semanticFieldName>commission_pct</semanticFieldName>
         <fieldName>"COMMISSION_PCT"</fieldName>
-        <dataType>4</dataType>
-        <dataTypeName>integer</dataTypeName>
-        <fieldSize>10</fieldSize>
+        <dataType>8</dataType>
+        <dataTypeName>double</dataTypeName>
+        <fieldSize>20</fieldSize>
         <decimalDigits>0</decimalDigits>
-        <numberRadixPrecision>10</numberRadixPrecision>
+        <numberRadixPrecision>21</numberRadixPrecision>
         <remarks></remarks>
         <defaultValue></defaultValue>
-        <characterOctetLength>10</characterOctetLength>
+        <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "employees.COMMISSION_PCT"</properties>
      </FIELD>
 
@@ -55,7 +55,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>11</numDistinctValues>
         <properties>"systemname" : "employees.DEPARTMENT_ID"</properties>
      </FIELD>
 
@@ -88,7 +88,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>106</numDistinctValues>
         <properties>"systemname" : "employees.EMAIL"</properties>
      </FIELD>
 
@@ -105,7 +105,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>106</numDistinctValues>
         <properties>"systemname" : "employees.EMPLOYEE_ID"</properties>
      </FIELD>
 
@@ -122,7 +122,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>90</numDistinctValues>
         <properties>"systemname" : "employees.FIRST_NAME"</properties>
      </FIELD>
 
@@ -139,7 +139,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>106</numDistinctValues>
         <properties>"systemname" : "employees.HIRE_DATE"</properties>
      </FIELD>
 
@@ -156,7 +156,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>19</numDistinctValues>
         <properties>"systemname" : "employees.JOB_ID"</properties>
      </FIELD>
 
@@ -173,7 +173,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>102</numDistinctValues>
         <properties>"systemname" : "employees.LAST_NAME"</properties>
      </FIELD>
 
@@ -206,7 +206,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>19</numDistinctValues>
         <properties>"systemname" : "employees.MANAGER_ID"</properties>
      </FIELD>
 
@@ -223,7 +223,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>106</numDistinctValues>
         <properties>"systemname" : "employees.PHONE_NUMBER"</properties>
      </FIELD>
 
@@ -240,7 +240,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>57</numDistinctValues>
         <properties>"systemname" : "employees.SALARY"</properties>
      </FIELD>
 
@@ -281,22 +281,22 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>10</numTuples>
         <properties>"nested" : "departments", "nestedFields" : "[employees.job_history, EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_ID, START_DATE, END_DATE, JOB_ID, DEPARTMENT_ID]"</properties>
      <FIELD>
         <semanticFieldName>commission_pct</semanticFieldName>
         <fieldName>"COMMISSION_PCT"</fieldName>
-        <dataType>4</dataType>
-        <dataTypeName>integer</dataTypeName>
-        <fieldSize>10</fieldSize>
+        <dataType>8</dataType>
+        <dataTypeName>double</dataTypeName>
+        <fieldSize>20</fieldSize>
         <decimalDigits>0</decimalDigits>
-        <numberRadixPrecision>10</numberRadixPrecision>
+        <numberRadixPrecision>21</numberRadixPrecision>
         <remarks></remarks>
         <defaultValue></defaultValue>
-        <characterOctetLength>10</characterOctetLength>
+        <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "employees.COMMISSION_PCT"</properties>
      </FIELD>
 
@@ -313,7 +313,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>21</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "employees.job_history.DEPARTMENT_ID"</properties>
      </FIELD>
 
@@ -346,7 +346,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.EMAIL"</properties>
      </FIELD>
 
@@ -363,7 +363,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.job_history.EMPLOYEE_ID"</properties>
      </FIELD>
 
@@ -380,7 +380,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>19</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.job_history.END_DATE"</properties>
      </FIELD>
 
@@ -397,7 +397,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.FIRST_NAME"</properties>
      </FIELD>
 
@@ -414,7 +414,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.HIRE_DATE"</properties>
      </FIELD>
 
@@ -431,7 +431,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>20</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "employees.job_history.JOB_ID"</properties>
      </FIELD>
 
@@ -448,7 +448,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.LAST_NAME"</properties>
      </FIELD>
 
@@ -481,7 +481,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "employees.MANAGER_ID"</properties>
      </FIELD>
 
@@ -498,7 +498,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.PHONE_NUMBER"</properties>
      </FIELD>
 
@@ -515,7 +515,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "employees.SALARY"</properties>
      </FIELD>
 
@@ -532,7 +532,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>18</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "employees.job_history.START_DATE"</properties>
      </FIELD>
 
@@ -573,7 +573,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>10</numTuples>
         <properties>"nested" : "departments", "nestedFields" : "[job_history, EMPLOYEE_ID, START_DATE, END_DATE, JOB_ID, DEPARTMENT_ID]"</properties>
      <FIELD>
         <semanticFieldName>department_id</semanticFieldName>
@@ -588,7 +588,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "job_history.DEPARTMENT_ID"</properties>
      </FIELD>
 
@@ -621,7 +621,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "job_history.EMPLOYEE_ID"</properties>
      </FIELD>
 
@@ -638,7 +638,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "job_history.END_DATE"</properties>
      </FIELD>
 
@@ -655,7 +655,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "job_history.JOB_ID"</properties>
      </FIELD>
 
@@ -704,7 +704,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "job_history.START_DATE"</properties>
      </FIELD>
 
@@ -745,22 +745,22 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>107</numTuples>
         <properties>"nested" : "jobs", "nestedFields" : "[employees, EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID]"</properties>
      <FIELD>
         <semanticFieldName>commission_pct</semanticFieldName>
         <fieldName>"COMMISSION_PCT"</fieldName>
-        <dataType>8</dataType>
-        <dataTypeName>double</dataTypeName>
-        <fieldSize>20</fieldSize>
+        <dataType>4</dataType>
+        <dataTypeName>integer</dataTypeName>
+        <fieldSize>10</fieldSize>
         <decimalDigits>0</decimalDigits>
-        <numberRadixPrecision>21</numberRadixPrecision>
+        <numberRadixPrecision>10</numberRadixPrecision>
         <remarks></remarks>
         <defaultValue></defaultValue>
-        <characterOctetLength>20</characterOctetLength>
+        <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "employees.COMMISSION_PCT"</properties>
      </FIELD>
 
@@ -777,7 +777,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "employees.DEPARTMENT_ID"</properties>
      </FIELD>
 
@@ -794,7 +794,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>107</numDistinctValues>
         <properties>"systemname" : "employees.EMAIL"</properties>
      </FIELD>
 
@@ -811,7 +811,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>107</numDistinctValues>
         <properties>"systemname" : "employees.EMPLOYEE_ID"</properties>
      </FIELD>
 
@@ -828,7 +828,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>91</numDistinctValues>
         <properties>"systemname" : "employees.FIRST_NAME"</properties>
      </FIELD>
 
@@ -845,7 +845,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>107</numDistinctValues>
         <properties>"systemname" : "employees.HIRE_DATE"</properties>
      </FIELD>
 
@@ -862,7 +862,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>19</numDistinctValues>
         <properties>"systemname" : "employees.JOB_ID"</properties>
      </FIELD>
 
@@ -895,7 +895,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>102</numDistinctValues>
         <properties>"systemname" : "employees.LAST_NAME"</properties>
      </FIELD>
 
@@ -912,7 +912,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>19</numDistinctValues>
         <properties>"systemname" : "employees.MANAGER_ID"</properties>
      </FIELD>
 
@@ -961,7 +961,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>107</numDistinctValues>
         <properties>"systemname" : "employees.PHONE_NUMBER"</properties>
      </FIELD>
 
@@ -978,7 +978,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>57</numDistinctValues>
         <properties>"systemname" : "employees.SALARY"</properties>
      </FIELD>
 
@@ -1019,22 +1019,22 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>10</numTuples>
         <properties>"nested" : "jobs", "nestedFields" : "[employees.job_history, EMPLOYEE_ID, FIRST_NAME, LAST_NAME, EMAIL, PHONE_NUMBER, HIRE_DATE, JOB_ID, SALARY, COMMISSION_PCT, MANAGER_ID, DEPARTMENT_ID, EMPLOYEE_ID, START_DATE, END_DATE, JOB_ID, DEPARTMENT_ID]"</properties>
      <FIELD>
         <semanticFieldName>commission_pct</semanticFieldName>
         <fieldName>"COMMISSION_PCT"</fieldName>
-        <dataType>8</dataType>
-        <dataTypeName>double</dataTypeName>
-        <fieldSize>20</fieldSize>
+        <dataType>4</dataType>
+        <dataTypeName>integer</dataTypeName>
+        <fieldSize>10</fieldSize>
         <decimalDigits>0</decimalDigits>
-        <numberRadixPrecision>21</numberRadixPrecision>
+        <numberRadixPrecision>10</numberRadixPrecision>
         <remarks></remarks>
         <defaultValue></defaultValue>
-        <characterOctetLength>20</characterOctetLength>
+        <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "employees.COMMISSION_PCT"</properties>
      </FIELD>
 
@@ -1051,7 +1051,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>21</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "employees.job_history.DEPARTMENT_ID"</properties>
      </FIELD>
 
@@ -1068,7 +1068,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.EMAIL"</properties>
      </FIELD>
 
@@ -1085,7 +1085,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.job_history.EMPLOYEE_ID"</properties>
      </FIELD>
 
@@ -1102,7 +1102,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>19</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.job_history.END_DATE"</properties>
      </FIELD>
 
@@ -1119,7 +1119,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.FIRST_NAME"</properties>
      </FIELD>
 
@@ -1136,7 +1136,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.HIRE_DATE"</properties>
      </FIELD>
 
@@ -1153,7 +1153,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>20</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "employees.job_history.JOB_ID"</properties>
      </FIELD>
 
@@ -1186,7 +1186,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.LAST_NAME"</properties>
      </FIELD>
 
@@ -1203,7 +1203,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "employees.MANAGER_ID"</properties>
      </FIELD>
 
@@ -1252,7 +1252,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "employees.PHONE_NUMBER"</properties>
      </FIELD>
 
@@ -1269,7 +1269,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "employees.SALARY"</properties>
      </FIELD>
 
@@ -1286,7 +1286,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>18</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "employees.job_history.START_DATE"</properties>
      </FIELD>
 
@@ -1327,7 +1327,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>10</numTuples>
         <properties>"nested" : "jobs", "nestedFields" : "[job_history, EMPLOYEE_ID, START_DATE, END_DATE, JOB_ID, DEPARTMENT_ID]"</properties>
      <FIELD>
         <semanticFieldName>department_id</semanticFieldName>
@@ -1342,7 +1342,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "job_history.DEPARTMENT_ID"</properties>
      </FIELD>
 
@@ -1359,7 +1359,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "job_history.EMPLOYEE_ID"</properties>
      </FIELD>
 
@@ -1376,7 +1376,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "job_history.END_DATE"</properties>
      </FIELD>
 
@@ -1393,7 +1393,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "job_history.JOB_ID"</properties>
      </FIELD>
 
@@ -1458,7 +1458,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "job_history.START_DATE"</properties>
      </FIELD>
 
@@ -1499,7 +1499,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>25</numTuples>
         <properties>"nested" : "regions", "nestedFields" : "[countries, COUNTRY_ID, COUNTRY_NAME, REGION_ID]"</properties>
      <FIELD>
         <semanticFieldName>country_id</semanticFieldName>
@@ -1514,7 +1514,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>4</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>25</numDistinctValues>
         <properties>"systemname" : "countries.COUNTRY_ID"</properties>
      </FIELD>
 
@@ -1531,7 +1531,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>25</numDistinctValues>
         <properties>"systemname" : "countries.COUNTRY_NAME"</properties>
      </FIELD>
 
@@ -1548,7 +1548,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "countries.REGION_ID"</properties>
      </FIELD>
 
@@ -1605,7 +1605,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>21</numTuples>
         <properties>"nested" : "regions", "nestedFields" : "[countries.locations, COUNTRY_ID, COUNTRY_NAME, REGION_ID, LOCATION_ID, STREET_ADDRESS, POSTAL_CODE, CITY, STATE_PROVINCE, COUNTRY_ID]"</properties>
      <FIELD>
         <semanticFieldName>city</semanticFieldName>
@@ -1620,7 +1620,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>21</numDistinctValues>
         <properties>"systemname" : "countries.locations.CITY"</properties>
      </FIELD>
 
@@ -1637,7 +1637,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>13</numDistinctValues>
         <properties>"systemname" : "countries.locations.COUNTRY_ID"</properties>
      </FIELD>
 
@@ -1654,7 +1654,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>13</numDistinctValues>
         <properties>"systemname" : "countries.COUNTRY_NAME"</properties>
      </FIELD>
 
@@ -1671,7 +1671,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>21</numDistinctValues>
         <properties>"systemname" : "countries.locations.LOCATION_ID"</properties>
      </FIELD>
 
@@ -1688,7 +1688,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>21</numDistinctValues>
         <properties>"systemname" : "countries.locations.POSTAL_CODE"</properties>
      </FIELD>
 
@@ -1705,7 +1705,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "countries.REGION_ID"</properties>
      </FIELD>
 
@@ -1738,7 +1738,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>16</numDistinctValues>
         <properties>"systemname" : "countries.locations.STATE_PROVINCE"</properties>
      </FIELD>
 
@@ -1755,7 +1755,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>21</numDistinctValues>
         <properties>"systemname" : "countries.locations.STREET_ADDRESS"</properties>
      </FIELD>
 
@@ -2072,8 +2072,8 @@
      <FIELD>
         <semanticFieldName>employees.[0-2147483647]</semanticFieldName>
         <fieldName>"employees.[0-2147483647]"</fieldName>
-        <dataType>12</dataType>
-        <dataTypeName>varchar</dataTypeName>
+        <dataType>-2000</dataType>
+        <dataTypeName>hashmap/JSON</dataTypeName>
         <fieldSize>16793600</fieldSize>
         <decimalDigits>0</decimalDigits>
         <numberRadixPrecision>16793600</numberRadixPrecision>
@@ -2296,8 +2296,8 @@
      <FIELD>
         <semanticFieldName>job_history.[0-2147483647]</semanticFieldName>
         <fieldName>"job_history.[0-2147483647]"</fieldName>
-        <dataType>12</dataType>
-        <dataTypeName>varchar</dataTypeName>
+        <dataType>-2000</dataType>
+        <dataTypeName>hashmap/JSON</dataTypeName>
         <fieldSize>16793600</fieldSize>
         <decimalDigits>0</decimalDigits>
         <numberRadixPrecision>16793600</numberRadixPrecision>

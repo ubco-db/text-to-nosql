@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>10</numTuples>
         <properties>"nested" : "mountain", "nestedFields" : "[climber, Climber_ID, Name, Country, Time, Points, Mountain_ID]"</properties>
      <FIELD>
         <semanticFieldName>climber_id</semanticFieldName>
@@ -38,7 +38,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "climber.Climber_ID"</properties>
      </FIELD>
 
@@ -55,7 +55,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "climber.Country"</properties>
      </FIELD>
 
@@ -88,7 +88,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "climber.Mountain_ID"</properties>
      </FIELD>
 
@@ -105,7 +105,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "climber.Name"</properties>
      </FIELD>
 
@@ -122,7 +122,7 @@
         <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "climber.Points"</properties>
      </FIELD>
 
@@ -171,7 +171,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "climber.Time"</properties>
      </FIELD>
 

@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>9</numTuples>
         <properties>"nested" : "machine", "nestedFields" : "[repair_assignment, technician_id, repair_ID, Machine_ID]"</properties>
      <FIELD>
         <semanticFieldName>machine_repair.machine_repair."machine"."Class"</semanticFieldName>
@@ -54,7 +54,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "repair_assignment.Machine_ID"</properties>
      </FIELD>
 
@@ -151,7 +151,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "repair_assignment.repair_ID"</properties>
      </FIELD>
 
@@ -168,7 +168,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "repair_assignment.technician_id"</properties>
      </FIELD>
 
@@ -209,7 +209,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>9</numTuples>
         <properties>"nested" : "repair", "nestedFields" : "[repair_assignment, technician_id, repair_ID, Machine_ID]"</properties>
      <FIELD>
         <semanticFieldName>machine_repair.machine_repair."repair"."Launch_Date"</semanticFieldName>
@@ -240,7 +240,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "repair_assignment.Machine_ID"</properties>
      </FIELD>
 
@@ -305,7 +305,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "repair_assignment.repair_ID"</properties>
      </FIELD>
 
@@ -322,7 +322,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "repair_assignment.technician_id"</properties>
      </FIELD>
 
@@ -347,7 +347,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>9</numTuples>
         <properties>"nested" : "technician", "nestedFields" : "[repair_assignment, technician_id, repair_ID, Machine_ID]"</properties>
      <FIELD>
         <semanticFieldName>machine_repair.machine_repair."technician"."Age"</semanticFieldName>
@@ -378,7 +378,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "repair_assignment.Machine_ID"</properties>
      </FIELD>
 
@@ -459,7 +459,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "repair_assignment.repair_ID"</properties>
      </FIELD>
 
@@ -476,7 +476,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "repair_assignment.technician_id"</properties>
      </FIELD>
 

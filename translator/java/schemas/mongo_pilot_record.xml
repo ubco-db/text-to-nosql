@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>6</numTuples>
         <properties>"nested" : "aircraft", "nestedFields" : "[pilot_record, Record_ID, Pilot_ID, Aircraft_ID, Date]"</properties>
      <FIELD>
         <semanticFieldName>aircraft_id</semanticFieldName>
@@ -38,7 +38,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "pilot_record.Aircraft_ID"</properties>
      </FIELD>
 
@@ -55,7 +55,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "pilot_record.Date"</properties>
      </FIELD>
 
@@ -152,7 +152,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "pilot_record.Pilot_ID"</properties>
      </FIELD>
 
@@ -185,7 +185,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "pilot_record.Record_ID"</properties>
      </FIELD>
 
@@ -226,7 +226,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>6</numTuples>
         <properties>"nested" : "pilot", "nestedFields" : "[pilot_record, Record_ID, Pilot_ID, Aircraft_ID, Date]"</properties>
      <FIELD>
         <semanticFieldName>pilot_record.pilot_record."pilot"."Age"</semanticFieldName>
@@ -257,7 +257,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "pilot_record.Aircraft_ID"</properties>
      </FIELD>
 
@@ -274,7 +274,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "pilot_record.Date"</properties>
      </FIELD>
 
@@ -323,7 +323,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "pilot_record.Pilot_ID"</properties>
      </FIELD>
 
@@ -388,7 +388,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "pilot_record.Record_ID"</properties>
      </FIELD>
 

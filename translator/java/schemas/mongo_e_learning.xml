@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>15</numTuples>
         <properties>"nested" : "Course_Authors_and_Tutors", "nestedFields" : "[Courses, course_id, author_id, subject_id, course_name, course_description]"</properties>
      <FIELD>
         <semanticFieldName>e_learning.e_learning."Course_Authors_and_Tutors"."_id"</semanticFieldName>
@@ -70,7 +70,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.author_id"</properties>
      </FIELD>
 
@@ -103,7 +103,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Courses.course_description"</properties>
      </FIELD>
 
@@ -120,7 +120,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Courses.course_id"</properties>
      </FIELD>
 
@@ -137,7 +137,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Courses.course_name"</properties>
      </FIELD>
 
@@ -250,7 +250,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Courses.subject_id"</properties>
      </FIELD>
 
@@ -275,7 +275,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>20</numTuples>
         <properties>"nested" : "Course_Authors_and_Tutors", "nestedFields" : "[Courses.Student_Course_Enrolment, course_id, author_id, subject_id, course_name, course_description, registration_id, student_id, course_id, date_of_enrolment, date_of_completion]"</properties>
      <FIELD>
         <semanticFieldName>e_learning.e_learning."Course_Authors_and_Tutors"."_id"</semanticFieldName>
@@ -322,7 +322,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Courses.author_id"</properties>
      </FIELD>
 
@@ -355,7 +355,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.course_description"</properties>
      </FIELD>
 
@@ -372,7 +372,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>18</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.course_id"</properties>
      </FIELD>
 
@@ -389,7 +389,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.course_name"</properties>
      </FIELD>
 
@@ -406,7 +406,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>20</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.date_of_completion"</properties>
      </FIELD>
 
@@ -423,7 +423,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>19</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.date_of_enrolment"</properties>
      </FIELD>
 
@@ -536,7 +536,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.registration_id"</properties>
      </FIELD>
 
@@ -553,7 +553,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.student_id"</properties>
      </FIELD>
 
@@ -570,7 +570,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Courses.subject_id"</properties>
      </FIELD>
 
@@ -595,7 +595,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>15</numTuples>
         <properties>"nested" : "Course_Authors_and_Tutors", "nestedFields" : "[Courses.Student_Course_Enrolment.Student_Tests_Taken, course_id, author_id, subject_id, course_name, course_description, registration_id, student_id, course_id, date_of_enrolment, date_of_completion, registration_id, date_test_taken, test_result]"</properties>
      <FIELD>
         <semanticFieldName>e_learning.e_learning."Course_Authors_and_Tutors"."_id"</semanticFieldName>
@@ -642,7 +642,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "Courses.author_id"</properties>
      </FIELD>
 
@@ -675,7 +675,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Courses.course_description"</properties>
      </FIELD>
 
@@ -692,7 +692,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>18</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.course_id"</properties>
      </FIELD>
 
@@ -709,7 +709,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Courses.course_name"</properties>
      </FIELD>
 
@@ -726,7 +726,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>20</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.date_of_completion"</properties>
      </FIELD>
 
@@ -743,7 +743,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>19</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.date_of_enrolment"</properties>
      </FIELD>
 
@@ -760,7 +760,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>22</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.Student_Tests_Taken.date_test_taken"</properties>
      </FIELD>
 
@@ -873,7 +873,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>21</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.Student_Tests_Taken.registration_id"</properties>
      </FIELD>
 
@@ -890,7 +890,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.student_id"</properties>
      </FIELD>
 
@@ -907,7 +907,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Courses.subject_id"</properties>
      </FIELD>
 
@@ -924,7 +924,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>23</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.Student_Tests_Taken.test_result"</properties>
      </FIELD>
 
@@ -949,7 +949,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>20</numTuples>
         <properties>"nested" : "Students", "nestedFields" : "[Student_Course_Enrolment, registration_id, student_id, course_id, date_of_enrolment, date_of_completion]"</properties>
      <FIELD>
         <semanticFieldName>e_learning.e_learning."Students"."_id"</semanticFieldName>
@@ -980,7 +980,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Student_Course_Enrolment.course_id"</properties>
      </FIELD>
 
@@ -997,7 +997,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "Student_Course_Enrolment.date_of_completion"</properties>
      </FIELD>
 
@@ -1014,7 +1014,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "Student_Course_Enrolment.date_of_enrolment"</properties>
      </FIELD>
 
@@ -1143,7 +1143,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "Student_Course_Enrolment.registration_id"</properties>
      </FIELD>
 
@@ -1160,7 +1160,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "Student_Course_Enrolment.student_id"</properties>
      </FIELD>
 
@@ -1185,7 +1185,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>15</numTuples>
         <properties>"nested" : "Students", "nestedFields" : "[Student_Course_Enrolment.Student_Tests_Taken, registration_id, student_id, course_id, date_of_enrolment, date_of_completion, registration_id, date_test_taken, test_result]"</properties>
      <FIELD>
         <semanticFieldName>e_learning.e_learning."Students"."_id"</semanticFieldName>
@@ -1216,7 +1216,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Student_Course_Enrolment.course_id"</properties>
      </FIELD>
 
@@ -1233,7 +1233,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Student_Course_Enrolment.date_of_completion"</properties>
      </FIELD>
 
@@ -1250,7 +1250,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Student_Course_Enrolment.date_of_enrolment"</properties>
      </FIELD>
 
@@ -1299,7 +1299,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Student_Course_Enrolment.Student_Tests_Taken.date_test_taken"</properties>
      </FIELD>
 
@@ -1396,7 +1396,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Student_Course_Enrolment.Student_Tests_Taken.registration_id"</properties>
      </FIELD>
 
@@ -1413,7 +1413,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Student_Course_Enrolment.student_id"</properties>
      </FIELD>
 
@@ -1430,7 +1430,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Student_Course_Enrolment.Student_Tests_Taken.test_result"</properties>
      </FIELD>
 
@@ -1455,7 +1455,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>15</numTuples>
         <properties>"nested" : "Subjects", "nestedFields" : "[Courses, course_id, author_id, subject_id, course_name, course_description]"</properties>
      <FIELD>
         <semanticFieldName>e_learning.e_learning."Subjects"."_id"</semanticFieldName>
@@ -1486,7 +1486,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.author_id"</properties>
      </FIELD>
 
@@ -1503,7 +1503,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Courses.course_description"</properties>
      </FIELD>
 
@@ -1520,7 +1520,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>4</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Courses.course_id"</properties>
      </FIELD>
 
@@ -1537,7 +1537,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Courses.course_name"</properties>
      </FIELD>
 
@@ -1554,7 +1554,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Courses.subject_id"</properties>
      </FIELD>
 
@@ -1595,7 +1595,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>20</numTuples>
         <properties>"nested" : "Subjects", "nestedFields" : "[Courses.Student_Course_Enrolment, course_id, author_id, subject_id, course_name, course_description, registration_id, student_id, course_id, date_of_enrolment, date_of_completion]"</properties>
      <FIELD>
         <semanticFieldName>e_learning.e_learning."Subjects"."_id"</semanticFieldName>
@@ -1626,7 +1626,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Courses.author_id"</properties>
      </FIELD>
 
@@ -1643,7 +1643,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.course_description"</properties>
      </FIELD>
 
@@ -1660,7 +1660,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.course_id"</properties>
      </FIELD>
 
@@ -1677,7 +1677,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.course_name"</properties>
      </FIELD>
 
@@ -1694,7 +1694,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.date_of_completion"</properties>
      </FIELD>
 
@@ -1711,7 +1711,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.date_of_enrolment"</properties>
      </FIELD>
 
@@ -1728,7 +1728,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.registration_id"</properties>
      </FIELD>
 
@@ -1745,7 +1745,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.student_id"</properties>
      </FIELD>
 
@@ -1762,7 +1762,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Courses.subject_id"</properties>
      </FIELD>
 
@@ -1803,7 +1803,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>15</numTuples>
         <properties>"nested" : "Subjects", "nestedFields" : "[Courses.Student_Course_Enrolment.Student_Tests_Taken, course_id, author_id, subject_id, course_name, course_description, registration_id, student_id, course_id, date_of_enrolment, date_of_completion, registration_id, date_test_taken, test_result]"</properties>
      <FIELD>
         <semanticFieldName>e_learning.e_learning."Subjects"."_id"</semanticFieldName>
@@ -1834,7 +1834,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "Courses.author_id"</properties>
      </FIELD>
 
@@ -1851,7 +1851,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Courses.course_description"</properties>
      </FIELD>
 
@@ -1868,7 +1868,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.course_id"</properties>
      </FIELD>
 
@@ -1885,7 +1885,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Courses.course_name"</properties>
      </FIELD>
 
@@ -1902,7 +1902,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.date_of_completion"</properties>
      </FIELD>
 
@@ -1919,7 +1919,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.date_of_enrolment"</properties>
      </FIELD>
 
@@ -1936,7 +1936,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.Student_Tests_Taken.date_test_taken"</properties>
      </FIELD>
 
@@ -1953,7 +1953,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.Student_Tests_Taken.registration_id"</properties>
      </FIELD>
 
@@ -1970,7 +1970,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.student_id"</properties>
      </FIELD>
 
@@ -1987,7 +1987,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Courses.subject_id"</properties>
      </FIELD>
 
@@ -2020,7 +2020,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Courses.Student_Course_Enrolment.Student_Tests_Taken.test_result"</properties>
      </FIELD>
 
@@ -2097,8 +2097,8 @@
      <FIELD>
         <semanticFieldName>courses.student_course_enrolment.student_tests_taken.[0-2147483647]</semanticFieldName>
         <fieldName>"Courses.Student_Course_Enrolment.Student_Tests_Taken.[0-2147483647]"</fieldName>
-        <dataType>-2000</dataType>
-        <dataTypeName>hashmap/JSON</dataTypeName>
+        <dataType>12</dataType>
+        <dataTypeName>varchar</dataTypeName>
         <fieldSize>16793600</fieldSize>
         <decimalDigits>0</decimalDigits>
         <numberRadixPrecision>16793600</numberRadixPrecision>
@@ -2257,8 +2257,8 @@
      <FIELD>
         <semanticFieldName>courses.[0-2147483647]</semanticFieldName>
         <fieldName>"Courses.[0-2147483647]"</fieldName>
-        <dataType>12</dataType>
-        <dataTypeName>varchar</dataTypeName>
+        <dataType>-2000</dataType>
+        <dataTypeName>hashmap/JSON</dataTypeName>
         <fieldSize>16793600</fieldSize>
         <decimalDigits>0</decimalDigits>
         <numberRadixPrecision>16793600</numberRadixPrecision>
@@ -2563,8 +2563,8 @@
      <FIELD>
         <semanticFieldName>student_course_enrolment.student_tests_taken.[0-2147483647]</semanticFieldName>
         <fieldName>"Student_Course_Enrolment.Student_Tests_Taken.[0-2147483647]"</fieldName>
-        <dataType>12</dataType>
-        <dataTypeName>varchar</dataTypeName>
+        <dataType>-2000</dataType>
+        <dataTypeName>hashmap/JSON</dataTypeName>
         <fieldSize>16793600</fieldSize>
         <decimalDigits>0</decimalDigits>
         <numberRadixPrecision>16793600</numberRadixPrecision>

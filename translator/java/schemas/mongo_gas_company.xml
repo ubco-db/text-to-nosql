@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>6</numTuples>
         <properties>"nested" : "company", "nestedFields" : "[station_company, Station_ID, Company_ID, Rank_of_the_Year]"</properties>
      <FIELD>
         <semanticFieldName>gas_company.gas_company."company"."Assets_billion"</semanticFieldName>
@@ -70,7 +70,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "station_company.Company_ID"</properties>
      </FIELD>
 
@@ -167,7 +167,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "station_company.Rank_of_the_Year"</properties>
      </FIELD>
 
@@ -200,7 +200,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "station_company.Station_ID"</properties>
      </FIELD>
 
@@ -241,7 +241,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>6</numTuples>
         <properties>"nested" : "gas_station", "nestedFields" : "[station_company, Station_ID, Company_ID, Rank_of_the_Year]"</properties>
      <FIELD>
         <semanticFieldName>company_id</semanticFieldName>
@@ -256,7 +256,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "station_company.Company_ID"</properties>
      </FIELD>
 
@@ -321,7 +321,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "station_company.Rank_of_the_Year"</properties>
      </FIELD>
 
@@ -354,7 +354,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "station_company.Station_ID"</properties>
      </FIELD>
 
@@ -849,8 +849,8 @@
      <FIELD>
         <semanticFieldName>station_company.[0-2147483647]</semanticFieldName>
         <fieldName>"station_company.[0-2147483647]"</fieldName>
-        <dataType>12</dataType>
-        <dataTypeName>varchar</dataTypeName>
+        <dataType>-2000</dataType>
+        <dataTypeName>hashmap/JSON</dataTypeName>
         <fieldSize>16793600</fieldSize>
         <decimalDigits>0</decimalDigits>
         <numberRadixPrecision>16793600</numberRadixPrecision>

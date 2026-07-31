@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>76</numTuples>
         <properties>"nested" : "Department", "nestedFields" : "[Course, CID, CName, Credits, Instructor, Days, Hours, DNO]"</properties>
      <FIELD>
         <semanticFieldName>college_3.college_3."Department"."Building"</semanticFieldName>
@@ -54,7 +54,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>76</numDistinctValues>
         <properties>"systemname" : "Course.CID"</properties>
      </FIELD>
 
@@ -71,7 +71,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>72</numDistinctValues>
         <properties>"systemname" : "Course.CName"</properties>
      </FIELD>
 
@@ -88,7 +88,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Course.Credits"</properties>
      </FIELD>
 
@@ -105,7 +105,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Course.DNO"</properties>
      </FIELD>
 
@@ -154,7 +154,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>11</numDistinctValues>
         <properties>"systemname" : "Course.Days"</properties>
      </FIELD>
 
@@ -187,7 +187,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>29</numDistinctValues>
         <properties>"systemname" : "Course.Hours"</properties>
      </FIELD>
 
@@ -204,7 +204,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>45</numDistinctValues>
         <properties>"systemname" : "Course.Instructor"</properties>
      </FIELD>
 
@@ -261,7 +261,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>210</numTuples>
         <properties>"nested" : "Department", "nestedFields" : "[Course.Enrolled_in, CID, CName, Credits, Instructor, Days, Hours, DNO, StuID, CID, Grade]"</properties>
      <FIELD>
         <semanticFieldName>college_3.college_3."Department"."Building"</semanticFieldName>
@@ -292,7 +292,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>42</numDistinctValues>
         <properties>"systemname" : "Course.Enrolled_in.CID"</properties>
      </FIELD>
 
@@ -309,7 +309,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>39</numDistinctValues>
         <properties>"systemname" : "Course.CName"</properties>
      </FIELD>
 
@@ -326,7 +326,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Course.Credits"</properties>
      </FIELD>
 
@@ -343,7 +343,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Course.DNO"</properties>
      </FIELD>
 
@@ -392,7 +392,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "Course.Days"</properties>
      </FIELD>
 
@@ -425,7 +425,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "Course.Enrolled_in.Grade"</properties>
      </FIELD>
 
@@ -442,7 +442,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "Course.Hours"</properties>
      </FIELD>
 
@@ -459,7 +459,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>29</numDistinctValues>
         <properties>"systemname" : "Course.Instructor"</properties>
      </FIELD>
 
@@ -492,7 +492,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>34</numDistinctValues>
         <properties>"systemname" : "Course.Enrolled_in.StuID"</properties>
      </FIELD>
 
@@ -533,7 +533,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>63</numTuples>
         <properties>"nested" : "Department", "nestedFields" : "[Member_of, FacID, DNO, Appt_Type]"</properties>
      <FIELD>
         <semanticFieldName>appt_type</semanticFieldName>
@@ -548,7 +548,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Member_of.Appt_Type"</properties>
      </FIELD>
 
@@ -581,7 +581,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Member_of.DNO"</properties>
      </FIELD>
 
@@ -646,7 +646,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>58</numDistinctValues>
         <properties>"systemname" : "Member_of.FacID"</properties>
      </FIELD>
 
@@ -703,7 +703,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>10</numTuples>
         <properties>"nested" : "Department", "nestedFields" : "[Minor_in, StuID, DNO]"</properties>
      <FIELD>
         <semanticFieldName>college_3.college_3."Department"."Building"</semanticFieldName>
@@ -734,7 +734,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "Minor_in.DNO"</properties>
      </FIELD>
 
@@ -815,7 +815,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Minor_in.StuID"</properties>
      </FIELD>
 
@@ -856,7 +856,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>76</numTuples>
         <properties>"nested" : "Faculty", "nestedFields" : "[Course, CID, CName, Credits, Instructor, Days, Hours, DNO]"</properties>
      <FIELD>
         <semanticFieldName>college_3.college_3."Faculty"."Building"</semanticFieldName>
@@ -887,7 +887,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>76</numDistinctValues>
         <properties>"systemname" : "Course.CID"</properties>
      </FIELD>
 
@@ -904,7 +904,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>72</numDistinctValues>
         <properties>"systemname" : "Course.CName"</properties>
      </FIELD>
 
@@ -921,7 +921,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Course.Credits"</properties>
      </FIELD>
 
@@ -938,7 +938,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Course.DNO"</properties>
      </FIELD>
 
@@ -955,7 +955,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>11</numDistinctValues>
         <properties>"systemname" : "Course.Days"</properties>
      </FIELD>
 
@@ -1004,7 +1004,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>29</numDistinctValues>
         <properties>"systemname" : "Course.Hours"</properties>
      </FIELD>
 
@@ -1021,7 +1021,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>45</numDistinctValues>
         <properties>"systemname" : "Course.Instructor"</properties>
      </FIELD>
 
@@ -1142,7 +1142,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>210</numTuples>
         <properties>"nested" : "Faculty", "nestedFields" : "[Course.Enrolled_in, CID, CName, Credits, Instructor, Days, Hours, DNO, StuID, CID, Grade]"</properties>
      <FIELD>
         <semanticFieldName>college_3.college_3."Faculty"."Building"</semanticFieldName>
@@ -1173,7 +1173,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>18</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>42</numDistinctValues>
         <properties>"systemname" : "Course.Enrolled_in.CID"</properties>
      </FIELD>
 
@@ -1190,7 +1190,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>39</numDistinctValues>
         <properties>"systemname" : "Course.CName"</properties>
      </FIELD>
 
@@ -1207,7 +1207,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Course.Credits"</properties>
      </FIELD>
 
@@ -1224,7 +1224,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Course.DNO"</properties>
      </FIELD>
 
@@ -1241,7 +1241,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "Course.Days"</properties>
      </FIELD>
 
@@ -1290,7 +1290,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>19</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "Course.Enrolled_in.Grade"</properties>
      </FIELD>
 
@@ -1307,7 +1307,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "Course.Hours"</properties>
      </FIELD>
 
@@ -1324,7 +1324,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>29</numDistinctValues>
         <properties>"systemname" : "Course.Instructor"</properties>
      </FIELD>
 
@@ -1421,7 +1421,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>34</numDistinctValues>
         <properties>"systemname" : "Course.Enrolled_in.StuID"</properties>
      </FIELD>
 
@@ -1462,7 +1462,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>63</numTuples>
         <properties>"nested" : "Faculty", "nestedFields" : "[Member_of, FacID, DNO, Appt_Type]"</properties>
      <FIELD>
         <semanticFieldName>appt_type</semanticFieldName>
@@ -1477,7 +1477,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Member_of.Appt_Type"</properties>
      </FIELD>
 
@@ -1510,7 +1510,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Member_of.DNO"</properties>
      </FIELD>
 
@@ -1527,7 +1527,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>58</numDistinctValues>
         <properties>"systemname" : "Member_of.FacID"</properties>
      </FIELD>
 
@@ -1664,7 +1664,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>210</numTuples>
         <properties>"nested" : "Gradeconversion", "nestedFields" : "[Enrolled_in, StuID, CID, Grade]"</properties>
      <FIELD>
         <semanticFieldName>cid</semanticFieldName>
@@ -1679,7 +1679,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>42</numDistinctValues>
         <properties>"systemname" : "Enrolled_in.CID"</properties>
      </FIELD>
 
@@ -1696,7 +1696,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "Enrolled_in.Grade"</properties>
      </FIELD>
 
@@ -1713,7 +1713,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>4</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>34</numDistinctValues>
         <properties>"systemname" : "Enrolled_in.StuID"</properties>
      </FIELD>
 
@@ -1786,7 +1786,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>210</numTuples>
         <properties>"nested" : "Student", "nestedFields" : "[Enrolled_in, StuID, CID, Grade]"</properties>
      <FIELD>
         <semanticFieldName>college_3.college_3."Student"."Advisor"</semanticFieldName>
@@ -1833,7 +1833,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>42</numDistinctValues>
         <properties>"systemname" : "Enrolled_in.CID"</properties>
      </FIELD>
 
@@ -1866,7 +1866,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "Enrolled_in.Grade"</properties>
      </FIELD>
 
@@ -1931,7 +1931,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>34</numDistinctValues>
         <properties>"systemname" : "Enrolled_in.StuID"</properties>
      </FIELD>
 
@@ -1988,7 +1988,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>10</numTuples>
         <properties>"nested" : "Student", "nestedFields" : "[Minor_in, StuID, DNO]"</properties>
      <FIELD>
         <semanticFieldName>college_3.college_3."Student"."Advisor"</semanticFieldName>
@@ -2035,7 +2035,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "Minor_in.DNO"</properties>
      </FIELD>
 
@@ -2116,7 +2116,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "Minor_in.StuID"</properties>
      </FIELD>
 
@@ -2401,8 +2401,8 @@
      <FIELD>
         <semanticFieldName>course.[0-2147483647]</semanticFieldName>
         <fieldName>"Course.[0-2147483647]"</fieldName>
-        <dataType>12</dataType>
-        <dataTypeName>varchar</dataTypeName>
+        <dataType>-2000</dataType>
+        <dataTypeName>hashmap/JSON</dataTypeName>
         <fieldSize>16793600</fieldSize>
         <decimalDigits>0</decimalDigits>
         <numberRadixPrecision>16793600</numberRadixPrecision>
@@ -2545,8 +2545,8 @@
      <FIELD>
         <semanticFieldName>member_of.[0-2147483647]</semanticFieldName>
         <fieldName>"Member_of.[0-2147483647]"</fieldName>
-        <dataType>12</dataType>
-        <dataTypeName>varchar</dataTypeName>
+        <dataType>-2000</dataType>
+        <dataTypeName>hashmap/JSON</dataTypeName>
         <fieldSize>16793600</fieldSize>
         <decimalDigits>0</decimalDigits>
         <numberRadixPrecision>16793600</numberRadixPrecision>

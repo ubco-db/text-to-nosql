@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>4</numTuples>
         <properties>"nested" : "university", "nestedFields" : "[basketball_match, Team_ID, School_ID, Team_Name, ACC_Regular_Season, ACC_Percent, ACC_Home, ACC_Road, All_Games, All_Games_Percent, All_Home, All_Road, All_Neutral]"</properties>
      <FIELD>
         <semanticFieldName>acc_home</semanticFieldName>
@@ -38,7 +38,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "basketball_match.ACC_Home"</properties>
      </FIELD>
 
@@ -55,7 +55,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "basketball_match.ACC_Percent"</properties>
      </FIELD>
 
@@ -72,7 +72,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "basketball_match.ACC_Regular_Season"</properties>
      </FIELD>
 
@@ -89,7 +89,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "basketball_match.ACC_Road"</properties>
      </FIELD>
 
@@ -122,7 +122,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "basketball_match.All_Games"</properties>
      </FIELD>
 
@@ -139,7 +139,7 @@
         <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>18</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "basketball_match.All_Games_Percent"</properties>
      </FIELD>
 
@@ -156,7 +156,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>19</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "basketball_match.All_Home"</properties>
      </FIELD>
 
@@ -173,7 +173,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>21</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "basketball_match.All_Neutral"</properties>
      </FIELD>
 
@@ -190,7 +190,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>20</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "basketball_match.All_Road"</properties>
      </FIELD>
 
@@ -303,7 +303,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "basketball_match.School_ID"</properties>
      </FIELD>
 
@@ -320,7 +320,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "basketball_match.Team_ID"</properties>
      </FIELD>
 
@@ -337,7 +337,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "basketball_match.Team_Name"</properties>
      </FIELD>
 

@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>17</numTuples>
         <properties>"nested" : "county_public_safety", "nestedFields" : "[city, City_ID, County_ID, Name, White, Black, Amerindian, Asian, Multiracial, Hispanic]"</properties>
      <FIELD>
         <semanticFieldName>amerindian</semanticFieldName>
@@ -38,7 +38,7 @@
         <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "city.Amerindian"</properties>
      </FIELD>
 
@@ -55,7 +55,7 @@
         <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "city.Asian"</properties>
      </FIELD>
 
@@ -72,7 +72,7 @@
         <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>16</numDistinctValues>
         <properties>"systemname" : "city.Black"</properties>
      </FIELD>
 
@@ -105,7 +105,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>17</numDistinctValues>
         <properties>"systemname" : "city.City_ID"</properties>
      </FIELD>
 
@@ -122,7 +122,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "city.County_ID"</properties>
      </FIELD>
 
@@ -155,7 +155,7 @@
         <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>19</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "city.Hispanic"</properties>
      </FIELD>
 
@@ -188,7 +188,7 @@
         <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>18</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>17</numDistinctValues>
         <properties>"systemname" : "city.Multiracial"</properties>
      </FIELD>
 
@@ -205,7 +205,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>17</numDistinctValues>
         <properties>"systemname" : "city.Name"</properties>
      </FIELD>
 
@@ -286,7 +286,7 @@
         <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>17</numDistinctValues>
         <properties>"systemname" : "city.White"</properties>
      </FIELD>
 

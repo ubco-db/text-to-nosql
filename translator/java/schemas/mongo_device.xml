@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>8</numTuples>
         <properties>"nested" : "device", "nestedFields" : "[stock, Shop_ID, Device_ID, Quantity]"</properties>
      <FIELD>
         <semanticFieldName>device.device."device"."Applications"</semanticFieldName>
@@ -86,7 +86,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "stock.Device_ID"</properties>
      </FIELD>
 
@@ -119,7 +119,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "stock.Quantity"</properties>
      </FIELD>
 
@@ -136,7 +136,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "stock.Shop_ID"</properties>
      </FIELD>
 
@@ -193,7 +193,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>8</numTuples>
         <properties>"nested" : "shop", "nestedFields" : "[stock, Shop_ID, Device_ID, Quantity]"</properties>
      <FIELD>
         <semanticFieldName>device_id</semanticFieldName>
@@ -208,7 +208,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "stock.Device_ID"</properties>
      </FIELD>
 
@@ -273,7 +273,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "stock.Quantity"</properties>
      </FIELD>
 
@@ -290,7 +290,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "stock.Shop_ID"</properties>
      </FIELD>
 

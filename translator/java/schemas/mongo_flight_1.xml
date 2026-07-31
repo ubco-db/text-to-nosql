@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>69</numTuples>
         <properties>"nested" : "aircraft", "nestedFields" : "[certificate, eid, aid]"</properties>
      <FIELD>
         <semanticFieldName>flight_1.flight_1."aircraft"."_id"</semanticFieldName>
@@ -54,7 +54,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "certificate.aid"</properties>
      </FIELD>
 
@@ -87,7 +87,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "certificate.eid"</properties>
      </FIELD>
 
@@ -128,7 +128,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>10</numTuples>
         <properties>"nested" : "aircraft", "nestedFields" : "[flight, flno, origin, destination, distance, departure_date, arrival_date, price, aid]"</properties>
      <FIELD>
         <semanticFieldName>flight_1.flight_1."aircraft"."_id"</semanticFieldName>
@@ -159,7 +159,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "flight.aid"</properties>
      </FIELD>
 
@@ -176,7 +176,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "flight.arrival_date"</properties>
      </FIELD>
 
@@ -193,7 +193,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "flight.departure_date"</properties>
      </FIELD>
 
@@ -210,7 +210,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>9</numDistinctValues>
         <properties>"systemname" : "flight.destination"</properties>
      </FIELD>
 
@@ -227,7 +227,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>8</numDistinctValues>
         <properties>"systemname" : "flight.distance"</properties>
      </FIELD>
 
@@ -244,7 +244,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>10</numDistinctValues>
         <properties>"systemname" : "flight.flno"</properties>
      </FIELD>
 
@@ -277,7 +277,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "flight.origin"</properties>
      </FIELD>
 
@@ -294,7 +294,7 @@
         <characterOctetLength>20</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>9</numDistinctValues>
         <properties>"systemname" : "flight.price"</properties>
      </FIELD>
 
@@ -319,7 +319,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>69</numTuples>
         <properties>"nested" : "employee", "nestedFields" : "[certificate, eid, aid]"</properties>
      <FIELD>
         <semanticFieldName>flight_1.flight_1."employee"."_id"</semanticFieldName>
@@ -350,7 +350,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "certificate.aid"</properties>
      </FIELD>
 
@@ -367,7 +367,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>20</numDistinctValues>
         <properties>"systemname" : "certificate.eid"</properties>
      </FIELD>
 
@@ -556,8 +556,8 @@
      <FIELD>
         <semanticFieldName>flight.[0-2147483647]</semanticFieldName>
         <fieldName>"flight.[0-2147483647]"</fieldName>
-        <dataType>12</dataType>
-        <dataTypeName>varchar</dataTypeName>
+        <dataType>-2000</dataType>
+        <dataTypeName>hashmap/JSON</dataTypeName>
         <fieldSize>16793600</fieldSize>
         <decimalDigits>0</decimalDigits>
         <numberRadixPrecision>16793600</numberRadixPrecision>

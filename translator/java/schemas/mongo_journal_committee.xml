@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>7</numTuples>
         <properties>"nested" : "editor", "nestedFields" : "[journal_committee, Editor_ID, Journal_ID, Work_Type]"</properties>
      <FIELD>
         <semanticFieldName>journal_committee.journal_committee."editor"."Age"</semanticFieldName>
@@ -54,7 +54,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>5</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "journal_committee.Editor_ID"</properties>
      </FIELD>
 
@@ -71,7 +71,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "journal_committee.Journal_ID"</properties>
      </FIELD>
 
@@ -104,7 +104,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "journal_committee.Work_Type"</properties>
      </FIELD>
 
@@ -145,7 +145,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>7</numTuples>
         <properties>"nested" : "journal", "nestedFields" : "[journal_committee, Editor_ID, Journal_ID, Work_Type]"</properties>
      <FIELD>
         <semanticFieldName>journal_committee.journal_committee."journal"."Date"</semanticFieldName>
@@ -176,7 +176,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>6</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "journal_committee.Editor_ID"</properties>
      </FIELD>
 
@@ -193,7 +193,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>7</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "journal_committee.Journal_ID"</properties>
      </FIELD>
 
@@ -242,7 +242,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "journal_committee.Work_Type"</properties>
      </FIELD>
 
@@ -593,8 +593,8 @@
      <FIELD>
         <semanticFieldName>journal_committee.[0-2147483647]</semanticFieldName>
         <fieldName>"journal_committee.[0-2147483647]"</fieldName>
-        <dataType>12</dataType>
-        <dataTypeName>varchar</dataTypeName>
+        <dataType>-2000</dataType>
+        <dataTypeName>hashmap/JSON</dataTypeName>
         <fieldSize>16793600</fieldSize>
         <decimalDigits>0</decimalDigits>
         <numberRadixPrecision>16793600</numberRadixPrecision>

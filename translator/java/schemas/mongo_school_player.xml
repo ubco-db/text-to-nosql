@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>23</numTuples>
         <properties>"nested" : "school", "nestedFields" : "[player, Player_ID, Player, Team, Age, Position, School_ID]"</properties>
      <FIELD>
         <semanticFieldName>age</semanticFieldName>
@@ -38,7 +38,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>5</numDistinctValues>
         <properties>"systemname" : "player.Age"</properties>
      </FIELD>
 
@@ -151,7 +151,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>23</numDistinctValues>
         <properties>"systemname" : "player.Player"</properties>
      </FIELD>
 
@@ -168,7 +168,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>23</numDistinctValues>
         <properties>"systemname" : "player.Player_ID"</properties>
      </FIELD>
 
@@ -185,7 +185,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>9</numDistinctValues>
         <properties>"systemname" : "player.Position"</properties>
      </FIELD>
 
@@ -234,7 +234,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "player.School_ID"</properties>
      </FIELD>
 
@@ -251,7 +251,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>22</numDistinctValues>
         <properties>"systemname" : "player.Team"</properties>
      </FIELD>
 
@@ -308,7 +308,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>6</numTuples>
         <properties>"nested" : "school", "nestedFields" : "[school_details, School_ID, Nickname, Colors, League, Class, Division]"</properties>
      <FIELD>
         <semanticFieldName>school_player.school_player."school"."Boys_or_Girls"</semanticFieldName>
@@ -339,7 +339,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "school_details.Class"</properties>
      </FIELD>
 
@@ -356,7 +356,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "school_details.Colors"</properties>
      </FIELD>
 
@@ -405,7 +405,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "school_details.Division"</properties>
      </FIELD>
 
@@ -454,7 +454,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>1</numDistinctValues>
         <properties>"systemname" : "school_details.League"</properties>
      </FIELD>
 
@@ -487,7 +487,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "school_details.Nickname"</properties>
      </FIELD>
 
@@ -536,7 +536,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "school_details.School_ID"</properties>
      </FIELD>
 
@@ -593,7 +593,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>22</numTuples>
         <properties>"nested" : "school", "nestedFields" : "[school_performance, School_Id, School_Year, Class_A, Class_AA]"</properties>
      <FIELD>
         <semanticFieldName>school_player.school_player."school"."Boys_or_Girls"</semanticFieldName>
@@ -624,7 +624,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>15</numDistinctValues>
         <properties>"systemname" : "school_performance.Class_A"</properties>
      </FIELD>
 
@@ -641,7 +641,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>16</numDistinctValues>
         <properties>"systemname" : "school_performance.Class_AA"</properties>
      </FIELD>
 
@@ -786,7 +786,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "school_performance.School_Id"</properties>
      </FIELD>
 
@@ -803,7 +803,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>22</numDistinctValues>
         <properties>"systemname" : "school_performance.School_Year"</properties>
      </FIELD>
 

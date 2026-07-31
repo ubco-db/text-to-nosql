@@ -23,7 +23,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>12</numTuples>
         <properties>"nested" : "Customers", "nestedFields" : "[Complaints, complaint_id, product_id, customer_id, complaint_outcome_code, complaint_status_code, complaint_type_code, date_complaint_raised, date_complaint_closed, staff_id]"</properties>
      <FIELD>
         <semanticFieldName>customer_complaints.customer_complaints."Customers"."_id"</semanticFieldName>
@@ -86,7 +86,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "Complaints.complaint_id"</properties>
      </FIELD>
 
@@ -103,7 +103,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>1</numDistinctValues>
         <properties>"systemname" : "Complaints.complaint_outcome_code"</properties>
      </FIELD>
 
@@ -120,7 +120,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Complaints.complaint_status_code"</properties>
      </FIELD>
 
@@ -137,7 +137,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Complaints.complaint_type_code"</properties>
      </FIELD>
 
@@ -154,7 +154,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Complaints.customer_id"</properties>
      </FIELD>
 
@@ -187,7 +187,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "Complaints.date_complaint_closed"</properties>
      </FIELD>
 
@@ -204,7 +204,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "Complaints.date_complaint_raised"</properties>
      </FIELD>
 
@@ -253,7 +253,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Complaints.product_id"</properties>
      </FIELD>
 
@@ -270,7 +270,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>18</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "Complaints.staff_id"</properties>
      </FIELD>
 
@@ -327,7 +327,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>12</numTuples>
         <properties>"nested" : "Products", "nestedFields" : "[Complaints, complaint_id, product_id, customer_id, complaint_outcome_code, complaint_status_code, complaint_type_code, date_complaint_raised, date_complaint_closed, staff_id]"</properties>
      <FIELD>
         <semanticFieldName>customer_complaints.customer_complaints."Products"."_id"</semanticFieldName>
@@ -358,7 +358,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "Complaints.complaint_id"</properties>
      </FIELD>
 
@@ -375,7 +375,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>1</numDistinctValues>
         <properties>"systemname" : "Complaints.complaint_outcome_code"</properties>
      </FIELD>
 
@@ -392,7 +392,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Complaints.complaint_status_code"</properties>
      </FIELD>
 
@@ -409,7 +409,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Complaints.complaint_type_code"</properties>
      </FIELD>
 
@@ -426,7 +426,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Complaints.customer_id"</properties>
      </FIELD>
 
@@ -443,7 +443,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>17</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "Complaints.date_complaint_closed"</properties>
      </FIELD>
 
@@ -460,7 +460,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "Complaints.date_complaint_raised"</properties>
      </FIELD>
 
@@ -557,7 +557,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Complaints.product_id"</properties>
      </FIELD>
 
@@ -606,7 +606,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>18</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "Complaints.staff_id"</properties>
      </FIELD>
 
@@ -631,7 +631,7 @@
         <catalogName></catalogName>
         <caseSensitive>true</caseSensitive>
         <comment></comment>
-        <numTuples>0</numTuples>
+        <numTuples>12</numTuples>
         <properties>"nested" : "Staff", "nestedFields" : "[Complaints, complaint_id, product_id, customer_id, complaint_outcome_code, complaint_status_code, complaint_type_code, date_complaint_raised, date_complaint_closed, staff_id]"</properties>
      <FIELD>
         <semanticFieldName>customer_complaints.customer_complaints."Staff"."_id"</semanticFieldName>
@@ -662,7 +662,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>8</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>12</numDistinctValues>
         <properties>"systemname" : "Complaints.complaint_id"</properties>
      </FIELD>
 
@@ -679,7 +679,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>11</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>1</numDistinctValues>
         <properties>"systemname" : "Complaints.complaint_outcome_code"</properties>
      </FIELD>
 
@@ -696,7 +696,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>12</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>3</numDistinctValues>
         <properties>"systemname" : "Complaints.complaint_status_code"</properties>
      </FIELD>
 
@@ -713,7 +713,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>13</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>2</numDistinctValues>
         <properties>"systemname" : "Complaints.complaint_type_code"</properties>
      </FIELD>
 
@@ -730,7 +730,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>10</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>7</numDistinctValues>
         <properties>"systemname" : "Complaints.customer_id"</properties>
      </FIELD>
 
@@ -747,7 +747,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>15</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "Complaints.date_complaint_closed"</properties>
      </FIELD>
 
@@ -764,7 +764,7 @@
         <characterOctetLength>16793600</characterOctetLength>
         <ordinalPosition>14</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "Complaints.date_complaint_raised"</properties>
      </FIELD>
 
@@ -861,7 +861,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>9</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>4</numDistinctValues>
         <properties>"systemname" : "Complaints.product_id"</properties>
      </FIELD>
 
@@ -878,7 +878,7 @@
         <characterOctetLength>10</characterOctetLength>
         <ordinalPosition>16</ordinalPosition>
         <isNullable></isNullable>
-        <numDistinctValues>0</numDistinctValues>
+        <numDistinctValues>6</numDistinctValues>
         <properties>"systemname" : "Complaints.staff_id"</properties>
      </FIELD>
 
