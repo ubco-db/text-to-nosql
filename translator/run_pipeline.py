@@ -30,8 +30,21 @@ INPUT_CLEAN_JSON = OUT_DIR / "input_clean.json"
 FORMATTED_JSON = OUT_DIR / "formatted_results.json"
 
 EVALUATION_DIR = REPO_ROOT / "evaluation"
-EVALUATION_RESULTS_DIR = EVALUATION_DIR / "results"
+# compute_metrics.py currently reads and writes here.
+EVALUATION_STAGING_DIR = EVALUATION_DIR / "results"
 
+# Final publication result directories.
+EVALUATION_OUTPUT_ROOT = REPO_ROOT / "results" / "evaluation"
+
+EVALUATION_ARTIFACT_SUFFIXES = (
+    ".json",
+    "_examples.jsonl",
+    "_metrics.log",
+    "_summary_by_bucket.csv",
+    "_summary_by_db.csv",
+    "_summary_by_signature.csv",
+    "_wrong_examples.json",
+)
 
 def run(cmd, cwd=None):
     print(" ".join(str(x) for x in cmd))
@@ -86,7 +99,29 @@ def stop_process_tree(proc):
 def require_file(path, description):
     if not path.exists():
         raise RuntimeError(f"Missing {description}: {path}")
-    
+
+def move_evaluation_results(result_name, destination_dir):
+    destination_dir.mkdir(parents=True, exist_ok=True)
+    moved_paths = []
+
+    for suffix in EVALUATION_ARTIFACT_SUFFIXES:
+        source_path = EVALUATION_STAGING_DIR / f"{result_name}{suffix}"
+
+        if not source_path.exists():
+            continue
+
+        destination_path = destination_dir / source_path.name
+        source_path.replace(destination_path)
+        moved_paths.append(destination_path)
+
+    if not moved_paths:
+        raise RuntimeError(
+            f"No evaluation outputs found for {result_name} in "
+            f"{EVALUATION_STAGING_DIR}"
+        )
+
+    return moved_paths
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -150,10 +185,12 @@ def main():
     predictions_path = Path(args.predictions)
     prepared_input_path = Path(args.prepared_input)
     clean_input_path = Path(args.clean_input)
+    evaluation_output_dir = EVALUATION_OUTPUT_ROOT / args.metric_mode
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     LOG_DIR.mkdir(parents=True, exist_ok=True)
-    EVALUATION_RESULTS_DIR.mkdir(parents=True, exist_ok=True)    
+    EVALUATION_STAGING_DIR.mkdir(parents=True, exist_ok=True)
+    evaluation_output_dir.mkdir(parents=True, exist_ok=True)  
 
     require_file(PREPARE_SCRIPT, "prepare script")
     require_file(PREPROCESS_SCRIPT, "preprocess script")
@@ -242,7 +279,7 @@ def main():
             "--sql-source", args.sql_source,
         ])
 
-        metric_input_path = EVALUATION_RESULTS_DIR / f"{result_name}.json"
+        metric_input_path = EVALUATION_STAGING_DIR / f"{result_name}.json"
 
         print(f"Copying {FORMATTED_JSON} -> {metric_input_path}")
         shutil.copyfile(FORMATTED_JSON, metric_input_path)
@@ -250,7 +287,8 @@ def main():
         print("Running metrics ...")
         run([sys.executable, "compute_metrics.py", "--file_name", result_name, "--metric-mode", args.metric_mode,], cwd=EVALUATION_DIR)
 
-        print(f"Pipeline completed successfully. Results in {metric_input_path}")
+        moved_paths = move_evaluation_results(result_name, evaluation_output_dir)
+        print(f"Pipeline completed successfully. "f"Moved {len(moved_paths)} result files to {evaluation_output_dir}")
 
     finally:
         stop_process_tree(server)
