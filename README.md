@@ -18,7 +18,7 @@ MongoDB query
 
 The system is evaluated on the 2,775-example TEND test set using both gold SQL and SQL predicted by DAIL-SQL. The repository also includes direct MQL predictions produced by GPT-5.6-sol, Gemini 3.5 Flash, and Kimi K3.
 
-The evaluation data is derived from the [TEND benchmark](https://arxiv.org/pdf/2502.11201), introduced in *Bridging the Gap: Enabling Natural Language Queries for NoSQL Databases through Text-to-NoSQL Translation*.
+The evaluation data is derived from the [TEND benchmark](https://arxiv.org/abs/2502.11201v1), introduced in *Bridging the Gap: Enabling Natural Language Queries for NoSQL Databases through Text-to-NoSQL Translation*.
 
 ---
 
