@@ -29,6 +29,7 @@ The translator and evaluation pipeline require:
 - **Java Development Kit (JDK) 8 or later** — required to compile the Java server wrapper and run the translator.
 - **Python 3.8 or later**.
 - **MongoDB** running locally at `mongodb://localhost:27017`.
+- **MongoDB Shell (`mongosh`)** — required by the evaluator to execute the generated MongoDB queries.
 - **Docker with Compose** if using the provided MongoDB configuration.
 
 The compiled SQL-to-MQL translator is included at:
@@ -43,6 +44,11 @@ Install the Python dependencies from the repository root:
 
 ```powershell
 python -m pip install -r requirements.txt
+```
+On Windows, install MongoDB Shell using WinGet:
+
+```
+winget install --exact --id MongoDB.Shell --accept-package-agreements --accept-source-agreements
 ```
 
 API credentials are not required to reproduce the evaluation of the committed predictions. Provider API keys are required only when generating new LLM predictions.
@@ -338,7 +344,7 @@ Both evaluation modes report the following metrics:
 
 The paper reports execution accuracy as **EX-E** for enhanced evaluation and **EX-T** for TEND-compatible evaluation. These values come from separate evaluator runs over the same predictions.
 
-Execution-based metrics require MongoDB to be running and the TEND collections to be loaded. Detailed metric definitions and implementation notes are provided in [`docs/metrics.md`](docs/metrics.md).
+Execution-based metrics require MongoDB to be running, the TEND collections to be loaded, and `mongosh` to be available on the system path. Detailed metric definitions and implementation notes are provided in [`docs/metrics.md`](docs/metrics.md).
 
 ---
 
