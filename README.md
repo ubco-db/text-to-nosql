@@ -74,6 +74,7 @@ The TEND benchmark collections must be imported before running either evaluation
 
 ```bash
 python data/benchmark/tend/load_data.py
+```
 
 It is also possible to load using a shell script. This requires more setup than the Python code. On Windows, run `load_data.sh` through Git Bash or WSL. The `mongoimport` command must be available on the shell's path.
 
