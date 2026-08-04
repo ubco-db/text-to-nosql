@@ -29,7 +29,6 @@ The translator and evaluation pipeline require:
 - **Java Development Kit (JDK) 8 or later** — required to compile the Java server wrapper and run the translator.
 - **Python 3.8 or later**.
 - **MongoDB** running locally at `mongodb://localhost:27017`.
-- **MongoDB Database Tools**, including `mongoimport`, for loading the TEND collections.
 - **Docker with Compose** if using the provided MongoDB configuration.
 
 The compiled SQL-to-MQL translator is included at:
@@ -45,8 +44,6 @@ Install the Python dependencies from the repository root:
 ```powershell
 python -m pip install -r requirements.txt
 ```
-
-On Windows, loading the benchmark data requires an environment capable of running the supplied shell script, such as Git Bash or Windows Subsystem for Linux (WSL).
 
 API credentials are not required to reproduce the evaluation of the committed predictions. Provider API keys are required only when generating new LLM predictions.
 
@@ -73,22 +70,19 @@ If MongoDB is already running locally at the expected address, skip this command
 
 ### Step 2 — Load the TEND data
 
-The TEND benchmark collections must be imported before running either evaluation protocol:
+The TEND benchmark collections must be imported before running either evaluation protocol. From the repository root, run:
 
 ```bash
-chmod +x load_data.sh
-./load_data.sh
-```
+python data/benchmark/tend/load_data.py
 
+It is also possible to load using a shell script. This requires more setup than the Python code. On Windows, run `load_data.sh` through Git Bash or WSL. The `mongoimport` command must be available on the shell's path.
+
+```bash
+./data/benchmark/tend/load_data.sh
+```
 The loading script imports the JSON files under `flattened_mongodb_collections/`. It creates one MongoDB database for each TEND database directory and one collection for each JSON file.
 
-After loading the data, return to the repository root:
-
-```bash
-cd ../../..
-```
-
-On Windows, run `load_data.sh` through Git Bash or WSL. The `mongoimport` command must be available on the shell's path.
+**Reproducibility note.** The results reported in the paper were produced using `load_data.sh`, which loads the benchmark collections with `mongoimport`. The provided `load_data.py` script offers a more convenient cross-platform alternative using PyMongo and does not require the MongoDB Database Tools. Both scripts load the same benchmark documents, but they may produce different physical insertion orders. Because MongoDB does not guarantee a stable order among tied values, a small number of queries containing ORDER BY with LIMIT and no complete tie-breaking order may return a different tied row. The generated MQL and non-tied query results are unaffected.
 
 No separate translator build or server setup is required. The pipeline automatically compiles `translator/java/TranslateServer.java`, starts the server, runs the translations, and stops the server when processing is complete.
 
